@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-01-06 19:16+0000\n"
+"PO-Revision-Date: 2020-03-15 02:37+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/weblate/hosted/he/"
 ">\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Weblate 3.10\n"
+"X-Generator: Weblate 4.0-dev\n"
 
 #: wlhosted/addons.py:37 wlhosted/addons.py:38
 msgid "Generate Unknown Horizons scenario data"
@@ -915,7 +915,7 @@ msgstr "העברה בנקאית עם זה״ב"
 
 #: wlhosted/payments/backends.py:464
 msgid "Issuing bank"
-msgstr ""
+msgstr "הבנק המנפיק"
 
 #: wlhosted/payments/backends.py:465
 msgid "Account holder"
@@ -996,19 +996,19 @@ msgstr "חד־פעמי"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
-msgstr ""
+msgstr "{} אינו קוד מדינה תקני לחברות באיחוד האירופי."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr ""
+msgstr "{} אינו תואם את פירוט מזהה המע״מ של המדינה."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
-msgstr ""
+msgstr "שירות אימות מזהה המע״מ אינו זמין עבור {}, נא לנסות שוב בהמשך."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr ""
+msgstr "{} אינו מזהה מע״מ תקני."
 
 #~ msgid "Repositories limit"
 #~ msgstr "מגבלת מאגרים"
