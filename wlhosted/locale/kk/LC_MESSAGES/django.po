@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Weblate <noreply@weblate.org>, 2019.
 # WWWesten <wwwesten@gmail.com>, 2019.
+# Michal Čihař <michal@cihar.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2019-09-16 12:48+0000\n"
-"Last-Translator: WWWesten <wwwesten@gmail.com>\n"
+"PO-Revision-Date: 2020-03-15 02:37+0000\n"
+"Last-Translator: Michal Čihař <michal@cihar.com>\n"
 "Language-Team: Kazakh <https://hosted.weblate.org/projects/weblate/hosted/kk/"
 ">\n"
 "Language: kk\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9-dev\n"
+"X-Generator: Weblate 4.0-dev\n"
 
 #: wlhosted/addons.py:37 wlhosted/addons.py:38
 msgid "Generate Unknown Horizons scenario data"
@@ -280,12 +281,7 @@ msgstr ""
 "Sizdiń Derbes Derekterińiz Qyzmettiń myna maqsattary úshin paıdalanylady:"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:46
-#, fuzzy, python-format
-#| msgid ""
-#| "for providing our services on the Service, to contact you in matters "
-#| "regarding our services (also by means of e-mails and messaging) and to "
-#| "ensure the technical functionality of our services fulfillment of "
-#| "contractual or pre-contractual obligations (Article 6 (1) b. GDPR)"
+#, python-format
 msgid ""
 "for providing our services on the Service, to contact you in matters "
 "regarding our services (also by means of e-mails and messaging) and to "
@@ -297,33 +293,27 @@ msgstr ""
 "máseleler týraly baılanysý (e-poshta arqyly jáne habar almasýmen) jáne "
 "kelisimsharttyq nemese aldyn-ala kelisimsharttyq mindettemelerdi "
 "oryndaýǵaarnalǵan qyzmetterimizdiń tehnıkalyq múmkindikterin qamtamasyz etý "
-"úshin (GDPR-dyń 6-baby (1) b.)"
+"úshin (<a href=\"%(url)s\">GDPR-dyń 6-baby (1) b.</a>)"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:47
-#, fuzzy, python-format
-#| msgid ""
-#| "to analyze your use of our services and improve our services (Article 6 "
-#| "(1) b. and f. GDPR)"
+#, python-format
 msgid ""
 "to analyze your use of our services and improve our services (<a href="
 "\"%(url)s\">Article 6 (1) b. and f. GDPR</a>)"
 msgstr ""
 "bizdiń qyzmetterimizdi paıdalanýyńyzdy taldaý jáne qyzmetterimizdi jaqsartý "
-"úshin (GDPR-dyń 6-baby (1) b jáne f.)"
+"úshin (<a href=\"%(url)s\">GDPR-dyń 6-baby (1) b jáne f.</a>)"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:48
-#, fuzzy, python-format
-#| msgid ""
-#| "with your express consent or instruction to carry out our business "
-#| "activities or sent you newsletters (Article 6 (1) a. GDPR)"
+#, python-format
 msgid ""
 "with your express consent or instruction to carry out our business "
 "activities or send you newsletters (<a href=\"%(url)s\">Article 6 (1) a. "
 "GDPR</a>)"
 msgstr ""
 "ózińizdiń kelisimińizdi bildirip nemese nusqaýlaryńyz boıynsha, iskerlik "
-"qyzmetimizdi júzege asyrý úshin nemese sizge jańalyq hattar jiberý úshin "
-"(GDPR-dyń 6-baby (1) a.)"
+"qyzmetimizdi júzege asyrý úshin nemese sizge jańalyq hattar jiberý úshin (<a "
+"href=\"%(url)s\">GDPR-dyń 6-baby (1) a.</a>)"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:51
 msgid "Access to the Personal Data"
@@ -1067,7 +1057,7 @@ msgid ""
 "substantive and local jurisdiction."
 msgstr ""
 "Kelisim jáne/nemese osy Qyzmet Kórsetý Sharttary negizinde týyndaıtyn "
-"kezkelgen daýlardy materıaldyq ben jergilikti zańquzyreti bar  Cheh "
+"kezkelgen daýlardy materıaldyq ben jergilikti zańquzyreti bar Cheh "
 "Respýblıkasynyń soty arqyly sheshiledi."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:145
