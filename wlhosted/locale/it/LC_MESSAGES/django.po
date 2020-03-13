@@ -8,13 +8,14 @@
 # Pierfrancesco Passerini <p.passerini@gmail.com>, 2019.
 # Valter Mura <valtermura@gmail.com>, 2019.
 # Valentina Grassi <vale.grassi11@gmail.com>, 2020.
+# Michal Čihař <michal@cihar.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-02-23 17:32+0000\n"
-"Last-Translator: Valentina Grassi <vale.grassi11@gmail.com>\n"
+"PO-Revision-Date: 2020-03-15 02:37+0000\n"
+"Last-Translator: Michal Čihař <michal@cihar.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/weblate/hosted/"
 "it/>\n"
 "Language: it\n"
@@ -583,7 +584,7 @@ msgid ""
 "means personal data within the meaning of EU Regulation No. %(law_679_2016)s "
 "inserted by the User into the Service and/or Cookies"
 msgstr ""
-"indica i dati personali ai sensi della legge europea n.  %(law_679_2016)s. "
+"indica i dati personali ai sensi della legge europea n. %(law_679_2016)s. "
 "inserita dall'utente nei servizi e/o cookie"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:51
@@ -897,7 +898,7 @@ msgid ""
 "electronic communication, as ammended, the User is informed that the Service "
 "uses cookies."
 msgstr ""
-"Ai sensi dell'articolo 89 Legge n.%(law_480_2004)s coll.,  sulle "
+"Ai sensi dell'articolo 89 Legge n.%(law_480_2004)s coll., sulle "
 "comunicazioni elettroniche, come ammendante, l'utente è informato che il "
 "servizio utilizza i cookie."
 
