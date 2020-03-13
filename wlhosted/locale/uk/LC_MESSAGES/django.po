@@ -5,13 +5,14 @@
 # Андрій Бандура <andriykopanytsia@gmail.com>, 2018, 2019.
 # Tymofij Lytvynenko <till.svit@gmail.com>, 2019, 2020.
 # Vadim Nekhai <vadimnekhai@gmail.com>, 2019.
+# Michal Čihař <michal@cihar.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-02-27 12:32+0000\n"
-"Last-Translator: Tymofij Lytvynenko <till.svit@gmail.com>\n"
+"PO-Revision-Date: 2020-03-15 02:37+0000\n"
+"Last-Translator: Michal Čihař <michal@cihar.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/weblate/hosted/"
 "uk/>\n"
 "Language: uk\n"
@@ -182,9 +183,8 @@ msgid ""
 "Protection Regulation, also known as GDPR. This document includes necessary "
 "specifications."
 msgstr ""
-"Ми дотримуємося Постанови № %(law_679_2016)s  (Загальний регламент про "
-"захист даних, також відомий як GDPR). Цей документ містить необхідні "
-"специфікації."
+"Ми дотримуємося Постанови № %(law_679_2016)s (Загальний регламент про захист "
+"даних, також відомий як GDPR). Цей документ містить необхідні специфікації."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:9
 msgid "Personal Data Controller"
