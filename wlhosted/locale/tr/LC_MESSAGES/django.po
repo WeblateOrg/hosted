@@ -4,7 +4,7 @@
 # Emin Tufan Çetin <etcetin@gmail.com>, 2018, 2020.
 # MESUT AKCAN <makcan@gmail.com>, 2018.
 # Mesut Akcan <makcan@gmail.com>, 2019.
-# Burak Yavuz <hitowerdigit@hotmail.com>, 2019.
+# Burak Yavuz <hitowerdigit@hotmail.com>, 2019, 2020.
 # Ali Demirtas <alidemirtas94@gmail.com>, 2019.
 # Michal Čihař <michal@cihar.com>, 2020.
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
 "PO-Revision-Date: 2020-03-15 02:36+0000\n"
-"Last-Translator: Michal Čihař <michal@cihar.com>\n"
+"Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/weblate/hosted/"
 "tr/>\n"
 "Language: tr\n"
@@ -988,8 +988,8 @@ msgid ""
 msgstr ""
 "Merhaba,\n"
 "\n"
-"Weblate.org'daki ödemeniz beklemede. Lütfen ödemeyi tamamlamak için verilen "
-"talimatları uygulayın.\n"
+"Weblate.org'daki ödemeniz beklemede. Lütfen ödemeyi tamamlamak\n"
+"için verilen talimatları uygulayın.\n"
 
 #: wlhosted/payments/backends.py:335
 msgid "Payment card"
