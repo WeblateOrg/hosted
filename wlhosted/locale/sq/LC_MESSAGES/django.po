@@ -2,15 +2,15 @@
 # Copyright (C) 2014 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Automatically generated, 2014.
-# Michal Čihař <michal@cihar.com>, 2019.
+# Michal Čihař <michal@cihar.com>, 2019, 2020.
 # Besnik Bleta <besnik@programeshqip.org>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2019-11-06 10:04+0000\n"
-"Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
+"PO-Revision-Date: 2020-03-15 02:37+0000\n"
+"Last-Translator: Michal Čihař <michal@cihar.com>\n"
 "Language-Team: Albanian <https://hosted.weblate.org/projects/weblate/hosted/"
 "sq/>\n"
 "Language: sq\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10-dev\n"
+"X-Generator: Weblate 4.0-dev\n"
 
 #: wlhosted/addons.py:37 wlhosted/addons.py:38
 msgid "Generate Unknown Horizons scenario data"
@@ -451,7 +451,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/summary.html:9
 msgid "We use cookies to deliver our services."
-msgstr "Që të ofrojmë shërbimet tona, përdorim <em>cookies</em>."
+msgstr "Që të ofrojmë shërbimet tona, përdorim cookies."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:10
 msgid "View English version"
@@ -521,7 +521,7 @@ msgstr ""
 #: wlhosted/legal/templates/legal/documents/tos.html:35
 #: wlhosted/legal/templates/legal/documents/tos.html:131
 msgid "Cookies"
-msgstr "<em>Cookies</em>"
+msgstr "Cookies"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:36
 msgid ""
@@ -560,7 +560,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:45
 msgid "Provider"
-msgstr "Furnizues Shërbimi"
+msgstr "Furnizues"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:46
 #, python-format
@@ -691,9 +691,8 @@ msgid ""
 "in the Provider’s use."
 msgstr ""
 "Përdoruesi bie dakord të përdorë Shërbimin vetëm në një mënyrë që nuk "
-"rrezikon mjetet teknike <em>software</em> dhe/ose <em>hardware</em> të "
-"Furnizuesit të Shërbimit dhe/ose mjete të tilla në përdorim të Furnizuesit "
-"të Shërbimit."
+"rrezikon mjetet teknike software dhe/ose hardware të Furnizuesit të "
+"Shërbimit dhe/ose mjete të tilla në përdorim të Furnizuesit të Shërbimit."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:86
 msgid ""
@@ -900,14 +899,14 @@ msgid ""
 msgstr ""
 "Sipas kuptimit të Nenit 89 të Aktit Nr. %(law_480_2004)s Coll., mbi "
 "komunikimet elektronike, siç është ndryshuar, Përdoruesi është në dijeni se "
-"Shërbimi përdor <em>cookies</em>."
+"Shërbimi përdor cookies."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:135
 msgid ""
 "The Service uses cookies to personalise content, and to analyse our traffic."
 msgstr ""
-"Shërbimi përdor <em>cookies</em> për të personalizuar lëndë, dhe për të "
-"analizuar trafikun tonë."
+"Shërbimi përdor cookies për të personalizuar lëndë, dhe për të analizuar "
+"trafikun tonë."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:138
 msgid "Governing Law"
