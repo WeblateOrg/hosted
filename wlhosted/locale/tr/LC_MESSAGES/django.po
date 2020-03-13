@@ -6,13 +6,14 @@
 # Mesut Akcan <makcan@gmail.com>, 2019.
 # Burak Yavuz <hitowerdigit@hotmail.com>, 2019.
 # Ali Demirtas <alidemirtas94@gmail.com>, 2019.
+# Michal Čihař <michal@cihar.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-03-08 07:25+0000\n"
-"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
+"PO-Revision-Date: 2020-03-15 02:36+0000\n"
+"Last-Translator: Michal Čihař <michal@cihar.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/weblate/hosted/"
 "tr/>\n"
 "Language: tr\n"
@@ -370,7 +371,7 @@ msgid ""
 "even get a copy of all of it (<a href=\"%(url)s\">Article 15 GDPR</a>)"
 msgstr ""
 "Weblate'in kullandığı veya işlediği tüm Kişisel Verilerinize erişin ve hatta "
-"hepsinin bir kopyasını alın  (<a href=\"%(url)s\">Madde 15 GDPR</a>)"
+"hepsinin bir kopyasını alın (<a href=\"%(url)s\">Madde 15 GDPR</a>)"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:79
 msgid ""
@@ -778,10 +779,9 @@ msgid ""
 "declares that all the Personal Data is accurate and true and has been "
 "provided voluntarily."
 msgstr ""
-"Kullanıcı,  GDPR'ın <a href=\"%(url_15)s\">Madde 15</a> ve <a href="
-"\"%(url_17)s\">Madde 17</a>kendi hakları ndan farkındalığı beyan eder ve tüm "
-"Kişisel Verilerin doğru ve doğru olduğunu ve gönüllü olarak sağlandığını "
-"beyan eder."
+"Kullanıcı, GDPR'ın <a href=\"%(url_15)s\">Madde 15</a> ve <a href=\"%(url_17)"
+"s\">Madde 17</a>kendi hakları ndan farkındalığı beyan eder ve tüm Kişisel "
+"Verilerin doğru ve doğru olduğunu ve gönüllü olarak sağlandığını beyan eder."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:111
 msgid ""
