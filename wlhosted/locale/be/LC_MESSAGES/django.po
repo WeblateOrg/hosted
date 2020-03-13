@@ -6,13 +6,14 @@
 # anonymous <noreply@weblate.org>, 2019.
 # Zmicer Turok <nashtlumach@gmail.com>, 2019, 2020.
 # Alex Ky <esthomolupus@gmail.com>, 2020.
+# Michal Čihař <michal@cihar.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-02-27 12:32+0000\n"
-"Last-Translator: Zmicer Turok <nashtlumach@gmail.com>\n"
+"PO-Revision-Date: 2020-03-15 02:37+0000\n"
+"Last-Translator: Michal Čihař <michal@cihar.com>\n"
 "Language-Team: Belarusian <https://hosted.weblate.org/projects/weblate/"
 "hosted/be/>\n"
 "Language: be\n"
@@ -178,9 +179,8 @@ msgid ""
 "Protection Regulation, also known as GDPR. This document includes necessary "
 "specifications."
 msgstr ""
-"Мы выконваем Правіла № %(law_679_2016)s,  General Data Protection "
-"Regulation, вядомы як GDPR. Гэты дакумент уключае ў сябе неабходныя "
-"спецыфікацыі."
+"Мы выконваем Правіла № %(law_679_2016)s, General Data Protection Regulation, "
+"вядомы як GDPR. Гэты дакумент уключае ў сябе неабходныя спецыфікацыі."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:9
 msgid "Personal Data Controller"
@@ -355,7 +355,7 @@ msgid ""
 "Data Weblate is not able to provide our services."
 msgstr ""
 "Карыстальнік дазваляе выкарыстоўваць асабістыя даныя добраахвотна. Без "
-"гэтага  Weblate не зможа аказваць свае паслугі."
+"гэтага Weblate не зможа аказваць свае паслугі."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:74
 msgid ""
@@ -535,7 +535,7 @@ msgid ""
 "means EU Regulation No. %(law_679_2016)s, the General Data Protection "
 "Regulation"
 msgstr ""
-"азначае рэгламент № %(law_679_2016)s,  General Data Protection Regulation, "
+"азначае рэгламент № %(law_679_2016)s, General Data Protection Regulation, "
 "вядомы як GDPR"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:42
@@ -680,7 +680,7 @@ msgid ""
 msgstr ""
 "Карыстальнік пагаджаецца карыстацца Паслугай толькі такім чынам, каб не "
 "ставіць пад пагрозу тэхнічнае праграмнае забеспячэнне і / або абсталяванне, "
-"што належыць Пастаўшчыку і / або  выкарыстоўваецца Пастаўшчыком."
+"што належыць Пастаўшчыку і / або выкарыстоўваецца Пастаўшчыком."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:86
 msgid ""
