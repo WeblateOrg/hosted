@@ -28,7 +28,9 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         for invoice in Invoice.objects.all():
-            if "pk" in invoice.payment:
+            if not isinstance(invoice.payment, dict):
+                print("Wrong payment for {}: {}".format(invoice), invoice.payment)
+            elif "pk" in invoice.payment:
                 payment = Payment.objects.get(pk=invoice.payment["pk"])
                 if payment.start:
                     print("Already updated: {}".format(payment.pk))
