@@ -28,9 +28,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         for invoice in Invoice.objects.all():
-            if not isinstance(invoice.payment, dict):
-                print("Wrong payment for {}: {}".format(invoice, invoice.payment))
-            elif "pk" in invoice.payment:
+            if isinstance(invoice.payment, dict) and "pk" in invoice.payment:
                 payment = Payment.objects.get(pk=invoice.payment["pk"])
                 if payment.start:
                     print("Already updated: {}".format(payment.pk))
@@ -40,4 +38,14 @@ class Command(BaseCommand):
                 payment.end = invoice.end
                 payment.save(update_fields=["start", "end"])
             else:
-                print("Missing payment for {}".format(invoice))
+                if not isinstance(invoice.payment, dict):
+                    amount = invoice.payment
+                else:
+                    amount = invoice.amount
+                if invoice.currency == Invoice.CURRENCY_BTC:
+                    amount *= 10000
+                print(
+                    "Missing payment for {}, {} {}".format(
+                        invoice, amount, invoice.get_currency_display()
+                    )
+                )

@@ -166,8 +166,22 @@ class Payment(models.Model):
     ACCEPTED = 4
     PROCESSED = 5
 
+    CURRENCY_EUR = 0
+    CURRENCY_BTC = 1
+    CURRENCY_USD = 2
+    CURRENCY_CZK = 3
+
     uuid = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     amount = models.IntegerField()
+    currency = models.IntegerField(
+        choices=(
+            (CURRENCY_EUR, "EUR"),
+            (CURRENCY_BTC, "BTC"),
+            (CURRENCY_USD, "USD"),
+            (CURRENCY_CZK, "CZK"),
+        ),
+        default=CURRENCY_EUR,
+    )
     description = models.TextField()
     recurring = models.CharField(
         choices=RECURRENCE_CHOICES, default="", blank=True, max_length=10
