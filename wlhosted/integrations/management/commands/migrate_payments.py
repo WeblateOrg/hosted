@@ -28,6 +28,7 @@ from wlhosted.payments.models import Customer, Payment
 
 ALIASES = {
     "The Netherlands": "NL",
+    "USA": "US",
 }
 
 
