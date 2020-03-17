@@ -66,7 +66,10 @@ class Command(BaseCommand):
                     invoice.pk, invoice.billing.pk, invoice
                 )
             )
-            contact = storage.read_contact(CUSTOMERS[invoice.billing.pk])
+            if invoice.billing.pk in CUSTOMERS:
+                contact = storage.read_contact(CUSTOMERS[invoice.billing.pk])
+            else:
+                contact = storage.read_contact("pp-{}".format(invoice.billing.pk))
         else:
             data = storage.get(invoice.ref)
             contact = data.contact
