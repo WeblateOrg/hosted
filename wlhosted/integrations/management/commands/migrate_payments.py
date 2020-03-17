@@ -32,6 +32,7 @@ ALIASES = {
     "ČR": "CZ",
 }
 CUSTOMERS = {
+    1: "aptoide",
     2: "web-21",
     3: "braiins",
 }
