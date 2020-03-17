@@ -50,7 +50,7 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install pip dependencies
       run: |
-        pip install --upgrade pip wheel Cython
+        pip install --upgrade pip wheel Cython setuptools
         pip install https://github.com/nijel/thepay/archive/weblate.zip
         pip install -r requirements-test.txt -r requirements.txt -r requirements-optional.txt
     - name: Test with Django
