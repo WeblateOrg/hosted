@@ -31,6 +31,10 @@ ALIASES = {
     "USA": "US",
     "ČR": "CZ",
 }
+CUSTOMERS = {
+    2: "web-21",
+    3: "braiins",
+}
 
 
 def get_country(text):
@@ -57,9 +61,15 @@ class Command(BaseCommand):
 
     def handle_missing_payment(self, invoice, storage):
         if not invoice.ref:
-            self.stderr.write("Missing reference in {}: {}".format(invoice.pk, invoice))
-            return
-        data = storage.get(invoice.ref)
+            self.stderr.write(
+                "Missing reference in {} [{}]: {}".format(
+                    invoice.pk, invoice.billing.pk, invoice
+                )
+            )
+            contact = storage.read_contact(CUSTOMERS[invoice.billing.pk])
+        else:
+            data = storage.get(invoice.ref)
+            contact = data.contact
         if not isinstance(invoice.payment, dict):
             amount = invoice.payment
         else:
@@ -73,12 +83,12 @@ class Command(BaseCommand):
         )
         # Create fake customer
         customer, created = Customer.objects.get_or_create(
-            vat=data.contact["vat_reg"],
-            tax=data.contact["tax_reg"],
-            name=data.contact["name"],
-            address=data.contact["address"],
-            city=data.contact["city"],
-            country=get_country(data.contact["country"]),
+            vat=contact["vat_reg"],
+            tax=contact["tax_reg"],
+            name=contact["name"],
+            address=contact["address"],
+            city=contact["city"],
+            country=get_country(contact["country"]),
             defaults={
                 "user_id": -1,
                 "origin": get_origin(),
