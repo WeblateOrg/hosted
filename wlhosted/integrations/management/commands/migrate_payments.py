@@ -43,7 +43,7 @@ class Command(BaseCommand):
                 else:
                     amount = invoice.amount
                 if invoice.currency == Invoice.CURRENCY_BTC:
-                    amount *= 10000
+                    amount *= 100000
                 print(
                     "Missing payment for {}, {} {}".format(
                         invoice, amount, invoice.get_currency_display()
