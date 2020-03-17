@@ -26,25 +26,34 @@ from wlhosted.payments.models import Payment
 class Command(BaseCommand):
     help = "changes default site name"
 
+    def update_payment(self, invoice):
+        payment = Payment.objects.get(pk=invoice.payment["pk"])
+        if payment.start:
+            return
+        self.stdout.write("Updating payment info for {}".format(payment.pk))
+        payment.start = invoice.start
+        payment.end = invoice.end
+        payment.save(update_fields=["start", "end"])
+
+    def handle_missing_payment(self, invoice):
+        if not isinstance(invoice.payment, dict):
+            amount = invoice.payment
+        else:
+            amount = invoice.amount
+        if invoice.currency == Invoice.CURRENCY_BTC:
+            amount *= 100000
+        self.stdout.write(
+            "Missing payment for {}, {} {}".format(
+                invoice, amount, invoice.get_currency_display()
+            )
+        )
+        # TODO:
+        # Create or find customer
+        # Create payment
+
     def handle(self, *args, **options):
         for invoice in Invoice.objects.all():
             if isinstance(invoice.payment, dict) and "pk" in invoice.payment:
-                payment = Payment.objects.get(pk=invoice.payment["pk"])
-                if payment.start:
-                    continue
-                print("Updating payment info for {}".format(payment.pk))
-                payment.start = invoice.start
-                payment.end = invoice.end
-                payment.save(update_fields=["start", "end"])
+                self.update_payment(invoice)
             else:
-                if not isinstance(invoice.payment, dict):
-                    amount = invoice.payment
-                else:
-                    amount = invoice.amount
-                if invoice.currency == Invoice.CURRENCY_BTC:
-                    amount *= 100000
-                print(
-                    "Missing payment for {}, {} {}".format(
-                        invoice, amount, invoice.get_currency_display()
-                    )
-                )
+                self.handle_missing_payment(invoice)
