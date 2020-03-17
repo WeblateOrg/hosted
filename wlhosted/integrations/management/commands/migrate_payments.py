@@ -26,12 +26,19 @@ from weblate.billing.models import Invoice
 from wlhosted.integrations.utils import get_origin
 from wlhosted.payments.models import Customer, Payment
 
+ALIASES = {
+    "The Netherlands": "NL",
+}
+
 
 def get_country(text):
-    for code, name in countries:
-        if text == name:
-            return code
-    raise ValueError("Unknown country: {}".format(text))
+    try:
+        return ALIASES[text]
+    except KeyError:
+        for code, name in countries:
+            if text == name:
+                return code
+        raise ValueError("Unknown country: {}".format(text))
 
 
 class Command(BaseCommand):
