@@ -17,10 +17,13 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
 
+from django.conf import settings
 from django.core.management.base import BaseCommand
+from fakturace.storage import InvoiceStorage
 from weblate.billing.models import Invoice
 
-from wlhosted.payments.models import Payment
+from wlhosted.integrations.utils import get_origin
+from wlhosted.payments.models import Customer, Payment
 
 
 class Command(BaseCommand):
@@ -35,7 +38,11 @@ class Command(BaseCommand):
         payment.end = invoice.end
         payment.save(update_fields=["start", "end"])
 
-    def handle_missing_payment(self, invoice):
+    def handle_missing_payment(self, invoice, storage):
+        if not invoice.ref:
+            self.stderr.write("Missing reference in {}: {}".format(invoice.pk, invoice))
+            return
+        data = storage.get(invoice.ref)
         if not isinstance(invoice.payment, dict):
             amount = invoice.payment
         else:
@@ -47,13 +54,36 @@ class Command(BaseCommand):
                 invoice, amount, invoice.get_currency_display()
             )
         )
-        # TODO:
-        # Create or find customer
+        # Create fake customer
+        customer = Customer.objects.get_or_create(
+            vat=data.contact["vat_reg"],
+            tax=data.contact["tax_reg"],
+            name=data.contact["name"],
+            address=data.contact["address"],
+            city=data.contact["city"],
+            country=data.contact["country"],
+            email=data.contact["email"],
+            origin=get_origin(),
+            user_id=-1,
+        )[0]
         # Create payment
+        Payment.objects.create(
+            amount=amount,
+            currency=invoice.currency,
+            state=Payment.PROCESSED,
+            backend="import",
+            # Payment details from the gateway
+            details=invoice.__getstate__(),
+            customer=customer,
+            invoice=invoice.ref,
+            start=invoice.start,
+            end=invoice.end,
+        )
 
     def handle(self, *args, **options):
+        storage = InvoiceStorage(settings.PAYMENT_FAKTURACE)
         for invoice in Invoice.objects.all():
             if isinstance(invoice.payment, dict) and "pk" in invoice.payment:
                 self.update_payment(invoice)
             else:
-                self.handle_missing_payment(invoice)
+                self.handle_missing_payment(invoice, storage)
