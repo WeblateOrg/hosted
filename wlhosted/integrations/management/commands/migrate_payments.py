@@ -31,7 +31,6 @@ class Command(BaseCommand):
             if isinstance(invoice.payment, dict) and "pk" in invoice.payment:
                 payment = Payment.objects.get(pk=invoice.payment["pk"])
                 if payment.start:
-                    print("Already updated: {}".format(payment.pk))
                     continue
                 print("Updating payment info for {}".format(payment.pk))
                 payment.start = invoice.start
