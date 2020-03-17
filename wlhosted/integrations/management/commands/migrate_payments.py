@@ -92,7 +92,7 @@ class Command(BaseCommand):
             defaults={
                 "user_id": -1,
                 "origin": get_origin(),
-                "email": data.contact.get("email", ""),
+                "email": contact.get("email", ""),
             },
         )
         if created:
