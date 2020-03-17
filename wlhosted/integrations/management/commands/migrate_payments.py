@@ -19,11 +19,19 @@
 
 from django.conf import settings
 from django.core.management.base import BaseCommand
+from django_countries import countries
 from fakturace.storage import InvoiceStorage
 from weblate.billing.models import Invoice
 
 from wlhosted.integrations.utils import get_origin
 from wlhosted.payments.models import Customer, Payment
+
+
+def get_country(text):
+    for code, name in countries:
+        if text == name:
+            return code
+    raise ValueError("Unknown country: {}".format(text))
 
 
 class Command(BaseCommand):
@@ -61,7 +69,7 @@ class Command(BaseCommand):
             name=data.contact["name"],
             address=data.contact["address"],
             city=data.contact["city"],
-            country=data.contact["country"],
+            country=get_country(data.contact["country"]),
             defaults={
                 "user_id": -1,
                 "origin": get_origin(),
