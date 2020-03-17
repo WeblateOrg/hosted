@@ -31,7 +31,11 @@ class Command(BaseCommand):
             if "pk" in invoice.payment:
                 payment = Payment.objects.get(pk=invoice.payment["pk"])
                 if payment.start:
+                    print("Already updated: {}".format(payment.pk))
                     continue
+                print("Updating payment info for {}".format(payment.pk))
                 payment.start = invoice.start
                 payment.end = invoice.end
                 payment.save(update_fields=["start", "end"])
+            else:
+                print("Missing payment for {}".format(invoice))
