@@ -55,30 +55,34 @@ class Command(BaseCommand):
             )
         )
         # Create fake customer
-        customer = Customer.objects.get_or_create(
+        customer, created = Customer.objects.get_or_create(
             vat=data.contact["vat_reg"],
             tax=data.contact["tax_reg"],
             name=data.contact["name"],
             address=data.contact["address"],
             city=data.contact["city"],
             country=data.contact["country"],
-            email=data.contact["email"],
-            origin=get_origin(),
-            user_id=-1,
-        )[0]
+            defaults={
+                "user_id": -1,
+                "origin": get_origin(),
+                "email": data.contact.get("email", ""),
+            },
+        )
+        if created:
+            self.stdout.write("Created customer: {}".format(customer))
         # Create payment
-        Payment.objects.create(
+        payment = Payment.objects.create(
             amount=amount,
             currency=invoice.currency,
             state=Payment.PROCESSED,
             backend="import",
-            # Payment details from the gateway
-            details=invoice.__getstate__(),
             customer=customer,
             invoice=invoice.ref,
             start=invoice.start,
             end=invoice.end,
         )
+        invoice.payment = {"pk": payment.pk}
+        invoice.save(update_fields=["payment"])
 
     def handle(self, *args, **options):
         storage = InvoiceStorage(settings.PAYMENT_FAKTURACE)
