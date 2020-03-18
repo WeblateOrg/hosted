@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-03-05 11:32+0000\n"
+"PO-Revision-Date: 2020-03-19 09:36+0000\n"
 "Last-Translator: Ivan Pleva <ivan.pleva@tutanota.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/weblate/hosted/sk/"
 ">\n"
@@ -271,6 +271,11 @@ msgid ""
 "contractual or pre-contractual obligations (<a href=\"%(url)s\">Article 6 "
 "(1) b. GDPR</a>)"
 msgstr ""
+"na poskytovanie našich služieb v Službe, kontaktovanie vašej osoby vo "
+"veciach týkajúcich sa našich služieb (tiež prostredníctvom e-mailov a "
+"textových správ) a na zabezpečenie technickej funkčnosti našich služieb a "
+"uspokojenie zmluvných či predzmluvných záväzkov (<a href=\"%(url)s\">Článok "
+"6 (1) b. GDPR</a>)"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:47
 #, python-format
@@ -278,6 +283,8 @@ msgid ""
 "to analyze your use of our services and improve our services (<a href="
 "\"%(url)s\">Article 6 (1) b. and f. GDPR</a>)"
 msgstr ""
+"na analýzu vášho používania našich služieb a zlepšovanie našich služieb (<a "
+"href=\"%(url)s\">Článok 6 (1) b. a f. GDPR</a>)"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:48
 #, python-format
@@ -286,6 +293,9 @@ msgid ""
 "activities or send you newsletters (<a href=\"%(url)s\">Article 6 (1) a. "
 "GDPR</a>)"
 msgstr ""
+"s vašim výslovným súhlasom alebo pokynom na uskutočňovanie obchodných "
+"aktivít alebo zasielanie newsletterov (<a href=\"%(url)s\">Článok 6 (1) a. "
+"GDPR</a>)"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:51
 msgid "Access to the Personal Data"
@@ -477,6 +487,8 @@ msgid ""
 "Civil Code concluded by and between the User and the Provider upon the "
 "Consent"
 msgstr ""
+"rozumie sa Licenčná zmluva v zmysle čl. 2358 a nasledujúcich Občianskeho "
+"zákonníka uzatvorená medzi Používateľom a Poskytovateľom na základe Súhlasu"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:29
 msgid "Civil Code"
@@ -486,6 +498,8 @@ msgstr "Občiansky zákonník"
 #, python-format
 msgid "means Act No. %(law_89_2012)s Coll., the Civil Code, as amended"
 msgstr ""
+"rozumie sa zákon č. %(law_89_2012)s Zb., Občianskeho zákonníka, v znení "
+"neskorších predpisov"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:32
 msgid "Consent"
