@@ -43,16 +43,16 @@ class PaymentTest(TestCase):
         self.user = create_test_user()
         self.client.login(username="testuser", password="testpassword")
         self.plan_a = Plan.objects.create(
-            name="Plan A", price=19, yearly_price=199, public=True
+            name="Plan A", slug="plan-a", price=19, yearly_price=199, public=True
         )
         self.plan_b = Plan.objects.create(
-            name="Plan B", price=49, yearly_price=499, public=True
+            name="Plan B", slug="plan-b", price=49, yearly_price=499, public=True
         )
         self.plan_c = Plan.objects.create(
-            name="Plan C", price=9, yearly_price=99, public=False
+            name="Plan C", slug="plan-c", price=9, yearly_price=99, public=False
         )
         self.plan_d = Plan.objects.create(
-            name="Plan D", price=0, yearly_price=0, public=True
+            name="Plan D", slug="plan-d", price=0, yearly_price=0, public=True
         )
         setup_dirs()
 
