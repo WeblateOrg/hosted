@@ -52,8 +52,6 @@ jobs:
       run: |
         pip install --upgrade pip wheel Cython setuptools
         pip install https://github.com/nijel/thepay/archive/weblate.zip
-        # Needed until https://github.com/codingjoe/django-vies/pull/164 is merged
-        pip install https://github.com/mdogo/django-vies/archive/master.zip
         # Needed for billing model changes
         pip install https://github.com/WeblateOrg/weblate/archive/master.zip
         pip install -r requirements-test.txt -r requirements.txt -r requirements-optional.txt
