@@ -115,6 +115,13 @@ class Command(BaseCommand):
         invoice.payment = {"pk": payment.pk}
         invoice.save(update_fields=["payment"])
 
+    def include_billing_id(self, invoice):
+        payment = Payment.objects.get(pk=invoice.payment["pk"])
+        if "billing" not in payment.extra:
+            self.stdout.write("Linking payment: {}".format(payment))
+            payment.extra["billing"] = invoice.billing_id
+            payment.save(update_fields=["extra"])
+
     def handle(self, *args, **options):
         storage = InvoiceStorage(settings.PAYMENT_FAKTURACE)
         for invoice in Invoice.objects.all():
@@ -122,3 +129,4 @@ class Command(BaseCommand):
                 self.update_payment(invoice)
             else:
                 self.handle_missing_payment(invoice, storage)
+            self.include_billing_id(invoice)
