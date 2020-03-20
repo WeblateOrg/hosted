@@ -1,8 +1,11 @@
 Hosted Weblate customizations
 =============================
 
-.. image:: https://travis-ci.com/WeblateOrg/hosted.svg?branch=master
-   :target: https://travis-ci.com/WeblateOrg/hosted
+.. image:: https://github.com/WeblateOrg/hosted/workflows/Test/badge.svg
+   :target: https://github.com/WeblateOrg/hosted/actions?query=workflow%3ATest
+
+.. image:: https://github.com/WeblateOrg/hosted/workflows/Lint/badge.svg
+   :target: https://github.com/WeblateOrg/hosted/actions?query=workflow%3ALint
 
 .. image:: https://codecov.io/gh/WeblateOrg/hosted/branch/master/graph/badge.svg
    :target: https://codecov.io/gh/WeblateOrg/hosted
