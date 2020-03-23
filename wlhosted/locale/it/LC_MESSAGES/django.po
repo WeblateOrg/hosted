@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# bovirus <roberto.boriotti@canon-europe.com>, 2018, 2019.
+# bovirus <roberto.boriotti@canon-europe.com>, 2018, 2019, 2020.
 # Piero <p.passerini@gmail.com>, 2018.
 # Michele <miguel2000@livecom.it>, 2018.
 # Manuel Tassi <manueltassi91@gmail.com>, 2018.
@@ -14,8 +14,8 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-03-15 02:37+0000\n"
-"Last-Translator: Michal Čihař <michal@cihar.com>\n"
+"PO-Revision-Date: 2020-03-24 09:44+0000\n"
+"Last-Translator: bovirus <roberto.boriotti@canon-europe.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/weblate/hosted/"
 "it/>\n"
 "Language: it\n"
@@ -134,7 +134,7 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:98
 msgid "All listed prices exclude VAT."
-msgstr "Tutti i prezzi elencati sono comprensivi di IVA."
+msgstr "Tutti i prezzi elencati non includono l'IVA."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 #, python-format
@@ -990,8 +990,6 @@ msgstr ""
 "\n"
 "ll pagamento su weblate.org non è andato a buon fine.\n"
 "\n"
-"Possibili motivi:\n"
-"\n"
 "%s\n"
 "\n"
 "Ti consigliamo di ripetere il pagamento nel sito web:\n"
@@ -1129,9 +1127,7 @@ msgstr "{} non corrisponde alle specifiche ID IVA della nazione."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
-msgstr ""
-"Servizio di convalida ID IVA non disponibile per {}.\n"
-"Riprova più tardi."
+msgstr "Servizio di convalida ID IVA non disponibile per {}. Riprova più tardi."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
