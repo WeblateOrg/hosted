@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-03-24 09:44+0000\n"
+"PO-Revision-Date: 2020-03-26 15:46+0000\n"
 "Last-Translator: bovirus <roberto.boriotti@canon-europe.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/weblate/hosted/"
 "it/>\n"
@@ -134,7 +134,7 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:98
 msgid "All listed prices exclude VAT."
-msgstr "Tutti i prezzi elencati non includono l'IVA."
+msgstr "Tutti i prezzi elencati sono IVA esclusa."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 #, python-format
@@ -368,8 +368,8 @@ msgid ""
 "The User provides use of Personal Data voluntarily. Without this Personal "
 "Data Weblate is not able to provide our services."
 msgstr ""
-"L'utente fornisce volontariamente i dati personali. \n"
-"Senza questi dati Weblate non è in grado di fornire i nostri servizi."
+"L'utente fornisce volontariamente i dati personali. Senza questi dati "
+"Weblate non è in grado di fornire i nostri servizi."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:74
 msgid ""
@@ -753,12 +753,11 @@ msgstr ""
 "Ai sensi dell'<a href=\"%(url)s\">Articolo 7</a> del GDPR, l'utente con la "
 "presente acconsente alla raccolta, alla conservazione e al trattamento dei "
 "dati personali forniti dall'utente all'amministratore, che è il fornitore, "
-"attraverso l'uso del servizio.\n"
-"L'utente dà il consenso al trattamento e all'utilizzo dei dati personali "
-"dell'utente da parte del fornitore, dei suoi dipendenti e/o dei suoi partner "
-"commerciali autorizzati. \n"
-"Questo consenso è concesso a condizione che l'utente non rimuova il proprio "
-"account dal servizio."
+"attraverso l'uso del servizio. L'utente dà il consenso al trattamento e "
+"all'utilizzo dei dati personali dell'utente da parte del fornitore, dei suoi "
+"dipendenti e/o dei suoi partner commerciali autorizzati. Questo consenso è "
+"concesso a condizione che l'utente non rimuova il proprio account dal "
+"servizio."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:103
 #, python-format
@@ -815,8 +814,8 @@ msgid ""
 msgstr ""
 "Il Fornitore dichiara che raccoglierà i Dati personali solo nella misura "
 "necessaria per soddisfare lo scopo sopra specificato e elaborare i Dati "
-"personali in conformità con lo scopo per il quale sono stati raccolti. \n"
-"I dipendenti del Fornitore e altre persone che elaborano i Dati personali "
+"personali in conformità con lo scopo per il quale sono stati raccolti. I "
+"dipendenti del Fornitore e altre persone che elaborano i Dati personali "
 "sulla base di un contratto con il Fornitore manterranno la riservatezza dei "
 "Dati Personali, anche dopo la cessazione del rapporto di lavoro o di affari "
 "con il Fornitore."
@@ -887,9 +886,8 @@ msgid ""
 "of the VCS."
 msgstr ""
 "L'utente accetta di usare il suo nome e l'email come paternità nei commit "
-"VCS. \n"
-"L'utente comprende che questa accettazione non è revocabile a causa della "
-"natura del VCS."
+"VCS. L'utente comprende che questa accettazione non è revocabile a causa "
+"della natura del VCS."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:133
 #, python-format
@@ -996,8 +994,8 @@ msgstr ""
 "\n"
 "%s\n"
 "\n"
-"Se si tratta di un pagamento ricorrente verrà ripetuto tre volte,\n"
-"ma, qualora fallisca, sarà cancellato.\n"
+"Se si tratta di un pagamento ricorrente, verrà ripetuto tre volte,\n"
+"ma qualora fallisca, sarà cancellato.\n"
 
 #: wlhosted/payments/backends.py:251
 msgid "Your pending payment on weblate.org"
@@ -1127,7 +1125,7 @@ msgstr "{} non corrisponde alle specifiche ID IVA della nazione."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
-msgstr "Servizio di convalida ID IVA non disponibile per {}. Riprova più tardi."
+msgstr "Servizio di convalida ID IVA non disponibile per {}, riprova più tardi."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
