@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-03-16 08:36+0000\n"
+"PO-Revision-Date: 2020-03-26 15:46+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: Albanian <https://hosted.weblate.org/projects/weblate/hosted/"
 "sq/>\n"
@@ -451,7 +451,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/summary.html:9
 msgid "We use cookies to deliver our services."
-msgstr "Që të ofrojmë shërbimet tona, përdorim &lt;em&gt;cookies&lt;/em&gt;."
+msgstr "Që të ofrojmë shërbimet tona, përdorim cookies."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:10
 msgid "View English version"
@@ -521,7 +521,7 @@ msgstr ""
 #: wlhosted/legal/templates/legal/documents/tos.html:35
 #: wlhosted/legal/templates/legal/documents/tos.html:131
 msgid "Cookies"
-msgstr "&lt;em&gt;Cookies &lt;/em&gt;"
+msgstr "Cookies"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:36
 msgid ""
@@ -691,9 +691,8 @@ msgid ""
 "in the Provider’s use."
 msgstr ""
 "Përdoruesi bie dakord të përdorë Shërbimin vetëm në një mënyrë që nuk "
-"rrezikon mjetet teknike &lt;em&gt;software&lt;/em&gt; dhe/ose "
-"&lt;em&gt;hardware&lt;/em&gt; të Furnizuesit të Shërbimit dhe/ose mjete të "
-"tilla në përdorim të Furnizuesit të Shërbimit."
+"rrezikon mjetet teknike software dhe/ose hardware të Furnizuesit të "
+"Shërbimit dhe/ose mjete të tilla në përdorim të Furnizuesit të Shërbimit."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:86
 msgid ""
@@ -900,14 +899,14 @@ msgid ""
 msgstr ""
 "Sipas kuptimit të Nenit 89 të Aktit Nr. %(law_480_2004)s Coll., mbi "
 "komunikimet elektronike, siç është ndryshuar, Përdoruesi është në dijeni se "
-"Shërbimi përdor &lt;em&gt;cookies &lt;/em&gt;."
+"Shërbimi përdor cookies."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:135
 msgid ""
 "The Service uses cookies to personalise content, and to analyse our traffic."
 msgstr ""
-"Shërbimi përdor &lt;em&gt;cookies&lt;/em&gt; për të personalizuar lëndë, dhe "
-"për të analizuar trafikun tonë."
+"Shërbimi përdor cookies për të personalizuar lëndë, dhe për të analizuar "
+"trafikun tonë."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:138
 msgid "Governing Law"
