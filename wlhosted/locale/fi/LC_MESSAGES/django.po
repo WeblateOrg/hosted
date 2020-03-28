@@ -4,13 +4,14 @@
 # Nikolay Korotkiy <sikmir@gmail.com>, 2019.
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2019.
 # Tuomas Hietala <tuomas.hietala@iki.fi>, 2019.
+# Tuomas Lähteenmäki <lahtis@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2019-11-08 18:04+0000\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"PO-Revision-Date: 2020-03-28 15:39+0000\n"
+"Last-Translator: Tuomas Lähteenmäki <lahtis@gmail.com>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/weblate/hosted/"
 "fi/>\n"
 "Language: fi\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10-dev\n"
+"X-Generator: Weblate 4.0-dev\n"
 
 #: wlhosted/addons.py:37 wlhosted/addons.py:38
 msgid "Generate Unknown Horizons scenario data"
@@ -821,6 +822,14 @@ msgid ""
 "\n"
 "%s\n"
 msgstr ""
+"Hei,\n"
+"\n"
+"Kiitos maksustasi verkkosivustolle weblate.org.\n"
+"\n"
+"Liitteenä on lasku tästä maksusta.\n"
+"Vaihtoehtoisesti voit ladata sen verkkosivustolta:\n"
+"\n"
+"%s\n"
 
 #: wlhosted/payments/backends.py:216
 msgid "Your payment on weblate.org failed"
@@ -842,12 +851,22 @@ msgid ""
 "If concerning a recurring payment, it is retried three times,\n"
 "and if still failing, cancelled.\n"
 msgstr ""
+"Hei, \n"
+"\n"
+"Maksusi sivustolla weblate.org epäonnistui.\n"
+"\n"
+" %s\n"
+"\n"
+"Yritä suorittaa maksu uudelleen verkkosivustolla: \n"
+"\n"
+"%s\n"
+"\n"
+" Jos kyseessä on toistuva maksu, sitä yritetään uudelleen kolme kertaa \n"
+"ja jos se edelleen epäonnistuu, peruutetaan se.\n"
 
 #: wlhosted/payments/backends.py:251
-#, fuzzy
-#| msgid "Your payment on weblate.org"
 msgid "Your pending payment on weblate.org"
-msgstr "Maksusi weblate.org-sivustolla"
+msgstr "Odottavat maksusi weblate.org:lle"
 
 #: wlhosted/payments/backends.py:253
 msgid ""
@@ -856,6 +875,10 @@ msgid ""
 "Your payment on weblate.org is pending. Please follow the provided\n"
 "instructions to complete the payment.\n"
 msgstr ""
+"Hei, \n"
+"\n"
+"Maksusi sivustolla weblate.org odottaa. Seuraa toimitettua ohjetta\n"
+"maksun suorittamiseksi.\n"
 
 #: wlhosted/payments/backends.py:335
 msgid "Payment card"
@@ -879,7 +902,7 @@ msgstr "IBAN-tilisiirto"
 
 #: wlhosted/payments/backends.py:464
 msgid "Issuing bank"
-msgstr ""
+msgstr "Liikkeeseen laskeva pankki"
 
 #: wlhosted/payments/backends.py:465
 msgid "Account holder"
@@ -903,15 +926,15 @@ msgstr "Viite"
 
 #: wlhosted/payments/models.py:83
 msgid "European VAT ID"
-msgstr ""
+msgstr "Eurooppalainen VAT ID"
 
 #: wlhosted/payments/models.py:85
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
-msgstr ""
+msgstr "Täytä Euroopan unionin VAT ID, jos sitä ei ole, jätä se tyhjäksi."
 
 #: wlhosted/payments/models.py:91
 msgid "Tax registration"
-msgstr ""
+msgstr "Verojen rekisteröinti"
 
 #: wlhosted/payments/models.py:93
 msgid ""
