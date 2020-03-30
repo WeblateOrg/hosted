@@ -2,6 +2,6 @@ django-appconf>=1.0
 django-countries
 django-vies
 fiobank
+nijel-thepay
 python-dateutil
 requests
-thepay-nijel
