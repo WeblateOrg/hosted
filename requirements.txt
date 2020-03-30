@@ -4,4 +4,4 @@ django-vies
 fiobank
 python-dateutil
 requests
-thepay
+thepay-nijel
