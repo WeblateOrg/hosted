@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-03-15 02:36+0000\n"
+"PO-Revision-Date: 2020-03-30 11:51+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/weblate/hosted/"
 "tr/>\n"
@@ -33,7 +33,7 @@ msgstr "Havuzu yukarı akışa sıfırla"
 
 #: wlhosted/addons.py:61
 msgid "Reset all changes in the local repository"
-msgstr "Yerel havuzdaki tüm değişiklikleri sıfırla"
+msgstr "Yerel depodaki tüm değişiklikleri sıfırla"
 
 #: wlhosted/integrations/forms.py:35
 msgid "Billing"
@@ -510,7 +510,7 @@ msgstr ""
 #: wlhosted/legal/templates/legal/documents/tos.html:35
 #: wlhosted/legal/templates/legal/documents/tos.html:131
 msgid "Cookies"
-msgstr "Çerezler"
+msgstr "Tanımlama Bilgileri"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:36
 msgid ""
