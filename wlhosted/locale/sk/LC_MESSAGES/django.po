@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-03-31 15:55+0000\n"
+"PO-Revision-Date: 2020-04-02 07:30+0000\n"
 "Last-Translator: Ivan Pleva <ivan.pleva@tutanota.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/weblate/hosted/sk/"
 ">\n"
@@ -740,6 +740,13 @@ msgid ""
 "This consent is given as long as User does not remove their account from the "
 "Service."
 msgstr ""
+"V zmysle <a href=\"%(url)s\">článku 7</a> nariadenia GDPR Používateľ udeľuje "
+"súhlas so zberom, uchovávaním a spracúvaním Osobných údajov poskytovaných "
+"Používateľom správcovi, ktorý je Poskytovateľom, prostredníctvom používania "
+"Služby; Používateľ udeľuje súhlas so spracúvaním a používaním svojich "
+"Osobných údajov Poskytovateľom, jeho zamestnancami a/alebo jeho oprávnenými "
+"obchodnými partnermi. Tento súhlas je daný dovtedy, kým Používateľ "
+"neodstráni svoj účet zo Služby."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:103
 #, python-format
@@ -752,6 +759,13 @@ msgid ""
 "contractual partners and for statistical and/or marketing purposes of the "
 "Provider."
 msgstr ""
+"Účelom spracovávania Osobných údajov určeným Poskytovateľom je použitie "
+"Osobných údajov na zasielanie obchodnej komunikácie subjektu údajov "
+"(Používateľ) prostredníctvom elektronických prostriedkov podľa zákona "
+"%(law_480_2004)s Zb., o niektorých službách informačnej spoločnosti v znení "
+"neskorších predpisov, ďalej pre marketingové a obchodné potreby zmluvných "
+"partnerov Poskytovateľa a na štatictické a/alebo marketingové účely "
+"Poskytovateľa."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:105
 msgid ""
@@ -786,6 +800,12 @@ msgid ""
 "the Personal Data, even after the termination of their employment or "
 "business relationship with the Provider."
 msgstr ""
+"Poskytovateľ prehlasuje, že bude zhromažďovať Osobné údaje iba v rozsahu "
+"nevyhnutnom pre splnenie vyššie uvedeného účelu a spracúvať Osobné údaje v "
+"súlade s účelom, pre ktorý boli zhromaždené. Zamestnanci Poskytovateľa a "
+"ďalšie osoby, ktoré spracúvajú Osobné údaje na základe zmluvy s "
+"Poskytovateľom, zachovávajú dôvernosť Osobných údajov, a to i po ukončení "
+"svojho zamestnania alebo obchodného vzťahu s Poskytovateľom."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:113
 msgid ""
@@ -833,12 +853,17 @@ msgid ""
 "Should the Project opt in for the Translation Memory, license to use the "
 "translation is granted to all Translation Memory users."
 msgstr ""
+"V prípade, že sa Používateľ rozhodne pre použitie Pamäte prekladu v rámci "
+"Projektu, licenca na použitie prekladu sa udelí všetkým používateľom Pamäte "
+"prekladu."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:126
 msgid ""
 "The User agrees, upon contributing to a Project, to the license the Project "
 "has specified."
 msgstr ""
+"Prispievaním do Projektu Používateľ súhlasí s licenciou, ktorá je uvedená v "
+"Projekte."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:128
 msgid ""
@@ -846,6 +871,9 @@ msgid ""
 "commits. The User understands that this grant is non revocable due to nature "
 "of the VCS."
 msgstr ""
+"Používateľ súhlasí s použitím svojho mena a e-mailu na účely autorstva v "
+"zápisoch VCS. Používateľ rozumie, že toto udelenie je neodvolateľné kvôli "
+"povahe VCS."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:133
 #, python-format
@@ -854,6 +882,9 @@ msgid ""
 "electronic communication, as ammended, the User is informed that the Service "
 "uses cookies."
 msgstr ""
+"V zmysle článku 89 zákona %(law_480_2004)s Zb. o elektronických "
+"komunikáciách v znení neskorších predpisov je Používateľ informovaný, že "
+"Služba používa súbory cookies."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:135
 msgid ""
@@ -871,6 +902,8 @@ msgid ""
 "These Terms of Service shall be governed by the laws of the Czech Republic "
 "with exclusion of conflict rules."
 msgstr ""
+"Tieto Podmienky služby sa riadia zákonmi Českej republiky s vylúčením "
+"kolíznych noriem."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:142
 msgid ""
@@ -878,6 +911,8 @@ msgid ""
 "Service shall be resolved by the court of the Czech republic having "
 "substantive and local jurisdiction."
 msgstr ""
+"Akékoľvek spory vzniknuté na základe Zmluvy a/alebo Podmienok služby sa "
+"riešia súdom Českej republiky s vecnou a miestnou príslušnosťou."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:145
 msgid "Effect"
@@ -907,6 +942,14 @@ msgid ""
 "\n"
 "%s\n"
 msgstr ""
+"Dobrý deň.\n"
+"\n"
+"Ďakujeme za Vašu platbu na weblate.org.\n"
+"\n"
+"Faktúru k nej nájdete v prílohe.\n"
+"Môžete si ju tiež stiahnuť z webovej stránky:\n"
+"\n"
+"%s\n"
 
 #: wlhosted/payments/backends.py:216
 msgid "Your payment on weblate.org failed"
@@ -928,6 +971,18 @@ msgid ""
 "If concerning a recurring payment, it is retried three times,\n"
 "and if still failing, cancelled.\n"
 msgstr ""
+"Dobrý deň.\n"
+"\n"
+"Vaša platba na weblate.org bola neúspešná.\n"
+"\n"
+"%s\n"
+"\n"
+"Skúste to znova zadaním platby na webovej stránke:\n"
+"\n"
+"%s\n"
+"\n"
+"Pokiaľ išlo o opakovanú platbu, pokúsime sa ju vykonať trikrát\n"
+"a pokiaľ neprebehne úspešne, zrušíme opakovanie.\n"
 
 #: wlhosted/payments/backends.py:251
 msgid "Your pending payment on weblate.org"
@@ -940,6 +995,10 @@ msgid ""
 "Your payment on weblate.org is pending. Please follow the provided\n"
 "instructions to complete the payment.\n"
 msgstr ""
+"Dobrý deň.\n"
+"\n"
+"Vaša platba na weblate.org čaká na vybavenie. Prosím, dokončite platbu\n"
+"podľa priložených pokynov.\n"
 
 #: wlhosted/payments/backends.py:335
 msgid "Payment card"
@@ -1002,35 +1061,35 @@ msgstr "Daňová registrácia"
 #: wlhosted/payments/models.py:93
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
-msgstr ""
+msgstr "Posím, zadajte svoje DIČ, pokiaľ ho chcete mať uvedené na faktúre."
 
 #: wlhosted/payments/models.py:100
 msgid "Company or individual name"
-msgstr ""
+msgstr "Názov spoločnosti alebo meno osoby"
 
 #: wlhosted/payments/models.py:103
 msgid "Address"
-msgstr ""
+msgstr "Adresa"
 
 #: wlhosted/payments/models.py:106
 msgid "Postcode and city"
-msgstr ""
+msgstr "PSČ a mesto/obec"
 
 #: wlhosted/payments/models.py:108
 msgid "Country"
-msgstr ""
+msgstr "Krajina"
 
 #: wlhosted/payments/models.py:136
 msgid "The country has to match your VAT code"
-msgstr ""
+msgstr "Krajina sa musí zhodovať s vaším IČ DPH"
 
 #: wlhosted/payments/models.py:159
 msgid "Annual"
-msgstr ""
+msgstr "Ročne"
 
 #: wlhosted/payments/models.py:160
 msgid "Biannual"
-msgstr ""
+msgstr "Polročne"
 
 #: wlhosted/payments/models.py:161
 msgid "Quarterly"
@@ -1042,19 +1101,21 @@ msgstr "Mesačne"
 
 #: wlhosted/payments/models.py:163
 msgid "Onetime"
-msgstr ""
+msgstr "Jednorazovo"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
-msgstr ""
+msgstr "{} nie je platný kód krajiny Európskej únie."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr ""
+msgstr "{} nevyhovuje špecifikáciám IČ DPH danej krajiny."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
+"Kontrola platnosti IČ DPH pre {} nie je dostupná. Prosím, skúste to znova "
+"neskôr."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
