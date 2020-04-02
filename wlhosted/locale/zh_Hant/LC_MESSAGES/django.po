@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Chang-Chia Tseng <pswo10680@gmail.com>, 2018, 2019.
+# Chang-Chia Tseng <pswo10680@gmail.com>, 2018, 2019, 2020.
 # Louies <louies0623@gmail.com>, 2019.
 # Lzmxya <lzmxya@gmail.com>, 2019.
 # byStarTW <pan93412@gmail.com>, 2019, 2020.
@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-01-22 23:11+0000\n"
-"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"PO-Revision-Date: 2020-04-02 15:29+0000\n"
+"Last-Translator: Chang-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "weblate/hosted/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.11-dev\n"
+"X-Generator: Weblate 4.0-dev\n"
 
 #: wlhosted/addons.py:37 wlhosted/addons.py:38
 msgid "Generate Unknown Horizons scenario data"
@@ -136,7 +136,7 @@ msgstr "歐盟終端使用者及捷克公司將會額外收取 21%% 的增值稅
 #: wlhosted/integrations/templates/hosted/create.html:100
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
-msgstr ""
+msgstr "反向稽徵適用於歐盟境內營業店家開立的收據。"
 
 #: wlhosted/integrations/views.py:69
 msgid "No matching payment found."
@@ -472,18 +472,11 @@ msgid "Cookies"
 msgstr "Cookie"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:36
-#, fuzzy
-#| msgid ""
-#| "mean any data file sent by the Service web server to the User’s computer "
-#| "of other device connected to the Internet, which enable obtaining of "
-#| "unique identification of the User’s web browser"
 msgid ""
 "means any datafile sent by the web server of the Service to the User’s "
 "computer or other device connected to the Internet, which enable obtaining "
 "unique identification of the User’s web browser"
-msgstr ""
-"指「服務」網路伺服器發送到連接到網際網路的其他設備的「使用者」電腦的任何資料"
-"檔案，從而能夠獲得「使用者」網路瀏覽器的唯一識別資訊"
+msgstr "指「服務」網路伺服器發送到「使用者」的電腦，或其連接到網際網路的其他設備的任何資料檔案，從而能夠獲得「使用者」網路瀏覽器的唯一識別資訊"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:39
 msgid "GDPR"
@@ -522,17 +515,11 @@ msgid "Personal Data"
 msgstr "個人資料"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:49
-#, fuzzy, python-format
-#| msgid ""
-#| "means personal data within the meaning of Act No. %(law_101_2000)s Coll., "
-#| "on personal data protection, as amended, inserted by the User into the "
-#| "Service and/or Cookies"
+#, python-format
 msgid ""
 "means personal data within the meaning of EU Regulation No. %(law_679_2016)s "
 "inserted by the User into the Service and/or Cookies"
-msgstr ""
-"指「使用者」在「伺服器」和或 Cookie 中插入的有關個人資料保護法第 "
-"%(law_101_2000)s coll. 號所指的個人資料"
+msgstr "指「使用者」在「服務」和或「Cookie」中插入的有關歐盟法規 No. %(law_679_2016)s 號所指的個人資料"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:51
 msgid "Owner"
@@ -608,18 +595,11 @@ msgid ""
 msgstr "根據本契約第 2.1 條之契約締結，本「服務條款」第 3 條以下規定生效。"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:80
-#, fuzzy
-#| msgid ""
-#| "The Provider grants the User with an Agreement License and the User "
-#| "accepts the License, all this under the terms and conditions stated in "
-#| "these Terms of Service."
 msgid ""
 "The Provider presents the User with a License Agreement and the User accepts "
 "this License Agreement, all this under the terms and conditions stated in "
 "these Terms of Service."
-msgstr ""
-"供應商授予「使用者」「契約授權」且「使用者」接受許可，全都根據這些「服務條"
-"款」規定的條款與細則進行。"
+msgstr "供應商提供「使用者」「契約授權」，且「使用者」接受授權協議，所有全都根據這些「服務條款」所規定的條款與細則進行。"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:82
 msgid ""
