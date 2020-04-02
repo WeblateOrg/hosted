@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-04-02 15:37+0000\n"
+"PO-Revision-Date: 2020-04-02 16:29+0000\n"
 "Last-Translator: Chang-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "weblate/hosted/zh_Hant/>\n"
@@ -652,16 +652,7 @@ msgstr ""
 "如果「使用者」是企業家，其在此明確放棄其損害賠償權利，即「供應商」因非蓄意違反本服務條款中包含的任何義務，或「供應商」因使用本服務而導致「使用者」的損害。"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:101
-#, fuzzy, python-format
-#| msgid ""
-#| "Within the meaning of Article 5 (2) of Act No. %(law_101_2000)s Coll., on "
-#| "personal data protection, as amended, the User hereby gives his consent "
-#| "with the collecting, storage and processing of the Personal Data provided "
-#| "by the User to the administrator, who is the Provider, through the use of "
-#| "the Service; the User gives his consent with the processing and use of "
-#| "his Personal Data by the Provider, his employees and/or his authorised "
-#| "business partners. This consent is given as long as User does not remove "
-#| "his account from the Service."
+#, python-format
 msgid ""
 "Within the meaning of <a href=\"%(url)s\">Article 7</a> of the GDPR the User "
 "hereby gives consent to the collecting, storage and processing of the "
@@ -672,10 +663,9 @@ msgid ""
 "This consent is given as long as User does not remove their account from the "
 "Service."
 msgstr ""
-"在經修訂的關於個人資料保護的第%(law_101_2000)s號法令第5 (2) 條的含義範圍內，"
-"使用者在此同意收集、存儲和處理使用者提供給管理員的個人資料，管理員是供應商, "
-"通過使用服務;使用者同意供應商、其員工和/或其授權的業務合作夥伴處理和使用其個"
-"人資料。只要使用者不從服務中刪除其帳戶，就會給予此同意。"
+"修訂的個人資料保護法<a href=\"%(url)s\">第7條</a>的含義範圍內，「使用者」在此同意，透過使用該「服務」，管理員可收集、存儲和處理使"
+"用者的個人資料，管理員即是「供應商」；使用者同意供應商、其員工和/或其授權的業務合作夥伴處理和使用其個人資料。只要使用者不從服務中刪除其帳號，即給予此同意"
+"。"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:103
 #, python-format
@@ -692,35 +682,22 @@ msgstr ""
 "發送商業通信經修訂的資訊社會，並進一步為供應商的合同合作夥伴的行銷和業務需求，以及供應商的統計和行銷目的。"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:105
-#, fuzzy
-#| msgid ""
-#| "If the User directly and effectively informs the Provider that he no "
-#| "longer wishes to receive business information from the Provider, the "
-#| "Provider shall refrain from sending further unsolicited business "
-#| "communications."
 msgid ""
 "If the User directly and effectively informs the Provider of no longer "
 "wishing to receive business information from the Provider, the Provider "
 "shall refrain from sending further unsolicited business communications."
-msgstr ""
-"如果使用者直接有效地通知供應商，他不再希望從供應商處接收商務資訊，則供應商應"
-"避免發送更多未經請求的業務通信。"
+msgstr "如果「使用者」直接有效地通知「供應商」，他不再希望從供應商處接收商務資訊，則供應商應避免發送更多未經請求的業務通信。"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:109
-#, fuzzy, python-format
-#| msgid ""
-#| "The User declares that he/she is aware of his/her rights under Article 12 "
-#| "and Article 21 of the Personal Data Protection Act and declares that all "
-#| "the Personal Data are accurate and true and have been provided "
-#| "voluntarily."
+#, python-format
 msgid ""
 "The User declares awareness of own rights under <a href=\"%(url_15)s"
 "\">Article 15</a> and <a href=\"%(url_17)s\">Article 17</a> of the GDPR and "
 "declares that all the Personal Data is accurate and true and has been "
 "provided voluntarily."
 msgstr ""
-"使用者聲明，她/他知道的權她/他利，根據第12條和第21條，她/他的個人資料保護法，"
-"並宣佈所有個人資料是準確和真實的, 並已自願提供。"
+"「使用者」依據個人資料保護法<a href=\"%(url_15)s\">第15條</a>和<a href=\"%(url_17)s\""
+">第17條</a>聲明其自己的權利，並聲明所有個人資料皆準確、真實，且是自願提供。"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:111
 msgid ""
@@ -775,14 +752,10 @@ msgstr ""
 "可。"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:126
-#, fuzzy
-#| msgid ""
-#| "The User agrees to the license Project has specified upon contributing to "
-#| "the Project."
 msgid ""
 "The User agrees, upon contributing to a Project, to the license the Project "
 "has specified."
-msgstr "「使用者」同意專案在貢獻專案時指定的授權。"
+msgstr "「使用者」同意，對於貢獻專案時，其所指定的授權。"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:128
 msgid ""
@@ -903,6 +876,10 @@ msgid ""
 "Your payment on weblate.org is pending. Please follow the provided\n"
 "instructions to complete the payment.\n"
 msgstr ""
+"敬啟者\n"
+"\n"
+"您在 weblate.org 上的消費支付仍處於未完狀態。請遵照下列\n"
+"提供的指示完成付款。\n"
 
 #: wlhosted/payments/backends.py:335
 msgid "Payment card"
@@ -922,27 +899,27 @@ msgstr "比特幣"
 
 #: wlhosted/payments/backends.py:434
 msgid "IBAN bank transfer"
-msgstr ""
+msgstr "IBAN 銀行電匯"
 
 #: wlhosted/payments/backends.py:464
 msgid "Issuing bank"
-msgstr ""
+msgstr "發行銀行"
 
 #: wlhosted/payments/backends.py:465
 msgid "Account holder"
-msgstr ""
+msgstr "帳號持有人"
 
 #: wlhosted/payments/backends.py:466
 msgid "Account number"
-msgstr ""
+msgstr "帳號"
 
 #: wlhosted/payments/backends.py:467
 msgid "SWIFT code"
-msgstr ""
+msgstr "SWIFT 代碼"
 
 #: wlhosted/payments/backends.py:468
 msgid "IBAN"
-msgstr ""
+msgstr "IBAN"
 
 #: wlhosted/payments/backends.py:469
 msgid "Reference"
@@ -1015,7 +992,7 @@ msgstr "{} 與國家的 VAT ID 規格不符。"
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
-msgstr ""
+msgstr "{} 的 VAT ID 驗證服務無法使用，請稍後重試。"
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
