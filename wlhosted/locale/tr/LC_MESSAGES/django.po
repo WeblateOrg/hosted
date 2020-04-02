@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-03-30 11:51+0000\n"
+"PO-Revision-Date: 2020-04-02 15:29+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/weblate/hosted/"
 "tr/>\n"
@@ -57,7 +57,7 @@ msgstr "Yeni faturalandırma planı"
 
 #: wlhosted/integrations/templates/hosted/create.html:19
 msgid "Please choose a hosting plan that fits the size of your project."
-msgstr "Projenizin büyüklüğüne uygun bir hosting planı seçiniz."
+msgstr "Projenizin büyüklüğüne uygun bir barındırma planı seçin."
 
 #: wlhosted/integrations/templates/hosted/create.html:25
 msgid "Current billing status"
@@ -1042,7 +1042,7 @@ msgstr "Avrupa KDV Kimliği"
 #: wlhosted/payments/models.py:85
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
-"Lütfen Avrupa Birliği KDV numaranızı doldurun, uygun değilse boş bırakın."
+"Lütfen Avrupa Birliği KDV Kimliğini doldurun, uygun değilse boş bırakın."
 
 #: wlhosted/payments/models.py:91
 msgid "Tax registration"
@@ -1100,12 +1100,12 @@ msgstr ""
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr "{} ülkenin KDV Numarası özelliklerine uymuyor."
+msgstr "{} ülkenin KDV Kimliği özelliklerine uymuyor."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
-"{} İçin kullanılamayan KDV Kimlik doğrulama servisi, lütfen daha sonra "
+"{} İçin kullanılamayan KDV Kimliği doğrulama hizmeti, lütfen daha sonra "
 "tekrar deneyin."
 
 #: wlhosted/payments/validators.py:53
