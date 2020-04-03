@@ -4,13 +4,14 @@
 # Weblate <noreply@weblate.org>, 2019.
 # WWWesten <wwwesten@gmail.com>, 2019.
 # Michal Čihař <michal@cihar.com>, 2020.
+# Allan Nordhøy <epost@anotheragency.no>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-03-15 02:37+0000\n"
-"Last-Translator: Michal Čihař <michal@cihar.com>\n"
+"PO-Revision-Date: 2020-04-03 19:36+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Kazakh <https://hosted.weblate.org/projects/weblate/hosted/kk/"
 ">\n"
 "Language: kk\n"
@@ -1024,8 +1025,8 @@ msgid ""
 "uses cookies."
 msgstr ""
 "Paıdalanýshy, Elektrondy baılanys týraly (ózgeristerimen) Zań № "
-"%(law_480_2004)s Zańdar jınaǵy, 89-babynyń maǵynasy boıynsha  Qyzmette "
-"cookie-faıldary paıdalanatyna habardar."
+"%(law_480_2004)s Zańdar jınaǵy, 89-babynyń maǵynasy boıynsha Qyzmette cookie-"
+"faıldary paıdalanatyna habardar."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:135
 #, fuzzy
