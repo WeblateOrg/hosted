@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-03-09 09:16+0000\n"
+"PO-Revision-Date: 2020-04-07 01:40+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/weblate/hosted/"
 "hr/>\n"
@@ -184,7 +184,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:9
 msgid "Personal Data Controller"
-msgstr "Kontroler osobnih podataka"
+msgstr "Nadzornik za osobne podatke"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:12
 #, python-format
@@ -217,8 +217,8 @@ msgstr "Ime i e-adresa"
 #: wlhosted/legal/templates/legal/documents/privacy.html:26
 msgid "These are used to identify you in the VCS commits"
 msgstr ""
-"Koriste se kako bi te se identificiralo u objavama promjena u sustavu za "
-"kontrolu verzija"
+"Koriste se kako bi te se identificiralo u izmjenama u sustavu za kontrolu "
+"verzija"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:27
 msgid "Additionally, e-mail is used for notification of watched events"
@@ -439,8 +439,8 @@ msgid ""
 "Your name and e-mail address is used in VCS commits, it will stay there "
 "indefinitely."
 msgstr ""
-"Tvoje ime i e-adresa koriste se za objave promjena u sustavu za kontrolu "
-"verzija. Tamo će ostati zauvijek."
+"Tvoje ime i e-adresa koriste se za izmjene u sustavu za kontrolu verzija. "
+"Tamo će ostati zauvijek."
 
 #: wlhosted/legal/templates/legal/documents/summary.html:9
 msgid "We use cookies to deliver our services."
@@ -864,7 +864,7 @@ msgid ""
 "commits. The User understands that this grant is non revocable due to nature "
 "of the VCS."
 msgstr ""
-"Korisnik pristaje na korištenje vlastitog imena i e-adrese kao autorstva u "
+"Korisnik pristaje koristiti vlastito ime i e-adresu kao autorstvo izmjena u "
 "sustavu za kontrolu verzija. Korisnik shvaća da se ova dozvola ne može "
 "opozvati zbog same prirode sustava za kontrolu verzija."
 
