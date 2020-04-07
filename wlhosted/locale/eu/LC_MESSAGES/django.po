@@ -5,13 +5,14 @@
 # Michal Čihař <michal@cihar.com>, 2019.
 # anonymous <noreply@weblate.org>, 2019.
 # S <sendoasojo@gmail.com>, 2019.
+# BiziA <adrianpena.hf@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2019-11-27 07:08+0000\n"
-"Last-Translator: S <sendoasojo@gmail.com>\n"
+"PO-Revision-Date: 2020-04-07 13:56+0000\n"
+"Last-Translator: BiziA <adrianpena.hf@gmail.com>\n"
 "Language-Team: Basque <https://hosted.weblate.org/projects/weblate/hosted/eu/"
 ">\n"
 "Language: eu\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10-dev\n"
+"X-Generator: Weblate 4.0-dev\n"
 
 #: wlhosted/addons.py:37 wlhosted/addons.py:38
 msgid "Generate Unknown Horizons scenario data"
@@ -818,120 +819,124 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:335
 msgid "Payment card"
-msgstr ""
+msgstr "Ordainketa-txartela"
 
 #: wlhosted/payments/backends.py:411
 msgid "Payment cancelled"
-msgstr ""
+msgstr "Ordainketa ezeztatu da"
 
 #: wlhosted/payments/backends.py:413
 msgid "Payment error"
-msgstr ""
+msgstr "Ordainketa-errorea"
 
 #: wlhosted/payments/backends.py:425
 msgid "Bitcoin"
-msgstr ""
+msgstr "Bitcoin"
 
 #: wlhosted/payments/backends.py:434
 msgid "IBAN bank transfer"
-msgstr ""
+msgstr "IBAN banku-transferentzia"
 
 #: wlhosted/payments/backends.py:464
 msgid "Issuing bank"
-msgstr ""
+msgstr "Banku jaulkitzailea"
 
 #: wlhosted/payments/backends.py:465
 msgid "Account holder"
-msgstr ""
+msgstr "Kontuaren titularra"
 
 #: wlhosted/payments/backends.py:466
 msgid "Account number"
-msgstr ""
+msgstr "Kontu-zenbakia"
 
 #: wlhosted/payments/backends.py:467
 msgid "SWIFT code"
-msgstr ""
+msgstr "SWIFT kodea"
 
 #: wlhosted/payments/backends.py:468
 msgid "IBAN"
-msgstr ""
+msgstr "IBAN"
 
 #: wlhosted/payments/backends.py:469
 msgid "Reference"
-msgstr ""
+msgstr "Erreferentzia"
 
 #: wlhosted/payments/models.py:83
 msgid "European VAT ID"
-msgstr ""
+msgstr "Europako BEZaren ID"
 
 #: wlhosted/payments/models.py:85
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
+"Mesedez, bete Europar Batasuneko BEZaren zenbakia, hutsik utzi aplikagarria "
+"ez bada."
 
 #: wlhosted/payments/models.py:91
 msgid "Tax registration"
-msgstr ""
+msgstr "Zergen erregistroa"
 
 #: wlhosted/payments/models.py:93
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
-msgstr ""
+msgstr "Mesedez, bete zure zerga-erregistroa fakturan agertu behar bada."
 
 #: wlhosted/payments/models.py:100
 msgid "Company or individual name"
-msgstr ""
+msgstr "Enpresaren edo autonomoaren izena"
 
 #: wlhosted/payments/models.py:103
 msgid "Address"
-msgstr ""
+msgstr "Helbidea"
 
 #: wlhosted/payments/models.py:106
 msgid "Postcode and city"
-msgstr ""
+msgstr "Posta kodea eta hiria"
 
 #: wlhosted/payments/models.py:108
 msgid "Country"
-msgstr ""
+msgstr "Herrialdea"
 
 #: wlhosted/payments/models.py:136
 msgid "The country has to match your VAT code"
-msgstr ""
+msgstr "Herrialdeak bat etorri behar du BEZaren kodearekin"
 
 #: wlhosted/payments/models.py:159
 msgid "Annual"
-msgstr ""
+msgstr "Urtekoa"
 
 #: wlhosted/payments/models.py:160
 msgid "Biannual"
-msgstr ""
+msgstr "Sei hilean behin"
 
 #: wlhosted/payments/models.py:161
 msgid "Quarterly"
-msgstr ""
+msgstr "Hiruhilekoa"
 
 #: wlhosted/payments/models.py:162
 msgid "Monthly"
-msgstr ""
+msgstr "Hilabetekoa"
 
 #: wlhosted/payments/models.py:163
 msgid "Onetime"
-msgstr ""
+msgstr "Behin"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
-msgstr ""
+msgstr "{} ez da Europar Batasuneko inongo herrialdetarako balio duen kodea."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr ""
+msgstr "{} ez dator bat herrialdeko BEZaren identifikazioaren zehaztapenekin."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
+"BEZaren identifikatzailea baliozkotzeko zerbitzua ez dago erabilgarri "
+"{}-(e)ntzat; saiatu berriro geroago."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr ""
+msgstr "{} BEZ-aren zenbakia ez da baliozkoa."
 
 #~ msgid "Repositories limit"
 #~ msgstr "Biltegien muga"
