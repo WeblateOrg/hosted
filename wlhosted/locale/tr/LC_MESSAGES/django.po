@@ -7,13 +7,14 @@
 # Burak Yavuz <hitowerdigit@hotmail.com>, 2019, 2020.
 # Ali Demirtas <alidemirtas94@gmail.com>, 2019.
 # Michal Čihař <michal@cihar.com>, 2020.
+# Oğuz Ersen <oguzersen@protonmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-04-02 15:29+0000\n"
-"Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
+"PO-Revision-Date: 2020-04-08 15:05+0000\n"
+"Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/weblate/hosted/"
 "tr/>\n"
 "Language: tr\n"
@@ -81,7 +82,7 @@ msgstr "Mevcut plan"
 
 #: wlhosted/integrations/templates/hosted/create.html:55
 msgid "Strings limit"
-msgstr "Satır sınırı"
+msgstr "Dizgi sınırı"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 #: wlhosted/integrations/templates/hosted/create.html:59
@@ -124,8 +125,8 @@ msgid ""
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
-"Fiyatlandırma, kaynak satırların sayısına ve hedef dillere dayanmaktadır. "
-"Kaynak satır, çeviri biçiminde tanımlanan bir metin birimidir, bir sözcük, "
+"Fiyatlandırma, kaynak dizgilerinin sayısına ve hedef dillere dayanmaktadır. "
+"Kaynak dizgi, çeviri biçiminde tanımlanan bir metin birimidir, bir sözcük, "
 "tümce veya paragraf olabilir."
 
 #: wlhosted/integrations/templates/hosted/create.html:98
