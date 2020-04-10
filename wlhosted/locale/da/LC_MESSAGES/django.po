@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-02-18 18:32+0000\n"
+"PO-Revision-Date: 2020-04-10 18:03+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/weblate/hosted/da/"
 ">\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11\n"
+"X-Generator: Weblate 4.0-dev\n"
 
 #: wlhosted/addons.py:37 wlhosted/addons.py:38
 msgid "Generate Unknown Horizons scenario data"
@@ -111,7 +111,7 @@ msgstr "%(price)s EUR / måned"
 #: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
 msgid "%(price)s EUR including VAT"
-msgstr ""
+msgstr "%(price)s EUR med moms"
 
 #: wlhosted/integrations/templates/hosted/create.html:83
 #, python-format
@@ -198,12 +198,9 @@ msgid "Personal Data processed by Weblate"
 msgstr "Personlig data som behandlet af Weblate"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:20
-#, fuzzy
-#| msgid "We process only Personal Data User provides us by using our service:"
 msgid "Weblate only processes Personal Data the User provides by using it:"
 msgstr ""
-"Vi behandler kun personlig data som brugerne giver os under brug af vores "
-"tjeneste:"
+"Weblate behandler kun personlig data som brugerne giver under brug af det:"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:25
 msgid "Name and e-mail"
@@ -300,10 +297,8 @@ msgid "Persons which are contracted for technical assurance of the service."
 msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:59
-#, fuzzy
-#| msgid "Failed to process form!"
 msgid "Payment processors."
-msgstr "Kunne ikke behandle formular!"
+msgstr "Betalingsprocesser."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:62
 msgid "All Personal Data is stored in the European Union."
@@ -363,10 +358,8 @@ msgid "Restrict the Personal Data processing"
 msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:82
-#, fuzzy
-#| msgid "Languages processing"
 msgid "Object to processing"
-msgstr "Behandling af sprog"
+msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:83
 msgid ""
@@ -536,12 +529,8 @@ msgid "Project"
 msgstr "Projekt"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:55
-#, fuzzy
-#| msgid ""
-#| "However, the following translation projects are available on this server:"
 msgid "means translation project operated on the Service"
-msgstr ""
-"Der er dog følgende oversættelsesprojekter tilgængelige på denne server:"
+msgstr "betyder oversættelsesprojekt som opererer på tjenesten"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:57
 msgid "Service"
@@ -794,7 +783,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:188
 msgid "Your payment on weblate.org"
-msgstr ""
+msgstr "Din betaling på weblate.org"
 
 #: wlhosted/payments/backends.py:190
 #, python-format
@@ -811,7 +800,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:216
 msgid "Your payment on weblate.org failed"
-msgstr ""
+msgstr "Din betaling på weblate.org mislykkedes"
 
 #: wlhosted/payments/backends.py:218
 #, python-format
@@ -832,7 +821,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:251
 msgid "Your pending payment on weblate.org"
-msgstr ""
+msgstr "Din afventende betaling på weblate.org"
 
 #: wlhosted/payments/backends.py:253
 msgid ""
@@ -848,7 +837,7 @@ msgstr "Betalingskort"
 
 #: wlhosted/payments/backends.py:411
 msgid "Payment cancelled"
-msgstr ""
+msgstr "Betaling annulleret"
 
 #: wlhosted/payments/backends.py:413
 msgid "Payment error"
@@ -884,7 +873,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:469
 msgid "Reference"
-msgstr ""
+msgstr "Reference"
 
 #: wlhosted/payments/models.py:83
 msgid "European VAT ID"
