@@ -1,11 +1,12 @@
 # anonymous <noreply@weblate.org>, 2019.
+# Selyan Sliman Amiri <selyan.kab@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2019-09-21 01:17+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2020-04-12 16:02+0000\n"
+"Last-Translator: Selyan Sliman Amiri <selyan.kab@gmail.com>\n"
 "Language-Team: Kabyle <https://hosted.weblate.org/projects/weblate/hosted/"
 "kab/>\n"
 "Language: kab\n"
@@ -13,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.9-dev\n"
+"X-Generator: Weblate 4.0-dev\n"
 
 #: wlhosted/addons.py:37 wlhosted/addons.py:38
 msgid "Generate Unknown Horizons scenario data"
@@ -29,7 +30,7 @@ msgstr ""
 
 #: wlhosted/integrations/forms.py:35
 msgid "Billing"
-msgstr ""
+msgstr "After"
 
 #: wlhosted/integrations/forms.py:36
 msgid "Choose the billing plan you want to update"
@@ -154,7 +155,7 @@ msgstr ""
 
 #: wlhosted/integrations/views.py:93
 msgid "Unknown reason"
-msgstr ""
+msgstr "Taγẓint tarussint"
 
 #: wlhosted/integrations/views.py:110
 msgid "Payments are temporarily inactive."
@@ -415,16 +416,12 @@ msgid ""
 msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:20
-#, fuzzy
-#| msgid "Description"
 msgid "Definitions"
-msgstr "Aglam"
+msgstr "Tabadut"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:22
-#, fuzzy
-#| msgid "Terms of Service"
 msgid "In these Terms of Service:"
-msgstr "Tiwtilin n useqdec"
+msgstr "Deg tiwtilin-a n useqdec"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:26
 msgid "Agreement"
@@ -491,7 +488,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:45
 msgid "Provider"
-msgstr ""
+msgstr "Fournisseur"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:46
 #, python-format
@@ -514,7 +511,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:51
 msgid "Owner"
-msgstr ""
+msgstr "Bab"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:52
 msgid "means the User who can manage Project"
@@ -541,10 +538,8 @@ msgid ""
 msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:60
-#, fuzzy
-#| msgid "Translation"
 msgid "Translation Memory"
-msgstr "Tasuqilt"
+msgstr "Takatut n tsuqqilt"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:61
 msgid "means the optional translation memory service provided within Weblate"
@@ -582,7 +577,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:76
 msgid "License Agreement"
-msgstr ""
+msgstr "Amtawa n turagt"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:78
 msgid ""
@@ -774,7 +769,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:145
 msgid "Effect"
-msgstr ""
+msgstr "Isemda"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:147
 msgid ""
@@ -846,7 +841,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:425
 msgid "Bitcoin"
-msgstr ""
+msgstr "Bitcoin"
 
 #: wlhosted/payments/backends.py:434
 msgid "IBAN bank transfer"
@@ -874,7 +869,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:469
 msgid "Reference"
-msgstr ""
+msgstr "Tamsisɣelt"
 
 #: wlhosted/payments/models.py:83
 msgid "European VAT ID"
@@ -899,7 +894,7 @@ msgstr ""
 
 #: wlhosted/payments/models.py:103
 msgid "Address"
-msgstr ""
+msgstr "Adresse"
 
 #: wlhosted/payments/models.py:106
 msgid "Postcode and city"
@@ -907,7 +902,7 @@ msgstr ""
 
 #: wlhosted/payments/models.py:108
 msgid "Country"
-msgstr ""
+msgstr "Country"
 
 #: wlhosted/payments/models.py:136
 msgid "The country has to match your VAT code"
@@ -927,7 +922,7 @@ msgstr ""
 
 #: wlhosted/payments/models.py:162
 msgid "Monthly"
-msgstr ""
+msgstr "Yal aggur"
 
 #: wlhosted/payments/models.py:163
 msgid "Onetime"
