@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-04-02 15:29+0000\n"
+"PO-Revision-Date: 2020-04-13 05:25+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/weblate/hosted/fr/"
 ">\n"
@@ -57,7 +57,7 @@ msgstr "Nouveau plan de facturation"
 #: wlhosted/integrations/templates/hosted/create.html:19
 msgid "Please choose a hosting plan that fits the size of your project."
 msgstr ""
-"Veuillez choisir un plan d’hébergement adapté à la taille de votre projet."
+"Veuillez choisir une offre d’hébergement adaptée à la taille de votre projet."
 
 #: wlhosted/integrations/templates/hosted/create.html:25
 msgid "Current billing status"
@@ -73,11 +73,11 @@ msgstr "Trop petit"
 
 #: wlhosted/integrations/templates/hosted/create.html:48
 msgid "Selected plan"
-msgstr "Sélectionner un plan"
+msgstr "Offre sélectionnée"
 
 #: wlhosted/integrations/templates/hosted/create.html:50
 msgid "Current plan"
-msgstr "Plan actuel"
+msgstr "Offre actuelle"
 
 #: wlhosted/integrations/templates/hosted/create.html:55
 msgid "Strings limit"
@@ -153,15 +153,16 @@ msgstr "Aucun paiement correspondant."
 #: wlhosted/integrations/views.py:77
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr ""
-"Nous vous remercions pour l’achat d’un plan d’hébergement, il a été activé."
+"Nous vous remercions pour l’achat d’une offre d’hébergement, elle a été "
+"activée."
 
 #: wlhosted/integrations/views.py:84
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
-"Nous vous remercions pour l’achat d’un plan d’hébergement, son règlement est "
-"en attente et sera traité en arrière-plan."
+"Nous vous remercions pour l’achat d’une offre d’hébergement, son règlement "
+"est en attente et sera traité en arrière-plan."
 
 #: wlhosted/integrations/views.py:92
 msgid "The payment was rejected: {}"
