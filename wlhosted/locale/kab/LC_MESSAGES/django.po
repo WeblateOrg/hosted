@@ -1,12 +1,13 @@
 # anonymous <noreply@weblate.org>, 2019.
 # Selyan Sliman Amiri <selyan.kab@gmail.com>, 2020.
+# Muḥend Belqasem <belkacem77@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-04-12 16:02+0000\n"
-"Last-Translator: Selyan Sliman Amiri <selyan.kab@gmail.com>\n"
+"PO-Revision-Date: 2020-04-15 20:53+0000\n"
+"Last-Translator: Muḥend Belqasem <belkacem77@gmail.com>\n"
 "Language-Team: Kabyle <https://hosted.weblate.org/projects/weblate/hosted/"
 "kab/>\n"
 "Language: kab\n"
@@ -81,7 +82,7 @@ msgstr "Talast n izriren"
 #: wlhosted/integrations/templates/hosted/create.html:62
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Unlimited"
-msgstr ""
+msgstr "War talast"
 
 #: wlhosted/integrations/templates/hosted/create.html:58
 msgid "Languages limit"
@@ -122,18 +123,22 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:98
 msgid "All listed prices exclude VAT."
-msgstr ""
+msgstr "Meṛṛa tasqamt war tabzert VAT."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
+"Iseqdacen n tiddukla n turuft akked tkebbaniyin n Čik ad asen-d tesqam summa-"
+"nniḍen n 21%% n tebzert VAT."
 
 #: wlhosted/integrations/templates/hosted/create.html:100
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
+"Tasqamut yettin ad tettwasemres i tfaturin i d-yeffɣen, deg tkebbaniyin n "
+"tiddukla n turuft."
 
 #: wlhosted/integrations/views.py:69
 msgid "No matching payment found."
@@ -151,7 +156,7 @@ msgstr ""
 
 #: wlhosted/integrations/views.py:92
 msgid "The payment was rejected: {}"
-msgstr ""
+msgstr "Lexlaṣ ur iɛedda ara: {}"
 
 #: wlhosted/integrations/views.py:93
 msgid "Unknown reason"
@@ -233,7 +238,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:35
 msgid "Billing information"
-msgstr ""
+msgstr "Talɣut n ufter"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:36
 msgid ""
@@ -401,13 +406,15 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:10
 msgid "View English version"
-msgstr ""
+msgstr "Sken lqem s teglizit"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:11
 msgid ""
 "The Terms of Service document is authoritative in English, translations are "
 "provided for your convenience."
 msgstr ""
+"Isemli n tewtilin n umeẓlu yettwasegza-d s teglizit, tisuqilin ttunefkent-d "
+"i kečč akken ad tent-tesqedced."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:17
 msgid ""
@@ -488,7 +495,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:45
 msgid "Provider"
-msgstr "Fournisseur"
+msgstr "Asaǧǧaw"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:46
 #, python-format
@@ -779,7 +786,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:188
 msgid "Your payment on weblate.org"
-msgstr ""
+msgstr "Lexlaṣ-ik deg weblate.org"
 
 #: wlhosted/payments/backends.py:190
 #, python-format
@@ -796,7 +803,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:216
 msgid "Your payment on weblate.org failed"
-msgstr ""
+msgstr "Lexlaṣ-ik deg weblate.org yecceḍ"
 
 #: wlhosted/payments/backends.py:218
 #, python-format
@@ -817,7 +824,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:251
 msgid "Your pending payment on weblate.org"
-msgstr ""
+msgstr "Lexlaṣ-ik yettraǧu deg weblate.org"
 
 #: wlhosted/payments/backends.py:253
 msgid ""
@@ -829,15 +836,15 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:335
 msgid "Payment card"
-msgstr ""
+msgstr "Takarḍa n lexlaṣ"
 
 #: wlhosted/payments/backends.py:411
 msgid "Payment cancelled"
-msgstr ""
+msgstr "Lexlaṣ yefsex"
 
 #: wlhosted/payments/backends.py:413
 msgid "Payment error"
-msgstr ""
+msgstr "Tuccḍa n lexlaṣ"
 
 #: wlhosted/payments/backends.py:425
 msgid "Bitcoin"
@@ -845,27 +852,27 @@ msgstr "Bitcoin"
 
 #: wlhosted/payments/backends.py:434
 msgid "IBAN bank transfer"
-msgstr ""
+msgstr "Asiweḍ n tbankat IBAN"
 
 #: wlhosted/payments/backends.py:464
 msgid "Issuing bank"
-msgstr ""
+msgstr "Tabankat tamazant"
 
 #: wlhosted/payments/backends.py:465
 msgid "Account holder"
-msgstr ""
+msgstr "Bab n umiḍan"
 
 #: wlhosted/payments/backends.py:466
 msgid "Account number"
-msgstr ""
+msgstr "Uṭṭun n umiḍan"
 
 #: wlhosted/payments/backends.py:467
 msgid "SWIFT code"
-msgstr ""
+msgstr "Tangalt SWIFT"
 
 #: wlhosted/payments/backends.py:468
 msgid "IBAN"
-msgstr ""
+msgstr "IBAN"
 
 #: wlhosted/payments/backends.py:469
 msgid "Reference"
@@ -873,24 +880,26 @@ msgstr "Tamsisɣelt"
 
 #: wlhosted/payments/models.py:83
 msgid "European VAT ID"
-msgstr ""
+msgstr "Asulay VAT n Turuft"
 
 #: wlhosted/payments/models.py:85
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
+"Ttxil-k mudd-d asulay VAT n turuft, eǧǧ-it d ilem ma yella ur yettwasemras "
+"ara."
 
 #: wlhosted/payments/models.py:91
 msgid "Tax registration"
-msgstr ""
+msgstr "Uṭṭun n tebzert"
 
 #: wlhosted/payments/models.py:93
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
-msgstr ""
+msgstr "Ttxil-k mudd-d asekles n tebzert ma yella ilaq ad tban deg tfaturt."
 
 #: wlhosted/payments/models.py:100
 msgid "Company or individual name"
-msgstr ""
+msgstr "Isem n tkebbanit neɣ isem-ik"
 
 #: wlhosted/payments/models.py:103
 msgid "Address"
@@ -898,27 +907,27 @@ msgstr "Adresse"
 
 #: wlhosted/payments/models.py:106
 msgid "Postcode and city"
-msgstr ""
+msgstr "Tangalt n tnazant neɣ aɣrem"
 
 #: wlhosted/payments/models.py:108
 msgid "Country"
-msgstr "Country"
+msgstr "Tamurt"
 
 #: wlhosted/payments/models.py:136
 msgid "The country has to match your VAT code"
-msgstr ""
+msgstr "Tamurt ur temṣada ara akked tengalt-ik VAT"
 
 #: wlhosted/payments/models.py:159
 msgid "Annual"
-msgstr ""
+msgstr "S useggas"
 
 #: wlhosted/payments/models.py:160
 msgid "Biannual"
-msgstr ""
+msgstr "S sin n yiseggasen"
 
 #: wlhosted/payments/models.py:161
 msgid "Quarterly"
-msgstr ""
+msgstr "Yal tlata n wagguren"
 
 #: wlhosted/payments/models.py:162
 msgid "Monthly"
@@ -926,23 +935,23 @@ msgstr "Yal aggur"
 
 #: wlhosted/payments/models.py:163
 msgid "Onetime"
-msgstr ""
+msgstr "Tikkelt"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
-msgstr ""
+msgstr "{} mačči d tangalt n tmurṭ tameɣtut n yiɛeggalen n tiddukla n turuft."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr ""
+msgstr "{} ur imṣada ara d yilugan VAT n tmurt."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
-msgstr ""
+msgstr "Ameẓlu n usenqed n usulay n VAT ulac-it i {}, ttxil-k ɛreḍ ticki."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr ""
+msgstr "{} mačči d asulay n tebzert VAT ameɣtu."
 
 #~ msgid "Repositories limit"
 #~ msgstr "Talast n ikufan"
