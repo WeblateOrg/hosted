@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-02-29 14:58+0000\n"
+"PO-Revision-Date: 2020-04-15 20:53+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/weblate/hosted/"
 "es/>\n"
@@ -152,7 +152,7 @@ msgstr "No se ha encontrado ningún pago equivalente."
 
 #: wlhosted/integrations/views.py:77
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr "Gracias por comprar un plan de almacenamiento, ahora está activo."
+msgstr "Gracias por comprar un plan de almacenamiento; ya está activo."
 
 #: wlhosted/integrations/views.py:84
 msgid ""
@@ -262,7 +262,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:40
 msgid "Purpose and legal basis of processing Personal Data"
-msgstr "Proposito y bases legales para el procesamiento de Datos Personales"
+msgstr "Propósito y marco jurídico para el procesamiento de datos personales"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:42
 msgid "Your Personal Data will be used for the purposes of the Service:"
