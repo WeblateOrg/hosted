@@ -104,4 +104,5 @@ def propagate_user_changes(sender, instance, **kwargs):
     for field in ("username", "last_name", "email"):
         if getattr(old, field) != getattr(instance, field):
             changed[field] = getattr(instance, field)
-    notify_user_change.delay(old.username, changed)
+    if changed or old.password != instance.password:
+        notify_user_change.delay(old.username, changed)
