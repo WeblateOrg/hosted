@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-04-15 20:53+0000\n"
+"PO-Revision-Date: 2020-04-16 07:03+0000\n"
 "Last-Translator: Muḥend Belqasem <belkacem77@gmail.com>\n"
 "Language-Team: Kabyle <https://hosted.weblate.org/projects/weblate/hosted/"
 "kab/>\n"
@@ -47,7 +47,7 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:16
 msgid "New billing plan"
-msgstr ""
+msgstr "Aɣawas n ufter"
 
 #: wlhosted/integrations/templates/hosted/create.html:19
 msgid "Please choose a hosting plan that fits the size of your project."
@@ -63,11 +63,11 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:46
 msgid "Too small"
-msgstr ""
+msgstr "Mecṭuḥ"
 
 #: wlhosted/integrations/templates/hosted/create.html:48
 msgid "Selected plan"
-msgstr ""
+msgstr "Yettwafren"
 
 #: wlhosted/integrations/templates/hosted/create.html:50
 msgid "Current plan"
@@ -89,8 +89,6 @@ msgid "Languages limit"
 msgstr "Talast n tutlayin"
 
 #: wlhosted/integrations/templates/hosted/create.html:61
-#, fuzzy
-#| msgid "Projects limit"
 msgid "Component limit"
 msgstr "Talast n isenfaṛen"
 
@@ -120,6 +118,9 @@ msgid ""
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
+"Ssuma tebna ɣef umḍan n yizriren iɣbula akked tutlayin yellan. Azrir aɣbalu "
+"d tayunt n uḍris yettusbadun deg umasal n tsuqilt, izmer ad yili d awal, d "
+"tafyirt neɣ d taseddaṛt. "
 
 #: wlhosted/integrations/templates/hosted/create.html:98
 msgid "All listed prices exclude VAT."
@@ -175,10 +176,8 @@ msgid ""
 msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:9
-#, fuzzy
-#| msgid "Versions"
 msgid "Personal Data Controller"
-msgstr "Ileqman"
+msgstr "Amsefrak n yisefka udmawanen"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:12
 #, python-format
@@ -193,20 +192,19 @@ msgid ""
 msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:17
-#, fuzzy
-#| msgid "Versions"
 msgid "Personal Data processed by Weblate"
-msgstr "Ileqman"
+msgstr "Isefka udmawanen ttwasesfren sɣur Weblate"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:20
 msgid "Weblate only processes Personal Data the User provides by using it:"
 msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:25
-#, fuzzy
-#| msgid "Username or email"
 msgid "Name and e-mail"
-msgstr "Isem n useqdac neɣ tansa imayl"
+msgstr ""
+"S ujerred, ad tqebleḍ ad nseqdec isem-ik akked tansa-ik n yimayl deg udegger "
+"ɣer unagraw n usefrek n yileqman daɣen ad tmuddeḍ attekki-ik s turagt "
+"yettusbadun deg yal asenfaṛ n tsuqilt."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:26
 msgid "These are used to identify you in the VCS commits"
@@ -217,8 +215,6 @@ msgid "Additionally, e-mail is used for notification of watched events"
 msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:29
-#, fuzzy
-#| msgid "Password has been changed."
 msgid "Password in hashed form"
 msgstr "Awal uffir ibeddel."
 
@@ -323,10 +319,8 @@ msgid ""
 msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:70
-#, fuzzy
-#| msgid "Your profile"
 msgid "Your rights"
-msgstr "Amaɣnu-ik"
+msgstr "Izerfan-inek"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:72
 msgid ""
@@ -432,7 +426,7 @@ msgstr "Deg tiwtilin-a n useqdec"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:26
 msgid "Agreement"
-msgstr ""
+msgstr "Amtawa d tewtilin n umeẓlu {date}."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:27
 msgid ""
@@ -504,10 +498,8 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:48
 #: wlhosted/legal/templates/legal/documents/tos.html:98
-#, fuzzy
-#| msgid "Personal info"
 msgid "Personal Data"
-msgstr "Talɣut tudmawant"
+msgstr "Kkes tabdart n isefka udmawanen"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:49
 #, python-format
@@ -529,9 +521,6 @@ msgid "Project"
 msgstr "Asenfar"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:55
-#, fuzzy
-#| msgid ""
-#| "However the following translation projects are available on this server:"
 msgid "means translation project operated on the Service"
 msgstr "Acu kan, isenfaṛen-agi n tsuqilt llan ɣef uqeddac-agi:"
 
@@ -833,6 +822,8 @@ msgid ""
 "Your payment on weblate.org is pending. Please follow the provided\n"
 "instructions to complete the payment.\n"
 msgstr ""
+"Lexlaṣ-ik deg weblate.org yettṛaǧu. Ma ulac aɣilif ḍfeṛ iwellihen i d-"
+"yettunefkes akken ad tkemmleḍ lexlaṣ."
 
 #: wlhosted/payments/backends.py:335
 msgid "Payment card"
