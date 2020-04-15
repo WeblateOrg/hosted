@@ -20,6 +20,8 @@
 from appconf import AppConf
 from dateutil.relativedelta import relativedelta
 from django.db.models.aggregates import Max
+from django.db.models.signals import pre_save
+from django.dispatch.dispatcher import receiver
 from django.utils import timezone
 from weblate.auth.models import User
 from weblate.billing.models import Billing, Invoice, Plan
@@ -87,3 +89,17 @@ class HostedConf(AppConf):
 
     class Meta:
         prefix = "PAYMENT"
+
+
+@receiver(pre_save, sender=User)
+def propagate_user_changes(sender, instance, **kwargs):
+    from wlhosted.integrations.tasks import notify_user_change
+
+    if not instance.pk:
+        return
+    old = User.objects.get(pk=instance.pk)
+    changed = {}
+    for field in ("username", "last_name", "email"):
+        if getattr(old, field) != getattr(instance, field):
+            changed[field] = getattr(instance, field)
+    notify_user_change.delay(old.username, changed)

@@ -19,6 +19,9 @@
 
 from datetime import timedelta
 
+import requests
+from django.conf import settings
+from django.core.signing import dumps
 from django.db import transaction
 from django.utils import timezone
 from weblate.billing.models import Billing
@@ -61,6 +64,21 @@ def recurring_payments():
 
     # We have created bunch of pending payments, process them now
     pending_payments()
+
+
+@app.task
+def notify_user_change(username, changes):
+    response = requests.post(
+        "https://weblate.org/api/user/",
+        data={
+            "payload": dumps(
+                {"username": username, "changes": changes},
+                key=settings.PAYMENT_SECRET,
+                salt="weblate.user",
+            )
+        },
+    )
+    response.raise_for_status()
 
 
 @app.on_after_finalize.connect
