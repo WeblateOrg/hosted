@@ -25,6 +25,7 @@ from django.dispatch.dispatcher import receiver
 from django.utils import timezone
 from weblate.auth.models import User
 from weblate.billing.models import Billing, Invoice, Plan
+from weblate.utils.decorators import disable_for_loaddata
 
 from wlhosted.payments.models import Payment, get_period_delta
 
@@ -92,10 +93,11 @@ class HostedConf(AppConf):
 
 
 @receiver(pre_save, sender=User)
+@disable_for_loaddata
 def propagate_user_changes(sender, instance, **kwargs):
     from wlhosted.integrations.tasks import notify_user_change
 
-    if not instance.pk:
+    if not instance.pk or instance.is_anonymous:
         return
     old = User.objects.get(pk=instance.pk)
     changed = {}
