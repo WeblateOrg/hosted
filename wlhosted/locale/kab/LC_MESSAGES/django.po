@@ -6,8 +6,8 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-04-16 07:03+0000\n"
-"Last-Translator: Muḥend Belqasem <belkacem77@gmail.com>\n"
+"PO-Revision-Date: 2020-04-16 16:14+0000\n"
+"Last-Translator: Selyan Sliman Amiri <selyan.kab@gmail.com>\n"
 "Language-Team: Kabyle <https://hosted.weblate.org/projects/weblate/hosted/"
 "kab/>\n"
 "Language: kab\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.0-dev\n"
+"X-Generator: Weblate 4.0.1-dev\n"
 
 #: wlhosted/addons.py:37 wlhosted/addons.py:38
 msgid "Generate Unknown Horizons scenario data"
@@ -27,7 +27,7 @@ msgstr ""
 
 #: wlhosted/addons.py:61
 msgid "Reset all changes in the local repository"
-msgstr ""
+msgstr "Wennez akk ibeddilen deg ukufi adigan"
 
 #: wlhosted/integrations/forms.py:35
 msgid "Billing"
@@ -822,8 +822,10 @@ msgid ""
 "Your payment on weblate.org is pending. Please follow the provided\n"
 "instructions to complete the payment.\n"
 msgstr ""
-"Lexlaṣ-ik deg weblate.org yettṛaǧu. Ma ulac aɣilif ḍfeṛ iwellihen i d-"
-"yettunefkes akken ad tkemmleḍ lexlaṣ.\n"
+"Azul,\n"
+"\n"
+"Lexlaṣ-ik deg weblate.org yettṛaǧu. \n"
+"Ma ulac aɣilif ḍfeṛ iwellihen i d-yettunefkes akken ad tkemmleḍ lexlaṣ.\n"
 
 #: wlhosted/payments/backends.py:335
 msgid "Payment card"
