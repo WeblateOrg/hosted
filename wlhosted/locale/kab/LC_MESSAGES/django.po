@@ -823,7 +823,7 @@ msgid ""
 "instructions to complete the payment.\n"
 msgstr ""
 "Lexlaṣ-ik deg weblate.org yettṛaǧu. Ma ulac aɣilif ḍfeṛ iwellihen i d-"
-"yettunefkes akken ad tkemmleḍ lexlaṣ."
+"yettunefkes akken ad tkemmleḍ lexlaṣ.\n"
 
 #: wlhosted/payments/backends.py:335
 msgid "Payment card"
