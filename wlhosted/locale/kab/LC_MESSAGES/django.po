@@ -1,13 +1,14 @@
 # anonymous <noreply@weblate.org>, 2019, 2020.
 # Selyan Sliman Amiri <selyan.kab@gmail.com>, 2020.
 # Muḥend Belqasem <belkacem77@gmail.com>, 2020.
+# Ouchene <merzouk.ouchene@laposte.net>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
 "PO-Revision-Date: 2020-04-18 07:00+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"Last-Translator: Ouchene <merzouk.ouchene@laposte.net>\n"
 "Language-Team: Kabyle <https://hosted.weblate.org/projects/weblate/hosted/"
 "kab/>\n"
 "Language: kab\n"
@@ -35,7 +36,7 @@ msgstr "After"
 
 #: wlhosted/integrations/forms.py:36
 msgid "Choose the billing plan you want to update"
-msgstr ""
+msgstr "Fren leblan n tfaṭurt i tesriḍ ad tleqmeḍ"
 
 #: wlhosted/integrations/forms.py:37
 msgid "Create new billing plan"
@@ -518,7 +519,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:54
 msgid "Project"
-msgstr "Asenfar"
+msgstr "Asenfaṛ"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:55
 msgid "means translation project operated on the Service"
