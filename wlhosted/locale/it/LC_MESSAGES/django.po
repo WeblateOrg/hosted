@@ -9,13 +9,14 @@
 # Valter Mura <valtermura@gmail.com>, 2019.
 # Valentina Grassi <vale.grassi11@gmail.com>, 2020.
 # Michal Čihař <michal@cihar.com>, 2020.
+# Lele Gaifax <lele@metapensiero.it>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-03-26 15:46+0000\n"
-"Last-Translator: bovirus <roberto.boriotti@canon-europe.com>\n"
+"PO-Revision-Date: 2020-04-19 00:52+0000\n"
+"Last-Translator: Lele Gaifax <lele@metapensiero.it>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/weblate/hosted/"
 "it/>\n"
 "Language: it\n"
@@ -23,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.0-dev\n"
+"X-Generator: Weblate 4.0.2-dev\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: wlhosted/addons.py:37 wlhosted/addons.py:38
@@ -429,22 +430,22 @@ msgid ""
 "expressed in corresponding contracts."
 msgstr ""
 "Possono essere applicate garanzie aggiuntive a clienti commerciali. Garanzie "
-"chee sono esplictamente indicate nel contratto."
+"che sono esplicitamente indicate nel contratto."
 
 #: wlhosted/legal/templates/legal/documents/summary.html:6
 msgid ""
 "We process private data (such as your e-mail address), those will be "
 "discarded from our database as soon as you remove your account."
 msgstr ""
-"Noi elaboriamo i dati privati (come l'indirizzo email), che verrannmo "
-"eliminati dai nostro database appena tu hai rimosso l'account."
+"Noi elaboriamo i dati privati (come l'indirizzo email), che verranno "
+"eliminati dal nostro database non appena rimuoverai il tuo account."
 
 #: wlhosted/legal/templates/legal/documents/summary.html:7
 msgid ""
 "Your translations are made under license which is specified by each "
 "translation."
 msgstr ""
-"Le tue traduzione sono create sotto licenza che è specifica per ogni "
+"Le tue traduzioni sono create sotto licenza che è specifica per ogni "
 "traduzione."
 
 #: wlhosted/legal/templates/legal/documents/summary.html:8
@@ -452,7 +453,7 @@ msgid ""
 "Your name and e-mail address is used in VCS commits, it will stay there "
 "indefinitely."
 msgstr ""
-"Il tuo nome e la tua email sono suate nelle registrazioni VCS. E rimarranno "
+"Il tuo nome e la tua email sono usate nelle registrazioni VCS. E rimarranno "
 "indefinitivamente."
 
 #: wlhosted/legal/templates/legal/documents/summary.html:9
