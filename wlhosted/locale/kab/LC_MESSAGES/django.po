@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-04-19 00:52+0000\n"
+"PO-Revision-Date: 2020-04-20 19:17+0000\n"
 "Last-Translator: Muḥend Belqasem <belkacem77@gmail.com>\n"
 "Language-Team: Kabyle <https://hosted.weblate.org/projects/weblate/hosted/"
 "kab/>\n"
@@ -60,7 +60,7 @@ msgstr "Addad amiran n ufter"
 
 #: wlhosted/integrations/templates/hosted/create.html:46
 msgid "Too small for your project."
-msgstr "Mezzi nezzeh i usenfar-ik"
+msgstr "Mezzi nezzeh i usenfar-ik."
 
 #: wlhosted/integrations/templates/hosted/create.html:46
 msgid "Too small"
@@ -121,7 +121,7 @@ msgid ""
 msgstr ""
 "Ssuma tebna ɣef umḍan n yizriren iɣbula akked tutlayin yellan. Azrir aɣbalu "
 "d tayunt n uḍris yettusbadun deg umasal n tsuqilt, izmer ad yili d awal, d "
-"tafyirt neɣ d taseddaṛt. "
+"tafyirt neɣ d taseddaṛt."
 
 #: wlhosted/integrations/templates/hosted/create.html:98
 msgid "All listed prices exclude VAT."
@@ -164,7 +164,7 @@ msgstr "Lexlaṣ ur iɛedda ara: {}"
 
 #: wlhosted/integrations/views.py:93
 msgid "Unknown reason"
-msgstr "Taγẓint tarussint"
+msgstr "Sebba tarussint"
 
 #: wlhosted/integrations/views.py:110
 msgid "Payments are temporarily inactive."
@@ -177,7 +177,7 @@ msgid ""
 "Protection Regulation, also known as GDPR. This document includes necessary "
 "specifications."
 msgstr ""
-"NEttqadar ilugan Uṭṭ %(law_679_2016)s, iugan imuta ɣef ummesten n yisefka, "
+"Nettqadar ilugan Uṭṭ %(law_679_2016)s, iugan imuta ɣef ummesten n yisefka, "
 "daɣen yettwassen s yisem RGPD. Isemli-a igber tiwtilin i ilaqen."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:9
@@ -210,10 +210,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:25
 msgid "Name and e-mail"
-msgstr ""
-"S ujerred, ad tqebleḍ ad nseqdec isem-ik akked tansa-ik n yimayl deg udegger "
-"ɣer unagraw n usefrek n yileqman daɣen ad tmuddeḍ attekki-ik s turagt "
-"yettusbadun deg yal asenfaṛ n tsuqilt."
+msgstr "Isem d tansa n yimyal"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:26
 msgid "These are used to identify you in the VCS commits"
@@ -227,11 +224,11 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:29
 msgid "Password in hashed form"
-msgstr "Awal uffir ibeddel."
+msgstr "Awal uffir ibeddel"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:30
 msgid "Used to authenticate the User, if configured"
-msgstr "MA yettusbadu, ad yettwaseqdec i usesteb n useqdac"
+msgstr "Ma yettusbadu, ad yettwaseqdec i usesteb n useqdac"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:32
 msgid "IP address and browser name"
@@ -277,7 +274,7 @@ msgstr ""
 "I umuddu n uxeddim deg yimeẓla-nneɣ, akken ad k-id-nenermes ɣef usentel "
 "yerzan imeẓla (daɣen s yimayl akked tirawt) daɣen akken ad neḍmen tiddin "
 "tatiknikant n yimeẓla-nneɣ s uqadeṛ n ugatu neɣ agatu uzwir (<a href=\"%(url)"
-"s\">Article 6 (1) b. GDPR</a>)"
+"s\">Amagrad 6 (1) b. GDPR</a>)"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:47
 #, python-format
@@ -286,7 +283,7 @@ msgid ""
 "\"%(url)s\">Article 6 (1) b. and f. GDPR</a>)"
 msgstr ""
 "akken ad nesleḍ aseqdec-ik n yimeẓla-nneɣ daɣen ad nesnerni ime zla-nneɣ (<a "
-"href=\"%(url)s\">Amagrad 6 (1) b. and f. GDPR</a>)"
+"href=\"%(url)s\">Amagrad 6 (1) b. d f. GDPR</a>)"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:48
 #, python-format
@@ -295,49 +292,60 @@ msgid ""
 "activities or send you newsletters (<a href=\"%(url)s\">Article 6 (1) a. "
 "GDPR</a>)"
 msgstr ""
+"s uqbal-ik ibanen neɣ s tsiregt-ik akken ad nessiweḍ akken iwata armud-nneɣ "
+"n uzenzi neɣ akken ad ak-d-nazen tibratin n yisallen (<a href=\"%(url)s\">"
+"Amagrad 6, taseddaṛt1, agaz a), n RGPD</a>)"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:51
 msgid "Access to the Personal Data"
-msgstr ""
+msgstr "Anekcum ɣer yisefka udmawanen"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:53
 msgid ""
 "The Controller has made all reasonable technical means to protect the "
 "Personal Data. Only authorized persons can access the Personal Data."
 msgstr ""
+"Amsefrak imudd meṛṛa allalen itiknikanen akked ad ttummestnen yisefka "
+"udmawanen. Ala imdanen yettwasirgen i izemren ad kecmen ɣer yisefka "
+"udmawanen."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:55
 msgid ""
 "Third parties which can gain access to the Personal Data when necessary are:"
 msgstr ""
+"Imendiden wis kraḍ zemren ad kecmen ɣer yisefka udmawanen ma yella ilaq:"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:58
 msgid "Persons which are contracted for technical assurance of the service."
-msgstr ""
+msgstr "Imdanen yesɛan agatu akken ad ḍemnen tiddin tatiknikant n umezlu."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:59
 msgid "Payment processors."
-msgstr ""
+msgstr "Imendiden n lexlaṣ."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:62
 msgid "All Personal Data is stored in the European Union."
-msgstr ""
+msgstr "Meṛṛa isefka udmawanen ttwaḥerzen deg Tidukkla n Turuft."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:64
 msgid "The Personal Data retention"
-msgstr ""
+msgstr "Aḥraz n yisefka udmawanen"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:66
 msgid ""
 "The Personal Data is stored in the Service until the User deletes their "
 "account on the service."
 msgstr ""
+"Isefka udmawanen ttwaḥerzen deg umeẓul skud ur ten-yekkis ara useqdac seg "
+"umiḍan-is n umeẓlu."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:68
 msgid ""
 "Access log information might be collected for a longer period for the "
 "purpose of establishing, exercising or defending legal claims."
 msgstr ""
+"Talɣut n uqmis n unekcum izmer ad tettwalqeḍ i tallit meqqren akken ad neg "
+"nesbedd, ad nsemres daɣen ad nseḥbiber ɣef yizerfan usḍifen."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:70
 msgid "Your rights"
@@ -348,12 +356,16 @@ msgid ""
 "The User provides use of Personal Data voluntarily. Without this Personal "
 "Data Weblate is not able to provide our services."
 msgstr ""
+"Talɣut n uɣmis n unekcum izmer ad tettwalqeḍ i tallit meqqren akken ad neg "
+"nesbedd, ad nsemres daɣen ad nseḥbiber ɣef yizerfan usḍifen."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:74
 msgid ""
 "We want you to always be in control of your Personal Data. To this end, you "
 "have certain rights that allow for it. Under certain conditions, you may:"
 msgstr ""
+"Nebɣa akken ad tesferkeḍ dima isefka-ik udmawanen. Ɣef waya, ɣur-k kra n "
+"yizerfna ara yeǧǧen aya. Maca s kra n tewtilin, tzemred:"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:78
 #, python-format
@@ -361,63 +373,75 @@ msgid ""
 "Gain access to all your Personal Data that Weblate uses or processes, and "
 "even get a copy of all of it (<a href=\"%(url)s\">Article 15 GDPR</a>)"
 msgstr ""
+"Kcem ɣer yisefka-ik udmawane meṛṛa i yesseqdac neɣ yessesfar Weblate, daɣen "
+"awi anɣel-nsen meṛṛa (<a href=\"%(url)s\">Amagrad 15 GDPR</a>)"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:79
 msgid ""
 "Correct the Personal Data that Weblate processes if you think that there are "
 "mistakes"
 msgstr ""
+"Seɣti isefka udmawanen i yessesfar Weblate ma tɣileḍ dakken mačči d imeɣta"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:80
 msgid "Order us to delete your Personal Data"
-msgstr ""
+msgstr "Suter-aɣ-d ad nekkes isefka-ik udmawanen"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:81
 msgid "Restrict the Personal Data processing"
-msgstr ""
+msgstr "Err talast n usesfer n yisefka udmawanen"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:82
 msgid "Object to processing"
-msgstr ""
+msgstr "Berri mgal n yir asesfer"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:83
 msgid ""
 "Receive your Personal Data in a commonly used and machine-readable format or "
 "to transmit this Personal Data to a different provider."
 msgstr ""
+"Rmes-d isefka-ik udmawanen s umasal yettwaseqdacen s tanumi daɣen i zmrent "
+"ad d-ɣrent tmacinin neɣ akken ad tazneḍ isefka-a udmawanen ɣer usaǧǧaw-"
+"nniḍen."
 
 #: wlhosted/legal/templates/legal/documents/summary.html:4
 msgid ""
 "The services are provided “as is”, at your own risk, without any warranty."
-msgstr ""
+msgstr "Imeẓla i d-ittunefken \"am akka\", s ṛṛay-ik, war ṭmana."
 
 #: wlhosted/legal/templates/legal/documents/summary.html:5
 msgid ""
 "Additional guarantees might apply to commercial customers, those are "
 "expressed in corresponding contracts."
 msgstr ""
+"Ṭmana-nniḍen tezmer ad tettwasemres i yimsaɣen imzenziyen. Tettwammel-d deg "
+"yiguta icudden."
 
 #: wlhosted/legal/templates/legal/documents/summary.html:6
 msgid ""
 "We process private data (such as your e-mail address), those will be "
 "discarded from our database as soon as you remove your account."
 msgstr ""
+"Nleqqed-d isefka udmawanen (am tansa-ik n yimayl), wigi ad ttwakksen seg "
+"taffa-nneɣ n yisefka ticki tekkseḍ amiḍan-ik."
 
 #: wlhosted/legal/templates/legal/documents/summary.html:7
 msgid ""
 "Your translations are made under license which is specified by each "
 "translation."
-msgstr ""
+msgstr "Tisuqilin-ik ad ilin s turagt ara d-yettwammlen deg yal asenfaṛ."
 
 #: wlhosted/legal/templates/legal/documents/summary.html:8
 msgid ""
 "Your name and e-mail address is used in VCS commits, it will stay there "
 "indefinitely."
 msgstr ""
+"Isem-ik d tansa-ik n yimayl ad ttwasqedcen deg teṛcivt n unagraw n usefrek n "
+"yileqman, s wudem imezgi."
 
 #: wlhosted/legal/templates/legal/documents/summary.html:9
 msgid "We use cookies to deliver our services."
-msgstr ""
+msgstr "NSeqdac inagan n tuqqna akken ad d-nmudd imeẓla."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:10
 msgid "View English version"
@@ -436,6 +460,8 @@ msgid ""
 "The rights and obligations of the User and the Provider resulting from the "
 "use of the Service are governed by these Terms of Service."
 msgstr ""
+"Izerfan d wayen ilaqen ɣef useqdac akked usaǧǧaw i d-yekkan seg useqdec n "
+"umeẓlu llan ddaw n tewtilin-a n useqdec."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:20
 msgid "Definitions"
@@ -443,11 +469,11 @@ msgstr "Tabadut"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:22
 msgid "In these Terms of Service:"
-msgstr "Deg tiwtilin-a n useqdec"
+msgstr "Deg tiwtilin-a n useqdec:"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:26
 msgid "Agreement"
-msgstr "Amtawa d tewtilin n umeẓlu {date}."
+msgstr "Agatu"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:27
 msgid ""
@@ -455,25 +481,29 @@ msgid ""
 "Civil Code concluded by and between the User and the Provider upon the "
 "Consent"
 msgstr ""
+"Agatu n turagt s unamek n yimagraden 2358 daɣen iyeṭṭafaṛen Aṣaḍuf yellan "
+"gar usaǧǧaw akked useqdac s umtawa n uneggaru-a"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:29
 msgid "Civil Code"
-msgstr ""
+msgstr "Asaḍuf aɣarim"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:30
 #, python-format
 msgid "means Act No. %(law_89_2012)s Coll., the Civil Code, as amended"
-msgstr ""
+msgstr "yemmal-d asaduf uṭṭ. %(law_89_2012)s n usaḍuf aɣarim, am akken ibeddel"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:32
 msgid "Consent"
-msgstr ""
+msgstr "Aqbal"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:33
 msgid ""
 "means the User’s consent with these Terms of Service and other legal "
 "documents expressed by checking the checkbox during the registration"
 msgstr ""
+"Ymmal-d aqbal n useqdac i tewtilin-a n useqdec akked isemliyen n usaḍuf "
+"yettwarun s ṛcem n texxamt deg ujerred"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:35
 #: wlhosted/legal/templates/legal/documents/tos.html:131
@@ -486,10 +516,13 @@ msgid ""
 "computer or other device connected to the Internet, which enable obtaining "
 "unique identification of the User’s web browser"
 msgstr ""
+"yemmal-d yal afaylu n yisefka yettwaznen seg uqeddac web n umeẓlu ɣer "
+"uselkim n useqdac neɣ ibenk-nniḍen yeqqnen ɣer Internet, ayen ara yeǧǧen "
+"asulu awḥid n yiminig web n useqdac"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:39
 msgid "GDPR"
-msgstr ""
+msgstr "GDPR"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:40
 #, python-format
@@ -497,6 +530,7 @@ msgid ""
 "means EU Regulation No. %(law_679_2016)s, the General Data Protection "
 "Regulation"
 msgstr ""
+"yemmal-d asaḍuf Uṭṭ.%(law_679_2016)s, ilugan imuta ɣef ummesten n yisefka"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:42
 msgid "License"
@@ -506,7 +540,7 @@ msgstr "Turagt"
 msgid ""
 "means non-exclusive license granted by the Provider to the User for use of "
 "the Service"
-msgstr ""
+msgstr "yemmal-d turagt i d-yefka usaǧǧaw i useqdac ɣef useqdec n umeẓlu"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:45
 msgid "Provider"
@@ -515,7 +549,7 @@ msgstr "Asaǧǧaw"
 #: wlhosted/legal/templates/legal/documents/tos.html:46
 #, python-format
 msgid "means %(provider)s, Reg. No. %(reg_no)s"
-msgstr ""
+msgstr "Yemmal-d %(provider)s, Ilugan Uṭṭ. %(reg_no)s"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:48
 #: wlhosted/legal/templates/legal/documents/tos.html:98
@@ -528,6 +562,8 @@ msgid ""
 "means personal data within the meaning of EU Regulation No. %(law_679_2016)s "
 "inserted by the User into the Service and/or Cookies"
 msgstr ""
+"yemmal-d isefka udmawanen s unamek n usaḍuf EU uṭṭ. %(law_679_2016)s, i "
+"yettwanefken i useqdac deg umeẓlu akked/neɣ inagan n tuqqna"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:51
 msgid "Owner"
@@ -535,7 +571,7 @@ msgstr "Bab"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:52
 msgid "means the User who can manage Project"
-msgstr ""
+msgstr "yemmal-d aseqdec i izemren ad isefrek asenfaṛ"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:54
 msgid "Project"
@@ -543,7 +579,7 @@ msgstr "Asenfaṛ"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:55
 msgid "means translation project operated on the Service"
-msgstr "Acu kan, isenfaṛen-agi n tsuqilt llan ɣef uqeddac-agi:"
+msgstr "Acu kan, isenfaṛen-agi n tsuqilt llan ɣef uqeddac-agi"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:57
 msgid "Service"
@@ -553,14 +589,15 @@ msgstr "Ameẓlu"
 msgid ""
 "means the website and services based on Weblate operated by the Provider"
 msgstr ""
+"yemmal-d asmel web akked imeẓla yebnan ɣef Weblate daɣen i isefrak usaǧǧaw"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:60
 msgid "Translation Memory"
-msgstr "Takatut n tsuqqilt"
+msgstr "Takatut n tsuqilt"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:61
 msgid "means the optional translation memory service provided within Weblate"
-msgstr ""
+msgstr "yemmal-d takatut n tsuqilt i d-ittunefken s wudem afrayan s Weblate"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:63
 msgid "User"
@@ -571,6 +608,7 @@ msgid ""
 "means any legal entity or an individual other than the Provider, who is "
 "using the Service"
 msgstr ""
+"yemmal-d meṛṛa tikebbaniyin neɣ imdanen, beṛṛa n usaǧǧaw, i isseqdacen ameẓlu"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:66
 msgid "VCS"
@@ -581,16 +619,19 @@ msgid ""
 "means distributed version control system used by the Project such as Git or "
 "Mercurial"
 msgstr ""
+"yemmal-d anagraw n usefrek n yileqman i isseqdac usenfaṛ am Git neɣ Mercurial"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:71
 msgid "License Agreement Conclusion"
-msgstr ""
+msgstr "Amtawa ɣef ugatu n turagt"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:73
 msgid ""
 "The License Agreement is concluded upon the User’s Acceptance of the "
 "Provider’s Offer."
 msgstr ""
+"Agatu n turagt yettwaḥsab am akken d amsefham segmi tqebleḍ tikci n umeẓlu n "
+"useqdac."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:76
 msgid "License Agreement"
@@ -601,6 +642,8 @@ msgid ""
 "By concluding Agreement under Article 2.1 of this Agreement, the following "
 "provisions of this Article 3 of the Terms of Service come into force."
 msgstr ""
+"Ma tɛeqdeḍ amtawa s useqdec n umagrad 2.1 n umtawa-a, ayen yeṭṭafṛen amagrad-"
+"a wis 3 n tewtilin n useqdec ad yettwasemres."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:80
 msgid ""
@@ -608,12 +651,17 @@ msgid ""
 "this License Agreement, all this under the terms and conditions stated in "
 "these Terms of Service."
 msgstr ""
+"Asaǧǧa imudd-d i useqdac amtawa n turagt daɣen aseqdac ad yeqbel amtawa-a n "
+"turagt, meṛṛa akken llant ilugan d tewtilin yettwabedren deg tiwtilin-a n "
+"useqdec."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:82
 msgid ""
 "The Provider shall have the right to shut down, adjust, modify or make the "
 "Service unavailable on the web address at any time."
 msgstr ""
+"Asaǧǧaw ɣur-s azref akken ad iseḥbes, ad ibeddel, neɣ ad iṣeggem Ameẓlu s "
+"tririt deg tensa web melmi yebɣa."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:84
 msgid ""
@@ -621,12 +669,17 @@ msgid ""
 "technical software and/or hardware means of the Provider and/or such means "
 "in the Provider’s use."
 msgstr ""
+"Aseqdac ad yegmen akken ad iseqdec kan ameẓlu s tarrayt ur d-nettawi ara "
+"aḍurru allalen itiknikanen n yiseɣzanen akked/neɣ allalen n usaǧǧaw akked/"
+"daɣen aseqdec n wallalen-a sɣur asaǧǧaw."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:86
 msgid ""
 "The User agrees to refrain from use of the Service in bad faith and/or "
 "deliberately causing any damage to the Service."
 msgstr ""
+"Aseqdac ad yegmen ur yesseqdac ara ameẓlu s yir niyya akke/neɣ ad yeglu s "
+"uḍuṛṛu i umeẓlu."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:88
 msgid ""
@@ -792,7 +845,7 @@ msgstr "Isemda"
 msgid ""
 "These Terms of Service shall come into force and effect on 1st September "
 "2017."
-msgstr ""
+msgstr "Tiwtili-a n useqdec teddunt seg 1 n Ctember 2017."
 
 #: wlhosted/payments/backends.py:188
 msgid "Your payment on weblate.org"
@@ -831,6 +884,18 @@ msgid ""
 "If concerning a recurring payment, it is retried three times,\n"
 "and if still failing, cancelled.\n"
 msgstr ""
+"Azul,\n"
+"\n"
+"Lexlaṣ-ik deg weblate.org has yecceḍ.\n"
+"\n"
+"%s\n"
+"\n"
+"Ɛreḍ tuzna n lexlaṣ deg usmel web:\n"
+"\n"
+"%s\n"
+"\n"
+"Ma d lexlaṣ i d-yettuɣalen, ad yefsex deffir n tlata n uɛraḍ,\n"
+"daɣen ma yezga yecceḍ, ad yefsex.\n"
 
 #: wlhosted/payments/backends.py:251
 msgid "Your pending payment on weblate.org"
@@ -917,7 +982,7 @@ msgstr "Isem n tkebbanit neɣ isem-ik"
 
 #: wlhosted/payments/models.py:103
 msgid "Address"
-msgstr "Adresse"
+msgstr "Tansa"
 
 #: wlhosted/payments/models.py:106
 msgid "Postcode and city"
