@@ -105,6 +105,10 @@ class Customer(models.Model):
     origin = models.URLField(max_length=300)
     user_id = models.IntegerField()
 
+    class Meta:
+        verbose_name = "Customer"
+        verbose_name_plural = "Customers"
+
     def __str__(self):
         if self.name:
             return "{} ({})".format(self.name, self.email)
@@ -216,6 +220,8 @@ class Payment(models.Model):
 
     class Meta:
         ordering = ["-created"]
+        verbose_name = "Payment"
+        verbose_name_plural = "Payments"
 
     def __str__(self):
         return "payment:{}".format(self.pk)
