@@ -10,13 +10,14 @@
 # Valentina Grassi <vale.grassi11@gmail.com>, 2020.
 # Michal Čihař <michal@cihar.com>, 2020.
 # Lele Gaifax <lele@metapensiero.it>, 2020.
+# coronabond <coronabond@airmail.cc>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-04-20 19:17+0000\n"
-"Last-Translator: bovirus <roberto.boriotti@canon-europe.com>\n"
+"PO-Revision-Date: 2020-04-22 07:10+0000\n"
+"Last-Translator: coronabond <coronabond@airmail.cc>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/weblate/hosted/"
 "it/>\n"
 "Language: it\n"
@@ -225,7 +226,7 @@ msgstr "Nome utente e email"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:26
 msgid "These are used to identify you in the VCS commits"
-msgstr "Queste sono usate per identificarti nelle modifiche VCS"
+msgstr "Questi sono usati per identificarti nelle modifiche VCS"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:27
 msgid "Additionally, e-mail is used for notification of watched events"
@@ -328,8 +329,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:58
 msgid "Persons which are contracted for technical assurance of the service."
-msgstr ""
-"Persone che sono state assunte per l'esmpletamento tecnico del servizio."
+msgstr "Persone che sono state assunte per l'espletamento tecnico del servizio."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:59
 msgid "Payment processors."
@@ -387,28 +387,28 @@ msgid ""
 "Gain access to all your Personal Data that Weblate uses or processes, and "
 "even get a copy of all of it (<a href=\"%(url)s\">Article 15 GDPR</a>)"
 msgstr ""
-"Ottieni l'accesso a tutti i tuoi dati personali che Weblate usa o elabora, e "
-"ottieni anche una copia di tutto ciò (<a href=\"%(url)s\">articolo 15 GDPR</"
-"a>)"
+"Ottenere l'accesso a tutti i tuoi dati personali che Weblate usa o elabora, "
+"e ottenere anche una copia di tutto ciò (<a href=\"%(url)s\">articolo 15 "
+"GDPR</a>)"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:79
 msgid ""
 "Correct the Personal Data that Weblate processes if you think that there are "
 "mistakes"
 msgstr ""
-"Se pensi che ci siano errori correggi i dati personali che Weblate elabora"
+"Correggere i dati personali che Weblate elabora se pensi che ci siano errori"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:80
 msgid "Order us to delete your Personal Data"
-msgstr "Ordinaci di eliminare i tuoi dati personali"
+msgstr "Ordinarci di eliminare i tuoi dati personali"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:81
 msgid "Restrict the Personal Data processing"
-msgstr "Limita l'elaborazione dei dati personali"
+msgstr "Limitare l'elaborazione dei dati personali"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:82
 msgid "Object to processing"
-msgstr "Oggetto da analizzare"
+msgstr "Opporti al trattamento"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:83
 msgid ""
@@ -453,8 +453,8 @@ msgid ""
 "Your name and e-mail address is used in VCS commits, it will stay there "
 "indefinitely."
 msgstr ""
-"Il tuo nome e la tua email sono usate nelle registrazioni VCS, e rimarranno "
-"indefinitivamente."
+"Il tuo nome e la tua email sono usati nelle registrazioni VCS, e vi "
+"rimarranno indefinitamente."
 
 #: wlhosted/legal/templates/legal/documents/summary.html:9
 msgid "We use cookies to deliver our services."
@@ -514,7 +514,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:32
 msgid "Consent"
-msgstr "Consente"
+msgstr "Consenso"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:33
 msgid ""
@@ -522,7 +522,7 @@ msgid ""
 "documents expressed by checking the checkbox during the registration"
 msgstr ""
 "indica il consenso dell'utente con i presenti Termini di servizio e altri "
-"documenti legali espressi selezionando la casella di controllo durante la "
+"documenti legali espresso selezionando la casella di controllo durante la "
 "registrazione"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:35
@@ -550,7 +550,7 @@ msgid ""
 "means EU Regulation No. %(law_679_2016)s, the General Data Protection "
 "Regulation"
 msgstr ""
-"indica la legge europea n. %(law_679_2016)s, ossia GDPR (General Data "
+"indica il regolamento UE n. %(law_679_2016)s, ossia GDPR (General Data "
 "Protection Regulation)"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:42
@@ -567,7 +567,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:45
 msgid "Provider"
-msgstr "Provider"
+msgstr "Fornitore"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:46
 #, python-format
@@ -585,8 +585,8 @@ msgid ""
 "means personal data within the meaning of EU Regulation No. %(law_679_2016)s "
 "inserted by the User into the Service and/or Cookies"
 msgstr ""
-"indica i dati personali ai sensi della legge europea n. %(law_679_2016)s. "
-"inserita dall'utente nei servizi e/o cookie"
+"indica i dati personali ai sensi del regolamento UE n. %(law_679_2016)s. "
+"inseriti dall'utente nei servizi, e/o i cookie"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:51
 msgid "Owner"
@@ -643,8 +643,8 @@ msgid ""
 "means distributed version control system used by the Project such as Git or "
 "Mercurial"
 msgstr ""
-"indica il sistema di controllo della versione distribuita, come Git o "
-"Mercurial, usato dal progetto"
+"indica il sistema di controllo versione distribuito, come Git o Mercurial, "
+"usato dal progetto"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:71
 msgid "License Agreement Conclusion"
