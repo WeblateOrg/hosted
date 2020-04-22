@@ -27,7 +27,7 @@ from django.conf import settings
 from django.core.exceptions import ValidationError
 from django.db import models, transaction
 from django.utils.functional import cached_property
-from django.utils.translation import get_language, gettext_lazy
+from django.utils.translation import get_language, gettext_lazy, pgettext_lazy
 from django_countries.fields import CountryField
 from vies.models import VATINField
 from weblate.utils.fields import JSONField
@@ -193,11 +193,11 @@ class Payment(models.Model):
     created = models.DateTimeField(auto_now_add=True)
     state = models.IntegerField(
         choices=[
-            (NEW, "New"),
-            (PENDING, "Pending"),
-            (REJECTED, "Rejected"),
-            (ACCEPTED, "Accepted"),
-            (PROCESSED, "Processed"),
+            (NEW, pgettext_lazy("Payment state", "New payment")),
+            (PENDING, pgettext_lazy("Payment state", "Awaiting payment")),
+            (REJECTED, pgettext_lazy("Payment state", "Payment rejected")),
+            (ACCEPTED, pgettext_lazy("Payment state", "Payment accepted")),
+            (PROCESSED, pgettext_lazy("Payment state", "Payment processed")),
         ],
         db_index=True,
         default=NEW,
