@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-04-20 19:17+0000\n"
+"PO-Revision-Date: 2020-04-24 08:48+0000\n"
 "Last-Translator: Muḥend Belqasem <belkacem77@gmail.com>\n"
 "Language-Team: Kabyle <https://hosted.weblate.org/projects/weblate/hosted/"
 "kab/>\n"
@@ -686,16 +686,20 @@ msgid ""
 "The User agrees to refrain from bypassing the Service’s software and/or "
 "technical hardware means, in particular the security systems."
 msgstr ""
+"Aseqdac yegmen ur ireggel ara i wallalen s yiseɣzanen akked/neɣ arum "
+"itiknikanen n umeẓlu, ladɣa inagrawen n tɣellist."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:91
 msgid "Liability for Damage"
-msgstr ""
+msgstr "Amasay ticki yella usexseṛ"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:93
 msgid ""
 "The User hereby renders it undisputed that the Provider shall not be liable "
 "for any damage caused to the User resulting from the use of the Service."
 msgstr ""
+"Aseqdac ad iɛahed s waya d akken asaǧǧaw ur yettili ara d amasay ɣef usexseṛ "
+"swayes i d-yegla useqdac ɣef sebba n useqdec n umeẓlu."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:95
 msgid ""
@@ -704,6 +708,10 @@ msgid ""
 "Provider to the User through a breach of any obligation contained in these "
 "Terms of Service and/or resulting from the use of the Service."
 msgstr ""
+"Ma yella aseqdac d win yasɛan takebbanit, yessefk ad isemmeḥ s waya ɣef "
+"yizerfan-is n tririt n tedrimt sɣur asaǧǧaw ɣef usexseṛ i d-yeḍran sɣur "
+"asaǧǧaw i useqdac s utɛeddi ɣef yal aḥettem i yellan deg tewtili-a n useqdec "
+"n usemẓlu akked/neɣ i d-yekkan seg useqdec n umeẓlu."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:101
 #, python-format
