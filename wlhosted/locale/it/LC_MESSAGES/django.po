@@ -11,13 +11,14 @@
 # Michal Čihař <michal@cihar.com>, 2020.
 # Lele Gaifax <lele@metapensiero.it>, 2020.
 # coronabond <coronabond@airmail.cc>, 2020.
+# Jeannette L <j.lavoie@net-c.ca>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-04-22 07:10+0000\n"
-"Last-Translator: coronabond <coronabond@airmail.cc>\n"
+"PO-Revision-Date: 2020-04-26 17:11+0000\n"
+"Last-Translator: Jeannette L <j.lavoie@net-c.ca>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/weblate/hosted/"
 "it/>\n"
 "Language: it\n"
@@ -230,7 +231,7 @@ msgstr "Questi sono usati per identificarti nelle modifiche VCS"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:27
 msgid "Additionally, e-mail is used for notification of watched events"
-msgstr "Inoltre, la mail è usata per le notifiche gli eventi monitorati"
+msgstr "Inoltre, l'e-mail è usata per le notifiche gli eventi monitorati"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:29
 msgid "Password in hashed form"
