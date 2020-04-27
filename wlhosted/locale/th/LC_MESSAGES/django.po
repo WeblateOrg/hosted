@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-04-19 18:20+0000\n"
+"PO-Revision-Date: 2020-04-27 17:39+0000\n"
 "Last-Translator: AefghThreenine <aefgh39622@gmail.com>\n"
 "Language-Team: Thai <https://hosted.weblate.org/projects/weblate/hosted/th/>"
 "\n"
@@ -29,7 +29,7 @@ msgstr ""
 
 #: wlhosted/addons.py:61
 msgid "Reset all changes in the local repository"
-msgstr ""
+msgstr "ตั้งค่าการเปลี่ยนแปลงทั้งหมดที่อยู่ในคลังเก็บภายในใหม่"
 
 #: wlhosted/integrations/forms.py:35
 msgid "Billing"
