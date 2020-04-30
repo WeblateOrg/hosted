@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-04-27 17:39+0000\n"
+"PO-Revision-Date: 2020-05-01 12:11+0000\n"
 "Last-Translator: AefghThreenine <aefgh39622@gmail.com>\n"
 "Language-Team: Thai <https://hosted.weblate.org/projects/weblate/hosted/th/>"
 "\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.0.2-dev\n"
+"X-Generator: Weblate 4.0.2\n"
 
 #: wlhosted/addons.py:37 wlhosted/addons.py:38
 msgid "Generate Unknown Horizons scenario data"
@@ -525,10 +525,8 @@ msgid "means translation project operated on the Service"
 msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:57
-#, fuzzy
-#| msgid "Status"
 msgid "Service"
-msgstr "สถานะ"
+msgstr "บริการ"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:58
 msgid ""
