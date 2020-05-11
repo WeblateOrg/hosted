@@ -42,6 +42,10 @@ def handle_received_payment(payment):
     }
     if "billing" in payment.extra:
         billing = Billing.objects.get(pk=payment.extra["billing"])
+        if billing.removal:
+            from wlhosted.integrations.tasks import notify_paid_removal
+
+            notify_paid_removal(billing.id)
         for key, value in params.items():
             setattr(billing, key, value)
     else:

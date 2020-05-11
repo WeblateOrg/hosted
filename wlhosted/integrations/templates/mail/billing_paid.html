@@ -1,0 +1,20 @@
+{% extends "mail/base.html" %}
+
+{% load i18n %}{% load translations %}
+
+{% block content %}
+<p>{% trans "Thank you for the payment, your billing is now paid." %}</p>
+
+<p>{% trans "This billing plan covers following projects:" %}</p>
+
+<ul>
+{% for project in billing.projects.all %}
+    <li><a href="{{ project.get_absolute_url }}">{{ project }}</a></li>
+{% endfor %}
+</ul>
+
+<div class="line buttons">
+    <a href="{% url 'billing' %}" class="button">{% trans "Check your billing status" %}</a>
+</div>
+
+{% endblock %}

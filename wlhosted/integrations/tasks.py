@@ -24,6 +24,7 @@ from django.conf import settings
 from django.core.signing import dumps
 from django.db import transaction
 from django.utils import timezone
+from weblate.accounts.notifications import send_notification_email
 from weblate.billing.models import Billing
 from weblate.utils.celery import app
 
@@ -40,6 +41,19 @@ def pending_payments():
         ).select_for_update()
         for payment in payments:
             handle_received_payment(payment)
+
+
+@app.task
+def notify_paid_removal(billing_id):
+    billing = Billing.objects.get(pk=billing_id)
+    for user in billing.get_notify_users():
+        send_notification_email(
+            user.profile.language,
+            [user.email],
+            "billing_paid",
+            context={"billing": billing},
+            info=billing,
+        )
 
 
 @app.task

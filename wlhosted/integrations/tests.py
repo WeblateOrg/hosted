@@ -21,6 +21,7 @@ from time import sleep
 
 import httpretty
 from dateutil.relativedelta import relativedelta
+from django.core import mail
 from django.test import TestCase
 from django.test.utils import override_settings
 from django.urls import reverse
@@ -96,6 +97,8 @@ class PaymentTest(TestCase):
 
     def test_existing_billing(self):
         bill = self.create_trial()
+        bill.removal = timezone.now()
+        bill.save(update_fields=["removal"])
         bill_args = {"billing": bill.pk}
         # Test default selection
         response = self.client.get(reverse("create-billing"))
@@ -113,6 +116,13 @@ class PaymentTest(TestCase):
         bill_args["period"] = "y"
         # The billing should be stored in the payment
         self.assertEqual(payment.extra, bill_args)
+
+        # Accept the payment
+        Payment.objects.all().update(state=Payment.ACCEPTED)
+        pending_payments()
+        # User should get notification that project scheduled for removal is now paid
+        self.assertEqual(len(mail.outbox), 1)
+        self.assertEqual(mail.outbox[0].subject, "[Weblate] Your billing plan was paid")
 
     def test_error_handling(self):
         response = self.client.post(reverse("create-billing"))
