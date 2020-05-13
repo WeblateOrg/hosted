@@ -1,102 +1,101 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Abdusalam <1810010207@s.upc.edu.cn>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2018-07-23 11:06+0000\n"
-"Last-Translator: Michal Čihař <michal@cihar.com>\n"
-"Language-Team: Uyghur <https://hosted.weblate.org/projects/weblate/master/ug/"
+"PO-Revision-Date: 2020-05-15 11:58+0000\n"
+"Last-Translator: Abdusalam <1810010207@s.upc.edu.cn>\n"
+"Language-Team: Uyghur <https://hosted.weblate.org/projects/weblate/hosted/ug/"
 ">\n"
 "Language: ug\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.1-dev\n"
+"X-Generator: Weblate 4.1-dev\n"
 
 #: wlhosted/addons.py:37 wlhosted/addons.py:38
 msgid "Generate Unknown Horizons scenario data"
-msgstr ""
+msgstr "نامەلۇم ئۇپۇق سىزىقى سانلىق مەلۇماتلىرىنى ھاسىل قىلىڭ"
 
 #: wlhosted/addons.py:60
 msgid "Reset repository to upstream"
-msgstr ""
+msgstr "ئامبارنى يۇقىرى ئېقىنغا ئەسلىگە كەلتۈرۈڭ"
 
 #: wlhosted/addons.py:61
 msgid "Reset all changes in the local repository"
-msgstr ""
+msgstr "يەرلىك ئامباردىكى بارلىق ئۆزگەرتىشلەرنى ئەسلىگە كەلتۈرۈڭ"
 
 #: wlhosted/integrations/forms.py:35
 msgid "Billing"
-msgstr ""
+msgstr "ھېساب بوغۇش"
 
 #: wlhosted/integrations/forms.py:36
 msgid "Choose the billing plan you want to update"
-msgstr ""
+msgstr "يېڭىلاشنى خالايدىغان تالون پىلانىنى تاللاڭ"
 
 #: wlhosted/integrations/forms.py:37
 msgid "Create new billing plan"
-msgstr ""
+msgstr "يېڭى ھېسابات پىلانى تۈزۈڭ"
 
 #: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
-msgstr ""
+msgstr "ھېسابات پىلانى تۈزۈڭ"
 
 #: wlhosted/integrations/templates/hosted/create.html:16
 msgid "New billing plan"
-msgstr ""
+msgstr "يېڭى ھېسابات پىلانى"
 
 #: wlhosted/integrations/templates/hosted/create.html:19
 msgid "Please choose a hosting plan that fits the size of your project."
-msgstr ""
+msgstr "تۈرىڭىزنىڭ چوڭ-كىچىكلىكىگە ماس كېلىدىغان ۋاكالەتچى پىلانىنى تاللاڭ."
 
 #: wlhosted/integrations/templates/hosted/create.html:25
 msgid "Current billing status"
-msgstr ""
+msgstr "نۆۋەتتىكى ھېسابات ھالىتى"
 
 #: wlhosted/integrations/templates/hosted/create.html:46
 msgid "Too small for your project."
-msgstr ""
+msgstr "تۈرىڭىز ئۈچۈن بەك كىچىك."
 
 #: wlhosted/integrations/templates/hosted/create.html:46
 msgid "Too small"
-msgstr ""
+msgstr "بەك كىچىك"
 
 #: wlhosted/integrations/templates/hosted/create.html:48
 msgid "Selected plan"
-msgstr ""
+msgstr "تاللانغان پىلان"
 
 #: wlhosted/integrations/templates/hosted/create.html:50
 msgid "Current plan"
-msgstr ""
+msgstr "نۆۋەتتىكى پىلان"
 
 #: wlhosted/integrations/templates/hosted/create.html:55
 msgid "Strings limit"
-msgstr ""
+msgstr "ھەرپ تىزمىسى چىكى"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 #: wlhosted/integrations/templates/hosted/create.html:59
 #: wlhosted/integrations/templates/hosted/create.html:62
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Unlimited"
-msgstr ""
+msgstr "چەكلىمىسىز"
 
 #: wlhosted/integrations/templates/hosted/create.html:58
 msgid "Languages limit"
-msgstr ""
+msgstr "تىل چەكلىمىسى"
 
 #: wlhosted/integrations/templates/hosted/create.html:61
 msgid "Component limit"
-msgstr ""
+msgstr "زاپچاس چەكلىمىسى"
 
 #: wlhosted/integrations/templates/hosted/create.html:64
 msgid "Projects limit"
-msgstr ""
+msgstr "تۈر چەكلىمىسى"
 
 #: wlhosted/integrations/templates/hosted/create.html:77
 #, python-format
