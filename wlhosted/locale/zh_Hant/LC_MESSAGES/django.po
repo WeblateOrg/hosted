@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-04-07 09:36+0000\n"
+"PO-Revision-Date: 2020-05-15 11:58+0000\n"
 "Last-Translator: Chang-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "weblate/hosted/zh_Hant/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.0-dev\n"
+"X-Generator: Weblate 4.1-dev\n"
 
 #: wlhosted/addons.py:37 wlhosted/addons.py:38
 msgid "Generate Unknown Horizons scenario data"
@@ -964,11 +964,11 @@ msgstr "國家必須與您的 VAT 碼相符"
 
 #: wlhosted/payments/models.py:159
 msgid "Annual"
-msgstr "每年繳費"
+msgstr "每年"
 
 #: wlhosted/payments/models.py:160
 msgid "Biannual"
-msgstr "每半年繳費"
+msgstr "每半年"
 
 #: wlhosted/payments/models.py:161
 msgid "Quarterly"
@@ -976,11 +976,11 @@ msgstr "每季"
 
 #: wlhosted/payments/models.py:162
 msgid "Monthly"
-msgstr "每月繳費"
+msgstr "每月"
 
 #: wlhosted/payments/models.py:163
 msgid "Onetime"
-msgstr "一次性繳費"
+msgstr "一次性"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
