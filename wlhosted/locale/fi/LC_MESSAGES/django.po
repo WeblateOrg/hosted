@@ -5,13 +5,14 @@
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2019.
 # Tuomas Hietala <tuomas.hietala@iki.fi>, 2019.
 # Tuomas Lähteenmäki <lahtis@gmail.com>, 2020.
+# Riku Viitanen <riku.viitanen@protonmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-03-28 15:39+0000\n"
-"Last-Translator: Tuomas Lähteenmäki <lahtis@gmail.com>\n"
+"PO-Revision-Date: 2020-05-20 07:07+0000\n"
+"Last-Translator: Riku Viitanen <riku.viitanen@protonmail.com>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/weblate/hosted/"
 "fi/>\n"
 "Language: fi\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.0-dev\n"
+"X-Generator: Weblate 4.1-dev\n"
 
 #: wlhosted/addons.py:37 wlhosted/addons.py:38
 msgid "Generate Unknown Horizons scenario data"
@@ -39,15 +40,15 @@ msgstr "Laskutus"
 
 #: wlhosted/integrations/forms.py:36
 msgid "Choose the billing plan you want to update"
-msgstr ""
+msgstr "Valitse laskutussuunnitelma jota haluat päivittää"
 
 #: wlhosted/integrations/forms.py:37
 msgid "Create new billing plan"
-msgstr ""
+msgstr "Luo uusi laskutussuunnitelma"
 
 #: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
-msgstr ""
+msgstr "Luo laskutussuunnitelma"
 
 #: wlhosted/integrations/templates/hosted/create.html:16
 msgid "New billing plan"
@@ -55,11 +56,11 @@ msgstr "Uusi laskutussuunnitelma"
 
 #: wlhosted/integrations/templates/hosted/create.html:19
 msgid "Please choose a hosting plan that fits the size of your project."
-msgstr ""
+msgstr "Valitse tilaus joka on sopiva projektisi koolle."
 
 #: wlhosted/integrations/templates/hosted/create.html:25
 msgid "Current billing status"
-msgstr ""
+msgstr "Laskutuksen tila"
 
 #: wlhosted/integrations/templates/hosted/create.html:46
 msgid "Too small for your project."
@@ -93,10 +94,8 @@ msgid "Languages limit"
 msgstr "Kielien rajoitus"
 
 #: wlhosted/integrations/templates/hosted/create.html:61
-#, fuzzy
-#| msgid "Projects limit"
 msgid "Component limit"
-msgstr "Projektien rajoitus"
+msgstr "Komponenttien rajoitus"
 
 #: wlhosted/integrations/templates/hosted/create.html:64
 msgid "Projects limit"
@@ -119,23 +118,18 @@ msgid "%(price)s EUR / year"
 msgstr "%(price)s EUR / vuosi"
 
 #: wlhosted/integrations/templates/hosted/create.html:95
-#, fuzzy
-#| msgid ""
-#| "The pricing is based on number of source strings and number of target "
-#| "languages. The source string is a text unit defined in a translation "
-#| "format, it can be word, sentence or a paragraph."
 msgid ""
 "Pricing is based on the number of source strings and target languages. The "
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
-"Hinnoittelu perustuu lähdetekstien ja kohdekielien määrään. Lähdeteksti on "
+"Hinnoittelu perustuu lähdetekstien ja kohdekielten määrään. Lähdeteksti on "
 "tekstiyksikkö joka on määritelty käännösmuotoilussa, ja se voi olla joko "
 "sana, lause tai kappale."
 
 #: wlhosted/integrations/templates/hosted/create.html:98
 msgid "All listed prices exclude VAT."
-msgstr ""
+msgstr "Hinnat eivät sisällä arvonlisäveroa."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 #, python-format
@@ -154,13 +148,13 @@ msgstr ""
 
 #: wlhosted/integrations/views.py:77
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr ""
+msgstr "Kiitos tilauksestasi, se on nyt aktiivinen."
 
 #: wlhosted/integrations/views.py:84
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
-msgstr ""
+msgstr "Kiitos tilauksestasi, sen maksu odottaa ja käsitellään taustalla."
 
 #: wlhosted/integrations/views.py:92
 msgid "The payment was rejected: {}"
@@ -183,10 +177,8 @@ msgid ""
 msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:9
-#, fuzzy
-#| msgid "Version control"
 msgid "Personal Data Controller"
-msgstr "Versionhallinta"
+msgstr "Rekisterinpitäjä"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:12
 #, python-format
@@ -199,6 +191,8 @@ msgid ""
 "Weblate has appointed a data protection officer who may be reached via "
 "%(privacy_contact)s."
 msgstr ""
+"Weblate on nimittänyt tietosuojavastaavan, jonka tavoittaa sähköpostilla: "
+"%(privacy_contact)s."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:17
 msgid "Personal Data processed by Weblate"
