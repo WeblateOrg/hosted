@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-04-23 04:34+0000\n"
+"PO-Revision-Date: 2020-05-29 19:41+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/weblate/hosted/"
 "es/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.0.2-dev\n"
+"X-Generator: Weblate 4.1-dev\n"
 
 #: wlhosted/addons.py:37 wlhosted/addons.py:38
 msgid "Generate Unknown Horizons scenario data"
@@ -159,8 +159,8 @@ msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
-"Gracias por comprar un plan de almacenamiento, el pago del mismo está "
-"pendiente y será procesado en segundo plano."
+"Gracias por comprar un plan de alojamiento; el pago está pendiente y se "
+"procesará en segundo plano."
 
 #: wlhosted/integrations/views.py:92
 msgid "The payment was rejected: {}"
@@ -442,8 +442,8 @@ msgid ""
 "Your translations are made under license which is specified by each "
 "translation."
 msgstr ""
-"Sus traducciones se realizan bajo la licencia que se especifica en cada "
-"proyecto de traducción."
+"Sus traducciones se realizan en virtud de la licencia que se especifica en "
+"cada proyecto de traducción."
 
 #: wlhosted/legal/templates/legal/documents/summary.html:8
 msgid ""
@@ -495,8 +495,9 @@ msgid ""
 "Civil Code concluded by and between the User and the Provider upon the "
 "Consent"
 msgstr ""
-"significa Acuerdo de Licencia según el artículo 2358 del Código Civil "
-"concluye por y entre el usuario y el proveedor con el consentimiento"
+"significa Acuerdo de Licencia según el artículo 2358 et seq. del Código "
+"Civil, celebrado entre el usuario y el proveedor al efectuar el "
+"consentimiento"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:29
 msgid "Civil Code"
@@ -1113,7 +1114,7 @@ msgstr "Trimestral"
 
 #: wlhosted/payments/models.py:162
 msgid "Monthly"
-msgstr "Mensual"
+msgstr "Al mes"
 
 #: wlhosted/payments/models.py:163
 msgid "Onetime"
