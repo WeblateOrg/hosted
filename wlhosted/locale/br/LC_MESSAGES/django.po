@@ -1,16 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Florent <florent.grouin+osmand@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2018-01-30 18:47+0000\n"
-"Last-Translator: Michal Čihař <michal@cihar.com>\n"
-"Language-Team: Breton <https://hosted.weblate.org/projects/weblate/master/br/"
+"PO-Revision-Date: 2020-06-02 21:41+0000\n"
+"Last-Translator: Florent <florent.grouin+osmand@gmail.com>\n"
+"Language-Team: Breton <https://hosted.weblate.org/projects/weblate/hosted/br/"
 ">\n"
 "Language: br\n"
 "MIME-Version: 1.0\n"
@@ -18,10 +17,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=(n % 10 == 1 && n % 100 != 11 && n % 100 != "
 "71 && n % 100 != 91) ? 0 : ((n % 10 == 2 && n % 100 != 12 && n % 100 != 72 "
-"&& n % 100 != 92) ? 1 : ((((n % 10 == 3 || n % 10 == 4) || n % 10 == 9) && "
-"(n % 100 < 10 || n % 100 > 19) && (n % 100 < 70 || n % 100 > 79) && (n % 100 "
+"&& n % 100 != 92) ? 1 : ((((n % 10 == 3 || n % 10 == 4) || n % 10 == 9) && ("
+"n % 100 < 10 || n % 100 > 19) && (n % 100 < 70 || n % 100 > 79) && (n % 100 "
 "< 90 || n % 100 > 99)) ? 2 : ((n != 0 && n % 1000000 == 0) ? 3 : 4)));\n"
-"X-Generator: Weblate 2.19-dev\n"
+"X-Generator: Weblate 4.1-dev\n"
 
 #: wlhosted/addons.py:37 wlhosted/addons.py:38
 msgid "Generate Unknown Horizons scenario data"
@@ -856,7 +855,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:335
 msgid "Payment card"
-msgstr ""
+msgstr "Kartenn-baeañ"
 
 #: wlhosted/payments/backends.py:411
 msgid "Payment cancelled"
@@ -872,7 +871,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:434
 msgid "IBAN bank transfer"
-msgstr ""
+msgstr "Treuzkasadenn-vank"
 
 #: wlhosted/payments/backends.py:464
 msgid "Issuing bank"
