@@ -2,18 +2,23 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Weblate <noreply@weblate.org>, 2020.
+# Ayoub Rejal <ayoubrejal@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-06-07 19:12+0000\n"
+"Last-Translator: Ayoub Rejal <ayoubrejal@gmail.com>\n"
+"Language-Team: Arabic (Lybia) <https://hosted.weblate.org/projects/weblate/"
+"hosted/ar_LY/>\n"
 "Language: ar_LY\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 4.1-dev\n"
 
 #: wlhosted/addons.py:37 wlhosted/addons.py:38
 msgid "Generate Unknown Horizons scenario data"
@@ -811,47 +816,48 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:335
 msgid "Payment card"
-msgstr ""
+msgstr "بطاقة الدفع"
 
 #: wlhosted/payments/backends.py:411
 msgid "Payment cancelled"
-msgstr ""
+msgstr "تم إلغاء الدفع"
 
 #: wlhosted/payments/backends.py:413
 msgid "Payment error"
-msgstr ""
+msgstr "خطأ في الدفع"
 
 #: wlhosted/payments/backends.py:425
 msgid "Bitcoin"
-msgstr ""
+msgstr "بيتكوين"
 
 #: wlhosted/payments/backends.py:434
 msgid "IBAN bank transfer"
-msgstr ""
+msgstr "التحويل المصرفي IBAN"
 
 #: wlhosted/payments/backends.py:464
+#, fuzzy
 msgid "Issuing bank"
-msgstr ""
+msgstr "إصدار البنك"
 
 #: wlhosted/payments/backends.py:465
 msgid "Account holder"
-msgstr ""
+msgstr "صاحب الحساب"
 
 #: wlhosted/payments/backends.py:466
 msgid "Account number"
-msgstr ""
+msgstr "رقم الحساب"
 
 #: wlhosted/payments/backends.py:467
 msgid "SWIFT code"
-msgstr ""
+msgstr "رمز سويفت"
 
 #: wlhosted/payments/backends.py:468
 msgid "IBAN"
-msgstr ""
+msgstr "رقم الحساب المصرفي الدولي (IBAN)"
 
 #: wlhosted/payments/backends.py:469
 msgid "Reference"
-msgstr ""
+msgstr "مرجع"
 
 #: wlhosted/payments/models.py:83
 msgid "European VAT ID"
