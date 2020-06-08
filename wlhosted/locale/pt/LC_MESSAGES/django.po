@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Pedro Albuquerque <palbuquerque73@gmail.com>, 2018.
-# ssantos <ssantos@web.de>, 2018, 2019.
+# ssantos <ssantos@web.de>, 2018, 2019, 2020.
 # Pedro Albuquerque <pmra@gmx.com>, 2019.
 # Manuela Silva <mmsrs@sky.com>, 2019, 2020.
 # Michal Čihař <michal@cihar.com>, 2020.
@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-05-13 15:41+0000\n"
-"Last-Translator: Manuela Silva <mmsrs@sky.com>\n"
+"PO-Revision-Date: 2020-06-09 06:38+0000\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/weblate/"
 "hosted/pt/>\n"
 "Language: pt\n"
@@ -105,7 +105,7 @@ msgstr "Limite de projetos"
 #: wlhosted/integrations/templates/hosted/create.html:77
 #, python-format
 msgid "%(price)s EUR / month"
-msgstr "%(price)s  EUR/mês"
+msgstr "%(price)s EUR / mês"
 
 #: wlhosted/integrations/templates/hosted/create.html:78
 #: wlhosted/integrations/templates/hosted/create.html:84
