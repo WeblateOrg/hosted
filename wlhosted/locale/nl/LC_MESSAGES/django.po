@@ -4,13 +4,14 @@
 # Thomas De Rocker <thomasderocker@outlook.com>, 2018, 2019.
 # Frans de Jonge <fransdejonge+weblate.org@gmail.com>, 2019.
 # Jaimie85 <alsemgeest@gmail.com>, 2020.
+# Heimen Stoffels <vistausss@outlook.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-01-12 13:21+0000\n"
-"Last-Translator: Jaimie85 <alsemgeest@gmail.com>\n"
+"PO-Revision-Date: 2020-06-19 09:20+0000\n"
+"Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/weblate/hosted/nl/>"
 "\n"
 "Language: nl\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10.1\n"
+"X-Generator: Weblate 4.1.1-dev\n"
 
 #: wlhosted/addons.py:37 wlhosted/addons.py:38
 msgid "Generate Unknown Horizons scenario data"
@@ -38,15 +39,15 @@ msgstr "Facturering"
 
 #: wlhosted/integrations/forms.py:36
 msgid "Choose the billing plan you want to update"
-msgstr "Kies het factureringsplan dat u wilt bijwerken"
+msgstr "Kies het bij te werken factureringsplan"
 
 #: wlhosted/integrations/forms.py:37
 msgid "Create new billing plan"
-msgstr "Nieuw factureringsplan aanmaken"
+msgstr "Nieuw factureringsplan maken"
 
 #: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
-msgstr "Factureringsplan aanmaken"
+msgstr "Factureringsplan maken"
 
 #: wlhosted/integrations/templates/hosted/create.html:16
 msgid "New billing plan"
@@ -71,7 +72,7 @@ msgstr "Te klein"
 
 #: wlhosted/integrations/templates/hosted/create.html:48
 msgid "Selected plan"
-msgstr "Geselecteerd tariefplan"
+msgstr "Gekozen tariefplan"
 
 #: wlhosted/integrations/templates/hosted/create.html:50
 msgid "Current plan"
@@ -98,23 +99,23 @@ msgstr "Onderdelenlimiet"
 
 #: wlhosted/integrations/templates/hosted/create.html:64
 msgid "Projects limit"
-msgstr "Project-limiet"
+msgstr "Projectlimiet"
 
 #: wlhosted/integrations/templates/hosted/create.html:77
 #, python-format
 msgid "%(price)s EUR / month"
-msgstr "%(price)s EUR/maand"
+msgstr "%(price)s euro per maand"
 
 #: wlhosted/integrations/templates/hosted/create.html:78
 #: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
 msgid "%(price)s EUR including VAT"
-msgstr "%(price)s EUR inclusief btw"
+msgstr "%(price)s euro, inclusief btw"
 
 #: wlhosted/integrations/templates/hosted/create.html:83
 #, python-format
 msgid "%(price)s EUR / year"
-msgstr "%(price)s EUR/jaar"
+msgstr "%(price)s euro per jaar"
 
 #: wlhosted/integrations/templates/hosted/create.html:95
 msgid ""
