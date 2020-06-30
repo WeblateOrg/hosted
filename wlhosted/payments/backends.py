@@ -18,7 +18,7 @@
 #
 
 import json
-import os.path
+import os
 import re
 import subprocess
 from math import floor
@@ -155,12 +155,14 @@ class Backend:
         )
         invoice = storage.get(invoice_file)
         invoice.write_tex()
-        backup = os.environ["FONTCONFIG_FILE"]
-        del os.environ["FONTCONFIG_FILE"]
+        backup = os.environ.get("FONTCONFIG_FILE")
+        if backup:
+            del os.environ["FONTCONFIG_FILE"]
         try:
             invoice.build_pdf()
         finally:
-            os.environ["FONTCONFIG_FILE"] = backup
+            if backup:
+                os.environ["FONTCONFIG_FILE"] = backup
         files = [contact_file, invoice_file, invoice.tex_path, invoice.pdf_path]
         if paid:
             invoice.mark_paid(
