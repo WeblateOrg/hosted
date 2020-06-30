@@ -4,7 +4,6 @@ on: [push, pull_request]
 
 jobs:
   flake8:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -28,7 +27,6 @@ jobs:
           echo "::remove-matcher owner=flake8::"
 
   pre-commit:
-
     runs-on: ubuntu-latest
 
     steps:
