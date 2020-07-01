@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-06-25 14:41+0000\n"
+"PO-Revision-Date: 2020-07-03 05:41+0000\n"
 "Last-Translator: Jwtiyar Nariman <jwtiyar@gmail.com>\n"
 "Language-Team: Central Kurdish <https://hosted.weblate.org/projects/weblate/"
 "hosted/ckb/>\n"
@@ -845,7 +845,7 @@ msgstr "کارتی پارەدان"
 
 #: wlhosted/payments/backends.py:411
 msgid "Payment cancelled"
-msgstr ""
+msgstr "پارەدان ڕەتکرایەوە"
 
 #: wlhosted/payments/backends.py:413
 msgid "Payment error"
@@ -853,7 +853,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:425
 msgid "Bitcoin"
-msgstr ""
+msgstr "بیتکۆین"
 
 #: wlhosted/payments/backends.py:434
 msgid "IBAN bank transfer"
@@ -861,27 +861,27 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:464
 msgid "Issuing bank"
-msgstr ""
+msgstr "بانکی درووستکەر"
 
 #: wlhosted/payments/backends.py:465
 msgid "Account holder"
-msgstr ""
+msgstr "هەڵگری هەژمار"
 
 #: wlhosted/payments/backends.py:466
 msgid "Account number"
-msgstr ""
+msgstr "ژمارەی هەژمار"
 
 #: wlhosted/payments/backends.py:467
 msgid "SWIFT code"
-msgstr ""
+msgstr "سویفت کۆد"
 
 #: wlhosted/payments/backends.py:468
 msgid "IBAN"
-msgstr ""
+msgstr "ئای بان"
 
 #: wlhosted/payments/backends.py:469
 msgid "Reference"
-msgstr ""
+msgstr "ژێدەر"
 
 #: wlhosted/payments/models.py:83
 msgid "European VAT ID"
@@ -893,7 +893,7 @@ msgstr ""
 
 #: wlhosted/payments/models.py:91
 msgid "Tax registration"
-msgstr ""
+msgstr "باجی تۆماربوون"
 
 #: wlhosted/payments/models.py:93
 msgid ""
@@ -906,39 +906,39 @@ msgstr ""
 
 #: wlhosted/payments/models.py:103
 msgid "Address"
-msgstr ""
+msgstr "ناونیشان"
 
 #: wlhosted/payments/models.py:106
 msgid "Postcode and city"
-msgstr ""
+msgstr "پۆست کۆد و شار"
 
 #: wlhosted/payments/models.py:108
 msgid "Country"
-msgstr ""
+msgstr "وڵات"
 
 #: wlhosted/payments/models.py:136
 msgid "The country has to match your VAT code"
-msgstr ""
+msgstr "دەبێت وڵاتەکەت لەگەڵ کۆدی VAT بگونجێت"
 
 #: wlhosted/payments/models.py:159
 msgid "Annual"
-msgstr ""
+msgstr "ساڵانە"
 
 #: wlhosted/payments/models.py:160
 msgid "Biannual"
-msgstr ""
+msgstr "شەش مانگی"
 
 #: wlhosted/payments/models.py:161
 msgid "Quarterly"
-msgstr ""
+msgstr "سێ مانگی"
 
 #: wlhosted/payments/models.py:162
 msgid "Monthly"
-msgstr ""
+msgstr "مانگانە"
 
 #: wlhosted/payments/models.py:163
 msgid "Onetime"
-msgstr ""
+msgstr "یەکجار"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
