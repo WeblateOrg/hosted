@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-06-25 14:41+0000\n"
+"PO-Revision-Date: 2020-07-03 05:41+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/weblate/hosted/"
 "hr/>\n"
@@ -27,7 +27,7 @@ msgstr "Stvori podatke Unknown Horizons scenarija"
 
 #: wlhosted/addons.py:60
 msgid "Reset repository to upstream"
-msgstr "Vrati spremište u gornji tok"
+msgstr "Ponovo postavi repozitorij u gornji tok"
 
 #: wlhosted/addons.py:61
 msgid "Reset all changes in the local repository"
@@ -847,8 +847,8 @@ msgid ""
 "Should the Project opt in for the Translation Memory, license to use the "
 "translation is granted to all Translation Memory users."
 msgstr ""
-"Ako se projekt opredijeli za upotrebu spremišta prijevoda, licenca za "
-"korištenje prijevoda dodijeljuje se svim korisnicima spremišta prijevoda."
+"Ako se projekt opredijeli za upotrebu prevodilačke memorije, licenca za "
+"korištenje prijevoda dodjeljuje se svim korisnicima prevodilačke memorije."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:126
 msgid ""
