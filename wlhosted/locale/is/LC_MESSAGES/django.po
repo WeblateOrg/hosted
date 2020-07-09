@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Weblate <noreply@weblate.org>, 2020.
 # Þórhalla Guðmundsdóttir Beck <plergux@outlook.com>, 2020.
+# Sveinn í Felli <sv1@fellsnet.is>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-07-08 11:41+0000\n"
-"Last-Translator: Þórhalla Guðmundsdóttir Beck <plergux@outlook.com>\n"
+"PO-Revision-Date: 2020-07-09 18:19+0000\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <https://hosted.weblate.org/projects/weblate/hosted/"
 "is/>\n"
 "Language: is\n"
@@ -33,7 +34,7 @@ msgstr ""
 
 #: wlhosted/integrations/forms.py:35
 msgid "Billing"
-msgstr ""
+msgstr "Greiðslur"
 
 #: wlhosted/integrations/forms.py:36
 msgid "Choose the billing plan you want to update"
@@ -69,50 +70,50 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:48
 msgid "Selected plan"
-msgstr ""
+msgstr "Valin áskrift"
 
 #: wlhosted/integrations/templates/hosted/create.html:50
 msgid "Current plan"
-msgstr ""
+msgstr "Núverandi áskriftarleið"
 
 #: wlhosted/integrations/templates/hosted/create.html:55
 msgid "Strings limit"
-msgstr ""
+msgstr "Takmörk á fjölda strengja"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 #: wlhosted/integrations/templates/hosted/create.html:59
 #: wlhosted/integrations/templates/hosted/create.html:62
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Unlimited"
-msgstr ""
+msgstr "Ótakmarkað"
 
 #: wlhosted/integrations/templates/hosted/create.html:58
 msgid "Languages limit"
-msgstr ""
+msgstr "Takmörk á fjölda tungumála"
 
 #: wlhosted/integrations/templates/hosted/create.html:61
 msgid "Component limit"
-msgstr ""
+msgstr "Takmörk á fjölda eininga"
 
 #: wlhosted/integrations/templates/hosted/create.html:64
 msgid "Projects limit"
-msgstr ""
+msgstr "Takmörk á fjölda verkefna"
 
 #: wlhosted/integrations/templates/hosted/create.html:77
 #, python-format
 msgid "%(price)s EUR / month"
-msgstr ""
+msgstr "%(price)s EUR / mánuði"
 
 #: wlhosted/integrations/templates/hosted/create.html:78
 #: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
 msgid "%(price)s EUR including VAT"
-msgstr ""
+msgstr "%(price)s EUR með VSK"
 
 #: wlhosted/integrations/templates/hosted/create.html:83
 #, python-format
 msgid "%(price)s EUR / year"
-msgstr ""
+msgstr "%(price)s EUR / ári"
 
 #: wlhosted/integrations/templates/hosted/create.html:95
 msgid ""
@@ -156,7 +157,7 @@ msgstr ""
 
 #: wlhosted/integrations/views.py:93
 msgid "Unknown reason"
-msgstr ""
+msgstr "Óþekkt ástæða"
 
 #: wlhosted/integrations/views.py:110
 msgid "Payments are temporarily inactive."
@@ -196,7 +197,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:25
 msgid "Name and e-mail"
-msgstr ""
+msgstr "Nafn og tölvupóstfang"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:26
 msgid "These are used to identify you in the VCS commits"
@@ -226,7 +227,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:35
 msgid "Billing information"
-msgstr ""
+msgstr "Upplýsingar um greiðanda"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:36
 msgid ""
@@ -288,7 +289,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:59
 msgid "Payment processors."
-msgstr ""
+msgstr "Greiðslumiðlanir."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:62
 msgid "All Personal Data is stored in the European Union."
@@ -392,7 +393,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:10
 msgid "View English version"
-msgstr ""
+msgstr "Skoða enska útgáfu textans"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:11
 msgid ""
@@ -408,7 +409,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:20
 msgid "Definitions"
-msgstr ""
+msgstr "Skilgreiningar"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:22
 msgid "In these Terms of Service:"
@@ -416,7 +417,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:26
 msgid "Agreement"
-msgstr ""
+msgstr "Samkomulag"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:27
 msgid ""
@@ -436,7 +437,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:32
 msgid "Consent"
-msgstr ""
+msgstr "Samþykki"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:33
 msgid ""
@@ -447,7 +448,7 @@ msgstr ""
 #: wlhosted/legal/templates/legal/documents/tos.html:35
 #: wlhosted/legal/templates/legal/documents/tos.html:131
 msgid "Cookies"
-msgstr ""
+msgstr "Vefkökur"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:36
 msgid ""
@@ -458,7 +459,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:39
 msgid "GDPR"
-msgstr ""
+msgstr "GDPR"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:40
 #, python-format
@@ -469,7 +470,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:42
 msgid "License"
-msgstr ""
+msgstr "Notkunarleyfi"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:43
 msgid ""
@@ -479,7 +480,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:45
 msgid "Provider"
-msgstr ""
+msgstr "Þjónustuveita"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:46
 #, python-format
@@ -489,7 +490,7 @@ msgstr ""
 #: wlhosted/legal/templates/legal/documents/tos.html:48
 #: wlhosted/legal/templates/legal/documents/tos.html:98
 msgid "Personal Data"
-msgstr ""
+msgstr "Einkagögn"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:49
 #, python-format
@@ -500,7 +501,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:51
 msgid "Owner"
-msgstr ""
+msgstr "Eigandi"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:52
 msgid "means the User who can manage Project"
@@ -508,7 +509,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:54
 msgid "Project"
-msgstr ""
+msgstr "Verkefni"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:55
 msgid "means translation project operated on the Service"
@@ -516,7 +517,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:57
 msgid "Service"
-msgstr ""
+msgstr "Þjónusta"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:58
 msgid ""
@@ -525,7 +526,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:60
 msgid "Translation Memory"
-msgstr ""
+msgstr "Þýðingaminni"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:61
 msgid "means the optional translation memory service provided within Weblate"
@@ -533,7 +534,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:63
 msgid "User"
-msgstr ""
+msgstr "Notandi"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:64
 msgid ""
@@ -543,7 +544,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:66
 msgid "VCS"
-msgstr ""
+msgstr "VCS"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:67
 msgid ""
@@ -563,7 +564,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:76
 msgid "License Agreement"
-msgstr ""
+msgstr "Notkunarleyfi"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:78
 msgid ""
@@ -689,7 +690,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:118
 msgid "Translations"
-msgstr ""
+msgstr "Þýðingar"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:120
 msgid ""
@@ -755,7 +756,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:145
 msgid "Effect"
-msgstr ""
+msgstr "Gildi"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:147
 msgid ""
@@ -898,23 +899,23 @@ msgstr "Landið þarf að passa við virðisaukaskattsnúmerið"
 
 #: wlhosted/payments/models.py:159
 msgid "Annual"
-msgstr ""
+msgstr "Árlegt"
 
 #: wlhosted/payments/models.py:160
 msgid "Biannual"
-msgstr ""
+msgstr "Á tveggja ára fresti"
 
 #: wlhosted/payments/models.py:161
 msgid "Quarterly"
-msgstr ""
+msgstr "Ársfjórðungslega"
 
 #: wlhosted/payments/models.py:162
 msgid "Monthly"
-msgstr ""
+msgstr "Mánaðarlega"
 
 #: wlhosted/payments/models.py:163
 msgid "Onetime"
-msgstr ""
+msgstr "Eitt skipti"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
