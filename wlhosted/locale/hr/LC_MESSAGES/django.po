@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-07-03 05:41+0000\n"
+"PO-Revision-Date: 2020-07-12 05:05+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/weblate/hosted/"
 "hr/>\n"
@@ -35,23 +35,23 @@ msgstr "Poništi sve promjene u lokalnom repozitoriju"
 
 #: wlhosted/integrations/forms.py:35
 msgid "Billing"
-msgstr "Naplaćivanje"
+msgstr "Naplata"
 
 #: wlhosted/integrations/forms.py:36
 msgid "Choose the billing plan you want to update"
-msgstr "Odaberi plan naplaćivanja kojeg želiš aktualizirati"
+msgstr "Odaberi plan naplate koju želiš aktualizirati"
 
 #: wlhosted/integrations/forms.py:37
 msgid "Create new billing plan"
-msgstr "Stvori novi plan naplaćivanja"
+msgstr "Stvori novi plan naplate"
 
 #: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
-msgstr "Stvori plan naplaćivanja"
+msgstr "Stvori plan naplate"
 
 #: wlhosted/integrations/templates/hosted/create.html:16
 msgid "New billing plan"
-msgstr "Novi plan naplaćivanja"
+msgstr "Novi plan naplate"
 
 #: wlhosted/integrations/templates/hosted/create.html:19
 msgid "Please choose a hosting plan that fits the size of your project."
@@ -59,7 +59,7 @@ msgstr "Odaberi plan hostinga koji odgovara veličini tvog projekta."
 
 #: wlhosted/integrations/templates/hosted/create.html:25
 msgid "Current billing status"
-msgstr "Trenutačno stanje naplaćivanja"
+msgstr "Trenutačno stanje naplate"
 
 #: wlhosted/integrations/templates/hosted/create.html:46
 msgid "Too small for your project."
@@ -75,7 +75,7 @@ msgstr "Odabrani plan"
 
 #: wlhosted/integrations/templates/hosted/create.html:50
 msgid "Current plan"
-msgstr "Trenutačna tarifa"
+msgstr "Trenutačni plan"
 
 #: wlhosted/integrations/templates/hosted/create.html:55
 msgid "Strings limit"
@@ -246,15 +246,15 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:35
 msgid "Billing information"
-msgstr "Podaci o naplaćivanju"
+msgstr "Podaci naplate"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:36
 msgid ""
 "In case you purchase service from us, we collect additional billing "
 "information necessary for issuing an invoice"
 msgstr ""
-"U slučaju da kupiš uslugu od nas, prikupljamo dodatne informacije o "
-"naplaćivanju, koje su potrebne za izdavanje računa"
+"U slučaju da od nas kupiš uslugu, prikupljamo dodatne podatke naplate, koji "
+"su potrebni za izdavanje računa"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:40
 msgid "Purpose and legal basis of processing Personal Data"
@@ -604,8 +604,7 @@ msgstr "Prevodilačka memorija"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:61
 msgid "means the optional translation memory service provided within Weblate"
-msgstr ""
-"znači opcionalnu uslugu prevodilačke memorije, koja se pruža unutar Weblatea"
+msgstr "znači opcionalna usluga prevodilačke memorije omogućena unutar Weblatea"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:63
 msgid "User"
@@ -1050,7 +1049,7 @@ msgstr "Porezna prijava"
 #: wlhosted/payments/models.py:93
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
-msgstr "Upiši svoj porezni broj, ako bi se morao pojaviti na računu."
+msgstr "Upiši svoj porezni broj, ako se mora pojaviti na računu."
 
 #: wlhosted/payments/models.py:100
 msgid "Company or individual name"
