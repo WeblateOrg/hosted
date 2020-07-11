@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-06-27 15:41+0000\n"
+"PO-Revision-Date: 2020-07-12 05:05+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/weblate/hosted/nl/>"
 "\n"
@@ -55,8 +55,7 @@ msgstr "Nieuw factureringsplan"
 
 #: wlhosted/integrations/templates/hosted/create.html:19
 msgid "Please choose a hosting plan that fits the size of your project."
-msgstr ""
-"Kies een hosting-tariefplan dat overeenkomt met de grootte van uw project."
+msgstr "Kies het hostingplan dat overeenkomt met de grootte van uw project."
 
 #: wlhosted/integrations/templates/hosted/create.html:25
 msgid "Current billing status"
@@ -72,11 +71,11 @@ msgstr "Te klein"
 
 #: wlhosted/integrations/templates/hosted/create.html:48
 msgid "Selected plan"
-msgstr "Gekozen tariefplan"
+msgstr "Gekozen hostingplan"
 
 #: wlhosted/integrations/templates/hosted/create.html:50
 msgid "Current plan"
-msgstr "Huidig tariefplan"
+msgstr "Huidig hostingpakket"
 
 #: wlhosted/integrations/templates/hosted/create.html:55
 msgid "Strings limit"
@@ -152,15 +151,16 @@ msgstr "Geen overeenkomende betaling gevonden."
 
 #: wlhosted/integrations/views.py:77
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr "Bedankt voor de aankoop van een hosting-tariefplan. Het is nu actief."
+msgstr ""
+"Bedankt voor het aanschaffen van een hostingplan. Het plan is nu actief."
 
 #: wlhosted/integrations/views.py:84
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
-"Bedankt voor de aankoop van een hosting-tariefplan. De betaling ervan is in "
-"behandeling en zal op de achtergrond verwerkt worden."
+"Bedankt voor het aanschaffen van een hostingplan. De betaling is in "
+"behandeling en wordt op de achtergrond verwerkt."
 
 #: wlhosted/integrations/views.py:92
 msgid "The payment was rejected: {}"
