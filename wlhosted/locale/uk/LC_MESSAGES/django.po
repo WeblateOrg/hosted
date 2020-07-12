@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-06-07 19:12+0000\n"
+"PO-Revision-Date: 2020-07-12 05:05+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/weblate/hosted/"
 "uk/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.1-dev\n"
+"X-Generator: Weblate 4.2-dev\n"
 
 #: wlhosted/addons.py:37 wlhosted/addons.py:38
 msgid "Generate Unknown Horizons scenario data"
@@ -609,7 +609,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:60
 msgid "Translation Memory"
-msgstr "Пам'ять перекладу"
+msgstr "Пам'ять перекладів"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:61
 msgid "means the optional translation memory service provided within Weblate"
