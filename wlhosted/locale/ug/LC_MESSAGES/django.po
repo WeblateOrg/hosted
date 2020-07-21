@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-05-15 11:58+0000\n"
+"PO-Revision-Date: 2020-07-22 06:41+0000\n"
 "Last-Translator: Abdusalam <1810010207@s.upc.edu.cn>\n"
 "Language-Team: Uyghur <https://hosted.weblate.org/projects/weblate/hosted/ug/"
 ">\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.1-dev\n"
+"X-Generator: Weblate 4.2-dev\n"
 
 #: wlhosted/addons.py:37 wlhosted/addons.py:38
 msgid "Generate Unknown Horizons scenario data"
@@ -151,11 +151,11 @@ msgstr ""
 
 #: wlhosted/integrations/views.py:92
 msgid "The payment was rejected: {}"
-msgstr ""
+msgstr "پۇل تۆلەش رەت قىلىندى: {}"
 
 #: wlhosted/integrations/views.py:93
 msgid "Unknown reason"
-msgstr ""
+msgstr "نامەلۇم سەۋەب"
 
 #: wlhosted/integrations/views.py:110
 msgid "Payments are temporarily inactive."
@@ -818,104 +818,106 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:335
 msgid "Payment card"
-msgstr ""
+msgstr "چىقىم كارتىسى"
 
 #: wlhosted/payments/backends.py:411
 msgid "Payment cancelled"
-msgstr ""
+msgstr "چىقىم بىكار قىلىندى"
 
 #: wlhosted/payments/backends.py:413
 msgid "Payment error"
-msgstr ""
+msgstr "ھەق تۆلەش خاتالىقى"
 
 #: wlhosted/payments/backends.py:425
 msgid "Bitcoin"
-msgstr ""
+msgstr "بىت تەڭگىسى"
 
 #: wlhosted/payments/backends.py:434
 msgid "IBAN bank transfer"
-msgstr ""
+msgstr "IBAN بانكا يۆتكەش"
 
 #: wlhosted/payments/backends.py:464
 msgid "Issuing bank"
-msgstr ""
+msgstr "ھېسابات ئاچقان بانكا"
 
 #: wlhosted/payments/backends.py:465
 msgid "Account holder"
-msgstr ""
+msgstr "ھېسابات ئىگىسى"
 
 #: wlhosted/payments/backends.py:466
 msgid "Account number"
-msgstr ""
+msgstr "ھېسابات نومۇرى"
 
 #: wlhosted/payments/backends.py:467
 msgid "SWIFT code"
-msgstr ""
+msgstr "SWIFT كودى"
 
 #: wlhosted/payments/backends.py:468
 msgid "IBAN"
-msgstr ""
+msgstr "IBAN"
 
 #: wlhosted/payments/backends.py:469
 msgid "Reference"
-msgstr ""
+msgstr "پايدىلانما"
 
 #: wlhosted/payments/models.py:83
 msgid "European VAT ID"
-msgstr ""
+msgstr "ياۋروپا قوشۇلما قىممەت بېجى كىملىكى"
 
 #: wlhosted/payments/models.py:85
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
+"ياۋروپا بىرلەشمىسىنىڭ قوشۇلما قىممەت بېجىنى تولدۇرۇڭ ، ئەگەر ماس كەلمىسە بوش "
+"قويۇڭ."
 
 #: wlhosted/payments/models.py:91
 msgid "Tax registration"
-msgstr ""
+msgstr "باج تىزىملاش"
 
 #: wlhosted/payments/models.py:93
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
-msgstr ""
+msgstr "تالوندا كۆرۈنسە باج تىزىملىكىنى تولدۇرۇڭ."
 
 #: wlhosted/payments/models.py:100
 msgid "Company or individual name"
-msgstr ""
+msgstr "شىركەت ياكى شەخس ئىسمى"
 
 #: wlhosted/payments/models.py:103
 msgid "Address"
-msgstr ""
+msgstr "ئادرېس"
 
 #: wlhosted/payments/models.py:106
 msgid "Postcode and city"
-msgstr ""
+msgstr "پوچتا نومۇرى ۋە شەھەر"
 
 #: wlhosted/payments/models.py:108
 msgid "Country"
-msgstr ""
+msgstr "دۆلەت"
 
 #: wlhosted/payments/models.py:136
 msgid "The country has to match your VAT code"
-msgstr ""
+msgstr "دۆلەت سىزنىڭ قوشۇلما قىممەت بېجى كودىڭىزغا ماس كېلىشى كېرەك"
 
 #: wlhosted/payments/models.py:159
 msgid "Annual"
-msgstr ""
+msgstr "يىللىق"
 
 #: wlhosted/payments/models.py:160
 msgid "Biannual"
-msgstr ""
+msgstr "يېرىم يىللىق"
 
 #: wlhosted/payments/models.py:161
 msgid "Quarterly"
-msgstr ""
+msgstr "پەسىللىك"
 
 #: wlhosted/payments/models.py:162
 msgid "Monthly"
-msgstr ""
+msgstr "ئايلىق"
 
 #: wlhosted/payments/models.py:163
 msgid "Onetime"
-msgstr ""
+msgstr "بىر قېتىم"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
