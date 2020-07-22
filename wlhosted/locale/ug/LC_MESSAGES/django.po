@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-07-22 06:41+0000\n"
+"PO-Revision-Date: 2020-07-23 02:39+0000\n"
 "Last-Translator: Abdusalam <1810010207@s.upc.edu.cn>\n"
 "Language-Team: Uyghur <https://hosted.weblate.org/projects/weblate/hosted/ug/"
 ">\n"
@@ -922,10 +922,11 @@ msgstr "بىر قېتىم"
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
 msgstr ""
+".} ياۋروپا ئىتتىپاقىغا ئەزا ھەر قانداق ئەزانىڭ ئۈنۈملۈك دۆلەت كودى ئەمەس."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr ""
+msgstr "{} دۆلەتنىڭ قوشۇلما قىممەت بېجى ئۆلچىمىگە ماس كەلمەيدۇ."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
