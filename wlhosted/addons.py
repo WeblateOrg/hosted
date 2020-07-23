@@ -35,7 +35,7 @@ class UnknownHorizonsTemplateAddon(BaseScriptAddon):
     description = _("Generate Unknown Horizons scenario data")
 
     # Script to execute
-    script = "/home/nijel/bin/uh_scenario_yaml"
+    script = "/home/weblate/data/bin/translate_scenario.py"
     # File to add in commit (for pre commit event)
     # does not have to be set
     add_file = "content/scenarios/*_{{ language_code }}.yaml"
