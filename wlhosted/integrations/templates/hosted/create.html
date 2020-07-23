@@ -2,6 +2,7 @@
 {% load i18n %}
 {% load translations %}
 {% load crispy_forms_tags %}
+{% load humanize $}
 
 {% block breadcrumbs %}
 <li><a href="{% url 'create-billing' %}">{% trans "Create billing plan" %}</a></li>
@@ -53,16 +54,16 @@
   </div>
   <table class="table table-striped">
   <tr><th>{% trans "Strings limit" %}</th>
-  <td>{% if plan.display_limit_strings %}{{ plan.display_limit_strings }}{% else %}{% trans "Unlimited" %}{% endif %}</td>
+  <td>{% if plan.display_limit_strings %}{{ plan.display_limit_strings|intcomma }}{% else %}{% trans "Unlimited" %}{% endif %}</td>
   </tr>
   <tr><th>{% trans "Languages limit" %}</th>
-  <td>{% if plan.display_limit_languages %}{{ plan.display_limit_languages }}{% else %}{% trans "Unlimited" %}{% endif %}</td>
+  <td>{% if plan.display_limit_languages %}{{ plan.display_limit_languages|intcomma }}{% else %}{% trans "Unlimited" %}{% endif %}</td>
   </tr>
   <tr><th>{% trans "Component limit" %}</th>
   <td>{% trans "Unlimited" %}</td>
   </tr>
   <tr><th>{% trans "Projects limit" %}</th>
-  <td>{% if plan.display_limit_projects %}{{ plan.display_limit_projects }}{% else %}{% trans "Unlimited" %}{% endif %}</td>
+  <td>{% if plan.display_limit_projects %}{{ plan.display_limit_projects|intcomma }}{% else %}{% trans "Unlimited" %}{% endif %}</td>
   </tr>
   </table>
   <div class="panel-footer billing-buttons">
@@ -74,14 +75,14 @@
 {% endif %}
 {% if plan.price %}
 <button type="submit" class="btn btn-primary btn-spaced" name="period" value="m" {% if billing and not plan.would_fit %}disabled{% endif %}>
-<big>{% blocktrans with price=plan.price %}{{ price }} EUR / month{% endblocktrans %}</big><br>
-<small>{% blocktrans with price=plan.vat_price %}{{ price }} EUR including VAT{% endblocktrans %}</small>
+<big>{% blocktrans with price=plan.price|intcomma %}{{ price }} EUR / month{% endblocktrans %}</big><br>
+<small>{% blocktrans with price=plan.vat_price|intcomma %}{{ price }} EUR including VAT{% endblocktrans %}</small>
 </button>
 {% endif %}
 {% if plan.yearly_price %}
 <button type="submit" class="btn btn-primary btn-spaced" name="period" value="y" {% if billing and not plan.would_fit %}disabled{% endif %}>
-<big>{% blocktrans with price=plan.yearly_price %}{{ price }} EUR / year{% endblocktrans %}</big><br>
-<small>{% blocktrans with price=plan.vat_yearly_price %}{{ price }} EUR including VAT{% endblocktrans %}</small>
+<big>{% blocktrans with price=plan.yearly_price|intcomma %}{{ price }} EUR / year{% endblocktrans %}</big><br>
+<small>{% blocktrans with price=plan.vat_yearly_price|intcomma %}{{ price }} EUR including VAT{% endblocktrans %}</small>
 </button>
 {% endif %}
 </form>
