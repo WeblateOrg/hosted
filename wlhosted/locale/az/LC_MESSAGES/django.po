@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Automatically generated, 2014.
 # anonymous <noreply@weblate.org>, 2019.
+# Meki <mekismith77@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2019-07-22 07:40+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2020-07-24 13:57+0000\n"
+"Last-Translator: Meki <mekismith77@gmail.com>\n"
 "Language-Team: Azerbaijani <https://hosted.weblate.org/projects/weblate/"
 "hosted/az/>\n"
 "Language: az\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.8-dev\n"
+"X-Generator: Weblate 4.2-dev\n"
 
 #: wlhosted/addons.py:37 wlhosted/addons.py:38
 msgid "Generate Unknown Horizons scenario data"
@@ -181,32 +182,30 @@ msgid ""
 msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:9
-#, fuzzy
-#| msgid "Version control"
 msgid "Personal Data Controller"
-msgstr "Versiya nəzarəti"
+msgstr "Fərdi məlumat nəzarətçisi"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:12
 #, python-format
 msgid "%(provider)s, Reg. No. %(reg_no)s"
-msgstr ""
+msgstr "%(provider)s, Reg. No. %(reg_no)s"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:15
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "Weblate has appointed a data protection officer who may be reached via "
 "%(privacy_contact)s."
 msgstr ""
+"Weblate, %(privacy_contact)s vasitəsilə əldə edilə bilən bir məlumat "
+"qoruması vəzifəlisini təyin etdi."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:17
-#, fuzzy
-#| msgid "Translation reverted"
 msgid "Personal Data processed by Weblate"
-msgstr "Tərcümə geri alındı"
+msgstr "Weblate tərəfindən işlənən fərdi məlumatlar"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:20
 msgid "Weblate only processes Personal Data the User provides by using it:"
-msgstr ""
+msgstr "Weblate istifadəçinin verdiyi fərdi məlumatları yalnızca emal edir:"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:25
 #, fuzzy
@@ -216,49 +215,55 @@ msgstr "İstifadəçi adı və ya mail"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:26
 msgid "These are used to identify you in the VCS commits"
-msgstr ""
+msgstr "Bunlar VCS-lərdə sizi tanımaq üçün istifadə olunur"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:27
 msgid "Additionally, e-mail is used for notification of watched events"
 msgstr ""
+"Bundan əlavə, e-mail izlənilən hadisələr barədə bildiriş üçün istifadə olunur"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:29
 #, fuzzy
 #| msgid "Your password has been changed."
 msgid "Password in hashed form"
-msgstr "Parolunuz dəyişdirildi."
+msgstr "Şifrə şəklindədir"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:30
 msgid "Used to authenticate the User, if configured"
 msgstr ""
+"Konfiqurasiya olunarsa İstifadəçi kimliyini təsdiqləmək üçün istifadə olunur"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:32
 msgid "IP address and browser name"
-msgstr ""
+msgstr "IP ünvanı və browser adı"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:33
 msgid ""
 "These are logged in case of important changes to your account (e.g. password "
 "change) to allow diagnosis in case your account is stolen"
 msgstr ""
+"Hesabınızın oğurlandığı təqdirdə diaqnoz qoymaq üçün hesabınıza vacib "
+"dəyişikliklər (məsələn, şifrə dəyişikliyi) daxil olur"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:35
 msgid "Billing information"
-msgstr ""
+msgstr "Ödəniş məlumatı"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:36
 msgid ""
 "In case you purchase service from us, we collect additional billing "
 "information necessary for issuing an invoice"
 msgstr ""
+"Xidməti bizdən satın aldığınız təqdirdə, bir faktura vermək üçün lazım olan "
+"əlavə məlumatlarınızı toplayırıq"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:40
 msgid "Purpose and legal basis of processing Personal Data"
-msgstr ""
+msgstr "Fərdi məlumatların işlənməsinin məqsədi və hüquqi əsasları"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:42
 msgid "Your Personal Data will be used for the purposes of the Service:"
-msgstr ""
+msgstr "Şəxsi məlumatlarınız Xidmətin məqsədləri üçün istifadə olunacaq:"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:46
 #, python-format
@@ -276,6 +281,8 @@ msgid ""
 "to analyze your use of our services and improve our services (<a href="
 "\"%(url)s\">Article 6 (1) b. and f. GDPR</a>)"
 msgstr ""
+"xidmətlərimizdən istifadənizi təhlil etmək və xidmətlərimizi yaxşılaşdırmaq ("
+"<a href=\"%(url)s\">Article 6 (1) b. and f. GDPR</a>)"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:48
 #, python-format
@@ -307,10 +314,8 @@ msgid "Persons which are contracted for technical assurance of the service."
 msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:59
-#, fuzzy
-#| msgid "Failed to process form!"
 msgid "Payment processors."
-msgstr "Proses formu uğursuz oldu!"
+msgstr "Ödəniş sistemləri."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:62
 msgid "All Personal Data is stored in the European Union."
@@ -439,10 +444,8 @@ msgid "Definitions"
 msgstr "Açıqlama"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:22
-#, fuzzy
-#| msgid "Service"
 msgid "In these Terms of Service:"
-msgstr "Servis"
+msgstr "Bu xidmət şərtlərində:"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:26
 msgid "Agreement"
@@ -543,11 +546,8 @@ msgid "Project"
 msgstr "Layihə"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:55
-#, fuzzy
-#| msgid ""
-#| "However the following translation projects are available on this server:"
 msgid "means translation project operated on the Service"
-msgstr "Bu serverdə ancaq aşağıdakı tərcümə layihələri vardır:"
+msgstr "Xidmətdə işlədilən tərcümə layihəsi deməkdir"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:57
 msgid "Service"
@@ -851,125 +851,123 @@ msgid ""
 msgstr ""
 
 #: wlhosted/payments/backends.py:335
-#, fuzzy
-#| msgid "Failed to process form!"
 msgid "Payment card"
-msgstr "Proses formu uğursuz oldu!"
+msgstr "Ödəniş kartı"
 
 #: wlhosted/payments/backends.py:411
 msgid "Payment cancelled"
-msgstr ""
+msgstr "Ödəniş ləğv edildi"
 
 #: wlhosted/payments/backends.py:413
-#, fuzzy
-#| msgid "Failed to process form!"
 msgid "Payment error"
-msgstr "Proses formu uğursuz oldu!"
+msgstr "Ödəniş xətası"
 
 #: wlhosted/payments/backends.py:425
 msgid "Bitcoin"
-msgstr ""
+msgstr "Bitcoin"
 
 #: wlhosted/payments/backends.py:434
 msgid "IBAN bank transfer"
-msgstr ""
+msgstr "IBAN bank köçürməsi"
 
 #: wlhosted/payments/backends.py:464
 msgid "Issuing bank"
-msgstr ""
+msgstr "Verən bank"
 
 #: wlhosted/payments/backends.py:465
 msgid "Account holder"
-msgstr ""
+msgstr "Hesab sahibi"
 
 #: wlhosted/payments/backends.py:466
 msgid "Account number"
-msgstr ""
+msgstr "Hesab nömrəsi"
 
 #: wlhosted/payments/backends.py:467
 msgid "SWIFT code"
-msgstr ""
+msgstr "SWIFT kodu"
 
 #: wlhosted/payments/backends.py:468
 msgid "IBAN"
-msgstr ""
+msgstr "IBAN"
 
 #: wlhosted/payments/backends.py:469
 msgid "Reference"
-msgstr ""
+msgstr "İstinad"
 
 #: wlhosted/payments/models.py:83
 msgid "European VAT ID"
-msgstr ""
+msgstr "Avropa ƏDV ID"
 
 #: wlhosted/payments/models.py:85
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
+"Zəhmət olmasa, Avropa Birliyi ƏDV ID-nı doldurun, uyğun deyilsə boş qoyun."
 
 #: wlhosted/payments/models.py:91
 msgid "Tax registration"
-msgstr ""
+msgstr "Vergi qeydiyyatı"
 
 #: wlhosted/payments/models.py:93
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
-msgstr ""
+msgstr "Zəhmət olmasa hesab-fakturada görünməlidirsə, vergi qeydinizi doldurun."
 
 #: wlhosted/payments/models.py:100
 msgid "Company or individual name"
-msgstr ""
+msgstr "Şirkət və ya fərdi ad"
 
 #: wlhosted/payments/models.py:103
 msgid "Address"
-msgstr ""
+msgstr "Ünvan"
 
 #: wlhosted/payments/models.py:106
 msgid "Postcode and city"
-msgstr ""
+msgstr "Poçt indeksi və şəhər"
 
 #: wlhosted/payments/models.py:108
 msgid "Country"
-msgstr ""
+msgstr "Ölkə"
 
 #: wlhosted/payments/models.py:136
 msgid "The country has to match your VAT code"
-msgstr ""
+msgstr "Ölkə ƏDV kodunuza uyğun olmalıdır"
 
 #: wlhosted/payments/models.py:159
 msgid "Annual"
-msgstr ""
+msgstr "İllik"
 
 #: wlhosted/payments/models.py:160
 msgid "Biannual"
-msgstr ""
+msgstr "İldə iki dəfə"
 
 #: wlhosted/payments/models.py:161
 msgid "Quarterly"
-msgstr ""
+msgstr "Rüblük"
 
 #: wlhosted/payments/models.py:162
 msgid "Monthly"
-msgstr ""
+msgstr "Aylıq"
 
 #: wlhosted/payments/models.py:163
 msgid "Onetime"
-msgstr ""
+msgstr "Bir dəfə"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
-msgstr ""
+msgstr "{} heç bir Avropa Birliyi üzvü üçün etibarlı ölkə kodu deyil."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr ""
+msgstr "{} ölkənin ƏDV ID xüsusiyyətlərinə uyğun gəlmir."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
+"ƏDV ID təsdiqləmə xidməti {} üçün əlçatmazdır, daha sonra yenidən cəhd edin."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr ""
+msgstr "{} etibarlı ƏDV ID deyil."
 
 #, fuzzy
 #~| msgid "Git maintenance"
