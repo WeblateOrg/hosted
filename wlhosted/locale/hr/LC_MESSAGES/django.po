@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-07-12 05:05+0000\n"
+"PO-Revision-Date: 2020-07-24 13:57+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/weblate/hosted/"
 "hr/>\n"
@@ -79,7 +79,7 @@ msgstr "Trenutačni plan"
 
 #: wlhosted/integrations/templates/hosted/create.html:55
 msgid "Strings limit"
-msgstr "Ograničenje izraza"
+msgstr "Maks. broj izraza"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 #: wlhosted/integrations/templates/hosted/create.html:59
@@ -90,7 +90,7 @@ msgstr "Neograničeno"
 
 #: wlhosted/integrations/templates/hosted/create.html:58
 msgid "Languages limit"
-msgstr "Ograničenje jezika"
+msgstr "Maks. broj jezika"
 
 #: wlhosted/integrations/templates/hosted/create.html:61
 msgid "Component limit"
@@ -98,7 +98,7 @@ msgstr "Ograničenje komponente"
 
 #: wlhosted/integrations/templates/hosted/create.html:64
 msgid "Projects limit"
-msgstr "Ograničenje projekta"
+msgstr "Maks. broj projekta"
 
 #: wlhosted/integrations/templates/hosted/create.html:77
 #, python-format
