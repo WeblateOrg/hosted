@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Michal Čihař <michal@cihar.com>, 2019.
 # anonymous <noreply@weblate.org>, 2019.
+# Kou Prey Team <kouprey25@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2019-09-21 01:17+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2020-07-31 03:40+0000\n"
+"Last-Translator: Kou Prey Team <kouprey25@gmail.com>\n"
 "Language-Team: Central Khmer <https://hosted.weblate.org/projects/weblate/"
 "hosted/km/>\n"
 "Language: km\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.9-dev\n"
+"X-Generator: Weblate 4.2-dev\n"
 
 #: wlhosted/addons.py:37 wlhosted/addons.py:38
 msgid "Generate Unknown Horizons scenario data"
@@ -827,15 +828,15 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:335
 msgid "Payment card"
-msgstr ""
+msgstr "កាតបង់ប្រាក់"
 
 #: wlhosted/payments/backends.py:411
 msgid "Payment cancelled"
-msgstr ""
+msgstr "ការបង់ប្រាក់បានបោះបង់"
 
 #: wlhosted/payments/backends.py:413
 msgid "Payment error"
-msgstr ""
+msgstr "កំហុសការបង់ប្រាក់"
 
 #: wlhosted/payments/backends.py:425
 msgid "Bitcoin"
@@ -843,7 +844,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:434
 msgid "IBAN bank transfer"
-msgstr ""
+msgstr "ការផ្ទេរប្រាក់តាមធនាគារ IBAN"
 
 #: wlhosted/payments/backends.py:464
 msgid "Issuing bank"
