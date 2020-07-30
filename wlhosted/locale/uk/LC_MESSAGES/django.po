@@ -10,13 +10,14 @@
 # Oleksa Stasevych <oleksiy.stasevych@gmail.com>, 2020.
 # Yuri Chornoivan <yurchor@ukr.net>, 2020.
 # ihor_ck <igor_ck@outlook.com>, 2020.
+# Aleksandr <alex_connor@icloud.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-07-29 14:02+0000\n"
-"Last-Translator: ihor_ck <igor_ck@outlook.com>\n"
+"PO-Revision-Date: 2020-07-31 03:40+0000\n"
+"Last-Translator: Aleksandr <alex_connor@icloud.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/weblate/hosted/"
 "uk/>\n"
 "Language: uk\n"
@@ -1047,7 +1048,7 @@ msgstr "IBAN"
 
 #: wlhosted/payments/backends.py:469
 msgid "Reference"
-msgstr "Довідково"
+msgstr "Рекомендація"
 
 #: wlhosted/payments/models.py:83
 msgid "European VAT ID"
@@ -1056,7 +1057,7 @@ msgstr "Європейський номер платника ПДВ"
 #: wlhosted/payments/models.py:85
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
-"Заповніть номер платника ПДВ Євросоюзу, залиште порожнім, якщо не застосовно."
+"Заповніть номер платника ПДВ Євросоюзу, залиште порожнім, якщо не доречно."
 
 #: wlhosted/payments/models.py:91
 msgid "Tax registration"
@@ -1098,7 +1099,7 @@ msgstr "Дворічно"
 
 #: wlhosted/payments/models.py:161
 msgid "Quarterly"
-msgstr "Щотримісячно"
+msgstr "Щоквартально"
 
 #: wlhosted/payments/models.py:162
 msgid "Monthly"
