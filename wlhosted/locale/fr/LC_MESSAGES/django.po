@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-07-17 08:38+0000\n"
+"PO-Revision-Date: 2020-07-31 03:40+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/weblate/hosted/fr/"
 ">\n"
@@ -1127,7 +1127,7 @@ msgstr "Bi-annuel"
 
 #: wlhosted/payments/models.py:161
 msgid "Quarterly"
-msgstr "Trimestriellement"
+msgstr "Trimestriel"
 
 #: wlhosted/payments/models.py:162
 msgid "Monthly"
