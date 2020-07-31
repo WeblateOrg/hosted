@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-07-31 03:40+0000\n"
+"PO-Revision-Date: 2020-08-01 11:12+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/weblate/hosted/fr/"
 ">\n"
@@ -194,7 +194,7 @@ msgstr "Contrôle des Données Personnelles"
 #: wlhosted/legal/templates/legal/documents/privacy.html:12
 #, python-format
 msgid "%(provider)s, Reg. No. %(reg_no)s"
-msgstr "%(provider)s, Loi No. %(reg_no)s"
+msgstr "%(provider)s, nᵒ d’enregistrement %(reg_no)s"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:15
 #, python-format
@@ -592,8 +592,8 @@ msgid ""
 "means personal data within the meaning of EU Regulation No. %(law_679_2016)s "
 "inserted by the User into the Service and/or Cookies"
 msgstr ""
-"désigne les données personnelles au sens de la régulation EU "
-"n°%(law_679_2016)s, fournies par l’Utilisateur dans le Service et/ou les "
+"désigne les données personnelles au sens de la régulation EU n° "
+"%(law_679_2016)s, fournies par l’Utilisateur dans le Service et/ou les "
 "témoins de connexion"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:51
@@ -810,10 +810,10 @@ msgid ""
 "declares that all the Personal Data is accurate and true and has been "
 "provided voluntarily."
 msgstr ""
-"L’Utilisateur déclare avoir connaissance de ses propres droits en vertu de "
-"l’<a href=\"%(url_15)s\">Article 15</a> et de l’ <a href=\"%(url_17)s\">"
-"Article 17</a> de la RGPD et déclare que toutes les Données à Caractère "
-"Personnel sont exactes et véridiques et ont été fournies volontairement."
+"L’Utilisateur déclare avoir connaissance de ses propres droits en vertu de l’"
+"<a href=\"%(url_15)s\">Article 15</a> et de l’<a href=\"%(url_17)s\">Article "
+"17</a> de la RGPD et déclare que toutes les Données à Caractère Personnel "
+"sont exactes et véridiques et ont été fournies volontairement."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:111
 msgid ""
