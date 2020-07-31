@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-07-31 03:40+0000\n"
+"PO-Revision-Date: 2020-07-31 06:28+0000\n"
 "Last-Translator: Sithu Aung <sithu.aung015@gmail.com>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/weblate/hosted/"
 "my/>\n"
@@ -172,12 +172,12 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:9
 msgid "Personal Data Controller"
-msgstr ""
+msgstr "ပုဂ္ဂိုလ်ရေး အချက်အလက် ထိန်းချုပ်သူ"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:12
 #, python-format
 msgid "%(provider)s, Reg. No. %(reg_no)s"
-msgstr ""
+msgstr "%(provider)s၊ မှတ်ပုံတင် အမှတ်.%(reg_no)s"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:15
 #, python-format
@@ -226,7 +226,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:35
 msgid "Billing information"
-msgstr ""
+msgstr "ငွေတောင်းခံလွှာ အချက်အလက်"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:36
 msgid ""
@@ -269,7 +269,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:51
 msgid "Access to the Personal Data"
-msgstr ""
+msgstr "ပုဂ္ဂိုလ်ရေး အချက်အလက် ရယူသုံးစွဲမှု"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:53
 msgid ""
