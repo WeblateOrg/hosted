@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-06-22 19:14+0000\n"
+"PO-Revision-Date: 2020-08-03 17:47+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/weblate/hosted/"
 "tr/>\n"
@@ -152,7 +152,7 @@ msgstr "Eşleşen ödeme bulunamadı."
 
 #: wlhosted/integrations/views.py:77
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr "Bir hosting planı satın aldığınız için teşekkür ederiz, o şimdi aktif."
+msgstr "Bir barındırma planı satın aldığınız için teşekkür ederiz, şu an etkin."
 
 #: wlhosted/integrations/views.py:84
 msgid ""
@@ -172,7 +172,7 @@ msgstr "Bilinmeyen neden"
 
 #: wlhosted/integrations/views.py:110
 msgid "Payments are temporarily inactive."
-msgstr "Ödemeler geçici olarak devre dışıdır."
+msgstr "Ödemeler geçici olarak etkin değildir."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:6
 #, python-format
