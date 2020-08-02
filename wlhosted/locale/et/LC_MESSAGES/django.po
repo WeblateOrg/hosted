@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2019-12-15 12:07+0000\n"
-"PO-Revision-Date: 2020-07-31 03:40+0000\n"
+"PO-Revision-Date: 2020-08-03 17:47+0000\n"
 "Last-Translator: Priit Jõerüüt <hwlate@joeruut.com>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/weblate/hosted/"
 "et/>\n"
@@ -122,25 +122,32 @@ msgid ""
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
+"Hinnastamise aluseks on lähtelausendite ja sihtkeelte arv. Lähtelausend on "
+"kasutatava tõlkevormingu tekstiüksus, mis võib olla nii sõna, lause kui "
+"peatükk."
 
 #: wlhosted/integrations/templates/hosted/create.html:98
 msgid "All listed prices exclude VAT."
-msgstr ""
+msgstr "Loetletud hinnad ei sisalda käibemaksu."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
+"EL'i lõppkasutajatelt ja Tšehhi äriühingutelt nõutakse täiendavat käibemaksu "
+"21%%."
 
 #: wlhosted/integrations/templates/hosted/create.html:100
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
+"Pöördmaksustamine kehtib arvetele, mis väljastatakse ettevõtetele Euroopa "
+"Liidus."
 
 #: wlhosted/integrations/views.py:69
 msgid "No matching payment found."
-msgstr ""
+msgstr "Vastavat makset ei leitud."
 
 #: wlhosted/integrations/views.py:77
 msgid "Thank you for purchasing a hosting plan, it is now active."
@@ -512,11 +519,11 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:51
 msgid "Owner"
-msgstr ""
+msgstr "Omanik"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:52
 msgid "means the User who can manage Project"
-msgstr ""
+msgstr "tähendab Kasutajat, kes haldab Projekti"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:54
 msgid "Project"
@@ -524,16 +531,18 @@ msgstr "Projekt"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:55
 msgid "means translation project operated on the Service"
-msgstr ""
+msgstr "tähendab tõlkeprojekti, mida hallatakse Teenuses"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:57
 msgid "Service"
-msgstr ""
+msgstr "Teenus"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:58
 msgid ""
 "means the website and services based on Weblate operated by the Provider"
 msgstr ""
+"tähendab veebisaiti ja Weblate'il põhinevaid teenuseid, mida haldab "
+"Teenusepakkuja"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:60
 msgid "Translation Memory"
@@ -541,7 +550,7 @@ msgstr "Tõlkemälu"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:61
 msgid "means the optional translation memory service provided within Weblate"
-msgstr ""
+msgstr "tähendab valikulist tõlkemälu teenust mida pakutakse Weblate'is"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:63
 msgid "User"
@@ -552,16 +561,19 @@ msgid ""
 "means any legal entity or an individual other than the Provider, who is "
 "using the Service"
 msgstr ""
+"tähendab iga juriidilist või füüsilist isikut, kes ei ole Teenusepakkuja ja "
+"kes kasutab Teenust"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:66
 msgid "VCS"
-msgstr ""
+msgstr "Versioonihaldussüsteem"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:67
 msgid ""
 "means distributed version control system used by the Project such as Git or "
 "Mercurial"
 msgstr ""
+"tähendab Projektis kasutatavat versioonihaldussüsteemi nagu Git või Mercurial"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:71
 msgid "License Agreement Conclusion"
