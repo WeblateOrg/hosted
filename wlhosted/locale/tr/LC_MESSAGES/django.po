@@ -10,10 +10,10 @@
 # Oğuz Ersen <oguzersen@protonmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-08-05 09:50+0000\n"
+"PO-Revision-Date: 2020-08-08 07:37+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/weblate/hosted/"
 "tr/>\n"
@@ -1116,32 +1116,24 @@ msgid "New payment"
 msgstr "Yeni ödeme"
 
 #: wlhosted/payments/models.py:197
-#, fuzzy
-#| msgid "No matching payment found."
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr "Eşleşen ödeme bulunamadı."
+msgstr "Bekleyen ödeme"
 
 #: wlhosted/payments/models.py:198
-#, fuzzy
-#| msgid "Payment card"
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "Ödeme kartı"
+msgstr "Ödeme reddedildi"
 
 #: wlhosted/payments/models.py:199
-#, fuzzy
-#| msgid "Payment cancelled"
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "Ödeme iptal edildi"
+msgstr "Ödeme kabul edildi"
 
 #: wlhosted/payments/models.py:200
-#, fuzzy
-#| msgid "Payment processors."
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "Ödeme işlemcileri."
+msgstr "Ödeme işleme koyuldu"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
