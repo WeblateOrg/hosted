@@ -5,13 +5,13 @@
 # Pavel Borecki <pavel.borecki@gmail.com>, 2018, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-08-05 09:50+0000\n"
+"PO-Revision-Date: 2020-08-05 09:55+0000\n"
 "Last-Translator: Michal Čihař <michal@cihar.com>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/weblate/hosted/cs/"
-">\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/weblate/hosted/cs/>"
+"\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -157,7 +157,7 @@ msgstr "Zkontrolovat stav předplatného"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
-msgstr "Vaše předplatné je zaplacené"
+msgstr "Vaše předplatné je uhrazeno"
 
 #: wlhosted/integrations/views.py:68
 msgid "No matching payment found."
