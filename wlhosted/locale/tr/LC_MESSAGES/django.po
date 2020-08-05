@@ -10,10 +10,10 @@
 # Oğuz Ersen <oguzersen@protonmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:37+0000\n"
-"PO-Revision-Date: 2020-08-03 17:47+0000\n"
+"PO-Revision-Date: 2020-08-05 09:50+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/weblate/hosted/"
 "tr/>\n"
@@ -147,27 +147,20 @@ msgid ""
 msgstr "Ters ücret, AB içindeki işletmelere verilen faturalar için geçerlidir."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
-#, fuzzy
-#| msgid "Thank you for purchasing a hosting plan, it is now active."
 msgid "Thank you for the payment, your billing is now paid."
-msgstr ""
-"Bir barındırma planı satın aldığınız için teşekkür ederiz, şu an etkin."
+msgstr "Ödeme için teşekkür ederiz, faturalandırmanız şu an ödendi."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "Bu faturalandırma planı aşağıdaki projeleri kapsar:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
-#, fuzzy
-#| msgid "Current billing status"
 msgid "Check your billing status"
-msgstr "Geçerli faturalandırma durumu"
+msgstr "Faturalandırma durumunuzu denetleyin"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
-#, fuzzy
-#| msgid "Create billing plan"
 msgid "Your billing plan was paid"
-msgstr "Faturalandırma planı oluştur"
+msgstr "Faturalandırılan planınız ödendi"
 
 #: wlhosted/integrations/views.py:68
 msgid "No matching payment found."
@@ -1120,7 +1113,7 @@ msgstr "Bir kere"
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "Yeni ödeme"
 
 #: wlhosted/payments/models.py:197
 #, fuzzy
