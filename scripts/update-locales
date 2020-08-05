@@ -5,7 +5,6 @@
 # Exit on failure
 set -e
 
-export PYTHONPATH=../weblate
 export CI_DATABASE=postgresql
 export DJANGO_SETTINGS_MODULE=wlhosted.settings_test
 
