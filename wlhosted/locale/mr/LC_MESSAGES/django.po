@@ -5,9 +5,9 @@
 # Prachi Joshi <josprachi@yahoo.com>, 2019, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate\n"
+"Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
-"POT-Creation-Date: 2019-12-15 12:07+0000\n"
+"POT-Creation-Date: 2020-08-05 09:37+0000\n"
 "PO-Revision-Date: 2020-02-06 18:50+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -19,129 +19,151 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 3.11-dev\n"
 
-#: wlhosted/addons.py:37 wlhosted/addons.py:38
+#: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
 msgstr "अज्ञात होरायझन्स परिदृश्य डेटा तयार करा"
 
-#: wlhosted/addons.py:60
+#: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
 msgstr "रेपॉजिटरी अपस्ट्रीमवर रीसेट करा"
 
-#: wlhosted/addons.py:61
+#: wlhosted/addons.py:58
 msgid "Reset all changes in the local repository"
 msgstr "स्थानिक भांडारातील सर्व बदल रीसेट करा"
 
-#: wlhosted/integrations/forms.py:35
+#: wlhosted/integrations/forms.py:32
 msgid "Billing"
 msgstr "बिलिंग"
 
-#: wlhosted/integrations/forms.py:36
+#: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
 msgstr "आपण अद्यतनित करू इच्छित बिलिंग योजना निवडा"
 
-#: wlhosted/integrations/forms.py:37
+#: wlhosted/integrations/forms.py:34
 msgid "Create new billing plan"
 msgstr "नवीन बिलिंग योजना तयार करा"
 
-#: wlhosted/integrations/templates/hosted/create.html:7
+#: wlhosted/integrations/templates/hosted/create.html:8
 msgid "Create billing plan"
 msgstr "बिलिंग योजना तयार करा"
 
-#: wlhosted/integrations/templates/hosted/create.html:16
+#: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
 msgstr "नवीन बिलिंग योजना"
 
-#: wlhosted/integrations/templates/hosted/create.html:19
+#: wlhosted/integrations/templates/hosted/create.html:20
 #, fuzzy
 msgid "Please choose a hosting plan that fits the size of your project."
 msgstr "कृपया आपल्या प्रोजेक्टच्या आकारात फिट होस्टिंग योजना निवडा."
 
-#: wlhosted/integrations/templates/hosted/create.html:25
+#: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
 msgstr "सद्य बिलिंग स्थिती"
 
-#: wlhosted/integrations/templates/hosted/create.html:46
+#: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
 msgstr "आपल्या प्रोजेक्टसाठी खूपच लहान."
 
-#: wlhosted/integrations/templates/hosted/create.html:46
+#: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small"
 msgstr "खूप लहान"
 
-#: wlhosted/integrations/templates/hosted/create.html:48
+#: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
 msgstr "निवडलेली योजना"
 
-#: wlhosted/integrations/templates/hosted/create.html:50
+#: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
 msgstr "सद्य योजना"
 
-#: wlhosted/integrations/templates/hosted/create.html:55
+#: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Strings limit"
 msgstr "स्ट्रिंग मर्यादा"
 
-#: wlhosted/integrations/templates/hosted/create.html:56
-#: wlhosted/integrations/templates/hosted/create.html:59
-#: wlhosted/integrations/templates/hosted/create.html:62
-#: wlhosted/integrations/templates/hosted/create.html:65
+#: wlhosted/integrations/templates/hosted/create.html:57
+#: wlhosted/integrations/templates/hosted/create.html:60
+#: wlhosted/integrations/templates/hosted/create.html:63
+#: wlhosted/integrations/templates/hosted/create.html:66
 msgid "Unlimited"
 msgstr "अमर्यादित"
 
-#: wlhosted/integrations/templates/hosted/create.html:58
+#: wlhosted/integrations/templates/hosted/create.html:59
 msgid "Languages limit"
 msgstr "भाषा मर्यादा"
 
-#: wlhosted/integrations/templates/hosted/create.html:61
+#: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Component limit"
 msgstr "घटक मर्यादा"
 
-#: wlhosted/integrations/templates/hosted/create.html:64
+#: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
 msgstr "प्रकल्प मर्यादा"
 
-#: wlhosted/integrations/templates/hosted/create.html:77
+#: wlhosted/integrations/templates/hosted/create.html:78
 #, python-format
 msgid "%(price)s EUR / month"
 msgstr "%(price)s EUR / महिना"
 
-#: wlhosted/integrations/templates/hosted/create.html:78
-#: wlhosted/integrations/templates/hosted/create.html:84
+#: wlhosted/integrations/templates/hosted/create.html:79
+#: wlhosted/integrations/templates/hosted/create.html:85
 #, python-format
 msgid "%(price)s EUR including VAT"
 msgstr ""
 
-#: wlhosted/integrations/templates/hosted/create.html:83
+#: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
 msgid "%(price)s EUR / year"
 msgstr ""
 
-#: wlhosted/integrations/templates/hosted/create.html:95
+#: wlhosted/integrations/templates/hosted/create.html:96
 msgid ""
 "Pricing is based on the number of source strings and target languages. The "
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
 
-#: wlhosted/integrations/templates/hosted/create.html:98
+#: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
 msgstr "सर्व सूचीबद्ध किंमती व्हॅट वगळतात."
 
-#: wlhosted/integrations/templates/hosted/create.html:99
+#: wlhosted/integrations/templates/hosted/create.html:100
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
 
-#: wlhosted/integrations/templates/hosted/create.html:100
+#: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
 
-#: wlhosted/integrations/views.py:69
+#: wlhosted/integrations/templates/mail/billing_paid.html:6
+#, fuzzy
+#| msgid "Thank you for purchasing a hosting plan, it is now active."
+msgid "Thank you for the payment, your billing is now paid."
+msgstr "होस्टिंग योजना खरेदी केल्याबद्दल धन्यवाद, ती आता सक्रिय झाली आहे."
+
+#: wlhosted/integrations/templates/mail/billing_paid.html:8
+msgid "This billing plan covers following projects:"
+msgstr ""
+
+#: wlhosted/integrations/templates/mail/billing_paid.html:17
+#, fuzzy
+#| msgid "Current billing status"
+msgid "Check your billing status"
+msgstr "सद्य बिलिंग स्थिती"
+
+#: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
+#, fuzzy
+#| msgid "Create billing plan"
+msgid "Your billing plan was paid"
+msgstr "बिलिंग योजना तयार करा"
+
+#: wlhosted/integrations/views.py:68
 msgid "No matching payment found."
 msgstr "कोणतेही जुळणारे पेमेंट आढळले नाही."
 
-#: wlhosted/integrations/views.py:77
+#: wlhosted/integrations/views.py:76
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr "होस्टिंग योजना खरेदी केल्याबद्दल धन्यवाद, ती आता सक्रिय झाली आहे."
 
@@ -151,15 +173,15 @@ msgid ""
 "will be processed in the background."
 msgstr ""
 
-#: wlhosted/integrations/views.py:92
+#: wlhosted/integrations/views.py:96
 msgid "The payment was rejected: {}"
 msgstr "देयक नाकारले गेले: {}"
 
-#: wlhosted/integrations/views.py:93
+#: wlhosted/integrations/views.py:97
 msgid "Unknown reason"
 msgstr "अज्ञात कारण"
 
-#: wlhosted/integrations/views.py:110
+#: wlhosted/integrations/views.py:113
 msgid "Payments are temporarily inactive."
 msgstr "देयके तात्पुरती निष्क्रिय आहेत."
 
@@ -541,8 +563,7 @@ msgid ""
 "means any legal entity or an individual other than the Provider, who is "
 "using the Service"
 msgstr ""
-"म्हणजे सेवा वापरणार्‍या प्रदात्याशिवाय कोणतीही कायदेशीर अस्तित्व किंवा एखादी "
-"व्यक्ती"
+"म्हणजे सेवा वापरणार्‍या प्रदात्याशिवाय कोणतीही कायदेशीर अस्तित्व किंवा एखादी व्यक्ती"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:66
 msgid "VCS"
@@ -553,8 +574,7 @@ msgid ""
 "means distributed version control system used by the Project such as Git or "
 "Mercurial"
 msgstr ""
-"म्हणजे गीट किंवा मर्क्युरीयल सारख्या प्रोजेक्टद्वारे वापरलेली वितरित आवृत्ती "
-"नियंत्रण प्रणाली"
+"म्हणजे गीट किंवा मर्क्युरीयल सारख्या प्रोजेक्टद्वारे वापरलेली वितरित आवृत्ती नियंत्रण प्रणाली"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:71
 msgid "License Agreement Conclusion"
@@ -768,11 +788,11 @@ msgid ""
 "2017."
 msgstr ""
 
-#: wlhosted/payments/backends.py:188
+#: wlhosted/payments/backends.py:192
 msgid "Your payment on weblate.org"
 msgstr "weblate.org वर आपले देय"
 
-#: wlhosted/payments/backends.py:190
+#: wlhosted/payments/backends.py:194
 #, python-format
 msgid ""
 "Hello,\n"
@@ -793,11 +813,11 @@ msgstr ""
 "\n"
 "%s\n"
 
-#: wlhosted/payments/backends.py:216
+#: wlhosted/payments/backends.py:220
 msgid "Your payment on weblate.org failed"
 msgstr "weblate.org वरील आपले देय अयशस्वी झाले"
 
-#: wlhosted/payments/backends.py:218
+#: wlhosted/payments/backends.py:222
 #, python-format
 msgid ""
 "Hello,\n"
@@ -814,11 +834,11 @@ msgid ""
 "and if still failing, cancelled.\n"
 msgstr ""
 
-#: wlhosted/payments/backends.py:251
+#: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
 msgstr "आपले weblate.org वर प्रलंबित पेमेंट"
 
-#: wlhosted/payments/backends.py:253
+#: wlhosted/payments/backends.py:257
 msgid ""
 "Hello,\n"
 "\n"
@@ -826,106 +846,139 @@ msgid ""
 "instructions to complete the payment.\n"
 msgstr ""
 
-#: wlhosted/payments/backends.py:335
+#: wlhosted/payments/backends.py:339
 msgid "Payment card"
 msgstr "देयक कार्ड"
 
-#: wlhosted/payments/backends.py:411
+#: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
 msgstr "देय रद्द"
 
-#: wlhosted/payments/backends.py:413
+#: wlhosted/payments/backends.py:417
 msgid "Payment error"
 msgstr "देय त्रुटी"
 
-#: wlhosted/payments/backends.py:425
+#: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
 msgstr "बिटकॉइन"
 
-#: wlhosted/payments/backends.py:434
+#: wlhosted/payments/backends.py:438
 msgid "IBAN bank transfer"
 msgstr "आयबीएएन बँक हस्तांतरण"
 
-#: wlhosted/payments/backends.py:464
+#: wlhosted/payments/backends.py:468
 msgid "Issuing bank"
 msgstr "देणारी बँक"
 
-#: wlhosted/payments/backends.py:465
+#: wlhosted/payments/backends.py:469
 msgid "Account holder"
 msgstr "खातेधारक"
 
-#: wlhosted/payments/backends.py:466
+#: wlhosted/payments/backends.py:470
 msgid "Account number"
 msgstr "खाते क्रमांक"
 
-#: wlhosted/payments/backends.py:467
+#: wlhosted/payments/backends.py:471
 msgid "SWIFT code"
 msgstr "स्विफ्ट कोड"
 
-#: wlhosted/payments/backends.py:468
+#: wlhosted/payments/backends.py:472
 msgid "IBAN"
 msgstr "IBAN"
 
-#: wlhosted/payments/backends.py:469
+#: wlhosted/payments/backends.py:473
 msgid "Reference"
 msgstr "संदर्भ"
 
-#: wlhosted/payments/models.py:83
+#: wlhosted/payments/models.py:78
 msgid "European VAT ID"
 msgstr "युरोपियन व्हॅट आयडी"
 
-#: wlhosted/payments/models.py:85
+#: wlhosted/payments/models.py:80
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 
-#: wlhosted/payments/models.py:91
+#: wlhosted/payments/models.py:86
 msgid "Tax registration"
 msgstr "कर नोंदणी"
 
-#: wlhosted/payments/models.py:93
+#: wlhosted/payments/models.py:88
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "पावत्यावर दिसत असल्यास कृपया आपली कर नोंदणी भरा."
 
-#: wlhosted/payments/models.py:100
+#: wlhosted/payments/models.py:95
 msgid "Company or individual name"
 msgstr "कंपनी किंवा वैयक्तिक नाव"
 
-#: wlhosted/payments/models.py:103
+#: wlhosted/payments/models.py:98
 msgid "Address"
 msgstr "पत्ता"
 
-#: wlhosted/payments/models.py:106
+#: wlhosted/payments/models.py:101
 msgid "Postcode and city"
 msgstr "पोस्टकोड आणि शहर"
 
-#: wlhosted/payments/models.py:108
+#: wlhosted/payments/models.py:103
 msgid "Country"
 msgstr "देश"
 
-#: wlhosted/payments/models.py:136
+#: wlhosted/payments/models.py:135
 msgid "The country has to match your VAT code"
 msgstr ""
 
-#: wlhosted/payments/models.py:159
+#: wlhosted/payments/models.py:158
 msgid "Annual"
 msgstr "वार्षिक"
 
-#: wlhosted/payments/models.py:160
+#: wlhosted/payments/models.py:159
 msgid "Biannual"
 msgstr "द्वैवार्षिक"
 
-#: wlhosted/payments/models.py:161
+#: wlhosted/payments/models.py:160
 msgid "Quarterly"
 msgstr "त्रैमासिक"
 
-#: wlhosted/payments/models.py:162
+#: wlhosted/payments/models.py:161
 msgid "Monthly"
 msgstr "मासिक"
 
-#: wlhosted/payments/models.py:163
+#: wlhosted/payments/models.py:162
 msgid "Onetime"
 msgstr "एकावेळी"
+
+#: wlhosted/payments/models.py:196
+msgctxt "Payment state"
+msgid "New payment"
+msgstr ""
+
+#: wlhosted/payments/models.py:197
+#, fuzzy
+#| msgid "No matching payment found."
+msgctxt "Payment state"
+msgid "Awaiting payment"
+msgstr "कोणतेही जुळणारे पेमेंट आढळले नाही."
+
+#: wlhosted/payments/models.py:198
+#, fuzzy
+#| msgid "Payment card"
+msgctxt "Payment state"
+msgid "Payment rejected"
+msgstr "देयक कार्ड"
+
+#: wlhosted/payments/models.py:199
+#, fuzzy
+#| msgid "Payment cancelled"
+msgctxt "Payment state"
+msgid "Payment accepted"
+msgstr "देय रद्द"
+
+#: wlhosted/payments/models.py:200
+#, fuzzy
+#| msgid "Payment cancelled"
+msgctxt "Payment state"
+msgid "Payment processed"
+msgstr "देय रद्द"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."

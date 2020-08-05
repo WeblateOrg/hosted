@@ -4,9 +4,9 @@
 # Ouchene <merzouk.ouchene@laposte.net>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate\n"
+"Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
-"POT-Creation-Date: 2019-12-15 12:07+0000\n"
+"POT-Creation-Date: 2020-08-05 09:37+0000\n"
 "PO-Revision-Date: 2020-04-24 08:48+0000\n"
 "Last-Translator: Ouchene <merzouk.ouchene@laposte.net>\n"
 "Language-Team: Kabyle <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -18,102 +18,102 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.0.2-dev\n"
 
-#: wlhosted/addons.py:37 wlhosted/addons.py:38
+#: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
 msgstr "Sirew isefka n isinaṛyuten n tamiwin ur nettwassen ara"
 
-#: wlhosted/addons.py:60
+#: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
 msgstr "Ales awennez n ukufi s ufella"
 
-#: wlhosted/addons.py:61
+#: wlhosted/addons.py:58
 msgid "Reset all changes in the local repository"
 msgstr "Ales awennez n yibeddilen meṛṛa deg ukufi adigan"
 
-#: wlhosted/integrations/forms.py:35
+#: wlhosted/integrations/forms.py:32
 msgid "Billing"
 msgstr "After"
 
-#: wlhosted/integrations/forms.py:36
+#: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
 msgstr "Fren leblan n tfaṭurt i tesriḍ ad tleqmeḍ"
 
-#: wlhosted/integrations/forms.py:37
+#: wlhosted/integrations/forms.py:34
 msgid "Create new billing plan"
 msgstr "Snulfu-d leblan n tfaṭurt amaynut"
 
-#: wlhosted/integrations/templates/hosted/create.html:7
+#: wlhosted/integrations/templates/hosted/create.html:8
 msgid "Create billing plan"
 msgstr "Rnu aɣawas n ufter"
 
-#: wlhosted/integrations/templates/hosted/create.html:16
+#: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
 msgstr "Aɣawas n ufter"
 
-#: wlhosted/integrations/templates/hosted/create.html:19
+#: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
 msgstr "Ttxil-k fren ticki n tnezduɣt yemṣadan d teɣzi n usenfaṛ-ik."
 
-#: wlhosted/integrations/templates/hosted/create.html:25
+#: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
 msgstr "Addad amiran n ufter"
 
-#: wlhosted/integrations/templates/hosted/create.html:46
+#: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
 msgstr "Mezzi nezzeh i usenfar-ik."
 
-#: wlhosted/integrations/templates/hosted/create.html:46
+#: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small"
 msgstr "Mecṭuḥ"
 
-#: wlhosted/integrations/templates/hosted/create.html:48
+#: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
 msgstr "Yettwafren"
 
-#: wlhosted/integrations/templates/hosted/create.html:50
+#: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
 msgstr "Aɣawas amiran"
 
-#: wlhosted/integrations/templates/hosted/create.html:55
+#: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Strings limit"
 msgstr "Talast n izriren"
 
-#: wlhosted/integrations/templates/hosted/create.html:56
-#: wlhosted/integrations/templates/hosted/create.html:59
-#: wlhosted/integrations/templates/hosted/create.html:62
-#: wlhosted/integrations/templates/hosted/create.html:65
+#: wlhosted/integrations/templates/hosted/create.html:57
+#: wlhosted/integrations/templates/hosted/create.html:60
+#: wlhosted/integrations/templates/hosted/create.html:63
+#: wlhosted/integrations/templates/hosted/create.html:66
 msgid "Unlimited"
 msgstr "War talast"
 
-#: wlhosted/integrations/templates/hosted/create.html:58
+#: wlhosted/integrations/templates/hosted/create.html:59
 msgid "Languages limit"
 msgstr "Talast n tutlayin"
 
-#: wlhosted/integrations/templates/hosted/create.html:61
+#: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Component limit"
 msgstr "Talast n isenfaṛen"
 
-#: wlhosted/integrations/templates/hosted/create.html:64
+#: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
 msgstr "Talast n isenfaṛen"
 
-#: wlhosted/integrations/templates/hosted/create.html:77
+#: wlhosted/integrations/templates/hosted/create.html:78
 #, python-format
 msgid "%(price)s EUR / month"
 msgstr "%(price)s EUR / ayyur"
 
-#: wlhosted/integrations/templates/hosted/create.html:78
-#: wlhosted/integrations/templates/hosted/create.html:84
+#: wlhosted/integrations/templates/hosted/create.html:79
+#: wlhosted/integrations/templates/hosted/create.html:85
 #, python-format
 msgid "%(price)s EUR including VAT"
 msgstr "%(price)s EUR tedda tebzert VAT"
 
-#: wlhosted/integrations/templates/hosted/create.html:83
+#: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
 msgid "%(price)s EUR / year"
 msgstr "%(price)s EUR / aseggas"
 
-#: wlhosted/integrations/templates/hosted/create.html:95
+#: wlhosted/integrations/templates/hosted/create.html:96
 msgid ""
 "Pricing is based on the number of source strings and target languages. The "
 "source string is a text unit defined in a translation format, it can be a "
@@ -123,11 +123,11 @@ msgstr ""
 "d tayunt n uḍris yettusbadun deg umasal n tsuqilt, izmer ad yili d awal, d "
 "tafyirt neɣ d taseddaṛt."
 
-#: wlhosted/integrations/templates/hosted/create.html:98
+#: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
 msgstr "Meṛṛa tasqamt war tabzert VAT."
 
-#: wlhosted/integrations/templates/hosted/create.html:99
+#: wlhosted/integrations/templates/hosted/create.html:100
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
@@ -135,18 +135,40 @@ msgstr ""
 "Iseqdacen n tiddukla n turuft akked tkebbaniyin n Čik ad asen-d tesqam summa-"
 "nniḍen n 21%% n tebzert VAT."
 
-#: wlhosted/integrations/templates/hosted/create.html:100
+#: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
 "Tasqamut yettin ad tettwasemres i tfaturin i d-yeffɣen, deg tkebbaniyin n "
 "tiddukla n turuft."
 
-#: wlhosted/integrations/views.py:69
+#: wlhosted/integrations/templates/mail/billing_paid.html:6
+#, fuzzy
+#| msgid "Thank you for purchasing a hosting plan, it is now active."
+msgid "Thank you for the payment, your billing is now paid."
+msgstr "Tanemmirt ɣef tiɣin n uɣawas n tnezduɣt, tura yermed."
+
+#: wlhosted/integrations/templates/mail/billing_paid.html:8
+msgid "This billing plan covers following projects:"
+msgstr ""
+
+#: wlhosted/integrations/templates/mail/billing_paid.html:17
+#, fuzzy
+#| msgid "Current billing status"
+msgid "Check your billing status"
+msgstr "Addad amiran n ufter"
+
+#: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
+#, fuzzy
+#| msgid "Create billing plan"
+msgid "Your billing plan was paid"
+msgstr "Rnu aɣawas n ufter"
+
+#: wlhosted/integrations/views.py:68
 msgid "No matching payment found."
 msgstr "Ulac lexlaṣ icudden."
 
-#: wlhosted/integrations/views.py:77
+#: wlhosted/integrations/views.py:76
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr "Tanemmirt ɣef tiɣin n uɣawas n tnezduɣt, tura yermed."
 
@@ -158,15 +180,15 @@ msgstr ""
 "Tanemmirt ɣef tiqin n uɣawas n tnezduɣt, leclaṣ-is yettraǧu daɣen ad "
 "ittusefer deg ugilal."
 
-#: wlhosted/integrations/views.py:92
+#: wlhosted/integrations/views.py:96
 msgid "The payment was rejected: {}"
 msgstr "Lexlaṣ ur iɛedda ara: {}"
 
-#: wlhosted/integrations/views.py:93
+#: wlhosted/integrations/views.py:97
 msgid "Unknown reason"
 msgstr "Sebba tarussint"
 
-#: wlhosted/integrations/views.py:110
+#: wlhosted/integrations/views.py:113
 msgid "Payments are temporarily inactive."
 msgstr "Lexlaṣ yensa akka tura."
 
@@ -273,8 +295,8 @@ msgid ""
 msgstr ""
 "I umuddu n uxeddim deg yimeẓla-nneɣ, akken ad k-id-nenermes ɣef usentel "
 "yerzan imeẓla (daɣen s yimayl akked tirawt) daɣen akken ad neḍmen tiddin "
-"tatiknikant n yimeẓla-nneɣ s uqadeṛ n ugatu neɣ agatu uzwir (<a href=\"%(url)"
-"s\">Amagrad 6 (1) b. GDPR</a>)"
+"tatiknikant n yimeẓla-nneɣ s uqadeṛ n ugatu neɣ agatu uzwir (<a href="
+"\"%(url)s\">Amagrad 6 (1) b. GDPR</a>)"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:47
 #, python-format
@@ -293,8 +315,8 @@ msgid ""
 "GDPR</a>)"
 msgstr ""
 "s uqbal-ik ibanen neɣ s tsiregt-ik akken ad nessiweḍ akken iwata armud-nneɣ "
-"n uzenzi neɣ akken ad ak-d-nazen tibratin n yisallen (<a href=\"%(url)s\">"
-"Amagrad 6, taseddaṛt1, agaz a), n RGPD</a>)"
+"n uzenzi neɣ akken ad ak-d-nazen tibratin n yisallen (<a href=\"%(url)s"
+"\">Amagrad 6, taseddaṛt1, agaz a), n RGPD</a>)"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:51
 msgid "Access to the Personal Data"
@@ -855,11 +877,11 @@ msgid ""
 "2017."
 msgstr "Tiwtili-a n useqdec teddunt seg 1 n Ctember 2017."
 
-#: wlhosted/payments/backends.py:188
+#: wlhosted/payments/backends.py:192
 msgid "Your payment on weblate.org"
 msgstr "Lexlaṣ-ik deg weblate.org"
 
-#: wlhosted/payments/backends.py:190
+#: wlhosted/payments/backends.py:194
 #, python-format
 msgid ""
 "Hello,\n"
@@ -872,11 +894,11 @@ msgid ""
 "%s\n"
 msgstr ""
 
-#: wlhosted/payments/backends.py:216
+#: wlhosted/payments/backends.py:220
 msgid "Your payment on weblate.org failed"
 msgstr "Lexlaṣ-ik deg weblate.org yecceḍ"
 
-#: wlhosted/payments/backends.py:218
+#: wlhosted/payments/backends.py:222
 #, python-format
 msgid ""
 "Hello,\n"
@@ -905,11 +927,11 @@ msgstr ""
 "Ma d lexlaṣ i d-yettuɣalen, ad yefsex deffir n tlata n uɛraḍ,\n"
 "daɣen ma yezga yecceḍ, ad yefsex.\n"
 
-#: wlhosted/payments/backends.py:251
+#: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
 msgstr "Lexlaṣ-ik yettraǧu deg weblate.org"
 
-#: wlhosted/payments/backends.py:253
+#: wlhosted/payments/backends.py:257
 msgid ""
 "Hello,\n"
 "\n"
@@ -921,108 +943,141 @@ msgstr ""
 "Lexlaṣ-ik deg weblate.org yettṛaǧu. \n"
 "Ma ulac aɣilif ḍfeṛ iwellihen i d-yettunefkes akken ad tkemmleḍ lexlaṣ.\n"
 
-#: wlhosted/payments/backends.py:335
+#: wlhosted/payments/backends.py:339
 msgid "Payment card"
 msgstr "Takarḍa n lexlaṣ"
 
-#: wlhosted/payments/backends.py:411
+#: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
 msgstr "Lexlaṣ yefsex"
 
-#: wlhosted/payments/backends.py:413
+#: wlhosted/payments/backends.py:417
 msgid "Payment error"
 msgstr "Tuccḍa n lexlaṣ"
 
-#: wlhosted/payments/backends.py:425
+#: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
 msgstr "Bitcoin"
 
-#: wlhosted/payments/backends.py:434
+#: wlhosted/payments/backends.py:438
 msgid "IBAN bank transfer"
 msgstr "Asiweḍ n tbankat IBAN"
 
-#: wlhosted/payments/backends.py:464
+#: wlhosted/payments/backends.py:468
 msgid "Issuing bank"
 msgstr "Tabankat tamazant"
 
-#: wlhosted/payments/backends.py:465
+#: wlhosted/payments/backends.py:469
 msgid "Account holder"
 msgstr "Bab n umiḍan"
 
-#: wlhosted/payments/backends.py:466
+#: wlhosted/payments/backends.py:470
 msgid "Account number"
 msgstr "Uṭṭun n umiḍan"
 
-#: wlhosted/payments/backends.py:467
+#: wlhosted/payments/backends.py:471
 msgid "SWIFT code"
 msgstr "Tangalt SWIFT"
 
-#: wlhosted/payments/backends.py:468
+#: wlhosted/payments/backends.py:472
 msgid "IBAN"
 msgstr "IBAN"
 
-#: wlhosted/payments/backends.py:469
+#: wlhosted/payments/backends.py:473
 msgid "Reference"
 msgstr "Tamsisɣelt"
 
-#: wlhosted/payments/models.py:83
+#: wlhosted/payments/models.py:78
 msgid "European VAT ID"
 msgstr "Asulay VAT n Turuft"
 
-#: wlhosted/payments/models.py:85
+#: wlhosted/payments/models.py:80
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "Ttxil-k mudd-d asulay VAT n turuft, eǧǧ-it d ilem ma yella ur yettwasemras "
 "ara."
 
-#: wlhosted/payments/models.py:91
+#: wlhosted/payments/models.py:86
 msgid "Tax registration"
 msgstr "Uṭṭun n tebzert"
 
-#: wlhosted/payments/models.py:93
+#: wlhosted/payments/models.py:88
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "Ttxil-k mudd-d asekles n tebzert ma yella ilaq ad tban deg tfaturt."
 
-#: wlhosted/payments/models.py:100
+#: wlhosted/payments/models.py:95
 msgid "Company or individual name"
 msgstr "Isem n tkebbanit neɣ isem-ik"
 
-#: wlhosted/payments/models.py:103
+#: wlhosted/payments/models.py:98
 msgid "Address"
 msgstr "Tansa"
 
-#: wlhosted/payments/models.py:106
+#: wlhosted/payments/models.py:101
 msgid "Postcode and city"
 msgstr "Tangalt n tnazant neɣ aɣrem"
 
-#: wlhosted/payments/models.py:108
+#: wlhosted/payments/models.py:103
 msgid "Country"
 msgstr "Tamurt"
 
-#: wlhosted/payments/models.py:136
+#: wlhosted/payments/models.py:135
 msgid "The country has to match your VAT code"
 msgstr "Tamurt ur temṣada ara akked tengalt-ik VAT"
 
-#: wlhosted/payments/models.py:159
+#: wlhosted/payments/models.py:158
 msgid "Annual"
 msgstr "S useggas"
 
-#: wlhosted/payments/models.py:160
+#: wlhosted/payments/models.py:159
 msgid "Biannual"
 msgstr "S sin n yiseggasen"
 
-#: wlhosted/payments/models.py:161
+#: wlhosted/payments/models.py:160
 msgid "Quarterly"
 msgstr "Yal tlata n wagguren"
 
-#: wlhosted/payments/models.py:162
+#: wlhosted/payments/models.py:161
 msgid "Monthly"
 msgstr "Yal aggur"
 
-#: wlhosted/payments/models.py:163
+#: wlhosted/payments/models.py:162
 msgid "Onetime"
 msgstr "Tikkelt"
+
+#: wlhosted/payments/models.py:196
+msgctxt "Payment state"
+msgid "New payment"
+msgstr ""
+
+#: wlhosted/payments/models.py:197
+#, fuzzy
+#| msgid "No matching payment found."
+msgctxt "Payment state"
+msgid "Awaiting payment"
+msgstr "Ulac lexlaṣ icudden."
+
+#: wlhosted/payments/models.py:198
+#, fuzzy
+#| msgid "Payment card"
+msgctxt "Payment state"
+msgid "Payment rejected"
+msgstr "Takarḍa n lexlaṣ"
+
+#: wlhosted/payments/models.py:199
+#, fuzzy
+#| msgid "Payment cancelled"
+msgctxt "Payment state"
+msgid "Payment accepted"
+msgstr "Lexlaṣ yefsex"
+
+#: wlhosted/payments/models.py:200
+#, fuzzy
+#| msgid "Payment processors."
+msgctxt "Payment state"
+msgid "Payment processed"
+msgstr "Imendiden n lexlaṣ."
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."

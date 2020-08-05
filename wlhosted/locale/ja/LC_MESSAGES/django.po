@@ -10,9 +10,9 @@
 # Michal Čihař <michal@cihar.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate\n"
+"Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
-"POT-Creation-Date: 2019-12-15 12:07+0000\n"
+"POT-Creation-Date: 2020-08-05 09:37+0000\n"
 "PO-Revision-Date: 2020-07-03 05:41+0000\n"
 "Last-Translator: Kyotaro Iijima <kyotaro.eyes@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -24,102 +24,102 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.2-dev\n"
 
-#: wlhosted/addons.py:37 wlhosted/addons.py:38
+#: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
 msgstr "Unknown Horizons シナリオデータを生成する"
 
-#: wlhosted/addons.py:60
+#: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
 msgstr "リポジトリをアップストリームにリセット"
 
-#: wlhosted/addons.py:61
+#: wlhosted/addons.py:58
 msgid "Reset all changes in the local repository"
 msgstr "ローカルリポジトリ内のすべての変更をリセットする"
 
-#: wlhosted/integrations/forms.py:35
+#: wlhosted/integrations/forms.py:32
 msgid "Billing"
 msgstr "課金"
 
-#: wlhosted/integrations/forms.py:36
+#: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
 msgstr "更新する料金プランの選択"
 
-#: wlhosted/integrations/forms.py:37
+#: wlhosted/integrations/forms.py:34
 msgid "Create new billing plan"
 msgstr "料金プランの新規作成"
 
-#: wlhosted/integrations/templates/hosted/create.html:7
+#: wlhosted/integrations/templates/hosted/create.html:8
 msgid "Create billing plan"
 msgstr "料金プランの作成"
 
-#: wlhosted/integrations/templates/hosted/create.html:16
+#: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
 msgstr "新しい料金プラン"
 
-#: wlhosted/integrations/templates/hosted/create.html:19
+#: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
 msgstr "プロジェクトの規模に適したホスティング プランを選択してください。"
 
-#: wlhosted/integrations/templates/hosted/create.html:25
+#: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
 msgstr "現在の請求情報"
 
-#: wlhosted/integrations/templates/hosted/create.html:46
+#: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
 msgstr "選択したホスティング プランはプロジェクトの規模と比べて小さすぎます。"
 
-#: wlhosted/integrations/templates/hosted/create.html:46
+#: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small"
 msgstr "小さすぎる"
 
-#: wlhosted/integrations/templates/hosted/create.html:48
+#: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
 msgstr "選択したプラン"
 
-#: wlhosted/integrations/templates/hosted/create.html:50
+#: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
 msgstr "現在のプラン"
 
-#: wlhosted/integrations/templates/hosted/create.html:55
+#: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Strings limit"
 msgstr "文字列の数の上限"
 
-#: wlhosted/integrations/templates/hosted/create.html:56
-#: wlhosted/integrations/templates/hosted/create.html:59
-#: wlhosted/integrations/templates/hosted/create.html:62
-#: wlhosted/integrations/templates/hosted/create.html:65
+#: wlhosted/integrations/templates/hosted/create.html:57
+#: wlhosted/integrations/templates/hosted/create.html:60
+#: wlhosted/integrations/templates/hosted/create.html:63
+#: wlhosted/integrations/templates/hosted/create.html:66
 msgid "Unlimited"
 msgstr "無制限"
 
-#: wlhosted/integrations/templates/hosted/create.html:58
+#: wlhosted/integrations/templates/hosted/create.html:59
 msgid "Languages limit"
 msgstr "言語数の上限"
 
-#: wlhosted/integrations/templates/hosted/create.html:61
+#: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Component limit"
 msgstr "コンポーネント数の上限"
 
-#: wlhosted/integrations/templates/hosted/create.html:64
+#: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
 msgstr "プロジェクト数の上限"
 
-#: wlhosted/integrations/templates/hosted/create.html:77
+#: wlhosted/integrations/templates/hosted/create.html:78
 #, python-format
 msgid "%(price)s EUR / month"
 msgstr "%(price)s ユーロ／月"
 
-#: wlhosted/integrations/templates/hosted/create.html:78
-#: wlhosted/integrations/templates/hosted/create.html:84
+#: wlhosted/integrations/templates/hosted/create.html:79
+#: wlhosted/integrations/templates/hosted/create.html:85
 #, python-format
 msgid "%(price)s EUR including VAT"
 msgstr "%(price)s ユーロ（VAT 込み）"
 
-#: wlhosted/integrations/templates/hosted/create.html:83
+#: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
 msgid "%(price)s EUR / year"
 msgstr "%(price)s ユーロ／年"
 
-#: wlhosted/integrations/templates/hosted/create.html:95
+#: wlhosted/integrations/templates/hosted/create.html:96
 msgid ""
 "Pricing is based on the number of source strings and target languages. The "
 "source string is a text unit defined in a translation format, it can be a "
@@ -129,11 +129,11 @@ msgstr ""
 "列の数は、翻訳対象となる一単位のテキストを一つと数えます。一単位のテキスト"
 "は、単語一つの場合もあれば、一つの文、一つの段落となる場合があります。"
 
-#: wlhosted/integrations/templates/hosted/create.html:98
+#: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
 msgstr "表示価格は全て VAT（付加価値税） を含みません。"
 
-#: wlhosted/integrations/templates/hosted/create.html:99
+#: wlhosted/integrations/templates/hosted/create.html:100
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
@@ -141,16 +141,38 @@ msgstr ""
 "EU のエンド ユーザーとチェコの企業は、 21 %%の VAT（付加価値税）を課せられま"
 "す。"
 
-#: wlhosted/integrations/templates/hosted/create.html:100
+#: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr "EU 域内の企業に発行された請求書には、逆請求が適用されます。"
 
-#: wlhosted/integrations/views.py:69
+#: wlhosted/integrations/templates/mail/billing_paid.html:6
+#, fuzzy
+#| msgid "Thank you for purchasing a hosting plan, it is now active."
+msgid "Thank you for the payment, your billing is now paid."
+msgstr "ホスティング プランのご購入ありがとうございます。現在、有効です。"
+
+#: wlhosted/integrations/templates/mail/billing_paid.html:8
+msgid "This billing plan covers following projects:"
+msgstr ""
+
+#: wlhosted/integrations/templates/mail/billing_paid.html:17
+#, fuzzy
+#| msgid "Current billing status"
+msgid "Check your billing status"
+msgstr "現在の請求情報"
+
+#: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
+#, fuzzy
+#| msgid "Create billing plan"
+msgid "Your billing plan was paid"
+msgstr "料金プランの作成"
+
+#: wlhosted/integrations/views.py:68
 msgid "No matching payment found."
 msgstr "一致する支払いが見つかりませんでした。"
 
-#: wlhosted/integrations/views.py:77
+#: wlhosted/integrations/views.py:76
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr "ホスティング プランのご購入ありがとうございます。現在、有効です。"
 
@@ -162,15 +184,15 @@ msgstr ""
 "ホスティング プランのご購入ありがとうございます。バックグラウンドで行うプラン"
 "の支払いは、保留中です。"
 
-#: wlhosted/integrations/views.py:92
+#: wlhosted/integrations/views.py:96
 msgid "The payment was rejected: {}"
 msgstr "支払いが拒否されました： {}"
 
-#: wlhosted/integrations/views.py:93
+#: wlhosted/integrations/views.py:97
 msgid "Unknown reason"
 msgstr "理由不明"
 
-#: wlhosted/integrations/views.py:110
+#: wlhosted/integrations/views.py:113
 msgid "Payments are temporarily inactive."
 msgstr "支払いは一時的に無効です。"
 
@@ -198,7 +220,8 @@ msgstr "%(provider)s（登録番号 %(reg_no)s）"
 msgid ""
 "Weblate has appointed a data protection officer who may be reached via "
 "%(privacy_contact)s."
-msgstr "Weblate は %(privacy_contact)s で連絡が取れるデータ保護担当者を任命しました。"
+msgstr ""
+"Weblate は %(privacy_contact)s で連絡が取れるデータ保護担当者を任命しました。"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:17
 msgid "Personal Data processed by Weblate"
@@ -505,8 +528,9 @@ msgid ""
 "computer or other device connected to the Internet, which enable obtaining "
 "unique identification of the User’s web browser"
 msgstr ""
-"インターネットに接続した利用者のコンピュータ、もしくは他のデバイスに、web サーバーから送信したデータ ファイルを意味します。これにより、利用者の "
-"web ブラウザー個別の識別情報を取得できます"
+"インターネットに接続した利用者のコンピュータ、もしくは他のデバイスに、web "
+"サーバーから送信したデータ ファイルを意味します。これにより、利用者の web ブ"
+"ラウザー個別の識別情報を取得できます"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:39
 msgid "GDPR"
@@ -549,7 +573,9 @@ msgstr "個人情報"
 msgid ""
 "means personal data within the meaning of EU Regulation No. %(law_679_2016)s "
 "inserted by the User into the Service and/or Cookies"
-msgstr "EU 規則番号 第 %(law_679_2016)s 号に定められた個人情報で、利用者が本サービスまたは Cookie に書き込んだものです"
+msgstr ""
+"EU 規則番号 第 %(law_679_2016)s 号に定められた個人情報で、利用者が本サービス"
+"または Cookie に書き込んだものです"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:51
 msgid "Owner"
@@ -677,7 +703,9 @@ msgstr "損害賠償責任"
 msgid ""
 "The User hereby renders it undisputed that the Provider shall not be liable "
 "for any damage caused to the User resulting from the use of the Service."
-msgstr "利用者は、本サービスの使用に起因する利用者に生じたいかなる損害についても、提供者が責任を負わないことを明示する。"
+msgstr ""
+"利用者は、本サービスの使用に起因する利用者に生じたいかなる損害についても、提"
+"供者が責任を負わないことを明示する。"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:95
 msgid ""
@@ -804,7 +832,9 @@ msgstr ""
 msgid ""
 "Should the Project opt in for the Translation Memory, license to use the "
 "translation is granted to all Translation Memory users."
-msgstr "プロジェクトが翻訳メモリを有効にした場合、翻訳メモリはすべての翻訳メモリ ユーザーに付与されます。"
+msgstr ""
+"プロジェクトが翻訳メモリを有効にした場合、翻訳メモリはすべての翻訳メモリ ユー"
+"ザーに付与されます。"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:126
 msgid ""
@@ -818,8 +848,9 @@ msgid ""
 "commits. The User understands that this grant is non revocable due to nature "
 "of the VCS."
 msgstr ""
-"利用者は、VCS のコミットの作成者として自分の名前と電子メールを使用することに同意します。利用者は、VCS "
-"の仕様上、この許可が取り消し不能であることに納得します。"
+"利用者は、VCS のコミットの作成者として自分の名前と電子メールを使用することに"
+"同意します。利用者は、VCS の仕様上、この許可が取り消し不能であることに納得し"
+"ます。"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:133
 #, python-format
@@ -828,8 +859,8 @@ msgid ""
 "electronic communication, as ammended, the User is informed that the Service "
 "uses cookies."
 msgstr ""
-"本サービスは Cookie を使用することを、改正された電子通信に関する法例集 No. %(law_480_2004)s 第 89 "
-"条に規定されたとおり、利用者に通知します。"
+"本サービスは Cookie を使用することを、改正された電子通信に関する法例集 No. "
+"%(law_480_2004)s 第 89 条に規定されたとおり、利用者に通知します。"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:135
 msgid ""
@@ -867,11 +898,11 @@ msgid ""
 "2017."
 msgstr "これらの利用規約は、2017年9月1日に発効します。"
 
-#: wlhosted/payments/backends.py:188
+#: wlhosted/payments/backends.py:192
 msgid "Your payment on weblate.org"
 msgstr "weblate.org への支払い"
 
-#: wlhosted/payments/backends.py:190
+#: wlhosted/payments/backends.py:194
 #, python-format
 msgid ""
 "Hello,\n"
@@ -892,11 +923,11 @@ msgstr ""
 "\n"
 "%s\n"
 
-#: wlhosted/payments/backends.py:216
+#: wlhosted/payments/backends.py:220
 msgid "Your payment on weblate.org failed"
 msgstr "weblate.org へのお支払いに失敗しました"
 
-#: wlhosted/payments/backends.py:218
+#: wlhosted/payments/backends.py:222
 #, python-format
 msgid ""
 "Hello,\n"
@@ -924,11 +955,11 @@ msgstr ""
 "\n"
 "定期購入の場合は 3 回再試行し、それでも失敗した場合は解約されます。\n"
 
-#: wlhosted/payments/backends.py:251
+#: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
 msgstr "weblate.org への未払い"
 
-#: wlhosted/payments/backends.py:253
+#: wlhosted/payments/backends.py:257
 msgid ""
 "Hello,\n"
 "\n"
@@ -940,108 +971,141 @@ msgstr ""
 "お客様の weblate.org への支払いの入金を待っています。\n"
 "指示に従ってお支払いください。\n"
 
-#: wlhosted/payments/backends.py:335
+#: wlhosted/payments/backends.py:339
 msgid "Payment card"
 msgstr "カード払い"
 
-#: wlhosted/payments/backends.py:411
+#: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
 msgstr "支払いの解約"
 
-#: wlhosted/payments/backends.py:413
+#: wlhosted/payments/backends.py:417
 msgid "Payment error"
 msgstr "決済エラー"
 
-#: wlhosted/payments/backends.py:425
+#: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
 msgstr "ビットコイン"
 
-#: wlhosted/payments/backends.py:434
+#: wlhosted/payments/backends.py:438
 msgid "IBAN bank transfer"
 msgstr "IBAN 銀行振込"
 
-#: wlhosted/payments/backends.py:464
+#: wlhosted/payments/backends.py:468
 msgid "Issuing bank"
 msgstr "発行銀行"
 
-#: wlhosted/payments/backends.py:465
+#: wlhosted/payments/backends.py:469
 msgid "Account holder"
 msgstr "口座名義人"
 
-#: wlhosted/payments/backends.py:466
+#: wlhosted/payments/backends.py:470
 msgid "Account number"
 msgstr "口座番号"
 
-#: wlhosted/payments/backends.py:467
+#: wlhosted/payments/backends.py:471
 msgid "SWIFT code"
 msgstr "SWIFT コード"
 
-#: wlhosted/payments/backends.py:468
+#: wlhosted/payments/backends.py:472
 msgid "IBAN"
 msgstr "IBAN"
 
-#: wlhosted/payments/backends.py:469
+#: wlhosted/payments/backends.py:473
 msgid "Reference"
 msgstr "参照"
 
-#: wlhosted/payments/models.py:83
+#: wlhosted/payments/models.py:78
 msgid "European VAT ID"
 msgstr "欧州 VAT ID"
 
-#: wlhosted/payments/models.py:85
+#: wlhosted/payments/models.py:80
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "欧州連合（EU）の VAT ID を記入してください。適用外の場合は空欄にしてくださ"
 "い。"
 
-#: wlhosted/payments/models.py:91
+#: wlhosted/payments/models.py:86
 msgid "Tax registration"
 msgstr "税務登録"
 
-#: wlhosted/payments/models.py:93
+#: wlhosted/payments/models.py:88
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "請求書に記載する場合は税務登録を記入してください。"
 
-#: wlhosted/payments/models.py:100
+#: wlhosted/payments/models.py:95
 msgid "Company or individual name"
 msgstr "会社名または個人名"
 
-#: wlhosted/payments/models.py:103
+#: wlhosted/payments/models.py:98
 msgid "Address"
 msgstr "住所"
 
-#: wlhosted/payments/models.py:106
+#: wlhosted/payments/models.py:101
 msgid "Postcode and city"
 msgstr "郵便番号と市区町村"
 
-#: wlhosted/payments/models.py:108
+#: wlhosted/payments/models.py:103
 msgid "Country"
 msgstr "国"
 
-#: wlhosted/payments/models.py:136
+#: wlhosted/payments/models.py:135
 msgid "The country has to match your VAT code"
 msgstr "国の VAT コードに一致する必要があります"
 
-#: wlhosted/payments/models.py:159
+#: wlhosted/payments/models.py:158
 msgid "Annual"
 msgstr "年間"
 
-#: wlhosted/payments/models.py:160
+#: wlhosted/payments/models.py:159
 msgid "Biannual"
 msgstr "半年間"
 
-#: wlhosted/payments/models.py:161
+#: wlhosted/payments/models.py:160
 msgid "Quarterly"
 msgstr "四半期ごと"
 
-#: wlhosted/payments/models.py:162
+#: wlhosted/payments/models.py:161
 msgid "Monthly"
 msgstr "月払い"
 
-#: wlhosted/payments/models.py:163
+#: wlhosted/payments/models.py:162
 msgid "Onetime"
 msgstr "一括払い"
+
+#: wlhosted/payments/models.py:196
+msgctxt "Payment state"
+msgid "New payment"
+msgstr ""
+
+#: wlhosted/payments/models.py:197
+#, fuzzy
+#| msgid "No matching payment found."
+msgctxt "Payment state"
+msgid "Awaiting payment"
+msgstr "一致する支払いが見つかりませんでした。"
+
+#: wlhosted/payments/models.py:198
+#, fuzzy
+#| msgid "Payment card"
+msgctxt "Payment state"
+msgid "Payment rejected"
+msgstr "カード払い"
+
+#: wlhosted/payments/models.py:199
+#, fuzzy
+#| msgid "Payment cancelled"
+msgctxt "Payment state"
+msgid "Payment accepted"
+msgstr "支払いの解約"
+
+#: wlhosted/payments/models.py:200
+#, fuzzy
+#| msgid "Payment processors."
+msgctxt "Payment state"
+msgid "Payment processed"
+msgstr "支払機関。"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
