@@ -1,5 +1,5 @@
 # Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2016.
-# Ldm Public <ldmpub@gmail.com>, 2018, 2019.
+# Ldm Public <ldmpub@gmail.com>, 2018, 2019, 2020.
 # Olivier Humbert <trebmuh@tuxfamily.org>, 2018, 2019, 2020.
 # ButterflyOfFire <ButterflyOfFire@protonmail.com>, 2018.
 # Estébastien Robespi <estebastien@mailbox.org>, 2019.
@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-08-05 10:54+0000\n"
-"Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
+"PO-Revision-Date: 2020-08-08 07:37+0000\n"
+"Last-Translator: Ldm Public <ldmpub@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/weblate/hosted/fr/"
 ">\n"
 "Language: fr\n"
@@ -1180,7 +1180,7 @@ msgstr "Paiement accepté"
 #: wlhosted/payments/models.py:200
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "Paiement traité"
+msgstr "Paiement terminé"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
