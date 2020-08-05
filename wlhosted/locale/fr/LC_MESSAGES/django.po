@@ -8,10 +8,10 @@
 # Localisation Lab <ao@localizationlab.org>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-08-01 11:12+0000\n"
+"PO-Revision-Date: 2020-08-05 10:54+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/weblate/hosted/fr/"
 ">\n"
@@ -147,28 +147,21 @@ msgstr ""
 "L’autoliquidation s’applique aux factures émises aux entreprises de l’UE."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
-#, fuzzy
-#| msgid "Thank you for purchasing a hosting plan, it is now active."
 msgid "Thank you for the payment, your billing is now paid."
 msgstr ""
-"Nous vous remercions pour l’achat d’une offre d’hébergement, elle a été "
-"activée."
+"Nous vous remercions pour le paiement, votre facture est maintenant payée."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "Ce plan de facturation couvre les projets suivants :"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
-#, fuzzy
-#| msgid "Current billing status"
 msgid "Check your billing status"
-msgstr "Statut actuel de la facturation"
+msgstr "Vérifiez votre état de facturation"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
-#, fuzzy
-#| msgid "Create billing plan"
 msgid "Your billing plan was paid"
-msgstr "Créer le plan de facturation"
+msgstr "Votre plan de facturation a été payé"
 
 #: wlhosted/integrations/views.py:68
 msgid "No matching payment found."
@@ -1167,35 +1160,27 @@ msgstr "Unique"
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "Nouveau paiement"
 
 #: wlhosted/payments/models.py:197
-#, fuzzy
-#| msgid "No matching payment found."
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr "Aucun paiement correspondant."
+msgstr "Paiement en attente"
 
 #: wlhosted/payments/models.py:198
-#, fuzzy
-#| msgid "Payment card"
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "Carte bancaire"
+msgstr "Paiement rejeté"
 
 #: wlhosted/payments/models.py:199
-#, fuzzy
-#| msgid "Payment cancelled"
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "Paiement annulé"
+msgstr "Paiement accepté"
 
 #: wlhosted/payments/models.py:200
-#, fuzzy
-#| msgid "Payment processors."
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "Intermédiaires pour les transactions de paiement."
+msgstr "Paiement traité"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
