@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
 "PO-Revision-Date: 2020-08-08 07:37+0000\n"
-"Last-Translator: tamer dab <dabsantamer@yahoo.com>\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/weblate/hosted/he/"
 ">\n"
 "Language: he\n"
@@ -141,26 +141,20 @@ msgid ""
 msgstr "החיוב ההפוך חל על חשבוניות שהונפקו לטובת עסקים באיחוד האירופי."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
-#, fuzzy
-#| msgid "Thank you for purchasing a hosting plan, it is now active."
 msgid "Thank you for the payment, your billing is now paid."
-msgstr "תודה לך על שרכשת תכנית אירוח, היא פעילה כעת."
+msgstr "תודה לך על התשלום, החיוב שלך משולם כעת."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "תכנית החיוב מכסה את המיזמים הבאים:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
-#, fuzzy
-#| msgid "Current billing status"
 msgid "Check your billing status"
-msgstr "מצב החיוב הנוכחי"
+msgstr "נא לבדוק את מצב החיוב שלך"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
-#, fuzzy
-#| msgid "Create billing plan"
 msgid "Your billing plan was paid"
-msgstr "יצירת תכנית חיוב"
+msgstr "תכנית החיוב שלך שולמה"
 
 #: wlhosted/integrations/views.py:68
 msgid "No matching payment found."
