@@ -5,13 +5,14 @@
 # ButterflyOfFire <ButterflyOfFire@protonmail.com>, 2018, 2019, 2020.
 # mohammadA <mohammadAbdulhadi1@gmail.com>, 2018, 2019.
 # Omar Aglan <omar.aglan91@yahoo.com>, 2019.
+# tamer dab <dabsantamer@yahoo.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-02-02 21:50+0000\n"
-"Last-Translator: ButterflyOfFire <ButterflyOfFire@protonmail.com>\n"
+"PO-Revision-Date: 2020-08-08 07:36+0000\n"
+"Last-Translator: tamer dab <dabsantamer@yahoo.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/weblate/hosted/ar/"
 ">\n"
 "Language: ar\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 3.11-dev\n"
+"X-Generator: Weblate 4.2-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -151,7 +152,7 @@ msgstr "شكرا لكم على شراء خطة الاستضافة، هي الآ�
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "تغطي خطة الفوترة هذه المشاريع التالية:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 #, fuzzy
