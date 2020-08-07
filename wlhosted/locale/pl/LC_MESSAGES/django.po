@@ -5,13 +5,14 @@
 # WaldiS <admin@sto.ugu.pl>, 2018, 2019.
 # Stanisław Krukowski <pet209a1@riseup.net>, 2018.
 # Katarzyna Twardowska <katarina.twardowska@gmail.com>, 2020.
+# WaldiS <sto@tutanota.de>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-03-29 19:44+0000\n"
-"Last-Translator: Katarzyna Twardowska <katarina.twardowska@gmail.com>\n"
+"PO-Revision-Date: 2020-08-08 07:37+0000\n"
+"Last-Translator: WaldiS <sto@tutanota.de>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/weblate/hosted/pl/"
 ">\n"
 "Language: pl\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.0-dev\n"
+"X-Generator: Weblate 4.2-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -145,26 +146,20 @@ msgid ""
 msgstr "Opłata zwrotna dotyczy faktur wystawionych przedsiębiorstwom w UE."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
-#, fuzzy
-#| msgid "Thank you for purchasing a hosting plan, it is now active."
 msgid "Thank you for the payment, your billing is now paid."
-msgstr "Dziękujemy za wykupienie planu hostingowego, jest on teraz aktywny."
+msgstr "Dziękujemy za płatność, Twoje rozliczenie zostało opłacone."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "Ten plan rozliczeniowy obejmuje następujące projekty:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
-#, fuzzy
-#| msgid "Current billing status"
 msgid "Check your billing status"
-msgstr "Aktualny status rozliczeniowy"
+msgstr "Sprawdź swój status płatności"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
-#, fuzzy
-#| msgid "Create billing plan"
 msgid "Your billing plan was paid"
-msgstr "Utwórz abonament"
+msgstr "Twój plan rozliczeniowy został zapłacony"
 
 #: wlhosted/integrations/views.py:68
 msgid "No matching payment found."
@@ -1137,35 +1132,27 @@ msgstr "Jednorazowa"
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "Nowa płatność"
 
 #: wlhosted/payments/models.py:197
-#, fuzzy
-#| msgid "No matching payment found."
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr "Nie znaleziono pasującej płatności."
+msgstr "Oczekiwanie na płatność"
 
 #: wlhosted/payments/models.py:198
-#, fuzzy
-#| msgid "Payment card"
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "Karta płatnicza"
+msgstr "Płatność odrzucona"
 
 #: wlhosted/payments/models.py:199
-#, fuzzy
-#| msgid "Payment cancelled"
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "Płatność anulowana"
+msgstr "Płatność zaakceptowana"
 
 #: wlhosted/payments/models.py:200
-#, fuzzy
-#| msgid "Payment processors."
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "Proces płatności."
+msgstr "Płatność zrealizowana"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
