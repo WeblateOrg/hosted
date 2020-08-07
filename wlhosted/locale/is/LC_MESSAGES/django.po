@@ -6,11 +6,11 @@
 # Sveinn í Felli <sv1@fellsnet.is>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-07-16 14:24+0000\n"
-"Last-Translator: Þórhalla Guðmundsdóttir Beck <plergux@outlook.com>\n"
+"PO-Revision-Date: 2020-08-08 07:37+0000\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <https://hosted.weblate.org/projects/weblate/hosted/"
 "is/>\n"
 "Language: is\n"
@@ -169,7 +169,7 @@ msgstr ""
 
 #: wlhosted/integrations/views.py:96
 msgid "The payment was rejected: {}"
-msgstr ""
+msgstr "Greiðslunni var hafnað: {}"
 
 #: wlhosted/integrations/views.py:97
 msgid "Unknown reason"
@@ -772,7 +772,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:145
 msgid "Effect"
-msgstr "Gildi"
+msgstr "Gildistími"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:147
 msgid ""
@@ -936,33 +936,27 @@ msgstr "Eitt skipti"
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "Ný greiðsla"
 
 #: wlhosted/payments/models.py:197
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr ""
+msgstr "Bíður greiðslu"
 
 #: wlhosted/payments/models.py:198
-#, fuzzy
-#| msgid "Payment card"
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "Greiðslukort"
+msgstr "Greiðslu hafnað"
 
 #: wlhosted/payments/models.py:199
-#, fuzzy
-#| msgid "Payment cancelled"
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "Greiðsla afturkölluð"
+msgstr "Greiðsla samþykkt"
 
 #: wlhosted/payments/models.py:200
-#, fuzzy
-#| msgid "Payment processors."
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "Greiðslumiðlanir."
+msgstr "Greiðsla meðhöndluð"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
