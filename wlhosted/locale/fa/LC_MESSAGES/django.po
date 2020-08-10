@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Michal Čihař <michal@cihar.com>, 2019.
 # sayyed hamed nasib <cghamed752@chmail.ir>, 2020.
+# سهیل خانعلی‌پور <soheilkhanalipur@tutanota.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-04-04 18:12+0000\n"
-"Last-Translator: sayyed hamed nasib <cghamed752@chmail.ir>\n"
+"PO-Revision-Date: 2020-08-12 05:52+0000\n"
+"Last-Translator: سهیل خانعلی‌پور <soheilkhanalipur@tutanota.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/weblate/hosted/"
 "fa/>\n"
 "Language: fa\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.0-dev\n"
+"X-Generator: Weblate 4.2-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -203,10 +204,8 @@ msgid ""
 msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:17
-#, fuzzy
-#| msgid "Translate"
 msgid "Personal Data processed by Weblate"
-msgstr "ترجمه"
+msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:20
 msgid "Weblate only processes Personal Data the User provides by using it:"
@@ -214,7 +213,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:25
 msgid "Name and e-mail"
-msgstr ""
+msgstr "نام و رایانامه"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:26
 msgid "These are used to identify you in the VCS commits"
@@ -410,7 +409,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:10
 msgid "View English version"
-msgstr ""
+msgstr "دیدن نگارش انگلیسی"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:11
 msgid ""
@@ -465,7 +464,7 @@ msgstr ""
 #: wlhosted/legal/templates/legal/documents/tos.html:35
 #: wlhosted/legal/templates/legal/documents/tos.html:131
 msgid "Cookies"
-msgstr ""
+msgstr "کوکی‌ها"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:36
 msgid ""
@@ -526,7 +525,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:54
 msgid "Project"
-msgstr "پروژه"
+msgstr "برنامه"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:55
 msgid "means translation project operated on the Service"
@@ -542,10 +541,8 @@ msgid ""
 msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:60
-#, fuzzy
-#| msgid "Translate"
 msgid "Translation Memory"
-msgstr "ترجمه"
+msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:61
 msgid "means the optional translation memory service provided within Weblate"
@@ -775,7 +772,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:145
 msgid "Effect"
-msgstr ""
+msgstr "جلوه"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:147
 msgid ""
@@ -863,7 +860,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:470
 msgid "Account number"
-msgstr ""
+msgstr "شماره حساب"
 
 #: wlhosted/payments/backends.py:471
 msgid "SWIFT code"
@@ -900,7 +897,7 @@ msgstr ""
 
 #: wlhosted/payments/models.py:98
 msgid "Address"
-msgstr ""
+msgstr "نشانی"
 
 #: wlhosted/payments/models.py:101
 msgid "Postcode and city"
@@ -908,7 +905,7 @@ msgstr ""
 
 #: wlhosted/payments/models.py:103
 msgid "Country"
-msgstr ""
+msgstr "کشور"
 
 #: wlhosted/payments/models.py:135
 msgid "The country has to match your VAT code"
@@ -945,25 +942,19 @@ msgid "Awaiting payment"
 msgstr ""
 
 #: wlhosted/payments/models.py:198
-#, fuzzy
-#| msgid "Payment card"
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "کارت پرداخت"
+msgstr "پرداخت رد شد"
 
 #: wlhosted/payments/models.py:199
-#, fuzzy
-#| msgid "Payment cancelled"
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "پرداخت لغو شده"
+msgstr "پرداخت پذیرفته شد"
 
 #: wlhosted/payments/models.py:200
-#, fuzzy
-#| msgid "Payment cancelled"
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "پرداخت لغو شده"
+msgstr ""
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
