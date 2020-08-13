@@ -1,18 +1,18 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Arif Budiman <arifpedia@gmail.com>, 2016-2018.
+# Arif Budiman <arifpedia@gmail.com>, 2016-2018, 2020.
 # Andika Triwidada <andika@gmail.com>, 2018, 2020.
 # anonymous <noreply@weblate.org>, 2019.
 # frottle <monochromefrog@gmail.com>, 2020.
 # frottle <catatan.kungkong@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-04-21 12:24+0000\n"
-"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"PO-Revision-Date: 2020-08-14 15:32+0000\n"
+"Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/weblate/"
 "hosted/id/>\n"
 "Language: id\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.0.2-dev\n"
+"X-Generator: Weblate 4.2-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -147,26 +147,20 @@ msgstr ""
 "berada di UE."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
-#, fuzzy
-#| msgid "Thank you for purchasing a hosting plan, it is now active."
 msgid "Thank you for the payment, your billing is now paid."
-msgstr "Terima kasih atas pembelian plan hosting, sekarang sudah aktif."
+msgstr "Terima kasih atas pembelian Anda, tagihan Anda sudah dilunas."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "Plan tagihan ini mencakup proyek-proyek berikut:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
-#, fuzzy
-#| msgid "Current billing status"
 msgid "Check your billing status"
-msgstr "Status penagihan saat ini"
+msgstr "Cek status penagihan saat ini"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
-#, fuzzy
-#| msgid "Create billing plan"
 msgid "Your billing plan was paid"
-msgstr "Buat plan penagihan"
+msgstr "Plan tagihan Anda telah lunas"
 
 #: wlhosted/integrations/views.py:68
 msgid "No matching payment found."
@@ -1130,35 +1124,27 @@ msgstr "Satu kali"
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "Pembayaran baru"
 
 #: wlhosted/payments/models.py:197
-#, fuzzy
-#| msgid "No matching payment found."
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr "Tidak ditemukan pembayaran yang cocok."
+msgstr "Menunggu Pembayaran"
 
 #: wlhosted/payments/models.py:198
-#, fuzzy
-#| msgid "Payment card"
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "Kartu pembayaran"
-
-#: wlhosted/payments/models.py:199
-#, fuzzy
-#| msgid "Payment cancelled"
-msgctxt "Payment state"
-msgid "Payment accepted"
 msgstr "Pembayaran dibatalkan"
 
+#: wlhosted/payments/models.py:199
+msgctxt "Payment state"
+msgid "Payment accepted"
+msgstr "Pembayaran diterima"
+
 #: wlhosted/payments/models.py:200
-#, fuzzy
-#| msgid "Payment processors."
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "Pemroses pembayaran."
+msgstr "Pembayaran diproses"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
