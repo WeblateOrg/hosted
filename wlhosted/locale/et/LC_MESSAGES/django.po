@@ -5,13 +5,14 @@
 # Janar Leas <janar.leas@gmail.com>, 2019.
 # anonymous <noreply@weblate.org>, 2019.
 # Priit Jõerüüt <hwlate@joeruut.com>, 2020.
+# Stanislav Lem <justaryo@yandex.ru>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-08-03 17:47+0000\n"
-"Last-Translator: Priit Jõerüüt <hwlate@joeruut.com>\n"
+"PO-Revision-Date: 2020-08-14 15:32+0000\n"
+"Last-Translator: Stanislav Lem <justaryo@yandex.ru>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/weblate/hosted/"
 "et/>\n"
 "Language: et\n"
@@ -431,7 +432,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:10
 msgid "View English version"
-msgstr ""
+msgstr "Vaata ingliskeelset versiooni"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:11
 msgid ""
@@ -486,7 +487,7 @@ msgstr ""
 #: wlhosted/legal/templates/legal/documents/tos.html:35
 #: wlhosted/legal/templates/legal/documents/tos.html:131
 msgid "Cookies"
-msgstr ""
+msgstr "küpsisefailid"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:36
 msgid ""
