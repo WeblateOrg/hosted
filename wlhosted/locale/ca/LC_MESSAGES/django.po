@@ -6,10 +6,10 @@
 # Adolfo Jayme Barrientos <fitojb@ubuntu.com>, 2019, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-07-12 05:05+0000\n"
+"PO-Revision-Date: 2020-08-16 03:28+0000\n"
 "Last-Translator: Eduard Ereza Martínez <eduard@ereza.cat>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/weblate/hosted/"
 "ca/>\n"
@@ -143,26 +143,20 @@ msgid ""
 msgstr "El canvi invers s'aplica a les factures emeses a negocis de la UE."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
-#, fuzzy
-#| msgid "Thank you for purchasing a hosting plan, it is now active."
 msgid "Thank you for the payment, your billing is now paid."
-msgstr "Gràcies per adquirir un pla d'allotjament, ara és actiu."
+msgstr "Gràcies pel pagament, ara les factures ja estan pagades."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "Aquest pla de facturació cobreix els següents projectes:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
-#, fuzzy
-#| msgid "Current billing status"
 msgid "Check your billing status"
-msgstr "Estat actual de la facturació"
+msgstr "Comproveu l'estat de la facturació"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
-#, fuzzy
-#| msgid "Create billing plan"
 msgid "Your billing plan was paid"
-msgstr "Crea un pla de facturació"
+msgstr "El vostre pla de facturació està pagat"
 
 #: wlhosted/integrations/views.py:68
 msgid "No matching payment found."
@@ -1146,35 +1140,27 @@ msgstr "Únic"
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "Pagament nou"
 
 #: wlhosted/payments/models.py:197
-#, fuzzy
-#| msgid "No matching payment found."
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr "No s'ha trobat cap pagament coincident."
+msgstr "Pagament pendent"
 
 #: wlhosted/payments/models.py:198
-#, fuzzy
-#| msgid "Payment card"
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "Targeta de pagament"
+msgstr "Pagament rebutjat"
 
 #: wlhosted/payments/models.py:199
-#, fuzzy
-#| msgid "Payment cancelled"
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "Pagament cancel·lat"
+msgstr "Pagament acceptat"
 
 #: wlhosted/payments/models.py:200
-#, fuzzy
-#| msgid "Payment processors."
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "Processadors de pagaments."
+msgstr "Pagament processat"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
