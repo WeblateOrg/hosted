@@ -6,10 +6,10 @@
 # anonymous <noreply@weblate.org>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-07-24 13:57+0000\n"
+"PO-Revision-Date: 2020-08-16 03:28+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/weblate/hosted/"
 "hr/>\n"
@@ -145,26 +145,20 @@ msgstr ""
 "Povrat PDV-a odnosi se na račune izdane poduzećima unutar europske zajednice."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
-#, fuzzy
-#| msgid "Thank you for purchasing a hosting plan, it is now active."
 msgid "Thank you for the payment, your billing is now paid."
-msgstr "Zahvaljujemo na kupnji hosting plan, sad je aktivan."
+msgstr "Zahvaljujemo na plaćanju, tvoja naplata je sada plaćena."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "Plan naplate pokriva sljedeće projekte:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
-#, fuzzy
-#| msgid "Current billing status"
 msgid "Check your billing status"
-msgstr "Trenutačno stanje naplate"
+msgstr "Provjeri stanje tvoje naplate"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
-#, fuzzy
-#| msgid "Create billing plan"
 msgid "Your billing plan was paid"
-msgstr "Stvori plan naplate"
+msgstr "Tvoj plan naplate je plaćen"
 
 #: wlhosted/integrations/views.py:68
 msgid "No matching payment found."
@@ -1117,35 +1111,27 @@ msgstr "Jednokratno"
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "Novo plaćanje"
 
 #: wlhosted/payments/models.py:197
-#, fuzzy
-#| msgid "No matching payment found."
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr "Nema odgovarajućeg plaćanja."
+msgstr "Očekuje se plaćanje"
 
 #: wlhosted/payments/models.py:198
-#, fuzzy
-#| msgid "Payment card"
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "Kartica za plaćanje"
+msgstr "Plaćanje je odbijeno"
 
 #: wlhosted/payments/models.py:199
-#, fuzzy
-#| msgid "Payment cancelled"
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "Plaćanje prekinuto"
+msgstr "Plaćanje je prihvaćeno"
 
 #: wlhosted/payments/models.py:200
-#, fuzzy
-#| msgid "Payment processors."
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "Obrađivači plaćanja."
+msgstr "Plaćanje je obrađeno"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
