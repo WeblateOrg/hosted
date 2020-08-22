@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-08-08 07:37+0000\n"
+"PO-Revision-Date: 2020-08-23 19:09+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese (Portugal) <https://hosted.weblate.org/projects/"
 "weblate/hosted/pt_PT/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.2-dev\n"
+"X-Generator: Weblate 4.2.1-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -412,7 +412,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:80
 msgid "Order us to delete your Personal Data"
-msgstr "Comunicar-nos para eliminar os seus \"Dados Pessoais\""
+msgstr "Comunicar-nos para apagar os seus \"Dados Pessoais\""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:81
 msgid "Restrict the Personal Data processing"
