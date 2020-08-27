@@ -4,13 +4,14 @@
 # Yaron Shahrabani <sh.yaron@gmail.com>, 2018, 2019, 2020.
 # ButterflyOfFire <ButterflyOfFire@protonmail.com>, 2018.
 # tamer dab <dabsantamer@yahoo.com>, 2020.
+# Omeritzics Games <omeritzicschwartz@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-08-08 07:37+0000\n"
-"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"PO-Revision-Date: 2020-08-28 12:41+0000\n"
+"Last-Translator: Omeritzics Games <omeritzicschwartz@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/weblate/hosted/he/"
 ">\n"
 "Language: he\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Weblate 4.2-dev\n"
+"X-Generator: Weblate 4.2.1-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -858,7 +859,7 @@ msgid ""
 msgstr ""
 "שלום,\n"
 "\n"
-"תודה על על התשלום ב־weblate.org.\n"
+"תודה רבה על התשלום שלך על weblate.org.\n"
 "\n"
 "להודעה זו מצורפת חשבונית.\n"
 "לחלופין, ניתן להוריד אותה מהאתר:\n"
@@ -1026,25 +1027,19 @@ msgid "Awaiting payment"
 msgstr "בהמתנה לתשלום"
 
 #: wlhosted/payments/models.py:198
-#, fuzzy
-#| msgid "Payment card"
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "כרטיס תשלום"
+msgstr "התשלום נדחה"
 
 #: wlhosted/payments/models.py:199
-#, fuzzy
-#| msgid "Payment cancelled"
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "התשלום בוטל"
+msgstr "התשלום התקבל"
 
 #: wlhosted/payments/models.py:200
-#, fuzzy
-#| msgid "Payment processors."
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "מעבדי תשלומים."
+msgstr "התשלום עבר עיבוד"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
