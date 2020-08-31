@@ -2,15 +2,15 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Weblate <noreply@weblate.org>, 2019.
-# Fabio Tomat <f.t.public@gmail.com>, 2019.
+# Fabio Tomat <f.t.public@gmail.com>, 2019, 2020.
 # anonymous <noreply@weblate.org>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2019-12-04 18:50+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2020-08-31 18:39+0000\n"
+"Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://hosted.weblate.org/projects/weblate/hosted/"
 "fur/>\n"
 "Language: fur\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10-dev\n"
+"X-Generator: Weblate 4.2.1-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -848,31 +848,31 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
-msgstr ""
+msgstr "Bitcoin"
 
 #: wlhosted/payments/backends.py:438
 msgid "IBAN bank transfer"
-msgstr ""
+msgstr "Trasferiment bancari cun IBAN"
 
 #: wlhosted/payments/backends.py:468
 msgid "Issuing bank"
-msgstr ""
+msgstr "Bancje emitent"
 
 #: wlhosted/payments/backends.py:469
 msgid "Account holder"
-msgstr ""
+msgstr "Titolâr dal cont"
 
 #: wlhosted/payments/backends.py:470
 msgid "Account number"
-msgstr ""
+msgstr "Numar dal cont"
 
 #: wlhosted/payments/backends.py:471
 msgid "SWIFT code"
-msgstr ""
+msgstr "Codiç SWIFT"
 
 #: wlhosted/payments/backends.py:472
 msgid "IBAN"
-msgstr ""
+msgstr "IBAN"
 
 #: wlhosted/payments/backends.py:473
 msgid "Reference"
@@ -880,40 +880,42 @@ msgstr ""
 
 #: wlhosted/payments/models.py:78
 msgid "European VAT ID"
-msgstr ""
+msgstr "Partide IVA europeane"
 
 #: wlhosted/payments/models.py:80
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
+"Inserìs la partide IVA europeane (VATIN). Lasse vueit il cjamp se no si pues "
+"aplicâ."
 
 #: wlhosted/payments/models.py:86
 msgid "Tax registration"
-msgstr ""
+msgstr "Partide IVA/Codiç fiscâl"
 
 #: wlhosted/payments/models.py:88
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
-msgstr ""
+msgstr "Compile la partide IVA/Codiç fiscâl se e à di vignî fûr su pe fature."
 
 #: wlhosted/payments/models.py:95
 msgid "Company or individual name"
-msgstr ""
+msgstr "Non de societât o individuâl"
 
 #: wlhosted/payments/models.py:98
 msgid "Address"
-msgstr ""
+msgstr "Direzion"
 
 #: wlhosted/payments/models.py:101
 msgid "Postcode and city"
-msgstr ""
+msgstr "CAP e citât"
 
 #: wlhosted/payments/models.py:103
 msgid "Country"
-msgstr ""
+msgstr "Nazion"
 
 #: wlhosted/payments/models.py:135
 msgid "The country has to match your VAT code"
-msgstr ""
+msgstr "La nazion e scugni corispuindi al to codiç IVA"
 
 #: wlhosted/payments/models.py:158
 msgid "Annual"
@@ -933,7 +935,7 @@ msgstr "Mensîl"
 
 #: wlhosted/payments/models.py:162
 msgid "Onetime"
-msgstr ""
+msgstr "Une volte"
 
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
@@ -962,16 +964,17 @@ msgstr ""
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
-msgstr ""
+msgstr "{} nol è un codiç di paîs membri de Union Europeane valit."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr ""
+msgstr "{} nol corispuint aes specifichis ID IVA de nazion."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
+"Servizi di convalide ID IVA no disponibil par {}, torne prove plui indenant."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr ""
+msgstr "{} nol è un ID IVA valit."
