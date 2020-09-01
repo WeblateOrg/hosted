@@ -259,7 +259,7 @@ class Payment(models.Model):
             language = "en"
         return settings.PAYMENT_REDIRECT_URL.format(language=language, uuid=self.uuid)
 
-    def repeat_payment(self, **kwargs):
+    def repeat_payment(self, skip_previous: bool = False, **kwargs):
         # Check if backend is still valid
         from wlhosted.payments.backends import get_backend
 
@@ -271,7 +271,7 @@ class Payment(models.Model):
         with transaction.atomic(using="payments_db"):
             # Check for failed payments
             previous = Payment.objects.filter(repeat=self)
-            if previous.exists():
+            if not skip_previous and previous.exists():
                 failures = previous.filter(state=Payment.REJECTED)
                 try:
                     last_good = previous.filter(state=Payment.PROCESSED).order_by(
