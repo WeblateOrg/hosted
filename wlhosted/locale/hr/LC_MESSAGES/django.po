@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-08-16 03:28+0000\n"
+"PO-Revision-Date: 2020-09-07 19:31+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/weblate/hosted/"
 "hr/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.2-dev\n"
+"X-Generator: Weblate 4.3-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -27,7 +27,7 @@ msgstr "Stvori podatke Unknown Horizons scenarija"
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
-msgstr "Ponovo postavi repozitorij u gornji tok"
+msgstr "Ponovo postavi repozitorij u izvorni"
 
 #: wlhosted/addons.py:58
 msgid "Reset all changes in the local repository"
@@ -39,19 +39,19 @@ msgstr "Naplata"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
-msgstr "Odaberi plan naplate koju želiš aktualizirati"
+msgstr "Odaberi tarifu koju želiš aktualizirati"
 
 #: wlhosted/integrations/forms.py:34
 msgid "Create new billing plan"
-msgstr "Stvori novi plan naplate"
+msgstr "Stvori novu tarifu"
 
 #: wlhosted/integrations/templates/hosted/create.html:8
 msgid "Create billing plan"
-msgstr "Stvori plan naplate"
+msgstr "Stvori tarifu"
 
 #: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
-msgstr "Novi plan naplate"
+msgstr "Nova tarifa"
 
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
@@ -150,7 +150,7 @@ msgstr "Zahvaljujemo na plaćanju, tvoja naplata je sada plaćena."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr "Plan naplate pokriva sljedeće projekte:"
+msgstr "Ova tarifa pokriva sljedeće projekte:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
@@ -158,7 +158,7 @@ msgstr "Provjeri stanje tvoje naplate"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
-msgstr "Tvoj plan naplate je plaćen"
+msgstr "Tvoja tarifa je plaćena"
 
 #: wlhosted/integrations/views.py:68
 msgid "No matching payment found."
