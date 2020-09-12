@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-08-08 07:37+0000\n"
+"PO-Revision-Date: 2020-09-12 12:12+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/weblate/"
 "hosted/pt/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.2-dev\n"
+"X-Generator: Weblate 4.3-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -155,7 +155,7 @@ msgstr "Este plano de faturação abrange os seguintes projetos:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
-msgstr "Verificar o estado da facturação"
+msgstr "Verificar o seu estado da faturação"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
