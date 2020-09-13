@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # anonymous <noreply@weblate.org>, 2019.
+# Whod <whodizhod@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2019-09-21 01:17+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2020-09-14 11:52+0000\n"
+"Last-Translator: Whod <whodizhod@gmail.com>\n"
 "Language-Team: Bulgarian <https://hosted.weblate.org/projects/weblate/hosted/"
 "bg/>\n"
 "Language: bg\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9-dev\n"
+"X-Generator: Weblate 4.3-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -196,10 +197,8 @@ msgid ""
 msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:9
-#, fuzzy
-#| msgid "Version control"
 msgid "Personal Data Controller"
-msgstr "Контрол на версиите"
+msgstr "Администратор на лични данни"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:12
 #, python-format
@@ -212,6 +211,8 @@ msgid ""
 "Weblate has appointed a data protection officer who may be reached via "
 "%(privacy_contact)s."
 msgstr ""
+"Weblate назначи длъжностно лице по защита на данните, до което може да се "
+"стигне чрез %(privacy_contact)s."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:17
 #, fuzzy
@@ -240,16 +241,12 @@ msgid "Additionally, e-mail is used for notification of watched events"
 msgstr "Освен това, е-пощата се използва за известия за наблюдаваните събития"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:29
-#, fuzzy
-#| msgid "Password has been changed."
 msgid "Password in hashed form"
-msgstr "Паролата беше променена."
+msgstr "Парола в хеширана форма"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:30
-#, fuzzy
-#| msgid "Any authenticated user can contribute."
 msgid "Used to authenticate the User, if configured"
-msgstr "Всички удостоверени потребители могат да сътрудничат."
+msgstr "Използва се за удостоверяване на потребителя, ако е конфигуриран"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:32
 msgid "IP address and browser name"
@@ -329,10 +326,8 @@ msgid "Persons which are contracted for technical assurance of the service."
 msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:59
-#, fuzzy
-#| msgid "Failed to process form!"
 msgid "Payment processors."
-msgstr "Грешка при обработката на формуляра!"
+msgstr "Процесори за разплащане."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:62
 msgid "All Personal Data is stored in the European Union."
@@ -471,10 +466,8 @@ msgid "Definitions"
 msgstr "Описание"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:22
-#, fuzzy
-#| msgid "Terms of Service"
 msgid "In these Terms of Service:"
-msgstr "Условия на услугата"
+msgstr "В настоящите Условия за ползване:"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:26
 #, fuzzy
@@ -577,11 +570,8 @@ msgid "Project"
 msgstr "Проект"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:55
-#, fuzzy
-#| msgid ""
-#| "However, the following translation projects are available on this server:"
 msgid "means translation project operated on the Service"
-msgstr "Все пак следните проекти за превод са налични на този сървър:"
+msgstr "означава проект за превод, изпълняван от Услугата"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:57
 msgid "Service"
