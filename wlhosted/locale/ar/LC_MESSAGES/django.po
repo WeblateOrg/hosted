@@ -6,13 +6,14 @@
 # mohammadA <mohammadAbdulhadi1@gmail.com>, 2018, 2019.
 # Omar Aglan <omar.aglan91@yahoo.com>, 2019.
 # tamer dab <dabsantamer@yahoo.com>, 2020.
+# Anonymous <noreply@weblate.org>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-08-08 07:36+0000\n"
-"Last-Translator: tamer dab <dabsantamer@yahoo.com>\n"
+"PO-Revision-Date: 2020-09-14 11:52+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/weblate/hosted/ar/"
 ">\n"
 "Language: ar\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.2-dev\n"
+"X-Generator: Weblate 4.3-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -155,10 +156,8 @@ msgid "This billing plan covers following projects:"
 msgstr "تغطي خطة الفوترة هذه المشاريع التالية:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
-#, fuzzy
-#| msgid "Current billing status"
 msgid "Check your billing status"
-msgstr "حالة الفوترة الحالية"
+msgstr "تحقق من حالة الفاتورة"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 #, fuzzy
