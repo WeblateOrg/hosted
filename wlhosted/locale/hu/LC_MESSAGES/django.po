@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # farkasg.zoltan <farkasg.zoltan@gmail.com>, 2019.
 # Mister X <piko88@freemail.hu>, 2019.
-# Doma Gergő <domag02@gmail.com>, 2019.
+# Doma Gergő <domag02@gmail.com>, 2019, 2020.
 # Balázs Úr <balazs@urbalazs.hu>, 2019.
 # Szőke Sándor <mail@szokesandor.hu>, 2019.
 # János Néhrer <iiamnot@gmail.com>, 2019.
@@ -17,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
 "PO-Revision-Date: 2020-09-15 14:11+0000\n"
-"Last-Translator: sakaitsu <zsolttokio@gmail.com>\n"
+"Last-Translator: Doma Gergő <domag02@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/weblate/hosted/"
 "hu/>\n"
 "Language: hu\n"
@@ -191,7 +191,7 @@ msgstr ""
 
 #: wlhosted/integrations/views.py:96
 msgid "The payment was rejected: {}"
-msgstr "A fizetést elutasította: {}"
+msgstr "A fizetés el lett utasítva: {}"
 
 #: wlhosted/integrations/views.py:97
 msgid "Unknown reason"
@@ -917,31 +917,31 @@ msgstr "Bitcoin"
 
 #: wlhosted/payments/backends.py:438
 msgid "IBAN bank transfer"
-msgstr ""
+msgstr "Nemzetközi banki átutalás (IBAN)"
 
 #: wlhosted/payments/backends.py:468
 msgid "Issuing bank"
-msgstr ""
+msgstr "Kibocsátó bank"
 
 #: wlhosted/payments/backends.py:469
 msgid "Account holder"
-msgstr ""
+msgstr "Számlatulajdonos"
 
 #: wlhosted/payments/backends.py:470
 msgid "Account number"
-msgstr ""
+msgstr "Számlaszám"
 
 #: wlhosted/payments/backends.py:471
 msgid "SWIFT code"
-msgstr ""
+msgstr "Swift kód"
 
 #: wlhosted/payments/backends.py:472
 msgid "IBAN"
-msgstr ""
+msgstr "Nemzetközi bankszámlaszám (IBAN)"
 
 #: wlhosted/payments/backends.py:473
 msgid "Reference"
-msgstr ""
+msgstr "Hivatkozás"
 
 #: wlhosted/payments/models.py:78
 msgid "European VAT ID"
@@ -955,16 +955,16 @@ msgstr ""
 
 #: wlhosted/payments/models.py:86
 msgid "Tax registration"
-msgstr "Adó regisztráció"
+msgstr "Adószám"
 
 #: wlhosted/payments/models.py:88
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
-msgstr ""
+msgstr "Kérjük, töltse ki adószámát, ha meg kell jeleníteni a számlán."
 
 #: wlhosted/payments/models.py:95
 msgid "Company or individual name"
-msgstr "Cég vagy személy neve"
+msgstr "Cég vagy magánszemély neve"
 
 #: wlhosted/payments/models.py:98
 msgid "Address"
@@ -992,7 +992,7 @@ msgstr "Féléves"
 
 #: wlhosted/payments/models.py:160
 msgid "Quarterly"
-msgstr ""
+msgstr "Negyedéves"
 
 #: wlhosted/payments/models.py:161
 msgid "Monthly"
@@ -1005,47 +1005,43 @@ msgstr "Egyszeri"
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "Új fizetés"
 
 #: wlhosted/payments/models.py:197
-#, fuzzy
-#| msgid "No matching payment found."
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr "Nem található megfelelő befizetés."
+msgstr "Fizetésre vár"
 
 #: wlhosted/payments/models.py:198
-#, fuzzy
-#| msgid "Payment card"
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "Bankkártya"
+msgstr "Fizetés elutasítva"
 
 #: wlhosted/payments/models.py:199
-#, fuzzy
-#| msgid "Payment cancelled"
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "A fizetés törölve"
+msgstr "Fizetés elfogadva"
 
 #: wlhosted/payments/models.py:200
-#, fuzzy
-#| msgid "Payment processors."
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "Személyek fizetési folyamat feldolgozása."
+msgstr "Fizetés feldolgozva"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
 msgstr ""
+"A megadott {} országkód nem felel meg az Európai Unió egyetlen tagországának "
+"sem."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr ""
+msgstr "{} nem felel meg az ország adóazonosító előírásainak."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
+"Az adóazonosító-ellenőrző szolgáltatás nem érhető el a következő részére: {}"
+", próbálkozzon később."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
