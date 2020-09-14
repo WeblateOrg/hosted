@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-08-14 15:32+0000\n"
-"Last-Translator: Stanislav Lem <justaryo@yandex.ru>\n"
+"PO-Revision-Date: 2020-09-14 18:13+0000\n"
+"Last-Translator: Priit Jõerüüt <hwlate@joeruut.com>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/weblate/hosted/"
 "et/>\n"
 "Language: et\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.2-dev\n"
+"X-Generator: Weblate 4.3-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -155,16 +155,12 @@ msgid "This billing plan covers following projects:"
 msgstr ""
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
-#, fuzzy
-#| msgid "Current billing status"
 msgid "Check your billing status"
-msgstr "Praegune arvelduste olek"
+msgstr "Vaata oma arvelduste olekut"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
-#, fuzzy
-#| msgid "Create billing plan"
 msgid "Your billing plan was paid"
-msgstr "Loo arvelduskava"
+msgstr "Sinu arvelduskava eest on tasutud"
 
 #: wlhosted/integrations/views.py:68
 msgid "No matching payment found."
@@ -967,32 +963,24 @@ msgid "New payment"
 msgstr ""
 
 #: wlhosted/payments/models.py:197
-#, fuzzy
-#| msgid "No matching payment found."
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr "Vastavat makset ei leitud."
+msgstr "Ootan makset"
 
 #: wlhosted/payments/models.py:198
-#, fuzzy
-#| msgid "Payment cancelled"
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "Makse tühistatud"
+msgstr "Makse on tagasi lükatud"
 
 #: wlhosted/payments/models.py:199
-#, fuzzy
-#| msgid "Payment cancelled"
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "Makse tühistatud"
+msgstr "Makse on vastu võteud"
 
 #: wlhosted/payments/models.py:200
-#, fuzzy
-#| msgid "Payment cancelled"
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "Makse tühistatud"
+msgstr "Makse on töödeldud"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
