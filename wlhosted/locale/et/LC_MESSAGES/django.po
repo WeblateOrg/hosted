@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-09-14 18:13+0000\n"
+"PO-Revision-Date: 2020-09-15 14:11+0000\n"
 "Last-Translator: Priit Jõerüüt <hwlate@joeruut.com>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/weblate/hosted/"
 "et/>\n"
@@ -148,11 +148,11 @@ msgstr ""
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
-msgstr ""
+msgstr "Tänud makse eest, sinu arve on nüüd tasutud."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "See arvelduskava katab järgmiseid projekte:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
@@ -168,25 +168,27 @@ msgstr "Vastavat makset ei leitud."
 
 #: wlhosted/integrations/views.py:76
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr ""
+msgstr "Suur tänu tellimuse eest, sinu valitud teenused on nüüd kasutatavad."
 
 #: wlhosted/integrations/views.py:84
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
+"Suur tänu tellimuse eest, sinu tehtud makse on ootel seni, kuni seda taustal "
+"töödeldakse."
 
 #: wlhosted/integrations/views.py:96
 msgid "The payment was rejected: {}"
-msgstr ""
+msgstr "Makse lükati tagasi: {}"
 
 #: wlhosted/integrations/views.py:97
 msgid "Unknown reason"
-msgstr ""
+msgstr "Tundmatu põhjus"
 
 #: wlhosted/integrations/views.py:113
 msgid "Payments are temporarily inactive."
-msgstr ""
+msgstr "Makseliides ajutiselt ei tööta."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:6
 #, python-format
@@ -269,6 +271,8 @@ msgid ""
 "In case you purchase service from us, we collect additional billing "
 "information necessary for issuing an invoice"
 msgstr ""
+"Kui sa ostad meilt teenuseid, siis arve koostamiseks me kogume täiendavat "
+"arveldusteavet"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:40
 msgid "Purpose and legal basis of processing Personal Data"
@@ -844,7 +848,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
-msgstr ""
+msgstr "Sinu ootel makse weblate.org'le"
 
 #: wlhosted/payments/backends.py:257
 msgid ""
@@ -853,10 +857,14 @@ msgid ""
 "Your payment on weblate.org is pending. Please follow the provided\n"
 "instructions to complete the payment.\n"
 msgstr ""
+"Tere,\n"
+"\n"
+"Sinul on weblate.org saidis ootel makse. Makse tegemiseks\n"
+"palun järgi seda juhendit.\n"
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
-msgstr ""
+msgstr "Maksekaart"
 
 #: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
@@ -876,7 +884,7 @@ msgstr "Makse IBAN pangaülekandega"
 
 #: wlhosted/payments/backends.py:468
 msgid "Issuing bank"
-msgstr ""
+msgstr "Väljastav pank"
 
 #: wlhosted/payments/backends.py:469
 msgid "Account holder"
@@ -896,7 +904,7 @@ msgstr "IBAN"
 
 #: wlhosted/payments/backends.py:473
 msgid "Reference"
-msgstr ""
+msgstr "Viide"
 
 #: wlhosted/payments/models.py:78
 msgid "European VAT ID"
@@ -910,12 +918,14 @@ msgstr ""
 
 #: wlhosted/payments/models.py:86
 msgid "Tax registration"
-msgstr ""
+msgstr "Käibemaksukohuslasena registreerimine"
 
 #: wlhosted/payments/models.py:88
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
+"Palun lisa oma käibemaksukohuslasena registreerimise number, kui soovid seda "
+"näha arvel."
 
 #: wlhosted/payments/models.py:95
 msgid "Company or individual name"
@@ -939,11 +949,11 @@ msgstr "Riik peab vastama teie käibemaksukoodile"
 
 #: wlhosted/payments/models.py:158
 msgid "Annual"
-msgstr ""
+msgstr "Üks kord aastas"
 
 #: wlhosted/payments/models.py:159
 msgid "Biannual"
-msgstr ""
+msgstr "Kaks korda aastas"
 
 #: wlhosted/payments/models.py:160
 msgid "Quarterly"
@@ -960,7 +970,7 @@ msgstr "Ühekordne"
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "Uus makse"
 
 #: wlhosted/payments/models.py:197
 msgctxt "Payment state"
@@ -994,7 +1004,9 @@ msgstr ""
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
+"Käibemaksukohuslasena registreerimise numbrit kontrolliv teenus pole {} "
+"olnud saadaval. Palun proovi hiljem uuesti."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr ""
+msgstr "{} ei ole korrektne käibemaksukohuslasena registreerimise number."
