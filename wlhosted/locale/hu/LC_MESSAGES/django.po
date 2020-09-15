@@ -10,13 +10,14 @@
 # miles <varota@gmail.com>, 2019.
 # Michal Čihař <michal@cihar.com>, 2019.
 # Balázs Meskó <meskobalazs@mailbox.org>, 2020.
+# sakaitsu <zsolttokio@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-04-13 05:25+0000\n"
-"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
+"PO-Revision-Date: 2020-09-15 14:11+0000\n"
+"Last-Translator: sakaitsu <zsolttokio@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/weblate/hosted/"
 "hu/>\n"
 "Language: hu\n"
@@ -24,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.0-dev\n"
+"X-Generator: Weblate 4.3-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -545,7 +546,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:45
 msgid "Provider"
-msgstr ""
+msgstr "Szolgáltató"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:46
 #, python-format
