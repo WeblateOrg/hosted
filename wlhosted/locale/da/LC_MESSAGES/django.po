@@ -9,12 +9,11 @@
 # Jeppe Skindstad Frederiksen <jeppeskindstadfrederiksen@live.dk>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-06-05 08:31+0000\n"
-"Last-Translator: Jeppe Skindstad Frederiksen <jeppeskindstadfrederiksen@live."
-"dk>\n"
+"PO-Revision-Date: 2020-09-23 10:56+0000\n"
+"Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/weblate/hosted/da/"
 ">\n"
 "Language: da\n"
@@ -22,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.1-dev\n"
+"X-Generator: Weblate 4.3-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -154,16 +153,12 @@ msgid "This billing plan covers following projects:"
 msgstr ""
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
-#, fuzzy
-#| msgid "Current billing status"
 msgid "Check your billing status"
-msgstr "Nuværende betalingsstatus"
+msgstr "Tjek din betalingsstatus"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
-#, fuzzy
-#| msgid "Create billing plan"
 msgid "Your billing plan was paid"
-msgstr "Opret betalingsplan"
+msgstr "Din betalingsplan blev betalt"
 
 #: wlhosted/integrations/views.py:68
 msgid "No matching payment found."
@@ -965,25 +960,19 @@ msgid "Awaiting payment"
 msgstr ""
 
 #: wlhosted/payments/models.py:198
-#, fuzzy
-#| msgid "Payment card"
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "Betalingskort"
+msgstr "Betaling afvist"
 
 #: wlhosted/payments/models.py:199
-#, fuzzy
-#| msgid "Payment cancelled"
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "Betaling annulleret"
+msgstr "Betaling accepteret"
 
 #: wlhosted/payments/models.py:200
-#, fuzzy
-#| msgid "Payment processors."
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "Betalingsprocesser."
+msgstr "Betaling behandlet"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
