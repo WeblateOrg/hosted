@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-09-16 18:59+0000\n"
+"PO-Revision-Date: 2020-09-24 06:16+0000\n"
 "Last-Translator: Zmicer Turok <nashtlumach@gmail.com>\n"
 "Language-Team: Belarusian <https://hosted.weblate.org/projects/weblate/"
 "hosted/be/>\n"
@@ -145,10 +145,8 @@ msgid ""
 msgstr "Зваротная аплата ўжываецца да рахункаў, выдадзеных прадпрыемствам ЕС."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
-#, fuzzy
-#| msgid "Thank you for purchasing a hosting plan, it is now active."
 msgid "Thank you for the payment, your billing is now paid."
-msgstr "Дзякуем за набыццё плана хостынгу. Ён ужо дзейнічае."
+msgstr "Дзякуем за аплату."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
@@ -159,10 +157,8 @@ msgid "Check your billing status"
 msgstr "Праверце статус тарыфнага плана"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
-#, fuzzy
-#| msgid "Create billing plan"
 msgid "Your billing plan was paid"
-msgstr "Стварыць тарыфны план"
+msgstr "Ваш тарыфны план аплачаны"
 
 #: wlhosted/integrations/views.py:68
 msgid "No matching payment found."
@@ -1123,35 +1119,27 @@ msgstr "Аднойчы"
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "Новы плацёж"
 
 #: wlhosted/payments/models.py:197
-#, fuzzy
-#| msgid "No matching payment found."
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr "Няма адпаведнай аплаты."
+msgstr "Плацёж у чаканні"
 
 #: wlhosted/payments/models.py:198
-#, fuzzy
-#| msgid "Payment card"
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "Плацёжная картка"
+msgstr "Плацёж адхілены"
 
 #: wlhosted/payments/models.py:199
-#, fuzzy
-#| msgid "Payment cancelled"
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "Плацёж скасаваны"
+msgstr "Плацёж прыняты"
 
 #: wlhosted/payments/models.py:200
-#, fuzzy
-#| msgid "Payment processors."
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "Апрацоўшчыкі плацяжоў."
+msgstr "Плацёж апрацаваны"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
