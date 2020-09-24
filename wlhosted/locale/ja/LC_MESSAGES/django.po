@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-09-24 06:16+0000\n"
+"PO-Revision-Date: 2020-09-24 06:20+0000\n"
 "Last-Translator: Kyotaro Iijima <kyotaro.eyes@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/weblate/hosted/"
 "ja/>\n"
@@ -259,14 +259,13 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:35
 msgid "Billing information"
-msgstr "お支払い情報"
+msgstr "請求情報"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:36
 msgid ""
 "In case you purchase service from us, we collect additional billing "
 "information necessary for issuing an invoice"
-msgstr ""
-"サービスを購入された場合、請求書の発行に必要な追加のお支払情報を収集します"
+msgstr "サービスを購入された場合、請求書の発行に必要な追加の請求情報を収集します"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:40
 msgid "Purpose and legal basis of processing Personal Data"
