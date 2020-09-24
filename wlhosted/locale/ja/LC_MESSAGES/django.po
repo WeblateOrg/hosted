@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-09-04 08:45+0000\n"
+"PO-Revision-Date: 2020-09-24 06:16+0000\n"
 "Last-Translator: Kyotaro Iijima <kyotaro.eyes@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/weblate/hosted/"
 "ja/>\n"
@@ -38,7 +38,7 @@ msgstr "ローカルリポジトリ内のすべての変更をリセットする
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
-msgstr "課金"
+msgstr "請求"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
