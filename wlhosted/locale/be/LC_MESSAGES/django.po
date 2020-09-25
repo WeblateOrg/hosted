@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-09-24 06:16+0000\n"
+"PO-Revision-Date: 2020-09-25 20:25+0000\n"
 "Last-Translator: Zmicer Turok <nashtlumach@gmail.com>\n"
 "Language-Team: Belarusian <https://hosted.weblate.org/projects/weblate/"
 "hosted/be/>\n"
@@ -178,7 +178,7 @@ msgstr ""
 
 #: wlhosted/integrations/views.py:96
 msgid "The payment was rejected: {}"
-msgstr "Плацёж адхілены: {}"
+msgstr "Плацеж адхілены: {}"
 
 #: wlhosted/integrations/views.py:97
 msgid "Unknown reason"
@@ -259,14 +259,14 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:35
 msgid "Billing information"
-msgstr "Плацёжная інфармацыя"
+msgstr "Плацежная інфармацыя"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:36
 msgid ""
 "In case you purchase service from us, we collect additional billing "
 "information necessary for issuing an invoice"
 msgstr ""
-"Калі вы набываеце ў нас паслугу, мы збіраем дадатковую плацёжную інфармацыю, "
+"Калі вы набываеце ў нас паслугу, мы збіраем дадатковую плацежную інфармацыю, "
 "каб выставіць рахунак"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:40
@@ -938,7 +938,7 @@ msgstr "Гэтыя ўмовы абслугоўвання набываюць мо
 
 #: wlhosted/payments/backends.py:192
 msgid "Your payment on weblate.org"
-msgstr "Ваш плацёж на weblate.org"
+msgstr "Ваш плацеж на weblate.org"
 
 #: wlhosted/payments/backends.py:194
 #, python-format
@@ -983,7 +983,7 @@ msgid ""
 msgstr ""
 "Добры дзень,\n"
 "\n"
-"Ваша плацеж на сайце weblate.org не прайшоў.\n"
+"Ваш плацеж на сайце weblate.org не прайшоў.\n"
 "\n"
 "%s\n"
 "\n"
@@ -992,11 +992,11 @@ msgstr ""
 "%s\n"
 "\n"
 "Калі маецца на ўвазе рэгулярная аплата, будзе здзейснена тры спробы,\n"
-"і калі ўсё адно не атрымаецца, то плацёж скасуецца.\n"
+"і калі ўсё адно не атрымаецца, то плацеж скасуецца.\n"
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
-msgstr "Ваш плацёж у чаканні на weblate.org"
+msgstr "Ваш плацеж у чаканні на weblate.org"
 
 #: wlhosted/payments/backends.py:257
 msgid ""
@@ -1007,17 +1007,17 @@ msgid ""
 msgstr ""
 "Вітаем!\n"
 "\n"
-"Ваш плацёж на weblate.org знаходзіцца на разглядзе. Калі ласка, выконвайце "
+"Ваш плацеж на weblate.org знаходзіцца на разглядзе. Калі ласка, выконвайце "
 "ўсё па інструкцыі,\n"
 "каб завяршыць аплату.\n"
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
-msgstr "Плацёжная картка"
+msgstr "Плацежная картка"
 
 #: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
-msgstr "Плацёж скасаваны"
+msgstr "Плацеж скасаваны"
 
 #: wlhosted/payments/backends.py:417
 msgid "Payment error"
@@ -1119,27 +1119,27 @@ msgstr "Аднойчы"
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "New payment"
-msgstr "Новы плацёж"
+msgstr "Новы плацеж"
 
 #: wlhosted/payments/models.py:197
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr "Плацёж у чаканні"
+msgstr "Плацеж у чаканні"
 
 #: wlhosted/payments/models.py:198
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "Плацёж адхілены"
+msgstr "Плацеж адхілены"
 
 #: wlhosted/payments/models.py:199
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "Плацёж прыняты"
+msgstr "Плацеж прыняты"
 
 #: wlhosted/payments/models.py:200
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "Плацёж апрацаваны"
+msgstr "Плацеж апрацаваны"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
