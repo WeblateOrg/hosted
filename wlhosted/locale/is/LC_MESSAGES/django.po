@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-08-27 07:08+0000\n"
+"PO-Revision-Date: 2020-09-25 20:25+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <https://hosted.weblate.org/projects/weblate/hosted/"
 "is/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n % 10 != 1 || n % 100 == 11;\n"
-"X-Generator: Weblate 4.2.1-dev\n"
+"X-Generator: Weblate 4.3-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -803,7 +803,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:192
 msgid "Your payment on weblate.org"
-msgstr ""
+msgstr "Greiðsla þín á weblate.org"
 
 #: wlhosted/payments/backends.py:194
 #, python-format
@@ -820,7 +820,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:220
 msgid "Your payment on weblate.org failed"
-msgstr ""
+msgstr "Greiðsla þín á weblate.org mistókst"
 
 #: wlhosted/payments/backends.py:222
 #, python-format
@@ -841,7 +841,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
-msgstr ""
+msgstr "Greiðsla þín í bið á weblate.org"
 
 #: wlhosted/payments/backends.py:257
 msgid ""
