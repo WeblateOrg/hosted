@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-09-25 20:25+0000\n"
+"PO-Revision-Date: 2020-09-27 11:40+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <https://hosted.weblate.org/projects/weblate/hosted/"
 "is/>\n"
@@ -54,7 +54,8 @@ msgstr "Ný greiðsluáætlun"
 
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
-msgstr "Vinsamlegast veldu hýsingarskipulag sem passar við stærð verkefnisins."
+msgstr ""
+"Vinsamlegast veldu hýsingaráskriftarleið sem passar við stærð verkefnisins."
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
@@ -70,7 +71,7 @@ msgstr "Of lítið"
 
 #: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
-msgstr "Valin áskrift"
+msgstr "Valin áskriftarleið"
 
 #: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
@@ -121,6 +122,9 @@ msgid ""
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
+"Verðlagning byggist á fjölda upprunastrengja og fjölda marktungumála. "
+"Upprunastrengur er textaeining sem skilgreind er í þýðingarsniði. Það getur "
+"verið orð, setning eða málsgrein."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
@@ -143,11 +147,11 @@ msgstr ""
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
-msgstr ""
+msgstr "Takk fyrir greiðsluna, reikningurinn þinn er núna greiddur."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "Greiðsluáætlunin nær yfir eftirfarandi verkefni:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
@@ -155,7 +159,7 @@ msgstr "Athugaðu greiðslustöðu þína"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
-msgstr ""
+msgstr "Áskriftin þín var greidd"
 
 #: wlhosted/integrations/views.py:68
 msgid "No matching payment found."
@@ -163,13 +167,15 @@ msgstr "Engin samsvarandi greiðsla fannst."
 
 #: wlhosted/integrations/views.py:76
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr "Þakka þér fyrir að kaupa hýsingarskipulag, það er nú virkt."
+msgstr "Þakka þér fyrir að kaupa hýsingaráskriftarleið, hún er nú virk."
 
 #: wlhosted/integrations/views.py:84
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
+"Þakka þér fyrir að kaupa hýsingaráskriftarleið, greiðsla fyrir hana er í bið "
+"og mun fara í vinnslu í bakgrunni kerfisins."
 
 #: wlhosted/integrations/views.py:96
 msgid "The payment was rejected: {}"
@@ -181,7 +187,7 @@ msgstr "Óþekkt ástæða"
 
 #: wlhosted/integrations/views.py:113
 msgid "Payments are temporarily inactive."
-msgstr ""
+msgstr "Greiðslur eru tímabundið óvirkar."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:6
 #, python-format
@@ -266,7 +272,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:40
 msgid "Purpose and legal basis of processing Personal Data"
-msgstr ""
+msgstr "Tilgangur og lagalegur grundvöllur vinnslu persónulegra gagna"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:42
 msgid "Your Personal Data will be used for the purposes of the Service:"
@@ -322,11 +328,11 @@ msgstr "Greiðslumiðlanir."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:62
 msgid "All Personal Data is stored in the European Union."
-msgstr ""
+msgstr "Öll persónuleg gögn eru vistuð í Evrópusambandinu."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:64
 msgid "The Personal Data retention"
-msgstr ""
+msgstr "Varðveisla persónulegra gagna"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:66
 msgid ""
@@ -377,15 +383,15 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:80
 msgid "Order us to delete your Personal Data"
-msgstr ""
+msgstr "Skipun til okkar um að fjarlægja persónuleg gögn þín"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:81
 msgid "Restrict the Personal Data processing"
-msgstr ""
+msgstr "Takmörkun á vinnslu persónulegra gagna"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:82
 msgid "Object to processing"
-msgstr ""
+msgstr "Andmæli við vinnslu gagna"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:83
 msgid ""
@@ -424,7 +430,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/summary.html:9
 msgid "We use cookies to deliver our services."
-msgstr ""
+msgstr "Við notum vefkökur til að veita þjónustuna okkar."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:10
 msgid "View English version"
@@ -465,7 +471,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:29
 msgid "Civil Code"
-msgstr ""
+msgstr "Lög um réttarfar í einkamálum"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:30
 #, python-format
@@ -504,6 +510,8 @@ msgid ""
 "means EU Regulation No. %(law_679_2016)s, the General Data Protection "
 "Regulation"
 msgstr ""
+"merkir reglugerð Evrópusambandsins um almenna gagnavernd nr. %(law_679_2016)"
+"s, einnig þekkt sem GDPR (general data protection regulation)"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:42
 msgid "License"
@@ -542,7 +550,7 @@ msgstr "Eigandi"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:52
 msgid "means the User who can manage Project"
-msgstr ""
+msgstr "merkir notandann sem getur stýrt verkefni"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:54
 msgid "Project"
@@ -550,7 +558,7 @@ msgstr "Verkefni"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:55
 msgid "means translation project operated on the Service"
-msgstr ""
+msgstr "merkir það þýðingarverkefni sem keyrt er á þjónustunni"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:57
 msgid "Service"
@@ -591,7 +599,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:71
 msgid "License Agreement Conclusion"
-msgstr ""
+msgstr "Niðurstaða notkunarskilmála"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:73
 msgid ""
@@ -643,7 +651,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:91
 msgid "Liability for Damage"
-msgstr ""
+msgstr "Réttarleg ábyrgð vegna tjóns"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:93
 msgid ""
@@ -773,10 +781,12 @@ msgstr ""
 msgid ""
 "The Service uses cookies to personalise content, and to analyse our traffic."
 msgstr ""
+"Þjónustan notar vefkökur til að persónuaðlaga efni og til að greina "
+"netumferðina okkar."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:138
 msgid "Governing Law"
-msgstr ""
+msgstr "Gildandi lög"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:140
 msgid ""
