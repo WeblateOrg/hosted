@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # anonymous <noreply@weblate.org>, 2019.
 # Jwtiyar Nariman <jwtiyar@gmail.com>, 2020.
+# Kurd As <kurd68587@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-07-03 05:41+0000\n"
-"Last-Translator: Jwtiyar Nariman <jwtiyar@gmail.com>\n"
+"PO-Revision-Date: 2020-10-02 22:40+0000\n"
+"Last-Translator: Kurd As <kurd68587@gmail.com>\n"
 "Language-Team: Central Kurdish <https://hosted.weblate.org/projects/weblate/"
 "hosted/ckb/>\n"
 "Language: ckb\n"
@@ -17,55 +18,55 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.2-dev\n"
+"X-Generator: Weblate 4.3-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
-msgstr ""
+msgstr "دروستکردنی داتای سیناریۆی ئاسۆی نەناسراو"
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
-msgstr ""
+msgstr "دووبارە ڕێکخستنەوەی کۆگا بۆ سەرەوەی سترایم"
 
 #: wlhosted/addons.py:58
 msgid "Reset all changes in the local repository"
-msgstr ""
+msgstr "هەموو گۆڕانکاریەکان لە کۆگای ناوخۆیی دانانەوەی"
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
-msgstr ""
+msgstr "بیڵین"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
-msgstr ""
+msgstr "هەڵبژاردنی پلانی پسوڵەکە کە دەتەوێت نوێکاری بکەیت"
 
 #: wlhosted/integrations/forms.py:34
 msgid "Create new billing plan"
-msgstr ""
+msgstr "دروستکردنی پلانی نوێی پڕۆژە یاساکە"
 
 #: wlhosted/integrations/templates/hosted/create.html:8
 msgid "Create billing plan"
-msgstr ""
+msgstr "دروستکردنی پلانی پسوڵە"
 
 #: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
-msgstr ""
+msgstr "پلانی نوێی پڕۆژە یاساکە"
 
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
-msgstr ""
+msgstr "تکایە پلانی میوانداری هەڵبژێرە کە لەگەڵ قەبارەی پرۆژەکەت بگونجێت."
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
-msgstr ""
+msgstr "دۆخی لیستی هەژمێری ئێستا"
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
-msgstr ""
+msgstr "زۆر بچووکە بۆ پڕۆژەکەت."
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small"
-msgstr ""
+msgstr "زۆر بچووکە"
 
 #: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
@@ -187,17 +188,17 @@ msgid ""
 "Protection Regulation, also known as GDPR. This document includes necessary "
 "specifications."
 msgstr ""
+"ئێمە لەگەڵ رێساکەی ژمارە %(law_679_2016)s، ڕێکخستنی پاراستنی داتای گشتی، کە "
+"بە GDPR ناسراوە، دەپێوین. ئەم دۆکیومێنتە تایبەتمەندی پێویست لەخۆ دەگرێت."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:9
-#, fuzzy
-#| msgid "Version control"
 msgid "Personal Data Controller"
-msgstr "سەرپەرشتیکردنی وەشان"
+msgstr "سەرپەرشتیکردنی وەشانەکە"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:12
 #, python-format
 msgid "%(provider)s, Reg. No. %(reg_no)s"
-msgstr ""
+msgstr "%(provider)s, Reg. No. %(reg_no)s"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:15
 #, python-format
@@ -205,16 +206,17 @@ msgid ""
 "Weblate has appointed a data protection officer who may be reached via "
 "%(privacy_contact)s."
 msgstr ""
+"وێبلایت ئەفسەری پاراستنی داتای دیاریکردووە کە لەوانەیە بگاتە "
+"%(privacy_contact)s."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:17
-#, fuzzy
-#| msgid "Translation status"
 msgid "Personal Data processed by Weblate"
-msgstr "ڕەوشی وەرگێڕان"
+msgstr "زانیاری تایبەتی لەلایەن وێبلایتەوە پرۆسێس کراوە"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:20
 msgid "Weblate only processes Personal Data the User provides by using it:"
 msgstr ""
+"وێبلایت تەنها داتای کەسی پرۆسە دەکات بەکارهێنەر دابینی دەکات بە بەکارهێنانی:"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:25
 #, fuzzy
@@ -224,25 +226,23 @@ msgstr "ناوی بەکارهێنەر یان پۆستی ئەلیکترۆنی"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:26
 msgid "These are used to identify you in the VCS commits"
-msgstr ""
+msgstr "ئەمانە بەکاردەهێنرێ بۆ ناسینەوەی تۆ لە ڤی سی ئێس"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:27
 msgid "Additionally, e-mail is used for notification of watched events"
-msgstr ""
+msgstr "لەگەڵ ئەوەش، ئیمەیڵ بەکاردێت بۆ ئاگانامەی ڕووداوە سەیرکراوەکە"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:29
-#, fuzzy
-#| msgid "Your password has been changed."
 msgid "Password in hashed form"
-msgstr "تێپەڕەوشەکەت گۆڕدرا."
+msgstr "وشەی نهێنی لە فۆرمی هاشکرا"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:30
 msgid "Used to authenticate the User, if configured"
-msgstr ""
+msgstr "بەکارهاتووە بۆ ڕەسەنتکردنی بەکارهێنەر، ئەگەر شێوەبەند کرا"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:32
 msgid "IP address and browser name"
-msgstr ""
+msgstr "ناونیشانی IP و ناوی وێبگەڕ"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:33
 msgid ""
@@ -865,7 +865,7 @@ msgstr "پارەدان ڕەتکرایەوە"
 
 #: wlhosted/payments/backends.py:417
 msgid "Payment error"
-msgstr ""
+msgstr "هەڵەی پارەدان"
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
@@ -873,7 +873,7 @@ msgstr "بیتکۆین"
 
 #: wlhosted/payments/backends.py:438
 msgid "IBAN bank transfer"
-msgstr ""
+msgstr "گواستنەوەی بانکی IBAN"
 
 #: wlhosted/payments/backends.py:468
 msgid "Issuing bank"
@@ -901,24 +901,27 @@ msgstr "ژێدەر"
 
 #: wlhosted/payments/models.py:78
 msgid "European VAT ID"
-msgstr ""
+msgstr "ناسنامەی VAT ی ئەوروپی"
 
 #: wlhosted/payments/models.py:80
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
+"تکایە ناسنامەی VAT یەکێتی ئەوروپا پڕبکەوە، ئەگەر کارپێکراو نەبوو، بەتاڵ بەجێ "
+"بێڵە."
 
 #: wlhosted/payments/models.py:86
 msgid "Tax registration"
-msgstr "باجی تۆماربوون"
+msgstr "باجی تۆمارکردن"
 
 #: wlhosted/payments/models.py:88
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
+"تکایە تۆماری باجەکەت پڕبکەوە ئەگەر پێویستە لەسەر لیستی باجەکە دەربکەوێت."
 
 #: wlhosted/payments/models.py:95
 msgid "Company or individual name"
-msgstr ""
+msgstr "کۆمپانیا یان ناوی تاک"
 
 #: wlhosted/payments/models.py:98
 msgid "Address"
@@ -926,7 +929,7 @@ msgstr "ناونیشان"
 
 #: wlhosted/payments/models.py:101
 msgid "Postcode and city"
-msgstr "پۆست کۆد و شار"
+msgstr "پۆستی کۆد و شار"
 
 #: wlhosted/payments/models.py:103
 msgid "Country"
@@ -959,46 +962,41 @@ msgstr "یەکجار"
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "پارەدانی نوێ"
 
 #: wlhosted/payments/models.py:197
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr ""
+msgstr "چاوەڕوانی پارە"
 
 #: wlhosted/payments/models.py:198
-#, fuzzy
-#| msgid "Payment card"
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "کارتی پارەدان"
+msgstr "پارەدانکردن ڕەتکرایەوە"
 
 #: wlhosted/payments/models.py:199
-#, fuzzy
-#| msgid "Payment cancelled"
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "پارەدان ڕەتکرایەوە"
+msgstr "پارەدانکردن پەسەند کرا"
 
 #: wlhosted/payments/models.py:200
-#, fuzzy
-#| msgid "Payment cancelled"
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "پارەدان ڕەتکرایەوە"
+msgstr "پارەدانکردن ئەنجام درا"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
-msgstr ""
+msgstr "{} بۆ هیچ ئەندامێکی یەکێتی ئەوروپا کۆدێکی وڵاتی دروست نییە."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr ""
+msgstr "{} لەگەڵ تایبەتمەندی ناسنامەی VAT ی وڵات یەک ناگرێتەوە."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
+"خزمەتگوزاری سەلماندنی VAT ی ئەوروپی بەردەست نیە بۆ {}, تکایە دواتر هەوڵدەوە."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr ""
+msgstr "{} ناسنامەیەکی بڕوادار بە VAT نییە."
