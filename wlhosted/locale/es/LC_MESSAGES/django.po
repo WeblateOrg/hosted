@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-10-18 09:30+0000\n"
+"PO-Revision-Date: 2020-10-22 11:53+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/weblate/hosted/"
 "es/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3.1-dev\n"
+"X-Generator: Weblate 4.3.1\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -523,7 +523,7 @@ msgstr "Código Civil"
 #, python-format
 msgid "means Act No. %(law_89_2012)s Coll., the Civil Code, as amended"
 msgstr ""
-"significa colección de leyes número %(law_89_2012)s, del Código Civil, tal y "
+"significa colección de leyes n.º %(law_89_2012)s, del Código Civil, tal y "
 "como se ha enmendado"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:32
@@ -542,7 +542,7 @@ msgstr ""
 #: wlhosted/legal/templates/legal/documents/tos.html:35
 #: wlhosted/legal/templates/legal/documents/tos.html:131
 msgid "Cookies"
-msgstr "Cookies"
+msgstr "«Cookies»"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:36
 msgid ""
@@ -599,12 +599,12 @@ msgid ""
 "means personal data within the meaning of EU Regulation No. %(law_679_2016)s "
 "inserted by the User into the Service and/or Cookies"
 msgstr ""
-"se refiere a los datos personales en el sentido del Reglamento de la UE No. "
-"%(law_679_2016)s insertados por el Usuario en el Servicio y/o Cookies"
+"se refiere a los datos personales en el sentido del Reglamento de la UE n.º "
+"%(law_679_2016)s insertados por el Usuario en el Servicio y/o «Cookies»"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:51
 msgid "Owner"
-msgstr "Dueño"
+msgstr "Propietario"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:52
 msgid "means the User who can manage Project"
@@ -789,10 +789,11 @@ msgstr ""
 "El objetivo del procesamiento de Datos Personales tal y como ha determinado "
 "el Proveedor es el uso de Datos Personales para enviar comunicaciones "
 "comerciales al sujeto de los datos (el Usuario) a través de médios "
-"electrónicos bajo la colección de leyes Número %(law_480_2004)s, en algunos "
+"electrónicos bajo la colección de leyes n.º %(law_480_2004)s, en algunos "
 "servicios de la sociedad de la información, tal y como se ha enmendado, y "
-"además para los fines comerciales y de marketing de los socios contractuales "
-"del Proveedor y para fines estadísticos y/o comerciales del Proveedor."
+"además para los fines comerciales y de mercadotecnia de los socios "
+"contractuales del Proveedor y para fines estadísticos y/o comerciales del "
+"Proveedor."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:105
 msgid ""
@@ -922,12 +923,12 @@ msgstr ""
 msgid ""
 "The Service uses cookies to personalise content, and to analyse our traffic."
 msgstr ""
-"El Servicio utiliza cookies para personalizar el contenido y analizar "
+"El Servicio utiliza «cookies» para personalizar el contenido y analizar "
 "nuestro tráfico."
 
 #: wlhosted/legal/templates/legal/documents/tos.html:138
 msgid "Governing Law"
-msgstr "Ley Aplicable"
+msgstr "Ley aplicable"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:140
 msgid ""
@@ -949,7 +950,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:145
 msgid "Effect"
-msgstr "Efecto"
+msgstr "Vigencia"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:147
 msgid ""
