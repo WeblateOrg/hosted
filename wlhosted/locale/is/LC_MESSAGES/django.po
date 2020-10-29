@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-09-27 11:40+0000\n"
+"PO-Revision-Date: 2020-10-31 09:27+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <https://hosted.weblate.org/projects/weblate/hosted/"
 "is/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n % 10 != 1 || n % 100 == 11;\n"
-"X-Generator: Weblate 4.3-dev\n"
+"X-Generator: Weblate 4.3.2-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -202,7 +202,7 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:9
 msgid "Personal Data Controller"
-msgstr "Meðhöndlun persónuupplýsinga"
+msgstr "Stjórnandi meðhöndlunar persónuupplýsinga"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:12
 #, python-format
@@ -259,6 +259,9 @@ msgid ""
 "These are logged in case of important changes to your account (e.g. password "
 "change) to allow diagnosis in case your account is stolen"
 msgstr ""
+"Þetta er skráð til að nota ef mikilvægar breytingar verða á notandaaðgangnum "
+"þínum (t.d. breytingar á lykilorði) svo hægt sé að greina hvort aðgangnum "
+"þínum hafi verið stolið"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:35
 msgid "Billing information"
@@ -269,6 +272,8 @@ msgid ""
 "In case you purchase service from us, we collect additional billing "
 "information necessary for issuing an invoice"
 msgstr ""
+"Ef þú kaupir þjónustu frá okkur, munum við að auki halda utan um "
+"nauðsynlegar upplýsingar til að geta gefið út reikninga"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:40
 msgid "Purpose and legal basis of processing Personal Data"
@@ -276,7 +281,7 @@ msgstr "Tilgangur og lagalegur grundvöllur vinnslu persónulegra gagna"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:42
 msgid "Your Personal Data will be used for the purposes of the Service:"
-msgstr ""
+msgstr "Persónulegar upplýsingar um þig munu verða notaðar í þjónustunni:"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:46
 #, python-format
@@ -287,6 +292,10 @@ msgid ""
 "contractual or pre-contractual obligations (<a href=\"%(url)s\">Article 6 "
 "(1) b. GDPR</a>)"
 msgstr ""
+"til að veita þjónustur okkar á kerfinu, til að hafa samband við þig varðandi "
+"þjónustur okkar (einnig með tölvupósti og smáskilaboðum) og til að tryggja "
+"tæknilega virkni á þjónustum og uppfylla þannig samningsbundnar skyldur eða "
+"samkvæmt tilboði (<a href=\"%(url)s\">Grein 6 (1) b. í GDPR</a>)"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:47
 #, python-format
@@ -294,6 +303,8 @@ msgid ""
 "to analyze your use of our services and improve our services (<a href="
 "\"%(url)s\">Article 6 (1) b. and f. GDPR</a>)"
 msgstr ""
+"til að greina notkun þína á þjónustum okkar og til að bæta þjónustur okkar ("
+"<a href=\"%(url)s\">Grein 6 (1) b. og f. í GDPR</a>)"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:48
 #, python-format
@@ -302,6 +313,8 @@ msgid ""
 "activities or send you newsletters (<a href=\"%(url)s\">Article 6 (1) a. "
 "GDPR</a>)"
 msgstr ""
+"með upplýstu samþykki þínu eða tilmælum til að framfylgja viðskiptum okkar "
+"eða senda þér fréttabréf (<a href=\"%(url)s\">Grein 6 (1) a. í GDPR</a>)"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:51
 msgid "Access to the Personal Data"
@@ -312,15 +325,20 @@ msgid ""
 "The Controller has made all reasonable technical means to protect the "
 "Personal Data. Only authorized persons can access the Personal Data."
 msgstr ""
+"Stjórnandinn hefur stuðst við allar tiltækar leiðir til að tryggja varnir "
+"við meðhöndlun persónuupplýsinga. Aðeins sérstaklega auðkenndir aðilar geta "
+"haft aðgang að persónuupplýsingum."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:55
 msgid ""
 "Third parties which can gain access to the Personal Data when necessary are:"
 msgstr ""
+"Utanaðkomandi aðilar sem gætu haft aðgang að persónulegum gögnum, þegar "
+"slíkt er nauðsynlegt, eru:"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:58
 msgid "Persons which are contracted for technical assurance of the service."
-msgstr ""
+msgstr "Aðilar sem ráðnir eru til að tryggja tæknilega virkni þjónustunnar."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:59
 msgid "Payment processors."
@@ -339,12 +357,16 @@ msgid ""
 "The Personal Data is stored in the Service until the User deletes their "
 "account on the service."
 msgstr ""
+"Persónulegar upplýsingar eru geymdar í þjónustunni þar til notandinn eyðir "
+"notandaaðgangi sínum úr þjónustunni."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:68
 msgid ""
 "Access log information might be collected for a longer period for the "
 "purpose of establishing, exercising or defending legal claims."
 msgstr ""
+"Upplýsingum um innskráningu og aðgang gæti verið safnað yfir lengri tímabil "
+"í þeim tilgangi að styðja, framfylgja eða verjast lagalegum kröfum."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:70
 msgid "Your rights"
@@ -355,6 +377,8 @@ msgid ""
 "The User provides use of Personal Data voluntarily. Without this Personal "
 "Data Weblate is not able to provide our services."
 msgstr ""
+"Notandinn veitir persónulegar upplýsingar af fúsum og frjálsum vilja. Án "
+"þessara gagna getur Weblate ekki veitt þjónustu sína."
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:74
 msgid ""
@@ -371,7 +395,7 @@ msgid ""
 "Gain access to all your Personal Data that Weblate uses or processes, and "
 "even get a copy of all of it (<a href=\"%(url)s\">Article 15 GDPR</a>)"
 msgstr ""
-"Fengið aðgang að öllum þeim persónuupplýsingum þínum sem Weblate notar eða "
+"Fá aðgang að öllum þeim persónuupplýsingum þínum sem Weblate notar eða "
 "vinnur með, og jafnvel fengið afrit af þeim öllum (<a href=\"%(url)s\">Grein "
 "15 í GDPR</a>)"
 
@@ -380,53 +404,68 @@ msgid ""
 "Correct the Personal Data that Weblate processes if you think that there are "
 "mistakes"
 msgstr ""
+"Leiðrétta þau persónulegu gögn sem Weblate vinnur með ef þú heldur að mistök "
+"hafi átt sér stað"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:80
 msgid "Order us to delete your Personal Data"
-msgstr "Skipun til okkar um að fjarlægja persónuleg gögn þín"
+msgstr "Skipa okkur að fjarlægja persónuleg gögn þín"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:81
 msgid "Restrict the Personal Data processing"
-msgstr "Takmörkun á vinnslu persónulegra gagna"
+msgstr "Takmarka vinnslu persónulegra gagna"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:82
 msgid "Object to processing"
-msgstr "Andmæli við vinnslu gagna"
+msgstr "Andmælt vinnslu gagna"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:83
 msgid ""
 "Receive your Personal Data in a commonly used and machine-readable format or "
 "to transmit this Personal Data to a different provider."
 msgstr ""
+"Fá persónuleg gögn þín á algengu og véltæku sniði eða að þau séu send til "
+"annarrar þjónustuveitu."
 
 #: wlhosted/legal/templates/legal/documents/summary.html:4
 msgid ""
 "The services are provided “as is”, at your own risk, without any warranty."
 msgstr ""
+"Þjónusturnar eru veittar \"eins og þær eru\", með þinni eigin áhættu, án "
+"ábyrgðar."
 
 #: wlhosted/legal/templates/legal/documents/summary.html:5
 msgid ""
 "Additional guarantees might apply to commercial customers, those are "
 "expressed in corresponding contracts."
 msgstr ""
+"Viðbótarábyrgðir gætu átt við greiðandi viðskiptavini, þeim er þá lýst í "
+"viðkomandi viðskiptasamningum."
 
 #: wlhosted/legal/templates/legal/documents/summary.html:6
 msgid ""
 "We process private data (such as your e-mail address), those will be "
 "discarded from our database as soon as you remove your account."
 msgstr ""
+"Við vinnum með persónuleg gögn (eins og t.d. tölvupóstfangið þitt), þeim "
+"verður eytt úr gagnagrunninum okkar um leið og þú eyðir notandaaðgangnum "
+"þínum."
 
 #: wlhosted/legal/templates/legal/documents/summary.html:7
 msgid ""
 "Your translations are made under license which is specified by each "
 "translation."
 msgstr ""
+"Þýðingarnar þínar eru aðgengilegar með því notkunarleyfi sem tilgreint er "
+"fyrir hverja þýðingaskrá."
 
 #: wlhosted/legal/templates/legal/documents/summary.html:8
 msgid ""
 "Your name and e-mail address is used in VCS commits, it will stay there "
 "indefinitely."
 msgstr ""
+"Nafn þitt og tölvupóstfang eru notuð við framlög í útgáfustýringarkerfi, þau "
+"munu haldast þar að eilífu."
 
 #: wlhosted/legal/templates/legal/documents/summary.html:9
 msgid "We use cookies to deliver our services."
@@ -477,6 +516,8 @@ msgstr "Lög um réttarfar í einkamálum"
 #, python-format
 msgid "means Act No. %(law_89_2012)s Coll., the Civil Code, as amended"
 msgstr ""
+"merkir Act No. %(law_89_2012)s Coll., Lög um réttarfar í einkamálum, með "
+"viðaukum"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:32
 msgid "Consent"
@@ -860,6 +901,10 @@ msgid ""
 "Your payment on weblate.org is pending. Please follow the provided\n"
 "instructions to complete the payment.\n"
 msgstr ""
+"Góðan daginn,\n"
+"\n"
+"Greiðsla þín á weblate.org er í biðstöðu. Farðu eftir leiðbeiningunum\n"
+"til þess að ljúka greiðslunni.\n"
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
