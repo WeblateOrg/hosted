@@ -4,13 +4,14 @@
 # Michal Čihař <michal@cihar.com>, 2019.
 # anonymous <noreply@weblate.org>, 2019.
 # Kou Prey Team <kouprey25@gmail.com>, 2020.
+# ប៉ុកណូ រ៉ូយ៉ាល់ <royalpokno68@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-07-31 03:40+0000\n"
-"Last-Translator: Kou Prey Team <kouprey25@gmail.com>\n"
+"PO-Revision-Date: 2020-10-31 09:27+0000\n"
+"Last-Translator: ប៉ុកណូ រ៉ូយ៉ាល់ <royalpokno68@gmail.com>\n"
 "Language-Team: Central Khmer <https://hosted.weblate.org/projects/weblate/"
 "hosted/km/>\n"
 "Language: km\n"
@@ -18,11 +19,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.2-dev\n"
+"X-Generator: Weblate 4.3.2-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
-msgstr ""
+msgstr "បង្កើតព្រំដែនទិន្នន័យសេណារីយ៉ូដែលមិនស្គាល់"
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
@@ -30,47 +31,47 @@ msgstr ""
 
 #: wlhosted/addons.py:58
 msgid "Reset all changes in the local repository"
-msgstr ""
+msgstr "កំណត់រាល់ការផ្លាស់ប្តូរនៅក្នុងឃ្លាំងមូលដ្ឋានឡើងវិញ"
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
-msgstr ""
+msgstr "វិក័យប័ត្រ"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
-msgstr ""
+msgstr "ជ្រើសរើសគំរោងបង់ប្រាក់ដែលអ្នកចង់ធ្វើបច្ចុប្បន្នភាព"
 
 #: wlhosted/integrations/forms.py:34
 msgid "Create new billing plan"
-msgstr ""
+msgstr "បង្កើតគម្រោងបង់ប្រាក់ថ្មី"
 
 #: wlhosted/integrations/templates/hosted/create.html:8
 msgid "Create billing plan"
-msgstr ""
+msgstr "បង្កើតគម្រោងបង់ប្រាក់"
 
 #: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
-msgstr ""
+msgstr "គម្រោងបង់ប្រាក់ថ្មី"
 
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
-msgstr ""
+msgstr "សូមជ្រើសគម្រោងបង្ហោះ ដែលត្រូវជាមួយគម្រោងរបស់អ្នក។"
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
-msgstr ""
+msgstr "ស្ថានភាពបង់ប្រាក់បច្ចុប្បន្ន"
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
-msgstr ""
+msgstr "ពិតជាតូចខ្លាំងណាស់សម្រាប់គម្រោងរបស់អ្នក។"
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small"
-msgstr ""
+msgstr "ពិតជាតូចណាស់"
 
 #: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
-msgstr ""
+msgstr "គម្រោងដែលបានជ្រើស"
 
 #: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
@@ -85,37 +86,35 @@ msgstr "​តួអក្សរ​មាន​ដែនកំណត់​"
 #: wlhosted/integrations/templates/hosted/create.html:63
 #: wlhosted/integrations/templates/hosted/create.html:66
 msgid "Unlimited"
-msgstr ""
+msgstr "ឥតដែនកំណត់"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
 msgid "Languages limit"
-msgstr "ភាសា​មាន​ដែនកំណត់​"
+msgstr "​កំហិត​ភាសា"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
-#, fuzzy
-#| msgid "Projects limit"
 msgid "Component limit"
-msgstr "គម្រោង​មានដែនកំណត់"
+msgstr "កំហិតសមាសភាគ"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
-msgstr "គម្រោង​មានដែនកំណត់"
+msgstr "កំហិតគម្រោង"
 
 #: wlhosted/integrations/templates/hosted/create.html:78
 #, python-format
 msgid "%(price)s EUR / month"
-msgstr ""
+msgstr "%(price)s អឺ​រ៉ូ /ខែ"
 
 #: wlhosted/integrations/templates/hosted/create.html:79
 #: wlhosted/integrations/templates/hosted/create.html:85
 #, python-format
 msgid "%(price)s EUR including VAT"
-msgstr ""
+msgstr "%(price)s អឺ​រ៉ូ រួមបញ្ចូលពន្ធអាករ"
 
 #: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
 msgid "%(price)s EUR / year"
-msgstr ""
+msgstr "%(price)s អឺរូ/ ឆ្នាំ"
 
 #: wlhosted/integrations/templates/hosted/create.html:96
 msgid ""
@@ -123,10 +122,12 @@ msgid ""
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
+"ការកំណត់តម្លៃ គឺផ្អែកលើចំនួននៃខ្សែអក្សរ និងភាសាគោលដៅ។ ប្រភពខ្សែអក្សរ "
+"គឺជាឯកតាអត្ថបទដែលបានកំណត់ជាទម្រង់នៃការបកប្រែ វាអាចជាពាក្យ ប្រយោគឬកថាខណ្ឌ។"
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
-msgstr ""
+msgstr "រាល់តម្លៃដែលបានចុះបញ្ជីមិនរាប់បញ្ចូលអាករបន្ថែមឡើយ។"
 
 #: wlhosted/integrations/templates/hosted/create.html:100
 #, python-format
@@ -141,45 +142,47 @@ msgstr ""
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
-msgstr ""
+msgstr "សូមអរគុណ សម្រាប់ការទូទាត់ប្រាក់ វិក័យប័ត្ររបស់អ្នកឥឡូវត្រូវបានបង់។"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "គម្រោងបង់ប្រាក់នេះ គ្រប់ដណ្ដប់លើគម្រោងខាងក្រោម៖"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
-msgstr ""
+msgstr "ពិនិត្យស្ថានភាពបង់ប្រាក់របស់អ្នក"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
-msgstr ""
+msgstr "គម្រោងបង់ប្រាក់របស់អ្នកត្រូវបានបង់"
 
 #: wlhosted/integrations/views.py:68
 msgid "No matching payment found."
-msgstr ""
+msgstr "រកមិនឃើញការទូទាត់ដែលត្រូវគ្នា។"
 
 #: wlhosted/integrations/views.py:76
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr ""
+msgstr "សូមអរគុណសម្រាប់ការទិញគម្រោងបង្ហោះ ឥឡូវនេះវាសកម្មហើយ។"
 
 #: wlhosted/integrations/views.py:84
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
+"សូមអរគុណ សម្រាប់ការទិញគម្រោងបង្ហោះ ការទូទាត់សម្រាប់វាគឺកំពុងរង់ចាំ "
+"ហើយនឹងត្រូវដំណើរការនៅផ្ទៃខាងក្រោយ។"
 
 #: wlhosted/integrations/views.py:96
 msgid "The payment was rejected: {}"
-msgstr ""
+msgstr "ការទូទាត់ប្រាក់ត្រូវបានច្រានចោល៖ {}"
 
 #: wlhosted/integrations/views.py:97
 msgid "Unknown reason"
-msgstr ""
+msgstr "មូលហេតុមិនស្គាល់"
 
 #: wlhosted/integrations/views.py:113
 msgid "Payments are temporarily inactive."
-msgstr ""
+msgstr "ការទូទាត់ប្រាក់ ត្រូវបានផ្អាកបណ្ដោះអាសន្ន។"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:6
 #, python-format
@@ -188,15 +191,18 @@ msgid ""
 "Protection Regulation, also known as GDPR. This document includes necessary "
 "specifications."
 msgstr ""
+"យើងអនុវត្តតាមបទប្បញ្ញត្តិលេខ %(law_679_2016)s "
+"បទប្បញ្ញត្តិការពារទិន្នន័យទូទៅដែលត្រូវបានគេស្គាល់ថា GDPR ។ "
+"ឯកសារនេះរួមបញ្ចូលទាំងការបញ្ជាក់ចាំបាច់មួយចំនួន។"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:9
 msgid "Personal Data Controller"
-msgstr ""
+msgstr "ឧបករណ៍គ្រប់គ្រងទិន្នន័យផ្ទាល់ខ្លួន"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:12
 #, python-format
 msgid "%(provider)s, Reg. No. %(reg_no)s"
-msgstr ""
+msgstr "%(provider)s លេខចុះបញ្ជាការ %(reg_no)s"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:15
 #, python-format
@@ -204,10 +210,12 @@ msgid ""
 "Weblate has appointed a data protection officer who may be reached via "
 "%(privacy_contact)s."
 msgstr ""
+"Weblate បានតែងតាំងភ្នាក់ងារការពារទិន្នន័យ អ្នកដែលអាចទាក់ទងបានតាមរយៈ "
+"%(privacy_contact)s ។"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:17
 msgid "Personal Data processed by Weblate"
-msgstr ""
+msgstr "ទិន្នន័យផ្ទាល់ខ្លួនត្រូវបានដំណើរការដោយ Weblate"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:20
 msgid "Weblate only processes Personal Data the User provides by using it:"
@@ -856,7 +864,7 @@ msgstr "កំហុសការបង់ប្រាក់"
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
-msgstr ""
+msgstr "Bitcoin"
 
 #: wlhosted/payments/backends.py:438
 msgid "IBAN bank transfer"
