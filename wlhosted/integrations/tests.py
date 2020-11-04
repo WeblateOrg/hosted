@@ -279,7 +279,7 @@ class PaymentTest(TestCase):
     def test_recurring_none(self):
         """Test method without support for recurring payments."""
         # The pending method does not support recurring payments
-        payment, bill, invoices = self.prepare_recurring("pending")
+        payment, bill, _invoices = self.prepare_recurring("pending")
         self.assertNotIn("recurring", bill.payment)
 
         self.run_recurring()
@@ -290,7 +290,7 @@ class PaymentTest(TestCase):
     @override_settings(PAYMENT_DEBUG=True)
     def test_recurring_invalid(self):
         """Test handling of invalid (removed) method."""
-        payment, bill, invoices = self.prepare_recurring("pay")
+        payment, bill, _invoices = self.prepare_recurring("pay")
         self.assertEqual(bill.payment["recurring"], str(payment.pk))
 
         # Fake payment menthod
@@ -335,7 +335,7 @@ class PaymentTest(TestCase):
     @override_settings(PAYMENT_DEBUG=True)
     def test_recurring_more_error(self):
         """Test handling of more failed recurring payments."""
-        payment, bill, invoices = self.prepare_recurring("pay")
+        payment, bill, _invoices = self.prepare_recurring("pay")
         self.assertEqual(bill.payment["recurring"], str(payment.pk))
 
         Payment.objects.create(
