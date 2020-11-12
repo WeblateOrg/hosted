@@ -10,16 +10,16 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-10-31 09:27+0000\n"
+"PO-Revision-Date: 2020-11-14 09:28+0000\n"
 "Last-Translator: ប៉ុកណូ រ៉ូយ៉ាល់ <royalpokno68@gmail.com>\n"
-"Language-Team: Central Khmer <https://hosted.weblate.org/projects/weblate/"
+"Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/weblate/"
 "hosted/km/>\n"
 "Language: km\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.3.2-dev\n"
+"X-Generator: Weblate 4.4-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -27,7 +27,7 @@ msgstr "បង្កើតព្រំដែនទិន្នន័យសេណ
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
-msgstr ""
+msgstr "កំណត់ឃ្លាំងឡើងវិញទៅកាន់ upstream"
 
 #: wlhosted/addons.py:58
 msgid "Reset all changes in the local repository"
@@ -219,55 +219,62 @@ msgstr "ទិន្នន័យផ្ទាល់ខ្លួនត្រូវ
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:20
 msgid "Weblate only processes Personal Data the User provides by using it:"
-msgstr ""
+msgstr "Weblate គ្រាន់តែដំណើការទិន្នន័យឯកជនដែលអ្នកប្រើប្រាស់ផ្ដល់ជូនដោយប្រើវា៖"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:25
 msgid "Name and e-mail"
-msgstr ""
+msgstr "ឈ្មោះ និងអ៊ីម៉ែល"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:26
 msgid "These are used to identify you in the VCS commits"
 msgstr ""
+"ទាំងនេះត្រូវបានប្រើ ដើម្បីកំណត់អត្តសញ្ញាណអ្នកនៅក្នុងការប្តេជ្ញាចិត្ត VCS"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:27
 msgid "Additionally, e-mail is used for notification of watched events"
 msgstr ""
+"លើសពីនេះទៀតអ៊ីមែលត្រូវបានប្រើសម្រាប់ការជូនដំណឹងអំពីព្រឹត្តិការណ៍ដែលបានមើល"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:29
 msgid "Password in hashed form"
-msgstr ""
+msgstr "ពាក្យសម្ងាត់នៅក្នុងសំណុំបែបបទរួមផ្សំ"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:30
 msgid "Used to authenticate the User, if configured"
-msgstr ""
+msgstr "ត្រូវបានប្រើដើម្បីផ្ទៀងផ្ទាត់អ្នកប្រើ ប្រសិនបើបានកំណត់រចនាសម្ព័ន្ធ"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:32
 msgid "IP address and browser name"
-msgstr ""
+msgstr "អាសយដ្ឋាន IP និងឈ្មោះកម្មវិធីរុករក"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:33
 msgid ""
 "These are logged in case of important changes to your account (e.g. password "
 "change) to allow diagnosis in case your account is stolen"
 msgstr ""
+"ទាំងនេះត្រូវបានកត់ត្រាក្នុងករណីមានការផ្លាស់ប្តូរសំខាន់ៗ ចំពោះគណនីរបស់អ្នក "
+"(ឧទាហរណ៍៖ ការផ្លាស់ប្តូរពាក្យសម្ងាត់) "
+"ដើម្បីអនុញ្ញាតឱ្យធ្វើការវិនិច្ឆ័យក្នុងករណីគណនីរបស់អ្នកត្រូវបានគេលួច"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:35
 msgid "Billing information"
-msgstr ""
+msgstr "ព័ត៌មានវិក័យប័ត្រ"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:36
 msgid ""
 "In case you purchase service from us, we collect additional billing "
 "information necessary for issuing an invoice"
 msgstr ""
+"ក្នុងករណីដែលអ្នកទិញសេវាកម្មពីពួកយើង "
+"យើងនឹងប្រមូលព័ត៌មានវិក័យប័ត្របន្ថែមដែលចាំបាច់សម្រាប់ការចេញវិក្កយបត្រ"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:40
 msgid "Purpose and legal basis of processing Personal Data"
-msgstr ""
+msgstr "គោលបំណង និងមូលដ្ឋានច្បាប់នៃដំណើរការទិន្នន័យផ្ទាល់ខ្លួន"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:42
 msgid "Your Personal Data will be used for the purposes of the Service:"
-msgstr ""
+msgstr "ទិន្នន័យផ្ទាល់ខ្លួនរបស់អ្នក នឹងត្រូវបានប្រើសម្រាប់គោលបំណងនៃសេវាកម្ម៖"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:46
 #, python-format
@@ -278,6 +285,11 @@ msgid ""
 "contractual or pre-contractual obligations (<a href=\"%(url)s\">Article 6 "
 "(1) b. GDPR</a>)"
 msgstr ""
+"សម្រាប់ការផ្តល់ជូននូវសេវាកម្មរបស់យើងនៅលើសេវាកម្ម "
+"ដើម្បីទាក់ទងអ្នកនៅក្នុងបញ្ហាទាក់ទងនឹងសេវាកម្មរបស់យើង (រួមផងដែរតាមរយៈអ៊ីមែល "
+"និងការផ្ញើសារ) "
+"និងដើម្បីធានាឱ្យបាននូវមុខងារបច្ចេកទេសនៃសេវាកម្មរបស់យើងបំពេញនូវកិច្ចសន្យា "
+"ឬកាតព្វកិច្ចមុនកិច្ចសន្យា (<a href=\"%(url)s\">មាត្ 6 (1) b. GDPR</a>)"
 
 #: wlhosted/legal/templates/legal/documents/privacy.html:47
 #, python-format
@@ -515,10 +527,8 @@ msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:48
 #: wlhosted/legal/templates/legal/documents/tos.html:98
-#, fuzzy
-#| msgid "Personal info"
 msgid "Personal Data"
-msgstr "ពត៌មានលម្អិត"
+msgstr "ទិន្នន័យ​ផ្ទាល់​ខ្លួន"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:49
 #, python-format
@@ -536,10 +546,8 @@ msgid "means the User who can manage Project"
 msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:54
-#, fuzzy
-#| msgid "Projects limit"
 msgid "Project"
-msgstr "គម្រោង​មានដែនកំណត់"
+msgstr "គម្រោង​"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:55
 msgid "means translation project operated on the Service"
@@ -555,20 +563,16 @@ msgid ""
 msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:60
-#, fuzzy
-#| msgid "Translate"
 msgid "Translation Memory"
-msgstr "បកប្រែ"
+msgstr "ការចងចាំការបកប្រែ"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:61
 msgid "means the optional translation memory service provided within Weblate"
 msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:63
-#, fuzzy
-#| msgid "Username"
 msgid "User"
-msgstr "ឈ្មោះអ្នកប្រើ"
+msgstr "អ្នកប្រើ"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:64
 msgid ""
@@ -723,10 +727,8 @@ msgid ""
 msgstr ""
 
 #: wlhosted/legal/templates/legal/documents/tos.html:118
-#, fuzzy
-#| msgid "Translation status"
 msgid "Translations"
-msgstr "ស្ថានភាព​ការបកប្រែ"
+msgstr "​ការបកប្រែ"
 
 #: wlhosted/legal/templates/legal/documents/tos.html:120
 msgid ""
@@ -876,111 +878,107 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:469
 msgid "Account holder"
-msgstr ""
+msgstr "ម្ចាស់គណនី"
 
 #: wlhosted/payments/backends.py:470
 msgid "Account number"
-msgstr ""
+msgstr "លេខគណនី"
 
 #: wlhosted/payments/backends.py:471
 msgid "SWIFT code"
-msgstr ""
+msgstr "កូដ SWIFT"
 
 #: wlhosted/payments/backends.py:472
 msgid "IBAN"
-msgstr ""
+msgstr "IBAN"
 
 #: wlhosted/payments/backends.py:473
 msgid "Reference"
-msgstr ""
+msgstr "សេចក្ដីយោង"
 
 #: wlhosted/payments/models.py:78
 msgid "European VAT ID"
-msgstr ""
+msgstr "លេខសម្គាល់ពន្ធអាករអ៊ឺរ៉ុប"
 
 #: wlhosted/payments/models.py:80
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
+"សូមបំពេញលេខសម្គាល់ពន្ធអាករលើតម្លៃបន្ថែមរបស់សហគមន៍អ៊ឺរ៉ុប ឫទុកវាឱ្យនៅទំនេរ "
+"បើមិនមាន។"
 
 #: wlhosted/payments/models.py:86
 msgid "Tax registration"
-msgstr ""
+msgstr "ការចុះឈ្មោះពន្ធ"
 
 #: wlhosted/payments/models.py:88
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
-msgstr ""
+msgstr "សូមបំពេញការចុះឈ្មោះបង់ពន្ធរបស់អ្នក ប្រសិនបើវាមានបង្ហាញនៅលើវិក្កយបត្រ។"
 
 #: wlhosted/payments/models.py:95
 msgid "Company or individual name"
-msgstr ""
+msgstr "ឈ្មោះក្រុមហ៊ុន ឬឯកត្ដជន"
 
 #: wlhosted/payments/models.py:98
 msgid "Address"
-msgstr ""
+msgstr "អាសយដ្ឋាន"
 
 #: wlhosted/payments/models.py:101
 msgid "Postcode and city"
-msgstr ""
+msgstr "លេខកូដប្រៃសណីយ៍ និងទីក្រុង"
 
 #: wlhosted/payments/models.py:103
 msgid "Country"
-msgstr ""
+msgstr "ប្រទេស"
 
 #: wlhosted/payments/models.py:135
 msgid "The country has to match your VAT code"
-msgstr ""
+msgstr "ប្រទេសត្រូវតែផ្គូរផ្គងលេខកូដ VAT របស់អ្នក"
 
 #: wlhosted/payments/models.py:158
 msgid "Annual"
-msgstr ""
+msgstr "ប្រចាំឆ្នាំ"
 
 #: wlhosted/payments/models.py:159
 msgid "Biannual"
-msgstr ""
+msgstr "ប្រចាំឆមាស"
 
 #: wlhosted/payments/models.py:160
 msgid "Quarterly"
-msgstr ""
+msgstr "ប្រចាំត្រីមាស"
 
 #: wlhosted/payments/models.py:161
 msgid "Monthly"
-msgstr ""
+msgstr "ប្រចាំខែ"
 
 #: wlhosted/payments/models.py:162
 msgid "Onetime"
-msgstr ""
+msgstr "តែម្ដង"
 
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "ការបង់ប្រាក់"
 
 #: wlhosted/payments/models.py:197
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr ""
+msgstr "រង់ចាំការទូទាត់ប្រាក់"
 
 #: wlhosted/payments/models.py:198
-#, fuzzy
-#| msgid "Payment card"
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "កាតបង់ប្រាក់"
+msgstr "ការបង់ប្រាក់ត្រូវបានច្រានចោល"
 
 #: wlhosted/payments/models.py:199
-#, fuzzy
-#| msgid "Payment cancelled"
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "ការបង់ប្រាក់បានបោះបង់"
+msgstr "ការបង់ប្រាក់បានទទួលយយក"
 
 #: wlhosted/payments/models.py:200
-#, fuzzy
-#| msgid "Payment cancelled"
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "ការបង់ប្រាក់បានបោះបង់"
+msgstr "ការបង់ប្រាក់បានដំណើរការ"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
