@@ -5,13 +5,14 @@
 # Branko Kokanovic <branko@kokanovic.org>, 2018.
 # Z. Cs. <zbus021@gmail.com>, 2019.
 # anonymous <noreply@weblate.org>, 2019.
+# Слободан Симић(Slobodan Simić) <slsimic@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2019-09-21 01:17+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2020-11-14 09:28+0000\n"
+"Last-Translator: Слободан Симић(Slobodan Simić) <slsimic@gmail.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/weblate/hosted/"
 "sr/>\n"
 "Language: sr\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.9-dev\n"
+"X-Generator: Weblate 4.4-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -871,36 +872,32 @@ msgid ""
 msgstr ""
 
 #: wlhosted/payments/backends.py:339
-#, fuzzy
-#| msgid "Failed to process form!"
 msgid "Payment card"
-msgstr "Неуспела обрада обрасца!"
+msgstr "Платна картица"
 
 #: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
-msgstr ""
+msgstr "Плаћање отказано"
 
 #: wlhosted/payments/backends.py:417
-#, fuzzy
-#| msgid "Failed to process form!"
 msgid "Payment error"
-msgstr "Неуспела обрада обрасца!"
+msgstr "Грешка при плаћању"
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
-msgstr ""
+msgstr "Биткоин"
 
 #: wlhosted/payments/backends.py:438
 msgid "IBAN bank transfer"
-msgstr ""
+msgstr "ИБАН банковни трансфер"
 
 #: wlhosted/payments/backends.py:468
 msgid "Issuing bank"
-msgstr ""
+msgstr "Банка издавалац"
 
 #: wlhosted/payments/backends.py:469
 msgid "Account holder"
-msgstr ""
+msgstr "Власник рачуна"
 
 #: wlhosted/payments/backends.py:470
 msgid "Account number"
