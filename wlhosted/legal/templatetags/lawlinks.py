@@ -76,7 +76,7 @@ def law_url(context, coll, year=None, scope=None):
         return GDPR_LINK.format(lang, coll)
 
     # Czech version by default
-    url = "https://www.zakonyprolidi.cz/cs/{}-{}".format(year, coll)
+    url = f"https://www.zakonyprolidi.cz/cs/{year}-{coll}"
 
     # Use translation if available
     key = (year, coll)

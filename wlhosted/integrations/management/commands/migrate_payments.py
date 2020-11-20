@@ -45,7 +45,7 @@ def get_country(text):
         for code, name in countries:
             if text == name:
                 return code
-        raise ValueError("Unknown country: {}".format(text))
+        raise ValueError(f"Unknown country: {text}")
 
 
 class Command(BaseCommand):
@@ -55,7 +55,7 @@ class Command(BaseCommand):
         payment = Payment.objects.get(pk=invoice.payment["pk"])
         if payment.start:
             return
-        self.stdout.write("Updating payment info for {}".format(payment.pk))
+        self.stdout.write(f"Updating payment info for {payment.pk}")
         payment.start = invoice.start
         payment.end = invoice.end
         payment.save(update_fields=["start", "end"])
@@ -70,7 +70,7 @@ class Command(BaseCommand):
             if invoice.billing.pk in CUSTOMERS:
                 contact = storage.read_contact(CUSTOMERS[invoice.billing.pk])
             else:
-                contact = storage.read_contact("pp-{}".format(invoice.billing.pk))
+                contact = storage.read_contact(f"pp-{invoice.billing.pk}")
         else:
             data = storage.get(invoice.ref)
             contact = data.contact
@@ -100,7 +100,7 @@ class Command(BaseCommand):
             },
         )
         if created:
-            self.stdout.write("Created customer: {}".format(customer))
+            self.stdout.write(f"Created customer: {customer}")
         # Create payment
         payment = Payment.objects.create(
             amount=amount,
@@ -118,7 +118,7 @@ class Command(BaseCommand):
     def include_billing_id(self, invoice):
         payment = Payment.objects.get(pk=invoice.payment["pk"])
         if "billing" not in payment.extra:
-            self.stdout.write("Linking payment: {}".format(payment))
+            self.stdout.write(f"Linking payment: {payment}")
             payment.extra["billing"] = invoice.billing_id
             payment.save(update_fields=["extra"])
 

@@ -23,7 +23,7 @@ def main():
     for org in orgs.json():
         if org["state"] == "pending":
             name = org["organization"]["login"]
-            print("Accepting org {}".format(name))
+            print(f"Accepting org {name}")
             response = requests.patch(
                 accept_url.format(name), '{"state":"active"}', headers=headers
             )
