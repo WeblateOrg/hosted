@@ -5,13 +5,14 @@
 # WWWesten <wwwesten@gmail.com>, 2019.
 # Michal Čihař <michal@cihar.com>, 2020.
 # Allan Nordhøy <epost@anotheragency.no>, 2020.
+# Kuwanish Orinbay <firstpeople111@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-04-03 19:36+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"PO-Revision-Date: 2020-11-23 10:29+0000\n"
+"Last-Translator: Kuwanish Orinbay <firstpeople111@gmail.com>\n"
 "Language-Team: Kazakh <https://hosted.weblate.org/projects/weblate/hosted/kk/"
 ">\n"
 "Language: kk\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.0-dev\n"
+"X-Generator: Weblate 4.4-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -1191,7 +1192,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
-msgstr "Tólem kartasy"
+msgstr "Төлем картасы"
 
 #: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
@@ -1231,7 +1232,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:473
 msgid "Reference"
-msgstr ""
+msgstr "Кепілдеме"
 
 #: wlhosted/payments/models.py:78
 msgid "European VAT ID"
@@ -1253,10 +1254,8 @@ msgid ""
 msgstr "Eger ınvoısta kórsetý kerek bolsa, salyqtyq tirkelgini toltyryńyz."
 
 #: wlhosted/payments/models.py:95
-#, fuzzy
-#| msgid "Company name"
 msgid "Company or individual name"
-msgstr "Kompanıa ataýy"
+msgstr "Компания әлде жеке тұлға аты"
 
 #: wlhosted/payments/models.py:98
 msgid "Address"
