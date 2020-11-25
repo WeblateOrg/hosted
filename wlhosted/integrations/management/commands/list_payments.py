@@ -35,9 +35,10 @@ class Command(BaseCommand):
             if payment.details["methodId"] != "21":
                 continue
             self.stdout.write(
-                "{} ({}): {}".format(
+                "{} {}, expires {}: {}".format(
                     get_site_url(billing.get_absolute_url()),
                     billing,
+                    billing.invoice_set.all().order_by("end")[0].end,
                     ", ".join(
                         billing.get_notify_users().values_list("email", flat=True)
                     ),
