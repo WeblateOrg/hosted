@@ -19,6 +19,7 @@
 
 from django.core.management.base import BaseCommand
 from weblate.billing.models import Billing
+from weblate.utils.site import get_site_url
 
 from wlhosted.payments.models import Payment
 
@@ -34,7 +35,8 @@ class Command(BaseCommand):
             if payment.details["methodId"] != "21":
                 continue
             self.stdout.write(
-                "{}: {}".format(
+                "{} ({}): {}".format(
+                    get_site_url(billing.get_absolute_url()),
                     billing,
                     ", ".join(
                         billing.get_notify_users().values_list("email", flat=True)
