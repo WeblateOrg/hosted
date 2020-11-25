@@ -38,7 +38,7 @@ class Command(BaseCommand):
                 "{} {}, expires {}: {}".format(
                     get_site_url(billing.get_absolute_url()),
                     billing,
-                    billing.invoice_set.all().order_by("end")[0].end,
+                    billing.invoice_set.all().order_by("-end")[0].end,
                     ", ".join(
                         billing.get_notify_users().values_list("email", flat=True)
                     ),
