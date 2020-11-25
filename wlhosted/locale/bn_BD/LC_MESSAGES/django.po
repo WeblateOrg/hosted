@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Weblate <noreply@weblate.org>, 2018.
 # Brikkho <admin@brikkho.net>, 2020.
+# Hasan Parvez <rokibulhasanparvez@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-11-16 18:34+0000\n"
-"Last-Translator: Brikkho <admin@brikkho.net>\n"
+"PO-Revision-Date: 2020-11-26 15:56+0000\n"
+"Last-Translator: Hasan Parvez <rokibulhasanparvez@gmail.com>\n"
 "Language-Team: Bengali (Bangladesh) <https://hosted.weblate.org/projects/"
 "weblate/hosted/bn_BD/>\n"
 "Language: bn_BD\n"
@@ -832,7 +833,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
-msgstr ""
+msgstr "প্রাথমিক"
 
 #: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
