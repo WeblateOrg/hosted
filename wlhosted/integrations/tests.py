@@ -176,14 +176,18 @@ class PaymentTest(TestCase):
         payment = Payment.objects.all()[0]
         payment.state = Payment.ACCEPTED
         payment.save()
-        self.assertRedirects(
+        response = (
             self.client.get(reverse("create-billing"), {"payment": payment.uuid}),
-            reverse("billing"),
         )
+        if "billing" in kwargs:
+            billing = Billing.objets.get(pk=kwargs["billing"])
+        else:
+            billing = Billing.objects.all()[0]
+        self.assertRedirects(response, billing.get_absolute_url())
+        return billing
 
     def test_complete(self):
-        self.do_complete()
-        bill = Billing.objects.all()[0]
+        bill = self.do_complete()
         self.assertEqual(bill.state, Billing.STATE_ACTIVE)
         self.assertEqual(bill.plan, self.plan_a)
 
@@ -195,8 +199,7 @@ class PaymentTest(TestCase):
 
     def test_complete_trial(self):
         bill = self.create_trial()
-        self.do_complete(billing=bill.pk)
-        bill = Billing.objects.get(pk=bill.pk)
+        bill = self.do_complete(billing=bill.pk)
         self.assertEqual(bill.state, Billing.STATE_ACTIVE)
         self.assertEqual(bill.plan, self.plan_a)
 
@@ -207,8 +210,7 @@ class PaymentTest(TestCase):
             billing=bill, start=now, end=now + relativedelta(months=1), amount=10
         )
         old_i = bill.invoice_set.all()[0]
-        self.do_complete(billing=bill.pk)
-        bill = Billing.objects.all()[0]
+        bill = self.do_complete(billing=bill.pk)
         self.assertEqual(bill.state, Billing.STATE_ACTIVE)
         self.assertEqual(bill.plan, self.plan_a)
         self.assertEqual(bill.invoice_set.count(), 2)
