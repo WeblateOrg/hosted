@@ -158,11 +158,13 @@ class PaymentTest(TestCase):
         # Accepted should redirect to billings
         payment.state = Payment.ACCEPTED
         payment.save()
-        self.assertRedirects(self.client.get(*params), bill_url)
+        response = self.client.get(*params, follow=True)
+        bill_url = Billing.objects.get().get_absolute_url()
+        self.assertRedirects(response, bill_url)
         # Processed should redirect to billings
         payment.state = Payment.PROCESSED
         payment.save()
-        self.assertRedirects(self.client.get(*params), bill_url)
+        self.assertRedirects(self.client.get(*params, follow=True), bill_url)
         # Rejected should redirect to create
         payment.state = Payment.REJECTED
         payment.save()
@@ -176,11 +178,11 @@ class PaymentTest(TestCase):
         payment = Payment.objects.all()[0]
         payment.state = Payment.ACCEPTED
         payment.save()
-        response = (
-            self.client.get(reverse("create-billing"), {"payment": payment.uuid}),
+        response = self.client.get(
+            reverse("create-billing"), {"payment": payment.uuid}, follow=True
         )
         if "billing" in kwargs:
-            billing = Billing.objets.get(pk=kwargs["billing"])
+            billing = Billing.objects.get(pk=kwargs["billing"])
         else:
             billing = Billing.objects.all()[0]
         self.assertRedirects(response, billing.get_absolute_url())
@@ -233,10 +235,11 @@ class PaymentTest(TestCase):
         )
         backend.complete(None)
 
-        self.assertRedirects(
-            self.client.get(reverse("create-billing"), {"payment": payment.uuid}),
-            reverse("billing"),
+        response = self.client.get(
+            reverse("create-billing"), {"payment": payment.uuid}, follow=True
         )
+        billing = Billing.objects.all()[0]
+        self.assertRedirects(response, billing.get_absolute_url())
 
         # Check recurrence is stored
         bill = Billing.objects.all()[0]
