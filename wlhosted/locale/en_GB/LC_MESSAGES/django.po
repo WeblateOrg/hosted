@@ -5,11 +5,11 @@
 # anonymous <noreply@weblate.org>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2019-09-21 01:17+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2020-12-08 08:53+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: English (United Kingdom) <https://hosted.weblate.org/projects/"
 "weblate/hosted/en_GB/>\n"
 "Language: en_GB\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9-dev\n"
+"X-Generator: Weblate 4.4-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -156,7 +156,7 @@ msgstr ""
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
-msgstr ""
+msgstr "Check your billing status"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
