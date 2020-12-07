@@ -7,12 +7,11 @@
 # %3C%3Ejavascript:alert(document.cookie); <sureshaydi59335@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-08-02 18:00+0000\n"
-"Last-Translator: %3C%3Ejavascript:alert(document.cookie); "
-"<sureshaydi59335@gmail.com>\n"
+"PO-Revision-Date: 2020-12-08 08:53+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Azerbaijani <https://hosted.weblate.org/projects/weblate/"
 "hosted/az/>\n"
 "Language: az\n"
@@ -20,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.2-dev\n"
+"X-Generator: Weblate 4.4-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -976,33 +975,27 @@ msgstr "Bir dəfə"
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "Yeni ödəniş"
 
 #: wlhosted/payments/models.py:197
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr ""
+msgstr "Gözlənən ödəniş"
 
 #: wlhosted/payments/models.py:198
-#, fuzzy
-#| msgid "Payment card"
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "javascript://%250aalert(1)"
+msgstr "Ödəniş rədd edildi"
 
 #: wlhosted/payments/models.py:199
-#, fuzzy
-#| msgid "Payment cancelled"
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "Ödəniş ləğv edildi"
+msgstr "Ödəniş qəbul edildi"
 
 #: wlhosted/payments/models.py:200
-#, fuzzy
-#| msgid "Payment processors."
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "Ödəniş sistemləri."
+msgstr "Ödəniş işlənib"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
