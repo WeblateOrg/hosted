@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-11-23 10:29+0000\n"
-"Last-Translator: Kuwanish Orinbay <firstpeople111@gmail.com>\n"
+"PO-Revision-Date: 2020-12-08 08:53+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Kazakh <https://hosted.weblate.org/projects/weblate/hosted/kk/"
 ">\n"
 "Language: kk\n"
@@ -157,13 +157,11 @@ msgstr "Hostıń josparyn satyp alǵanyńyz úshin raqmet, qazir ol belsendi."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "Bul tarıftik jospary kelesi jobalardy qamtıdy:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
-#, fuzzy
-#| msgid "Current billing status"
 msgid "Check your billing status"
-msgstr "Aóymdyq bılıń kúıi"
+msgstr "Bılıń mártebesin tekserińiz"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 #, fuzzy
