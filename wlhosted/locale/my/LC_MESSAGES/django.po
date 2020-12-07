@@ -5,11 +5,11 @@
 # Sithu Aung <sithu.aung015@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-07-31 06:28+0000\n"
-"Last-Translator: Sithu Aung <sithu.aung015@gmail.com>\n"
+"PO-Revision-Date: 2020-12-08 08:53+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/weblate/hosted/"
 "my/>\n"
 "Language: my\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.2-dev\n"
+"X-Generator: Weblate 4.4-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -937,33 +937,27 @@ msgstr "တစ်ကြိမ်သာ"
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "ငွေပေးချေမှုအသစ်"
 
 #: wlhosted/payments/models.py:197
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr ""
+msgstr "ငွေပေးချေမှု ကို စောင့်ဆိုင်းနေသည်"
 
 #: wlhosted/payments/models.py:198
-#, fuzzy
-#| msgid "Payment card"
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "ငွေပေးချေ ကဒ်"
+msgstr "ငွေပေးချေမှု ငြင်းပယ်ခဲ့သည်"
 
 #: wlhosted/payments/models.py:199
-#, fuzzy
-#| msgid "Payment cancelled"
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "ငွေပေးချေမှု ဖျက်သိမ်း"
+msgstr "ငွေပေးချေမှု လက်ခံရရှိပါသည်"
 
 #: wlhosted/payments/models.py:200
-#, fuzzy
-#| msgid "Payment cancelled"
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "ငွေပေးချေမှု ဖျက်သိမ်း"
+msgstr "ငွေပေးချေခြင်း လုပ်ဆောင်နေသည်"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
