@@ -8,11 +8,11 @@
 # Riku Viitanen <riku.viitanen@protonmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-08-05 09:51+0000\n"
-"PO-Revision-Date: 2020-05-20 07:07+0000\n"
-"Last-Translator: Riku Viitanen <riku.viitanen@protonmail.com>\n"
+"PO-Revision-Date: 2020-12-08 08:53+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/weblate/hosted/"
 "fi/>\n"
 "Language: fi\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.1-dev\n"
+"X-Generator: Weblate 4.4-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -150,13 +150,11 @@ msgstr "Kiitos tilauksestasi, se on nyt aktiivinen."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "Tämä laskutussuunnitelma kattaa seuraavat projektit:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
-#, fuzzy
-#| msgid "Current billing status"
 msgid "Check your billing status"
-msgstr "Laskutuksen tila"
+msgstr "Tarkista laskutustilanteesi"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 #, fuzzy
@@ -1000,7 +998,7 @@ msgstr ""
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "Uusi maksu"
 
 #: wlhosted/payments/models.py:197
 msgctxt "Payment state"
