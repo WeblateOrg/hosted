@@ -8,9 +8,9 @@
 # Adolfo Jayme Barrientos <fitojb@ubuntu.com>, 2019, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate\n"
-"Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
-"POT-Creation-Date: 2020-08-05 09:51+0000\n"
+"Project-Id-Version: Hosted Weblate \n"
+"Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
+"POT-Creation-Date: 2020-12-09 09:16+0000\n"
 "PO-Revision-Date: 2020-10-22 11:53+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -162,15 +162,15 @@ msgstr "Comprobar estado de su facturación"
 msgid "Your billing plan was paid"
 msgstr "Se ha pagado su plan de facturación"
 
-#: wlhosted/integrations/views.py:68
+#: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
 msgstr "No se ha encontrado ningún pago equivalente."
 
-#: wlhosted/integrations/views.py:76
+#: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr "Gracias por comprar un plan de almacenamiento; ya está activo."
 
-#: wlhosted/integrations/views.py:84
+#: wlhosted/integrations/views.py:83
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
@@ -178,786 +178,17 @@ msgstr ""
 "Gracias por comprar un plan de alojamiento; el pago está pendiente y se "
 "procesará en segundo plano."
 
-#: wlhosted/integrations/views.py:96
+#: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
 msgstr "Se rechazó el pago: {}"
 
-#: wlhosted/integrations/views.py:97
+#: wlhosted/integrations/views.py:96
 msgid "Unknown reason"
 msgstr "Motivo desconocido"
 
-#: wlhosted/integrations/views.py:113
+#: wlhosted/integrations/views.py:112
 msgid "Payments are temporarily inactive."
 msgstr "Los pagos están temporalmente inactivos."
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:6
-#, python-format
-msgid ""
-"We comply with the Regulation No. %(law_679_2016)s, the General Data "
-"Protection Regulation, also known as GDPR. This document includes necessary "
-"specifications."
-msgstr ""
-"Cumplimos con la ley n.º %(law_679_2016)s, el Reglamento General de "
-"Protección de Datos, también conocido como el RGPD. Este documento incluye "
-"las especificaciones necesarias."
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:9
-msgid "Personal Data Controller"
-msgstr "Responsable del tratamiento de datos personales"
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:12
-#, python-format
-msgid "%(provider)s, Reg. No. %(reg_no)s"
-msgstr "%(provider)s, n.º de reg. %(reg_no)s"
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:15
-#, python-format
-msgid ""
-"Weblate has appointed a data protection officer who may be reached via "
-"%(privacy_contact)s."
-msgstr ""
-"Weblate ha definido un responsable de protección de datos a quien puede "
-"contactar a través de %(privacy_contact)s."
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:17
-msgid "Personal Data processed by Weblate"
-msgstr "Datos personales procesados por Weblate"
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:20
-msgid "Weblate only processes Personal Data the User provides by using it:"
-msgstr ""
-"Weblate procesa únicamente los datos personales que el usuario proporciona "
-"al utilizarlo:"
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:25
-msgid "Name and e-mail"
-msgstr "Nombre y correo electrónico"
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:26
-msgid "These are used to identify you in the VCS commits"
-msgstr "Estos se utilizan para identificarle en las consignas de VCS"
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:27
-msgid "Additionally, e-mail is used for notification of watched events"
-msgstr ""
-"Además, el correo electrónico se utiliza para la notificación de sucesos "
-"monitorizados"
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:29
-msgid "Password in hashed form"
-msgstr "Contraseña en forma de resumen criptográfico"
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:30
-msgid "Used to authenticate the User, if configured"
-msgstr "Se utiliza para autenticar al usuario si está configurado"
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:32
-msgid "IP address and browser name"
-msgstr "Dirección IP y nombre del navegador"
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:33
-msgid ""
-"These are logged in case of important changes to your account (e.g. password "
-"change) to allow diagnosis in case your account is stolen"
-msgstr ""
-"Estos se registran en caso de cambios importantes en su cuenta (por ejemplo, "
-"cambio de contraseña) para permitir el diagnóstico en caso de que su cuenta "
-"sea robada"
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:35
-msgid "Billing information"
-msgstr "Datos de facturación"
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:36
-msgid ""
-"In case you purchase service from us, we collect additional billing "
-"information necessary for issuing an invoice"
-msgstr ""
-"En caso comprar un servicio, recopilamos la información de facturación "
-"adicional necesaria para emitir una factura"
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:40
-msgid "Purpose and legal basis of processing Personal Data"
-msgstr "Propósito y marco jurídico para el procesamiento de datos personales"
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:42
-msgid "Your Personal Data will be used for the purposes of the Service:"
-msgstr "Sus datos personales se utilizarán para las finalidades del servicio:"
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:46
-#, python-format
-msgid ""
-"for providing our services on the Service, to contact you in matters "
-"regarding our services (also by means of e-mails and messaging) and to "
-"ensure the technical functionality of our services fulfillment of "
-"contractual or pre-contractual obligations (<a href=\"%(url)s\">Article 6 "
-"(1) b. GDPR</a>)"
-msgstr ""
-"para brindar nuestros servicios en el Servicio, para contactar con usted en "
-"lo que respecta a nuestros servicios (también a través de mensajería y "
-"correo electrónico) y para asegurar la funcionalidad técnica del "
-"cumplimiento por parte de nuestros servicios de obligaciones contractuales o "
-"precontractuales (<a href=\"%(url)s\">artículo 6 (1) b. RGPD</a>)"
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:47
-#, python-format
-msgid ""
-"to analyze your use of our services and improve our services (<a href="
-"\"%(url)s\">Article 6 (1) b. and f. GDPR</a>)"
-msgstr ""
-"para analizar su uso de nuestros servicios y mejorarlos (<a href=\"%(url)s"
-"\">artículo 6 (1) b. y f. del RGPD</a>)"
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:48
-#, python-format
-msgid ""
-"with your express consent or instruction to carry out our business "
-"activities or send you newsletters (<a href=\"%(url)s\">Article 6 (1) a. "
-"GDPR</a>)"
-msgstr ""
-"con su consentimiento expreso o su autorización expresa para llevar a cabo "
-"nuestras actividades de negocio o enviar boletines de noticias (<a href="
-"\"%(url)s\">Artículo 6 (1) a. del RGPD</a>)"
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:51
-msgid "Access to the Personal Data"
-msgstr "Acceso a los datos personales"
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:53
-msgid ""
-"The Controller has made all reasonable technical means to protect the "
-"Personal Data. Only authorized persons can access the Personal Data."
-msgstr ""
-"La empresa ha hecho los esfuerzos necesarios para proteger los datos "
-"personales. Solo personas autorizadas tienen acceso a los datos personales."
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:55
-msgid ""
-"Third parties which can gain access to the Personal Data when necessary are:"
-msgstr ""
-"Los terceros que pueden tener acceso a los datos personales cuando sea "
-"necesario son:"
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:58
-msgid "Persons which are contracted for technical assurance of the service."
-msgstr ""
-"Personas que son contratadas para el aseguramiento técnico del servicio."
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:59
-msgid "Payment processors."
-msgstr "Procesadores de pagos."
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:62
-msgid "All Personal Data is stored in the European Union."
-msgstr "Todos los datos personales se almacenan en la Unión Europea."
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:64
-msgid "The Personal Data retention"
-msgstr "La conservación de datos personales"
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:66
-msgid ""
-"The Personal Data is stored in the Service until the User deletes their "
-"account on the service."
-msgstr ""
-"Los datos personales se almacenan en el servicio hasta que el usuario "
-"elimina su cuenta del servicio."
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:68
-msgid ""
-"Access log information might be collected for a longer period for the "
-"purpose of establishing, exercising or defending legal claims."
-msgstr ""
-"La información de los accesos a la cuenta serán almacenados por más tiempo "
-"con el objetivo de establecer, ejercer o defender demandas judiciales."
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:70
-msgid "Your rights"
-msgstr "Sus derechos"
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:72
-msgid ""
-"The User provides use of Personal Data voluntarily. Without this Personal "
-"Data Weblate is not able to provide our services."
-msgstr ""
-"El usuario proporciona voluntariamente sus datos. Sin estos datos, Weblate "
-"no podría ofrecer sus servicios."
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:74
-msgid ""
-"We want you to always be in control of your Personal Data. To this end, you "
-"have certain rights that allow for it. Under certain conditions, you may:"
-msgstr ""
-"Queremos que siempre tenga el control de sus datos personales. Para tal fin, "
-"tiene algunos derechos que lo permiten. En determinadas condiciones, puede:"
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:78
-#, python-format
-msgid ""
-"Gain access to all your Personal Data that Weblate uses or processes, and "
-"even get a copy of all of it (<a href=\"%(url)s\">Article 15 GDPR</a>)"
-msgstr ""
-"Obtener acceso a todos sus datos personales utilizados o procesados por "
-"Weblate, e incluso conseguir una copia completa de estos (<a href=\"%(url)s"
-"\">artículo 15 del RGPD</a>)"
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:79
-msgid ""
-"Correct the Personal Data that Weblate processes if you think that there are "
-"mistakes"
-msgstr ""
-"Corregir los datos personales procesados por Weblate si cree que tienen "
-"errores"
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:80
-msgid "Order us to delete your Personal Data"
-msgstr "Pedirnos que eliminemos sus datos personales"
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:81
-msgid "Restrict the Personal Data processing"
-msgstr "Restringir el procesamiento de datos personales"
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:82
-msgid "Object to processing"
-msgstr "Oponerse al procesamiento"
-
-#: wlhosted/legal/templates/legal/documents/privacy.html:83
-msgid ""
-"Receive your Personal Data in a commonly used and machine-readable format or "
-"to transmit this Personal Data to a different provider."
-msgstr ""
-"Recibir sus datos personales en un formato de uso habitual y legible por "
-"máquinas, o bien transmitirlos a un proveedor distinto."
-
-#: wlhosted/legal/templates/legal/documents/summary.html:4
-msgid ""
-"The services are provided “as is”, at your own risk, without any warranty."
-msgstr ""
-"Los servicios se proporcionan «tal cual», bajo su propia responsabilidad y "
-"sin ninguna garantía."
-
-#: wlhosted/legal/templates/legal/documents/summary.html:5
-msgid ""
-"Additional guarantees might apply to commercial customers, those are "
-"expressed in corresponding contracts."
-msgstr ""
-"Es posible que los clientes comerciales dispongan de garantías adicionales, "
-"las cuales figurarán en los contratos correspondientes."
-
-#: wlhosted/legal/templates/legal/documents/summary.html:6
-msgid ""
-"We process private data (such as your e-mail address), those will be "
-"discarded from our database as soon as you remove your account."
-msgstr ""
-"Procesamos datos privados (como, por ejemplo, su dirección de correo "
-"electrónico); estos se descartarán de nuestra base de datos cuando elimine "
-"su cuenta."
-
-#: wlhosted/legal/templates/legal/documents/summary.html:7
-msgid ""
-"Your translations are made under license which is specified by each "
-"translation."
-msgstr ""
-"Sus traducciones se realizan en virtud de la licencia que se especifica en "
-"cada proyecto de traducción."
-
-#: wlhosted/legal/templates/legal/documents/summary.html:8
-msgid ""
-"Your name and e-mail address is used in VCS commits, it will stay there "
-"indefinitely."
-msgstr ""
-"Su nombre y dirección de correo electrónico se utilizan en las consignas de "
-"los sistemas de control de versiones, y permanecerán allí indefinidamente."
-
-#: wlhosted/legal/templates/legal/documents/summary.html:9
-msgid "We use cookies to deliver our services."
-msgstr "Utilizamos cookies para ofrecer nuestros servicios."
-
-#: wlhosted/legal/templates/legal/documents/tos.html:10
-msgid "View English version"
-msgstr "Ver la versión en inglés"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:11
-msgid ""
-"The Terms of Service document is authoritative in English, translations are "
-"provided for your convenience."
-msgstr ""
-"El documento vinculante sobre los términos del servicio está en inglés. Para "
-"su comodidad contamos con traducciones."
-
-#: wlhosted/legal/templates/legal/documents/tos.html:17
-msgid ""
-"The rights and obligations of the User and the Provider resulting from the "
-"use of the Service are governed by these Terms of Service."
-msgstr ""
-"Los derechos y obligaciones del usuario y del proveedor como resultado del "
-"uso del servicio se rigen por estos términos de servicio."
-
-#: wlhosted/legal/templates/legal/documents/tos.html:20
-msgid "Definitions"
-msgstr "Definiciones"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:22
-msgid "In these Terms of Service:"
-msgstr "En estos Términos del Servicio:"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:26
-msgid "Agreement"
-msgstr "Acuerdo"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:27
-msgid ""
-"means License Agreement within the meaning of Article 2358 et seq. of the "
-"Civil Code concluded by and between the User and the Provider upon the "
-"Consent"
-msgstr ""
-"significa Acuerdo de Licencia según el artículo 2358 et seq. del Código "
-"Civil, celebrado entre el usuario y el proveedor al efectuar el "
-"consentimiento"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:29
-msgid "Civil Code"
-msgstr "Código Civil"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:30
-#, python-format
-msgid "means Act No. %(law_89_2012)s Coll., the Civil Code, as amended"
-msgstr ""
-"significa colección de leyes n.º %(law_89_2012)s, del Código Civil, tal y "
-"como se ha enmendado"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:32
-msgid "Consent"
-msgstr "Consentimiento"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:33
-msgid ""
-"means the User’s consent with these Terms of Service and other legal "
-"documents expressed by checking the checkbox during the registration"
-msgstr ""
-"significa el consentimiento del Usuario con estos Términos de Servicio y "
-"otros documentos legales expresados marcando la casilla de verificación "
-"durante el registro"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:35
-#: wlhosted/legal/templates/legal/documents/tos.html:131
-msgid "Cookies"
-msgstr "«Cookies»"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:36
-msgid ""
-"means any datafile sent by the web server of the Service to the User’s "
-"computer or other device connected to the Internet, which enable obtaining "
-"unique identification of the User’s web browser"
-msgstr ""
-"se refiere a cualquier archivo de datos enviado por el servidor web del "
-"Servicio al ordenador del Usuario u otro dispositivo conectado a Internet, "
-"que permita obtener una identificación única del navegador web del Usuario"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:39
-msgid "GDPR"
-msgstr "RGPD"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:40
-#, python-format
-msgid ""
-"means EU Regulation No. %(law_679_2016)s, the General Data Protection "
-"Regulation"
-msgstr ""
-"significa el Reglamento de la UE n.º %(law_679_2016)s, el Reglamento General "
-"de Protección de Datos"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:42
-msgid "License"
-msgstr "Licencia"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:43
-msgid ""
-"means non-exclusive license granted by the Provider to the User for use of "
-"the Service"
-msgstr ""
-"se refiere a la licencia no exclusiva concedida por el Proveedor al Usuario "
-"para el uso del Servicio"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:45
-msgid "Provider"
-msgstr "Proveedor"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:46
-#, python-format
-msgid "means %(provider)s, Reg. No. %(reg_no)s"
-msgstr "significa %(provider)s, Número de Registro %(reg_no)s"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:48
-#: wlhosted/legal/templates/legal/documents/tos.html:98
-msgid "Personal Data"
-msgstr "Datos personales"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:49
-#, python-format
-msgid ""
-"means personal data within the meaning of EU Regulation No. %(law_679_2016)s "
-"inserted by the User into the Service and/or Cookies"
-msgstr ""
-"se refiere a los datos personales en el sentido del Reglamento de la UE n.º "
-"%(law_679_2016)s insertados por el Usuario en el Servicio y/o «Cookies»"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:51
-msgid "Owner"
-msgstr "Propietario"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:52
-msgid "means the User who can manage Project"
-msgstr "significa el usuario que puede gestionar el Proyecto"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:54
-msgid "Project"
-msgstr "Proyecto"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:55
-msgid "means translation project operated on the Service"
-msgstr "significa proyecto de traducción gestionado en el Servicio"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:57
-msgid "Service"
-msgstr "Servicio"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:58
-msgid ""
-"means the website and services based on Weblate operated by the Provider"
-msgstr ""
-"significa que la página web y los servicios basados en Weblate son "
-"gestionados por el proveedor"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:60
-msgid "Translation Memory"
-msgstr "Memoria de traducción"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:61
-msgid "means the optional translation memory service provided within Weblate"
-msgstr ""
-"se refiere al servicio opcional de memoria de traducción proporcionado por "
-"Weblate"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:63
-msgid "User"
-msgstr "Usuario"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:64
-msgid ""
-"means any legal entity or an individual other than the Provider, who is "
-"using the Service"
-msgstr ""
-"significa cualquier entidad legal o individual distinta al Proveedor, que "
-"esté usando el Servicio"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:66
-msgid "VCS"
-msgstr "Sistema de control de versiones"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:67
-msgid ""
-"means distributed version control system used by the Project such as Git or "
-"Mercurial"
-msgstr ""
-"el sistema de control de versiones distribuido utilizado por el proyecto, "
-"como Git o Mercurial"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:71
-msgid "License Agreement Conclusion"
-msgstr "Finalización del Acuerdo de Licencia"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:73
-msgid ""
-"The License Agreement is concluded upon the User’s Acceptance of the "
-"Provider’s Offer."
-msgstr ""
-"Se concluye con el Acuerdo de Licencia con la aceptación del usuario de una "
-"propuesta del proveedor."
-
-#: wlhosted/legal/templates/legal/documents/tos.html:76
-msgid "License Agreement"
-msgstr "Acuerdo de licencia"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:78
-msgid ""
-"By concluding Agreement under Article 2.1 of this Agreement, the following "
-"provisions of this Article 3 of the Terms of Service come into force."
-msgstr ""
-"Al celebrar el Acuerdo de conformidad con el artículo 2.1 de este Acuerdo, "
-"las siguientes disposiciones de este artículo 3 de los Términos de Servicio "
-"entran en vigor."
-
-#: wlhosted/legal/templates/legal/documents/tos.html:80
-msgid ""
-"The Provider presents the User with a License Agreement and the User accepts "
-"this License Agreement, all this under the terms and conditions stated in "
-"these Terms of Service."
-msgstr ""
-"El Proveedor presenta al Usuario un Contrato de Licencia y el Usuario acepta "
-"este Contrato de Licencia, todo ello bajo los términos y condiciones "
-"establecidos en estos Términos de Servicio."
-
-#: wlhosted/legal/templates/legal/documents/tos.html:82
-msgid ""
-"The Provider shall have the right to shut down, adjust, modify or make the "
-"Service unavailable on the web address at any time."
-msgstr ""
-"El Proveedor tendrá derecho a cerrar, ajustar, modificar o hacer que el "
-"Servicio no esté disponible en la dirección web en cualquier momento."
-
-#: wlhosted/legal/templates/legal/documents/tos.html:84
-msgid ""
-"The User agrees to use the Service only in a manner not jeopardizing "
-"technical software and/or hardware means of the Provider and/or such means "
-"in the Provider’s use."
-msgstr ""
-"El Usuario se compromete a utilizar el Servicio únicamente de manera que no "
-"ponga en peligro los medios técnicos de software y/o hardware del Proveedor "
-"y/o dichos medios en el uso del Proveedor."
-
-#: wlhosted/legal/templates/legal/documents/tos.html:86
-msgid ""
-"The User agrees to refrain from use of the Service in bad faith and/or "
-"deliberately causing any damage to the Service."
-msgstr ""
-"El Usuario se compromete a abstenerse de utilizar el Servicio de mala fe y/o "
-"de causar deliberadamente cualquier daño al Servicio."
-
-#: wlhosted/legal/templates/legal/documents/tos.html:88
-msgid ""
-"The User agrees to refrain from bypassing the Service’s software and/or "
-"technical hardware means, in particular the security systems."
-msgstr ""
-"El Usuario se compromete a abstenerse de eludir los medios de software y/o "
-"hardware técnico del Servicio, en particular los sistemas de seguridad."
-
-#: wlhosted/legal/templates/legal/documents/tos.html:91
-msgid "Liability for Damage"
-msgstr "Responsabilidad por daños y perjuicios"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:93
-msgid ""
-"The User hereby renders it undisputed that the Provider shall not be liable "
-"for any damage caused to the User resulting from the use of the Service."
-msgstr ""
-"Por la presente, el Usuario deja claro que el Proveedor no será responsable "
-"de ningún daño causado al Usuario como resultado del uso del Servicio."
-
-#: wlhosted/legal/templates/legal/documents/tos.html:95
-msgid ""
-"If the User is an entrepreneur, it hereby expressly waives its right to "
-"compensation from the Provider for damage unintentionally caused by the "
-"Provider to the User through a breach of any obligation contained in these "
-"Terms of Service and/or resulting from the use of the Service."
-msgstr ""
-"Si el Usuario es un empresario, de esta manera renuncia expresamente a su "
-"derecho de compensación por parte del Proveedor por daños causados "
-"inintencionadamente por el Proveedor al Usuario a través de la ruptura de "
-"cualquier obligación contenida en estos términos de servicio y/o resultantes "
-"por el uso del Servicio."
-
-#: wlhosted/legal/templates/legal/documents/tos.html:101
-#, python-format
-msgid ""
-"Within the meaning of <a href=\"%(url)s\">Article 7</a> of the GDPR the User "
-"hereby gives consent to the collecting, storage and processing of the "
-"Personal Data provided by the User to the administrator, who is the "
-"Provider, through the use of the Service; the User gives consent to the "
-"processing and use of the User’s Personal Data by the Provider, the "
-"Provider’s employees and/or the Provider’s authorised business partners. "
-"This consent is given as long as User does not remove their account from the "
-"Service."
-msgstr ""
-"Según lo que dice el <a href=\"%(url)s\">Artículo 7</a> del RGPD, el usuario "
-"da su consentimiento para la recopilación, el almacenamiento y el "
-"procesamiento de los datos personales proporcionados por el Usuario al "
-"proveedor, sus empleados y/o sus socios empresariales autorizados. Este "
-"consentimiento se da hasta que el Usuario elimine su cuenta del Servicio."
-
-#: wlhosted/legal/templates/legal/documents/tos.html:103
-#, python-format
-msgid ""
-"The purpose of the processing of Personal Data as determined by the Provider "
-"is the use of Personal Data for sending commercial communications to the "
-"subject of the data (the User) through electronic means under Act No. "
-"%(law_480_2004)s Coll., on certain services of the information society, as "
-"amended, and further for marketing and business needs of the Provider’s "
-"contractual partners and for statistical and/or marketing purposes of the "
-"Provider."
-msgstr ""
-"El objetivo del procesamiento de Datos Personales tal y como ha determinado "
-"el Proveedor es el uso de Datos Personales para enviar comunicaciones "
-"comerciales al sujeto de los datos (el Usuario) a través de médios "
-"electrónicos bajo la colección de leyes n.º %(law_480_2004)s, en algunos "
-"servicios de la sociedad de la información, tal y como se ha enmendado, y "
-"además para los fines comerciales y de mercadotecnia de los socios "
-"contractuales del Proveedor y para fines estadísticos y/o comerciales del "
-"Proveedor."
-
-#: wlhosted/legal/templates/legal/documents/tos.html:105
-msgid ""
-"If the User directly and effectively informs the Provider of no longer "
-"wishing to receive business information from the Provider, the Provider "
-"shall refrain from sending further unsolicited business communications."
-msgstr ""
-"Si el Usuario informa directa y efectivamente al Proveedor que ya no desea "
-"recibir información comercial del Proveedor, el Proveedor se abstendrá de "
-"enviar más comunicaciones comerciales no solicitadas."
-
-#: wlhosted/legal/templates/legal/documents/tos.html:109
-#, python-format
-msgid ""
-"The User declares awareness of own rights under <a href=\"%(url_15)s"
-"\">Article 15</a> and <a href=\"%(url_17)s\">Article 17</a> of the GDPR and "
-"declares that all the Personal Data is accurate and true and has been "
-"provided voluntarily."
-msgstr ""
-"El Usuario declara que está al corriente de sus derechos procedentes del <a "
-"href=\"%(url_15)s\">Artículo 15</a> y el <a href=\"%(url_17)s\">Artículo 17</"
-"a> del RGPD y declara que todos los Datos Personales son precisos y "
-"verdaderos y que los ha dado de forma voluntaria."
-
-#: wlhosted/legal/templates/legal/documents/tos.html:111
-msgid ""
-"The Provider declares that it will collect Personal Data only in the extent "
-"necessary for meeting the above-specified purpose and process the Personal "
-"Data in accordance with the purpose for which it was collected. The "
-"Provider’s employees and other individuals who process the Personal Data on "
-"the basis of a contract with the Provider shall maintain confidentiality of "
-"the Personal Data, even after the termination of their employment or "
-"business relationship with the Provider."
-msgstr ""
-"El Proveedor declara que mantendrá los Datos Personales solo por la duración "
-"necesaria para cumplir los objetivos especificados anteriormente y procesará "
-"los Datos Personales de acuerdo con los objetivos para los que han sido "
-"recogidos. Los empleados del Proveedor y otras personas que procesan los "
-"Datos Personales por razón de un contrato con el Proveedor deben mantener la "
-"confidencialidad de los Datos Personales, incluso al finalizar su relación "
-"laboral o empresarial con el Proveedor."
-
-#: wlhosted/legal/templates/legal/documents/tos.html:113
-msgid ""
-"The Provider declares that it will process the Personal Data by electronic "
-"means (automatically) via computer programs for which the Provider has "
-"secured the right of use, in particular the Service."
-msgstr ""
-"El Proveedor declara que procesará los datos personales por medios "
-"electrónicos (automáticamente) a trevés de programas de ordenador para los "
-"cuales el Proveedor ha asegurado los derechos de uso, en particular del "
-"Servicio."
-
-#: wlhosted/legal/templates/legal/documents/tos.html:115
-msgid ""
-"The User’s consent under this Article 5 of the Terms of Service constitutes "
-"a free and informed juridical act which concerns the consent of the subject "
-"of the data (the User) with processing of the Personal Data."
-msgstr ""
-"El consentimiento del Usuario bajo este Artículo 5 de los Términos de "
-"Servicio constituye un acto libre e informado que consiste en el "
-"consentimiento del sujeto de los datos (el Usuario) con el procesamiento de "
-"Datos Personales."
-
-#: wlhosted/legal/templates/legal/documents/tos.html:118
-msgid "Translations"
-msgstr "Traducciones"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:120
-msgid ""
-"The Service organizes translation into individual Projects, where the Owner "
-"is responsible for managing them and for specifying accurately the license "
-"of the Project."
-msgstr ""
-"El Servicio organiza las traducciones en Proyectos individuales, donde el "
-"Propietario es responsable de gestionarlos y especificar con precisión la "
-"licencia de cada uno."
-
-#: wlhosted/legal/templates/legal/documents/tos.html:122
-msgid ""
-"Not specifying translation license means that the translations are available "
-"under same license as the given Project itself."
-msgstr ""
-"Si no se especifica alguna licencia de traducción, significa que las "
-"traducciones están disponibles bajo la misma licencia del proyecto al cual "
-"pertenecen."
-
-#: wlhosted/legal/templates/legal/documents/tos.html:124
-msgid ""
-"Should the Project opt in for the Translation Memory, license to use the "
-"translation is granted to all Translation Memory users."
-msgstr ""
-"Si el Proyecto opta por la Memoria de traducción, la licencia de uso de la "
-"traducción se otorga a todos los usuarios de la Memoria de traducción."
-
-#: wlhosted/legal/templates/legal/documents/tos.html:126
-msgid ""
-"The User agrees, upon contributing to a Project, to the license the Project "
-"has specified."
-msgstr ""
-"El Usuario acepta, al contribuir a un proyecto, la licencia que tal proyecto "
-"ha especificado."
-
-#: wlhosted/legal/templates/legal/documents/tos.html:128
-msgid ""
-"The User agrees to use of own name and e-mail as authorship in the VCS "
-"commits. The User understands that this grant is non revocable due to nature "
-"of the VCS."
-msgstr ""
-"El Usuario acepta el uso de su nombre y dirección de correo como autoría en "
-"las consignas en los sistemas de control de versiones (VCS, por sus siglas "
-"en inglés). El usuario entiende que esta aceptación no es revocable por la "
-"naturaleza de los VCS."
-
-#: wlhosted/legal/templates/legal/documents/tos.html:133
-#, python-format
-msgid ""
-"Within the meaning of Article 89 Act No. %(law_480_2004)s Coll., on "
-"electronic communication, as ammended, the User is informed that the Service "
-"uses cookies."
-msgstr ""
-"En el sentido del artículo 89 de la colección de leyes n.º %(law_480_2004)s "
-"sobre comunicaciones electrónicas, en su versión modificada, se informa al "
-"Usuario de que el Servicio utiliza «cookies»."
-
-#: wlhosted/legal/templates/legal/documents/tos.html:135
-msgid ""
-"The Service uses cookies to personalise content, and to analyse our traffic."
-msgstr ""
-"El Servicio utiliza «cookies» para personalizar el contenido y analizar "
-"nuestro tráfico."
-
-#: wlhosted/legal/templates/legal/documents/tos.html:138
-msgid "Governing Law"
-msgstr "Ley aplicable"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:140
-msgid ""
-"These Terms of Service shall be governed by the laws of the Czech Republic "
-"with exclusion of conflict rules."
-msgstr ""
-"Estas Condiciones de Servicio se regirán por las leyes de la República Checa "
-"con exclusión de las normas de conflicto."
-
-#: wlhosted/legal/templates/legal/documents/tos.html:142
-msgid ""
-"Any disputes arising on the basis of the Agreement and/or these Terms of "
-"Service shall be resolved by the court of the Czech republic having "
-"substantive and local jurisdiction."
-msgstr ""
-"Cualquier disputa que surja sobre la base del Acuerdo y/o de estos Términos "
-"de Servicio será resuelta por el tribunal de la República Checa que tenga "
-"jurisdicción sustantiva y local."
-
-#: wlhosted/legal/templates/legal/documents/tos.html:145
-msgid "Effect"
-msgstr "Vigencia"
-
-#: wlhosted/legal/templates/legal/documents/tos.html:147
-msgid ""
-"These Terms of Service shall come into force and effect on 1st September "
-"2017."
-msgstr ""
-"Estos Términos de Servicio entrarán en vigor el 1 de septiembre de 2017."
 
 #: wlhosted/payments/backends.py:192
 msgid "Your payment on weblate.org"
@@ -1180,6 +411,665 @@ msgstr ""
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
 msgstr "{} no es un número de IVA válido."
+
+#~ msgid ""
+#~ "We comply with the Regulation No. %(law_679_2016)s, the General Data "
+#~ "Protection Regulation, also known as GDPR. This document includes "
+#~ "necessary specifications."
+#~ msgstr ""
+#~ "Cumplimos con la ley n.º %(law_679_2016)s, el Reglamento General de "
+#~ "Protección de Datos, también conocido como el RGPD. Este documento "
+#~ "incluye las especificaciones necesarias."
+
+#~ msgid "Personal Data Controller"
+#~ msgstr "Responsable del tratamiento de datos personales"
+
+#~ msgid "%(provider)s, Reg. No. %(reg_no)s"
+#~ msgstr "%(provider)s, n.º de reg. %(reg_no)s"
+
+#~ msgid ""
+#~ "Weblate has appointed a data protection officer who may be reached via "
+#~ "%(privacy_contact)s."
+#~ msgstr ""
+#~ "Weblate ha definido un responsable de protección de datos a quien puede "
+#~ "contactar a través de %(privacy_contact)s."
+
+#~ msgid "Personal Data processed by Weblate"
+#~ msgstr "Datos personales procesados por Weblate"
+
+#~ msgid "Weblate only processes Personal Data the User provides by using it:"
+#~ msgstr ""
+#~ "Weblate procesa únicamente los datos personales que el usuario "
+#~ "proporciona al utilizarlo:"
+
+#~ msgid "Name and e-mail"
+#~ msgstr "Nombre y correo electrónico"
+
+#~ msgid "These are used to identify you in the VCS commits"
+#~ msgstr "Estos se utilizan para identificarle en las consignas de VCS"
+
+#~ msgid "Additionally, e-mail is used for notification of watched events"
+#~ msgstr ""
+#~ "Además, el correo electrónico se utiliza para la notificación de sucesos "
+#~ "monitorizados"
+
+#~ msgid "Password in hashed form"
+#~ msgstr "Contraseña en forma de resumen criptográfico"
+
+#~ msgid "Used to authenticate the User, if configured"
+#~ msgstr "Se utiliza para autenticar al usuario si está configurado"
+
+#~ msgid "IP address and browser name"
+#~ msgstr "Dirección IP y nombre del navegador"
+
+#~ msgid ""
+#~ "These are logged in case of important changes to your account (e.g. "
+#~ "password change) to allow diagnosis in case your account is stolen"
+#~ msgstr ""
+#~ "Estos se registran en caso de cambios importantes en su cuenta (por "
+#~ "ejemplo, cambio de contraseña) para permitir el diagnóstico en caso de "
+#~ "que su cuenta sea robada"
+
+#~ msgid "Billing information"
+#~ msgstr "Datos de facturación"
+
+#~ msgid ""
+#~ "In case you purchase service from us, we collect additional billing "
+#~ "information necessary for issuing an invoice"
+#~ msgstr ""
+#~ "En caso comprar un servicio, recopilamos la información de facturación "
+#~ "adicional necesaria para emitir una factura"
+
+#~ msgid "Purpose and legal basis of processing Personal Data"
+#~ msgstr ""
+#~ "Propósito y marco jurídico para el procesamiento de datos personales"
+
+#~ msgid "Your Personal Data will be used for the purposes of the Service:"
+#~ msgstr ""
+#~ "Sus datos personales se utilizarán para las finalidades del servicio:"
+
+#~ msgid ""
+#~ "for providing our services on the Service, to contact you in matters "
+#~ "regarding our services (also by means of e-mails and messaging) and to "
+#~ "ensure the technical functionality of our services fulfillment of "
+#~ "contractual or pre-contractual obligations (<a href=\"%(url)s\">Article 6 "
+#~ "(1) b. GDPR</a>)"
+#~ msgstr ""
+#~ "para brindar nuestros servicios en el Servicio, para contactar con usted "
+#~ "en lo que respecta a nuestros servicios (también a través de mensajería y "
+#~ "correo electrónico) y para asegurar la funcionalidad técnica del "
+#~ "cumplimiento por parte de nuestros servicios de obligaciones "
+#~ "contractuales o precontractuales (<a href=\"%(url)s\">artículo 6 (1) b. "
+#~ "RGPD</a>)"
+
+#~ msgid ""
+#~ "to analyze your use of our services and improve our services (<a href="
+#~ "\"%(url)s\">Article 6 (1) b. and f. GDPR</a>)"
+#~ msgstr ""
+#~ "para analizar su uso de nuestros servicios y mejorarlos (<a href=\"%(url)s"
+#~ "\">artículo 6 (1) b. y f. del RGPD</a>)"
+
+#~ msgid ""
+#~ "with your express consent or instruction to carry out our business "
+#~ "activities or send you newsletters (<a href=\"%(url)s\">Article 6 (1) a. "
+#~ "GDPR</a>)"
+#~ msgstr ""
+#~ "con su consentimiento expreso o su autorización expresa para llevar a "
+#~ "cabo nuestras actividades de negocio o enviar boletines de noticias (<a "
+#~ "href=\"%(url)s\">Artículo 6 (1) a. del RGPD</a>)"
+
+#~ msgid "Access to the Personal Data"
+#~ msgstr "Acceso a los datos personales"
+
+#~ msgid ""
+#~ "The Controller has made all reasonable technical means to protect the "
+#~ "Personal Data. Only authorized persons can access the Personal Data."
+#~ msgstr ""
+#~ "La empresa ha hecho los esfuerzos necesarios para proteger los datos "
+#~ "personales. Solo personas autorizadas tienen acceso a los datos "
+#~ "personales."
+
+#~ msgid ""
+#~ "Third parties which can gain access to the Personal Data when necessary "
+#~ "are:"
+#~ msgstr ""
+#~ "Los terceros que pueden tener acceso a los datos personales cuando sea "
+#~ "necesario son:"
+
+#~ msgid "Persons which are contracted for technical assurance of the service."
+#~ msgstr ""
+#~ "Personas que son contratadas para el aseguramiento técnico del servicio."
+
+#~ msgid "Payment processors."
+#~ msgstr "Procesadores de pagos."
+
+#~ msgid "All Personal Data is stored in the European Union."
+#~ msgstr "Todos los datos personales se almacenan en la Unión Europea."
+
+#~ msgid "The Personal Data retention"
+#~ msgstr "La conservación de datos personales"
+
+#~ msgid ""
+#~ "The Personal Data is stored in the Service until the User deletes their "
+#~ "account on the service."
+#~ msgstr ""
+#~ "Los datos personales se almacenan en el servicio hasta que el usuario "
+#~ "elimina su cuenta del servicio."
+
+#~ msgid ""
+#~ "Access log information might be collected for a longer period for the "
+#~ "purpose of establishing, exercising or defending legal claims."
+#~ msgstr ""
+#~ "La información de los accesos a la cuenta serán almacenados por más "
+#~ "tiempo con el objetivo de establecer, ejercer o defender demandas "
+#~ "judiciales."
+
+#~ msgid "Your rights"
+#~ msgstr "Sus derechos"
+
+#~ msgid ""
+#~ "The User provides use of Personal Data voluntarily. Without this Personal "
+#~ "Data Weblate is not able to provide our services."
+#~ msgstr ""
+#~ "El usuario proporciona voluntariamente sus datos. Sin estos datos, "
+#~ "Weblate no podría ofrecer sus servicios."
+
+#~ msgid ""
+#~ "We want you to always be in control of your Personal Data. To this end, "
+#~ "you have certain rights that allow for it. Under certain conditions, you "
+#~ "may:"
+#~ msgstr ""
+#~ "Queremos que siempre tenga el control de sus datos personales. Para tal "
+#~ "fin, tiene algunos derechos que lo permiten. En determinadas condiciones, "
+#~ "puede:"
+
+#~ msgid ""
+#~ "Gain access to all your Personal Data that Weblate uses or processes, and "
+#~ "even get a copy of all of it (<a href=\"%(url)s\">Article 15 GDPR</a>)"
+#~ msgstr ""
+#~ "Obtener acceso a todos sus datos personales utilizados o procesados por "
+#~ "Weblate, e incluso conseguir una copia completa de estos (<a href="
+#~ "\"%(url)s\">artículo 15 del RGPD</a>)"
+
+#~ msgid ""
+#~ "Correct the Personal Data that Weblate processes if you think that there "
+#~ "are mistakes"
+#~ msgstr ""
+#~ "Corregir los datos personales procesados por Weblate si cree que tienen "
+#~ "errores"
+
+#~ msgid "Order us to delete your Personal Data"
+#~ msgstr "Pedirnos que eliminemos sus datos personales"
+
+#~ msgid "Restrict the Personal Data processing"
+#~ msgstr "Restringir el procesamiento de datos personales"
+
+#~ msgid "Object to processing"
+#~ msgstr "Oponerse al procesamiento"
+
+#~ msgid ""
+#~ "Receive your Personal Data in a commonly used and machine-readable format "
+#~ "or to transmit this Personal Data to a different provider."
+#~ msgstr ""
+#~ "Recibir sus datos personales en un formato de uso habitual y legible por "
+#~ "máquinas, o bien transmitirlos a un proveedor distinto."
+
+#~ msgid ""
+#~ "The services are provided “as is”, at your own risk, without any warranty."
+#~ msgstr ""
+#~ "Los servicios se proporcionan «tal cual», bajo su propia responsabilidad "
+#~ "y sin ninguna garantía."
+
+#~ msgid ""
+#~ "Additional guarantees might apply to commercial customers, those are "
+#~ "expressed in corresponding contracts."
+#~ msgstr ""
+#~ "Es posible que los clientes comerciales dispongan de garantías "
+#~ "adicionales, las cuales figurarán en los contratos correspondientes."
+
+#~ msgid ""
+#~ "We process private data (such as your e-mail address), those will be "
+#~ "discarded from our database as soon as you remove your account."
+#~ msgstr ""
+#~ "Procesamos datos privados (como, por ejemplo, su dirección de correo "
+#~ "electrónico); estos se descartarán de nuestra base de datos cuando "
+#~ "elimine su cuenta."
+
+#~ msgid ""
+#~ "Your translations are made under license which is specified by each "
+#~ "translation."
+#~ msgstr ""
+#~ "Sus traducciones se realizan en virtud de la licencia que se especifica "
+#~ "en cada proyecto de traducción."
+
+#~ msgid ""
+#~ "Your name and e-mail address is used in VCS commits, it will stay there "
+#~ "indefinitely."
+#~ msgstr ""
+#~ "Su nombre y dirección de correo electrónico se utilizan en las consignas "
+#~ "de los sistemas de control de versiones, y permanecerán allí "
+#~ "indefinidamente."
+
+#~ msgid "We use cookies to deliver our services."
+#~ msgstr "Utilizamos cookies para ofrecer nuestros servicios."
+
+#~ msgid "View English version"
+#~ msgstr "Ver la versión en inglés"
+
+#~ msgid ""
+#~ "The Terms of Service document is authoritative in English, translations "
+#~ "are provided for your convenience."
+#~ msgstr ""
+#~ "El documento vinculante sobre los términos del servicio está en inglés. "
+#~ "Para su comodidad contamos con traducciones."
+
+#~ msgid ""
+#~ "The rights and obligations of the User and the Provider resulting from "
+#~ "the use of the Service are governed by these Terms of Service."
+#~ msgstr ""
+#~ "Los derechos y obligaciones del usuario y del proveedor como resultado "
+#~ "del uso del servicio se rigen por estos términos de servicio."
+
+#~ msgid "Definitions"
+#~ msgstr "Definiciones"
+
+#~ msgid "In these Terms of Service:"
+#~ msgstr "En estos Términos del Servicio:"
+
+#~ msgid "Agreement"
+#~ msgstr "Acuerdo"
+
+#~ msgid ""
+#~ "means License Agreement within the meaning of Article 2358 et seq. of the "
+#~ "Civil Code concluded by and between the User and the Provider upon the "
+#~ "Consent"
+#~ msgstr ""
+#~ "significa Acuerdo de Licencia según el artículo 2358 et seq. del Código "
+#~ "Civil, celebrado entre el usuario y el proveedor al efectuar el "
+#~ "consentimiento"
+
+#~ msgid "Civil Code"
+#~ msgstr "Código Civil"
+
+#~ msgid "means Act No. %(law_89_2012)s Coll., the Civil Code, as amended"
+#~ msgstr ""
+#~ "significa colección de leyes n.º %(law_89_2012)s, del Código Civil, tal y "
+#~ "como se ha enmendado"
+
+#~ msgid "Consent"
+#~ msgstr "Consentimiento"
+
+#~ msgid ""
+#~ "means the User’s consent with these Terms of Service and other legal "
+#~ "documents expressed by checking the checkbox during the registration"
+#~ msgstr ""
+#~ "significa el consentimiento del Usuario con estos Términos de Servicio y "
+#~ "otros documentos legales expresados marcando la casilla de verificación "
+#~ "durante el registro"
+
+#~ msgid "Cookies"
+#~ msgstr "«Cookies»"
+
+#~ msgid ""
+#~ "means any datafile sent by the web server of the Service to the User’s "
+#~ "computer or other device connected to the Internet, which enable "
+#~ "obtaining unique identification of the User’s web browser"
+#~ msgstr ""
+#~ "se refiere a cualquier archivo de datos enviado por el servidor web del "
+#~ "Servicio al ordenador del Usuario u otro dispositivo conectado a "
+#~ "Internet, que permita obtener una identificación única del navegador web "
+#~ "del Usuario"
+
+#~ msgid "GDPR"
+#~ msgstr "RGPD"
+
+#~ msgid ""
+#~ "means EU Regulation No. %(law_679_2016)s, the General Data Protection "
+#~ "Regulation"
+#~ msgstr ""
+#~ "significa el Reglamento de la UE n.º %(law_679_2016)s, el Reglamento "
+#~ "General de Protección de Datos"
+
+#~ msgid "License"
+#~ msgstr "Licencia"
+
+#~ msgid ""
+#~ "means non-exclusive license granted by the Provider to the User for use "
+#~ "of the Service"
+#~ msgstr ""
+#~ "se refiere a la licencia no exclusiva concedida por el Proveedor al "
+#~ "Usuario para el uso del Servicio"
+
+#~ msgid "Provider"
+#~ msgstr "Proveedor"
+
+#~ msgid "means %(provider)s, Reg. No. %(reg_no)s"
+#~ msgstr "significa %(provider)s, Número de Registro %(reg_no)s"
+
+#~ msgid "Personal Data"
+#~ msgstr "Datos personales"
+
+#~ msgid ""
+#~ "means personal data within the meaning of EU Regulation No. "
+#~ "%(law_679_2016)s inserted by the User into the Service and/or Cookies"
+#~ msgstr ""
+#~ "se refiere a los datos personales en el sentido del Reglamento de la UE n."
+#~ "º %(law_679_2016)s insertados por el Usuario en el Servicio y/o «Cookies»"
+
+#~ msgid "Owner"
+#~ msgstr "Propietario"
+
+#~ msgid "means the User who can manage Project"
+#~ msgstr "significa el usuario que puede gestionar el Proyecto"
+
+#~ msgid "Project"
+#~ msgstr "Proyecto"
+
+#~ msgid "means translation project operated on the Service"
+#~ msgstr "significa proyecto de traducción gestionado en el Servicio"
+
+#~ msgid "Service"
+#~ msgstr "Servicio"
+
+#~ msgid ""
+#~ "means the website and services based on Weblate operated by the Provider"
+#~ msgstr ""
+#~ "significa que la página web y los servicios basados en Weblate son "
+#~ "gestionados por el proveedor"
+
+#~ msgid "Translation Memory"
+#~ msgstr "Memoria de traducción"
+
+#~ msgid ""
+#~ "means the optional translation memory service provided within Weblate"
+#~ msgstr ""
+#~ "se refiere al servicio opcional de memoria de traducción proporcionado "
+#~ "por Weblate"
+
+#~ msgid "User"
+#~ msgstr "Usuario"
+
+#~ msgid ""
+#~ "means any legal entity or an individual other than the Provider, who is "
+#~ "using the Service"
+#~ msgstr ""
+#~ "significa cualquier entidad legal o individual distinta al Proveedor, que "
+#~ "esté usando el Servicio"
+
+#~ msgid "VCS"
+#~ msgstr "Sistema de control de versiones"
+
+#~ msgid ""
+#~ "means distributed version control system used by the Project such as Git "
+#~ "or Mercurial"
+#~ msgstr ""
+#~ "el sistema de control de versiones distribuido utilizado por el proyecto, "
+#~ "como Git o Mercurial"
+
+#~ msgid "License Agreement Conclusion"
+#~ msgstr "Finalización del Acuerdo de Licencia"
+
+#~ msgid ""
+#~ "The License Agreement is concluded upon the User’s Acceptance of the "
+#~ "Provider’s Offer."
+#~ msgstr ""
+#~ "Se concluye con el Acuerdo de Licencia con la aceptación del usuario de "
+#~ "una propuesta del proveedor."
+
+#~ msgid "License Agreement"
+#~ msgstr "Acuerdo de licencia"
+
+#~ msgid ""
+#~ "By concluding Agreement under Article 2.1 of this Agreement, the "
+#~ "following provisions of this Article 3 of the Terms of Service come into "
+#~ "force."
+#~ msgstr ""
+#~ "Al celebrar el Acuerdo de conformidad con el artículo 2.1 de este "
+#~ "Acuerdo, las siguientes disposiciones de este artículo 3 de los Términos "
+#~ "de Servicio entran en vigor."
+
+#~ msgid ""
+#~ "The Provider presents the User with a License Agreement and the User "
+#~ "accepts this License Agreement, all this under the terms and conditions "
+#~ "stated in these Terms of Service."
+#~ msgstr ""
+#~ "El Proveedor presenta al Usuario un Contrato de Licencia y el Usuario "
+#~ "acepta este Contrato de Licencia, todo ello bajo los términos y "
+#~ "condiciones establecidos en estos Términos de Servicio."
+
+#~ msgid ""
+#~ "The Provider shall have the right to shut down, adjust, modify or make "
+#~ "the Service unavailable on the web address at any time."
+#~ msgstr ""
+#~ "El Proveedor tendrá derecho a cerrar, ajustar, modificar o hacer que el "
+#~ "Servicio no esté disponible en la dirección web en cualquier momento."
+
+#~ msgid ""
+#~ "The User agrees to use the Service only in a manner not jeopardizing "
+#~ "technical software and/or hardware means of the Provider and/or such "
+#~ "means in the Provider’s use."
+#~ msgstr ""
+#~ "El Usuario se compromete a utilizar el Servicio únicamente de manera que "
+#~ "no ponga en peligro los medios técnicos de software y/o hardware del "
+#~ "Proveedor y/o dichos medios en el uso del Proveedor."
+
+#~ msgid ""
+#~ "The User agrees to refrain from use of the Service in bad faith and/or "
+#~ "deliberately causing any damage to the Service."
+#~ msgstr ""
+#~ "El Usuario se compromete a abstenerse de utilizar el Servicio de mala fe "
+#~ "y/o de causar deliberadamente cualquier daño al Servicio."
+
+#~ msgid ""
+#~ "The User agrees to refrain from bypassing the Service’s software and/or "
+#~ "technical hardware means, in particular the security systems."
+#~ msgstr ""
+#~ "El Usuario se compromete a abstenerse de eludir los medios de software y/"
+#~ "o hardware técnico del Servicio, en particular los sistemas de seguridad."
+
+#~ msgid "Liability for Damage"
+#~ msgstr "Responsabilidad por daños y perjuicios"
+
+#~ msgid ""
+#~ "The User hereby renders it undisputed that the Provider shall not be "
+#~ "liable for any damage caused to the User resulting from the use of the "
+#~ "Service."
+#~ msgstr ""
+#~ "Por la presente, el Usuario deja claro que el Proveedor no será "
+#~ "responsable de ningún daño causado al Usuario como resultado del uso del "
+#~ "Servicio."
+
+#~ msgid ""
+#~ "If the User is an entrepreneur, it hereby expressly waives its right to "
+#~ "compensation from the Provider for damage unintentionally caused by the "
+#~ "Provider to the User through a breach of any obligation contained in "
+#~ "these Terms of Service and/or resulting from the use of the Service."
+#~ msgstr ""
+#~ "Si el Usuario es un empresario, de esta manera renuncia expresamente a su "
+#~ "derecho de compensación por parte del Proveedor por daños causados "
+#~ "inintencionadamente por el Proveedor al Usuario a través de la ruptura de "
+#~ "cualquier obligación contenida en estos términos de servicio y/o "
+#~ "resultantes por el uso del Servicio."
+
+#~ msgid ""
+#~ "Within the meaning of <a href=\"%(url)s\">Article 7</a> of the GDPR the "
+#~ "User hereby gives consent to the collecting, storage and processing of "
+#~ "the Personal Data provided by the User to the administrator, who is the "
+#~ "Provider, through the use of the Service; the User gives consent to the "
+#~ "processing and use of the User’s Personal Data by the Provider, the "
+#~ "Provider’s employees and/or the Provider’s authorised business partners. "
+#~ "This consent is given as long as User does not remove their account from "
+#~ "the Service."
+#~ msgstr ""
+#~ "Según lo que dice el <a href=\"%(url)s\">Artículo 7</a> del RGPD, el "
+#~ "usuario da su consentimiento para la recopilación, el almacenamiento y el "
+#~ "procesamiento de los datos personales proporcionados por el Usuario al "
+#~ "proveedor, sus empleados y/o sus socios empresariales autorizados. Este "
+#~ "consentimiento se da hasta que el Usuario elimine su cuenta del Servicio."
+
+#~ msgid ""
+#~ "The purpose of the processing of Personal Data as determined by the "
+#~ "Provider is the use of Personal Data for sending commercial "
+#~ "communications to the subject of the data (the User) through electronic "
+#~ "means under Act No. %(law_480_2004)s Coll., on certain services of the "
+#~ "information society, as amended, and further for marketing and business "
+#~ "needs of the Provider’s contractual partners and for statistical and/or "
+#~ "marketing purposes of the Provider."
+#~ msgstr ""
+#~ "El objetivo del procesamiento de Datos Personales tal y como ha "
+#~ "determinado el Proveedor es el uso de Datos Personales para enviar "
+#~ "comunicaciones comerciales al sujeto de los datos (el Usuario) a través "
+#~ "de médios electrónicos bajo la colección de leyes n.º %(law_480_2004)s, "
+#~ "en algunos servicios de la sociedad de la información, tal y como se ha "
+#~ "enmendado, y además para los fines comerciales y de mercadotecnia de los "
+#~ "socios contractuales del Proveedor y para fines estadísticos y/o "
+#~ "comerciales del Proveedor."
+
+#~ msgid ""
+#~ "If the User directly and effectively informs the Provider of no longer "
+#~ "wishing to receive business information from the Provider, the Provider "
+#~ "shall refrain from sending further unsolicited business communications."
+#~ msgstr ""
+#~ "Si el Usuario informa directa y efectivamente al Proveedor que ya no "
+#~ "desea recibir información comercial del Proveedor, el Proveedor se "
+#~ "abstendrá de enviar más comunicaciones comerciales no solicitadas."
+
+#~ msgid ""
+#~ "The User declares awareness of own rights under <a href=\"%(url_15)s"
+#~ "\">Article 15</a> and <a href=\"%(url_17)s\">Article 17</a> of the GDPR "
+#~ "and declares that all the Personal Data is accurate and true and has been "
+#~ "provided voluntarily."
+#~ msgstr ""
+#~ "El Usuario declara que está al corriente de sus derechos procedentes del "
+#~ "<a href=\"%(url_15)s\">Artículo 15</a> y el <a href=\"%(url_17)s"
+#~ "\">Artículo 17</a> del RGPD y declara que todos los Datos Personales son "
+#~ "precisos y verdaderos y que los ha dado de forma voluntaria."
+
+#~ msgid ""
+#~ "The Provider declares that it will collect Personal Data only in the "
+#~ "extent necessary for meeting the above-specified purpose and process the "
+#~ "Personal Data in accordance with the purpose for which it was collected. "
+#~ "The Provider’s employees and other individuals who process the Personal "
+#~ "Data on the basis of a contract with the Provider shall maintain "
+#~ "confidentiality of the Personal Data, even after the termination of their "
+#~ "employment or business relationship with the Provider."
+#~ msgstr ""
+#~ "El Proveedor declara que mantendrá los Datos Personales solo por la "
+#~ "duración necesaria para cumplir los objetivos especificados anteriormente "
+#~ "y procesará los Datos Personales de acuerdo con los objetivos para los "
+#~ "que han sido recogidos. Los empleados del Proveedor y otras personas que "
+#~ "procesan los Datos Personales por razón de un contrato con el Proveedor "
+#~ "deben mantener la confidencialidad de los Datos Personales, incluso al "
+#~ "finalizar su relación laboral o empresarial con el Proveedor."
+
+#~ msgid ""
+#~ "The Provider declares that it will process the Personal Data by "
+#~ "electronic means (automatically) via computer programs for which the "
+#~ "Provider has secured the right of use, in particular the Service."
+#~ msgstr ""
+#~ "El Proveedor declara que procesará los datos personales por medios "
+#~ "electrónicos (automáticamente) a trevés de programas de ordenador para "
+#~ "los cuales el Proveedor ha asegurado los derechos de uso, en particular "
+#~ "del Servicio."
+
+#~ msgid ""
+#~ "The User’s consent under this Article 5 of the Terms of Service "
+#~ "constitutes a free and informed juridical act which concerns the consent "
+#~ "of the subject of the data (the User) with processing of the Personal "
+#~ "Data."
+#~ msgstr ""
+#~ "El consentimiento del Usuario bajo este Artículo 5 de los Términos de "
+#~ "Servicio constituye un acto libre e informado que consiste en el "
+#~ "consentimiento del sujeto de los datos (el Usuario) con el procesamiento "
+#~ "de Datos Personales."
+
+#~ msgid "Translations"
+#~ msgstr "Traducciones"
+
+#~ msgid ""
+#~ "The Service organizes translation into individual Projects, where the "
+#~ "Owner is responsible for managing them and for specifying accurately the "
+#~ "license of the Project."
+#~ msgstr ""
+#~ "El Servicio organiza las traducciones en Proyectos individuales, donde el "
+#~ "Propietario es responsable de gestionarlos y especificar con precisión la "
+#~ "licencia de cada uno."
+
+#~ msgid ""
+#~ "Not specifying translation license means that the translations are "
+#~ "available under same license as the given Project itself."
+#~ msgstr ""
+#~ "Si no se especifica alguna licencia de traducción, significa que las "
+#~ "traducciones están disponibles bajo la misma licencia del proyecto al "
+#~ "cual pertenecen."
+
+#~ msgid ""
+#~ "Should the Project opt in for the Translation Memory, license to use the "
+#~ "translation is granted to all Translation Memory users."
+#~ msgstr ""
+#~ "Si el Proyecto opta por la Memoria de traducción, la licencia de uso de "
+#~ "la traducción se otorga a todos los usuarios de la Memoria de traducción."
+
+#~ msgid ""
+#~ "The User agrees, upon contributing to a Project, to the license the "
+#~ "Project has specified."
+#~ msgstr ""
+#~ "El Usuario acepta, al contribuir a un proyecto, la licencia que tal "
+#~ "proyecto ha especificado."
+
+#~ msgid ""
+#~ "The User agrees to use of own name and e-mail as authorship in the VCS "
+#~ "commits. The User understands that this grant is non revocable due to "
+#~ "nature of the VCS."
+#~ msgstr ""
+#~ "El Usuario acepta el uso de su nombre y dirección de correo como autoría "
+#~ "en las consignas en los sistemas de control de versiones (VCS, por sus "
+#~ "siglas en inglés). El usuario entiende que esta aceptación no es "
+#~ "revocable por la naturaleza de los VCS."
+
+#~ msgid ""
+#~ "Within the meaning of Article 89 Act No. %(law_480_2004)s Coll., on "
+#~ "electronic communication, as ammended, the User is informed that the "
+#~ "Service uses cookies."
+#~ msgstr ""
+#~ "En el sentido del artículo 89 de la colección de leyes n.º "
+#~ "%(law_480_2004)s sobre comunicaciones electrónicas, en su versión "
+#~ "modificada, se informa al Usuario de que el Servicio utiliza «cookies»."
+
+#~ msgid ""
+#~ "The Service uses cookies to personalise content, and to analyse our "
+#~ "traffic."
+#~ msgstr ""
+#~ "El Servicio utiliza «cookies» para personalizar el contenido y analizar "
+#~ "nuestro tráfico."
+
+#~ msgid "Governing Law"
+#~ msgstr "Ley aplicable"
+
+#~ msgid ""
+#~ "These Terms of Service shall be governed by the laws of the Czech "
+#~ "Republic with exclusion of conflict rules."
+#~ msgstr ""
+#~ "Estas Condiciones de Servicio se regirán por las leyes de la República "
+#~ "Checa con exclusión de las normas de conflicto."
+
+#~ msgid ""
+#~ "Any disputes arising on the basis of the Agreement and/or these Terms of "
+#~ "Service shall be resolved by the court of the Czech republic having "
+#~ "substantive and local jurisdiction."
+#~ msgstr ""
+#~ "Cualquier disputa que surja sobre la base del Acuerdo y/o de estos "
+#~ "Términos de Servicio será resuelta por el tribunal de la República Checa "
+#~ "que tenga jurisdicción sustantiva y local."
+
+#~ msgid "Effect"
+#~ msgstr "Vigencia"
+
+#~ msgid ""
+#~ "These Terms of Service shall come into force and effect on 1st September "
+#~ "2017."
+#~ msgstr ""
+#~ "Estos Términos de Servicio entrarán en vigor el 1 de septiembre de 2017."
 
 #~ msgid "Repositories limit"
 #~ msgstr "Límite de repositorios"
