@@ -26,7 +26,7 @@ weblate makemessages --keep-pot -a -i 'data/*' -i 'docs/*' -i 'examples/*' -i 'b
 # Fix Report-Msgid-Bugs-To as it gets removed
 sed \
     -i \
-    -e 's/"Report-Msgid-Bugs-To:.*/"Report-Msgid-Bugs-To: weblate@lists.cihar.com\\n"/' \
+    -e 's@"Report-Msgid-Bugs-To:.*@"Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\\n"@' \
     -e 's/"Project-Id-Version:.*/"Project-Id-Version: Hosted Weblate '$version'\\n"/' \
     wlhosted/locale/*/*/*.po wlhosted/locale/*.pot \
 
