@@ -25,7 +25,6 @@ INSTALLED_APPS += (
     "wlhosted",
     "wlhosted.payments",
     "wlhosted.integrations",
-    "wlhosted.legal",
 )
 
 DATABASES["payments_db"] = {
