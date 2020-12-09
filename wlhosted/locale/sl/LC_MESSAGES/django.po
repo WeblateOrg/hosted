@@ -6,10 +6,10 @@
 # Martin Srebotnjak <miles@filmsi.net>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2020-12-09 09:16+0000\n"
-"PO-Revision-Date: 2020-11-10 09:28+0000\n"
+"PO-Revision-Date: 2020-12-09 22:23+0000\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <https://hosted.weblate.org/projects/weblate/hosted/"
 "sl/>\n"
@@ -344,7 +344,7 @@ msgstr ""
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "Novo plačilo"
 
 #: wlhosted/payments/models.py:197
 msgctxt "Payment state"
