@@ -6,10 +6,10 @@
 # anonymous <noreply@weblate.org>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2020-12-09 09:16+0000\n"
-"PO-Revision-Date: 2020-12-08 08:53+0000\n"
+"PO-Revision-Date: 2020-12-10 19:46+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/weblate/hosted/"
 "hr/>\n"
@@ -63,15 +63,15 @@ msgstr "Trenutačno stanje naplate"
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
-msgstr "Premalen za tvoj projekt."
+msgstr "Nedovoljna za tvoj projekt."
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small"
-msgstr "Premalen"
+msgstr "Nedovoljna"
 
 #: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
-msgstr "Odabrani tarifu"
+msgstr "Odabrana tarifa"
 
 #: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
