@@ -3,16 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Nikolay Korotkiy <sikmir@gmail.com>, 2019.
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2019.
-# Tuomas Hietala <tuomas.hietala@iki.fi>, 2019.
+# Tuomas Hietala <tuomas.hietala@iki.fi>, 2019, 2020.
 # Tuomas Lähteenmäki <lahtis@gmail.com>, 2020.
 # Riku Viitanen <riku.viitanen@protonmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2020-12-09 09:16+0000\n"
-"PO-Revision-Date: 2020-12-08 08:53+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2020-12-18 20:29+0000\n"
+"Last-Translator: Tuomas Hietala <tuomas.hietala@iki.fi>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/weblate/hosted/"
 "fi/>\n"
 "Language: fi\n"
@@ -374,25 +374,19 @@ msgid "Awaiting payment"
 msgstr ""
 
 #: wlhosted/payments/models.py:198
-#, fuzzy
-#| msgid "Payment card"
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "Maksukortti"
+msgstr "Maksu hylätty"
 
 #: wlhosted/payments/models.py:199
-#, fuzzy
-#| msgid "Payment cancelled"
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "Maksu peruttu"
+msgstr "Maksu hyväksytty"
 
 #: wlhosted/payments/models.py:200
-#, fuzzy
-#| msgid "Payment processors."
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "Maksunkäsittelijät."
+msgstr "Maksu käsitelty"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
