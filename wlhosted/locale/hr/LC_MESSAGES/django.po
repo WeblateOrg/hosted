@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2020-12-09 09:16+0000\n"
-"PO-Revision-Date: 2020-12-10 19:46+0000\n"
+"PO-Revision-Date: 2020-12-22 19:29+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/weblate/hosted/"
 "hr/>\n"
@@ -372,7 +372,7 @@ msgstr "Novo plaćanje"
 #: wlhosted/payments/models.py:197
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr "Očekuje se plaćanje"
+msgstr "Čeka se na plaćanje"
 
 #: wlhosted/payments/models.py:198
 msgctxt "Payment state"
