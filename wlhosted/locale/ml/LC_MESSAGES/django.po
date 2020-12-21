@@ -4,13 +4,14 @@
 # Weblate <noreply@weblate.org>, 2020.
 # Vachan <vachan2014carmel@gmail.com>, 2020.
 # Michal Čihař <michal@cihar.com>, 2020.
+# vachan-maker <vachan2014carmel@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2020-12-09 09:16+0000\n"
-"PO-Revision-Date: 2020-10-26 18:45+0000\n"
-"Last-Translator: Michal Čihař <michal@cihar.com>\n"
+"PO-Revision-Date: 2020-12-22 19:29+0000\n"
+"Last-Translator: vachan-maker <vachan2014carmel@gmail.com>\n"
 "Language-Team: Malayalam <https://hosted.weblate.org/projects/weblate/hosted/"
 "ml/>\n"
 "Language: ml\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3.2-dev\n"
+"X-Generator: Weblate 4.4-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -85,7 +86,7 @@ msgstr ""
 #: wlhosted/integrations/templates/hosted/create.html:63
 #: wlhosted/integrations/templates/hosted/create.html:66
 msgid "Unlimited"
-msgstr ""
+msgstr "പരിധിയില്ലാത്തത്"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
 msgid "Languages limit"
@@ -240,7 +241,7 @@ msgstr "പേയ്‌മെന്റ് റദ്ദാക്കി"
 
 #: wlhosted/payments/backends.py:417
 msgid "Payment error"
-msgstr ""
+msgstr "പേയ്‌മെന്റിൽ തകരാർ"
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
@@ -293,7 +294,7 @@ msgstr ""
 
 #: wlhosted/payments/models.py:95
 msgid "Company or individual name"
-msgstr ""
+msgstr "കമ്പനി അല്ലെങ്കിൽ വ്യക്തിയുടെ പേര്"
 
 #: wlhosted/payments/models.py:98
 msgid "Address"
@@ -344,7 +345,7 @@ msgstr ""
 #: wlhosted/payments/models.py:198
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr ""
+msgstr "പേയ്‌മെന്റ് നിരസിച്ചു"
 
 #: wlhosted/payments/models.py:199
 msgctxt "Payment state"
@@ -354,7 +355,7 @@ msgstr "പേയ്‌മെന്റ് സ്വീകരിച്ചു"
 #: wlhosted/payments/models.py:200
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr ""
+msgstr "പേയ്‌മെന്റ് പ്രോസസ്സ് ചെയ്‌തു"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
