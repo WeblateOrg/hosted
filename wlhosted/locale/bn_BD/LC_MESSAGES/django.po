@@ -4,13 +4,14 @@
 # Weblate <noreply@weblate.org>, 2018.
 # Brikkho <admin@brikkho.net>, 2020.
 # Hasan Parvez <rokibulhasanparvez@gmail.com>, 2020.
+# Samiul Joy <samiuljoy46@yahoo.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2020-12-09 09:16+0000\n"
-"PO-Revision-Date: 2020-11-26 15:56+0000\n"
-"Last-Translator: Hasan Parvez <rokibulhasanparvez@gmail.com>\n"
+"PO-Revision-Date: 2020-12-26 21:32+0000\n"
+"Last-Translator: Samiul Joy <samiuljoy46@yahoo.com>\n"
 "Language-Team: Bengali (Bangladesh) <https://hosted.weblate.org/projects/"
 "weblate/hosted/bn_BD/>\n"
 "Language: bn_BD\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.4.1-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 #, fuzzy
@@ -232,64 +233,64 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
-msgstr "প্রাথমিক"
+msgstr "প্রাথমিক কার্ড"
 
 #: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
-msgstr ""
+msgstr "অর্থ প্রদান বাতিল"
 
 #: wlhosted/payments/backends.py:417
 msgid "Payment error"
-msgstr ""
+msgstr "অর্থ প্রদানে ত্রুটি"
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
-msgstr ""
+msgstr "বিটকয়েন"
 
 #: wlhosted/payments/backends.py:438
 msgid "IBAN bank transfer"
-msgstr ""
+msgstr "IBAN ব্যাংক লেনদেন"
 
 #: wlhosted/payments/backends.py:468
 msgid "Issuing bank"
-msgstr ""
+msgstr "ব্যাংক ইস্যু"
 
 #: wlhosted/payments/backends.py:469
 msgid "Account holder"
-msgstr ""
+msgstr "হিসাব ধারী"
 
 #: wlhosted/payments/backends.py:470
 msgid "Account number"
-msgstr ""
+msgstr "হিসাব নম্বর"
 
 #: wlhosted/payments/backends.py:471
 msgid "SWIFT code"
-msgstr ""
+msgstr "SWIFT কোড"
 
 #: wlhosted/payments/backends.py:472
 msgid "IBAN"
-msgstr ""
+msgstr "IBAN"
 
 #: wlhosted/payments/backends.py:473
 msgid "Reference"
-msgstr ""
+msgstr "রেফারেন্স"
 
 #: wlhosted/payments/models.py:78
 msgid "European VAT ID"
-msgstr ""
+msgstr "ইউরোপীয়ান VAT ID"
 
 #: wlhosted/payments/models.py:80
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
-msgstr ""
+msgstr "দয়া করে ইউরোপীয় ভ্যাট আইডি পূরণ করুন, প্রযোজ্য না হলে খালি রেখে দিন৷"
 
 #: wlhosted/payments/models.py:86
 msgid "Tax registration"
-msgstr ""
+msgstr "কর নিবন্ধন"
 
 #: wlhosted/payments/models.py:88
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
-msgstr ""
+msgstr "আপনার ট্যাক্স নিবন্ধন পূরণ করুন যদি এটি চালানে প্রদর্শিত হওয়া উচিত।"
 
 #: wlhosted/payments/models.py:95
 msgid "Company or individual name"
