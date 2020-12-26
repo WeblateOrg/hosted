@@ -4,11 +4,11 @@
 # Ouchene <merzouk.ouchene@laposte.net>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2020-12-09 09:16+0000\n"
-"PO-Revision-Date: 2020-12-08 08:53+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2020-12-26 21:32+0000\n"
+"Last-Translator: Muḥend Belqasem <belkacem77@gmail.com>\n"
 "Language-Team: Kabyle <https://hosted.weblate.org/projects/weblate/hosted/"
 "kab/>\n"
 "Language: kab\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.4.1-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -143,10 +143,8 @@ msgstr ""
 "tiddukla n turuft."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
-#, fuzzy
-#| msgid "Thank you for purchasing a hosting plan, it is now active."
 msgid "Thank you for the payment, your billing is now paid."
-msgstr "Tanemmirt ɣef tiɣin n uɣawas n tnezduɣt, tura yermed."
+msgstr "Tanemmirt ɣef lexlaṣ, tafakturt-ik tettwaxelleṣ tura."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
@@ -157,10 +155,8 @@ msgid "Check your billing status"
 msgstr "Senqed addad n tfaturt-ik"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
-#, fuzzy
-#| msgid "Create billing plan"
 msgid "Your billing plan was paid"
-msgstr "Rnu aɣawas n ufter"
+msgstr "Aɣawas-ik n ufter yettwaxelleṣ"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
@@ -206,6 +202,14 @@ msgid ""
 "\n"
 "%s\n"
 msgstr ""
+"Azul,\n"
+"\n"
+"Tanemmirt-ik ɣef lexlaṣ deg weblate.org.\n"
+"\n"
+"Ad tafeḍ tafakturt- n lexlaṣ-a teddad-d dagi.\n"
+"Neɣ ma ulac, tzemreḍ ad tt-id-tessadreḍ seg usmel web:\n"
+"\n"
+"%s\n"
 
 #: wlhosted/payments/backends.py:220
 msgid "Your payment on weblate.org failed"
