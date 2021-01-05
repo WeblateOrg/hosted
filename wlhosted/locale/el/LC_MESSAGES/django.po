@@ -1,24 +1,24 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# THANOS SIOURDAKIS <siourdakisthanos@gmail.com>, 2019, 2020.
+# THANOS SIOURDAKIS <siourdakisthanos@gmail.com>, 2019, 2020, 2021.
 # anonymous <noreply@weblate.org>, 2019.
 # george k <norhorn@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2020-12-09 09:16+0000\n"
-"PO-Revision-Date: 2020-12-08 08:53+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Greek <https://hosted.weblate.org/projects/weblate/hosted/el/"
-">\n"
+"PO-Revision-Date: 2021-01-06 11:29+0000\n"
+"Last-Translator: THANOS SIOURDAKIS <siourdakisthanos@gmail.com>\n"
+"Language-Team: Greek <https://hosted.weblate.org/projects/weblate/hosted/el/>"
+"\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.4.1-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -59,7 +59,7 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
-msgstr ""
+msgstr "Τρέχουσα κατάσταση χρέωσης"
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
@@ -128,30 +128,34 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
-msgstr ""
+msgstr "Όλες οι αναφερόμενες τιμές δεν περιλαμβάνουν ΦΠΑ."
 
 #: wlhosted/integrations/templates/hosted/create.html:100
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
+"Οι τελικοί χρήστες της ΕΕ και οι τσεχικές εταιρείες θα χρεωθούν με επιπλέον "
+"ΦΠΑ 21%%."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
+"Η αντίστροφη χρέωση ισχύει για τα τιμολόγια που εκδίδονται σε επιχειρήσεις "
+"εντός της ΕΕ."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
-msgstr ""
+msgstr "Σας ευχαριστούμε για την πληρωμή, η χρέωσή σας έχει πλέον πληρωθεί."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "Αυτό το πρόγραμμα χρέωσης καλύπτει τα ακόλουθα έργα:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
-msgstr ""
+msgstr "Ελέγξτε την κατάσταση χρέωσής σας"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
@@ -159,29 +163,32 @@ msgstr "Το πρόγραμμα χρέωσής σας πληρώθηκε"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
-msgstr ""
+msgstr "Δεν βρέθηκε αντίστοιχη πληρωμή."
 
 #: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr ""
+"Σας ευχαριστούμε που αγοράσατε ένα πρόγραμμα φιλοξενίας, είναι πλέον ενεργό."
 
 #: wlhosted/integrations/views.py:83
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
+"Σας ευχαριστούμε που αγοράσατε ένα πρόγραμμα φιλοξενίας, η πληρωμή του "
+"εκκρεμεί και θα υποβληθεί σε επεξεργασία στο παρασκήνιο."
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
-msgstr ""
+msgstr "Η πληρωμή απορρίφθηκε: {}"
 
 #: wlhosted/integrations/views.py:96
 msgid "Unknown reason"
-msgstr ""
+msgstr "Άγνωστος λόγος"
 
 #: wlhosted/integrations/views.py:112
 msgid "Payments are temporarily inactive."
-msgstr ""
+msgstr "Οι πληρωμές είναι προσωρινά ανενεργές."
 
 #: wlhosted/payments/backends.py:192
 msgid "Your payment on weblate.org"
@@ -199,6 +206,14 @@ msgid ""
 "\n"
 "%s\n"
 msgstr ""
+"Γεια σας,\n"
+"\n"
+"Σας ευχαριστούμε για την πληρωμή σας στο weblate.org.\n"
+"\n"
+"Θα βρείτε ένα συνημμένο τιμολόγιο για αυτήν την πληρωμή.\n"
+"Εναλλακτικά, μπορείτε να το κατεβάσετε από τον ιστότοπο:\n"
+"\n"
+"%s\n"
 
 #: wlhosted/payments/backends.py:220
 msgid "Your payment on weblate.org failed"
@@ -220,6 +235,18 @@ msgid ""
 "If concerning a recurring payment, it is retried three times,\n"
 "and if still failing, cancelled.\n"
 msgstr ""
+"Γεια σας,\n"
+"\n"
+"Η πληρωμή σας στο weblate.org απέτυχε.\n"
+"\n"
+"%s\n"
+"\n"
+"Δοκιμάστε να εκδώσετε την πληρωμή στον ιστότοπο:\n"
+"\n"
+"%s\n"
+"\n"
+"Εάν πρόκειται για επαναλαμβανόμενη πληρωμή, επαναλαμβάνεται τρεις φορές,\n"
+"και εάν εξακολουθεί να αποτυγχάνει, ακυρώνεται.\n"
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
@@ -232,6 +259,11 @@ msgid ""
 "Your payment on weblate.org is pending. Please follow the provided\n"
 "instructions to complete the payment.\n"
 msgstr ""
+"Γεια σας,\n"
+"\n"
+"Η πληρωμή σας στο weblate.org εκκρεμεί. Παρακάλω ακολουθήστε τις "
+"παρεχόμενες\n"
+"οδηγίες για την ολοκλήρωση της πληρωμής.\n"
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
