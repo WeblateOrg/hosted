@@ -101,12 +101,20 @@ class HostedConf(AppConf):
 def propagate_user_changes(sender, instance, **kwargs):
     from wlhosted.integrations.tasks import notify_user_change
 
-    if not instance.pk or instance.is_anonymous:
+    if instance.is_anonymous:
         return
-    old = User.objects.get(pk=instance.pk)
+    fields = ("username", "last_name", "email")
+    create = {}
     changed = {}
-    for field in ("username", "last_name", "email"):
-        if getattr(old, field) != getattr(instance, field):
-            changed[field] = getattr(instance, field)
-    if changed or old.password != instance.password:
-        notify_user_change.delay(old.username, changed)
+    username = instance.username
+    for field in fields:
+        create[field] = getattr(instance, field)
+
+    if instance.pk:
+        old = User.objects.get(pk=instance.pk)
+        username = old.username
+        for field in ("username", "last_name", "email"):
+            if getattr(old, field) != getattr(instance, field):
+                changed[field] = getattr(instance, field)
+
+    notify_user_change.delay(username, changed, create)
