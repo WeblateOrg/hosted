@@ -82,6 +82,8 @@ def recurring_payments():
 
 @app.task
 def notify_user_change(username, changes, create):
+    if not settings.PAYMENT_SECRET:
+        return
     response = requests.post(
         "https://weblate.org/api/user/",
         data={
