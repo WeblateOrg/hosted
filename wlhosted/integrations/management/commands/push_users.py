@@ -18,7 +18,7 @@
 #
 
 from django.core.management.base import BaseCommand
-from webalte.auth.models import User
+from weblate.auth.models import User
 
 from wlhosted.integrations.models import propagate_user_changes
 
