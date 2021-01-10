@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # anonymous <noreply@weblate.org>, 2019.
 # Whod <whodizhod@gmail.com>, 2020.
+# Georgi <g.georgiev.shumen@gmail.com>, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2020-12-09 09:16+0000\n"
-"PO-Revision-Date: 2020-09-14 11:52+0000\n"
-"Last-Translator: Whod <whodizhod@gmail.com>\n"
+"PO-Revision-Date: 2021-01-11 18:32+0000\n"
+"Last-Translator: Georgi <g.georgiev.shumen@gmail.com>\n"
 "Language-Team: Bulgarian <https://hosted.weblate.org/projects/weblate/hosted/"
 "bg/>\n"
 "Language: bg\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3-dev\n"
+"X-Generator: Weblate 4.4.1-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -109,7 +110,7 @@ msgstr "%(price)s € / месец"
 #: wlhosted/integrations/templates/hosted/create.html:85
 #, python-format
 msgid "%(price)s EUR including VAT"
-msgstr ""
+msgstr "%(price)s € с ДДС"
 
 #: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
@@ -133,7 +134,7 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
-msgstr ""
+msgstr "Цените са без ДДС."
 
 #: wlhosted/integrations/templates/hosted/create.html:100
 #, python-format
@@ -239,56 +240,52 @@ msgid ""
 msgstr ""
 
 #: wlhosted/payments/backends.py:339
-#, fuzzy
-#| msgid "Failed to process form!"
 msgid "Payment card"
-msgstr "Грешка при обработката на формуляра!"
+msgstr "Разплащателна карта"
 
 #: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
-msgstr ""
+msgstr "Плащането е отменено"
 
 #: wlhosted/payments/backends.py:417
-#, fuzzy
-#| msgid "Failed to process form!"
 msgid "Payment error"
-msgstr "Грешка при обработката на формуляра!"
+msgstr "Грешка при плащането"
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
-msgstr ""
+msgstr "Биткойн"
 
 #: wlhosted/payments/backends.py:438
 msgid "IBAN bank transfer"
-msgstr ""
+msgstr "Банков превод по IBAN"
 
 #: wlhosted/payments/backends.py:468
 msgid "Issuing bank"
-msgstr ""
+msgstr "Емисионна банка"
 
 #: wlhosted/payments/backends.py:469
 msgid "Account holder"
-msgstr ""
+msgstr "Титуляр на сметката"
 
 #: wlhosted/payments/backends.py:470
 msgid "Account number"
-msgstr ""
+msgstr "Номер на сметката"
 
 #: wlhosted/payments/backends.py:471
 msgid "SWIFT code"
-msgstr ""
+msgstr "SWIFT код"
 
 #: wlhosted/payments/backends.py:472
 msgid "IBAN"
-msgstr ""
+msgstr "IBAN"
 
 #: wlhosted/payments/backends.py:473
 msgid "Reference"
-msgstr ""
+msgstr "Справка"
 
 #: wlhosted/payments/models.py:78
 msgid "European VAT ID"
-msgstr ""
+msgstr "Европейски ДДС №"
 
 #: wlhosted/payments/models.py:80
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
@@ -309,15 +306,15 @@ msgstr ""
 
 #: wlhosted/payments/models.py:98
 msgid "Address"
-msgstr ""
+msgstr "Адрес"
 
 #: wlhosted/payments/models.py:101
 msgid "Postcode and city"
-msgstr ""
+msgstr "Пощенски код и град"
 
 #: wlhosted/payments/models.py:103
 msgid "Country"
-msgstr ""
+msgstr "Държава"
 
 #: wlhosted/payments/models.py:135
 msgid "The country has to match your VAT code"
@@ -346,33 +343,27 @@ msgstr ""
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "Ново плащане"
 
 #: wlhosted/payments/models.py:197
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr ""
+msgstr "В очакване на плащане"
 
 #: wlhosted/payments/models.py:198
-#, fuzzy
-#| msgid "Failed to process form!"
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "Грешка при обработката на формуляра!"
+msgstr "Плащането е отхвърлено"
 
 #: wlhosted/payments/models.py:199
-#, fuzzy
-#| msgid "Failed to process form!"
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "Грешка при обработката на формуляра!"
+msgstr "Плащането е прието"
 
 #: wlhosted/payments/models.py:200
-#, fuzzy
-#| msgid "Failed to process form!"
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "Грешка при обработката на формуляра!"
+msgstr "Плащането е обработено"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
