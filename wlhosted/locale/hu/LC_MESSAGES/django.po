@@ -11,13 +11,14 @@
 # Michal Čihař <michal@cihar.com>, 2019.
 # Balázs Meskó <meskobalazs@mailbox.org>, 2020.
 # sakaitsu <zsolttokio@gmail.com>, 2020.
+# WALKTHROUGH RAYMAND LEGENDS <mestermc594@gmail.com>, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2020-12-09 09:16+0000\n"
-"PO-Revision-Date: 2020-11-20 09:51+0000\n"
-"Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
+"PO-Revision-Date: 2021-01-22 22:55+0000\n"
+"Last-Translator: WALKTHROUGH RAYMAND LEGENDS <mestermc594@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/weblate/hosted/"
 "hu/>\n"
 "Language: hu\n"
@@ -25,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.5-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -152,10 +153,8 @@ msgstr ""
 "vonatkozik."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
-#, fuzzy
-#| msgid "Thank you for purchasing a hosting plan, it is now active."
 msgid "Thank you for the payment, your billing is now paid."
-msgstr "Köszönjük, hogy megvásárolta a tárhelyet, most már aktív."
+msgstr "Köszönjük a befizetést, számlázása most már kifizetésre került."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
@@ -166,10 +165,8 @@ msgid "Check your billing status"
 msgstr "Számlázási állapot ellenőrzése"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
-#, fuzzy
-#| msgid "Create billing plan"
 msgid "Your billing plan was paid"
-msgstr "Számlázási csomag létrehozása"
+msgstr "Számlázási terve kifizetésre került"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
@@ -204,16 +201,7 @@ msgid "Your payment on weblate.org"
 msgstr "Befizetése a weblate.org webhelyen"
 
 #: wlhosted/payments/backends.py:194
-#, fuzzy, python-format
-#| msgid ""
-#| "Hello\n"
-#| "\n"
-#| "Thank you for your payment on weblate.org.\n"
-#| "\n"
-#| "You will find an invoice for this payment attached.\n"
-#| "Alternatively you can download it from the website:\n"
-#| "\n"
-#| "%s\n"
+#, python-format
 msgid ""
 "Hello,\n"
 "\n"
@@ -224,7 +212,7 @@ msgid ""
 "\n"
 "%s\n"
 msgstr ""
-"Üdvözlet\n"
+"Üdvözlet,\n"
 "\n"
 "Köszönjük fizetését a weblate.org webhelyen.\n"
 "\n"
@@ -238,7 +226,7 @@ msgid "Your payment on weblate.org failed"
 msgstr "A fizetés a weblate.org-on sikertelen volt"
 
 #: wlhosted/payments/backends.py:222
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "Hello,\n"
 "\n"
@@ -253,12 +241,13 @@ msgid ""
 "If concerning a recurring payment, it is retried three times,\n"
 "and if still failing, cancelled.\n"
 msgstr ""
+"Helló, A weblate.org oldalon történő fizetése nem sikerült. % s Próbálkozzon "
+"újra a fizetés kiadásával a webhelyen: % s Ismétlődő fizetés esetén "
+"háromszor próbálják újra, és ha még mindig nem sikerül, akkor lemondják.\n"
 
 #: wlhosted/payments/backends.py:255
-#, fuzzy
-#| msgid "Your payment on weblate.org"
 msgid "Your pending payment on weblate.org"
-msgstr "Befizetése a weblate.org webhelyen"
+msgstr "Függőben lévő fizetése a weblate.org oldalon"
 
 #: wlhosted/payments/backends.py:257
 msgid ""
@@ -267,6 +256,8 @@ msgid ""
 "Your payment on weblate.org is pending. Please follow the provided\n"
 "instructions to complete the payment.\n"
 msgstr ""
+"Helló, Fizetése a weblate.org oldalon függőben van. Kérjük, kövesse a "
+"megadottakat utasításokat a fizetés teljesítéséhez.\n"
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
