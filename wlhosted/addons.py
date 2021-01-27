@@ -55,7 +55,7 @@ class ResetAddon(BaseAddon):
     name = "weblate.hosted.reset"
     # Verbose name and long descrption
     verbose = _("Reset repository to upstream")
-    description = _("Reset all changes in the local repository")
+    description = _("Discards all changes in the Weblate repository each night.")
     repo_scope = True
 
     @classmethod
