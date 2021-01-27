@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2020-12-09 09:16+0000\n"
+"POT-Creation-Date: 2021-01-27 08:35+0000\n"
 "PO-Revision-Date: 2020-08-08 07:37+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/weblate/hosted/nl/"
@@ -30,7 +30,9 @@ msgid "Reset repository to upstream"
 msgstr "Opslagplaats opnieuw instellen naar upstream"
 
 #: wlhosted/addons.py:58
-msgid "Reset all changes in the local repository"
+#, fuzzy
+#| msgid "Reset all changes in the local repository"
+msgid "Discards all changes in the Weblate repository each night."
 msgstr "Alle wijzigingen in de lokale opslagruimte herstellen"
 
 #: wlhosted/integrations/forms.py:32
@@ -309,85 +311,85 @@ msgstr "IBAN"
 msgid "Reference"
 msgstr "Referentie"
 
-#: wlhosted/payments/models.py:78
+#: wlhosted/payments/models.py:77
 msgid "European VAT ID"
 msgstr "Europees btw-nummer"
 
-#: wlhosted/payments/models.py:80
+#: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr "Voer het Europese btw-nummer in. Laat leeg indien niet van toepassing."
 
-#: wlhosted/payments/models.py:86
+#: wlhosted/payments/models.py:85
 msgid "Tax registration"
 msgstr "Fiscale registratie"
 
-#: wlhosted/payments/models.py:88
+#: wlhosted/payments/models.py:87
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
 "Voer uw fiscale registratie in als deze op de factuur vermeld moet worden."
 
-#: wlhosted/payments/models.py:95
+#: wlhosted/payments/models.py:94
 msgid "Company or individual name"
 msgstr "Bedrijfs- of persoonsnaam"
 
-#: wlhosted/payments/models.py:98
+#: wlhosted/payments/models.py:97
 msgid "Address"
 msgstr "Adres"
 
-#: wlhosted/payments/models.py:101
+#: wlhosted/payments/models.py:100
 msgid "Postcode and city"
 msgstr "Postcode en gemeente"
 
-#: wlhosted/payments/models.py:103
+#: wlhosted/payments/models.py:102
 msgid "Country"
 msgstr "Land"
 
-#: wlhosted/payments/models.py:135
+#: wlhosted/payments/models.py:134
 msgid "The country has to match your VAT code"
 msgstr "Het land moet overeenkomen met uw btw-code"
 
-#: wlhosted/payments/models.py:158
+#: wlhosted/payments/models.py:157
 msgid "Annual"
 msgstr "Jaarlijks"
 
-#: wlhosted/payments/models.py:159
+#: wlhosted/payments/models.py:158
 msgid "Biannual"
 msgstr "Tweejaarlijks"
 
-#: wlhosted/payments/models.py:160
+#: wlhosted/payments/models.py:159
 msgid "Quarterly"
 msgstr "Driemaandelijks"
 
-#: wlhosted/payments/models.py:161
+#: wlhosted/payments/models.py:160
 msgid "Monthly"
 msgstr "Maandelijks"
 
-#: wlhosted/payments/models.py:162
+#: wlhosted/payments/models.py:161
 msgid "Onetime"
 msgstr "Eenmalig"
 
-#: wlhosted/payments/models.py:196
+#: wlhosted/payments/models.py:195
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Nieuwe betaling"
 
-#: wlhosted/payments/models.py:197
+#: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Wachtend op betaling"
 
-#: wlhosted/payments/models.py:198
+#: wlhosted/payments/models.py:197
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Betaling geweigerd"
 
-#: wlhosted/payments/models.py:199
+#: wlhosted/payments/models.py:198
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Betaling goedgekeurd"
 
-#: wlhosted/payments/models.py:200
+#: wlhosted/payments/models.py:199
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Betaling verwerkt"

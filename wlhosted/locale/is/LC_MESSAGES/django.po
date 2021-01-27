@@ -6,9 +6,9 @@
 # Sveinn í Felli <sv1@fellsnet.is>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate\n"
+"Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2020-12-09 09:16+0000\n"
+"POT-Creation-Date: 2021-01-27 08:35+0000\n"
 "PO-Revision-Date: 2020-12-13 12:29+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -29,7 +29,9 @@ msgid "Reset repository to upstream"
 msgstr "Frumstilla gagnageymslu til samræmis við aðalsafn"
 
 #: wlhosted/addons.py:58
-msgid "Reset all changes in the local repository"
+#, fuzzy
+#| msgid "Reset all changes in the local repository"
+msgid "Discards all changes in the Weblate repository each night."
 msgstr "Frumstilla allar breytingar í staðbundna gagnasafnið"
 
 #: wlhosted/integrations/forms.py:32
@@ -307,86 +309,86 @@ msgstr "IBAN"
 msgid "Reference"
 msgstr "Tilvísun"
 
-#: wlhosted/payments/models.py:78
+#: wlhosted/payments/models.py:77
 msgid "European VAT ID"
 msgstr "Evrópskt virðisaukaskattsnúmer"
 
-#: wlhosted/payments/models.py:80
+#: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "Vinsamlegast fylltu inn evrópskt virðisaukaskattsnúmer, skildu reitinn eftir "
 "auðan ef það á ekki við."
 
-#: wlhosted/payments/models.py:86
+#: wlhosted/payments/models.py:85
 msgid "Tax registration"
 msgstr "Skattnúmer"
 
-#: wlhosted/payments/models.py:88
+#: wlhosted/payments/models.py:87
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "Fylltu inn skattnúmer þitt ef það á að birtast á reikningnum."
 
-#: wlhosted/payments/models.py:95
+#: wlhosted/payments/models.py:94
 msgid "Company or individual name"
 msgstr "Nafn fyrirtækis eða einstaklings"
 
-#: wlhosted/payments/models.py:98
+#: wlhosted/payments/models.py:97
 msgid "Address"
 msgstr "Heimilisfang"
 
-#: wlhosted/payments/models.py:101
+#: wlhosted/payments/models.py:100
 msgid "Postcode and city"
 msgstr "Póstnúmer og staður"
 
-#: wlhosted/payments/models.py:103
+#: wlhosted/payments/models.py:102
 msgid "Country"
 msgstr "Land"
 
-#: wlhosted/payments/models.py:135
+#: wlhosted/payments/models.py:134
 msgid "The country has to match your VAT code"
 msgstr "Landið þarf að passa við virðisaukaskattsnúmerið"
 
-#: wlhosted/payments/models.py:158
+#: wlhosted/payments/models.py:157
 msgid "Annual"
 msgstr "Árlegt"
 
-#: wlhosted/payments/models.py:159
+#: wlhosted/payments/models.py:158
 msgid "Biannual"
 msgstr "Á tveggja ára fresti"
 
-#: wlhosted/payments/models.py:160
+#: wlhosted/payments/models.py:159
 msgid "Quarterly"
 msgstr "Ársfjórðungslega"
 
-#: wlhosted/payments/models.py:161
+#: wlhosted/payments/models.py:160
 msgid "Monthly"
 msgstr "Mánaðarlega"
 
-#: wlhosted/payments/models.py:162
+#: wlhosted/payments/models.py:161
 msgid "Onetime"
 msgstr "Eitt skipti"
 
-#: wlhosted/payments/models.py:196
+#: wlhosted/payments/models.py:195
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Ný greiðsla"
 
-#: wlhosted/payments/models.py:197
+#: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Bíður greiðslu"
 
-#: wlhosted/payments/models.py:198
+#: wlhosted/payments/models.py:197
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Greiðslu hafnað"
 
-#: wlhosted/payments/models.py:199
+#: wlhosted/payments/models.py:198
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Greiðsla samþykkt"
 
-#: wlhosted/payments/models.py:200
+#: wlhosted/payments/models.py:199
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Greiðsla meðhöndluð"

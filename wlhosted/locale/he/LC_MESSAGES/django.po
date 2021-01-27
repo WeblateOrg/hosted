@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2020-12-09 09:16+0000\n"
+"POT-Creation-Date: 2021-01-27 08:35+0000\n"
 "PO-Revision-Date: 2020-09-30 12:32+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/weblate/hosted/he/"
@@ -31,7 +31,9 @@ msgid "Reset repository to upstream"
 msgstr "איפוס המאגר לפי מאגר המקור"
 
 #: wlhosted/addons.py:58
-msgid "Reset all changes in the local repository"
+#, fuzzy
+#| msgid "Reset all changes in the local repository"
+msgid "Discards all changes in the Weblate repository each night."
 msgstr "איפוס כל השינויים במאגר המקומי"
 
 #: wlhosted/integrations/forms.py:32
@@ -302,84 +304,84 @@ msgstr "מספר זה״ב"
 msgid "Reference"
 msgstr "הפניה"
 
-#: wlhosted/payments/models.py:78
+#: wlhosted/payments/models.py:77
 msgid "European VAT ID"
 msgstr "מזהה מע״מ אירופאי"
 
-#: wlhosted/payments/models.py:80
+#: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr "נא למלא מזהה מע״מ אירופאי, יש להשאיר את השדה ריק אם אין בו צורך."
 
-#: wlhosted/payments/models.py:86
+#: wlhosted/payments/models.py:85
 msgid "Tax registration"
 msgstr "רישום מס"
 
-#: wlhosted/payments/models.py:88
+#: wlhosted/payments/models.py:87
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "נא למלא את פרטי רישום המס שלך אם אלו אמורים להופיע בחשבונית."
 
-#: wlhosted/payments/models.py:95
+#: wlhosted/payments/models.py:94
 msgid "Company or individual name"
 msgstr "שם האדם או החברה"
 
-#: wlhosted/payments/models.py:98
+#: wlhosted/payments/models.py:97
 msgid "Address"
 msgstr "כתובת"
 
-#: wlhosted/payments/models.py:101
+#: wlhosted/payments/models.py:100
 msgid "Postcode and city"
 msgstr "מיקוד ועיר"
 
-#: wlhosted/payments/models.py:103
+#: wlhosted/payments/models.py:102
 msgid "Country"
 msgstr "ארץ"
 
-#: wlhosted/payments/models.py:135
+#: wlhosted/payments/models.py:134
 msgid "The country has to match your VAT code"
 msgstr "על הארץ להיות תואמת לקוד המע״מ שלך"
 
-#: wlhosted/payments/models.py:158
+#: wlhosted/payments/models.py:157
 msgid "Annual"
 msgstr "שנתי"
 
-#: wlhosted/payments/models.py:159
+#: wlhosted/payments/models.py:158
 msgid "Biannual"
 msgstr "דו־שנתי"
 
-#: wlhosted/payments/models.py:160
+#: wlhosted/payments/models.py:159
 msgid "Quarterly"
 msgstr "רבעוני"
 
-#: wlhosted/payments/models.py:161
+#: wlhosted/payments/models.py:160
 msgid "Monthly"
 msgstr "חודשי"
 
-#: wlhosted/payments/models.py:162
+#: wlhosted/payments/models.py:161
 msgid "Onetime"
 msgstr "חד־פעמי"
 
-#: wlhosted/payments/models.py:196
+#: wlhosted/payments/models.py:195
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "תשלום חדש"
 
-#: wlhosted/payments/models.py:197
+#: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "בהמתנה לתשלום"
 
-#: wlhosted/payments/models.py:198
+#: wlhosted/payments/models.py:197
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "התשלום נדחה"
 
-#: wlhosted/payments/models.py:199
+#: wlhosted/payments/models.py:198
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "התשלום התקבל"
 
-#: wlhosted/payments/models.py:200
+#: wlhosted/payments/models.py:199
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "התשלום עבר עיבוד"

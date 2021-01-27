@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2020-12-09 09:16+0000\n"
+"POT-Creation-Date: 2021-01-27 08:35+0000\n"
 "PO-Revision-Date: 2020-10-28 03:26+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/weblate/hosted/fr/"
@@ -31,7 +31,9 @@ msgid "Reset repository to upstream"
 msgstr "Réinitialisation du dépôt en amont"
 
 #: wlhosted/addons.py:58
-msgid "Reset all changes in the local repository"
+#, fuzzy
+#| msgid "Reset all changes in the local repository"
+msgid "Discards all changes in the Weblate repository each night."
 msgstr "Réinitialiser toutes les modifications dans le dépôt local"
 
 #: wlhosted/integrations/forms.py:32
@@ -312,88 +314,88 @@ msgstr "IBAN"
 msgid "Reference"
 msgstr "Référence"
 
-#: wlhosted/payments/models.py:78
+#: wlhosted/payments/models.py:77
 msgid "European VAT ID"
 msgstr "ID de TVA européen"
 
-#: wlhosted/payments/models.py:80
+#: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "Veuillez indiquer un ID de TVA de l’Union européenne, laissez vide si non "
 "applicable."
 
-#: wlhosted/payments/models.py:86
+#: wlhosted/payments/models.py:85
 msgid "Tax registration"
 msgstr "Numéro fiscal"
 
-#: wlhosted/payments/models.py:88
+#: wlhosted/payments/models.py:87
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
 "Veuillez renseigner votre numéro fiscal si vous souhaitez qu’il apparaisse "
 "sur la facture."
 
-#: wlhosted/payments/models.py:95
+#: wlhosted/payments/models.py:94
 msgid "Company or individual name"
 msgstr "Nom de l’entreprise ou de l’individu"
 
-#: wlhosted/payments/models.py:98
+#: wlhosted/payments/models.py:97
 msgid "Address"
 msgstr "Adresse"
 
-#: wlhosted/payments/models.py:101
+#: wlhosted/payments/models.py:100
 msgid "Postcode and city"
 msgstr "Code postal et ville"
 
-#: wlhosted/payments/models.py:103
+#: wlhosted/payments/models.py:102
 msgid "Country"
 msgstr "Pays"
 
-#: wlhosted/payments/models.py:135
+#: wlhosted/payments/models.py:134
 msgid "The country has to match your VAT code"
 msgstr "Le pays doit correspondre au code de TVA européen"
 
-#: wlhosted/payments/models.py:158
+#: wlhosted/payments/models.py:157
 msgid "Annual"
 msgstr "Annuel"
 
-#: wlhosted/payments/models.py:159
+#: wlhosted/payments/models.py:158
 msgid "Biannual"
 msgstr "Biannuel"
 
-#: wlhosted/payments/models.py:160
+#: wlhosted/payments/models.py:159
 msgid "Quarterly"
 msgstr "Trimestriel"
 
-#: wlhosted/payments/models.py:161
+#: wlhosted/payments/models.py:160
 msgid "Monthly"
 msgstr "Mensuel"
 
-#: wlhosted/payments/models.py:162
+#: wlhosted/payments/models.py:161
 msgid "Onetime"
 msgstr "Unique"
 
-#: wlhosted/payments/models.py:196
+#: wlhosted/payments/models.py:195
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Nouveau paiement"
 
-#: wlhosted/payments/models.py:197
+#: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Paiement en attente"
 
-#: wlhosted/payments/models.py:198
+#: wlhosted/payments/models.py:197
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Paiement rejeté"
 
-#: wlhosted/payments/models.py:199
+#: wlhosted/payments/models.py:198
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Paiement accepté"
 
-#: wlhosted/payments/models.py:200
+#: wlhosted/payments/models.py:199
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Paiement terminé"

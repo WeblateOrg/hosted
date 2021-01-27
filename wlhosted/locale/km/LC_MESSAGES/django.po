@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2020-12-09 09:16+0000\n"
+"POT-Creation-Date: 2021-01-27 08:35+0000\n"
 "PO-Revision-Date: 2020-11-14 09:28+0000\n"
 "Last-Translator: ប៉ុកណូ រ៉ូយ៉ាល់ <royalpokno68@gmail.com>\n"
 "Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/weblate/"
@@ -30,7 +30,9 @@ msgid "Reset repository to upstream"
 msgstr "កំណត់ឃ្លាំងឡើងវិញទៅកាន់ upstream"
 
 #: wlhosted/addons.py:58
-msgid "Reset all changes in the local repository"
+#, fuzzy
+#| msgid "Reset all changes in the local repository"
+msgid "Discards all changes in the Weblate repository each night."
 msgstr "កំណត់រាល់ការផ្លាស់ប្តូរនៅក្នុងឃ្លាំងមូលដ្ឋានឡើងវិញ"
 
 #: wlhosted/integrations/forms.py:32
@@ -278,84 +280,84 @@ msgstr "IBAN"
 msgid "Reference"
 msgstr "សេចក្ដីយោង"
 
-#: wlhosted/payments/models.py:78
+#: wlhosted/payments/models.py:77
 msgid "European VAT ID"
 msgstr "លេខសម្គាល់ពន្ធអាករអ៊ឺរ៉ុប"
 
-#: wlhosted/payments/models.py:80
+#: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr "សូមបំពេញលេខសម្គាល់ពន្ធអាករលើតម្លៃបន្ថែមរបស់សហគមន៍អ៊ឺរ៉ុប ឫទុកវាឱ្យនៅទំនេរ បើមិនមាន។"
 
-#: wlhosted/payments/models.py:86
+#: wlhosted/payments/models.py:85
 msgid "Tax registration"
 msgstr "ការចុះឈ្មោះពន្ធ"
 
-#: wlhosted/payments/models.py:88
+#: wlhosted/payments/models.py:87
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "សូមបំពេញការចុះឈ្មោះបង់ពន្ធរបស់អ្នក ប្រសិនបើវាមានបង្ហាញនៅលើវិក្កយបត្រ។"
 
-#: wlhosted/payments/models.py:95
+#: wlhosted/payments/models.py:94
 msgid "Company or individual name"
 msgstr "ឈ្មោះក្រុមហ៊ុន ឬឯកត្ដជន"
 
-#: wlhosted/payments/models.py:98
+#: wlhosted/payments/models.py:97
 msgid "Address"
 msgstr "អាសយដ្ឋាន"
 
-#: wlhosted/payments/models.py:101
+#: wlhosted/payments/models.py:100
 msgid "Postcode and city"
 msgstr "លេខកូដប្រៃសណីយ៍ និងទីក្រុង"
 
-#: wlhosted/payments/models.py:103
+#: wlhosted/payments/models.py:102
 msgid "Country"
 msgstr "ប្រទេស"
 
-#: wlhosted/payments/models.py:135
+#: wlhosted/payments/models.py:134
 msgid "The country has to match your VAT code"
 msgstr "ប្រទេសត្រូវតែផ្គូរផ្គងលេខកូដ VAT របស់អ្នក"
 
-#: wlhosted/payments/models.py:158
+#: wlhosted/payments/models.py:157
 msgid "Annual"
 msgstr "ប្រចាំឆ្នាំ"
 
-#: wlhosted/payments/models.py:159
+#: wlhosted/payments/models.py:158
 msgid "Biannual"
 msgstr "ប្រចាំឆមាស"
 
-#: wlhosted/payments/models.py:160
+#: wlhosted/payments/models.py:159
 msgid "Quarterly"
 msgstr "ប្រចាំត្រីមាស"
 
-#: wlhosted/payments/models.py:161
+#: wlhosted/payments/models.py:160
 msgid "Monthly"
 msgstr "ប្រចាំខែ"
 
-#: wlhosted/payments/models.py:162
+#: wlhosted/payments/models.py:161
 msgid "Onetime"
 msgstr "តែម្ដង"
 
-#: wlhosted/payments/models.py:196
+#: wlhosted/payments/models.py:195
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "ការបង់ប្រាក់"
 
-#: wlhosted/payments/models.py:197
+#: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "រង់ចាំការទូទាត់ប្រាក់"
 
-#: wlhosted/payments/models.py:198
+#: wlhosted/payments/models.py:197
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "ការបង់ប្រាក់ត្រូវបានច្រានចោល"
 
-#: wlhosted/payments/models.py:199
+#: wlhosted/payments/models.py:198
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "ការបង់ប្រាក់បានទទួលយយក"
 
-#: wlhosted/payments/models.py:200
+#: wlhosted/payments/models.py:199
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "ការបង់ប្រាក់បានដំណើរការ"
