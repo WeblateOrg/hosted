@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Yasuhiko Kamata <belphegor@belbel.or.jp>, 2015, 2018.
-# Kyotaro Iijima <kyotaro.eyes@gmail.com>, 2018, 2019, 2020.
+# Kyotaro Iijima <kyotaro.eyes@gmail.com>, 2018, 2019, 2020, 2021.
 # Tetsuro Shimazaki <shimazaki@shima-office.com>, 2018, 2019, 2020.
 # Ryo Nakano <ryonakaknock3@gmail.com>, 2018, 2019.
 # Scott Anecito <scott.anecito@protonmail.com>, 2019.
@@ -10,10 +10,10 @@
 # Michal Čihař <michal@cihar.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2020-12-25 09:37+0000\n"
+"PO-Revision-Date: 2021-01-28 08:55+0000\n"
 "Last-Translator: Kyotaro Iijima <kyotaro.eyes@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/weblate/hosted/"
 "ja/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4.1-dev\n"
+"X-Generator: Weblate 4.5-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -33,10 +33,8 @@ msgid "Reset repository to upstream"
 msgstr "リポジトリをアップストリームにリセット"
 
 #: wlhosted/addons.py:58
-#, fuzzy
-#| msgid "Reset all changes in the local repository"
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "ローカルリポジトリ内のすべての変更をリセットする"
+msgstr "毎晩、Weblate リポジトリ内のすべての変更を破棄します。"
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
