@@ -1,5 +1,5 @@
 # Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2016.
-# Ldm Public <ldmpub@gmail.com>, 2018, 2019, 2020.
+# Ldm Public <ldmpub@gmail.com>, 2018, 2019, 2020, 2021.
 # Olivier Humbert <trebmuh@tuxfamily.org>, 2018, 2019, 2020, 2021.
 # ButterflyOfFire <ButterflyOfFire@protonmail.com>, 2018.
 # Estébastien Robespi <estebastien@mailbox.org>, 2019.
@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-01-27 21:27+0000\n"
-"Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
+"PO-Revision-Date: 2021-01-28 08:55+0000\n"
+"Last-Translator: Ldm Public <ldmpub@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/weblate/hosted/fr/"
 ">\n"
 "Language: fr\n"
@@ -32,7 +32,8 @@ msgstr "Réinitialisation du dépôt en amont"
 
 #: wlhosted/addons.py:58
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Abandonner toutes les modifications dans le dépôt Weblate chaque nuit."
+msgstr ""
+"Chaque nuit, ignorer toutes les modifications faites dans le dépôt Weblate."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
