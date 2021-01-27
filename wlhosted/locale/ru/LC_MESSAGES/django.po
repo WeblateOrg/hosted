@@ -9,14 +9,14 @@
 # solokot <solokot@gmail.com>, 2019.
 # Andrei Stepanov <adem4ik@gmail.com>, 2019.
 # Vadim Nekhai <vadimnekhai@gmail.com>, 2019.
-# Golubev Alexander <fatzer2@gmail.com>, 2020.
+# Golubev Alexander <fatzer2@gmail.com>, 2020, 2021.
 # Mingun <Alexander_Sergey@mail.ru>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2020-12-06 20:26+0000\n"
+"PO-Revision-Date: 2021-01-28 08:55+0000\n"
 "Last-Translator: Golubev Alexander <fatzer2@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/weblate/hosted/"
 "ru/>\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.5-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -37,10 +37,8 @@ msgid "Reset repository to upstream"
 msgstr "Сбросить репозиторий в исходное состояние"
 
 #: wlhosted/addons.py:58
-#, fuzzy
-#| msgid "Reset all changes in the local repository"
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Сбросить все изменения в локальном репозитории"
+msgstr "Отбрасывать все изменения в репозитории Weblate каждую ночь."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
