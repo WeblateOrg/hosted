@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2020-12-09 09:16+0000\n"
-"PO-Revision-Date: 2021-01-24 18:32+0000\n"
+"PO-Revision-Date: 2021-01-27 08:32+0000\n"
 "Last-Translator: Слободан Симић(Slobodan Simić) <slsimic@gmail.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/weblate/hosted/"
 "sr/>\n"
@@ -25,15 +25,15 @@ msgstr ""
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
-msgstr ""
+msgstr "Генерише податке за сценарио игре „Непознати хоризонти“"
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
-msgstr ""
+msgstr "Ресетуј складиште ка извору"
 
 #: wlhosted/addons.py:58
 msgid "Reset all changes in the local repository"
-msgstr "Поништи све измене у локалном складишту"
+msgstr "Поништава све измене у локалном складишту"
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
@@ -57,19 +57,19 @@ msgstr "Нови план наплате"
 
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
-msgstr ""
+msgstr "Изаберите хостинг план који одговара величини вашег пројекта."
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
-msgstr ""
+msgstr "Тренутни статус наплате"
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
-msgstr ""
+msgstr "Премали за ваш пројекат."
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small"
-msgstr ""
+msgstr "Премали"
 
 #: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
@@ -140,7 +140,7 @@ msgstr "ЕУ корисницима и чешким компанијама би�
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
-msgstr ""
+msgstr "Повраћај трошкова примењује се на рачуне издате предузећима унутар ЕУ."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
