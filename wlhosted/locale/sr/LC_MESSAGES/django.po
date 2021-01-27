@@ -8,10 +8,10 @@
 # Слободан Симић(Slobodan Simić) <slsimic@gmail.com>, 2020, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-01-27 08:32+0000\n"
+"PO-Revision-Date: 2021-01-28 08:55+0000\n"
 "Last-Translator: Слободан Симић(Slobodan Simić) <slsimic@gmail.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/weblate/hosted/"
 "sr/>\n"
@@ -25,17 +25,15 @@ msgstr ""
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
-msgstr "Генерише податке за сценарио игре „Непознати хоризонти“"
+msgstr "Генериши податке за сценарио игре „Непознати хоризонти“"
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
 msgstr "Ресетуј складиште ка извору"
 
 #: wlhosted/addons.py:58
-#, fuzzy
-#| msgid "Reset all changes in the local repository"
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Поништава све измене у локалном складишту"
+msgstr "Поништава све измене у Веблејт складишту сваке ноћи."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
@@ -90,7 +88,7 @@ msgstr "Ограничење низова"
 #: wlhosted/integrations/templates/hosted/create.html:63
 #: wlhosted/integrations/templates/hosted/create.html:66
 msgid "Unlimited"
-msgstr "Неограничено"
+msgstr "Неограничен"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
 msgid "Languages limit"
@@ -173,6 +171,8 @@ msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
+"Хвала вам на куповини хостинг плана. Плаћање је у току и биће обрађено у "
+"позадини."
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
@@ -231,10 +231,22 @@ msgid ""
 "If concerning a recurring payment, it is retried three times,\n"
 "and if still failing, cancelled.\n"
 msgstr ""
+"Здраво.\n"
+"\n"
+"ВАше плаћање на weblate.org has није успело.\n"
+"\n"
+"%s\n"
+"\n"
+"Покушајте плаћање поново на веб сајту:\n"
+"\n"
+"%s\n"
+"\n"
+"Ако вас брине поновљено плаћање, покушава се три пута,\n"
+"па ако и даље не пролази, отказује се.\n"
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
-msgstr "Ваша дуговања на weblate.org"
+msgstr "Ваша плаћања у обради на weblate.org"
 
 #: wlhosted/payments/backends.py:257
 msgid ""
@@ -243,6 +255,10 @@ msgid ""
 "Your payment on weblate.org is pending. Please follow the provided\n"
 "instructions to complete the payment.\n"
 msgstr ""
+"Здраво.\n"
+"\n"
+"Ваше плаћање на weblate.org је у обради. Пратите дате\n"
+"инструкције да довршите плаћање.\n"
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
@@ -274,76 +290,76 @@ msgstr "Власник рачуна"
 
 #: wlhosted/payments/backends.py:470
 msgid "Account number"
-msgstr ""
+msgstr "Број рачуна"
 
 #: wlhosted/payments/backends.py:471
 msgid "SWIFT code"
-msgstr ""
+msgstr "SWIFT код"
 
 #: wlhosted/payments/backends.py:472
 msgid "IBAN"
-msgstr ""
+msgstr "IBAN"
 
 #: wlhosted/payments/backends.py:473
 msgid "Reference"
-msgstr ""
+msgstr "Референца"
 
 #: wlhosted/payments/models.py:77
 msgid "European VAT ID"
-msgstr ""
+msgstr "Европски ПДВ ИД"
 
 #: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
-msgstr ""
+msgstr "Попуните европски ПДВ ИД. Оставите празно ако се не примењује."
 
 #: wlhosted/payments/models.py:85
 msgid "Tax registration"
-msgstr ""
+msgstr "Пореска пријава"
 
 #: wlhosted/payments/models.py:87
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
-msgstr ""
+msgstr "Попуните своју пореску пријаву ако је потребно да се појави на рачуну."
 
 #: wlhosted/payments/models.py:94
 msgid "Company or individual name"
-msgstr ""
+msgstr "Предузеће или лично име"
 
 #: wlhosted/payments/models.py:97
 msgid "Address"
-msgstr ""
+msgstr "Адреса"
 
 #: wlhosted/payments/models.py:100
 msgid "Postcode and city"
-msgstr ""
+msgstr "Поштански број и место"
 
 #: wlhosted/payments/models.py:102
 msgid "Country"
-msgstr ""
+msgstr "Држава"
 
 #: wlhosted/payments/models.py:134
 msgid "The country has to match your VAT code"
-msgstr ""
+msgstr "Држава мора да се поклапа са ПДВ кодом"
 
 #: wlhosted/payments/models.py:157
 msgid "Annual"
-msgstr ""
+msgstr "годишње"
 
 #: wlhosted/payments/models.py:158
 msgid "Biannual"
-msgstr ""
+msgstr "двогодишње"
 
 #: wlhosted/payments/models.py:159
 msgid "Quarterly"
-msgstr ""
+msgstr "квартално"
 
 #: wlhosted/payments/models.py:160
 msgid "Monthly"
-msgstr "Месечно"
+msgstr "месечно"
 
 #: wlhosted/payments/models.py:161
 msgid "Onetime"
-msgstr "Једнократно"
+msgstr "једнократно"
 
 #: wlhosted/payments/models.py:195
 msgctxt "Payment state"
@@ -372,19 +388,19 @@ msgstr "Плаћање обрађено"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
-msgstr ""
+msgstr "{} није исправан код државе чланице Европске уније."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr ""
+msgstr "{} се не поклапа са спецификацијом ПДВ ИД државе."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
-msgstr ""
+msgstr "Сервис за проверу ПДВ ИД државе {} није доступан. Покушајте касније."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr ""
+msgstr "{} није исправан ПДВ ИД."
 
 #, fuzzy
 #~| msgid "Version control"
