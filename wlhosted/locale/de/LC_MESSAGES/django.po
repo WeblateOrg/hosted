@@ -11,13 +11,14 @@
 # Swann Martinet <swann.ranskassa@laposte.net>, 2019.
 # iLocIT! <matthiasc@ilocit.de>, 2019, 2020.
 # 5nake <jakob.mayer@htlstp.at>, 2021.
+# nautilusx <translate@disroot.org>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-01-27 18:27+0000\n"
-"Last-Translator: 5nake <jakob.mayer@htlstp.at>\n"
+"PO-Revision-Date: 2021-01-28 08:55+0000\n"
+"Last-Translator: nautilusx <translate@disroot.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/weblate/hosted/de/"
 ">\n"
 "Language: de\n"
@@ -37,7 +38,7 @@ msgstr "Repository auf Upstream zurücksetzen"
 
 #: wlhosted/addons.py:58
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Verwirft alle Änderungen im Weblate Repository jede Nacht."
+msgstr "Verwirft jede Nacht alle Änderungen im Weblate-Repository."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
