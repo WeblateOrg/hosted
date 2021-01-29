@@ -1,15 +1,15 @@
 # Jonatan Nyberg <jonatan.nyberg.karl@gmail.com>, 2018, 2019.
-# Johan Jacobsson <johan.jacobsson@telia.com>, 2018, 2019, 2020.
+# Johan Jacobsson <johan.jacobsson@telia.com>, 2018, 2019, 2020, 2021.
 # Filip Bengtsson <filipbengtsson@live.se>, 2019.
 # G Ran Berg <jagflashardinxbox360@gmail.com>, 2019.
 # Mattias Münster <mattiasmun@gmail.com>, 2019.
 # Michal Čihař <michal@cihar.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2020-08-08 07:37+0000\n"
+"PO-Revision-Date: 2021-01-29 20:41+0000\n"
 "Last-Translator: Johan Jacobsson <johan.jacobsson@telia.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/weblate/hosted/"
 "sv/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.2-dev\n"
+"X-Generator: Weblate 4.5-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -29,10 +29,8 @@ msgid "Reset repository to upstream"
 msgstr "Återställ förrådet till uppströms"
 
 #: wlhosted/addons.py:58
-#, fuzzy
-#| msgid "Reset all changes in the local repository"
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Återställ alla ändringar i det lokala arkivet"
+msgstr "Kasserar alla ändringar i Weblate-arkivet varje natt."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
