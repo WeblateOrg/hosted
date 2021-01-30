@@ -4,13 +4,13 @@
 # 송태섭 <xotjq237@gmail.com>, 2018, 2019.
 # k ks <kmshts@naver.com>, 2019.
 # Jun Hyung Shin <shmishmi79@gmail.com>, 2019.
-# Lee Yunseok <ironyunseok@protonmail.com>, 2019, 2020.
+# Lee Yunseok <ironyunseok@protonmail.com>, 2019, 2020, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2020-08-18 11:51+0000\n"
+"PO-Revision-Date: 2021-01-31 12:14+0000\n"
 "Last-Translator: Lee Yunseok <ironyunseok@protonmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/weblate/hosted/ko/"
 ">\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.2-dev\n"
+"X-Generator: Weblate 4.5-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -30,10 +30,8 @@ msgid "Reset repository to upstream"
 msgstr "저장소를 업스트림으로 재설정"
 
 #: wlhosted/addons.py:58
-#, fuzzy
-#| msgid "Reset all changes in the local repository"
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "지역 저장소의 모든 변경 사항을 재설정"
+msgstr "매일 밤 웨블레이트 저장소의 모든 변경 사항을 폐기합니다."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
