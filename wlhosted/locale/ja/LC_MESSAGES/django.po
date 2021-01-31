@@ -8,13 +8,14 @@
 # Scott Anecito <scott.anecito@protonmail.com>, 2019.
 # amano <amano.hajime@gmail.com>, 2020.
 # Michal Čihař <michal@cihar.com>, 2020.
+# Masahiro Fujimoto <mfujimot@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-01-28 08:55+0000\n"
-"Last-Translator: Kyotaro Iijima <kyotaro.eyes@gmail.com>\n"
+"PO-Revision-Date: 2021-01-31 21:37+0000\n"
+"Last-Translator: Masahiro Fujimoto <mfujimot@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/weblate/hosted/"
 "ja/>\n"
 "Language: ja\n"
@@ -235,17 +236,18 @@ msgid ""
 "If concerning a recurring payment, it is retried three times,\n"
 "and if still failing, cancelled.\n"
 msgstr ""
-"こんにちは\n"
+"こんにちは。\n"
 "\n"
 "weblate.org へのお支払いに失敗しました。\n"
 "\n"
 "%s\n"
 "\n"
-"Web サイトでお支払いを再試行してください:\n"
+"ウェブサイトでお支払いを再試行してください。\n"
 "\n"
 "%s\n"
 "\n"
-"定期購入の場合は 3 回再試行し、それでも失敗した場合は解約されます。\n"
+"定期購入の場合は 3 回再試行します。\n"
+"それでも失敗した場合は解約されます。\n"
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
