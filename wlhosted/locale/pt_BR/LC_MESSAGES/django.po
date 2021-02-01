@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2018.
-# Rafael Fontenelle <rafaelff@gnome.org>, 2018, 2019, 2020.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2018, 2019, 2020, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2020-08-08 07:37+0000\n"
+"PO-Revision-Date: 2021-02-02 19:41+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "weblate/hosted/pt_BR/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.2-dev\n"
+"X-Generator: Weblate 4.5-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -28,10 +28,8 @@ msgid "Reset repository to upstream"
 msgstr "Redefinir repositório para upstream"
 
 #: wlhosted/addons.py:58
-#, fuzzy
-#| msgid "Reset all changes in the local repository"
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Redefinir todas as alterações no repositório local"
+msgstr "Descarta todas as alterações no repositório do Weblate a cada noite."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
