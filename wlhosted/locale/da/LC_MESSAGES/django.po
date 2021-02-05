@@ -7,13 +7,14 @@
 # anonymous <noreply@weblate.org>, 2019.
 # Henrik Dankvardt <dankvardt@gmail.com>, 2019.
 # Jeppe Skindstad Frederiksen <jeppeskindstadfrederiksen@live.dk>, 2020.
+# Aputsiak Niels Janussen <aputtu@gmail.com>, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2020-10-06 18:23+0000\n"
-"Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
+"PO-Revision-Date: 2021-02-05 15:11+0000\n"
+"Last-Translator: Aputsiak Niels Janussen <aputtu@gmail.com>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/weblate/hosted/da/"
 ">\n"
 "Language: da\n"
@@ -21,21 +22,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3-dev\n"
+"X-Generator: Weblate 4.5-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
-msgstr ""
+msgstr "Skab data til scenarie for Unknown Horizons"
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
-msgstr ""
+msgstr "Gendan arkiv fra upstream"
 
 #: wlhosted/addons.py:58
-#, fuzzy
-#| msgid "Reset all changes in the local repository"
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Nulstil alle ændringer i det lokale arkiv"
+msgstr "Afviser alle ændringer i Weblate-arkivet hver nat."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
@@ -43,7 +42,7 @@ msgstr "Fakturering"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
-msgstr ""
+msgstr "Vælg den betalingsplan du vil opdatere"
 
 #: wlhosted/integrations/forms.py:34
 msgid "Create new billing plan"
@@ -133,22 +132,26 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
-msgstr ""
+msgstr "Alle viste priser er uden moms."
 
 #: wlhosted/integrations/templates/hosted/create.html:100
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
+"Slutbrugere i EU og tjekkiske virksomheder vil blive faktureret med "
+"yderligere 21%% i moms."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
+"Den omvendte betalingspligt gælder på fakturaer udstedt til virksomheder "
+"inden for EU."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
-msgstr ""
+msgstr "Tak for betalingen, din faktura er nu betalt."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
@@ -164,17 +167,19 @@ msgstr "Din betalingsplan blev betalt"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
-msgstr ""
+msgstr "Fandt ingen betaling som matcher."
 
 #: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr ""
+msgstr "Tak for købet af hostingplan, den er nu aktiv."
 
 #: wlhosted/integrations/views.py:83
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
+"Tak for køb af hostingplan, betalingen er afventende og vil blive behandlet "
+"i baggrunden."
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
@@ -204,6 +209,14 @@ msgid ""
 "\n"
 "%s\n"
 msgstr ""
+"Hej,\n"
+"\n"
+"Tak for din betaling på weblate.org.\n"
+"\n"
+"Der er vedhæftet en faktura for betalingen.\n"
+"Som alternativ kan du hente den fra hjemmesiden:\n"
+"\n"
+"%s\n"
 
 #: wlhosted/payments/backends.py:220
 msgid "Your payment on weblate.org failed"
@@ -225,6 +238,18 @@ msgid ""
 "If concerning a recurring payment, it is retried three times,\n"
 "and if still failing, cancelled.\n"
 msgstr ""
+"Hej,\n"
+"\n"
+"Din betaling på weblate.org mislykkedes.\n"
+"\n"
+"%s\n"
+"\n"
+"Prøv at få betalingen udstedt igen på hjemmesiden på ny:\n"
+"\n"
+"%s\n"
+"\n"
+"Hvis det vedrører en gentagende betaling, så er der forsøgt i tre omgange,\n"
+"og dersom det mislykkedes, så er den annulleret.\n"
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
@@ -237,6 +262,10 @@ msgid ""
 "Your payment on weblate.org is pending. Please follow the provided\n"
 "instructions to complete the payment.\n"
 msgstr ""
+"Hej,\n"
+"\n"
+"Din betaling på weblate.org står som afventende. Følg venligst de\n"
+"angivne instrukser for at fuldføre betalingen.\n"
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
@@ -260,23 +289,23 @@ msgstr "IBAN bankoverførsel"
 
 #: wlhosted/payments/backends.py:468
 msgid "Issuing bank"
-msgstr ""
+msgstr "Udstedende bank"
 
 #: wlhosted/payments/backends.py:469
 msgid "Account holder"
-msgstr ""
+msgstr "Kontoindehaver"
 
 #: wlhosted/payments/backends.py:470
 msgid "Account number"
-msgstr ""
+msgstr "Kontonummer"
 
 #: wlhosted/payments/backends.py:471
 msgid "SWIFT code"
-msgstr ""
+msgstr "SWIFT-kode"
 
 #: wlhosted/payments/backends.py:472
 msgid "IBAN"
-msgstr ""
+msgstr "IBAN"
 
 #: wlhosted/payments/backends.py:473
 msgid "Reference"
@@ -284,52 +313,55 @@ msgstr "Reference"
 
 #: wlhosted/payments/models.py:77
 msgid "European VAT ID"
-msgstr ""
+msgstr "Europæisk momsnummer"
 
 #: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
+"Udfyld venligst dit momsnummer for Den Europæiske Union, lad stå tom hvis "
+"irrelevant."
 
 #: wlhosted/payments/models.py:85
 msgid "Tax registration"
-msgstr ""
+msgstr "Momsregistrering"
 
 #: wlhosted/payments/models.py:87
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
+"Udfyld venligst din momsregistrering, hvis den skal fremgå på fakturaen."
 
 #: wlhosted/payments/models.py:94
 msgid "Company or individual name"
-msgstr ""
+msgstr "Virksomhed eller personnavn"
 
 #: wlhosted/payments/models.py:97
 msgid "Address"
-msgstr ""
+msgstr "Adresse"
 
 #: wlhosted/payments/models.py:100
 msgid "Postcode and city"
-msgstr ""
+msgstr "Postnummer og by"
 
 #: wlhosted/payments/models.py:102
 msgid "Country"
-msgstr ""
+msgstr "Land"
 
 #: wlhosted/payments/models.py:134
 msgid "The country has to match your VAT code"
-msgstr ""
+msgstr "Landet skal matche med din momskode"
 
 #: wlhosted/payments/models.py:157
 msgid "Annual"
-msgstr ""
+msgstr "Årligt"
 
 #: wlhosted/payments/models.py:158
 msgid "Biannual"
-msgstr ""
+msgstr "Halvårligt"
 
 #: wlhosted/payments/models.py:159
 msgid "Quarterly"
-msgstr ""
+msgstr "Kvartalsvis"
 
 #: wlhosted/payments/models.py:160
 msgid "Monthly"
@@ -337,17 +369,17 @@ msgstr "Månedlig"
 
 #: wlhosted/payments/models.py:161
 msgid "Onetime"
-msgstr ""
+msgstr "Èn gang"
 
 #: wlhosted/payments/models.py:195
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "Ny betaling"
 
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr ""
+msgstr "Afventer betaling"
 
 #: wlhosted/payments/models.py:197
 msgctxt "Payment state"
@@ -366,19 +398,21 @@ msgstr "Betaling behandlet"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
-msgstr ""
+msgstr "{} er ikke en gyldig landekode for et medlem af Den Europæiske Union."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr ""
+msgstr "{} matcher ikke landet specifikationer for momsnumre."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
+"Godkendelsestjenesten for momsnumre er ikke tilgængelig for {}, forsøg "
+"venligst igen senere."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr ""
+msgstr "{} er ikke et gyldigt momsnummer."
 
 #~ msgid "Personal Data Controller"
 #~ msgstr "Personlig datastyring"
