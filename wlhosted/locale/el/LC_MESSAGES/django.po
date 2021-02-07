@@ -4,21 +4,22 @@
 # THANOS SIOURDAKIS <siourdakisthanos@gmail.com>, 2019, 2020, 2021.
 # anonymous <noreply@weblate.org>, 2019.
 # george k <norhorn@gmail.com>, 2020.
+# Michalis <michalisntovas@yahoo.gr>, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-01-06 11:29+0000\n"
-"Last-Translator: THANOS SIOURDAKIS <siourdakisthanos@gmail.com>\n"
-"Language-Team: Greek <https://hosted.weblate.org/projects/weblate/hosted/el/"
-">\n"
+"PO-Revision-Date: 2021-02-09 02:02+0000\n"
+"Last-Translator: Michalis <michalisntovas@yahoo.gr>\n"
+"Language-Team: Greek <https://hosted.weblate.org/projects/weblate/hosted/el/>"
+"\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.1-dev\n"
+"X-Generator: Weblate 4.5-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -36,7 +37,7 @@ msgstr "Επαναφορά όλων των αλλαγών στο τοπικό α
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
-msgstr "Λογαριασμός"
+msgstr "Χρέωση"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
