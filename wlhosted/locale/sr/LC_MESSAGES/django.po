@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-02-02 19:41+0000\n"
+"PO-Revision-Date: 2021-02-09 02:02+0000\n"
 "Last-Translator: Слободан Симић(Slobodan Simić) <slsimic@gmail.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/weblate/hosted/"
 "sr/>\n"
@@ -396,7 +396,7 @@ msgstr "{} се не поклапа са спецификацијом ПДВ И�
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
-msgstr "Сервис за проверу ПДВ ИД државе {} није доступан. Покушајте касније."
+msgstr "Услуга за проверу ПДВ ИД државе {} није доступна. Покушајте касније."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
