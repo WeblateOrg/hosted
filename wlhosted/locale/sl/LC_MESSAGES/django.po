@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Domen <mitenem@outlook.com>, 2018, 2019.
 # anonymous <noreply@weblate.org>, 2019.
-# Martin Srebotnjak <miles@filmsi.net>, 2020.
+# Martin Srebotnjak <miles@filmsi.net>, 2020, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2020-12-09 22:23+0000\n"
+"PO-Revision-Date: 2021-02-11 16:50+0000\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <https://hosted.weblate.org/projects/weblate/hosted/"
 "sl/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.5-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -321,19 +321,19 @@ msgstr "Država"
 
 #: wlhosted/payments/models.py:134
 msgid "The country has to match your VAT code"
-msgstr ""
+msgstr "Država se mora ujemati z vašo številko za DDV"
 
 #: wlhosted/payments/models.py:157
 msgid "Annual"
-msgstr ""
+msgstr "Letno"
 
 #: wlhosted/payments/models.py:158
 msgid "Biannual"
-msgstr ""
+msgstr "Polletno"
 
 #: wlhosted/payments/models.py:159
 msgid "Quarterly"
-msgstr ""
+msgstr "Četrtletno"
 
 #: wlhosted/payments/models.py:160
 msgid "Monthly"
@@ -341,7 +341,7 @@ msgstr "Mesečno"
 
 #: wlhosted/payments/models.py:161
 msgid "Onetime"
-msgstr ""
+msgstr "Enkratno"
 
 #: wlhosted/payments/models.py:195
 msgctxt "Payment state"
@@ -354,25 +354,19 @@ msgid "Awaiting payment"
 msgstr ""
 
 #: wlhosted/payments/models.py:197
-#, fuzzy
-#| msgid "Failed to process form!"
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "Nismo uspeli obdelati obrazca!"
+msgstr "Plačilo zavrnjeno"
 
 #: wlhosted/payments/models.py:198
-#, fuzzy
-#| msgid "Failed to process form!"
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "Nismo uspeli obdelati obrazca!"
+msgstr "Plačilo sprejeto"
 
 #: wlhosted/payments/models.py:199
-#, fuzzy
-#| msgid "Failed to process form!"
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "Nismo uspeli obdelati obrazca!"
+msgstr "Plačilo obdelano"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
