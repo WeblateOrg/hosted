@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-02-11 16:50+0000\n"
+"PO-Revision-Date: 2021-02-22 13:57+0000\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <https://hosted.weblate.org/projects/weblate/hosted/"
 "sl/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 4.5-dev\n"
+"X-Generator: Weblate 4.5\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -27,13 +27,11 @@ msgstr ""
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
-msgstr ""
+msgstr "Ponastavi skladišče na trenutno stanje izvornega projekta"
 
 #: wlhosted/addons.py:58
-#, fuzzy
-#| msgid "Reset all changes in the local repository"
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Ponastavi vse spremembe v lokalni shrambi"
+msgstr "Opusti vse spremembe v shrambi Weblate vsako noč."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
@@ -57,7 +55,7 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
-msgstr ""
+msgstr "Izberite načrt gostovanja, ki ustreza velikosti vašega projekta."
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
@@ -65,15 +63,15 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
-msgstr ""
+msgstr "Premajhno za vaš projekt."
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small"
-msgstr ""
+msgstr "Premajhno"
 
 #: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
-msgstr ""
+msgstr "Izbrani načrt"
 
 #: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
@@ -95,10 +93,8 @@ msgid "Languages limit"
 msgstr "Omejitev jezikov"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
-#, fuzzy
-#| msgid "Projects limit"
 msgid "Component limit"
-msgstr "Omejitev projektov"
+msgstr "Omejitev enot"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
@@ -113,7 +109,7 @@ msgstr "%(price)s EUR/mesec"
 #: wlhosted/integrations/templates/hosted/create.html:85
 #, python-format
 msgid "%(price)s EUR including VAT"
-msgstr ""
+msgstr "%(price)s EUR (z DDV)"
 
 #: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
@@ -137,13 +133,14 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
-msgstr ""
+msgstr "Vse cene so brez DDV."
 
 #: wlhosted/integrations/templates/hosted/create.html:100
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
+"Končnim uporabnikom v EU ter češkim podjetjem bo obračunan dodatni 21 %% DDV."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
@@ -152,7 +149,7 @@ msgstr ""
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
-msgstr ""
+msgstr "Hvala za plačilo, vaš račun je zdaj poravnan."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
@@ -168,11 +165,11 @@ msgstr ""
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
-msgstr ""
+msgstr "Ujemajočega plačila ni mogoče najti."
 
 #: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr ""
+msgstr "Hvala za nakup načrta za gostovanje, zdaj je aktiven."
 
 #: wlhosted/integrations/views.py:83
 msgid ""
@@ -182,19 +179,19 @@ msgstr ""
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
-msgstr ""
+msgstr "Plačilo je zavrnjeno: {}"
 
 #: wlhosted/integrations/views.py:96
 msgid "Unknown reason"
-msgstr ""
+msgstr "Neznan razlog"
 
 #: wlhosted/integrations/views.py:112
 msgid "Payments are temporarily inactive."
-msgstr ""
+msgstr "Plačila so začasno neaktivna."
 
 #: wlhosted/payments/backends.py:192
 msgid "Your payment on weblate.org"
-msgstr ""
+msgstr "Vaše plačilo weblate.org"
 
 #: wlhosted/payments/backends.py:194
 #, python-format
@@ -211,7 +208,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:220
 msgid "Your payment on weblate.org failed"
-msgstr ""
+msgstr "Vaše plačilo na weblate.org je spodletelo"
 
 #: wlhosted/payments/backends.py:222
 #, python-format
@@ -292,7 +289,7 @@ msgstr "Evropska davčna številka"
 
 #: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
-msgstr ""
+msgstr "Vnesite ID številko (EU) za DDV, pustite prazno, če ni potrebna."
 
 #: wlhosted/payments/models.py:85
 msgid "Tax registration"
@@ -351,7 +348,7 @@ msgstr "Novo plačilo"
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr ""
+msgstr "Čakajoč na plačilo"
 
 #: wlhosted/payments/models.py:197
 msgctxt "Payment state"
@@ -370,7 +367,7 @@ msgstr "Plačilo obdelano"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
-msgstr ""
+msgstr "{} ni veljavna koda države za nobeno članico Evropske unije."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
@@ -382,7 +379,7 @@ msgstr ""
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr ""
+msgstr "{} ni veljavna številka ID za DDV."
 
 #, fuzzy
 #~| msgid "Version control"
