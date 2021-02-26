@@ -6,13 +6,14 @@
 # Michal Čihař <michal@cihar.com>, 2019.
 # Pierre Soubourou <pierre.soubourou@gmail.com>, 2019.
 # tuxayo/Victor Grousset <victor@tuxayo.net>, 2019.
+# Jakub Fabijan <animatorzPolski@gmail.com>, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2019-08-18 06:22+0000\n"
-"Last-Translator: tuxayo/Victor Grousset <victor@tuxayo.net>\n"
+"PO-Revision-Date: 2021-02-27 08:45+0000\n"
+"Last-Translator: Jakub Fabijan <animatorzPolski@gmail.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/weblate/hosted/"
 "eo/>\n"
 "Language: eo\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 4.5\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -256,7 +257,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:417
 msgid "Payment error"
-msgstr ""
+msgstr "Paga eraro"
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
