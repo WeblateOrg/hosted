@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-02-22 13:57+0000\n"
-"Last-Translator: THANOS SIOURDAKIS <siourdakisthanos@gmail.com>\n"
+"PO-Revision-Date: 2021-03-02 21:50+0000\n"
+"Last-Translator: Michalis <michalisntovas@yahoo.gr>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/weblate/hosted/el/>"
 "\n"
 "Language: el\n"
@@ -27,7 +27,7 @@ msgstr "Δημιουργία δεδομένων σεναρίου του Unknown 
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
-msgstr ""
+msgstr "Επαναφορά αποθετηρίου στο ανάντη"
 
 #: wlhosted/addons.py:58
 msgid "Discards all changes in the Weblate repository each night."
