@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-01-28 08:55+0000\n"
+"PO-Revision-Date: 2021-03-06 21:59+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/weblate/hosted/"
 "tr/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5-dev\n"
+"X-Generator: Weblate 4.5.1\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -193,7 +193,7 @@ msgstr "Ödemeler geçici olarak etkin değildir."
 
 #: wlhosted/payments/backends.py:192
 msgid "Your payment on weblate.org"
-msgstr "Weblate.org'daki ödemeniz"
+msgstr "Weblate.org’daki ödemeniz"
 
 #: wlhosted/payments/backends.py:194
 #, python-format
@@ -218,7 +218,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:220
 msgid "Your payment on weblate.org failed"
-msgstr "Weblate.org'daki ödemeniz başarısız oldu"
+msgstr "Weblate.org’daki ödemeniz başarısız oldu"
 
 #: wlhosted/payments/backends.py:222
 #, python-format
@@ -251,7 +251,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
-msgstr "Weblate.org'daki bekleyen ödemeniz"
+msgstr "Weblate.org’daki bekleyen ödemeniz"
 
 #: wlhosted/payments/backends.py:257
 msgid ""
