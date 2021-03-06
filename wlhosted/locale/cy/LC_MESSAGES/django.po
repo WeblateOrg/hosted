@@ -6,20 +6,20 @@
 # Rhoslyn Prys <rprys@posteo.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2019-10-11 12:16+0000\n"
-"Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
-"Language-Team: Welsh <https://hosted.weblate.org/projects/weblate/hosted/cy/"
-">\n"
+"PO-Revision-Date: 2021-03-06 21:59+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Welsh <https://hosted.weblate.org/projects/weblate/hosted/cy/>"
+"\n"
 "Language: cy\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=(n==0) ? 0 : (n==1) ? 1 : (n==2) ? 2 : "
 "(n==3) ? 3 :(n==6) ? 4 : 5;\n"
-"X-Generator: Weblate 3.9-dev\n"
+"X-Generator: Weblate 4.5.1\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -86,7 +86,7 @@ msgstr ""
 #: wlhosted/integrations/templates/hosted/create.html:63
 #: wlhosted/integrations/templates/hosted/create.html:66
 msgid "Unlimited"
-msgstr ""
+msgstr "Diderfyn"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
 msgid "Languages limit"
@@ -244,7 +244,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
-msgstr ""
+msgstr "Bitcoin"
 
 #: wlhosted/payments/backends.py:438
 msgid "IBAN bank transfer"
@@ -264,15 +264,15 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:471
 msgid "SWIFT code"
-msgstr ""
+msgstr "cod SWIFT"
 
 #: wlhosted/payments/backends.py:472
 msgid "IBAN"
-msgstr ""
+msgstr "IBAN"
 
 #: wlhosted/payments/backends.py:473
 msgid "Reference"
-msgstr ""
+msgstr "Cyfeiriadau"
 
 #: wlhosted/payments/models.py:77
 msgid "European VAT ID"
