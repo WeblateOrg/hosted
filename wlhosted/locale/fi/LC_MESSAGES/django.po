@@ -6,13 +6,14 @@
 # Tuomas Hietala <tuomas.hietala@iki.fi>, 2019, 2020.
 # Tuomas Lähteenmäki <lahtis@gmail.com>, 2020.
 # Riku Viitanen <riku.viitanen@protonmail.com>, 2020.
+# Ricky Tigg <ricky.tigg@gmail.com>, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2020-12-22 19:29+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2021-03-06 21:59+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/weblate/hosted/"
 "fi/>\n"
 "Language: fi\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.5.1\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -323,7 +324,7 @@ msgstr "Verojen rekisteröinti"
 #: wlhosted/payments/models.py:87
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
-msgstr ""
+msgstr "Täytä verorekisterisi, jos sen pitäisi näkyä laskussa."
 
 #: wlhosted/payments/models.py:94
 msgid "Company or individual name"
@@ -343,19 +344,19 @@ msgstr "Maa"
 
 #: wlhosted/payments/models.py:134
 msgid "The country has to match your VAT code"
-msgstr ""
+msgstr "Maan on vastattava ALV-koodiasi"
 
 #: wlhosted/payments/models.py:157
 msgid "Annual"
-msgstr ""
+msgstr "Vuosittainen"
 
 #: wlhosted/payments/models.py:158
 msgid "Biannual"
-msgstr ""
+msgstr "Kahden vuoden välein"
 
 #: wlhosted/payments/models.py:159
 msgid "Quarterly"
-msgstr ""
+msgstr "Neljännesvuosittain"
 
 #: wlhosted/payments/models.py:160
 msgid "Monthly"
@@ -363,7 +364,7 @@ msgstr "Kuukausittain"
 
 #: wlhosted/payments/models.py:161
 msgid "Onetime"
-msgstr ""
+msgstr "Kerran"
 
 #: wlhosted/payments/models.py:195
 msgctxt "Payment state"
@@ -392,19 +393,21 @@ msgstr "Maksu käsitelty"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
-msgstr ""
+msgstr "{} ei ole kelvollinen maatunnus kenellekään Euroopan unionin jäsenelle."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr ""
+msgstr "{} ei vastaa maan ALV-tunnuksen teknisia tietoja."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
+"ALV-tunnuksen vahvistuspalvelu ei ole käytettävissä verkkotunnuksessa {}. "
+"Yritä myöhemmin uudelleen."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr ""
+msgstr "{} ei ole kelvollinen ALV-tunnus."
 
 #~ msgid "Personal Data Controller"
 #~ msgstr "Rekisterinpitäjä"
