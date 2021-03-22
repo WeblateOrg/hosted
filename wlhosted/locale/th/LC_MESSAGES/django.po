@@ -5,19 +5,19 @@
 # AefghThreenine <aefgh39622@gmail.com>, 2020, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-01-19 14:32+0000\n"
+"PO-Revision-Date: 2021-03-23 20:29+0000\n"
 "Last-Translator: AefghThreenine <aefgh39622@gmail.com>\n"
-"Language-Team: Thai <https://hosted.weblate.org/projects/weblate/hosted/th/"
-">\n"
+"Language-Team: Thai <https://hosted.weblate.org/projects/weblate/hosted/th/>"
+"\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5-dev\n"
+"X-Generator: Weblate 4.5.2-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -39,19 +39,19 @@ msgstr "การเรียกเก็บเงิน"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
-msgstr ""
+msgstr "เลือกแผนการเรียกเก็บเงินที่คุณต้องการอัปเดต"
 
 #: wlhosted/integrations/forms.py:34
 msgid "Create new billing plan"
-msgstr ""
+msgstr "สร้างแผนการเรียกเก็บเงินใหม่"
 
 #: wlhosted/integrations/templates/hosted/create.html:8
 msgid "Create billing plan"
-msgstr ""
+msgstr "สร้างแผนการเรียกเก็บเงิน"
 
 #: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
-msgstr ""
+msgstr "แผนการเรียกเก็บเงินใหม่"
 
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
@@ -59,19 +59,19 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
-msgstr ""
+msgstr "สถานะการเรียกเก็บเงินปัจจุบัน"
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
-msgstr ""
+msgstr "เล็กเกินไปสำหรับโครงการของคุณ"
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small"
-msgstr ""
+msgstr "เล็กเกินไป"
 
 #: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
-msgstr ""
+msgstr "แผนที่เลือก"
 
 #: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
@@ -86,7 +86,7 @@ msgstr "ขีดจำกัดสตริง"
 #: wlhosted/integrations/templates/hosted/create.html:63
 #: wlhosted/integrations/templates/hosted/create.html:66
 msgid "Unlimited"
-msgstr ""
+msgstr "ไม่มีขีดจำกัด"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
 msgid "Languages limit"
@@ -94,7 +94,7 @@ msgstr "ขีดจำกัดภาษา"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Component limit"
-msgstr ""
+msgstr "ขีดจำกัดคอมโพเนนต์"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
@@ -148,7 +148,7 @@ msgstr ""
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
-msgstr ""
+msgstr "ตรวจสอบสถานะการเรียกเก็บเงินของคุณ"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
