@@ -14,7 +14,7 @@ Hosted Weblate customizations
 .. image:: https://github.com/WeblateOrg/hosted/workflows/Lint/badge.svg
    :target: https://github.com/WeblateOrg/hosted/actions?query=workflow%3ALint
 
-.. image:: https://codecov.io/gh/WeblateOrg/hosted/branch/master/graph/badge.svg
+.. image:: https://codecov.io/gh/WeblateOrg/hosted/branch/main/graph/badge.svg
    :target: https://codecov.io/gh/WeblateOrg/hosted
 
 These customizations are used on the `Hosted Weblate service

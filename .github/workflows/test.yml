@@ -48,8 +48,6 @@ jobs:
       - name: Install pip dependencies
         run: |
           pip install --upgrade pip wheel Cython setuptools
-          # Needed for billing model changes
-          pip install https://github.com/WeblateOrg/weblate/archive/master.zip
           pip install -r requirements-test.txt -r requirements.txt -r requirements-optional.txt
       - name: Test with Django
         env:
