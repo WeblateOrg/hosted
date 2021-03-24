@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-03-21 12:42+0000\n"
+"PO-Revision-Date: 2021-03-24 23:28+0000\n"
 "Last-Translator: Christian Eichert <c@zp1.net>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/weblate/hosted/"
 "ro/>\n"
@@ -23,11 +23,11 @@ msgstr ""
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
-msgstr "Genereaza datele pentru scenariul Unknow Horizons"
+msgstr "Generează datele pentru scenariul Unknow Horizons"
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
-msgstr "Resetează depozitul la upstream"
+msgstr "Resetați depozitul în amonte"
 
 #: wlhosted/addons.py:58
 msgid "Discards all changes in the Weblate repository each night."
@@ -56,10 +56,12 @@ msgstr "Plan nou de facturare"
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
 msgstr ""
+"Vă rugăm să alegeți un plan de găzduire care să se potrivească cu "
+"dimensiunea proiectului dvs."
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
-msgstr ""
+msgstr "Stare factura"
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
@@ -244,7 +246,7 @@ msgstr "Eroare de plată"
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
-msgstr ""
+msgstr "Bitcoin"
 
 #: wlhosted/payments/backends.py:438
 msgid "IBAN bank transfer"
@@ -256,7 +258,7 @@ msgstr "Banca emitentă"
 
 #: wlhosted/payments/backends.py:469
 msgid "Account holder"
-msgstr ""
+msgstr "Titularul contului"
 
 #: wlhosted/payments/backends.py:470
 msgid "Account number"
