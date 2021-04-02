@@ -4,21 +4,22 @@
 # anonymous <noreply@weblate.org>, 2019.
 # Jwtiyar Nariman <jwtiyar@gmail.com>, 2020.
 # Kurd As <kurd68587@gmail.com>, 2020.
+# Rener kaka <Rabarajax51@gmail.com>, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2020-10-04 16:41+0000\n"
-"Last-Translator: Kurd As <kurd68587@gmail.com>\n"
-"Language-Team: Central Kurdish <https://hosted.weblate.org/projects/weblate/"
-"hosted/ckb/>\n"
+"PO-Revision-Date: 2021-04-03 10:53+0000\n"
+"Last-Translator: Rener kaka <Rabarajax51@gmail.com>\n"
+"Language-Team: Kurdish (Central) <https://hosted.weblate.org/projects/"
+"weblate/hosted/ckb/>\n"
 "Language: ckb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3-dev\n"
+"X-Generator: Weblate 4.6-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -29,14 +30,12 @@ msgid "Reset repository to upstream"
 msgstr "دووبارە ڕێکخستنەوەی کۆگا بۆ سەرەوەی سترایم"
 
 #: wlhosted/addons.py:58
-#, fuzzy
-#| msgid "Reset all changes in the local repository"
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "هەموو گۆڕانکاریەکان لە کۆگای ناوخۆیی دانانەوەی"
+msgstr "هەموو گۆڕانکاریەکان لابدە لە کۆگای وێبلایت هەموو شەوێک."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
-msgstr "بیڵین"
+msgstr "لیست"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
@@ -72,7 +71,7 @@ msgstr "زۆر بچووکە"
 
 #: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
-msgstr ""
+msgstr "پلانی دیاریکراو"
 
 #: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
@@ -80,7 +79,7 @@ msgstr "پلانی ئێستا"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Strings limit"
-msgstr ""
+msgstr "سنووری زنجیرەکان"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
@@ -91,13 +90,11 @@ msgstr "بێسنوور"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
 msgid "Languages limit"
-msgstr ""
+msgstr "سنووری زمانەکان"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
-#, fuzzy
-#| msgid "Projects limit"
 msgid "Component limit"
-msgstr "سنووری پڕۆژەکان"
+msgstr "سنووری پێکهاتە"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
@@ -112,7 +109,7 @@ msgstr "%(price)s یۆرۆ \\ مانگانە"
 #: wlhosted/integrations/templates/hosted/create.html:85
 #, python-format
 msgid "%(price)s EUR including VAT"
-msgstr ""
+msgstr "%(price)s زیادکردن بە vat"
 
 #: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
@@ -125,67 +122,75 @@ msgid ""
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
+"نرخدانان لەسەر بنەمای ژمارەی زنجیرەکانی سەرچاوە و زمانەکانی مەبەست. زنجیرەی "
+"سەرچاوە یەکەیەکی دەقی پێناسەکراو لە فۆرماتی وەرگێڕاندا، دەکرێت وشە، ڕستە یان "
+"پاراگراف بێت."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
-msgstr ""
+msgstr "هەموو نرخە لیستکراوەکان VAT بەدەر دەکەن."
 
 #: wlhosted/integrations/templates/hosted/create.html:100
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
+"بەکارهێنەرانی کۆتایی یەکێتی ئەورووپا و کۆمپانیاکانی چیک بە 21%% زیاتر لە VAT "
+"تاوانبار دەبن."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
+"تۆمەتە پێچەوانەکەی بۆ ئەو لیستی کە بۆ بازرگانی لە ناو یەکێتی ئییودا دەرچووە."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
-msgstr ""
+msgstr "سوپاس بۆ پارەدانەکەت، ئێستا پارەت بۆ دەدرێت."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "ئەم پلانی پڕۆژە یاسایانە ئەم پرۆژانە دادەگرێت:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
-msgstr ""
+msgstr "پشکنینی باری پسوڵە"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
-msgstr ""
+msgstr "پلانی پسوڵەی تۆ درا"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
-msgstr ""
+msgstr "هیچ پارەدانێکی هاوتا نەدۆزرایەوە."
 
 #: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr ""
+msgstr "سوپاس بۆ کڕینی پلانی میوانداریکردن، ئێستا چالاکە."
 
 #: wlhosted/integrations/views.py:83
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
+"سوپاس بۆ کڕینی پلانی میوانداریکردن، پارەدانەکەی لە چاوەڕوانیدایە و لە "
+"باکگراوند ئەنجام دەدریت."
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
-msgstr ""
+msgstr "پارەدان ڕەتکرایەوە: {}"
 
 #: wlhosted/integrations/views.py:96
 msgid "Unknown reason"
-msgstr ""
+msgstr "هۆکاری نەزانراو"
 
 #: wlhosted/integrations/views.py:112
 msgid "Payments are temporarily inactive."
-msgstr ""
+msgstr "پارەدانەکان بە شێوەیەکی کاتی ناچالاکن."
 
 #: wlhosted/payments/backends.py:192
 msgid "Your payment on weblate.org"
-msgstr ""
+msgstr "پارەدانەکەت لە weblate.org"
 
 #: wlhosted/payments/backends.py:194
 #, python-format
@@ -199,10 +204,18 @@ msgid ""
 "\n"
 "%s\n"
 msgstr ""
+"سڵاو,\n"
+"\n"
+"سوپاس بۆ پێدانی پارەت weblate.org.\n"
+"\n"
+"لیستی لیستی پارەدان دەدۆزیتەوە بۆ هاوپێچکردنی ئەم پارەدانە.\n"
+"بە شێوەیەکی جێگرەوە,دەتوانیت دایبگریت لە وێب سایتەوە:\n"
+"\n"
+"%s\n"
 
 #: wlhosted/payments/backends.py:220
 msgid "Your payment on weblate.org failed"
-msgstr ""
+msgstr "پارەدانەکەت لە weblate.org سەرکەوتوو نەبوو"
 
 #: wlhosted/payments/backends.py:222
 #, python-format
@@ -220,10 +233,22 @@ msgid ""
 "If concerning a recurring payment, it is retried three times,\n"
 "and if still failing, cancelled.\n"
 msgstr ""
+"سڵاو,\n"
+"\n"
+"پارەدانەکەت بۆ weblate.org سەرکەوتوو نەبوو.\n"
+"\n"
+"%s\n"
+"\n"
+"دووبارە هەوڵی دەرکردنی پارەدانەکە بدە لەسەر وێب سایتەکە:\n"
+"\n"
+"%s\n"
+"\n"
+"ئەگەر دەربارەی دووبارەکردنەوەی پارەدان، سێ جار هەوڵ درا,\n"
+"ئەگەر هەر شکست بخۆیت، هەڵوەشاتەوە.\n"
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
-msgstr ""
+msgstr "پارەدانەکەت لە weblate.org"
 
 #: wlhosted/payments/backends.py:257
 msgid ""
@@ -232,6 +257,10 @@ msgid ""
 "Your payment on weblate.org is pending. Please follow the provided\n"
 "instructions to complete the payment.\n"
 msgstr ""
+"سڵاو,\n"
+"\n"
+"پارەدانەکەت weblate.org هەڵواسراوە. تکایە دوای دابینکراو بکەوە\n"
+"بۆ تەواوکردنی پارەدانەکە.\n"
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
