@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-03-24 23:28+0000\n"
+"PO-Revision-Date: 2021-04-05 09:52+0000\n"
 "Last-Translator: Christian Eichert <c@zp1.net>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/weblate/hosted/"
 "ro/>\n"
@@ -19,11 +19,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 4.5.2-dev\n"
+"X-Generator: Weblate 4.6-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
-msgstr "Generează datele pentru scenariul Unknow Horizons"
+msgstr "Generează datele scenariului Unknown Horizons"
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
@@ -65,30 +65,30 @@ msgstr "Stare factura"
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
-msgstr ""
+msgstr "Prea mic pentru proiectul dvs."
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small"
-msgstr ""
+msgstr "Prea mic"
 
 #: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
-msgstr ""
+msgstr "Plan selectat"
 
 #: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
-msgstr "Planul actual"
+msgstr "Plan actual"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Strings limit"
-msgstr ""
+msgstr "Limită șiruri"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
 #: wlhosted/integrations/templates/hosted/create.html:63
 #: wlhosted/integrations/templates/hosted/create.html:66
 msgid "Unlimited"
-msgstr ""
+msgstr "Nelimitat"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
 msgid "Languages limit"
@@ -96,27 +96,27 @@ msgstr "Limita de limbi"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Component limit"
-msgstr "Limita de componentă"
+msgstr "Limita de componente"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
-msgstr "Limită de proiecte"
+msgstr "Limita de proiecte"
 
 #: wlhosted/integrations/templates/hosted/create.html:78
 #, python-format
 msgid "%(price)s EUR / month"
-msgstr ""
+msgstr "%(price)s EUR / lună"
 
 #: wlhosted/integrations/templates/hosted/create.html:79
 #: wlhosted/integrations/templates/hosted/create.html:85
 #, python-format
 msgid "%(price)s EUR including VAT"
-msgstr ""
+msgstr "%(price)s EUR cu TVA inclus"
 
 #: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
 msgid "%(price)s EUR / year"
-msgstr ""
+msgstr "%(price)s EUR / an"
 
 #: wlhosted/integrations/templates/hosted/create.html:96
 msgid ""
@@ -124,63 +124,71 @@ msgid ""
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
+"Prețul se bazează pe numărul de șiruri de caractere sursă și de limbi țintă. "
+"Șirul sursă este o unitate de text definită într-un format de traducere; "
+"poate fi un cuvânt, o propoziție sau un paragraf."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
-msgstr ""
+msgstr "Toate preturile afisate exclud TVA."
 
 #: wlhosted/integrations/templates/hosted/create.html:100
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
+"Utilizatorii finali din UE și societățile cehe vor plăti o taxă suplimentară "
+"de 21%% TVA."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
-msgstr ""
+msgstr "Taxarea inversă se aplică facturilor emise către întreprinderi din UE."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
-msgstr ""
+msgstr "Vă mulțumim pentru plată, facturarea dvs. este acum plătită."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "Acest plan de facturare acoperă următoarele proiecte:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
-msgstr ""
+msgstr "Verificați statutul de facturare"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
-msgstr ""
+msgstr "Planul dvs. de facturare a fost plătit"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
-msgstr ""
+msgstr "Nu s-a găsit nicio plată corespunzătoare."
 
 #: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr ""
+"Vă mulțumim că ați achiziționat un plan de găzduire, acesta este acum activ."
 
 #: wlhosted/integrations/views.py:83
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
+"Vă mulțumim pentru achiziționarea unui plan de găzduire, plata pentru acesta "
+"este în așteptare și va fi procesată în fundal."
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
-msgstr ""
+msgstr "Plata a fost respinsă: {}"
 
 #: wlhosted/integrations/views.py:96
 msgid "Unknown reason"
-msgstr ""
+msgstr "Motiv necunoscut"
 
 #: wlhosted/integrations/views.py:112
 msgid "Payments are temporarily inactive."
-msgstr ""
+msgstr "Plățile sunt temporar inactive."
 
 #: wlhosted/payments/backends.py:192
 msgid "Your payment on weblate.org"
@@ -198,10 +206,18 @@ msgid ""
 "\n"
 "%s\n"
 msgstr ""
+"Bună ziua,\n"
+"\n"
+"Vă mulțumim pentru plata dvs. pe weblate.org.\n"
+"\n"
+"Veți găsi atașată o factură pentru această plată.\n"
+"Alternativ, o puteți descărca de pe site:\n"
+"\n"
+"%s\n"
 
 #: wlhosted/payments/backends.py:220
 msgid "Your payment on weblate.org failed"
-msgstr ""
+msgstr "Plata dvs. pe weblate.org a eșuat"
 
 #: wlhosted/payments/backends.py:222
 #, python-format
@@ -219,6 +235,19 @@ msgid ""
 "If concerning a recurring payment, it is retried three times,\n"
 "and if still failing, cancelled.\n"
 msgstr ""
+"Bună ziua,\n"
+"\n"
+"Plata dvs. pe weblate.org a eșuat.\n"
+"\n"
+"%s\n"
+"\n"
+"Reîncercați să emiteți plata pe site:\n"
+"\n"
+"%s\n"
+"\n"
+"Dacă este vorba despre o plată recurentă, aceasta este reanalizată de trei "
+"ori,\n"
+"și, dacă nu reușește în continuare, se anulează.\n"
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
@@ -231,6 +260,11 @@ msgid ""
 "Your payment on weblate.org is pending. Please follow the provided\n"
 "instructions to complete the payment.\n"
 msgstr ""
+"Bună ziua,\n"
+"\n"
+"Plata dvs. pe weblate.org este în așteptare. Vă rugăm să urmați "
+"instrucțiunile furnizate\n"
+"instrucțiuni pentru a finaliza plata.\n"
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
@@ -262,86 +296,90 @@ msgstr "Titularul contului"
 
 #: wlhosted/payments/backends.py:470
 msgid "Account number"
-msgstr ""
+msgstr "Numărul de cont"
 
 #: wlhosted/payments/backends.py:471
 msgid "SWIFT code"
-msgstr ""
+msgstr "Codul SWIFT"
 
 #: wlhosted/payments/backends.py:472
 msgid "IBAN"
-msgstr ""
+msgstr "IBAN"
 
 #: wlhosted/payments/backends.py:473
 msgid "Reference"
-msgstr ""
+msgstr "Referință"
 
 #: wlhosted/payments/models.py:77
 msgid "European VAT ID"
-msgstr ""
+msgstr "Număr european de TVA"
 
 #: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
+"Vă rugăm să completați codul de TVA al Uniunii Europene, lăsați în alb dacă "
+"nu este cazul."
 
 #: wlhosted/payments/models.py:85
 msgid "Tax registration"
-msgstr ""
+msgstr "Înregistrare fiscală"
 
 #: wlhosted/payments/models.py:87
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
+"Vă rugăm să completați numărul de înregistrare fiscală dacă acesta trebuie "
+"să apară pe factură."
 
 #: wlhosted/payments/models.py:94
 msgid "Company or individual name"
-msgstr ""
+msgstr "Numele societății sau al persoanei fizice"
 
 #: wlhosted/payments/models.py:97
 msgid "Address"
-msgstr ""
+msgstr "Adresa"
 
 #: wlhosted/payments/models.py:100
 msgid "Postcode and city"
-msgstr ""
+msgstr "Cod poștal și oraș"
 
 #: wlhosted/payments/models.py:102
 msgid "Country"
-msgstr ""
+msgstr "Țara"
 
 #: wlhosted/payments/models.py:134
 msgid "The country has to match your VAT code"
-msgstr ""
+msgstr "Țara trebuie să se potrivească cu codul dumneavoastră de TVA"
 
 #: wlhosted/payments/models.py:157
 msgid "Annual"
-msgstr ""
+msgstr "Anual"
 
 #: wlhosted/payments/models.py:158
 msgid "Biannual"
-msgstr ""
+msgstr "Semestrial"
 
 #: wlhosted/payments/models.py:159
 msgid "Quarterly"
-msgstr ""
+msgstr "Trimestrial"
 
 #: wlhosted/payments/models.py:160
 msgid "Monthly"
-msgstr ""
+msgstr "Lunar"
 
 #: wlhosted/payments/models.py:161
 msgid "Onetime"
-msgstr ""
+msgstr "O singură dată"
 
 #: wlhosted/payments/models.py:195
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "Plată nouă"
 
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr ""
+msgstr "În așteptarea plății"
 
 #: wlhosted/payments/models.py:197
 msgctxt "Payment state"
@@ -361,18 +399,21 @@ msgstr "Plata a fost procesată"
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
 msgstr ""
+"{} nu este un cod de țară valabil pentru niciun membru al Uniunii Europene."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr ""
+msgstr "{} nu corespunde specificațiilor privind codul de TVA al țării."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
+"Serviciul de validare a ID-ului de TVA nu este disponibil pentru {}, vă "
+"rugăm să încercați din nou mai târziu."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr ""
+msgstr "{} nu este un cod de TVA valabil."
 
 #, fuzzy
 #~| msgid "Translation status"
