@@ -12,13 +12,14 @@
 # iLocIT! <matthiasc@ilocit.de>, 2019, 2020.
 # 5nake <jakob.mayer@htlstp.at>, 2021.
 # nautilusx <translate@disroot.org>, 2021.
+# Christian Eichert <c@zp1.net>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-01-28 08:55+0000\n"
-"Last-Translator: nautilusx <translate@disroot.org>\n"
+"PO-Revision-Date: 2021-04-05 09:52+0000\n"
+"Last-Translator: Christian Eichert <c@zp1.net>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/weblate/hosted/de/"
 ">\n"
 "Language: de\n"
@@ -26,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5-dev\n"
+"X-Generator: Weblate 4.6-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -162,7 +163,7 @@ msgstr "Vielen Dank für die Zahlung, Ihre Rechnung ist nun bezahlt."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr "Dieser Abrechnungsplan umfasst folgende Projekte:"
+msgstr "Dieses Abrechnungsmodell umfasst folgende Projekte:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
