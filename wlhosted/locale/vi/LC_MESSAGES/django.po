@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Michal Čihař <michal@cihar.com>, 2019.
 # thunhan <thunhan@gmail.com>, 2020.
+# bruh <quangtrung02hn16@gmail.com>, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2020-12-23 22:11+0000\n"
-"Last-Translator: thunhan <thunhan@gmail.com>\n"
+"PO-Revision-Date: 2021-04-07 15:26+0000\n"
+"Last-Translator: bruh <quangtrung02hn16@gmail.com>\n"
 "Language-Team: Vietnamese <https://hosted.weblate.org/projects/weblate/"
 "hosted/vi/>\n"
 "Language: vi\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4.1-dev\n"
+"X-Generator: Weblate 4.6-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -33,94 +34,86 @@ msgstr ""
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
-msgstr ""
+msgstr "Thanh toán"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
-msgstr ""
+msgstr "Chọn kế hoạch thanh toán bạn muốn cập nhật"
 
 #: wlhosted/integrations/forms.py:34
 msgid "Create new billing plan"
-msgstr ""
+msgstr "Tạo kế hoạch thanh toán mới"
 
 #: wlhosted/integrations/templates/hosted/create.html:8
 msgid "Create billing plan"
-msgstr ""
+msgstr "Tạo kế hoạch thanh toán"
 
 #: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
-msgstr ""
+msgstr "Kế hoạch thanh toán mới"
 
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
-msgstr ""
+msgstr "Vui lòng chọn một kế hoạch lưu trữ vừa với kích cỡ dự án của bạn."
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
-msgstr ""
+msgstr "Trạng thái thanh toán hiện tại"
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
-msgstr ""
+msgstr "Quá nhỏ cho dự án của bạn."
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small"
-msgstr ""
+msgstr "Quá nhỏ"
 
 #: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
-msgstr ""
+msgstr "Kế hoạch đã chọn"
 
 #: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
 msgstr "Kế hoạch hiện tại"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
-#, fuzzy
-#| msgid "OS X Strings"
 msgid "Strings limit"
-msgstr "Chuỗi hệ điều hành OS X"
+msgstr "Giới hạn xâu"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
 #: wlhosted/integrations/templates/hosted/create.html:63
 #: wlhosted/integrations/templates/hosted/create.html:66
 msgid "Unlimited"
-msgstr ""
+msgstr "Không giới hạn"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
-#, fuzzy
-#| msgid "Languages"
 msgid "Languages limit"
-msgstr "Ngôn ngữ"
+msgstr "Giới hạn ngôn ngữ"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
-#, fuzzy
-#| msgid "Project name"
 msgid "Component limit"
-msgstr "Tiêu đề dự án"
+msgstr "Giới hạn thành phần"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
-#, fuzzy
-#| msgid "Project name"
 msgid "Projects limit"
-msgstr "Tiêu đề dự án"
+msgstr "Giới hạn dự án"
 
 #: wlhosted/integrations/templates/hosted/create.html:78
 #, python-format
 msgid "%(price)s EUR / month"
-msgstr ""
+msgstr "%(price)s EUR / tháng"
 
 #: wlhosted/integrations/templates/hosted/create.html:79
 #: wlhosted/integrations/templates/hosted/create.html:85
 #, python-format
 msgid "%(price)s EUR including VAT"
-msgstr ""
+msgstr "%(price)s EUR bao gồm VAT"
 
 #: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
 msgid "%(price)s EUR / year"
-msgstr ""
+msgstr "%(price)s EUR / năm"
 
 #: wlhosted/integrations/templates/hosted/create.html:96
 msgid ""
@@ -154,19 +147,19 @@ msgstr ""
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
-msgstr ""
+msgstr "Kiểm tra trạng thái thanh toán của bạn"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
-msgstr ""
+msgstr "Kế hoạch thanh toán của bạn đã được trả tiền"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
-msgstr ""
+msgstr "Không tìm thấy thanh toán trùng khớp."
 
 #: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr ""
+msgstr "Cảm ơn bạn vì đã mua một kế hoạch lưu trữ, bây giờ nó đã hoạt động."
 
 #: wlhosted/integrations/views.py:83
 msgid ""
@@ -176,11 +169,11 @@ msgstr ""
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
-msgstr ""
+msgstr "Thanh toán bị từ chối: {}"
 
 #: wlhosted/integrations/views.py:96
 msgid "Unknown reason"
-msgstr ""
+msgstr "Lý do không xác định"
 
 #: wlhosted/integrations/views.py:112
 msgid "Payments are temporarily inactive."
@@ -188,7 +181,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:192
 msgid "Your payment on weblate.org"
-msgstr ""
+msgstr "Thanh toán của bạn trên weblate.org"
 
 #: wlhosted/payments/backends.py:194
 #, python-format
@@ -226,7 +219,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
-msgstr ""
+msgstr "Thanh toán đang chờ của bạn trên weblate.org"
 
 #: wlhosted/payments/backends.py:257
 msgid ""
@@ -365,6 +358,8 @@ msgstr "Đang xử lý thanh toán"
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
 msgstr ""
+"{} không phải là mã quốc gia hợp lệ của bất kỳ thành viên Liên minh châu Âu "
+"nào."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
@@ -376,7 +371,7 @@ msgstr ""
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr ""
+msgstr "{} không phải là ID VAT hợp lệ."
 
 #, fuzzy
 #~| msgid "PHP strings"
