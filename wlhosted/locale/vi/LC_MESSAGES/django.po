@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-04-07 15:26+0000\n"
+"PO-Revision-Date: 2021-04-08 22:21+0000\n"
 "Last-Translator: bruh <quangtrung02hn16@gmail.com>\n"
 "Language-Team: Vietnamese <https://hosted.weblate.org/projects/weblate/"
 "hosted/vi/>\n"
@@ -26,11 +26,11 @@ msgstr ""
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
-msgstr ""
+msgstr "Đặt lại kho về thượng nguồn"
 
 #: wlhosted/addons.py:58
 msgid "Discards all changes in the Weblate repository each night."
-msgstr ""
+msgstr "Bỏ đi tất cả thay đổi trong kho Weblate vào mỗi đêm."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
