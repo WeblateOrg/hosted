@@ -1,5 +1,6 @@
 django-appconf>=1.0
-django-countries
+django-countries==7.1
+Django<3.2
 django-vies
 fiobank
 nijel-thepay
