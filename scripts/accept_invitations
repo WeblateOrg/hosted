@@ -11,7 +11,7 @@ import requests
 def main():
     headers = {
         "Content-Type": "application/json",
-        "Authorization": "token {}".format(sys.argv[1]),
+        "Authorization": f"token {sys.argv[1]}",
     }
 
     url = "https://api.github.com/user/memberships/orgs"
