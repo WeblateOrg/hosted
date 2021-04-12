@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# HelaBasa <R45XvezA@protonmail.ch>, 2020.
+# HelaBasa <R45XvezA@protonmail.ch>, 2020, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2020-12-22 19:29+0000\n"
+"PO-Revision-Date: 2021-04-13 19:27+0000\n"
 "Last-Translator: HelaBasa <R45XvezA@protonmail.ch>\n"
 "Language-Team: Sinhala <https://hosted.weblate.org/projects/weblate/hosted/"
 "si/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.6-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -229,7 +229,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
-msgstr ""
+msgstr "ගෙවුම් පත"
 
 #: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
@@ -237,11 +237,11 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:417
 msgid "Payment error"
-msgstr ""
+msgstr "ගෙවීමේ දෝෂයකි"
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
-msgstr ""
+msgstr "බිට්කොයින්"
 
 #: wlhosted/payments/backends.py:438
 msgid "IBAN bank transfer"
@@ -257,7 +257,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:470
 msgid "Account number"
-msgstr ""
+msgstr "ගිණුම් අංකය"
 
 #: wlhosted/payments/backends.py:471
 msgid "SWIFT code"
@@ -294,15 +294,15 @@ msgstr ""
 
 #: wlhosted/payments/models.py:97
 msgid "Address"
-msgstr ""
+msgstr "ලිපිනය"
 
 #: wlhosted/payments/models.py:100
 msgid "Postcode and city"
-msgstr ""
+msgstr "තැපැල් කේතය සහ නගරය"
 
 #: wlhosted/payments/models.py:102
 msgid "Country"
-msgstr ""
+msgstr "රට"
 
 #: wlhosted/payments/models.py:134
 msgid "The country has to match your VAT code"
