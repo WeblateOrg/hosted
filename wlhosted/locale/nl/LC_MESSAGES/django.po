@@ -5,13 +5,14 @@
 # Frans de Jonge <fransdejonge+weblate.org@gmail.com>, 2019.
 # Jaimie85 <alsemgeest@gmail.com>, 2020.
 # Heimen Stoffels <vistausss@outlook.com>, 2020, 2021.
+# BudsieBuds <bas_hubers@hotmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-01-28 08:55+0000\n"
-"Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
+"PO-Revision-Date: 2021-06-10 02:33+0000\n"
+"Last-Translator: BudsieBuds <bas_hubers@hotmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/weblate/hosted/nl/>"
 "\n"
 "Language: nl\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5-dev\n"
+"X-Generator: Weblate 4.7-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -337,7 +338,7 @@ msgstr "Adres"
 
 #: wlhosted/payments/models.py:100
 msgid "Postcode and city"
-msgstr "Postcode en gemeente"
+msgstr "Postcode en stad"
 
 #: wlhosted/payments/models.py:102
 msgid "Country"
@@ -353,11 +354,11 @@ msgstr "Jaarlijks"
 
 #: wlhosted/payments/models.py:158
 msgid "Biannual"
-msgstr "Tweejaarlijks"
+msgstr "Halfjaarlijks"
 
 #: wlhosted/payments/models.py:159
 msgid "Quarterly"
-msgstr "Driemaandelijks"
+msgstr "Per kwartaal"
 
 #: wlhosted/payments/models.py:160
 msgid "Monthly"
@@ -404,7 +405,7 @@ msgstr ""
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
-"De btw-nummervalidatiedienst niet beschikbaar voor {}. Probeer het later "
+"Btw-nummervalidatiedienst niet beschikbaar voor {}. Probeer het later "
 "opnieuw."
 
 #: wlhosted/payments/validators.py:53
