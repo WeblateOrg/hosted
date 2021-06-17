@@ -8,13 +8,14 @@
 # Riku Viitanen <riku.viitanen@protonmail.com>, 2020.
 # Ricky Tigg <ricky.tigg@gmail.com>, 2021.
 # Demian Wright <wright.demian+weblate@gmail.com>, 2021.
+# Jack Jofa <jackjofa@protonmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
 "PO-Revision-Date: 2021-06-18 22:33+0000\n"
-"Last-Translator: Demian Wright <wright.demian+weblate@gmail.com>\n"
+"Last-Translator: Jack Jofa <jackjofa@protonmail.com>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/weblate/hosted/"
 "fi/>\n"
 "Language: fi\n"
@@ -33,10 +34,8 @@ msgid "Reset repository to upstream"
 msgstr "Palauta arkisto yläjuoksuun"
 
 #: wlhosted/addons.py:58
-#, fuzzy
-#| msgid "Reset all changes in the local repository"
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Nollaa kaikki muutokset paikallisessa arkistossa"
+msgstr "Hylkää kaikki muutokset Weblate -arkistossa joka yö."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
