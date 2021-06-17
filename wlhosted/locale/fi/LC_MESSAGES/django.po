@@ -7,13 +7,14 @@
 # Tuomas Lähteenmäki <lahtis@gmail.com>, 2020.
 # Riku Viitanen <riku.viitanen@protonmail.com>, 2020.
 # Ricky Tigg <ricky.tigg@gmail.com>, 2021.
+# Demian Wright <wright.demian+weblate@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-03-06 21:59+0000\n"
-"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"PO-Revision-Date: 2021-06-18 22:33+0000\n"
+"Last-Translator: Demian Wright <wright.demian+weblate@gmail.com>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/weblate/hosted/"
 "fi/>\n"
 "Language: fi\n"
@@ -21,15 +22,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5.1\n"
+"X-Generator: Weblate 4.7\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
-msgstr ""
+msgstr "Luo Unknown Horizons -skenaariotiedot"
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
-msgstr ""
+msgstr "Palauta arkisto yläjuoksuun"
 
 #: wlhosted/addons.py:58
 #, fuzzy
@@ -139,17 +140,19 @@ msgstr "Hinnat eivät sisällä arvonlisäveroa."
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
+"EU:n loppukäyttäjiltä ja tšekkiläisiltä yrityksiltä peritään lisäksi 21%% "
+"arvonlisäveroa."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
+"Käännettyä verovelvollisuutta sovelletaan EU:n alueella toimiville "
+"yrityksille osoitettuihin laskuihin."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
-#, fuzzy
-#| msgid "Thank you for purchasing a hosting plan, it is now active."
 msgid "Thank you for the payment, your billing is now paid."
-msgstr "Kiitos tilauksestasi, se on nyt aktiivinen."
+msgstr "Kiitos maksusta, laskutuksesi on nyt maksettu."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
@@ -160,14 +163,12 @@ msgid "Check your billing status"
 msgstr "Tarkista laskutustilanteesi"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
-#, fuzzy
-#| msgid "Create billing plan"
 msgid "Your billing plan was paid"
-msgstr "Luo laskutussuunnitelma"
+msgstr "Laskutussuunnitelmasi maksettiin"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
-msgstr ""
+msgstr "Vastaavaa maksua ei löytynyt."
 
 #: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
