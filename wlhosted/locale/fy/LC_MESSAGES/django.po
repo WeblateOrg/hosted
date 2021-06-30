@@ -3,21 +3,22 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Automatically generated, 2014.
 #
+# Vancha March <tjipkevdh@gmail.com>, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2018-01-30 18:47+0000\n"
-"Last-Translator: Michal Čihař <michal@cihar.com>\n"
-"Language-Team: Frisian <https://hosted.weblate.org/projects/weblate/master/"
+"PO-Revision-Date: 2021-06-30 15:01+0000\n"
+"Last-Translator: Vancha March <tjipkevdh@gmail.com>\n"
+"Language-Team: Frisian <https://hosted.weblate.org/projects/weblate/hosted/"
 "fy/>\n"
 "Language: fy\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.19-dev\n"
+"X-Generator: Weblate 4.7.1-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -240,19 +241,19 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
-msgstr ""
+msgstr "Betelling ôfbrutsen"
 
 #: wlhosted/payments/backends.py:417
 msgid "Payment error"
-msgstr ""
+msgstr "Betellingsfout"
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
-msgstr ""
+msgstr "Bitcoin"
 
 #: wlhosted/payments/backends.py:438
 msgid "IBAN bank transfer"
-msgstr ""
+msgstr "IBAN bank oerdracht"
 
 #: wlhosted/payments/backends.py:468
 msgid "Issuing bank"
@@ -260,27 +261,27 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:469
 msgid "Account holder"
-msgstr ""
+msgstr "Rekkening eigener"
 
 #: wlhosted/payments/backends.py:470
 msgid "Account number"
-msgstr ""
+msgstr "Rekkening nûmer"
 
 #: wlhosted/payments/backends.py:471
 msgid "SWIFT code"
-msgstr ""
+msgstr "SWIFT koade"
 
 #: wlhosted/payments/backends.py:472
 msgid "IBAN"
-msgstr ""
+msgstr "IBAN"
 
 #: wlhosted/payments/backends.py:473
 msgid "Reference"
-msgstr ""
+msgstr "Referinsje"
 
 #: wlhosted/payments/models.py:77
 msgid "European VAT ID"
-msgstr ""
+msgstr "Europeesk BTW ID"
 
 #: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
@@ -288,77 +289,79 @@ msgstr ""
 
 #: wlhosted/payments/models.py:85
 msgid "Tax registration"
-msgstr ""
+msgstr "Belesting registraasje"
 
 #: wlhosted/payments/models.py:87
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
+"Graach jo belesting registraasje ynfiere as dit op de faktuer sjen litten "
+"wurde moat."
 
 #: wlhosted/payments/models.py:94
 msgid "Company or individual name"
-msgstr ""
+msgstr "Namme fan bedriuw as yndividu"
 
 #: wlhosted/payments/models.py:97
 msgid "Address"
-msgstr ""
+msgstr "Adres"
 
 #: wlhosted/payments/models.py:100
 msgid "Postcode and city"
-msgstr ""
+msgstr "Postkoade en stêd"
 
 #: wlhosted/payments/models.py:102
 msgid "Country"
-msgstr ""
+msgstr "Lân"
 
 #: wlhosted/payments/models.py:134
 msgid "The country has to match your VAT code"
-msgstr ""
+msgstr "It lân mat oerien komme mei jo BTW koade"
 
 #: wlhosted/payments/models.py:157
 msgid "Annual"
-msgstr ""
+msgstr "Jierliks"
 
 #: wlhosted/payments/models.py:158
 msgid "Biannual"
-msgstr ""
+msgstr "Twa kear yn 't jier"
 
 #: wlhosted/payments/models.py:159
 msgid "Quarterly"
-msgstr ""
+msgstr "Fearnsjierliks"
 
 #: wlhosted/payments/models.py:160
 msgid "Monthly"
-msgstr ""
+msgstr "Moanliks"
 
 #: wlhosted/payments/models.py:161
 msgid "Onetime"
-msgstr ""
+msgstr "Ien kear"
 
 #: wlhosted/payments/models.py:195
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "Nije betelling"
 
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr ""
+msgstr "Yn ôfwachting fan betelling"
 
 #: wlhosted/payments/models.py:197
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr ""
+msgstr "Betelling net akseptearre"
 
 #: wlhosted/payments/models.py:198
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr ""
+msgstr "Betelling akseptearre"
 
 #: wlhosted/payments/models.py:199
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr ""
+msgstr "Betelling ferwurke"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
