@@ -1,7 +1,7 @@
 Django<3.3
 django-appconf>=1.0
 django-countries==7.2.1
-django-vies==6.0.0
+django-vies==6.0.1
 fiobank==3.0.0
 nijel-thepay==0.5
 python-dateutil
