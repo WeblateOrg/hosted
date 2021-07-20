@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-07-17 08:59+0000\n"
+"PO-Revision-Date: 2021-07-21 22:27+0000\n"
 "Last-Translator: Agnieszka C <aga_04@o2.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/weblate/hosted/pl/"
 ">\n"
@@ -39,7 +39,7 @@ msgstr "Każdej nocy odrzuca wszystkie zmiany w repozytorium Weblate."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
-msgstr "Biling"
+msgstr "Rozliczenia"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
