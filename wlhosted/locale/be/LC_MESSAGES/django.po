@@ -4,15 +4,15 @@
 # Viktar Vauchkevich <victorenator@gmail.com>, 2018.
 # Zmicer Turok <zmicerturok@gmail.com>, 2019.
 # anonymous <noreply@weblate.org>, 2019.
-# Zmicer Turok <nashtlumach@gmail.com>, 2019, 2020.
+# Zmicer Turok <nashtlumach@gmail.com>, 2019, 2020, 2021.
 # Alex Ky <esthomolupus@gmail.com>, 2020.
 # Michal Čihař <michal@cihar.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2020-11-10 09:28+0000\n"
+"PO-Revision-Date: 2021-07-21 22:27+0000\n"
 "Last-Translator: Zmicer Turok <nashtlumach@gmail.com>\n"
 "Language-Team: Belarusian <https://hosted.weblate.org/projects/weblate/"
 "hosted/be/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -275,7 +275,7 @@ msgstr "Плацеж скасаваны"
 
 #: wlhosted/payments/backends.py:417
 msgid "Payment error"
-msgstr "Памылка аплаты"
+msgstr "Не атрымалася аплаціць"
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
@@ -283,19 +283,19 @@ msgstr "Bitcoin"
 
 #: wlhosted/payments/backends.py:438
 msgid "IBAN bank transfer"
-msgstr "Банкаўскі перавод па IBAN"
+msgstr "Банкаўскі перавод IBAN"
 
 #: wlhosted/payments/backends.py:468
 msgid "Issuing bank"
-msgstr "Банк-эмітэнт"
+msgstr "Банк эмітэнт"
 
 #: wlhosted/payments/backends.py:469
 msgid "Account holder"
-msgstr "Уладальнік рахунка"
+msgstr "Уладальнік рахунку"
 
 #: wlhosted/payments/backends.py:470
 msgid "Account number"
-msgstr "Нумар рахунка"
+msgstr "Нумар рахунку"
 
 #: wlhosted/payments/backends.py:471
 msgid "SWIFT code"
@@ -311,13 +311,11 @@ msgstr "Рэкамендацыя"
 
 #: wlhosted/payments/models.py:77
 msgid "European VAT ID"
-msgstr "Еўрапейскі нумар плацельшчыка ПДВ"
+msgstr "Еўрапейскі ідэнтыфікатар ПДВ"
 
 #: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
-msgstr ""
-"Калі ласка, запоўніце ідэнтыфікатар ПДВ ЕЗ, калі не ўжываецца, пакінце "
-"пустым."
+msgstr "Калі ласка, запоўніце ідэнтыфікатар ПДВ ЕЗ. Калі няма, пакінце пустым."
 
 #: wlhosted/payments/models.py:85
 msgid "Tax registration"
@@ -332,7 +330,7 @@ msgstr ""
 
 #: wlhosted/payments/models.py:94
 msgid "Company or individual name"
-msgstr "Назва кампаніі альбо імя прыватнай асоба"
+msgstr "Назва кампаніі альбо імя прыватнай асобы"
 
 #: wlhosted/payments/models.py:97
 msgid "Address"
@@ -348,7 +346,7 @@ msgstr "Краіна"
 
 #: wlhosted/payments/models.py:134
 msgid "The country has to match your VAT code"
-msgstr "Краіна павінна адпавядаць вашаму коду ПДВ"
+msgstr "Краіна мусіць адпавядаць вашаму коду ПДВ"
 
 #: wlhosted/payments/models.py:157
 msgid "Annual"
@@ -397,7 +395,7 @@ msgstr "Плацеж апрацаваны"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
-msgstr "{} не з'яўляецца сапраўдным кодам краіны ні для аднаго члена ЕЗ."
+msgstr "{} не ёсць сапраўдным кодам краіны ніводнага ўдзельніка ЕЗ."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
@@ -406,12 +404,12 @@ msgstr "{} не адпавядае спецыфікацыям ПДВ у краі
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
-"Паслуга праверкі ідэнтыфікатара ПДВ недаступная для {}, калі ласка, "
-"паспрабуйце яшчэ раз пазней."
+"Паслуга праверкі ідэнтыфікатара ПДВ недаступная для {}, паспрабуйце яшчэ раз "
+"пазней."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr "{} не з'яўляецца сапраўдным ідэнтыфікатарам ПДВ."
+msgstr "{} не ёсць сапраўдным ідэнтыфікатарам ПДВ."
 
 #~ msgid ""
 #~ "We comply with the Regulation No. %(law_679_2016)s, the General Data "
