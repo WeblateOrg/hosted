@@ -58,7 +58,7 @@ jobs:
         run: |
           weblate collectstatic --noinput
           coverage run `which weblate` test
-      - uses: codecov/codecov-action@v2.0.1
+      - uses: codecov/codecov-action@v2.0.2
         with:
           token: ${{secrets.CODECOV_TOKEN}}
           flags: unittests
