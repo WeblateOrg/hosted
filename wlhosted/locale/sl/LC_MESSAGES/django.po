@@ -4,13 +4,14 @@
 # Domen <mitenem@outlook.com>, 2018, 2019.
 # anonymous <noreply@weblate.org>, 2019.
 # Martin Srebotnjak <miles@filmsi.net>, 2020, 2021.
+# Klemen Skerbiš <klemen.skerbis1@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-02-22 13:57+0000\n"
-"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
+"PO-Revision-Date: 2021-07-23 19:06+0000\n"
+"Last-Translator: Klemen Skerbiš <klemen.skerbis1@gmail.com>\n"
 "Language-Team: Slovenian <https://hosted.weblate.org/projects/weblate/hosted/"
 "sl/>\n"
 "Language: sl\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 4.5\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -245,7 +246,7 @@ msgstr "Plačilna kartica"
 
 #: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
-msgstr "Plačilo stornirano"
+msgstr "Plačilo preklicano"
 
 #: wlhosted/payments/backends.py:417
 msgid "Payment error"
