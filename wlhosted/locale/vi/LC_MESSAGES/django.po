@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-04-26 04:32+0000\n"
+"PO-Revision-Date: 2021-07-27 15:33+0000\n"
 "Last-Translator: bruh <quangtrung02hn16@gmail.com>\n"
 "Language-Team: Vietnamese <https://hosted.weblate.org/projects/weblate/"
 "hosted/vi/>\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
-msgstr ""
+msgstr "Tạo dữ liệu ngữ cảnh của Unknown Horizons"
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
@@ -121,6 +121,9 @@ msgid ""
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
+"Việc định giá được dựa trên số các xâu nguồn và ngôn ngữ đích. Xâu nguồn là "
+"một đơn vị văn bản được định nghĩa thành một định dạng bản dịch, nó có thể "
+"là một từ, một câu hoặc một đoạn văn."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
@@ -137,10 +140,12 @@ msgstr ""
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
+"Việc tính phí ngược có áp dụng cho các hóa đơn được cấp cho các doanh nghiệp "
+"trong EU."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
-msgstr ""
+msgstr "Cảm ơn bạn vì đã thanh toán, hóa đơn của bạn bây giờ đã được trả tiền."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
@@ -198,10 +203,18 @@ msgid ""
 "\n"
 "%s\n"
 msgstr ""
+"Xin chào,\n"
+"\n"
+"Cảm ơn bạn vì đã thanh toán trên weblate.org.\n"
+"\n"
+"Bạn sẽ tìm thấy một hóa đơn của việc thanh toán này được đính kèm vào.\n"
+"Bạn cũng có thể tải nó xuống từ trang web.\n"
+"\n"
+"%s\n"
 
 #: wlhosted/payments/backends.py:220
 msgid "Your payment on weblate.org failed"
-msgstr ""
+msgstr "Việc thanh toán của bạn trên weblate.org đã thất bại"
 
 #: wlhosted/payments/backends.py:222
 #, python-format
@@ -219,6 +232,18 @@ msgid ""
 "If concerning a recurring payment, it is retried three times,\n"
 "and if still failing, cancelled.\n"
 msgstr ""
+"Xin chào,\n"
+"\n"
+"Việc thanh toán của bạn trên weblate.org đã thất bại.\n"
+"\n"
+"%s\n"
+"\n"
+"Hãy thử thanh toán lại trên trang web:\n"
+"\n"
+"%s\n"
+"\n"
+"Nếu nhắc đến thanh toán lặp lại, thì nó được thử lại ba lần,\n"
+"và nếu vẫn thất bại thì sẽ bị hủy.\n"
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
@@ -231,6 +256,10 @@ msgid ""
 "Your payment on weblate.org is pending. Please follow the provided\n"
 "instructions to complete the payment.\n"
 msgstr ""
+"Xin chào,\n"
+"\n"
+"Việc thanh toán của bạn trên weblate.org đang chờ xử lý. Vui lòng làm theo\n"
+"hướng dẫn được cung cấp để hoàn tất việc thanh toán.\n"
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
@@ -366,11 +395,11 @@ msgstr ""
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr ""
+msgstr "{} không khớp với thông số ID VAT của quốc gia đó."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
-msgstr ""
+msgstr "Dịch vụ xác thực ID VAT không có sẵn cho {}, vui lòng thử lại sau."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
