@@ -4,13 +4,14 @@
 # Michal Čihař <michal@cihar.com>, 2019.
 # sayyed hamed nasib <cghamed752@chmail.ir>, 2020.
 # سهیل خانعلی‌پور <soheilkhanalipur@tutanota.com>, 2020.
+# Mokhtar Garmehi <Mokhtar_garmeh@yahoo.com>, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2020-08-12 05:52+0000\n"
-"Last-Translator: سهیل خانعلی‌پور <soheilkhanalipur@tutanota.com>\n"
+"PO-Revision-Date: 2021-08-18 22:35+0000\n"
+"Last-Translator: Mokhtar Garmehi <Mokhtar_garmeh@yahoo.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/weblate/hosted/"
 "fa/>\n"
 "Language: fa\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.2-dev\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -62,11 +63,11 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
-msgstr ""
+msgstr "خیلی کوچک برای پروژه شما."
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small"
-msgstr ""
+msgstr "خیلی کوچک"
 
 #: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
