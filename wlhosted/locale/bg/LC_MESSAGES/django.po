@@ -4,13 +4,14 @@
 # anonymous <noreply@weblate.org>, 2019.
 # Whod <whodizhod@gmail.com>, 2020.
 # Georgi <g.georgiev.shumen@gmail.com>, 2021.
+# Любомир Василев <lyubomirv@gmx.com>, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-01-11 18:32+0000\n"
-"Last-Translator: Georgi <g.georgiev.shumen@gmail.com>\n"
+"PO-Revision-Date: 2021-09-08 12:32+0000\n"
+"Last-Translator: Любомир Василев <lyubomirv@gmx.com>\n"
 "Language-Team: Bulgarian <https://hosted.weblate.org/projects/weblate/hosted/"
 "bg/>\n"
 "Language: bg\n"
@@ -18,21 +19,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.1-dev\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
-msgstr ""
+msgstr "Създаване на данни за сценарий на „Unknown Horizons“"
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
-msgstr ""
+msgstr "Връщане на хранилището към изходното състояние"
 
 #: wlhosted/addons.py:58
-#, fuzzy
-#| msgid "Reset all changes in the local repository"
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Нулиране на всички промени в местното хранилище"
+msgstr "Премахване на всички промени в хранилището на Weblate всяка нощ."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
@@ -40,39 +39,39 @@ msgstr "Таксуване"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
-msgstr ""
+msgstr "Изберете кой платежен план искате да актуализирате"
 
 #: wlhosted/integrations/forms.py:34
 msgid "Create new billing plan"
-msgstr ""
+msgstr "Създаване на нов платежен план"
 
 #: wlhosted/integrations/templates/hosted/create.html:8
 msgid "Create billing plan"
-msgstr ""
+msgstr "Създаване на платежен план"
 
 #: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
-msgstr ""
+msgstr "Нов платежен план"
 
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
-msgstr ""
+msgstr "Изберете план за хостване, който отговаря на големината на проекта Ви."
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
-msgstr ""
+msgstr "Текущо състояние на платежния план"
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
-msgstr ""
+msgstr "Твърде малък за проекта Ви."
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small"
-msgstr ""
+msgstr "Твърде малък"
 
 #: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
-msgstr ""
+msgstr "Избран план"
 
 #: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
@@ -94,10 +93,8 @@ msgid "Languages limit"
 msgstr "Ограничение на броя езици"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
-#, fuzzy
-#| msgid "Projects limit"
 msgid "Component limit"
-msgstr "Ограничение на броя проекти"
+msgstr "Ограничение на броя компоненти"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
@@ -120,19 +117,15 @@ msgid "%(price)s EUR / year"
 msgstr "%(price)s € / година"
 
 #: wlhosted/integrations/templates/hosted/create.html:96
-#, fuzzy
-#| msgid ""
-#| "The pricing is based on number of source strings and number of target "
-#| "languages. The source string is a text unit defined in a translation "
-#| "format, it can be word, sentence or a paragraph."
 msgid ""
 "Pricing is based on the number of source strings and target languages. The "
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
 "Цената се определя от броя на оригиналните текстове и броя на целевите "
-"езици. Един оригинален текст е една текстова единица, както е описана във "
-"формата за превод. Това може да бъде дума, изречение или цял абзац."
+"езици. Един оригинален текст се определя като една текстова единица, както е "
+"описана във формата за превод. Това може да бъде дума, изречение или цял "
+"абзац."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
@@ -143,57 +136,63 @@ msgstr "Цените са без ДДС."
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
+"Крайните потребители от ЕС и чешките компании ще бъдат таксувани с "
+"допълнителни 21%% ДДС."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
+"Обратното вземане е приложимо за фактури, издадени на компании в рамките на "
+"ЕС."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
-msgstr ""
+msgstr "Благодарим Ви за плащането! Планът Ви е платен."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "Този платежен план покрива следните проекти:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
-msgstr ""
+msgstr "Проверка на състоянието на платежния план"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
-msgstr ""
+msgstr "Планът Ви е платен"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
-msgstr ""
+msgstr "Няма намерено съответстващо плащане."
 
 #: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr ""
+msgstr "Благодарим Ви за покупката на план за хостинг. Той вече е активен."
 
 #: wlhosted/integrations/views.py:83
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
+"Благодарим Ви за покупката на план за хостинг. Плащането в момента е на "
+"изчакване и ще се обработи във фонов режим."
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
-msgstr ""
+msgstr "Плащането беше отхвърлено: {}"
 
 #: wlhosted/integrations/views.py:96
 msgid "Unknown reason"
-msgstr ""
+msgstr "Неизвестна причина"
 
 #: wlhosted/integrations/views.py:112
 msgid "Payments are temporarily inactive."
-msgstr ""
+msgstr "Плащанията временно не работят."
 
 #: wlhosted/payments/backends.py:192
 msgid "Your payment on weblate.org"
-msgstr ""
+msgstr "Вашето плащане на weblate.org"
 
 #: wlhosted/payments/backends.py:194
 #, python-format
@@ -207,10 +206,18 @@ msgid ""
 "\n"
 "%s\n"
 msgstr ""
+"Здравейте,\n"
+"\n"
+"Благодарим Ви за плащането на weblate.org.\n"
+"\n"
+"Фактурата за плащането е прикачена.\n"
+"Можете да я свалите и от уеб сайта:\n"
+"\n"
+"%s\n"
 
 #: wlhosted/payments/backends.py:220
 msgid "Your payment on weblate.org failed"
-msgstr ""
+msgstr "Плащането Ви на weblate.org беше неуспешно"
 
 #: wlhosted/payments/backends.py:222
 #, python-format
@@ -228,10 +235,22 @@ msgid ""
 "If concerning a recurring payment, it is retried three times,\n"
 "and if still failing, cancelled.\n"
 msgstr ""
+"Здравейте,\n"
+"\n"
+"Плащането Ви на weblate.org беше неуспешно.\n"
+"\n"
+"%s\n"
+"\n"
+"Опитайте да платите отново в уеб сайта:\n"
+"\n"
+"%s\n"
+"\n"
+"Ако става въпрос за периодично плащане, за него ще се\n"
+"направят три опита, след което ще бъде отменено.\n"
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
-msgstr ""
+msgstr "Вашето чакащо плащане на weblate.org"
 
 #: wlhosted/payments/backends.py:257
 msgid ""
@@ -240,6 +259,10 @@ msgid ""
 "Your payment on weblate.org is pending. Please follow the provided\n"
 "instructions to complete the payment.\n"
 msgstr ""
+"Здравейте,\n"
+"\n"
+"Плащането Ви на weblate.org е на изчакване. Последвайте\n"
+"приложените инструкции, за да завършите плащането.\n"
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
@@ -292,19 +315,22 @@ msgstr "Европейски ДДС №"
 #: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
+"Моля, въведете идентификатор по ДДС за Европейския съюз. Оставете празно, "
+"ако е неприложимо."
 
 #: wlhosted/payments/models.py:85
 msgid "Tax registration"
-msgstr ""
+msgstr "Данъчна регистрация"
 
 #: wlhosted/payments/models.py:87
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
+"Въведете данъчната си регистрация, ако тя трябва да присъства на фактурата."
 
 #: wlhosted/payments/models.py:94
 msgid "Company or individual name"
-msgstr ""
+msgstr "Име на компания или физическо лице"
 
 #: wlhosted/payments/models.py:97
 msgid "Address"
@@ -320,27 +346,27 @@ msgstr "Държава"
 
 #: wlhosted/payments/models.py:134
 msgid "The country has to match your VAT code"
-msgstr ""
+msgstr "Държавата трябва да съвпада с кода за ДДС"
 
 #: wlhosted/payments/models.py:157
 msgid "Annual"
-msgstr ""
+msgstr "Ежегодно"
 
 #: wlhosted/payments/models.py:158
 msgid "Biannual"
-msgstr ""
+msgstr "Два пъти годишно"
 
 #: wlhosted/payments/models.py:159
 msgid "Quarterly"
-msgstr ""
+msgstr "Всяко тримесечие"
 
 #: wlhosted/payments/models.py:160
 msgid "Monthly"
-msgstr ""
+msgstr "Ежемесечно"
 
 #: wlhosted/payments/models.py:161
 msgid "Onetime"
-msgstr ""
+msgstr "Еднократно"
 
 #: wlhosted/payments/models.py:195
 msgctxt "Payment state"
@@ -369,19 +395,21 @@ msgstr "Плащането е обработено"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
-msgstr ""
+msgstr "{} не е правилен код на страна-членка на Европейския съюз."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr ""
+msgstr "{} не отговаря на спецификацията за идентификатор по ДДС на държавата."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
+"Услугата за проверка на идентификатора по ДДС за {} в момента е недостъпна. "
+"Моля, опитайте отново по-късно."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr ""
+msgstr "{} не е правилен идентификатор по ДДС."
 
 #~ msgid "Personal Data Controller"
 #~ msgstr "Администратор на лични данни"
