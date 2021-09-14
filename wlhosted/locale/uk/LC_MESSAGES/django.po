@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-09-11 20:35+0000\n"
+"PO-Revision-Date: 2021-09-15 18:34+0000\n"
 "Last-Translator: Tymofii Lytvynenko <till.svit@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/weblate/hosted/"
 "uk/>\n"
@@ -35,11 +35,11 @@ msgstr "Породити дані для сценарію Unknown Horizons"
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
-msgstr "Скинути сховище до початкового стану"
+msgstr "Скинути репозиторій до початкового стану"
 
 #: wlhosted/addons.py:58
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Відкидає усі зміни в сховищі Weblate щоночі."
+msgstr "Відкидає усі зміни в репозиторії Weblate щоночі."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
