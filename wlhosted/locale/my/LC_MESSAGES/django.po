@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Weblate <noreply@weblate.org>, 2020.
 # Sithu Aung <sithu.aung015@gmail.com>, 2020.
+# Tun Tun AUNG <tuntunaung@codingclassroom.org>, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2020-12-08 08:53+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2021-09-15 18:34+0000\n"
+"Last-Translator: Tun Tun AUNG <tuntunaung@codingclassroom.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/weblate/hosted/"
 "my/>\n"
 "Language: my\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -364,15 +365,17 @@ msgstr "{} သည် မှန်ကန်သော မည်သည့် ဥရ
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr ""
+msgstr "{} နိုင်ငံ၏ VAT ID သတ်မှတ်ချက်များနှင့် မကိုက်ညီပါ။"
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
+"VAT ID အတည်ပြုခြင်း ဝန်ဆောင်မှုကို မရနိုင်ပါ {}၊ ကျေးဇူးပြု၍ "
+"နောက်မှထပ်ကြိုးစားပါ။"
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr ""
+msgstr "{} သည်မှန်ကန်သော VAT ID မဟုတ်ပါ။"
 
 #~ msgid "Personal Data Controller"
 #~ msgstr "ပုဂ္ဂိုလ်ရေး အချက်အလက် ထိန်းချုပ်သူ"
