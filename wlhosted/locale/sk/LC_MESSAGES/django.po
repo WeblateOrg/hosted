@@ -6,13 +6,14 @@
 # Michal Čihař <michal@cihar.com>, 2019.
 # anonymous <noreply@weblate.org>, 2019.
 # Ivan Pleva <ivan.pleva@tutanota.com>, 2019, 2020.
+# Milan <mobrcian@hotmail.com>, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2020-12-08 08:53+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2021-09-25 20:38+0000\n"
+"Last-Translator: Milan <mobrcian@hotmail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/weblate/hosted/sk/"
 ">\n"
 "Language: sk\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -31,10 +32,8 @@ msgid "Reset repository to upstream"
 msgstr "Resetovať odkladací priestor na upstream"
 
 #: wlhosted/addons.py:58
-#, fuzzy
-#| msgid "Reset all changes in the local repository"
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Resetovať všetky zmeny v lokálnom repozitári"
+msgstr "Každú noc odstráni všetky zmeny v úložisku Weblate."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
@@ -149,24 +148,20 @@ msgstr ""
 "daňovej povinnosti."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
-#, fuzzy
-#| msgid "Thank you for purchasing a hosting plan, it is now active."
 msgid "Thank you for the payment, your billing is now paid."
-msgstr "Ďakujeme za zakúpenie hostingového balíka. Práve sme ho aktivovali."
+msgstr "Ďakujeme za platbu, vaše predplatné je teraz uhradené."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "Toto predplatné zahŕňa nasledujúce projekty:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
 msgstr "Skontrolujte si stav fakturácie"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
-#, fuzzy
-#| msgid "Create billing plan"
 msgid "Your billing plan was paid"
-msgstr "Vytvoriť plán fakturácie"
+msgstr "Vaše predplatné bolo zaplatené"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
