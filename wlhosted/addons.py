@@ -20,7 +20,7 @@
 Custom addons for Hosted Weblate
 """
 
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 from weblate.addons.events import EVENT_DAILY, EVENT_PRE_COMMIT
 from weblate.addons.scripts import BaseAddon, BaseScriptAddon
 

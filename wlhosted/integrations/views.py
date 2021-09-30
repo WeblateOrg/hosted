@@ -24,7 +24,7 @@ from django.db import transaction
 from django.http import HttpResponseRedirect
 from django.shortcuts import redirect
 from django.utils.decorators import method_decorator
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from django.views.generic.edit import FormView
 from weblate.billing.models import Billing, Plan
 from weblate.utils import messages
