@@ -2,7 +2,10 @@ Django<3.3
 django-appconf>=1.0
 django-countries==7.2.1
 django-vies==6.0.2
+fakurace==0.5
 fiobank==3.0.0
 nijel-thepay==0.5
+psycopg2-binary
 python-dateutil
 requests
+Weblate

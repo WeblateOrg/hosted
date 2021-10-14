@@ -48,7 +48,7 @@ jobs:
       - name: Install pip dependencies
         run: |
           pip install --upgrade pip wheel Cython setuptools
-          pip install -r requirements-test.txt -r requirements.txt -r requirements-optional.txt
+          pip install -r requirements-test.txt -r requirements.txt
       - name: Test with Django
         env:
           CI_DATABASE: "postgresql"
