@@ -30,6 +30,8 @@ class HostedRouter:
         """
         if model._meta.app_label == "payments":
             return "payments_db"
+        if model._meta.app_label == "memory":
+            return "memory_db"
         return None
 
     def db_for_write(self, model, **hints):

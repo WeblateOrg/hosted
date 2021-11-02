@@ -31,6 +31,7 @@ DATABASES["payments_db"] = {
     "ENGINE": "django.db.backends.sqlite3",
     "NAME": os.path.join(DATA_DIR, "payments.db"),
 }
+DATABASES["memory_db"] = DATABASES["default"]
 
 DATABASE_ROUTERS = ["wlhosted.dbrouter.HostedRouter"]
 
