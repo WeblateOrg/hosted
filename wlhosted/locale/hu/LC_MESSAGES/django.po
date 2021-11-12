@@ -9,16 +9,16 @@
 # János Néhrer <iiamnot@gmail.com>, 2019.
 # miles <varota@gmail.com>, 2019.
 # Michal Čihař <michal@cihar.com>, 2019.
-# Balázs Meskó <meskobalazs@mailbox.org>, 2020.
+# Balázs Meskó <meskobalazs@mailbox.org>, 2020, 2021.
 # sakaitsu <zsolttokio@gmail.com>, 2020.
 # WALKTHROUGH RAYMAND LEGENDS <mestermc594@gmail.com>, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-01-22 22:55+0000\n"
-"Last-Translator: WALKTHROUGH RAYMAND LEGENDS <mestermc594@gmail.com>\n"
+"PO-Revision-Date: 2021-11-14 00:02+0000\n"
+"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/weblate/hosted/"
 "hu/>\n"
 "Language: hu\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5-dev\n"
+"X-Generator: Weblate 4.9.1-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -37,10 +37,8 @@ msgid "Reset repository to upstream"
 msgstr "Tároló visszaállítása az upstream-hez"
 
 #: wlhosted/addons.py:58
-#, fuzzy
-#| msgid "Reset all changes in the local repository"
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Az összes változtatás visszaállítása a helyi tárolóban"
+msgstr "Minden éjjel elveti az összes változtatást a Weblate tárolóban."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
@@ -228,7 +226,7 @@ msgid "Your payment on weblate.org failed"
 msgstr "A fizetés a weblate.org-on sikertelen volt"
 
 #: wlhosted/payments/backends.py:222
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Hello,\n"
 "\n"
@@ -243,9 +241,18 @@ msgid ""
 "If concerning a recurring payment, it is retried three times,\n"
 "and if still failing, cancelled.\n"
 msgstr ""
-"Helló, A weblate.org oldalon történő fizetése nem sikerült. % s Próbálkozzon "
-"újra a fizetés kiadásával a webhelyen: % s Ismétlődő fizetés esetén "
-"háromszor próbálják újra, és ha még mindig nem sikerül, akkor lemondják.\n"
+"Helló,\n"
+"\n"
+"A weblate.org oldalon történő fizetése nem sikerült.\n"
+"\n"
+"%s\n"
+"\n"
+"Próbálkozzon újra a fizetés kiadásával a webhelyen:\n"
+"\n"
+"%s\n"
+"\n"
+"Ismétlődő fizetés esetén háromszor próbálják újra,\n"
+"és ha még mindig nem sikerül, akkor lemondják.\n"
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
@@ -258,8 +265,10 @@ msgid ""
 "Your payment on weblate.org is pending. Please follow the provided\n"
 "instructions to complete the payment.\n"
 msgstr ""
-"Helló, Fizetése a weblate.org oldalon függőben van. Kérjük, kövesse a "
-"megadottakat utasításokat a fizetés teljesítéséhez.\n"
+"Helló,\n"
+"\n"
+"Fizetése a weblate.org oldalon függőben van. Kérjük, kövesse a\n"
+"megadott utasításokat a fizetés teljesítéséhez.\n"
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
