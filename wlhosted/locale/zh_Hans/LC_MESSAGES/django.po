@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-11-14 00:02+0000\n"
+"PO-Revision-Date: 2021-11-16 18:10+0000\n"
 "Last-Translator: JY3 <GeeyunJY3@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "weblate/hosted/zh_Hans/>\n"
@@ -156,15 +156,15 @@ msgstr "谢谢您的付款，您的账单已经支付。"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr "本账单计划包括以下项目:"
+msgstr "本付费套餐包括以下项目:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
-msgstr "检查您的帐单状态"
+msgstr "检查您的账单状态"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
-msgstr "你的账单计划已经支付"
+msgstr "你的付费套餐已支付"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
