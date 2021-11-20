@@ -10,7 +10,7 @@
 # Valentina Grassi <vale.grassi11@gmail.com>, 2020.
 # Michal Čihař <michal@cihar.com>, 2020.
 # Lele Gaifax <lele@metapensiero.it>, 2020.
-# coronabond <coronabond@airmail.cc>, 2020.
+# coronabond <coronabond@airmail.cc>, 2020, 2021.
 # Jeannette L <j.lavoie@net-c.ca>, 2020.
 # Antenore Gatta <antenore@simbiosi.org>, 2020.
 msgid ""
@@ -18,8 +18,8 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-01-31 12:14+0000\n"
-"Last-Translator: bovirus <roberto.boriotti@canon-europe.com>\n"
+"PO-Revision-Date: 2021-11-20 21:49+0000\n"
+"Last-Translator: coronabond <coronabond@airmail.cc>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/weblate/hosted/"
 "it/>\n"
 "Language: it\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5-dev\n"
+"X-Generator: Weblate 4.9.1\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
@@ -103,7 +103,7 @@ msgstr "Limite lingue"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Component limit"
-msgstr "Limite componente"
+msgstr "Limite componenti"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
@@ -336,7 +336,7 @@ msgstr "Compila la tua partita IVA poichè deve essere riportata sulla fattura."
 
 #: wlhosted/payments/models.py:94
 msgid "Company or individual name"
-msgstr "Nome società o individuale"
+msgstr "Nome società o individuo"
 
 #: wlhosted/payments/models.py:97
 msgid "Address"
@@ -348,11 +348,11 @@ msgstr "CAP e città"
 
 #: wlhosted/payments/models.py:102
 msgid "Country"
-msgstr "Nazione"
+msgstr "Paese"
 
 #: wlhosted/payments/models.py:134
 msgid "The country has to match your VAT code"
-msgstr "La Nazione deve corrispondere al tuo codice IVA"
+msgstr "Il Paese deve corrispondere al tuo codice IVA"
 
 #: wlhosted/payments/models.py:157
 msgid "Annual"
@@ -405,7 +405,7 @@ msgstr "{} non è un codice valido di un paese membro dell'Unione Europea."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr "{} non corrisponde alle specifiche ID IVA della nazione."
+msgstr "{} non corrisponde alle specifiche ID IVA del paese."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
