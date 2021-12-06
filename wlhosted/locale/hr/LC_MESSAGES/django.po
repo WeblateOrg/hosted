@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-01-31 21:37+0000\n"
+"PO-Revision-Date: 2021-12-06 21:44+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/weblate/hosted/"
 "hr/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.5-dev\n"
+"X-Generator: Weblate 4.10-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -268,7 +268,7 @@ msgstr "Kartica za plaćanje"
 
 #: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
-msgstr "Plaćanje prekinuto"
+msgstr "Plaćanje otkazano"
 
 #: wlhosted/payments/backends.py:417
 msgid "Payment error"
@@ -313,7 +313,7 @@ msgstr "ID europskog PDV-a"
 #: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
-"Upiši ID oznaku PDV-a Europske unije. Ako nije primjenjivo, ostavi prazno."
+"Upiši ID oznaku PDV-a Europske unije. Ako se ne primjenjuje ostavi prazno."
 
 #: wlhosted/payments/models.py:85
 msgid "Tax registration"
