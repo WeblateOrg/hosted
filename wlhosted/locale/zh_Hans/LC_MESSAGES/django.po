@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-12-08 11:53+0000\n"
+"PO-Revision-Date: 2021-12-13 09:51+0000\n"
 "Last-Translator: JY3 <GeeyunJY3@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "weblate/hosted/zh_Hans/>\n"
@@ -394,7 +394,7 @@ msgstr "付款已处理"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
-msgstr "{}不是任何欧盟成员的有效国家/地区代码。"
+msgstr "{}不是任何欧盟成员的有效国家地区代码。"
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
