@@ -14,13 +14,13 @@
 # tao wang <tonywang5@163.com>, 2020.
 # Eric <spice2wolf@gmail.com>, 2020, 2021.
 # Liu Tao <lyuutau@outlook.com>, 2021.
-# JY3 <GeeyunJY3@gmail.com>, 2021.
+# JY3 <GeeyunJY3@gmail.com>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-12-31 06:28+0000\n"
+"PO-Revision-Date: 2022-01-02 13:54+0000\n"
 "Last-Translator: JY3 <GeeyunJY3@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "weblate/hosted/zh_Hans/>\n"
@@ -131,9 +131,7 @@ msgid ""
 "Pricing is based on the number of source strings and target languages. The "
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
-msgstr ""
-"定价基于源字符串和目标语言的数量。源字符串是定义在译文格式中的文本单元，它可"
-"以是单词、句子或段落。"
+msgstr "定价基于源字符串数和目标语言数。源字符串是在翻译格式中定义的文本单元，可以是单词、句子或段落。"
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
