@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2022-01-05 10:55+0000\n"
+"PO-Revision-Date: 2022-01-07 02:39+0000\n"
 "Last-Translator: Matej U <mateju@src.gnome.org>\n"
 "Language-Team: Slovenian <https://hosted.weblate.org/projects/weblate/hosted/"
 "sl/>\n"
@@ -247,11 +247,11 @@ msgstr "Plačilna kartica"
 
 #: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
-msgstr "Plačilo preklicano"
+msgstr "Plačilo je preklicano"
 
 #: wlhosted/payments/backends.py:417
 msgid "Payment error"
-msgstr "Napaka pri plačilu"
+msgstr "Napaka pri izvedbi plačila"
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
