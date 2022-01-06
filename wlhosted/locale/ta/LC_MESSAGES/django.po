@@ -2,37 +2,41 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Aswin Kumar <aswin464@gmail.com>, 2020.
+# Michael Timothy Notopuro 12A1-23 MT BreakThrough <mt310804@gmail.com>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2020-06-07 19:12+0000\n"
-"Last-Translator: Aswin Kumar <aswin464@gmail.com>\n"
-"Language-Team: Tamil <https://hosted.weblate.org/projects/weblate/hosted/ta/"
-">\n"
+"PO-Revision-Date: 2022-01-07 02:39+0000\n"
+"Last-Translator: Michael Timothy Notopuro 12A1-23 MT BreakThrough "
+"<mt310804@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/weblate/hosted/ta/>"
+"\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.1-dev\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
-msgstr ""
+msgstr "அறியப்படாத ஹொரைசன்ஸ் காட்சித் தரவை உருவாக்கவும்"
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
-msgstr ""
+msgstr "களஞ்சியத்தை அப்ஸ்ட்ரீமுக்கு மீட்டமைக்கவும்"
 
 #: wlhosted/addons.py:58
 msgid "Discards all changes in the Weblate repository each night."
 msgstr ""
+"ஒவ்வொரு இரவும் வெப்லேட் களஞ்சியத்தில் உள்ள அனைத்து மாற்றங்களையும் "
+"நிராகரிக்கிறது."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
-msgstr ""
+msgstr "பில்லிங்"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
@@ -229,19 +233,19 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
-msgstr ""
+msgstr "கட்டண அட்டை"
 
 #: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
-msgstr ""
+msgstr "கட்டணம் ரத்து செய்யப்பட்டது"
 
 #: wlhosted/payments/backends.py:417
 msgid "Payment error"
-msgstr ""
+msgstr "பணம் செலுத்துவதில் பிழை"
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
-msgstr ""
+msgstr "பிட்காயின்"
 
 #: wlhosted/payments/backends.py:438
 msgid "IBAN bank transfer"
