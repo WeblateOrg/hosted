@@ -6,13 +6,14 @@
 # سهیل خانعلی‌پور <soheilkhanalipur@tutanota.com>, 2020.
 # Mokhtar Garmehi <Mokhtar_garmeh@yahoo.com>, 2021.
 # ⓐℳⓘⓡ <amir@vmail.center>, 2021.
+# Mohammad <ma99993711@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-12-06 21:44+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2022-01-18 17:56+0000\n"
+"Last-Translator: Mohammad <ma99993711@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/weblate/hosted/"
 "fa/>\n"
 "Language: fa\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -32,27 +33,27 @@ msgstr "بازگرداندن مخزن به بالادست"
 
 #: wlhosted/addons.py:58
 msgid "Discards all changes in the Weblate repository each night."
-msgstr ""
+msgstr "تمام تغییرات موجود در مخزن Weblate را هر شب نادیده می گیرد."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
-msgstr ""
+msgstr "صورتحساب"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
-msgstr ""
+msgstr "طرح صورت‌حساب موردنظر برای به‌روزرسانی را انتخاب کنید"
 
 #: wlhosted/integrations/forms.py:34
 msgid "Create new billing plan"
-msgstr ""
+msgstr "طرح صورتحساب جدید را ایجاد کنید"
 
 #: wlhosted/integrations/templates/hosted/create.html:8
 msgid "Create billing plan"
-msgstr ""
+msgstr "طرح صورتحساب ایجاد کنید"
 
 #: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
-msgstr ""
+msgstr "طرح صورت حساب جدید"
 
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
