@@ -5,13 +5,13 @@
 # Whod <whodizhod@gmail.com>, 2020.
 # Georgi <g.georgiev.shumen@gmail.com>, 2021.
 # Любомир Василев <lyubomirv@gmx.com>, 2021.
-# 109247019824 <stoyan@gmx.com>, 2021.
+# 109247019824 <stoyan@gmx.com>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-10-05 08:08+0000\n"
+"PO-Revision-Date: 2022-01-30 06:55+0000\n"
 "Last-Translator: 109247019824 <stoyan@gmx.com>\n"
 "Language-Team: Bulgarian <https://hosted.weblate.org/projects/weblate/hosted/"
 "bg/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -275,11 +275,11 @@ msgstr "Плащането е отменено"
 
 #: wlhosted/payments/backends.py:417
 msgid "Payment error"
-msgstr "Грешка при плащането"
+msgstr "Грешка при плащане"
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
-msgstr "Биткойн"
+msgstr "Bitcoin"
 
 #: wlhosted/payments/backends.py:438
 msgid "IBAN bank transfer"
@@ -287,7 +287,7 @@ msgstr "Банков превод по IBAN"
 
 #: wlhosted/payments/backends.py:468
 msgid "Issuing bank"
-msgstr "Емисионна банка"
+msgstr "Банка изател"
 
 #: wlhosted/payments/backends.py:469
 msgid "Account holder"
@@ -299,7 +299,7 @@ msgstr "Номер на сметката"
 
 #: wlhosted/payments/backends.py:471
 msgid "SWIFT code"
-msgstr "SWIFT код"
+msgstr "Код на SWIFT"
 
 #: wlhosted/payments/backends.py:472
 msgid "IBAN"
@@ -311,13 +311,12 @@ msgstr "Справка"
 
 #: wlhosted/payments/models.py:77
 msgid "European VAT ID"
-msgstr "Европейски ДДС №"
+msgstr "Европейски № по ДДС"
 
 #: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
-"Моля, въведете идентификатор по ДДС за Европейския съюз. Оставете празно, "
-"ако е неприложимо."
+"Въведете № по ДДС за Европейски съюз. Оставете празно, ако е неприложимо."
 
 #: wlhosted/payments/models.py:85
 msgid "Tax registration"
@@ -331,7 +330,7 @@ msgstr ""
 
 #: wlhosted/payments/models.py:94
 msgid "Company or individual name"
-msgstr "Име на компания или физическо лице"
+msgstr "Име на фирма или физическо лице"
 
 #: wlhosted/payments/models.py:97
 msgid "Address"
@@ -347,7 +346,7 @@ msgstr "Държава"
 
 #: wlhosted/payments/models.py:134
 msgid "The country has to match your VAT code"
-msgstr "Държавата трябва да съвпада с кода за ДДС"
+msgstr "Държавата трябва да съвпада с кода по ДДС"
 
 #: wlhosted/payments/models.py:157
 msgid "Annual"
