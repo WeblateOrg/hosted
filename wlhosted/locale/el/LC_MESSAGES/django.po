@@ -5,13 +5,14 @@
 # anonymous <noreply@weblate.org>, 2019.
 # george k <norhorn@gmail.com>, 2020.
 # Michalis <michalisntovas@yahoo.gr>, 2021.
+# george kitsoukakis <norhorn@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-04-11 19:26+0000\n"
-"Last-Translator: Michalis <michalisntovas@yahoo.gr>\n"
+"PO-Revision-Date: 2022-02-05 15:59+0000\n"
+"Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/weblate/hosted/el/>"
 "\n"
 "Language: el\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.6-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -328,8 +329,7 @@ msgstr "Φορολογική εγγραφή"
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
-"Παρακαλούμε συμπληρώστε την φορολογική εγγραφή σας, για αναγραφή στην "
-"απόδειξη."
+"Παρακαλούμε συμπληρώστε το φορολογικό αριθμό σας, για αναγραφή στην απόδειξη."
 
 #: wlhosted/payments/models.py:94
 msgid "Company or individual name"
@@ -403,7 +403,7 @@ msgstr ""
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr "Το {} δεν συμφωνεί με τον κωδικό της χώρας."
+msgstr "Το {} δε συμφωνεί με τον κωδικό της χώρας."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
