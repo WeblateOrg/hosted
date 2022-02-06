@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2022-01-18 17:56+0000\n"
-"Last-Translator: Mohammad <ma99993711@gmail.com>\n"
+"PO-Revision-Date: 2022-02-07 15:55+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/weblate/hosted/"
 "fa/>\n"
 "Language: fa\n"
@@ -254,7 +254,7 @@ msgstr "انتقال شِبا (IBAN)"
 
 #: wlhosted/payments/backends.py:468
 msgid "Issuing bank"
-msgstr ""
+msgstr "بانک صادرکننده"
 
 #: wlhosted/payments/backends.py:469
 msgid "Account holder"
