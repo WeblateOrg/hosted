@@ -3,8 +3,8 @@
    :target: https://weblate.org/
    :height: 80px
 
-**Weblate is a copylefted libre software web-based continuous localization system,
-used by over 2500 libre projects and companies in more than 165 countries.**
+Weblate is a copylefted libre software web-based continuous localization system, \
+used by over 2500 libre projects and companies in more than 165 countries.
 
 Hosted Weblate customizations
 
@@ -17,9 +17,17 @@ Hosted Weblate customizations
 .. image:: https://codecov.io/gh/WeblateOrg/hosted/branch/main/graph/badge.svg
    :target: https://codecov.io/gh/WeblateOrg/hosted
 
-These customizations are used on the `Hosted Weblate service
-<https://weblate.org/hosting/>`_.
+These customizations are used on the `Hosted Weblate service <https://weblate.org/hosting/>`_.
 
-You can use them as an example how to customize `Weblate
-<https://weblate.org/>`_, but there are probably not generally usable.  If you
-think something should be part of Weblate, please open an issue.
+Hosted Weblate, error pages, legal
+
+.. image:: https://hosted.weblate.org/widgets/weblate/-/hosted/svg-badge.svg
+   :target: https://hosted.weblate.org/engage/weblate/
+.. image:: https://hosted.weblate.org/widgets/weblate/-/hosted-error-pages/svg-badge.svg
+   :target: https://hosted.weblate.org/engage/weblate/
+.. image:: https://hosted.weblate.org/widgets/weblate/-/legal/svg-badge.svg
+   :target: https://hosted.weblate.org/engage/weblate/
+
+This first-party instance serves as a possible example of how to customize `Weblate <https://weblate.org/>`_, \
+but it is not made to adaptable for general use. \
+If you think something should be part of Weblate, please open an issue.
