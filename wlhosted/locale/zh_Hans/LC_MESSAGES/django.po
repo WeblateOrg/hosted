@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2022-01-23 23:34+0000\n"
+"PO-Revision-Date: 2022-02-28 09:54+0000\n"
 "Last-Translator: JY3 <GeeyunJY3@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "weblate/hosted/zh_Hans/>\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.11.1-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -270,11 +270,11 @@ msgstr "支付卡"
 
 #: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
-msgstr "支付已取消"
+msgstr "付款已取消"
 
 #: wlhosted/payments/backends.py:417
 msgid "Payment error"
-msgstr "支付错误"
+msgstr "付款错误"
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
@@ -378,12 +378,12 @@ msgstr "待付款"
 #: wlhosted/payments/models.py:197
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "支付被拒绝"
+msgstr "付款被拒绝"
 
 #: wlhosted/payments/models.py:198
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "接受付款"
+msgstr "付款已接受"
 
 #: wlhosted/payments/models.py:199
 msgctxt "Payment state"
