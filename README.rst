@@ -17,9 +17,8 @@ Hosted Weblate customizations
 .. image:: https://codecov.io/gh/WeblateOrg/hosted/branch/main/graph/badge.svg
    :target: https://codecov.io/gh/WeblateOrg/hosted
 
-These customizations are used on the `Hosted Weblate service <https://weblate.org/hosting/>`_.
-
-Hosted Weblate, error pages, legal
+These customizations are used on the `Hosted Weblate service <https://weblate.org/hosting/>`_,
+for example as error pages, and legal info.
 
 .. image:: https://hosted.weblate.org/widgets/weblate/-/hosted/svg-badge.svg
    :target: https://hosted.weblate.org/engage/weblate/
@@ -30,4 +29,4 @@ Hosted Weblate, error pages, legal
 
 This first-party instance serves as a possible example of how to customize `Weblate <https://weblate.org/>`_, \
 but it is not made to adaptable for general use. \
-If you think something should be part of Weblate, please open an issue.
+If you think something should be part of Weblate, please do open an issue.
