@@ -1,6 +1,6 @@
 Django<4.1
 django-appconf>=1.0
-django-countries==7.3.1
+django-countries==7.3.2
 django-vies==6.0.2
 fakturace==0.6.1
 fiobank==3.0.0
