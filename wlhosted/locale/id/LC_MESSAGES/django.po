@@ -8,13 +8,14 @@
 # frottle <catatan.kungkong@gmail.com>, 2020.
 # Reza Almanda <rezaalmanda27@gmail.com>, 2021.
 # Taufik A. Wicaksono <taufikadi.wicaksono@tutamail.com>, 2022.
+# Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2022-03-20 10:55+0000\n"
-"Last-Translator: Taufik A. Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
+"PO-Revision-Date: 2022-03-25 00:56+0000\n"
+"Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/weblate/"
 "hosted/id/>\n"
 "Language: id\n"
@@ -42,23 +43,23 @@ msgstr "Penagihan"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
-msgstr "Pilih plan penagihan yang ingin Anda perbarui"
+msgstr "Pilih paket penagihan yang ingin Anda perbarui"
 
 #: wlhosted/integrations/forms.py:34
 msgid "Create new billing plan"
-msgstr "Buat plan penagihan baru"
+msgstr "Buat paket penagihan baru"
 
 #: wlhosted/integrations/templates/hosted/create.html:8
 msgid "Create billing plan"
-msgstr "Buat plan penagihan"
+msgstr "Buat paket penagihan"
 
 #: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
-msgstr "Plan penagihan baru"
+msgstr "Paket penagihan baru"
 
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
-msgstr "Silakan memilih plan hosting yang sesuai dengan proyek Anda."
+msgstr "Silakan pilih paket hosting yang sesuai dengan ukuran proyek Anda."
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
@@ -74,11 +75,11 @@ msgstr "Terlalu kecil"
 
 #: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
-msgstr "Plan terpilih"
+msgstr "Paket yang dipilih"
 
 #: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
-msgstr "Jenis langganan saat ini"
+msgstr "Paket saat ini"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Strings limit"
@@ -131,7 +132,7 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
-msgstr "Semua harga tercantum tidak termasuk VAT."
+msgstr "Semua harga yang tercantum belum termasuk VAT."
 
 #: wlhosted/integrations/templates/hosted/create.html:100
 #, python-format
@@ -154,15 +155,15 @@ msgstr "Terima kasih atas pembelian Anda, tagihan Anda sudah dilunas."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr "Plan tagihan ini mencakup proyek-proyek berikut:"
+msgstr "Paket penagihan ini mencakup proyek-proyek berikut:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
-msgstr "Cek status penagihan saat ini"
+msgstr "Cek status penagihan Anda"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
-msgstr "Plan tagihan Anda telah lunas"
+msgstr "Paket penagihan Anda telah dibayar"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
@@ -170,15 +171,15 @@ msgstr "Tidak ditemukan pembayaran yang cocok."
 
 #: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr "Terima kasih atas pembelian plan hosting, sekarang sudah aktif."
+msgstr "Terima kasih telah membeli paket hosting, paket sekarang sudah aktif."
 
 #: wlhosted/integrations/views.py:83
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
-"Terima kasih atas pembelian plan hosting, pembayaran masih tertunda dan akan "
-"diproses di latar belakang."
+"Terima kasih telah membeli paket hosting, pembayarannya masih tertunda dan "
+"akan diproses di latar belakang."
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
@@ -210,9 +211,9 @@ msgid ""
 msgstr ""
 "Halo,\n"
 "\n"
-"Terima kasih atas pembayaran Anda pada weblate.org\n"
+"Terima kasih atas pembayaran Anda di weblate.org\n"
 "\n"
-"Anda dapat menemukan faktur untuk pembayaran ini dalam lampiran.\n"
+"Anda dapat menemukan faktur untuk pembayaran ini di dalam lampiran.\n"
 "Atau, Anda dapat mengunduhnya dari situs web:\n"
 "\n"
 "%s\n"
@@ -239,16 +240,16 @@ msgid ""
 msgstr ""
 "Halo,\n"
 "\n"
-"Pembayaran Anda pada weblate.org gagal.\n"
+"Pembayaran Anda di weblate.org telah gagal.\n"
 "\n"
 "%s\n"
 "\n"
-"Ulangi pembayaran pada situs web:\n"
+"Coba lakukan pembayaran kembali di situs web:\n"
 "\n"
 "%s\n"
 "\n"
-"Apabila terkait dengan pembayaran berulang, dibatalkan apabila tetap gagal\n"
-"setelah diulangi sebanyak tiga kali.\n"
+"Jika itu menyangkut pembayaran rutin, akan dicoba kembali hingga tiga kali\n"
+"dan jika masih tidak berhasil, maka akan dibatalkan.\n"
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
@@ -264,7 +265,7 @@ msgstr ""
 "Halo,\n"
 "\n"
 "Pembayaran Anda pada weblate.org masih tertunda. Harap mengikuti\n"
-"petunjuk yang disediakan untuk menyelesaikan pembayaran.\n"
+"petunjuk yang sudah disediakan untuk menyelesaikan pembayaran.\n"
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
@@ -326,11 +327,11 @@ msgstr "Registrasi pajak"
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
-"Silakan mengisi registrasi pajak Anda apabila akan dimunculkan pada faktur."
+"Silakan mengisi registrasi pajak Anda apabila ingin ditampilkan pada faktur."
 
 #: wlhosted/payments/models.py:94
 msgid "Company or individual name"
-msgstr "Perusahaan atau individu"
+msgstr "Nama perusahaan atau individu"
 
 #: wlhosted/payments/models.py:97
 msgid "Address"
