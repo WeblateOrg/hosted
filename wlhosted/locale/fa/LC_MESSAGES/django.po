@@ -7,13 +7,14 @@
 # Mokhtar Garmehi <Mokhtar_garmeh@yahoo.com>, 2021.
 # ⓐℳⓘⓡ <amir@vmail.center>, 2021.
 # Mohammad <ma99993711@gmail.com>, 2022.
+# *Sociologist Abedi* <sociologist.abedi@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2022-02-07 15:55+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2022-03-25 00:56+0000\n"
+"Last-Translator: *Sociologist Abedi* <sociologist.abedi@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/weblate/hosted/"
 "fa/>\n"
 "Language: fa\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -57,11 +58,11 @@ msgstr "طرح صورت حساب جدید"
 
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
-msgstr ""
+msgstr "لطفاً طرح میزبانی متناسب با اندازه پروژه خود را انتخاب کنید."
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
-msgstr ""
+msgstr "وضعیت صورت‌حساب فعلی"
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
@@ -73,7 +74,7 @@ msgstr "خیلی کوچک"
 
 #: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
-msgstr ""
+msgstr "طرح انتخاب شده"
 
 #: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
@@ -96,7 +97,7 @@ msgstr "زبان های محدود"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Component limit"
-msgstr ""
+msgstr "محدودیت مولفه"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
@@ -124,6 +125,9 @@ msgid ""
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
+"قیمت گذاری بر اساس تعداد رشته‌های منبع و زبان‌های مقصد است. رشته منبع یک "
+"واحد متنی است که در قالب ترجمه تعریف شده است، می‌تواند یک کلمه، جمله یا "
+"پاراگراف باشد."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
