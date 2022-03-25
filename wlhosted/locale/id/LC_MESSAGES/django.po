@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2022-03-25 00:56+0000\n"
+"PO-Revision-Date: 2022-03-26 17:10+0000\n"
 "Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/weblate/"
 "hosted/id/>\n"
@@ -113,7 +113,7 @@ msgstr "%(price)s EUR / bulan"
 #: wlhosted/integrations/templates/hosted/create.html:85
 #, python-format
 msgid "%(price)s EUR including VAT"
-msgstr "%(price)s EUR termasuk VAT"
+msgstr "%(price)s EUR termasuk PPN"
 
 #: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
@@ -132,15 +132,15 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
-msgstr "Semua harga yang tercantum belum termasuk VAT."
+msgstr "Semua harga yang tercantum belum termasuk PPN."
 
 #: wlhosted/integrations/templates/hosted/create.html:100
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
-"Pengguna akhir EU dan perusahaan Republik Ceko akan dikenakan tambahan 21%% "
-"VAT."
+"Pengguna langsung dari EU dan perusahaan Republik Ceko akan dikenakan "
+"tambahan 21%% PPN."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
@@ -220,7 +220,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:220
 msgid "Your payment on weblate.org failed"
-msgstr "Pembayaran Anda pada weblate.org gagal"
+msgstr "Pembayaran Anda di weblate.org gagal"
 
 #: wlhosted/payments/backends.py:222
 #, python-format
@@ -253,7 +253,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
-msgstr "Pembayaran Anda pada weblate.org yang tertunda"
+msgstr "Pembayaran tertunda Anda di weblate.org"
 
 #: wlhosted/payments/backends.py:257
 msgid ""
@@ -313,11 +313,11 @@ msgstr "Referensi"
 
 #: wlhosted/payments/models.py:77
 msgid "European VAT ID"
-msgstr "ID VAT Eropa"
+msgstr "ID PPN Eropa"
 
 #: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
-msgstr "Silakan mengisi ID VAT Uni Eropa, kosongkan bila tidak berlaku."
+msgstr "Silakan mengisi ID PPN Uni Eropa, kosongkan bila tidak berlaku."
 
 #: wlhosted/payments/models.py:85
 msgid "Tax registration"
@@ -347,7 +347,7 @@ msgstr "Negara"
 
 #: wlhosted/payments/models.py:134
 msgid "The country has to match your VAT code"
-msgstr "Negara harus sesuai dengan kode VAT Anda"
+msgstr "Negara harus sesuai dengan kode PPN Anda"
 
 #: wlhosted/payments/models.py:157
 msgid "Annual"
@@ -400,17 +400,17 @@ msgstr "{} bukan kode negara yang sah untuk negara anggota Uni Eropa."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr "{} tidak sesuai dengan spesifikasi ID VAT negara yang bersangkutan."
+msgstr "{} tidak sesuai dengan spesifikasi ID PPN negara yang bersangkutan."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
-"Layanan validasi ID VAT tidak tersedia untuk {}, silakan coba beberapa saat "
+"Layanan validasi ID PPN tidak tersedia untuk {}, silakan coba beberapa saat "
 "lagi."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr "{} bukan ID VAT yang valid."
+msgstr "{} bukan ID PPN yang valid."
 
 #~ msgid ""
 #~ "We comply with the Regulation No. %(law_679_2016)s, the General Data "
