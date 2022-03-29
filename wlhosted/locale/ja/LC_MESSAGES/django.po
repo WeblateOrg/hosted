@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Yasuhiko Kamata <belphegor@belbel.or.jp>, 2015, 2018.
-# Kyotaro Iijima <kyotaro.eyes@gmail.com>, 2018, 2019, 2020, 2021.
+# Kyotaro Iijima <kyotaro.eyes@gmail.com>, 2018, 2019, 2020, 2021, 2022.
 # Tetsuro Shimazaki <shimazaki@shima-office.com>, 2018, 2019, 2020.
 # Ryo Nakano <ryonakaknock3@gmail.com>, 2018, 2019.
 # Scott Anecito <scott.anecito@protonmail.com>, 2019.
@@ -17,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
 "PO-Revision-Date: 2022-03-30 19:29+0000\n"
-"Last-Translator: ht1722 <taichi_19990611@yahoo.co.jp>\n"
+"Last-Translator: Kyotaro Iijima <kyotaro.eyes@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/weblate/hosted/"
 "ja/>\n"
 "Language: ja\n"
@@ -183,7 +183,7 @@ msgstr ""
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
-msgstr "支払いが拒否されました: {}"
+msgstr "拒否された支払い: {}"
 
 #: wlhosted/integrations/views.py:96
 msgid "Unknown reason"
