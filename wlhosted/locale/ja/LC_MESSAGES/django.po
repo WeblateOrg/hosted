@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2022-03-30 19:29+0000\n"
+"PO-Revision-Date: 2022-04-03 18:10+0000\n"
 "Last-Translator: Kyotaro Iijima <kyotaro.eyes@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/weblate/hosted/"
 "ja/>\n"
@@ -393,7 +393,7 @@ msgstr "支払い承認"
 #: wlhosted/payments/models.py:199
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "支払処理が完了しました"
+msgstr "支払処理完了"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
