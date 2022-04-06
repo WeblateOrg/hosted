@@ -4,13 +4,13 @@
 # Michal Čihař <michal@cihar.com>, 2019.
 # anonymous <noreply@weblate.org>, 2019.
 # Kou Prey Team <kouprey25@gmail.com>, 2020.
-# ប៉ុកណូ រ៉ូយ៉ាល់ <royalpokno68@gmail.com>, 2020.
+# ប៉ុកណូ រ៉ូយ៉ាល់ <royalpokno68@gmail.com>, 2020, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2020-11-14 09:28+0000\n"
+"PO-Revision-Date: 2022-04-06 12:40+0000\n"
 "Last-Translator: ប៉ុកណូ រ៉ូយ៉ាល់ <royalpokno68@gmail.com>\n"
 "Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/weblate/"
 "hosted/km/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -242,11 +242,11 @@ msgstr "កាតបង់ប្រាក់"
 
 #: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
-msgstr "ការបង់ប្រាក់បានបោះបង់"
+msgstr "ការបង់ប្រាក់ ត្រូវបានបោះបង់"
 
 #: wlhosted/payments/backends.py:417
 msgid "Payment error"
-msgstr "កំហុសការបង់ប្រាក់"
+msgstr "កំហុសក្នុងការបង់ប្រាក់"
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
@@ -340,12 +340,12 @@ msgstr "តែម្ដង"
 #: wlhosted/payments/models.py:195
 msgctxt "Payment state"
 msgid "New payment"
-msgstr "ការបង់ប្រាក់"
+msgstr "ការបង់ប្រាក់ថ្មី"
 
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr "រង់ចាំការទូទាត់ប្រាក់"
+msgstr "កំពុងរង់ចាំការបង់ប្រាក់"
 
 #: wlhosted/payments/models.py:197
 msgctxt "Payment state"
@@ -355,16 +355,16 @@ msgstr "ការបង់ប្រាក់ត្រូវបានច្រា
 #: wlhosted/payments/models.py:198
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "ការបង់ប្រាក់បានទទួលយយក"
+msgstr "ការបង់ប្រាក់ បានទទួល"
 
 #: wlhosted/payments/models.py:199
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "ការបង់ប្រាក់បានដំណើរការ"
+msgstr "ការបង់ប្រាក់ បានបន្តដំណើរការ"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
-msgstr ""
+msgstr "{} មិនមែនជាកូដប្រទេសដែលត្រឹមត្រូវ សម្រាប់គ្រប់សមាជិកសហភាពអឺរ៉ុបទេ។"
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
