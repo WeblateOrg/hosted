@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2022-03-26 17:10+0000\n"
+"PO-Revision-Date: 2022-04-08 02:08+0000\n"
 "Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/weblate/"
 "hosted/id/>\n"
@@ -107,7 +107,7 @@ msgstr "Batas proyek"
 #: wlhosted/integrations/templates/hosted/create.html:78
 #, python-format
 msgid "%(price)s EUR / month"
-msgstr "%(price)s EUR / bulan"
+msgstr "%(price)s EUR/bulan"
 
 #: wlhosted/integrations/templates/hosted/create.html:79
 #: wlhosted/integrations/templates/hosted/create.html:85
@@ -118,7 +118,7 @@ msgstr "%(price)s EUR termasuk PPN"
 #: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
 msgid "%(price)s EUR / year"
-msgstr "%(price)s EUR / tahun"
+msgstr "%(price)s EUR/tahun"
 
 #: wlhosted/integrations/templates/hosted/create.html:96
 msgid ""
