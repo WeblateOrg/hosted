@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Weblate <noreply@weblate.org>, 2020.
 # bashishtha <bashishtha.singh@gmail.com>, 2022.
+# bkaskar <roypbc@yahoo.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2022-05-03 07:30+0000\n"
-"Last-Translator: bashishtha <bashishtha.singh@gmail.com>\n"
+"PO-Revision-Date: 2022-05-11 11:20+0000\n"
+"Last-Translator: bkaskar <roypbc@yahoo.com>\n"
 "Language-Team: Hindi <https://hosted.weblate.org/projects/weblate/hosted/hi/>"
 "\n"
 "Language: hi\n"
@@ -25,7 +26,7 @@ msgstr "अज्ञात क्षितिज परिदृश्य डे
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
-msgstr ""
+msgstr "रिपोजिटरी को अपस्ट्रीम पर रीसेट करें"
 
 #: wlhosted/addons.py:58
 msgid "Discards all changes in the Weblate repository each night."
@@ -234,7 +235,7 @@ msgstr "भुगतान कार्ड"
 
 #: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
-msgstr ""
+msgstr "भुगतान रद्द"
 
 #: wlhosted/payments/backends.py:417
 msgid "Payment error"
