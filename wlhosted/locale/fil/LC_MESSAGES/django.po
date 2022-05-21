@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2022-05-15 11:54+0000\n"
+"PO-Revision-Date: 2022-05-22 05:17+0000\n"
 "Last-Translator: Marco Santos <enum.scima@gmail.com>\n"
 "Language-Team: Filipino <https://hosted.weblate.org/projects/weblate/hosted/"
 "fil/>\n"
@@ -138,6 +138,8 @@ msgstr ""
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
+"Nilalapat ang reverse charge sa mga invoice na inisyu sa mga negosyo sa loob "
+"ng EU."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
@@ -233,15 +235,15 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
-msgstr "Payment card"
+msgstr "Card pambayad"
 
 #: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
-msgstr "Kinansela ang pagbayad"
+msgstr "Kinansela ang bayad"
 
 #: wlhosted/payments/backends.py:417
 msgid "Payment error"
-msgstr "Error sa pagbayad"
+msgstr "Error sa bayad"
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
@@ -253,7 +255,7 @@ msgstr "IBAN bank transfer"
 
 #: wlhosted/payments/backends.py:468
 msgid "Issuing bank"
-msgstr "Bangkong nag-iisyu"
+msgstr "Nag-iisyung bangko"
 
 #: wlhosted/payments/backends.py:469
 msgid "Account holder"
@@ -277,20 +279,24 @@ msgstr "Sanggunian"
 
 #: wlhosted/payments/models.py:77
 msgid "European VAT ID"
-msgstr "European VAT ID"
+msgstr "VAT ID ng Europa"
 
 #: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
-msgstr "Paki-fill in po ang European Union VAT ID, bakantehin kung di akma."
+msgstr ""
+"Mangyaring punan po ang VAT ID ng Europa, iwanang bakante kung hindi "
+"applicable."
 
 #: wlhosted/payments/models.py:85
 msgid "Tax registration"
-msgstr "Tax registration"
+msgstr "Rehistro ng buwis"
 
 #: wlhosted/payments/models.py:87
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
-msgstr "Paki-fill in ang tax registration niyo kung magpapakita ito sa invoice."
+msgstr ""
+"Mangyaring punan ang rehistro ng buwis niyo kung dapat po itong magpakita sa "
+"invoice."
 
 #: wlhosted/payments/models.py:94
 msgid "Company or individual name"
@@ -310,32 +316,32 @@ msgstr "Bansa"
 
 #: wlhosted/payments/models.py:134
 msgid "The country has to match your VAT code"
-msgstr "Kailangang tutugma ang bansa mo sa VAT code"
+msgstr "Kailangang tumugma ang bansa sa VAT code niyo"
 
 #: wlhosted/payments/models.py:157
 msgid "Annual"
-msgstr "Taunan"
+msgstr "Kada taon"
 
 #: wlhosted/payments/models.py:158
 msgid "Biannual"
-msgstr "Biannual"
+msgstr "Kada 6 na buwan"
 
 #: wlhosted/payments/models.py:159
 msgid "Quarterly"
-msgstr "Quarterly"
+msgstr "Kada 3 buwan"
 
 #: wlhosted/payments/models.py:160
 msgid "Monthly"
-msgstr "Buwanan"
+msgstr "Kada buwan"
 
 #: wlhosted/payments/models.py:161
 msgid "Onetime"
-msgstr "Onetime"
+msgstr "Isang beses"
 
 #: wlhosted/payments/models.py:195
 msgctxt "Payment state"
 msgid "New payment"
-msgstr "Bagong pagbayad"
+msgstr "Bagong bayad"
 
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
@@ -345,7 +351,7 @@ msgstr "Naghihintay ng bayad"
 #: wlhosted/payments/models.py:197
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "Ni-reject ang bayad"
+msgstr "Tinanggihan ang bayad"
 
 #: wlhosted/payments/models.py:198
 msgctxt "Payment state"
@@ -364,12 +370,12 @@ msgstr ""
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr "Di tumutugma sa specifications ng VAT ID ng bansa ang {}."
+msgstr "Di tumutugma sa mga specification ng VAT ID ng bansa ang {}."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
-"Di available ang validation service ng VAT ID para sa {}, pakisubukan po "
+"Di available ang VAT ID validation service para sa {}, mangyaring subukan po "
 "muli."
 
 #: wlhosted/payments/validators.py:53
