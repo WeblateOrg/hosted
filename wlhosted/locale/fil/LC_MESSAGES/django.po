@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2022-05-22 07:18+0000\n"
+"PO-Revision-Date: 2022-05-24 15:14+0000\n"
 "Last-Translator: Marco Santos <enum.scima@gmail.com>\n"
 "Language-Team: Filipino <https://hosted.weblate.org/projects/weblate/hosted/"
 "fil/>\n"
@@ -22,15 +22,15 @@ msgstr ""
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
-msgstr ""
+msgstr "Gumawa ng Unknown Horizons scenario data"
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
-msgstr ""
+msgstr "I-reset ang repository sa upstream"
 
 #: wlhosted/addons.py:58
 msgid "Discards all changes in the Weblate repository each night."
-msgstr ""
+msgstr "Balewalain lahat ng pagbabago sa Weblate repository kada gabi."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
@@ -38,47 +38,49 @@ msgstr "Billing"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
-msgstr ""
+msgstr "Pumili po ng billing plan na gusto niyong i-update"
 
 #: wlhosted/integrations/forms.py:34
 msgid "Create new billing plan"
-msgstr ""
+msgstr "Gumawa ng bagong billing plan"
 
 #: wlhosted/integrations/templates/hosted/create.html:8
 msgid "Create billing plan"
-msgstr ""
+msgstr "Gumawa ng billing plan"
 
 #: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
-msgstr ""
+msgstr "Bagong billing plan"
 
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
 msgstr ""
+"Mangyaring pumili po kayo ng hosting plan na sumasakto sa laki ng proyekto "
+"niyo."
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
-msgstr ""
+msgstr "Kasalukuyang estado ng billing"
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
-msgstr ""
+msgstr "Masyadong maliit para sa proyekto niyo."
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small"
-msgstr ""
+msgstr "Masyadong maliit"
 
 #: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
-msgstr ""
+msgstr "Piniling plan"
 
 #: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
-msgstr ""
+msgstr "Kasalukuyang plan"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Strings limit"
-msgstr ""
+msgstr "Limit sa mga string"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
@@ -89,31 +91,31 @@ msgstr "Unlimited"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
 msgid "Languages limit"
-msgstr ""
+msgstr "Limit sa mga wika"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Component limit"
-msgstr ""
+msgstr "Limit sa component"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
-msgstr ""
+msgstr "Limit sa mga proyekto"
 
 #: wlhosted/integrations/templates/hosted/create.html:78
 #, python-format
 msgid "%(price)s EUR / month"
-msgstr ""
+msgstr "%(price)s EUR / buwan"
 
 #: wlhosted/integrations/templates/hosted/create.html:79
 #: wlhosted/integrations/templates/hosted/create.html:85
 #, python-format
 msgid "%(price)s EUR including VAT"
-msgstr ""
+msgstr "%(price)s EUR kasama VAT"
 
 #: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
 msgid "%(price)s EUR / year"
-msgstr ""
+msgstr "%(price)s EUR / taon"
 
 #: wlhosted/integrations/templates/hosted/create.html:96
 msgid ""
@@ -121,71 +123,76 @@ msgid ""
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
+"Nakabase po ang presyo sa bilang ng mga source string at target na wika. Ang "
+"source string ay isang text unit na na-define sa isang translation format, "
+"posible po itong salita, pangungusap, o talata."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
-msgstr "Walang VAT ang lahat ng mga nakalistang presyo."
+msgstr "Wala pong kasamang VAT ang lahat ng mga nakalistang presyo."
 
 #: wlhosted/integrations/templates/hosted/create.html:100
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
-"Itsa-charge na may dagdag na 21%% VAT ang mga end user na nasa EU at mga "
+"May dagdag po na 21%% VAT sa singil para sa mga end user sa EU at mga "
 "kumpanyang Czech."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
-"Nilalapat ang reverse charge sa mga invoice na inisyu sa mga negosyo sa loob "
-"ng EU."
+"Malalapat po ang reverse charge sa mga invoice na inisyu sa mga negosyo sa "
+"loob ng EU."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
-msgstr ""
+msgstr "Maraming salamat po sa pagbayad, bayad na po ang billing niyo."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "Kino-cover po ng billing plan na ito ang mga sumusunod na proyekto:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
-msgstr ""
+msgstr "Tingnan ang estado ng billing niyo"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
-msgstr ""
+msgstr "Bayad na po ang billing plan niyo"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
-msgstr ""
+msgstr "Wala pong nakitang bayad na tumugma."
 
 #: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr ""
+msgstr "Maraming salamat oo sa pagbili sa isang hosting plan, aktibo na po ito."
 
 #: wlhosted/integrations/views.py:83
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
+"Maraming salamat po sa pagbili sa isang hosting plan, nakabinbin po ang "
+"bayad para rito at ipoproseso po ito sa likuran."
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
-msgstr ""
+msgstr "Tinanggihan po ang bayad: {}"
 
 #: wlhosted/integrations/views.py:96
 msgid "Unknown reason"
-msgstr ""
+msgstr "Di alam na dahilan"
 
 #: wlhosted/integrations/views.py:112
 msgid "Payments are temporarily inactive."
-msgstr ""
+msgstr "Pansamantalang di-aktibo po ang mga bayad."
 
 #: wlhosted/payments/backends.py:192
 msgid "Your payment on weblate.org"
-msgstr ""
+msgstr "Bayad niyo sa weblate.org"
 
 #: wlhosted/payments/backends.py:194
 #, python-format
@@ -199,10 +206,18 @@ msgid ""
 "\n"
 "%s\n"
 msgstr ""
+"Kamusta po,\n"
+"\n"
+"Maraming salamat po sa bayad niyo sa weblate.org.\n"
+"\n"
+"Makakikita niyo po ang isang invoice na naka-attach para sa bayad niyo.\n"
+"Bukod rito, mada-download niyo rin ito sa website:\n"
+"\n"
+"%s\n"
 
 #: wlhosted/payments/backends.py:220
 msgid "Your payment on weblate.org failed"
-msgstr ""
+msgstr "Bigo po ang bayad niyo sa weblate.org"
 
 #: wlhosted/payments/backends.py:222
 #, python-format
@@ -220,10 +235,22 @@ msgid ""
 "If concerning a recurring payment, it is retried three times,\n"
 "and if still failing, cancelled.\n"
 msgstr ""
+"Kamusta po,\n"
+"\n"
+"Nabigo po ang bayad niyo sa weblate.org.\n"
+"\n"
+"%s\n"
+"\n"
+"Subukan pong iisyu ang bayad sa website:\n"
+"\n"
+"%s\n"
+"\n"
+"Kung sakaling umuulit na bayad po ito, susubukan po ito nang tatlong beses,\n"
+"at kung nabigo pa rin, ikakansela po ito.\n"
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
-msgstr ""
+msgstr "Nakabinbing bayad niyo sa weblate.org"
 
 #: wlhosted/payments/backends.py:257
 msgid ""
@@ -232,6 +259,11 @@ msgid ""
 "Your payment on weblate.org is pending. Please follow the provided\n"
 "instructions to complete the payment.\n"
 msgstr ""
+"Kamusta po,\n"
+"\n"
+"Nakabinbin po ang bayad niyo sa weblate.org. Mangyaring sundin po ang "
+"binigay na\n"
+"gabay para makumpleto ang bayad.\n"
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
