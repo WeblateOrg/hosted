@@ -11,6 +11,7 @@ import requests
 def main():
     headers = {
         "Content-Type": "application/json",
+        "Accept": "application/vnd.github.v3+json",
         "Authorization": f"token {sys.argv[1]}",
     }
 
@@ -37,15 +38,11 @@ def main():
             break
         url = orgs.links["next"]["url"]
 
-    url = "https://api.github.com/user/repository_invitations"
-
     invitations = requests.get(url, headers=headers)
     invitations.raise_for_status()
     for invitation in invitations.json():
         print("Accepting {}".format(invitation["repository"]["html_url"]))
-        response = requests.patch(
-            "{}/{}".format(url, invitation["id"]), headers=headers
-        )
+        response = requests.patch(invitation["url"], headers=headers)
         response.raise_for_status()
 
 
