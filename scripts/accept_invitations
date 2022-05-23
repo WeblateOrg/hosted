@@ -38,6 +38,8 @@ def main():
             break
         url = orgs.links["next"]["url"]
 
+    url = "https://api.github.com/user/repository_invitations"
+
     invitations = requests.get(url, headers=headers)
     invitations.raise_for_status()
     for invitation in invitations.json():
