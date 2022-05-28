@@ -6,13 +6,14 @@
 # Meki <mekismith77@gmail.com>, 2020.
 # %3C%3Ejavascript:alert(document.cookie); <sureshaydi59335@gmail.com>, 2020.
 # Xəyyam Qocayev <xxmn77@gmail.com>, 2022.
+# Nizami <nizamismidov4@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2022-01-07 02:39+0000\n"
-"Last-Translator: Xəyyam Qocayev <xxmn77@gmail.com>\n"
+"PO-Revision-Date: 2022-05-29 08:18+0000\n"
+"Last-Translator: Nizami <nizamismidov4@gmail.com>\n"
 "Language-Team: Azerbaijani <https://hosted.weblate.org/projects/weblate/"
 "hosted/az/>\n"
 "Language: az\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.13-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -32,7 +33,7 @@ msgstr "Repozitoriyanı sıfırlayın"
 
 #: wlhosted/addons.py:58
 msgid "Discards all changes in the Weblate repository each night."
-msgstr ""
+msgstr "Hər gecə Weblate deposundakı bütün dəyişiklikləri rədd edir."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
@@ -40,39 +41,39 @@ msgstr "Fakturalandırma"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
-msgstr ""
+msgstr "Yeniləmək istədiyiniz faktura planını seçin"
 
 #: wlhosted/integrations/forms.py:34
 msgid "Create new billing plan"
-msgstr ""
+msgstr "Yeni faktura planı yaradın"
 
 #: wlhosted/integrations/templates/hosted/create.html:8
 msgid "Create billing plan"
-msgstr ""
+msgstr "Ödəniş planı yaradın"
 
 #: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
-msgstr ""
+msgstr "Yeni faktura planı"
 
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
-msgstr ""
+msgstr "Zəhmət olmasa layihənizin ölçüsünə uyğun hosting planı seçin."
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
-msgstr ""
+msgstr "Cari faktura statusu"
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
-msgstr ""
+msgstr "Layihəniz üçün çox kiçikdir."
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small"
-msgstr ""
+msgstr "Çox kiçik"
 
 #: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
-msgstr ""
+msgstr "Seçilmiş plan"
 
 #: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
@@ -94,10 +95,8 @@ msgid "Languages limit"
 msgstr "Dil limiti"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
-#, fuzzy
-#| msgid "Projects limit"
 msgid "Component limit"
-msgstr "Layihə limiti"
+msgstr "Komponent limiti"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
@@ -112,7 +111,7 @@ msgstr "%(price)s AVRO / ay"
 #: wlhosted/integrations/templates/hosted/create.html:85
 #, python-format
 msgid "%(price)s EUR including VAT"
-msgstr ""
+msgstr "ƏDV daxil %(price)s EUR"
 
 #: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
@@ -120,80 +119,77 @@ msgid "%(price)s EUR / year"
 msgstr "%(price)s Avro/il"
 
 #: wlhosted/integrations/templates/hosted/create.html:96
-#, fuzzy
-#| msgid ""
-#| "The pricing is based on number of source strings and number of target "
-#| "languages. The source string is a text unit defined in a translation "
-#| "format, it can be word, sentence or a paragraph."
 msgid ""
 "Pricing is based on the number of source strings and target languages. The "
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
-"Qiymətləndirmə qaynaq sətirlərin və tərcümə olunacaq dillərin sayına "
-"bağlıdır. Qaynaq sətir tərcümə formatında olan mətn vahididir, söz, cümlə və "
-"ya bir paraqraf ola bilər."
+"Qiymətlər mənbə sətirlərinin və hədəf dillərin sayına əsaslanır. Mənbə sətri "
+"tərcümə formatında müəyyən edilmiş mətn vahididir, söz, cümlə və ya paraqraf "
+"ola bilər."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
-msgstr ""
+msgstr "Bütün qeyd olunan qiymətlərə ƏDV daxil deyil."
 
 #: wlhosted/integrations/templates/hosted/create.html:100
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
-msgstr ""
+msgstr "Aİ-nin son istifadəçiləri və Çex şirkətləri əlavə 21%% ƏDV tutulacaq."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
-msgstr ""
+msgstr "Əks ödəniş Aİ daxilində bizneslərə verilən fakturalara şamil edilir."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
-msgstr ""
+msgstr "Ödəniş üçün təşəkkür edirik, fakturanız artıq ödənilib."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "Bu ödəniş planı aşağıdakı layihələri əhatə edir:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
-msgstr ""
+msgstr "Faktura statusunuzu yoxlayın"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
-msgstr ""
+msgstr "Faktura planınız ödənildi"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
-msgstr ""
+msgstr "Uyğun ödəniş tapılmadı."
 
 #: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr ""
+msgstr "Hosting planı aldığınız üçün təşəkkür edirik, o indi aktivdir."
 
 #: wlhosted/integrations/views.py:83
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
+"Hostinq planı aldığınız üçün təşəkkür edirik, onun ödənişi gözlənilir və "
+"fonda emal olunacaq."
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
-msgstr ""
+msgstr "Ödəniş rədd edildi: {}"
 
 #: wlhosted/integrations/views.py:96
 msgid "Unknown reason"
-msgstr ""
+msgstr "Naməlum səbəb"
 
 #: wlhosted/integrations/views.py:112
 msgid "Payments are temporarily inactive."
-msgstr ""
+msgstr "Ödənişlər müvəqqəti olaraq qeyri-aktivdir."
 
 #: wlhosted/payments/backends.py:192
 msgid "Your payment on weblate.org"
-msgstr ""
+msgstr "Weblate.org saytındakı ödənişiniz"
 
 #: wlhosted/payments/backends.py:194
 #, python-format
@@ -207,10 +203,19 @@ msgid ""
 "\n"
 "%s\n"
 msgstr ""
+"Salam,\n"
+"\n"
+"Weblate.org saytında ödəniş etdiyiniz üçün təşəkkür edirik.\n"
+"\n"
+"Əlavədə bu ödəniş üçün faktura\n"
+"tapa bilərsiniz.\n"
+"Alternativ olaraq, onu vebsaytdan endirə bilərsiniz:\n"
+"\n"
+"%s\n"
 
 #: wlhosted/payments/backends.py:220
 msgid "Your payment on weblate.org failed"
-msgstr ""
+msgstr "Weblate.org saytında ödənişiniz alınmadı"
 
 #: wlhosted/payments/backends.py:222
 #, python-format
@@ -228,10 +233,22 @@ msgid ""
 "If concerning a recurring payment, it is retried three times,\n"
 "and if still failing, cancelled.\n"
 msgstr ""
+"Salam,\n"
+"\n"
+"Weblate.org saytındakı ödənişiniz uğursuz oldu.\n"
+"\n"
+"%s\n"
+"\n"
+"Veb saytında ödənişi təkrar etməyə cəhd edin:\n"
+"\n"
+"%s\n"
+"\n"
+"Əgər təkrarlanan ödənişlə bağlı olarsa, o, üç dəfə təkrar sınanır və hələ də "
+"uğursuz olarsa, ləğv edilir.\n"
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
-msgstr ""
+msgstr "Weblate.org saytında gözlənilən ödənişiniz"
 
 #: wlhosted/payments/backends.py:257
 msgid ""
@@ -240,6 +257,10 @@ msgid ""
 "Your payment on weblate.org is pending. Please follow the provided\n"
 "instructions to complete the payment.\n"
 msgstr ""
+"Salam,\n"
+"\n"
+"Weblate.org saytındakı ödənişiniz gözlənilir. Ödənişi tamamlamaq üçün "
+"verilən təlimatlara əməl edin.\n"
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
