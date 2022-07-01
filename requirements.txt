@@ -1,4 +1,4 @@
-Django<4.1
+Django
 django-appconf>=1.0
 django-countries==7.3.2
 django-vies==6.0.2
