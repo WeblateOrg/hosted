@@ -52,6 +52,7 @@ jobs:
     - name: Install pip dependencies
       run: |
         pip install --upgrade pip wheel Cython setuptools pkgconfig
+        pip install --no-binary :all: cffi
         pip install -r requirements-test.txt -r requirements.txt
     - name: Test with Django
       env:
