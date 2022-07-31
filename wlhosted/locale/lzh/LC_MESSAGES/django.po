@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2022-07-30 12:22+0000\n"
+"PO-Revision-Date: 2022-08-01 02:22+0000\n"
 "Last-Translator: yangyangdaji <1504305527@qq.com>\n"
 "Language-Team: Chinese (Literary) <https://hosted.weblate.org/projects/"
 "weblate/hosted/lzh/>\n"
@@ -44,54 +44,54 @@ msgstr "用新付可拨餐"
 
 #: wlhosted/integrations/templates/hosted/create.html:8
 msgid "Create billing plan"
-msgstr ""
+msgstr "用其旨之"
 
 #: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
-msgstr ""
+msgstr "新责其旨"
 
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
-msgstr ""
+msgstr "请择君项目规制驾餐。"
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
-msgstr ""
+msgstr "今出入不过如此"
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
-msgstr ""
+msgstr "其项君者小矣。"
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small"
-msgstr ""
+msgstr "太小"
 
 #: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
-msgstr ""
+msgstr "惟诺驾餐"
 
 #: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
-msgstr ""
+msgstr "今驾餐毕"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Strings limit"
-msgstr ""
+msgstr "符串约禁之"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
 #: wlhosted/integrations/templates/hosted/create.html:63
 #: wlhosted/integrations/templates/hosted/create.html:66
 msgid "Unlimited"
-msgstr ""
+msgstr "无制于无制"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
 msgid "Languages limit"
-msgstr ""
+msgstr "语笃于中"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Component limit"
-msgstr ""
+msgstr "其大要拘之"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
@@ -106,12 +106,12 @@ msgstr ""
 #: wlhosted/integrations/templates/hosted/create.html:85
 #, python-format
 msgid "%(price)s EUR including VAT"
-msgstr ""
+msgstr "%(price)s EUR including VAT"
 
 #: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
 msgid "%(price)s EUR / year"
-msgstr ""
+msgstr "%(price)s EUR / year"
 
 #: wlhosted/integrations/templates/hosted/create.html:96
 msgid ""
