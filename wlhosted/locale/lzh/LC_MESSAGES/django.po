@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2022-08-01 02:22+0000\n"
+"PO-Revision-Date: 2022-08-05 04:23+0000\n"
 "Last-Translator: yangyangdaji <1504305527@qq.com>\n"
 "Language-Team: Chinese (Literary) <https://hosted.weblate.org/projects/"
 "weblate/hosted/lzh/>\n"
@@ -100,7 +100,7 @@ msgstr ""
 #: wlhosted/integrations/templates/hosted/create.html:78
 #, python-format
 msgid "%(price)s EUR / month"
-msgstr ""
+msgstr "%(price)s EUR / month"
 
 #: wlhosted/integrations/templates/hosted/create.html:79
 #: wlhosted/integrations/templates/hosted/create.html:85
