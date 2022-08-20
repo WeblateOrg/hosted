@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2022-08-16 07:26+0000\n"
-"Last-Translator: JScocktail <yarbutt2005@gmail.com>\n"
+"PO-Revision-Date: 2022-08-21 08:34+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Bengali <https://hosted.weblate.org/projects/weblate/hosted/"
 "bn/>\n"
 "Language: bn\n"
@@ -231,7 +231,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
-msgstr ""
+msgstr "পরিশোধ পত্র"
 
 #: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
