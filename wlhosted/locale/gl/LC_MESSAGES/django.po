@@ -4,13 +4,14 @@
 # Iván <ivanrsm1997@gmail.com>, 2018.
 # Iván Seoane <ivanrsm1997@gmail.com>, 2018, 2019.
 # Iváns <ivanrsm1997@gmail.com>, 2019.
+# gallegonovato <fran-carro@hotmail.es>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2020-12-08 08:53+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2022-10-05 08:05+0000\n"
+"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/weblate/hosted/"
 "gl/>\n"
 "Language: gl\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -29,10 +30,8 @@ msgid "Reset repository to upstream"
 msgstr "Restabelecer o repositorio á fonte"
 
 #: wlhosted/addons.py:58
-#, fuzzy
-#| msgid "Reset all changes in the local repository"
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Desfacer tódalas mudanzas do repositorio local"
+msgstr "Descarta todolos cambios no repositorio de Weblate cada noite."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
@@ -146,24 +145,20 @@ msgstr ""
 "O cargo aplicarase á inversa ás facturas emitidas a negocios dentro da UE."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
-#, fuzzy
-#| msgid "Thank you for purchasing a hosting plan, it is now active."
 msgid "Thank you for the payment, your billing is now paid."
-msgstr "Grazas por mercar un plan de almacenamento, agora fica activo."
+msgstr "Grazas polo pago, a túa factura xa está pagada."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "Este plan de facturación abrangue os seguintes proxectos:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
 msgstr "Comproba o estado do teu pagamento"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
-#, fuzzy
-#| msgid "Create billing plan"
 msgid "Your billing plan was paid"
-msgstr "Facer plan de facturamento"
+msgstr "Pagouse o teu plan de facturación"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
@@ -374,35 +369,27 @@ msgstr "Unha vez"
 #: wlhosted/payments/models.py:195
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "Novo pago"
 
 #: wlhosted/payments/models.py:196
-#, fuzzy
-#| msgid "No matching payment found."
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr "Non se atopou ningún pagamento semellante."
+msgstr "Agardando o pago"
 
 #: wlhosted/payments/models.py:197
-#, fuzzy
-#| msgid "Payment card"
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "Tarxeta de pagamento"
+msgstr "Pago rexeitado"
 
 #: wlhosted/payments/models.py:198
-#, fuzzy
-#| msgid "Payment cancelled"
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "Pagamento desbotado"
+msgstr "Pago aceptado"
 
 #: wlhosted/payments/models.py:199
-#, fuzzy
-#| msgid "Payment processors."
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "Procesadores dos pagamentos."
+msgstr "Pago procesado"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
