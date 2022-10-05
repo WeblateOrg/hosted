@@ -85,33 +85,36 @@ class Command(BaseCommand):
                 invoice, amount, invoice.get_currency_display()
             )
         )
-        # Create fake customer
-        customer, created = Customer.objects.get_or_create(
-            vat=contact["vat_reg"],
-            tax=contact["tax_reg"],
-            name=contact["name"],
-            address=contact["address"],
-            city=contact["city"],
-            country=get_country(contact["country"]),
-            defaults={
-                "user_id": -1,
-                "origin": get_origin(),
-                "email": contact.get("email", ""),
-            },
-        )
-        if created:
-            self.stdout.write(f"Created customer: {customer}")
-        # Create payment
-        payment = Payment.objects.create(
-            amount=amount,
-            currency=invoice.currency,
-            state=Payment.PROCESSED,
-            backend="import",
-            customer=customer,
-            invoice=invoice.ref,
-            start=invoice.start,
-            end=invoice.end,
-        )
+        try:
+            payment = Payment.objects.get(invoice=invoice.ref)
+        except Payment.DoesNotExist:
+            # Create fake customer
+            customer, created = Customer.objects.get_or_create(
+                vat=contact["vat_reg"],
+                tax=contact["tax_reg"],
+                name=contact["name"],
+                address=contact["address"],
+                city=contact["city"],
+                country=get_country(contact["country"]),
+                defaults={
+                    "user_id": -1,
+                    "origin": get_origin(),
+                    "email": contact.get("email", ""),
+                },
+            )
+            if created:
+                self.stdout.write(f"Created customer: {customer}")
+            # Create payment
+            payment = Payment.objects.create(
+                amount=amount,
+                currency=invoice.currency,
+                state=Payment.PROCESSED,
+                backend="import",
+                customer=customer,
+                invoice=invoice.ref,
+                start=invoice.start,
+                end=invoice.end,
+            )
         invoice.payment = {"pk": payment.pk}
         invoice.save(update_fields=["payment"])
 
