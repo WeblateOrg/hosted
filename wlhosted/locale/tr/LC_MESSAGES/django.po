@@ -8,13 +8,14 @@
 # Ali Demirtas <alidemirtas94@gmail.com>, 2019.
 # Michal Čihař <michal@cihar.com>, 2020.
 # Oğuz Ersen <oguzersen@protonmail.com>, 2020.
+# Kaya Zeren <kayazeren@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-03-06 21:59+0000\n"
-"Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
+"PO-Revision-Date: 2022-10-17 15:22+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/weblate/hosted/"
 "tr/>\n"
 "Language: tr\n"
@@ -22,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5.1\n"
+"X-Generator: Weblate 4.15-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -34,11 +35,11 @@ msgstr "Depoyu yukarı akışa sıfırla"
 
 #: wlhosted/addons.py:58
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Her gece Weblate deposundaki tüm değişiklikleri yoksayar."
+msgstr "Weblate deposunda her gece yapılan tüm değişiklikleri yok sayar."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
-msgstr "Faturalandırma"
+msgstr "Faturalama"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
@@ -46,15 +47,15 @@ msgstr "Güncellemek istediğiniz ödeme planını seçin"
 
 #: wlhosted/integrations/forms.py:34
 msgid "Create new billing plan"
-msgstr "Yeni faturalandırma planı oluştur"
+msgstr "Yeni faturalama planı oluştur"
 
 #: wlhosted/integrations/templates/hosted/create.html:8
 msgid "Create billing plan"
-msgstr "Faturalandırma planı oluştur"
+msgstr "Faturalama planı oluştur"
 
 #: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
-msgstr "Yeni faturalandırma planı"
+msgstr "Yeni faturalama planı"
 
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
@@ -62,7 +63,7 @@ msgstr "Projenizin büyüklüğüne uygun bir barındırma planı seçin."
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
-msgstr "Geçerli faturalandırma durumu"
+msgstr "Geçerli faturalama durumu"
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
@@ -74,15 +75,15 @@ msgstr "Çok küçük"
 
 #: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
-msgstr "Seçilen plan"
+msgstr "Seçilmiş plan"
 
 #: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
-msgstr "Mevcut plan"
+msgstr "Geçerli plan"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Strings limit"
-msgstr "Dizgi sınırı"
+msgstr "Dizge sınırı"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
@@ -125,9 +126,9 @@ msgid ""
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
-"Fiyatlandırma, kaynak dizgilerinin sayısına ve hedef dillere dayanmaktadır. "
-"Kaynak dizgi, çeviri biçiminde tanımlanan bir metin birimidir, bir sözcük, "
-"tümce veya paragraf olabilir."
+"Fiyatlandırma, kaynak dizge ve hedef dil sayısına göre yapılır. Kaynak "
+"dizge, çeviri biçiminde tanımlanan bir metin birimidir, bir sözcük, tümce ya "
+"da paragraf olabilir."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
@@ -137,9 +138,7 @@ msgstr "Listelenen fiyatlara KDV dahil değildir."
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
-msgstr ""
-"AB son kullanıcıları ve Çek şirketlerinden %%21 oranında ilave KDV tahsil "
-"edilecektir."
+msgstr "AB son kullanıcıları ve Çek şirketlerinden %%21 oranında ek KDV alınır."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
@@ -148,19 +147,19 @@ msgstr "Ters ücret, AB içindeki işletmelere verilen faturalar için geçerlid
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
-msgstr "Ödeme için teşekkür ederiz, faturalandırmanız şu an ödendi."
+msgstr "Ödeme için teşekkür ederiz. Faturanız ödendi."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr "Bu faturalandırma planı aşağıdaki projeleri kapsar:"
+msgstr "Bu faturalama planında şu projeler bulunuyor:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
-msgstr "Faturalandırma durumunuzu denetleyin"
+msgstr "Faturalama durumunuzu denetleyin"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
-msgstr "Faturalandırılan planınız ödendi"
+msgstr "Faturalanan planınız ödendi"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
@@ -169,15 +168,16 @@ msgstr "Eşleşen ödeme bulunamadı."
 #: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr ""
-"Bir barındırma planı satın aldığınız için teşekkür ederiz, şu an etkin."
+"Bir barındırma planı satın aldığınız için teşekkür ederiz. Planınız "
+"etkinleştirildi."
 
 #: wlhosted/integrations/views.py:83
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
-"Bir hosting planı satın aldığınız için teşekkür ederiz, ödeme beklemede ve "
-"arka planda işlenecek."
+"Bir barındırma planı satın aldığınız için teşekkür ederiz. Ödeme işleminizin "
+"tamamlanması bekleniyor ve arka planda işlenecek."
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
@@ -185,15 +185,15 @@ msgstr "Ödeme reddedildi: {}"
 
 #: wlhosted/integrations/views.py:96
 msgid "Unknown reason"
-msgstr "Bilinmeyen neden"
+msgstr "Neden bilinmiyor"
 
 #: wlhosted/integrations/views.py:112
 msgid "Payments are temporarily inactive."
-msgstr "Ödemeler geçici olarak etkin değildir."
+msgstr "Ödemeler geçici olarak etkin değil."
 
 #: wlhosted/payments/backends.py:192
 msgid "Your payment on weblate.org"
-msgstr "Weblate.org’daki ödemeniz"
+msgstr "Weblate.org ödemeniz"
 
 #: wlhosted/payments/backends.py:194
 #, python-format
@@ -209,16 +209,16 @@ msgid ""
 msgstr ""
 "Merhaba,\n"
 "\n"
-"Weblate.org adresindeki ödemeniz için teşekkür ederiz.\n"
+"Weblate.org ödemeniz için teşekkür ederiz.\n"
 "\n"
-"Bu ödeme için ekli bir fatura bulacaksınız.\n"
-"Alternatif olarak, web sitesinden indirebilirsiniz:\n"
+"Bu ödemenin faturasını ekte bulabilirsiniz.\n"
+"Ayrıca web sitesinden de indirebilirsiniz:\n"
 "\n"
 "%s\n"
 
 #: wlhosted/payments/backends.py:220
 msgid "Your payment on weblate.org failed"
-msgstr "Weblate.org’daki ödemeniz başarısız oldu"
+msgstr "Weblate.org ödemeniz alınamadı"
 
 #: wlhosted/payments/backends.py:222
 #, python-format
@@ -238,20 +238,20 @@ msgid ""
 msgstr ""
 "Merhaba,\n"
 "\n"
-"Weblate.org'daki ödemeniz başarısız oldu.\n"
+"Weblate.org ödemeniz alınamadı.\n"
 "\n"
 "%s\n"
 "\n"
-"Web sitesinde ödeme yapılmasını tekrar denemek için:\n"
+"Ödemeyi web sitesinden yeniden yapmak için:\n"
 "\n"
 "%s\n"
 "\n"
-"Yinelenen bir ödemeyle ilgili olarak, üç kez denenir\n"
-"ve hala başarısız olursa, iptal edilir.\n"
+"Yinelenen ödemeler üç kez denenir\n"
+"ve sonuç alınamazsa, iptal edilir.\n"
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
-msgstr "Weblate.org’daki bekleyen ödemeniz"
+msgstr "Weblate.org bekleyen ödemeniz"
 
 #: wlhosted/payments/backends.py:257
 msgid ""
@@ -262,8 +262,9 @@ msgid ""
 msgstr ""
 "Merhaba,\n"
 "\n"
-"Weblate.org'daki ödemeniz beklemede. Lütfen ödemeyi tamamlamak\n"
-"için verilen talimatları uygulayın.\n"
+"Weblate.org ödeme işleminizin tamamlanması bekleniyor. Lütfen ödemeyi "
+"tamamlamak\n"
+"için yönergeleri uygulayın.\n"
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
@@ -275,7 +276,7 @@ msgstr "Ödeme iptal edildi"
 
 #: wlhosted/payments/backends.py:417
 msgid "Payment error"
-msgstr "Ödeme hatası"
+msgstr "Ödeme sorunu"
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
@@ -311,12 +312,12 @@ msgstr "Referans"
 
 #: wlhosted/payments/models.py:77
 msgid "European VAT ID"
-msgstr "Avrupa KDV Kimliği"
+msgstr "Avrupa KDV kimliği"
 
 #: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
-"Lütfen Avrupa Birliği KDV Kimliğini doldurun, uygun değilse boş bırakın."
+"Lütfen Avrupa Birliği KDV kimliğini yazın. KDV uygulanmıyorsa boş bırakın."
 
 #: wlhosted/payments/models.py:85
 msgid "Tax registration"
@@ -325,11 +326,11 @@ msgstr "Vergi kaydı"
 #: wlhosted/payments/models.py:87
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
-msgstr "Lütfen faturada görünmesi halinde vergi kaydınızı doldurun."
+msgstr "Lütfen faturada görünmesini istediğiniz vergi kaydınızı yazın."
 
 #: wlhosted/payments/models.py:94
 msgid "Company or individual name"
-msgstr "Şirket veya şahıs adı"
+msgstr "Şirket ya da şahıs adı"
 
 #: wlhosted/payments/models.py:97
 msgid "Address"
@@ -337,7 +338,7 @@ msgstr "Adres"
 
 #: wlhosted/payments/models.py:100
 msgid "Postcode and city"
-msgstr "Posta kodu ve şehir"
+msgstr "Posta kodu ve il"
 
 #: wlhosted/payments/models.py:102
 msgid "Country"
@@ -345,7 +346,7 @@ msgstr "Ülke"
 
 #: wlhosted/payments/models.py:134
 msgid "The country has to match your VAT code"
-msgstr "Ülke, KDV kodunuzla eşleşmek zorundadır"
+msgstr "Ülke, KDV kodunuzla eşleşmelidir"
 
 #: wlhosted/payments/models.py:157
 msgid "Annual"
@@ -353,11 +354,11 @@ msgstr "Yıllık"
 
 #: wlhosted/payments/models.py:158
 msgid "Biannual"
-msgstr "İki yılda bir"
+msgstr "İki yıllık"
 
 #: wlhosted/payments/models.py:159
 msgid "Quarterly"
-msgstr "Üç ayda bir"
+msgstr "Üç aylık"
 
 #: wlhosted/payments/models.py:160
 msgid "Monthly"
@@ -375,7 +376,7 @@ msgstr "Yeni ödeme"
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr "Bekleyen ödeme"
+msgstr "Ödeme bekleniyor"
 
 #: wlhosted/payments/models.py:197
 msgctxt "Payment state"
@@ -390,26 +391,25 @@ msgstr "Ödeme kabul edildi"
 #: wlhosted/payments/models.py:199
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "Ödeme işleme koyuldu"
+msgstr "Ödeme işlendi"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
-msgstr ""
-"{} herhangi bir Avrupa Birliği üyesi için geçerli bir ülke kodu değildir."
+msgstr "{} herhangi bir Avrupa Birliği üyesi için geçerli bir ülke kodu değil."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr "{} ülkenin KDV Kimliği özelliklerine uymuyor."
+msgstr "{} ülkenin KDV kimliği özelliklerine uymuyor."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
-"{} için kullanılamayan KDV Kimliği doğrulama hizmeti, lütfen daha sonra "
+"{} için KDV kimliği doğrulama hizmeti kullanılamıyor. Lütfen bir süre sonra "
 "yeniden deneyin."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr "{} geçerli bir KDV Kimliği değildir."
+msgstr "{} geçerli bir KDV kimliği değil."
 
 #~ msgid ""
 #~ "We comply with the Regulation No. %(law_679_2016)s, the General Data "
