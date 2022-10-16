@@ -6,13 +6,14 @@
 # Aman ALam <alam.yellow@gmail.com>, 2019.
 # anonymous <noreply@weblate.org>, 2019.
 # Satnam S Virdi <pika10singh@gmail.com>, 2020.
+# bgo-eiu <huyaqoob+toolforge@gmail.com>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2020-09-19 05:54+0000\n"
-"Last-Translator: Satnam S Virdi <pika10singh@gmail.com>\n"
+"PO-Revision-Date: 2022-10-17 15:22+0000\n"
+"Last-Translator: bgo-eiu <huyaqoob+toolforge@gmail.com>\n"
 "Language-Team: Punjabi <https://hosted.weblate.org/projects/weblate/hosted/"
 "pa/>\n"
 "Language: pa\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3-dev\n"
+"X-Generator: Weblate 4.15-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -68,7 +69,7 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small"
-msgstr ""
+msgstr "ਬਹੁਤ ਛੋਟਾ ਹੈ"
 
 #: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
@@ -245,7 +246,7 @@ msgstr "ਭੁਗਤਾਨ ਸਮੱਸਿਆ"
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
-msgstr ""
+msgstr "ਬਿਟ ਕੋਇਨ"
 
 #: wlhosted/payments/backends.py:438
 msgid "IBAN bank transfer"
@@ -273,7 +274,7 @@ msgstr "IBAN"
 
 #: wlhosted/payments/backends.py:473
 msgid "Reference"
-msgstr ""
+msgstr "ਹਵਾਲਾ"
 
 #: wlhosted/payments/models.py:77
 msgid "European VAT ID"
