@@ -14,13 +14,14 @@
 # Edward Smirnov <ed@microolap.com>, 2021.
 # Ivan <goz9ae93qun@temp.mailbox.org>, 2021.
 # Blueberry <igory.ygr200@gmail.com>, 2021.
+# Темак <artemkotlubai@yandex.ru>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-08-04 09:33+0000\n"
-"Last-Translator: Blueberry <igory.ygr200@gmail.com>\n"
+"PO-Revision-Date: 2022-11-16 21:46+0000\n"
+"Last-Translator: Темак <artemkotlubai@yandex.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/weblate/hosted/"
 "ru/>\n"
 "Language: ru\n"
@@ -29,7 +30,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.15-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -37,11 +38,11 @@ msgstr "Генерировать данные для сценария Unknown Ho
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
-msgstr "Сбросить репозиторий в исходное состояние"
+msgstr "Вернуть сетевое хранилище в исходное состояние"
 
 #: wlhosted/addons.py:58
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Отбрасывать все изменения в репозитории Weblate каждую ночь."
+msgstr "Отменять все изменения в сетевом хранилище Weblate каждую ночь."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
@@ -100,15 +101,15 @@ msgstr "Неограниченно"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
 msgid "Languages limit"
-msgstr "Лимит языков"
+msgstr "Предел языков"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Component limit"
-msgstr "Лимит компонентов"
+msgstr "Предел компонентов"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
-msgstr "Лимит проектов"
+msgstr "Предел проектов"
 
 #: wlhosted/integrations/templates/hosted/create.html:78
 #, python-format
@@ -165,7 +166,7 @@ msgstr "Этот тарифный план покрывает следующие
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
-msgstr "Проверить статус вашего тарифного плана"
+msgstr "Проверить состояние вашего тарифного плана"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
@@ -184,8 +185,8 @@ msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
-"Вы приобрели план хостинга. Спасибо! Платёж находится в обработке в фоновом "
-"режиме."
+"Вы приобрели план хостинга. Спасибо! Платёж находится в обработке на заднем "
+"плане."
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
@@ -250,7 +251,7 @@ msgstr ""
 "\n"
 "%s\n"
 "\n"
-"Повторите оформление платежа на сайте:\n"
+"Повторите составление платежа на сайте:\n"
 "\n"
 "%s\n"
 "\n"
@@ -287,7 +288,7 @@ msgstr "Ошибка платежа"
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
-msgstr "Bitcoin"
+msgstr "Биткойн"
 
 #: wlhosted/payments/backends.py:438
 msgid "IBAN bank transfer"
@@ -335,7 +336,8 @@ msgstr "Налоговая регистрация"
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
-"Заполните налоговую регистрацию, если она должна быть указана в инвойсе."
+"Заполните налоговую регистрацию, если она должна быть указана в "
+"счёте-фактуре."
 
 #: wlhosted/payments/models.py:94
 msgid "Company or individual name"
