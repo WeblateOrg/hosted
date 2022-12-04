@@ -5,13 +5,14 @@
 # Brikkho <admin@brikkho.net>, 2020.
 # Hasan Parvez <rokibulhasanparvez@gmail.com>, 2020.
 # Samiul Joy <samiuljoy46@yahoo.com>, 2020.
+# Oymate <dhruboadittya96@gmail.com>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2020-12-26 21:32+0000\n"
-"Last-Translator: Samiul Joy <samiuljoy46@yahoo.com>\n"
+"PO-Revision-Date: 2022-12-05 06:48+0000\n"
+"Last-Translator: Oymate <dhruboadittya96@gmail.com>\n"
 "Language-Team: Bengali (Bangladesh) <https://hosted.weblate.org/projects/"
 "weblate/hosted/bn_BD/>\n"
 "Language: bn_BD\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.1-dev\n"
+"X-Generator: Weblate 4.15-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 #, fuzzy
@@ -28,7 +29,7 @@ msgstr "Generate Unknown Horizons scenario data"
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
-msgstr ""
+msgstr "উজানে ভাণ্ডার পুনঃশুরু করো"
 
 #: wlhosted/addons.py:58
 msgid "Discards all changes in the Weblate repository each night."
