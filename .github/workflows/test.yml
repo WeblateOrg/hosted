@@ -20,7 +20,7 @@ jobs:
         ports:
         - 6379:6379
       postgres:
-        image: postgres:11
+        image: postgres:15
         ports:
         - 5432:5432
         # needed because the postgres container does not provide a healthcheck
