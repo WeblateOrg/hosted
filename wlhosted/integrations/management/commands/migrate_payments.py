@@ -49,7 +49,7 @@ def get_country(text):
 
 
 class Command(BaseCommand):
-    help = "migrates payments to include all needed metadata"
+    help = "migrates payments to include all needed metadata"  # noqa: A003
 
     def update_payment(self, invoice):
         payment = Payment.objects.get(pk=invoice.payment["pk"])
