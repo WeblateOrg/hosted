@@ -1,5 +1,4 @@
 httpretty
-pre-commit
 pytest
 pytest-cov
-twine
+twine==4.0.2
