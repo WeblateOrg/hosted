@@ -6,13 +6,14 @@
 # Adalberto Alvarez Perez <adalprofe@gmail.com>, 2018.
 # emma peel <emma.peel@riseup.net>, 2018.
 # Adolfo Jayme Barrientos <fitojb@ubuntu.com>, 2019, 2020, 2021.
+# gallegonovato <fran-carro@hotmail.es>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-02-04 10:52+0000\n"
-"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
+"PO-Revision-Date: 2023-02-08 20:36+0000\n"
+"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/weblate/hosted/"
 "es/>\n"
 "Language: es\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -104,18 +105,18 @@ msgstr "Límite de proyectos"
 #: wlhosted/integrations/templates/hosted/create.html:78
 #, python-format
 msgid "%(price)s EUR / month"
-msgstr "%(price)s €/mes"
+msgstr "%(price)s euros / mes"
 
 #: wlhosted/integrations/templates/hosted/create.html:79
 #: wlhosted/integrations/templates/hosted/create.html:85
 #, python-format
 msgid "%(price)s EUR including VAT"
-msgstr "%(price)s €, IVA incluido"
+msgstr "%(price)s EUR IVA incluido"
 
 #: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
 msgid "%(price)s EUR / year"
-msgstr "%(price)s €/año"
+msgstr "%(price)s EUR / año"
 
 #: wlhosted/integrations/templates/hosted/create.html:96
 msgid ""
@@ -136,8 +137,8 @@ msgstr "Ninguno de los precios mostrados incluye el IVA."
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
-"A los usuarios finales de la UE y a las empresas checas se les cobrará un "
-"21 %% adicional de IVA."
+"Los usuarios finales de la UE y las Empresas Checas deberán pagar un 21%% de "
+"IVA adicional."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
