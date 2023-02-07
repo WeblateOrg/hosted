@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2023-02-03 18:40+0000\n"
+"PO-Revision-Date: 2023-02-08 20:36+0000\n"
 "Last-Translator: ⵣⵓⵀⵉⵔ ⴰⵎⴰⵣⵉⵖ ZOUHIR DEHBI <zouhirdehbi56@gmail.com>\n"
 "Language-Team: Tamazight (Standard Moroccan) <https://hosted.weblate.org/"
 "projects/weblate/hosted/zgh/>\n"
@@ -20,98 +20,98 @@ msgstr ""
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
-msgstr ""
+msgstr "ⴰⵙⵎⴰⵔ ⵏ ⵜⵎⵓⵛⴰ ⵏ ⵓⵙⵉⵏⴰⵔⵢⵓ ⵏ ⵉⵎⵏⵉⴷⵏ ⵏⵏⴰ ⵓⵔ ⵉⵜⵜⵡⴰⵙⵙⵏⵏ"
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
-msgstr ""
+msgstr "ⴰⵍⵙ ⴰⵙⴳⴳⴷ ⵏ ⵜⵙⵏⴳⵉⵜ ⴳ ⵓⴼⵍⵍⴰ"
 
 #: wlhosted/addons.py:58
 msgid "Discards all changes in the Weblate repository each night."
-msgstr ""
+msgstr "ⴽⵓ ⵉⴹ, ⴱⵏⵏⵣ ⵇⴰⵃ ⵉⵙⵏⴼⵍⵏ ⴳ ⵜⵙⴳⵉⵜ ⵏ Weblate."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
-msgstr ""
+msgstr "ⴰⴼⴰⵜⵔ"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
-msgstr ""
+msgstr "ⵙⵜⵉ ⴰⵖⴰⵡⴰⵙ ⵏ ⵓⴼⴰⵜⵔ ⵏⵏⴰ ⵜⵔⵉⴷ ⴰⴷ ⵜⵙⵎⴰⵢⵏⵓⴷ"
 
 #: wlhosted/integrations/forms.py:34
 msgid "Create new billing plan"
-msgstr ""
+msgstr "ⵙⴽⵔ ⴰⵖⴰⵡⴰⵙ ⴰⵎⴰⵢⵏⵓ ⵏ ⵓⴼⴰⵜⵔ"
 
 #: wlhosted/integrations/templates/hosted/create.html:8
 msgid "Create billing plan"
-msgstr ""
+msgstr "ⵙⴽⵔ ⴰⵖⴰⵡⴰⵙ ⵏ ⵓⴼⴰⵜⵔ"
 
 #: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
-msgstr ""
+msgstr "ⴰⵖⴰⵡⴰⵙ ⴰⵎⴰⵢⵏⵓ ⵏ ⵓⴼⴰⵜⵔ"
 
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
-msgstr ""
+msgstr "ⵙⵜⵉ ⴽⵔⴰ ⵏ ⵓⵖⴰⵡⴰⵙ ⵏ ⵓⵙⵏⵓⴱⴳ ⵉⵎⵙⴰⵙⴰⵏ ⴷ ⵓⵙⵖⵏⵓ ⵏⵏⴽ."
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
-msgstr ""
+msgstr "ⴰⵙⵓⵔⵙ ⵏ ⵓⴼⴰⵜⵔ ⴰⴷⵡⴰⵍⵉ"
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
-msgstr ""
+msgstr "ⵉⵎⵥⵥⵉ ⴽⵉⴳⴰⵏ ⵉ ⵓⵙⵖⵏⵓ ⵏⵏⴽ."
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small"
-msgstr ""
+msgstr "ⵉⵎⵥⵥⵉ ⴽⵉⴳⴰⵏ"
 
 #: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
-msgstr ""
+msgstr "ⴰⵖⴰⵡⴰⵙ ⵉⵜⵜⵡⴰⵙⴰⵜⴰⵢⵏ"
 
 #: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
-msgstr ""
+msgstr "ⴰⵖⴰⵡⴰⵙ ⵏ ⴷⵖⵉ"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Strings limit"
-msgstr ""
+msgstr "ⴰⵡⵜⵜⵓ ⵏ ⵉⵙⵓⵔⴰ"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
 #: wlhosted/integrations/templates/hosted/create.html:63
 #: wlhosted/integrations/templates/hosted/create.html:66
 msgid "Unlimited"
-msgstr ""
+msgstr "ⴰⵔⵡⵜⵜⵓ"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
 msgid "Languages limit"
-msgstr ""
+msgstr "ⴰⵡⵜⵜⵓ ⵏ ⵜⵓⵜⵍⴰⵢⵉⵏ"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Component limit"
-msgstr ""
+msgstr "ⴰⵡⵜⵜⵓ ⵏ ⵓⴼⵔⴷⵉⵙ"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
-msgstr ""
+msgstr "ⴰⵡⵜⵜⵓ ⵏ ⵉⵙⵖⵏⵓⵜⵏ"
 
 #: wlhosted/integrations/templates/hosted/create.html:78
 #, python-format
 msgid "%(price)s EUR / month"
-msgstr ""
+msgstr "%(price)s ⵓⵕⵓ / ⴰⵢⵢⵓⵔ"
 
 #: wlhosted/integrations/templates/hosted/create.html:79
 #: wlhosted/integrations/templates/hosted/create.html:85
 #, python-format
 msgid "%(price)s EUR including VAT"
-msgstr ""
+msgstr "%(price)s ⵓⵕⵓ ⵙ ⵓⵔⴳⴰⵢ ⵏ ⵡⴰⵜⵉⴳ ⵉⵙⵎⴷⵏ"
 
 #: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
 msgid "%(price)s EUR / year"
-msgstr ""
+msgstr "%(price)s ⵓⵕⵓ / ⴰⵙⴳⴳⵯⴰⵙ"
 
 #: wlhosted/integrations/templates/hosted/create.html:96
 msgid ""
@@ -122,7 +122,7 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
-msgstr ""
+msgstr "ⵎⴰⵕⵕⴰ ⴰⵜⵉⴳⵏ ⵉⵍⵍⴰⵏ ⵏⵏⴰ ⵓⵔ ⵖⵓⵔⵙⵏ ⴰⵔⴳⴰⵢ ⵏ ⵡⴰⵜⵉⴳ ⵉⵙⵎⴷⵏ."
 
 #: wlhosted/integrations/templates/hosted/create.html:100
 #, python-format
@@ -273,7 +273,7 @@ msgstr "ⵜⴰⵙⴰⵖⵓⵍⵜ"
 
 #: wlhosted/payments/models.py:77
 msgid "European VAT ID"
-msgstr ""
+msgstr "ⴰⵎⵙⵉⴽⵣ ⵏ ⵓⵕⵓⴱⴱⴰ ⵏ ⵓⵔⴳⴰⵢ ⵏ ⵡⴰⵜⵉⴳ ⵉⵙⵎⴷⵏ"
 
 #: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
@@ -336,17 +336,17 @@ msgstr "ⵜⵉⴼⵔⵉ ⵜⴰⵎⴰⵢⵏⵓⵜ"
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr ""
+msgstr "ⵜⵙⵓⵍ ⵜⴼⵔⵉ"
 
 #: wlhosted/payments/models.py:197
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr ""
+msgstr "ⵜⴻⵜⵜⵡⴰⴳⵉ ⵜⴼⵔⵉ"
 
 #: wlhosted/payments/models.py:198
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr ""
+msgstr "ⵜⴽⵛⵎ ⵜⴼⵔⵉ"
 
 #: wlhosted/payments/models.py:199
 msgctxt "Payment state"
