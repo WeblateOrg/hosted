@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2023-02-08 20:36+0000\n"
+"PO-Revision-Date: 2023-02-11 14:02+0000\n"
 "Last-Translator: ⵣⵓⵀⵉⵔ ⴰⵎⴰⵣⵉⵖ ZOUHIR DEHBI <zouhirdehbi56@gmail.com>\n"
 "Language-Team: Tamazight (Standard Moroccan) <https://hosted.weblate.org/"
 "projects/weblate/hosted/zgh/>\n"
@@ -290,7 +290,7 @@ msgstr ""
 
 #: wlhosted/payments/models.py:94
 msgid "Company or individual name"
-msgstr ""
+msgstr "ⵉⵙⵎ ⵏ ⵜⵎⵙⵙⵓⵔⵜ ⵏⵉⵖ ⵓⴳⴳⵉⴷ"
 
 #: wlhosted/payments/models.py:97
 msgid "Address"
