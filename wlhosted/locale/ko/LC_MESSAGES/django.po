@@ -5,13 +5,14 @@
 # k ks <kmshts@naver.com>, 2019.
 # Jun Hyung Shin <shmishmi79@gmail.com>, 2019.
 # Lee Yunseok <ironyunseok@protonmail.com>, 2019, 2020, 2021.
+# 이정희 <daemul72@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-01-31 12:14+0000\n"
-"Last-Translator: Lee Yunseok <ironyunseok@protonmail.com>\n"
+"PO-Revision-Date: 2023-02-11 14:02+0000\n"
+"Last-Translator: 이정희 <daemul72@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/weblate/hosted/ko/"
 ">\n"
 "Language: ko\n"
@@ -19,11 +20,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
-msgstr "Unknown Horizons 시나리오 자료 생성"
+msgstr "알 수 없는 Horizons 시나리오 자료 생성하기"
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
@@ -31,39 +32,39 @@ msgstr "저장소를 업스트림으로 재설정"
 
 #: wlhosted/addons.py:58
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "매일 밤 웨블레이트 저장소의 모든 변경 사항을 폐기합니다."
+msgstr "매일 밤 Weblate 저장소의 모든 변경사항을 폐기합니다."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
-msgstr "결제"
+msgstr "청구"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
-msgstr "갱신할 결제 플랜을 선택하십시오"
+msgstr "갱신할 청구 요금제를 선택합니다"
 
 #: wlhosted/integrations/forms.py:34
 msgid "Create new billing plan"
-msgstr "새 결제 플랜 생성"
+msgstr "새 청구 요금제 만들기"
 
 #: wlhosted/integrations/templates/hosted/create.html:8
 msgid "Create billing plan"
-msgstr "결제 플랜 생성"
+msgstr "청구 요금제 만들기"
 
 #: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
-msgstr "새 결제 계획"
+msgstr "새 청구 요금제"
 
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
-msgstr "프로젝트의 규모에 맞는 호스팅 플랜을 선택하십시오."
+msgstr "프로젝트 규모에 맞는 호스팅 요금제를 선택하세요."
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
-msgstr "현재 결제 상태"
+msgstr "현재 청구 상태"
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
-msgstr "프로젝트에 비해 너무 작습니다."
+msgstr "당신의 프로젝트에 비해 너무 작습니다."
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small"
@@ -71,11 +72,11 @@ msgstr "너무 작음"
 
 #: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
-msgstr "선택된 플랜"
+msgstr "선택된 요금제"
 
 #: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
-msgstr "현재 플랜"
+msgstr "현재 요금제"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Strings limit"
@@ -103,7 +104,7 @@ msgstr "프로젝트 제한"
 #: wlhosted/integrations/templates/hosted/create.html:78
 #, python-format
 msgid "%(price)s EUR / month"
-msgstr "%(price)s 유로 / 월"
+msgstr "%(price)s EUR / 월"
 
 #: wlhosted/integrations/templates/hosted/create.html:79
 #: wlhosted/integrations/templates/hosted/create.html:85
@@ -114,7 +115,7 @@ msgstr "%(price)s EUR 부가세 포함"
 #: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
 msgid "%(price)s EUR / year"
-msgstr "%(price)s 유로 / 년"
+msgstr "%(price)s EUR / 년"
 
 #: wlhosted/integrations/templates/hosted/create.html:96
 msgid ""
@@ -122,19 +123,18 @@ msgid ""
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
-"요금은 원본 문자열의 개수와 대상 언어에 의해 결정됩니다. 원본 문자열은 번역 "
-"포맷으로 정의된 문자 단위이며, 이는 단어, 문장, 문단일 수 있습니다."
+"요금은 원본 문자열 및 대상 언어의 수에 의해 결정됩니다. 원본 문자열은 번역 "
+"형식으로 정의된 문자 단위이며, 이는 단어, 문장, 문단일 수 있습니다."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
-msgstr "나열된 모든 가격은 부가세 제외입니다."
+msgstr "표시된 모든 요금은 부가가치세를 제외한 가격입니다."
 
 #: wlhosted/integrations/templates/hosted/create.html:100
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
-msgstr ""
-"EU 최종 사용자와 체코 기업들은 21%%의 부가가치세를 추가로 부과받게 됩니다."
+msgstr "EU 최종 사용자와 체코 기업들은 21%%의 부가가치세가 추가로 부과됩니다."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
@@ -145,35 +145,34 @@ msgstr ""
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
-msgstr "구매해주셔서 감사합니다, 지불이 완료됐습니다."
+msgstr "결제해 주셔서 감사합니다. 이제 청구 금액이 결제되었습니다."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr "이 요금제에는 다음 프로젝트가 포함됩니다:"
+msgstr "이 청구 요금제에는 다음 프로젝트가 포함됩니다:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
-msgstr "결제 상태 확인"
+msgstr "사용자의 청구 상태 확인"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
-msgstr "요금 지불이 완료됨"
+msgstr "사용자의 청구 요금제가 결제되었습니다"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
-msgstr "일치하는 결제가 없습니다."
+msgstr "일치하는 결제를 찾을 수 없습니다."
 
 #: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr "호스팅 플랜을 구매해주셔서 감사합니다, 지금 활성화된 상태입니다."
+msgstr "호스팅 요금제를 구매해 주셔서 감사합니다. 이제 활성화되었습니다."
 
 #: wlhosted/integrations/views.py:83
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
-msgstr ""
-"호스팅 플랜을 구매해주셔서 감사합니다, 결제는 대기 중이며 백그라운드에서 처리"
-"됩니다."
+msgstr "호스팅 요금제를 구매해 주셔서 감사합니다. 해당 요금제에 대한 결제가 보류 "
+"중이며 백그라운드에서 처리됩니다."
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
@@ -185,11 +184,11 @@ msgstr "알 수 없는 이유"
 
 #: wlhosted/integrations/views.py:112
 msgid "Payments are temporarily inactive."
-msgstr "결제가 일시적으로 비활성화되었습니다."
+msgstr "결제가 일시적으로 비활성 상태입니다."
 
 #: wlhosted/payments/backends.py:192
 msgid "Your payment on weblate.org"
-msgstr "weblate.org서비스 이용 지불내역"
+msgstr "weblate.org에 지불한 사용자의 결제 내역"
 
 #: wlhosted/payments/backends.py:194
 #, python-format
@@ -203,18 +202,18 @@ msgid ""
 "\n"
 "%s\n"
 msgstr ""
-"안녕하십니까\n"
+"안녕하세요,\n"
 "\n"
-"weblate.org 서비스를 이용해주셔서 감사합니다.\n"
+"weblate.org에서 결제해 주셔서 감사합니다.\n"
 "\n"
 "이 결제에 대한 청구서가 첨부되어 있습니다.\n"
-"혹은 누리집에서 내려받을 수 있습니다:\n"
+"또는 웹사이트에서 다운로드할 수 있습니다:\n"
 "\n"
 "%s\n"
 
 #: wlhosted/payments/backends.py:220
 msgid "Your payment on weblate.org failed"
-msgstr "weblate.org 서비스 결제가 중단되었습니다"
+msgstr "weblate.org에서 결제하지 못했습니다"
 
 #: wlhosted/payments/backends.py:222
 #, python-format
@@ -232,22 +231,22 @@ msgid ""
 "If concerning a recurring payment, it is retried three times,\n"
 "and if still failing, cancelled.\n"
 msgstr ""
-"안녕하십니까\n"
+"안녕하세요,\n"
 "\n"
-"weblate.org에 결제가 실패했습니다.\n"
-"\n"
-"%s\n"
-"\n"
-"사이트에서 결제신청을 다시 하실 수 있습니다.\n"
+"weblate.org에서 사용자의 결제가 실패했습니다\n"
 "\n"
 "%s\n"
 "\n"
-"3번 이상의 결제시도를 했음에도 불구하고 실패했다면,\n"
-"귀하가 신청한 서비스가 취소된 것입니다.\n"
+"웹사이트에서 결제를 다시 시도해 보세요:\n"
+"\n"
+"%s\n"
+"\n"
+"3번 이상의 결제시도를 했음에도 불구하고,\n"
+"여전히 실패한다면, 신청한 서비스가 취소된 것입니다.\n"
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
-msgstr "weblate.org에 보류 중인 결제"
+msgstr "weblate.org에서 보류중인 결제 내역"
 
 #: wlhosted/payments/backends.py:257
 msgid ""
@@ -258,8 +257,8 @@ msgid ""
 msgstr ""
 "안녕하세요,\n"
 "\n"
-"weblate.org에서 결제가 보류 중입니다. 제공된 내용을 따르십시오.\n"
-"결제 완료 방법 안내.\n"
+"weblate.org에서 결제가 보류중입니다.\n"
+"제공된 안내에 따라 결제를 완료하세요.\n"
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
@@ -287,7 +286,7 @@ msgstr "발행 은행"
 
 #: wlhosted/payments/backends.py:469
 msgid "Account holder"
-msgstr "계좌 소유자"
+msgstr "예금주"
 
 #: wlhosted/payments/backends.py:470
 msgid "Account number"
@@ -311,8 +310,7 @@ msgstr "유럽 VAT ID"
 
 #: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
-msgstr ""
-"유럽 연합 VAT ID를 작성하십시오, 해당 사항이 아니라면 공백으로 두십시오."
+msgstr "유럽 연합 VAT ID를 입력하시고, 해당되지 않는 경우 비워두세요."
 
 #: wlhosted/payments/models.py:85
 msgid "Tax registration"
@@ -333,23 +331,23 @@ msgstr "주소"
 
 #: wlhosted/payments/models.py:100
 msgid "Postcode and city"
-msgstr "우편 번호와 도시"
+msgstr "우편번호 및 도시"
 
 #: wlhosted/payments/models.py:102
 msgid "Country"
-msgstr "나라"
+msgstr "국가"
 
 #: wlhosted/payments/models.py:134
 msgid "The country has to match your VAT code"
-msgstr "나라는 VAT 코드와 일치해야 합니다"
+msgstr "국가는 VAT 코드와 일치해야 합니다"
 
 #: wlhosted/payments/models.py:157
 msgid "Annual"
-msgstr "매년"
+msgstr "연 1회"
 
 #: wlhosted/payments/models.py:158
 msgid "Biannual"
-msgstr "반 년"
+msgstr "연 2회"
 
 #: wlhosted/payments/models.py:159
 msgid "Quarterly"
@@ -371,30 +369,30 @@ msgstr "신규 결제"
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr "대기 중인 결제"
+msgstr "대기중인 결제"
 
 #: wlhosted/payments/models.py:197
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "거부된 결제"
+msgstr "결제 거부됨"
 
 #: wlhosted/payments/models.py:198
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "승인된 결제"
+msgstr "결제 승인됨"
 
 #: wlhosted/payments/models.py:199
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "처리된 결제"
+msgstr "결제 처리됨"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
-msgstr "{}이(가) 유럽 연합 회원국에 유효한 국가 코드가 아닙니다."
+msgstr "{}은(는) 유럽 연합 회원국에 유효한 국가 코드가 아닙니다."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr "{}이(가) 해당 국가의 VAT ID 명세서와 일치하지 않습니다."
+msgstr "{}은(는) 해당 국가의 VAT ID 사양과 일치하지 않습니다."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
