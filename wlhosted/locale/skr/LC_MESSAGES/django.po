@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2023-02-12 16:39+0000\n"
+"PO-Revision-Date: 2023-02-23 00:29+0000\n"
 "Last-Translator: پرویز قادر <mpqadir@gmail.com>\n"
 "Language-Team: Saraiki <https://hosted.weblate.org/projects/weblate/hosted/"
 "skr/>\n"
@@ -28,7 +28,7 @@ msgstr "ریپوزٹری کوں اپ سٹریم تے ولدا مقرر کرو"
 
 #: wlhosted/addons.py:58
 msgid "Discards all changes in the Weblate repository each night."
-msgstr ""
+msgstr "ہر رات Weblate ریپوزیٹری وچ ساریاں تبدیلیاں کڈھ سٹو۔"
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
