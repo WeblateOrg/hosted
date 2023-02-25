@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2023-02-23 00:29+0000\n"
+"PO-Revision-Date: 2023-02-26 17:35+0000\n"
 "Last-Translator: پرویز قادر <mpqadir@gmail.com>\n"
 "Language-Team: Saraiki <https://hosted.weblate.org/projects/weblate/hosted/"
 "skr/>\n"
@@ -36,7 +36,7 @@ msgstr "ٻلنگ"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
-msgstr ""
+msgstr "آپݨاں ٻل بھرݨ دا منصوبہ چݨو جہڑا تساں اپ ڈیٹ کرݨ چاہندے ہو"
 
 #: wlhosted/integrations/forms.py:34
 msgid "Create new billing plan"
