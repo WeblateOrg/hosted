@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2023-02-25 14:36+0000\n"
+"PO-Revision-Date: 2023-03-06 15:39+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom) <https://hosted.weblate.org/projects/"
 "weblate/hosted/en_GB/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 4.16.2-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -26,13 +26,11 @@ msgstr "Generate Unknown Horizons scenario data"
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
-msgstr ""
+msgstr "Reset repository to upstream"
 
 #: wlhosted/addons.py:58
-#, fuzzy
-#| msgid "Reset all changes in the local repository"
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Reset all changes in the local repository"
+msgstr "Discards all changes in the Weblate repository each night."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
@@ -40,39 +38,39 @@ msgstr "Billing"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
-msgstr ""
+msgstr "Choose the billing plan you want to update"
 
 #: wlhosted/integrations/forms.py:34
 msgid "Create new billing plan"
-msgstr ""
+msgstr "Create new billing plan"
 
 #: wlhosted/integrations/templates/hosted/create.html:8
 msgid "Create billing plan"
-msgstr ""
+msgstr "Create billing plan"
 
 #: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
-msgstr ""
+msgstr "New billing plan"
 
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
-msgstr ""
+msgstr "Please choose a hosting plan that fits the size of your project."
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
-msgstr ""
+msgstr "Current billing status"
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
-msgstr ""
+msgstr "Too small for your project."
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small"
-msgstr ""
+msgstr "Too small"
 
 #: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
-msgstr ""
+msgstr "Selected plan"
 
 #: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
@@ -94,10 +92,8 @@ msgid "Languages limit"
 msgstr "Languages limit"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
-#, fuzzy
-#| msgid "Projects limit"
 msgid "Component limit"
-msgstr "Projects limit"
+msgstr "Component limit"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
@@ -112,7 +108,7 @@ msgstr "%(price)s EUR / month"
 #: wlhosted/integrations/templates/hosted/create.html:85
 #, python-format
 msgid "%(price)s EUR including VAT"
-msgstr ""
+msgstr "%(price)s EUR including VAT"
 
 #: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
@@ -120,34 +116,31 @@ msgid "%(price)s EUR / year"
 msgstr "%(price)s EUR / year"
 
 #: wlhosted/integrations/templates/hosted/create.html:96
-#, fuzzy
-#| msgid ""
-#| "The pricing is based on number of source strings and number of target "
-#| "languages. The source string is a text unit defined in a translation "
-#| "format, it can be word, sentence or a paragraph."
 msgid ""
 "Pricing is based on the number of source strings and target languages. The "
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
-"The pricing is based on number of source strings and number of target "
-"languages. The source string is a text unit defined in a translation format, "
-"it can be word, sentence or a paragraph."
+"Pricing is based on the number of source strings and target languages. The "
+"source string is a text unit defined in a translation format, it can be a "
+"word, sentence or paragraph."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
-msgstr ""
+msgstr "All listed prices exclude VAT."
 
 #: wlhosted/integrations/templates/hosted/create.html:100
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
+"EU end users and Czech companies will be charged with additional 21%% VAT."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
+"The reverse charge applies to invoices issued to businesses within the EU."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
@@ -155,7 +148,7 @@ msgstr ""
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "This billing plan covers following projects:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
@@ -163,37 +156,39 @@ msgstr "Check your billing status"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
-msgstr ""
+msgstr "Your billing plan was paid"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
-msgstr ""
+msgstr "No matching payment found."
 
 #: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr ""
+msgstr "Thank you for purchasing a hosting plan, it is now active."
 
 #: wlhosted/integrations/views.py:83
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
+"Thank you for purchasing a hosting plan, the payment for it is pending and "
+"will be processed in the background."
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
-msgstr ""
+msgstr "The payment was rejected: {}"
 
 #: wlhosted/integrations/views.py:96
 msgid "Unknown reason"
-msgstr ""
+msgstr "Unknown reason"
 
 #: wlhosted/integrations/views.py:112
 msgid "Payments are temporarily inactive."
-msgstr ""
+msgstr "Payments are temporarily inactive."
 
 #: wlhosted/payments/backends.py:192
 msgid "Your payment on weblate.org"
-msgstr ""
+msgstr "Your payment on weblate.org"
 
 #: wlhosted/payments/backends.py:194
 #, python-format
@@ -207,10 +202,18 @@ msgid ""
 "\n"
 "%s\n"
 msgstr ""
+"Hello,\n"
+"\n"
+"Thank you for your payment on weblate.org.\n"
+"\n"
+"You will find an invoice for this payment attached.\n"
+"Alternatively, you can download it from the website:\n"
+"\n"
+"%s\n"
 
 #: wlhosted/payments/backends.py:220
 msgid "Your payment on weblate.org failed"
-msgstr ""
+msgstr "Your payment on weblate.org failed"
 
 #: wlhosted/payments/backends.py:222
 #, python-format
@@ -228,10 +231,22 @@ msgid ""
 "If concerning a recurring payment, it is retried three times,\n"
 "and if still failing, cancelled.\n"
 msgstr ""
+"Hello,\n"
+"\n"
+"Your payment on weblate.org has failed.\n"
+"\n"
+"%s\n"
+"\n"
+"Retry issuing the payment on the website:\n"
+"\n"
+"%s\n"
+"\n"
+"If concerning a recurring payment, it is retried three times,\n"
+"and if still failing, cancelled.\n"
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
-msgstr ""
+msgstr "Your pending payment on weblate.org"
 
 #: wlhosted/payments/backends.py:257
 msgid ""
@@ -240,6 +255,10 @@ msgid ""
 "Your payment on weblate.org is pending. Please follow the provided\n"
 "instructions to complete the payment.\n"
 msgstr ""
+"Hello,\n"
+"\n"
+"Your payment on weblate.org is pending. Please follow the provided\n"
+"instructions to complete the payment.\n"
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
@@ -247,149 +266,142 @@ msgstr "Payment card"
 
 #: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
-msgstr ""
+msgstr "Payment cancelled"
 
 #: wlhosted/payments/backends.py:417
-#, fuzzy
-#| msgid "Failed to process form!"
 msgid "Payment error"
-msgstr "Failed to process form!"
+msgstr "Payment error"
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
-msgstr ""
+msgstr "Bitcoin"
 
 #: wlhosted/payments/backends.py:438
 msgid "IBAN bank transfer"
-msgstr ""
+msgstr "IBAN bank transfer"
 
 #: wlhosted/payments/backends.py:468
 msgid "Issuing bank"
-msgstr ""
+msgstr "Issuing bank"
 
 #: wlhosted/payments/backends.py:469
 msgid "Account holder"
-msgstr ""
+msgstr "Account holder"
 
 #: wlhosted/payments/backends.py:470
 msgid "Account number"
-msgstr ""
+msgstr "Account number"
 
 #: wlhosted/payments/backends.py:471
 msgid "SWIFT code"
-msgstr ""
+msgstr "SWIFT code"
 
 #: wlhosted/payments/backends.py:472
 msgid "IBAN"
-msgstr ""
+msgstr "IBAN"
 
 #: wlhosted/payments/backends.py:473
 msgid "Reference"
-msgstr ""
+msgstr "Reference"
 
 #: wlhosted/payments/models.py:77
 msgid "European VAT ID"
-msgstr ""
+msgstr "European VAT ID"
 
 #: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
-msgstr ""
+msgstr "Please fill in European Union VAT ID, leave blank if not applicable."
 
 #: wlhosted/payments/models.py:85
 msgid "Tax registration"
-msgstr ""
+msgstr "Tax registration"
 
 #: wlhosted/payments/models.py:87
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
+"Please fill in your tax registration if it should appear on the invoice."
 
 #: wlhosted/payments/models.py:94
 msgid "Company or individual name"
-msgstr ""
+msgstr "Company or individual name"
 
 #: wlhosted/payments/models.py:97
 msgid "Address"
-msgstr ""
+msgstr "Address"
 
 #: wlhosted/payments/models.py:100
 msgid "Postcode and city"
-msgstr ""
+msgstr "Postcode and city"
 
 #: wlhosted/payments/models.py:102
 msgid "Country"
-msgstr ""
+msgstr "Country"
 
 #: wlhosted/payments/models.py:134
 msgid "The country has to match your VAT code"
-msgstr ""
+msgstr "The country has to match your VAT code"
 
 #: wlhosted/payments/models.py:157
 msgid "Annual"
-msgstr ""
+msgstr "Annual"
 
 #: wlhosted/payments/models.py:158
 msgid "Biannual"
-msgstr ""
+msgstr "Biannual"
 
 #: wlhosted/payments/models.py:159
 msgid "Quarterly"
-msgstr ""
+msgstr "Quarterly"
 
 #: wlhosted/payments/models.py:160
 msgid "Monthly"
-msgstr ""
+msgstr "Monthly"
 
 #: wlhosted/payments/models.py:161
 msgid "Onetime"
-msgstr ""
+msgstr "Onetime"
 
 #: wlhosted/payments/models.py:195
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "New payment"
 
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr ""
+msgstr "Awaiting payment"
 
 #: wlhosted/payments/models.py:197
-#, fuzzy
-#| msgid "Failed to process form!"
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "Failed to process form!"
+msgstr "Payment rejected"
 
 #: wlhosted/payments/models.py:198
-#, fuzzy
-#| msgid "Failed to process form!"
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "Failed to process form!"
+msgstr "Payment accepted"
 
 #: wlhosted/payments/models.py:199
-#, fuzzy
-#| msgid "Failed to process form!"
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "Failed to process form!"
+msgstr "Payment processed"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
-msgstr ""
+msgstr "{} is not a valid country code for any European Union member."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr ""
+msgstr "{} does not match the country's VAT ID specifications."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
-msgstr ""
+msgstr "VAT ID validation service unavailable for {}, please try again later."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr ""
+msgstr "{} is not a valid VAT ID."
 
 #, fuzzy
 #~| msgid "Version control"
