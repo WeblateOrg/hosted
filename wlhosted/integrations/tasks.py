@@ -20,6 +20,7 @@
 from datetime import timedelta
 
 import requests
+from celery.schedules import crontab
 from django.conf import settings
 from django.core.signing import dumps
 from django.db import transaction
@@ -100,4 +101,6 @@ def notify_user_change(username, changes, create):
 @app.on_after_finalize.connect
 def setup_periodic_tasks(sender, **kwargs):
     sender.add_periodic_task(300, pending_payments.s(), name="pending-payments")
-    sender.add_periodic_task(86400, recurring_payments.s(), name="recurring-payments")
+    sender.add_periodic_task(
+        crontab(hour=8, minute=0), recurring_payments.s(), name="recurring-payments"
+    )
