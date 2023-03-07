@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2023-03-06 15:39+0000\n"
+"PO-Revision-Date: 2023-03-08 03:45+0000\n"
 "Last-Translator: پرویز قادر <mpqadir@gmail.com>\n"
 "Language-Team: Saraiki <https://hosted.weblate.org/projects/weblate/hosted/"
 "skr/>\n"
@@ -157,7 +157,7 @@ msgstr "کوئی ہم شکل ادائیگی کائنی لبھی۔"
 
 #: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr ""
+msgstr "ہوسٹنگ منصوبہ خریدݨ دا شکریہ، ایہ ہݨ فعال ہے۔"
 
 #: wlhosted/integrations/views.py:83
 msgid ""
@@ -278,6 +278,8 @@ msgstr "یورپی وی اے ٹی آئی ڈی"
 #: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
+"سوہݨا، یورپی یونین وی اے ٹی آئی ڈی پُر کرو، جے لاگو کائنی تھیندا تاں خالی "
+"چھوڑو۔"
 
 #: wlhosted/payments/models.py:85
 msgid "Tax registration"
@@ -351,7 +353,7 @@ msgstr "ادائیگی قبول تھی ڳئی"
 #: wlhosted/payments/models.py:199
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr ""
+msgstr "ادائیگی دی کاروائی تھی ڳئی"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
