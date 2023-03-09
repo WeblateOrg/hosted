@@ -4,13 +4,14 @@
 # Weblate <noreply@weblate.org>, 2019.
 # anonymous <noreply@weblate.org>, 2019.
 # Rhoslyn Prys <rprys@posteo.net>, 2019.
+# dreigiau <sterilgrimed23@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-03-06 21:59+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2023-03-09 22:56+0000\n"
+"Last-Translator: dreigiau <sterilgrimed23@gmail.com>\n"
 "Language-Team: Welsh <https://hosted.weblate.org/projects/weblate/hosted/cy/>"
 "\n"
 "Language: cy\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=(n==0) ? 0 : (n==1) ? 1 : (n==2) ? 2 : "
 "(n==3) ? 3 :(n==6) ? 4 : 5;\n"
-"X-Generator: Weblate 4.5.1\n"
+"X-Generator: Weblate 4.16.2-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -75,11 +76,11 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
-msgstr ""
+msgstr "Cynllun cyfredol"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Strings limit"
-msgstr ""
+msgstr "Terfyn llinynau"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
@@ -90,7 +91,7 @@ msgstr "Diderfyn"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
 msgid "Languages limit"
-msgstr ""
+msgstr "Terfyn ieithoedd"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Component limit"
@@ -98,7 +99,7 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
-msgstr ""
+msgstr "Terfyn prosiectau"
 
 #: wlhosted/integrations/templates/hosted/create.html:78
 #, python-format
