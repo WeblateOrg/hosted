@@ -22,17 +22,17 @@ from django.contrib import admin
 from wlhosted.payments.models import Customer, Payment
 
 
+@admin.register(Customer)
 class CustomerAdmin(admin.ModelAdmin):
     list_display = ("email", "name", "country", "vat", "origin")
     list_filter = ("country", "origin")
     search_fields = ("name", "email")
 
 
+@admin.register(Payment)
 class PaymentAdmin(admin.ModelAdmin):
     list_display = ("description", "amount", "customer", "state", "backend", "repeat")
     list_filter = ("state", "backend", "customer__name", "repeat")
     search_fields = ("description", "customer__name", "customer__email")
 
 
-admin.site.register(Customer, CustomerAdmin)
-admin.site.register(Payment, PaymentAdmin)
