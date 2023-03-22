@@ -33,6 +33,7 @@ setup(
     version="0.1",
     packages=["wlhosted"],
     include_package_data=True,
+    python_requires=">=3.9",
     license="GPLv3+",
     description=("Hosted Weblate Customization"),
     url="https://weblate.org/",
