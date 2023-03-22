@@ -34,5 +34,3 @@ class PaymentAdmin(admin.ModelAdmin):
     list_display = ("description", "amount", "customer", "state", "backend", "repeat")
     list_filter = ("state", "backend", "customer__name", "repeat")
     search_fields = ("description", "customer__name", "customer__email")
-
-
