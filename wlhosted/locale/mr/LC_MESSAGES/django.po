@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Weblate <noreply@weblate.org>, 2019.
 # Prachi Joshi <josprachi@yahoo.com>, 2019, 2020.
+# संकेत गराडे <garade@proton.me>, 2023.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2020-02-06 18:50+0000\n"
-"Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
+"PO-Revision-Date: 2023-04-04 09:40+0000\n"
+"Last-Translator: संकेत गराडे <garade@proton.me>\n"
 "Language-Team: Marathi <https://hosted.weblate.org/projects/weblate/hosted/"
 "mr/>\n"
 "Language: mr\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.11-dev\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -28,10 +29,8 @@ msgid "Reset repository to upstream"
 msgstr "रेपॉजिटरी अपस्ट्रीमवर रीसेट करा"
 
 #: wlhosted/addons.py:58
-#, fuzzy
-#| msgid "Reset all changes in the local repository"
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "स्थानिक भांडारातील सर्व बदल रीसेट करा"
+msgstr "दर रात्री वेबलेट भांडारातील सर्व बदल टाकून द्या."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
@@ -54,9 +53,8 @@ msgid "New billing plan"
 msgstr "नवीन बिलिंग योजना"
 
 #: wlhosted/integrations/templates/hosted/create.html:20
-#, fuzzy
 msgid "Please choose a hosting plan that fits the size of your project."
-msgstr "कृपया आपल्या प्रोजेक्टच्या आकारात फिट होस्टिंग योजना निवडा."
+msgstr "कृपया आपल्या प्रकल्पाच्या आकाराल पुरेल अशी होस्टिंग योजना निवडा."
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
@@ -110,12 +108,12 @@ msgstr "%(price)s EUR / महिना"
 #: wlhosted/integrations/templates/hosted/create.html:85
 #, python-format
 msgid "%(price)s EUR including VAT"
-msgstr ""
+msgstr "%(price)s युरो (VAT समाविष्ट)"
 
 #: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
 msgid "%(price)s EUR / year"
-msgstr ""
+msgstr "%(price)s युरो/ वर्ष"
 
 #: wlhosted/integrations/templates/hosted/create.html:96
 msgid ""
