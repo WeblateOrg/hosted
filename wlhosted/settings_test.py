@@ -19,7 +19,7 @@
 
 import os.path
 
-from weblate.settings_test import *
+from weblate.settings_test import *  # noqa: F403
 
 INSTALLED_APPS += (
     "wlhosted",

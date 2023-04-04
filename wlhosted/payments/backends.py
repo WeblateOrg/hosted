@@ -83,11 +83,11 @@ class Backend:
 
     def perform(self, request, back_url, complete_url):
         """Performs payment and optionally redirects user."""
-        raise NotImplementedError()
+        raise NotImplementedError
 
     def collect(self, request):
         """Collects payment information."""
-        raise NotImplementedError()
+        raise NotImplementedError
 
     def get_instructions(self):
         """Payment instructions for manual methods."""
@@ -96,10 +96,10 @@ class Backend:
     def initiate(self, request, back_url, complete_url):
         """Initiates payment and optionally redirects user."""
         if self.payment.state != Payment.NEW:
-            raise InvalidState()
+            raise InvalidState
 
         if self.payment.repeat and not self.recurring:
-            raise InvalidState()
+            raise InvalidState
 
         result = self.perform(request, back_url, complete_url)
 
@@ -108,12 +108,12 @@ class Backend:
         self.payment.backend = self.name
         self.payment.save()
 
-        return result  # noqa: R504
+        return result
 
     def complete(self, request):
         """Payment completion called from returned request."""
         if self.payment.state != Payment.PENDING:
-            raise InvalidState()
+            raise InvalidState
 
         status = self.collect(request)
         if status is None:
@@ -178,7 +178,7 @@ class Backend:
 
     def git_commit(self, files, invoice):
         subprocess.run(
-            ["git", "add", "--"] + files, check=True, cwd=settings.PAYMENT_FAKTURACE
+            ["git", "add", "--", *files], check=True, cwd=settings.PAYMENT_FAKTURACE
         )
         subprocess.run(
             ["git", "commit", "-m", f"Invoice {invoice.invoiceid}"],

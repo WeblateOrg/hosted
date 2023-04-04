@@ -16,9 +16,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
-"""
-Custom addons for Hosted Weblate
-"""
+"""Custom addons for Hosted Weblate."""
 
 from django.utils.translation import gettext_lazy as _
 from weblate.addons.events import EVENT_DAILY, EVENT_PRE_COMMIT
@@ -42,8 +40,8 @@ class UnknownHorizonsTemplateAddon(BaseScriptAddon):
 
     @classmethod
     def can_install(cls, component, user):
-        """Only useful for Unknown Horizons project"""
-        if not component.project.slug == "uh":
+        """Only useful for Unknown Horizons project."""
+        if component.project.slug != "uh":
             return False
         return super().can_install(component, user)
 

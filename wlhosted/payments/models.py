@@ -76,7 +76,7 @@ class Customer(models.Model):
         null=True,
         verbose_name=gettext_lazy("European VAT ID"),
         help_text=gettext_lazy(
-            "Please fill in European Union VAT ID, " "leave blank if not applicable."
+            "Please fill in European Union VAT ID, leave blank if not applicable."
         ),
     )
     tax = models.CharField(
@@ -128,11 +128,10 @@ class Customer(models.Model):
         return None
 
     def clean(self):
-        if self.vat:
-            if self.vat_country_code != self.country_code:
-                raise ValidationError(
-                    {"country": gettext_lazy("The country has to match your VAT code")}
-                )
+        if self.vat and self.vat_country_code != self.country_code:
+            raise ValidationError(
+                {"country": gettext_lazy("The country has to match your VAT code")}
+            )
 
     @property
     def is_empty(self):
