@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2023-04-04 09:40+0000\n"
+"PO-Revision-Date: 2023-04-07 02:51+0000\n"
 "Last-Translator: संकेत गराडे <garade@proton.me>\n"
 "Language-Team: Marathi <https://hosted.weblate.org/projects/weblate/hosted/"
 "mr/>\n"
@@ -138,26 +138,20 @@ msgid ""
 msgstr ""
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
-#, fuzzy
-#| msgid "Thank you for purchasing a hosting plan, it is now active."
 msgid "Thank you for the payment, your billing is now paid."
-msgstr "होस्टिंग योजना खरेदी केल्याबद्दल धन्यवाद, ती आता सक्रिय झाली आहे."
+msgstr "पैसे भरल्याबद्दल आभार, आपले देयक आता भरले गेले आहे."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "देयक योजने मध्ये खालील प्रकल्पांचा समावेश आहे:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
-#, fuzzy
-#| msgid "Current billing status"
 msgid "Check your billing status"
-msgstr "सद्य बिलिंग स्थिती"
+msgstr "देयक स्थिती तपासा"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
-#, fuzzy
-#| msgid "Create billing plan"
 msgid "Your billing plan was paid"
-msgstr "बिलिंग योजना तयार करा"
+msgstr "देयक योजना भरली गेली"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
@@ -242,6 +236,10 @@ msgid ""
 "Your payment on weblate.org is pending. Please follow the provided\n"
 "instructions to complete the payment.\n"
 msgstr ""
+"नमस्कार\n"
+"\n"
+"weblate.org वर आपले भरणा अपूर्ण आहे.\n"
+"खाली दिलेल्या सूचनेनुसार भरणा पूर्ण करा.\n"
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
@@ -293,7 +291,7 @@ msgstr "युरोपियन व्हॅट आयडी"
 
 #: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
-msgstr ""
+msgstr "युरोप यूनियन VAT ID भरा, लागू नसेल तर रिकामे सोडा."
 
 #: wlhosted/payments/models.py:85
 msgid "Tax registration"
@@ -322,7 +320,7 @@ msgstr "देश"
 
 #: wlhosted/payments/models.py:134
 msgid "The country has to match your VAT code"
-msgstr ""
+msgstr "VAT कोड देशाशी जुळला पाहिजे"
 
 #: wlhosted/payments/models.py:157
 msgid "Annual"
@@ -347,51 +345,43 @@ msgstr "एकावेळी"
 #: wlhosted/payments/models.py:195
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "नवीन भराणा"
 
 #: wlhosted/payments/models.py:196
-#, fuzzy
-#| msgid "No matching payment found."
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr "कोणतेही जुळणारे पेमेंट आढळले नाही."
+msgstr "भरण्याची वाट पाहत आहे"
 
 #: wlhosted/payments/models.py:197
-#, fuzzy
-#| msgid "Payment card"
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "देयक कार्ड"
+msgstr "भरणा नाकारले"
 
 #: wlhosted/payments/models.py:198
-#, fuzzy
-#| msgid "Payment cancelled"
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "देय रद्द"
+msgstr "भरणा स्विकारले"
 
 #: wlhosted/payments/models.py:199
-#, fuzzy
-#| msgid "Payment cancelled"
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "देय रद्द"
+msgstr "भरणा पूर्ण"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
-msgstr ""
+msgstr "{} हे युरोप यूनियन मधील देशाचे वैध कोड नाहीये."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr ""
+msgstr "{} हे देशाच्या VAT ID वैशिष्ट्यांसोबत जुळत नाही."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
-msgstr ""
+msgstr "VAT ID सत्यापन सेवा {} साठी उपलब्ध नाही, कृपया नंतर प्रयत्न करा."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr ""
+msgstr "{} एक अवैध VAT ID आहे."
 
 #~ msgid "Personal Data Controller"
 #~ msgstr "वैयक्तिक डेटा नियंत्रक"
