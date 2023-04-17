@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2023-04-17 14:29+0000\n"
-"Last-Translator: سيف الباش <syfa3528@gmail.com>\n"
+"PO-Revision-Date: 2023-04-18 06:46+0000\n"
+"Last-Translator: Meno25 <meno25mail@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/weblate/hosted/ar/"
 ">\n"
 "Language: ar\n"
@@ -29,7 +29,7 @@ msgstr ""
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
-msgstr "إنشاء بيانات سيناريو Unknown Horizons"
+msgstr "البيانات النصية القابلة للمعالجة غير متوفرة"
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
@@ -149,10 +149,8 @@ msgid ""
 msgstr "ينطبق الرسم العكسي على الفواتير الصادرة للشركات داخل الاتحاد الأوروبي."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
-#, fuzzy
-#| msgid "Thank you for purchasing a hosting plan, it is now active."
 msgid "Thank you for the payment, your billing is now paid."
-msgstr "شكرا لكم على شراء خطة الاستضافة، هي الآن نشطة."
+msgstr "شكرا لك على الدفع ، تم دفع الفواتير الخاصة بك الآن."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
@@ -163,10 +161,8 @@ msgid "Check your billing status"
 msgstr "تحقق من حالة الفاتورة"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
-#, fuzzy
-#| msgid "Create billing plan"
 msgid "Your billing plan was paid"
-msgstr "إنشاء خطة الفوترة"
+msgstr "تم دفع خطة الفوترة الخاصة بك"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
@@ -198,7 +194,7 @@ msgstr "لقد تم تعطيل الدفع مؤقتا."
 
 #: wlhosted/payments/backends.py:192
 msgid "Your payment on weblate.org"
-msgstr ""
+msgstr "دفعتك على weblate.org"
 
 #: wlhosted/payments/backends.py:194
 #, python-format
@@ -212,10 +208,18 @@ msgid ""
 "\n"
 "%s\n"
 msgstr ""
+"مرحبًا\n"
+"\n"
+"شكرا لك على دفعك على weblate.org.\n"
+"\n"
+"ستجد فاتورة لهذه الدفعة مرفقة.\n"
+"بدلا من ذلك ، يمكنك تنزيله من موقع الويب:\n"
+"\n"
+"%s\n"
 
 #: wlhosted/payments/backends.py:220
 msgid "Your payment on weblate.org failed"
-msgstr ""
+msgstr "فشلت عملية الدفع في weblate.org"
 
 #: wlhosted/payments/backends.py:222
 #, python-format
@@ -233,6 +237,18 @@ msgid ""
 "If concerning a recurring payment, it is retried three times,\n"
 "and if still failing, cancelled.\n"
 msgstr ""
+"مرحبًا\n"
+"\n"
+"فشلت عملية الدفع الخاصة بك على weblate.org.\n"
+"\n"
+"%s\n"
+"\n"
+"أعد محاولة إصدار الدفعة على الموقع:\n"
+"\n"
+"%s\n"
+"\n"
+"إذا كان الأمر يتعلق بدفعة متكررة ، تتم إعادة المحاولة ثلاث مرات ،\n"
+"وإذا كان لا يزال يفشل ، تم إلغاؤه.\n"
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
@@ -245,6 +261,10 @@ msgid ""
 "Your payment on weblate.org is pending. Please follow the provided\n"
 "instructions to complete the payment.\n"
 msgstr ""
+"مرحبًا\n"
+"\n"
+"دفعتك على weblate.org معلقة. يرجى اتباع ما تم توفيره\n"
+"تعليمات لإتمام الدفع.\n"
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
@@ -268,27 +288,27 @@ msgstr "التحويل المصرفي IBAN"
 
 #: wlhosted/payments/backends.py:468
 msgid "Issuing bank"
-msgstr ""
+msgstr "البنك المصدر"
 
 #: wlhosted/payments/backends.py:469
 msgid "Account holder"
-msgstr ""
+msgstr "صاحب الحساب"
 
 #: wlhosted/payments/backends.py:470
 msgid "Account number"
-msgstr ""
+msgstr "رقم الحساب"
 
 #: wlhosted/payments/backends.py:471
 msgid "SWIFT code"
-msgstr ""
+msgstr "رمز السويفت"
 
 #: wlhosted/payments/backends.py:472
 msgid "IBAN"
-msgstr ""
+msgstr "ايبان"
 
 #: wlhosted/payments/backends.py:473
 msgid "Reference"
-msgstr ""
+msgstr "مرجع"
 
 #: wlhosted/payments/models.py:77
 msgid "European VAT ID"
@@ -297,6 +317,8 @@ msgstr "معرف ضريبة القيمة المضافة الأوروبية"
 #: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
+"يرجى ملء معرف ضريبة القيمة المضافة في الاتحاد الأوروبي ، واتركه فارغا إذا لم "
+"يكن قابلا للتطبيق."
 
 #: wlhosted/payments/models.py:85
 msgid "Tax registration"
@@ -305,7 +327,7 @@ msgstr "التسجيل الضريبي"
 #: wlhosted/payments/models.py:87
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
-msgstr ""
+msgstr "يرجى ملء التسجيل الضريبي الخاص بك إذا كان يجب أن يظهر على الفاتورة."
 
 #: wlhosted/payments/models.py:94
 msgid "Company or individual name"
@@ -350,7 +372,7 @@ msgstr "مرة واحدة"
 #: wlhosted/payments/models.py:195
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "دفعة جديدة"
 
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
@@ -358,41 +380,37 @@ msgid "Awaiting payment"
 msgstr "في انتظار الدفع"
 
 #: wlhosted/payments/models.py:197
-#, fuzzy
-#| msgid "Payment card"
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "بطاقة الدفع"
+msgstr "تم رفض الدفع"
 
 #: wlhosted/payments/models.py:198
-#, fuzzy
-#| msgid "Payment cancelled"
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "تم إلغاء الدفع"
+msgstr "الدفع مقبول"
 
 #: wlhosted/payments/models.py:199
-#, fuzzy
-#| msgid "Payment cancelled"
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "تم إلغاء الدفع"
+msgstr "تمت معالجة الدفع"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
-msgstr ""
+msgstr "{} ليس رمز بلد صالحا لأي عضو في الاتحاد الأوروبي."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr ""
+msgstr "{} لا يتطابق مع مواصفات معرف ضريبة القيمة المضافة للبلد."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
+"خدمة التحقق من صحة معرف ضريبة القيمة المضافة غير متوفرة ل {}، يرجى إعادة "
+"المحاولة لاحقا."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr ""
+msgstr "{} ليس معرف ضريبة قيمة مضافة صالحا."
 
 #~ msgid "Personal Data Controller"
 #~ msgstr "التحكم في البيانات الشخصية"
