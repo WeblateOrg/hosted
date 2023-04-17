@@ -8,13 +8,14 @@
 # tamer dab <dabsantamer@yahoo.com>, 2020.
 # Anonymous <noreply@weblate.org>, 2020.
 # hommod hassan albarqi <hommod@gmail.com>, 2021.
+# Meno25 <meno25mail@gmail.com>, 2023.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-01-10 14:52+0000\n"
-"Last-Translator: hommod hassan albarqi <hommod@gmail.com>\n"
+"PO-Revision-Date: 2023-04-17 14:29+0000\n"
+"Last-Translator: Meno25 <meno25mail@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/weblate/hosted/ar/"
 ">\n"
 "Language: ar\n"
@@ -23,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.4.1-dev\n"
+"X-Generator: Weblate 4.17\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -31,13 +32,11 @@ msgstr ""
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
-msgstr ""
+msgstr "إعادة تعيين المستودع إلى المنبع"
 
 #: wlhosted/addons.py:58
-#, fuzzy
-#| msgid "Reset all changes in the local repository"
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "إعادة تعيين كل التغييرات في المستودع المحلي"
+msgstr "يتجاهل جميع التغييرات في مستودع Weblate كل ليلة."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
@@ -236,7 +235,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
-msgstr ""
+msgstr "دفعتك المعلقة على weblate.org"
 
 #: wlhosted/payments/backends.py:257
 msgid ""
@@ -353,11 +352,9 @@ msgid "New payment"
 msgstr ""
 
 #: wlhosted/payments/models.py:196
-#, fuzzy
-#| msgid "No matching payment found."
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr "لم أجد دفعا مطابقا."
+msgstr "في انتظار الدفع"
 
 #: wlhosted/payments/models.py:197
 #, fuzzy
