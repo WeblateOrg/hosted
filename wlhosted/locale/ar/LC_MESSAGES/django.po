@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2023-04-18 06:46+0000\n"
+"PO-Revision-Date: 2023-04-18 12:30+0000\n"
 "Last-Translator: Meno25 <meno25mail@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/weblate/hosted/ar/"
 ">\n"
@@ -29,7 +29,7 @@ msgstr ""
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
-msgstr "البيانات النصية القابلة للمعالجة غير متوفرة"
+msgstr "إنشاء بيانات سيناريو Unknown Horizons"
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
