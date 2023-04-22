@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2023-04-14 16:37+0000\n"
+"PO-Revision-Date: 2023-04-23 17:48+0000\n"
 "Last-Translator: dreigiau <sterilgrimed23@gmail.com>\n"
 "Language-Team: Welsh <https://hosted.weblate.org/projects/weblate/hosted/cy/>"
 "\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=(n==0) ? 0 : (n==1) ? 1 : (n==2) ? 2 : "
 "(n==3) ? 3 :(n==6) ? 4 : 5;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -80,7 +80,7 @@ msgstr "Cynllun cyfredol"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Strings limit"
-msgstr "Terfyn llinynau"
+msgstr "Terfyn y testunau"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
@@ -233,15 +233,15 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
-msgstr ""
+msgstr "Cerdyn talu"
 
 #: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
-msgstr ""
+msgstr "Taliad wedi'i ganslo"
 
 #: wlhosted/payments/backends.py:417
 msgid "Payment error"
-msgstr ""
+msgstr "Gwall wrth dalu"
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
@@ -249,19 +249,20 @@ msgstr "Bitcoin"
 
 #: wlhosted/payments/backends.py:438
 msgid "IBAN bank transfer"
-msgstr ""
+msgstr "Trosglwyddiad banc IBAN"
 
 #: wlhosted/payments/backends.py:468
+#, fuzzy
 msgid "Issuing bank"
-msgstr ""
+msgstr "Banc cyhoeddi"
 
 #: wlhosted/payments/backends.py:469
 msgid "Account holder"
-msgstr ""
+msgstr "Deiliad y cyfrif"
 
 #: wlhosted/payments/backends.py:470
 msgid "Account number"
-msgstr ""
+msgstr "Rhif cyfrif"
 
 #: wlhosted/payments/backends.py:471
 msgid "SWIFT code"
@@ -277,85 +278,86 @@ msgstr "Cyfeiriadau"
 
 #: wlhosted/payments/models.py:77
 msgid "European VAT ID"
-msgstr ""
+msgstr "ID TAW Ewropeaidd"
 
 #: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
+"Llenwch ID TAW yr Undeb Ewropeaidd, gadewch yn wag os nad yw'n berthnasol."
 
 #: wlhosted/payments/models.py:85
 msgid "Tax registration"
-msgstr ""
+msgstr "Cofrestriad treth"
 
 #: wlhosted/payments/models.py:87
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
-msgstr ""
+msgstr "Llenwch eich cofrestriad treth os y ddylai ymddangos ar yr anfoneb."
 
 #: wlhosted/payments/models.py:94
 msgid "Company or individual name"
-msgstr ""
+msgstr "Enw cwmni neu unigolyn"
 
 #: wlhosted/payments/models.py:97
 msgid "Address"
-msgstr ""
+msgstr "Cyfeiriad"
 
 #: wlhosted/payments/models.py:100
 msgid "Postcode and city"
-msgstr ""
+msgstr "Cod post a dinas"
 
 #: wlhosted/payments/models.py:102
 msgid "Country"
-msgstr ""
+msgstr "Gwlad"
 
 #: wlhosted/payments/models.py:134
 msgid "The country has to match your VAT code"
-msgstr ""
+msgstr "Rhaid i'r wlad gyd-fynd â'ch cod TAW"
 
 #: wlhosted/payments/models.py:157
 msgid "Annual"
-msgstr ""
+msgstr "Blynyddol"
 
 #: wlhosted/payments/models.py:158
 msgid "Biannual"
-msgstr ""
+msgstr "Dwywaith y flwyddyn"
 
 #: wlhosted/payments/models.py:159
 msgid "Quarterly"
-msgstr ""
+msgstr "Chwarterol"
 
 #: wlhosted/payments/models.py:160
 msgid "Monthly"
-msgstr ""
+msgstr "Misol"
 
 #: wlhosted/payments/models.py:161
 msgid "Onetime"
-msgstr ""
+msgstr "Un tro"
 
 #: wlhosted/payments/models.py:195
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "Taliad newydd"
 
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr ""
+msgstr "Yn aros am daliad"
 
 #: wlhosted/payments/models.py:197
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr ""
+msgstr "Taliad wedi'i wrthod"
 
 #: wlhosted/payments/models.py:198
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr ""
+msgstr "Taliad wedi'i dderbyn"
 
 #: wlhosted/payments/models.py:199
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr ""
+msgstr "Taliad wedi'i brosesu"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
