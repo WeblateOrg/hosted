@@ -71,9 +71,9 @@ class Command(BaseCommand):
                 contact = storage.read_contact(CUSTOMERS[invoice.billing.pk])
             else:
                 contact = storage.read_contact(f"pp-{invoice.billing.pk}")
-        else:
-            data = storage.get(invoice.ref)
-            contact = data.contact
+            return False
+        data = storage.get(invoice.ref)
+        contact = data.contact
         if not isinstance(invoice.payment, dict):
             amount = invoice.payment
         else:
@@ -117,6 +117,7 @@ class Command(BaseCommand):
             )
         invoice.payment = {"pk": payment.pk}
         invoice.save(update_fields=["payment"])
+        return True
 
     def include_billing_id(self, invoice):
         payment = Payment.objects.get(pk=invoice.payment["pk"])
@@ -131,5 +132,7 @@ class Command(BaseCommand):
             if isinstance(invoice.payment, dict) and "pk" in invoice.payment:
                 self.update_payment(invoice)
             else:
-                self.handle_missing_payment(invoice, storage)
+                fixed = self.handle_missing_payment(invoice, storage)
+                if not fixed:
+                    continue
             self.include_billing_id(invoice)
