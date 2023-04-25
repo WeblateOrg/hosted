@@ -71,6 +71,7 @@ class Command(BaseCommand):
                 contact = storage.read_contact(CUSTOMERS[invoice.billing.pk])
             else:
                 contact = storage.read_contact(f"pp-{invoice.billing.pk}")
+            # TODO: Create new payment here?
             return False
         data = storage.get(invoice.ref)
         contact = data.contact
