@@ -1,20 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Sena <jn-sena@proton.me>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-04-27 16:49+0000\n"
+"Last-Translator: Sena <jn-sena@proton.me>\n"
+"Language-Team: Toki Pona <https://hosted.weblate.org/projects/weblate/hosted/"
+"tok/>\n"
 "Language: tok\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -227,19 +229,19 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
-msgstr ""
+msgstr "lipu mani"
 
 #: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
-msgstr ""
+msgstr "esun li kama ala"
 
 #: wlhosted/payments/backends.py:417
 msgid "Payment error"
-msgstr ""
+msgstr "pakala esun"
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
-msgstr ""
+msgstr "mani Bitcoin"
 
 #: wlhosted/payments/backends.py:438
 msgid "IBAN bank transfer"
