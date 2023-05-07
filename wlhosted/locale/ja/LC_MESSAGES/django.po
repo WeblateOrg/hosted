@@ -11,13 +11,13 @@
 # Masahiro Fujimoto <mfujimot@gmail.com>, 2021.
 # 日陰のコスモス <baffclan@yahoo.co.jp>, 2021.
 # ht1722 <taichi_19990611@yahoo.co.jp>, 2022.
-# amano <amano@users.noreply.hosted.weblate.org>, 2022.
+# amano <amano@users.noreply.hosted.weblate.org>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2022-12-18 14:47+0000\n"
+"PO-Revision-Date: 2023-05-08 07:49+0000\n"
 "Last-Translator: amano <amano@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/weblate/hosted/"
 "ja/>\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -42,7 +42,7 @@ msgstr "毎晩、Weblate リポジトリ内のすべての変更を破棄しま�
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
-msgstr "請求"
+msgstr "課金"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
@@ -160,7 +160,7 @@ msgstr "この料金プランの対象プロジェクト:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
-msgstr "請求状況の確認"
+msgstr "課金状態の確認"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
