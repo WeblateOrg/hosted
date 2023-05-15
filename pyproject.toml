@@ -1,3 +1,53 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools>=61.2"]
+
+[project]
+classifiers = [
+  "Environment :: Web Environment",
+  "Framework :: Django",
+  "Intended Audience :: Developers",
+  "Intended Audience :: System Administrators",
+  "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+  "Operating System :: OS Independent",
+  "Development Status :: 5 - Production/Stable",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development :: Internationalization",
+  "Topic :: Software Development :: Localization",
+  "Topic :: Internet :: WWW/HTTP",
+  "Topic :: Internet :: WWW/HTTP :: Dynamic Content"
+]
+dependencies = [
+  "Django>=4.2,<4.3",
+  "django-appconf>=1.0",
+  "django-countries==7.5.1",
+  "django-vies==6.0.2",
+  "fakturace==0.6.1",
+  "fiobank==3.0.0",
+  "nijel-thepay==0.5",
+  "psycopg2-binary",
+  "python-dateutil",
+  "requests",
+  "Weblate"
+]
+description = "Hosted Weblate Customization"
+name = "wlhosted"
+readme = "README.rst"
+requires-python = ">=3.9"
+version = "2023.5"
+
+[[project.authors]]
+email = "michal@cihar.com"
+name = "Michal Čihař"
+
+[project.license]
+text = "GPLv3+"
+
+[project.urls]
+Download = "https://weblate.org/download/"
+Homepage = "https://weblate.org/"
+
 [tool.black]
 target-version = ['py39']
 
@@ -62,3 +112,8 @@ max-complexity = 16
 
 [tool.ruff.per-file-ignores]
 "wlhosted/settings_*.py" = ["F405"]
+
+[tool.setuptools]
+include-package-data = true
+packages = ["wlhosted"]
+zip-safe = true
