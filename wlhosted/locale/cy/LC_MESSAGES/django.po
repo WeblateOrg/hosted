@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2023-05-15 12:50+0000\n"
+"PO-Revision-Date: 2023-05-17 14:51+0000\n"
 "Last-Translator: dreigiau <sterilgrimed23@gmail.com>\n"
 "Language-Team: Welsh <https://hosted.weblate.org/projects/weblate/hosted/cy/>"
 "\n"
@@ -175,7 +175,7 @@ msgstr ""
 
 #: wlhosted/integrations/views.py:96
 msgid "Unknown reason"
-msgstr ""
+msgstr "Rheswm anhysbys"
 
 #: wlhosted/integrations/views.py:112
 msgid "Payments are temporarily inactive."
