@@ -6,13 +6,14 @@
 # Martin Srebotnjak <miles@filmsi.net>, 2020, 2021, 2022, 2023.
 # Klemen Skerbiš <klemen.skerbis1@gmail.com>, 2021.
 # Matej U <mateju@src.gnome.org>, 2022.
+# Jadran Rudec <jrudec@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2023-05-02 21:49+0000\n"
-"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
+"PO-Revision-Date: 2023-05-30 07:49+0000\n"
+"Last-Translator: Jadran Rudec <jrudec@gmail.com>\n"
 "Language-Team: Slovenian <https://hosted.weblate.org/projects/weblate/hosted/"
 "sl/>\n"
 "Language: sl\n"
@@ -290,12 +291,12 @@ msgstr "Vnesite ID številko (EU) za DDV, pustite prazno, če ni potrebna."
 
 #: wlhosted/payments/models.py:85
 msgid "Tax registration"
-msgstr ""
+msgstr "Davčna prijava"
 
 #: wlhosted/payments/models.py:87
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
-msgstr ""
+msgstr "Prosimo, izpolnite svojo davčno prijavo, če je navedena na računu."
 
 #: wlhosted/payments/models.py:94
 msgid "Company or individual name"
