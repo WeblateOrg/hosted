@@ -8,13 +8,14 @@
 # Henrik Dankvardt <dankvardt@gmail.com>, 2019.
 # Jeppe Skindstad Frederiksen <jeppeskindstadfrederiksen@live.dk>, 2020.
 # Aputsiak Niels Janussen <aputtu@gmail.com>, 2021.
+# Michael Millet <mikevlet@protonmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-02-05 15:11+0000\n"
-"Last-Translator: Aputsiak Niels Janussen <aputtu@gmail.com>\n"
+"PO-Revision-Date: 2023-05-31 21:49+0000\n"
+"Last-Translator: Michael Millet <mikevlet@protonmail.com>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/weblate/hosted/da/"
 ">\n"
 "Language: da\n"
@@ -22,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -132,15 +133,15 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
-msgstr "Alle viste priser er uden moms."
+msgstr "Alle viste priser er ekskl. moms."
 
 #: wlhosted/integrations/templates/hosted/create.html:100
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
-"Slutbrugere i EU og tjekkiske virksomheder vil blive faktureret med "
-"yderligere 21%% i moms."
+"Slutbrugere i EU og tjekkiske virksomheder vil blive opkrævet med yderligere "
+"21%% moms."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
@@ -220,7 +221,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:220
 msgid "Your payment on weblate.org failed"
-msgstr "Din betaling på weblate.org mislykkedes"
+msgstr "Din betaling på weblate.org slog fejl"
 
 #: wlhosted/payments/backends.py:222
 #, python-format
@@ -273,11 +274,11 @@ msgstr "Betalingskort"
 
 #: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
-msgstr "Betaling annulleret"
+msgstr "Betaling afbrudt"
 
 #: wlhosted/payments/backends.py:417
 msgid "Payment error"
-msgstr "Fejl ved betaling"
+msgstr "Betalingsfejl"
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
@@ -285,7 +286,7 @@ msgstr "Bitcoin"
 
 #: wlhosted/payments/backends.py:438
 msgid "IBAN bank transfer"
-msgstr "IBAN bankoverførsel"
+msgstr "IBAN-bankoverførsel"
 
 #: wlhosted/payments/backends.py:468
 msgid "Issuing bank"
@@ -313,13 +314,13 @@ msgstr "Reference"
 
 #: wlhosted/payments/models.py:77
 msgid "European VAT ID"
-msgstr "Europæisk momsnummer"
+msgstr "Europæisk moms-ID"
 
 #: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
-"Udfyld venligst dit momsnummer for Den Europæiske Union, lad stå tom hvis "
-"irrelevant."
+"Udfyld venligst den Europæiske Unions moms-ID, efterlad tomt, hvis ikke "
+"gældende."
 
 #: wlhosted/payments/models.py:85
 msgid "Tax registration"
@@ -333,7 +334,7 @@ msgstr ""
 
 #: wlhosted/payments/models.py:94
 msgid "Company or individual name"
-msgstr "Virksomhed eller personnavn"
+msgstr "Selskabs- eller personnavn"
 
 #: wlhosted/payments/models.py:97
 msgid "Address"
@@ -349,15 +350,15 @@ msgstr "Land"
 
 #: wlhosted/payments/models.py:134
 msgid "The country has to match your VAT code"
-msgstr "Landet skal matche med din momskode"
+msgstr "Land skal stemme overens med dit momsnummer"
 
 #: wlhosted/payments/models.py:157
 msgid "Annual"
-msgstr "Årligt"
+msgstr "Årlig"
 
 #: wlhosted/payments/models.py:158
 msgid "Biannual"
-msgstr "Halvårligt"
+msgstr "Halvårlig"
 
 #: wlhosted/payments/models.py:159
 msgid "Quarterly"
@@ -369,7 +370,7 @@ msgstr "Månedlig"
 
 #: wlhosted/payments/models.py:161
 msgid "Onetime"
-msgstr "Èn gang"
+msgstr "Engangsbetaling"
 
 #: wlhosted/payments/models.py:195
 msgctxt "Payment state"
@@ -398,21 +399,21 @@ msgstr "Betaling behandlet"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
-msgstr "{} er ikke en gyldig landekode for et medlem af Den Europæiske Union."
+msgstr "{} er ikke en gyldig landekode, for noget EU-medlemsland."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr "{} matcher ikke landet specifikationer for momsnumre."
+msgstr "{} stemmer ikke overens med landets specifikationer for moms-ID."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
-"Godkendelsestjenesten for momsnumre er ikke tilgængelig for {}, forsøg "
-"venligst igen senere."
+"Godkendelsestjeneste for moms-ID utilgængelig for {}, prøv venligst igen "
+"senere."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr "{} er ikke et gyldigt momsnummer."
+msgstr "{} er ikke et gyldigt moms-ID."
 
 #~ msgid "Personal Data Controller"
 #~ msgstr "Personlig datastyring"
