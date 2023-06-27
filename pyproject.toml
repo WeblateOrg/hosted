@@ -69,6 +69,7 @@ ignore = [
   "PLR2004",  # TODO: Magic value used in comparison, consider replacing 201 with a constant variable
   "PLW2901",  # TODO: overwriting variables inside loop
   "N818",  # TODO: exception naming
+  "RUF012",  # TODO: Mutable class attributes should be annotated with `typing.ClassVar`
   "SLF001"  # TODO: Private member accessed (might need noqa tags)
 ]
 select = [
