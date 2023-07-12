@@ -63,9 +63,7 @@ class Command(BaseCommand):
     def handle_missing_payment(self, invoice, storage):
         if not invoice.ref:
             self.stderr.write(
-                "Missing reference in {} [{}]: {}".format(
-                    invoice.pk, invoice.billing.pk, invoice
-                )
+                f"Missing reference in {invoice.pk} [{invoice.billing.pk}]: {invoice}"
             )
             if invoice.billing.pk in CUSTOMERS:
                 contact = storage.read_contact(CUSTOMERS[invoice.billing.pk])
@@ -82,9 +80,7 @@ class Command(BaseCommand):
         if invoice.currency == Invoice.CURRENCY_BTC:
             amount *= 100000
         self.stdout.write(
-            "Missing payment for {}, {} {}".format(
-                invoice, amount, invoice.get_currency_display()
-            )
+            f"Missing payment for {invoice}, {amount} {invoice.get_currency_display()}"
         )
         try:
             payment = Payment.objects.get(invoice=invoice.ref)
