@@ -2,18 +2,22 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Weblate <noreply@weblate.org>, 2019.
+# Subham Jena <subhamjena8465@gmail.com>, 2023.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-07-26 09:04+0000\n"
+"Last-Translator: Subham Jena <subhamjena8465@gmail.com>\n"
+"Language-Team: Odia <https://hosted.weblate.org/projects/weblate/hosted/or/>"
+"\n"
 "Language: or\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -291,7 +295,7 @@ msgstr ""
 
 #: wlhosted/payments/models.py:97
 msgid "Address"
-msgstr ""
+msgstr "ଠିକଣା"
 
 #: wlhosted/payments/models.py:100
 msgid "Postcode and city"
