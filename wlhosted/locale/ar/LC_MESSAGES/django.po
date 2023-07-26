@@ -10,13 +10,14 @@
 # hommod hassan albarqi <hommod@gmail.com>, 2021.
 # Meno25 <meno25mail@gmail.com>, 2023.
 # سيف الباش <syfa3528@gmail.com>, 2023.
+# "Mr.k" <mineshtine28546271@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2023-04-18 12:30+0000\n"
-"Last-Translator: Meno25 <meno25mail@gmail.com>\n"
+"PO-Revision-Date: 2023-07-27 19:05+0000\n"
+"Last-Translator: \"Mr.k\" <mineshtine28546271@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/weblate/hosted/ar/"
 ">\n"
 "Language: ar\n"
@@ -25,7 +26,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -304,7 +305,7 @@ msgstr "رمز السويفت"
 
 #: wlhosted/payments/backends.py:472
 msgid "IBAN"
-msgstr "ايبان"
+msgstr "رقم الحساب المصرفي الدولي (IBAN)"
 
 #: wlhosted/payments/backends.py:473
 msgid "Reference"
