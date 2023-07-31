@@ -7,13 +7,14 @@
 # Klemen Skerbiš <klemen.skerbis1@gmail.com>, 2021.
 # Matej U <mateju@src.gnome.org>, 2022.
 # Jadran Rudec <jrudec@gmail.com>, 2023.
+# Damjan Gerl <damjan@damjan.net>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2023-05-30 07:49+0000\n"
-"Last-Translator: Jadran Rudec <jrudec@gmail.com>\n"
+"PO-Revision-Date: 2023-08-01 20:07+0000\n"
+"Last-Translator: Damjan Gerl <damjan@damjan.net>\n"
 "Language-Team: Slovenian <https://hosted.weblate.org/projects/weblate/hosted/"
 "sl/>\n"
 "Language: sl\n"
@@ -22,7 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -42,19 +43,19 @@ msgstr "Obračunavanje"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
-msgstr ""
+msgstr "Izberi obračunski načrt, ki ga želiš posodobiti"
 
 #: wlhosted/integrations/forms.py:34
 msgid "Create new billing plan"
-msgstr ""
+msgstr "Ustvari nov obračunski načrt"
 
 #: wlhosted/integrations/templates/hosted/create.html:8
 msgid "Create billing plan"
-msgstr ""
+msgstr "Ustvari obračunski načrt"
 
 #: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
-msgstr ""
+msgstr "Nov obračunski načrt"
 
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
@@ -62,7 +63,7 @@ msgstr "Izberite načrt gostovanja, ki ustreza velikosti vašega projekta."
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
-msgstr ""
+msgstr "Trenutno stanje obračunavanja"
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
@@ -151,15 +152,15 @@ msgstr "Hvala za plačilo, vaš račun je zdaj poravnan."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "Ta obračunski načrt zajema naslednje projekte:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
-msgstr ""
+msgstr "Preverjanje stanja obračunavanja"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
-msgstr ""
+msgstr "Tvoj obračunski načrt je bil plačan"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
@@ -174,6 +175,8 @@ msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
+"Hvala za nakup načrta gostovanja, plačilo za to je v teku in bo obdelano v "
+"ozadju."
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
@@ -203,6 +206,14 @@ msgid ""
 "\n"
 "%s\n"
 msgstr ""
+"Zdravo,\n"
+"\n"
+"Hvala za tvoje plačilo na weblate.org.\n"
+"\n"
+"Priložen je račun za to plačilo.\n"
+"Lahko pa ga preneseš s spletnega mesta:\n"
+"\n"
+"%s\n"
 
 #: wlhosted/payments/backends.py:220
 msgid "Your payment on weblate.org failed"
@@ -224,6 +235,18 @@ msgid ""
 "If concerning a recurring payment, it is retried three times,\n"
 "and if still failing, cancelled.\n"
 msgstr ""
+"Zdravo,\n"
+"\n"
+"Tvoje plačilo na weblate.org ni uspelo.\n"
+"\n"
+"%s\n"
+"\n"
+"Poskusi znova izdati plačilo na spletni strani:\n"
+"\n"
+"%s\n"
+"\n"
+"Če gre za ponavljajoče se plačilo, se to ponovi trikrat,\n"
+"in če še vedno ne uspe, se prekliče.\n"
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
@@ -236,6 +259,10 @@ msgid ""
 "Your payment on weblate.org is pending. Please follow the provided\n"
 "instructions to complete the payment.\n"
 msgstr ""
+"Zdravo,\n"
+"\n"
+"Tvoje plačilo na weblate.org je na čakanju. Prosimo, upoštevaj priložena\n"
+"navodila za dokončanje plačila.\n"
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
