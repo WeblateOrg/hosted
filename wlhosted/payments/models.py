@@ -30,7 +30,6 @@ from django.utils.functional import cached_property
 from django.utils.translation import get_language, gettext_lazy, pgettext_lazy
 from django_countries.fields import CountryField
 from vies.models import VATINField
-from weblate.utils.fields import JSONField
 from weblate.utils.validators import validate_email
 
 from wlhosted.data import SUPPORTED_LANGUAGES
@@ -202,9 +201,9 @@ class Payment(models.Model):
     )
     backend = models.CharField(max_length=100, default="", blank=True)
     # Payment details from the gateway
-    details = JSONField(default=dict, blank=True)
+    details = models.JSONField(default=dict, blank=True)
     # Payment extra information from the origin
-    extra = JSONField(default=dict, blank=True)
+    extra = models.JSONField(default=dict, blank=True)
     customer = models.ForeignKey(Customer, on_delete=models.deletion.CASCADE)
     repeat = models.ForeignKey(
         "Payment", on_delete=models.deletion.CASCADE, null=True, blank=True
