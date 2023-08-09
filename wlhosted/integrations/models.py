@@ -19,6 +19,7 @@
 
 from appconf import AppConf
 from dateutil.relativedelta import relativedelta
+from django.db import transaction
 from django.db.models.aggregates import Max
 from django.db.models.signals import pre_save
 from django.dispatch.dispatcher import receiver
@@ -34,6 +35,7 @@ def end_interval(payment, start):
     return start + get_period_delta(payment.extra["period"])
 
 
+@transaction.atomic(using="payments_db")
 def handle_received_payment(payment):
     params = {
         "plan": Plan.objects.get(pk=payment.extra["plan"]),
