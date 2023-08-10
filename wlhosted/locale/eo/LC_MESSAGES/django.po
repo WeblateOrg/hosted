@@ -8,13 +8,14 @@
 # tuxayo/Victor Grousset <victor@tuxayo.net>, 2019.
 # Jakub Fabijan <animatorzPolski@gmail.com>, 2021.
 # Tanja Orme <irizanjo@gmail.com>, 2022.
+# rŋ̄ȷ̄lī ṗŋ̄ȷ̄īn̄ṡ-ṗrs̄iun̄ȷ̄ <7martelkapo7@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2022-05-24 15:14+0000\n"
-"Last-Translator: Tanja Orme <irizanjo@gmail.com>\n"
+"PO-Revision-Date: 2023-08-10 17:08+0000\n"
+"Last-Translator: rŋ̄ȷ̄lī ṗŋ̄ȷ̄īn̄ṡ-ṗrs̄iun̄ȷ̄ <7martelkapo7@gmail.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/weblate/hosted/"
 "eo/>\n"
 "Language: eo\n"
@@ -22,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -250,7 +251,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
-msgstr ""
+msgstr "Pagilo"
 
 #: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
