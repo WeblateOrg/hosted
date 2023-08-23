@@ -7,13 +7,14 @@
 # anonymous <noreply@weblate.org>, 2019.
 # Ivan Pleva <ivan.pleva@tutanota.com>, 2019, 2020.
 # Milan <mobrcian@hotmail.com>, 2021.
+# Peter Vančo <petervanco347@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-09-25 20:38+0000\n"
-"Last-Translator: Milan <mobrcian@hotmail.com>\n"
+"PO-Revision-Date: 2023-08-23 15:18+0000\n"
+"Last-Translator: Peter Vančo <petervanco347@gmail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/weblate/hosted/sk/"
 ">\n"
 "Language: sk\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -37,7 +38,7 @@ msgstr "Každú noc odstráni všetky zmeny v úložisku Weblate."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
-msgstr "Účtovanie"
+msgstr "Predplatné"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
