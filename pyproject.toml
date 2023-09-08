@@ -23,7 +23,7 @@ dependencies = [
   "django-appconf>=1.0",
   "django-countries==7.5.1",
   "django-vies==6.0.3",
-  "fakturace==0.6.1",
+  "fakturace==0.7.0",
   "fiobank==3.0.0",
   "nijel-thepay==0.5",
   "psycopg2-binary",
