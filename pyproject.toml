@@ -62,6 +62,7 @@ ignore = [
   "D212",  # CONFIG: incompatible with D213
   "D401",  # TODO: many strings need rephrasing
   "DJ001",  # TODO: Avoid using `null=True` on string-based fields such as CharField (maybe add noqa)
+  "E501",  # WONTFIX: we accept long strings (rest is formatted by black)
   "T201",  # WONTFIX: using print() (maybe add noqa)
   "TRY003",  # WONTFIX: Avoid specifying long messages outside the exception class
   "TRY200",  # TODO: Use `raise from` to specify exception cause
