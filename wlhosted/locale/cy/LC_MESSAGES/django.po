@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Weblate <noreply@weblate.org>, 2019.
 # anonymous <noreply@weblate.org>, 2019.
-# Rhoslyn Prys <rprys@posteo.net>, 2019.
+# Rhoslyn Prys <rprys@posteo.net>, 2019, 2023.
 # dreigiau <sterilgrimed23@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2023-05-17 14:51+0000\n"
-"Last-Translator: dreigiau <sterilgrimed23@gmail.com>\n"
+"PO-Revision-Date: 2023-09-29 12:00+0000\n"
+"Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: Welsh <https://hosted.weblate.org/projects/weblate/hosted/cy/>"
 "\n"
 "Language: cy\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=(n==0) ? 0 : (n==1) ? 1 : (n==2) ? 2 : "
 "(n==3) ? 3 :(n==6) ? 4 : 5;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.1-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -80,7 +80,7 @@ msgstr "Cynllun cyfredol"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Strings limit"
-msgstr "Terfyn y testunau"
+msgstr "Terfyn llinynnau"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
@@ -99,7 +99,7 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
-msgstr "Terfyn prosiectau"
+msgstr "Terfyn projectau"
 
 #: wlhosted/integrations/templates/hosted/create.html:78
 #, python-format
