@@ -7,22 +7,23 @@
 # anonymous <noreply@weblate.org>, 2019.
 # Слободан Симић(Slobodan Simić) <slsimic@gmail.com>, 2020, 2021.
 # Мирослав Николић <miroslavnikolic@rocketmail.com>, 2021.
+# NEXI <nexiphotographer@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-05-22 11:33+0000\n"
-"Last-Translator: Слободан Симић(Slobodan Simić) <slsimic@gmail.com>\n"
+"PO-Revision-Date: 2023-10-13 04:13+0000\n"
+"Last-Translator: NEXI <nexiphotographer@gmail.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/weblate/hosted/"
 "sr/>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.1-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -275,15 +276,15 @@ msgstr "Грешка при плаћању"
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
-msgstr "Биткоин"
+msgstr "Bitcoin"
 
 #: wlhosted/payments/backends.py:438
 msgid "IBAN bank transfer"
-msgstr "ИБАН банковни пренос"
+msgstr "IBAN банковни трансфер"
 
 #: wlhosted/payments/backends.py:468
 msgid "Issuing bank"
-msgstr "Банка издавалац"
+msgstr "Банка издавач"
 
 #: wlhosted/payments/backends.py:469
 msgid "Account holder"
@@ -295,7 +296,7 @@ msgstr "Број рачуна"
 
 #: wlhosted/payments/backends.py:471
 msgid "SWIFT code"
-msgstr "SWIFT код"
+msgstr "SWIFT кôд"
 
 #: wlhosted/payments/backends.py:472
 msgid "IBAN"
@@ -303,15 +304,15 @@ msgstr "IBAN"
 
 #: wlhosted/payments/backends.py:473
 msgid "Reference"
-msgstr "Упута"
+msgstr "Референца"
 
 #: wlhosted/payments/models.py:77
 msgid "European VAT ID"
-msgstr "Европски ПДВ ИД"
+msgstr "Европски ПДВ ID"
 
 #: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
-msgstr "Попуните европски ПДВ ИД. Оставите празно ако се не примењује."
+msgstr "Попуните европски ПДВ ID. Оставите празно ако се не примењује."
 
 #: wlhosted/payments/models.py:85
 msgid "Tax registration"
@@ -393,15 +394,15 @@ msgstr "{} није исправан код државе чланице Евро
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr "{} се не поклапа са спецификацијом ПДВ ИД државе."
+msgstr "{} се не подудара са спецификацијом ПДВ ID-а државе."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
-msgstr "Услуга за проверу ПДВ ИД државе {} није доступна. Покушајте касније."
+msgstr "Услуга за проверу ПДВ ID-а није доступна за {}. Покушајте касније."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr "{} није исправан ПДВ ИД."
+msgstr "{} није исправан ПДВ ID."
 
 #, fuzzy
 #~| msgid "Version control"
