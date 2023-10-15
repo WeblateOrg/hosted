@@ -10,7 +10,7 @@
 # Valentina Grassi <vale.grassi11@gmail.com>, 2020.
 # Michal Čihař <michal@cihar.com>, 2020.
 # Lele Gaifax <lele@metapensiero.it>, 2020.
-# coronabond <coronabond@airmail.cc>, 2020, 2021.
+# coronabond <coronabond@airmail.cc>, 2020, 2021, 2023.
 # Jeannette L <j.lavoie@net-c.ca>, 2020.
 # Antenore Gatta <antenore@simbiosi.org>, 2020.
 msgid ""
@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-11-20 21:49+0000\n"
+"PO-Revision-Date: 2023-10-16 11:03+0000\n"
 "Last-Translator: coronabond <coronabond@airmail.cc>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/weblate/hosted/"
 "it/>\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 5.1-dev\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
@@ -290,7 +290,7 @@ msgstr "Bitcoin"
 
 #: wlhosted/payments/backends.py:438
 msgid "IBAN bank transfer"
-msgstr "Trasferimento bancario con IBAN"
+msgstr "Bonifico bancario con IBAN"
 
 #: wlhosted/payments/backends.py:468
 msgid "Issuing bank"
