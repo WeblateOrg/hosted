@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
 "PO-Revision-Date: 2023-10-22 18:01+0000\n"
-"Last-Translator: Jordan <jordandunican@gmail.com>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Irish <https://hosted.weblate.org/projects/weblate/hosted/ga/>"
 "\n"
 "Language: ga\n"
@@ -246,27 +246,27 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
-msgstr ""
+msgstr "Cárta íocaíochta"
 
 #: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
-msgstr ""
+msgstr "Cuireadh an íocaíocht ar ceal"
 
 #: wlhosted/payments/backends.py:417
 msgid "Payment error"
-msgstr ""
+msgstr "Tharla earráid leis an íocaíocht"
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
-msgstr ""
+msgstr "Bitcoin"
 
 #: wlhosted/payments/backends.py:438
 msgid "IBAN bank transfer"
-msgstr ""
+msgstr "Aistriú bainc IBAN"
 
 #: wlhosted/payments/backends.py:468
 msgid "Issuing bank"
-msgstr ""
+msgstr "Banc éisiúna"
 
 #: wlhosted/payments/backends.py:469
 msgid "Account holder"
