@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2023-10-18 19:52+0000\n"
+"PO-Revision-Date: 2023-10-27 09:26+0000\n"
 "Last-Translator: Vlăduț Ilie <vladilie94@gmail.com>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/weblate/hosted/"
 "ro/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.1\n"
+"X-Generator: Weblate 5.2-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -28,11 +28,11 @@ msgstr "Generează datele scenariului Unknown Horizons"
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
-msgstr "Resetați depozitul în amonte"
+msgstr "Resetează depozitarul în sursa principală"
 
 #: wlhosted/addons.py:58
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Elimină toate modificările din depozitul Weblate în fiecare noapte."
+msgstr "Elimină toate modificările din depozitarul Weblate în fiecare noapte."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
@@ -40,15 +40,15 @@ msgstr "Facturare"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
-msgstr "Alegeți planul de facturare pe care doriți să îl actualizați"
+msgstr "Alege planul de facturare pe care vrei să îl actualizezi"
 
 #: wlhosted/integrations/forms.py:34
 msgid "Create new billing plan"
-msgstr "Creaza un nou plan de facturare"
+msgstr "Creează un nou plan de facturare"
 
 #: wlhosted/integrations/templates/hosted/create.html:8
 msgid "Create billing plan"
-msgstr "Creaza plan de facturare"
+msgstr "Creează plan de facturare"
 
 #: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
@@ -57,16 +57,16 @@ msgstr "Plan nou de facturare"
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
 msgstr ""
-"Vă rugăm să alegeți un plan de găzduire care să se potrivească cu "
-"dimensiunea proiectului dvs."
+"Te rugăm să alegi un plan de găzduire care să se potrivească cu dimensiunea "
+"proiectului tău."
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
-msgstr "Stare factura"
+msgstr "Stare factură curentă"
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
-msgstr "Prea mic pentru proiectul dvs."
+msgstr "Prea mic pentru proiectul tău."
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small"
@@ -97,7 +97,7 @@ msgstr "Limită de limbi"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Component limit"
-msgstr "Limita de componente"
+msgstr "Limită de componente"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
@@ -125,9 +125,9 @@ msgid ""
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
-"Prețul se bazează pe numărul de șiruri de caractere sursă și de limbi țintă. "
-"Șirul sursă este o unitate de text definită într-un format de traducere; "
-"poate fi un cuvânt, o propoziție sau un paragraf."
+"Prețul se bazează pe numărul de șiruri sursă și de limbi țintă. Șirul sursă "
+"este o unitate de text definită într-un format de traducere, poate fi un "
+"cuvânt, o propoziție sau un paragraf."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
@@ -148,7 +148,7 @@ msgstr "Taxarea inversă se aplică facturilor emise către întreprinderi din U
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
-msgstr "Vă mulțumim pentru plată, facturarea dvs. este acum plătită."
+msgstr "Îți mulțumim pentru plată, facturarea ta este acum plătită."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
@@ -160,7 +160,7 @@ msgstr "Verifică starea facturării tale"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
-msgstr "Planul dvs. de facturare a fost plătit"
+msgstr "Planul tău de facturare a fost plătit"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
@@ -169,15 +169,15 @@ msgstr "Nu s-a găsit nicio plată corespunzătoare."
 #: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr ""
-"Vă mulțumim că ați achiziționat un plan de găzduire, acesta este acum activ."
+"Îți mulțumim că ai achiziționat un plan de găzduire, acesta este acum activ."
 
 #: wlhosted/integrations/views.py:83
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
-"Vă mulțumim pentru achiziționarea unui plan de găzduire, plata pentru acesta "
-"este în așteptare și va fi procesată în fundal."
+"Îți mulțumim pentru achiziționarea unui plan de găzduire, plata pentru "
+"acesta este în așteptare și va fi procesată în fundal."
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
@@ -207,12 +207,12 @@ msgid ""
 "\n"
 "%s\n"
 msgstr ""
-"Bună ziua,\n"
+"Salut,\n"
 "\n"
-"Vă mulțumim pentru plata dvs. pe weblate.org.\n"
+"Îți mulțumim pentru plata ta pe weblate.org.\n"
 "\n"
-"Veți găsi atașată o factură pentru această plată.\n"
-"Alternativ, o puteți descărca de pe site:\n"
+"Vei găsi atașată o factură pentru această plată.\n"
+"Alternativ, o poți descărca de pe site:\n"
 "\n"
 "%s\n"
 
@@ -236,19 +236,19 @@ msgid ""
 "If concerning a recurring payment, it is retried three times,\n"
 "and if still failing, cancelled.\n"
 msgstr ""
-"Bună ziua,\n"
+"Salut,\n"
 "\n"
-"Plata dvs. pe weblate.org a eșuat.\n"
-"\n"
-"%s\n"
-"\n"
-"Reîncercați să emiteți plata pe site:\n"
+"Plata ta pe weblate.org a eșuat.\n"
 "\n"
 "%s\n"
 "\n"
-"Dacă este vorba despre o plată recurentă, aceasta este reanalizată de trei "
+"Reîncearcă să emiți plata pe site-ul web:\n"
+"\n"
+"%s\n"
+"\n"
+"Dacă este vorba despre o plată recurentă, aceasta este reîncercată de trei "
 "ori,\n"
-"și, dacă nu reușește în continuare, se anulează.\n"
+"și, dacă tot nu reușește, se anulează.\n"
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
@@ -261,11 +261,11 @@ msgid ""
 "Your payment on weblate.org is pending. Please follow the provided\n"
 "instructions to complete the payment.\n"
 msgstr ""
-"Bună ziua,\n"
+"Salut,\n"
 "\n"
-"Plata dvs. pe weblate.org este în așteptare. Vă rugăm să urmați "
-"instrucțiunile furnizate\n"
-"instrucțiuni pentru a finaliza plata.\n"
+"Plata ta pe weblate.org este în așteptare. Te rugăm să urmezi "
+"instrucțiunile\n"
+"furnizate pentru a finaliza plata.\n"
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
@@ -273,11 +273,11 @@ msgstr "Card de plată"
 
 #: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
-msgstr "Plata anulată"
+msgstr "Plată anulată"
 
 #: wlhosted/payments/backends.py:417
 msgid "Payment error"
-msgstr "Eroare de plată"
+msgstr "Eroare plată"
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
@@ -289,7 +289,7 @@ msgstr "Transfer bancar IBAN"
 
 #: wlhosted/payments/backends.py:468
 msgid "Issuing bank"
-msgstr "Banca emitentă"
+msgstr "Bancă emitentă"
 
 #: wlhosted/payments/backends.py:469
 msgid "Account holder"
@@ -334,7 +334,7 @@ msgstr ""
 
 #: wlhosted/payments/models.py:94
 msgid "Company or individual name"
-msgstr "Nume societate sau persoană fizică"
+msgstr "Nume firmă sau persoană fizică"
 
 #: wlhosted/payments/models.py:97
 msgid "Address"
