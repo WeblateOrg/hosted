@@ -5,7 +5,7 @@ django-vies==6.0.3
 fakturace==0.7.0
 fiobank==3.0.0
 nijel-thepay==0.5
-pillow>=10.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
 psycopg2-binary
 python-dateutil
 requests
