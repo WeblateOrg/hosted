@@ -5,13 +5,14 @@
 # anonymous <noreply@weblate.org>, 2019.
 # Kou Prey Team <kouprey25@gmail.com>, 2020.
 # ប៉ុកណូ រ៉ូយ៉ាល់ <royalpokno68@gmail.com>, 2020, 2022.
+# កុសិនារា <kursinarapok@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2022-04-07 14:09+0000\n"
-"Last-Translator: ប៉ុកណូ រ៉ូយ៉ាល់ <royalpokno68@gmail.com>\n"
+"PO-Revision-Date: 2023-11-09 11:34+0000\n"
+"Last-Translator: កុសិនារា <kursinarapok@gmail.com>\n"
 "Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/weblate/"
 "hosted/km/>\n"
 "Language: km\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 5.2-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -79,7 +80,7 @@ msgstr "គម្រោង​បច្ចុប្បន្ន​"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Strings limit"
-msgstr "​តួអក្សរ​មាន​ដែនកំណត់​"
+msgstr "កំហិតស្ទ្រុិង"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
@@ -313,7 +314,7 @@ msgstr "អាសយដ្ឋាន"
 
 #: wlhosted/payments/models.py:100
 msgid "Postcode and city"
-msgstr "លេខកូដប្រៃសណីយ៍ និងទីក្រុង"
+msgstr "កូដប្រៃសណីយ៍ និងទីក្រុង"
 
 #: wlhosted/payments/models.py:102
 msgid "Country"
@@ -321,7 +322,7 @@ msgstr "ប្រទេស"
 
 #: wlhosted/payments/models.py:134
 msgid "The country has to match your VAT code"
-msgstr "ប្រទេសត្រូវតែផ្គូរផ្គងលេខកូដ VAT របស់អ្នក"
+msgstr "ប្រទេសនោះត្រូវតែស៊ីគ្នានឹងកូដ VAT របស់អ្នក"
 
 #: wlhosted/payments/models.py:157
 msgid "Annual"
