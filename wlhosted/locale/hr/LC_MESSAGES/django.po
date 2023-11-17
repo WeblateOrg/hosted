@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2023-10-06 21:10+0000\n"
+"PO-Revision-Date: 2023-11-17 18:28+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/weblate/hosted/"
 "hr/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.1-dev\n"
+"X-Generator: Weblate 5.2\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -399,7 +399,7 @@ msgstr "{} ne odgovara specifikacijama ID oznaka PDV-a države."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
-msgstr "Usluga provjere PDV-a nije dostupna za {}, pokušaj ponovo kasnije."
+msgstr "Usluga provjere PDV-a nije dostupna za {}. Pokušaj ponovo kasnije."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
