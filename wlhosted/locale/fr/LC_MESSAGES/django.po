@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2023-09-30 11:32+0000\n"
+"PO-Revision-Date: 2023-11-19 13:52+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/weblate/hosted/fr/"
 ">\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.1-dev\n"
+"X-Generator: Weblate 5.2\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -139,7 +139,7 @@ msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
 "Les utilisateurs de l’UE et les entreprises tchèques seront facturés avec "
-"une TVA supplémentaire de 21&nbsp;%%."
+"une TVA supplémentaire de 21 %%."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
@@ -154,7 +154,7 @@ msgstr ""
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr "Ce plan de facturation couvre les projets suivants&nbsp;:"
+msgstr "Ce plan de facturation couvre les projets suivants :"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
@@ -184,7 +184,7 @@ msgstr ""
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
-msgstr "Le paiement a été rejeté&nbsp;: {}"
+msgstr "Le paiement a été rejeté : {}"
 
 #: wlhosted/integrations/views.py:96
 msgid "Unknown reason"
@@ -215,7 +215,7 @@ msgstr ""
 "Merci pour votre règlement sur weblate.org.\n"
 "\n"
 "Vous trouverez la facture associée en pièce jointe.\n"
-"Vous pouvez aussi télécharger cette facture sur le site&nbsp;:\n"
+"Vous pouvez aussi télécharger cette facture sur le site :\n"
 "\n"
 "%s\n"
 
@@ -245,7 +245,7 @@ msgstr ""
 "\n"
 "%s\n"
 "\n"
-"Essayez à nouveau d’émettre le paiement sur le site web&nbsp;:\n"
+"Essayez à nouveau d’émettre le paiement sur le site web :\n"
 "\n"
 "%s\n"
 "\n"
