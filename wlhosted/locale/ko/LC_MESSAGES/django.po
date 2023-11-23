@@ -6,13 +6,14 @@
 # Jun Hyung Shin <shmishmi79@gmail.com>, 2019.
 # Lee Yunseok <ironyunseok@protonmail.com>, 2019, 2020, 2021.
 # 이정희 <daemul72@gmail.com>, 2023.
+# Minseo Lee <itoupluk427@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2023-02-11 14:02+0000\n"
-"Last-Translator: 이정희 <daemul72@gmail.com>\n"
+"PO-Revision-Date: 2023-11-23 12:55+0000\n"
+"Last-Translator: Minseo Lee <itoupluk427@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/weblate/hosted/ko/"
 ">\n"
 "Language: ko\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 5.2.1-rc\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -246,7 +247,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
-msgstr "weblate.org에서 보류중인 결제 내역"
+msgstr "weblate.org에서 보류 중인 결제 내역"
 
 #: wlhosted/payments/backends.py:257
 msgid ""
@@ -310,7 +311,7 @@ msgstr "유럽 VAT ID"
 
 #: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
-msgstr "유럽 연합 VAT ID를 입력하시고, 해당되지 않는 경우 비워두세요."
+msgstr "유럽 연합 VAT ID를 입력하고, 해당되지 않는 경우 비워두세요."
 
 #: wlhosted/payments/models.py:85
 msgid "Tax registration"
@@ -319,7 +320,7 @@ msgstr "세금 등록"
 #: wlhosted/payments/models.py:87
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
-msgstr "청구서에 표시해야 할 경우라면 세금 등록란을 채우십시오."
+msgstr "청구서에 표시해야 할 경우라면 세금 등록란을 채우세요."
 
 #: wlhosted/payments/models.py:94
 msgid "Company or individual name"
@@ -369,7 +370,7 @@ msgstr "신규 결제"
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr "대기중인 결제"
+msgstr "대기 중인 결제"
 
 #: wlhosted/payments/models.py:197
 msgctxt "Payment state"
@@ -396,8 +397,7 @@ msgstr "{}은(는) 해당 국가의 VAT ID 사양과 일치하지 않습니다."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
-msgstr ""
-"{}에 대한 VAT ID 확인 서비스를 사용할 수 없습니다. 나중에 다시 시도하십시오."
+msgstr "{}에 대한 VAT ID 확인 서비스를 사용할 수 없습니다. 나중에 다시 시도하세요."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
