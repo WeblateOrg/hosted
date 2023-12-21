@@ -34,8 +34,8 @@ dependencies = [
 description = "Hosted Weblate Customization"
 name = "wlhosted"
 readme = "README.rst"
-requires-python = ">=3.9"
-version = "2023.6"
+requires-python = ">=3.11"
+version = "2023.7"
 
 [[project.authors]]
 email = "michal@cihar.com"
@@ -49,7 +49,7 @@ Download = "https://weblate.org/download/"
 Homepage = "https://weblate.org/"
 
 [tool.black]
-target-version = ['py39']
+target-version = ['py311']
 
 [tool.isort]
 profile = "black"
@@ -107,7 +107,7 @@ select = [
   "SLF",
   "N"
 ]
-target-version = "py39"
+target-version = "py311"
 
 [tool.ruff.mccabe]
 max-complexity = 16
