@@ -5,13 +5,14 @@
 # Michal Čihař <michal@cihar.com>, 2019.
 # Tomas Darius Davainis <tomas@davainis.lt>, 2020.
 # Vaclovas Intas <vaclovas1999@gmail.com>, 2023.
+# Džiugas J <dziugas1959@hotmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2023-06-19 09:49+0000\n"
-"Last-Translator: Vaclovas Intas <vaclovas1999@gmail.com>\n"
+"PO-Revision-Date: 2024-01-11 04:09+0000\n"
+"Last-Translator: Džiugas J <dziugas1959@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/weblate/"
 "hosted/lt/>\n"
 "Language: lt\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || "
 "n%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
-"X-Generator: Weblate 4.18.1\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -100,10 +101,8 @@ msgid "Component limit"
 msgstr "Projektas"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
-#, fuzzy
-#| msgid "Project"
 msgid "Projects limit"
-msgstr "Projektas"
+msgstr "Projekto limitas"
 
 #: wlhosted/integrations/templates/hosted/create.html:78
 #, python-format
