@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Aswin Kumar <aswin464@gmail.com>, 2020.
 # Michael Timothy Notopuro 12A1-23 MT BreakThrough <mt310804@gmail.com>, 2022.
+# தமிழ்நேரம் <anishprabu.t@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2022-01-07 02:39+0000\n"
-"Last-Translator: Michael Timothy Notopuro 12A1-23 MT BreakThrough "
-"<mt310804@gmail.com>\n"
+"PO-Revision-Date: 2024-01-16 19:06+0000\n"
+"Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/weblate/hosted/ta/>"
 "\n"
 "Language: ta\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -40,47 +40,48 @@ msgstr "பில்லிங்"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
-msgstr ""
+msgstr "நீங்கள் புதுப்பிக்க விரும்பும் பில்லிங் திட்டத்தைத் தேர்வுசெய்க"
 
 #: wlhosted/integrations/forms.py:34
 msgid "Create new billing plan"
-msgstr ""
+msgstr "புதிய பில்லிங் திட்டத்தை உருவாக்கவும்"
 
 #: wlhosted/integrations/templates/hosted/create.html:8
 msgid "Create billing plan"
-msgstr ""
+msgstr "பில்லிங் திட்டத்தை உருவாக்கவும்"
 
 #: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
-msgstr ""
+msgstr "புதிய பில்லிங் திட்டம்"
 
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
 msgstr ""
+"உங்கள் திட்டத்தின் அளவிற்கு பொருந்தக்கூடிய ஓச்டிங் திட்டத்தைத் தேர்வுசெய்க."
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
-msgstr ""
+msgstr "தற்போதைய பில்லிங் நிலை"
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
-msgstr ""
+msgstr "உங்கள் திட்டத்திற்கு மிகச் சிறியது."
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small"
-msgstr ""
+msgstr "மிக சிறிய"
 
 #: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
-msgstr ""
+msgstr "தேர்ந்தெடுக்கப்பட்ட திட்டம்"
 
 #: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
-msgstr ""
+msgstr "தற்போதைய திட்டம்"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Strings limit"
-msgstr ""
+msgstr "சரம் வரம்பு"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
@@ -91,31 +92,31 @@ msgstr "வரம்பற்றது"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
 msgid "Languages limit"
-msgstr ""
+msgstr "மொழிகளின் வரம்பு"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Component limit"
-msgstr ""
+msgstr "கூறு வரம்பு"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
-msgstr ""
+msgstr "திட்ட வரம்பு"
 
 #: wlhosted/integrations/templates/hosted/create.html:78
-#, python-format
+#, fuzzy, python-format
 msgid "%(price)s EUR / month"
-msgstr ""
+msgstr "%(விலை) எச் யூரோ / மாதம்"
 
 #: wlhosted/integrations/templates/hosted/create.html:79
 #: wlhosted/integrations/templates/hosted/create.html:85
-#, python-format
+#, fuzzy, python-format
 msgid "%(price)s EUR including VAT"
-msgstr ""
+msgstr "VAT உட்பட %(விலை) S EUR"
 
 #: wlhosted/integrations/templates/hosted/create.html:84
-#, python-format
+#, fuzzy, python-format
 msgid "%(price)s EUR / year"
-msgstr ""
+msgstr "%(விலை) எச் யூரோ / ஆண்டு"
 
 #: wlhosted/integrations/templates/hosted/create.html:96
 msgid ""
@@ -123,70 +124,79 @@ msgid ""
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
+"விலை மூல சரங்கள் மற்றும் இலக்கு மொழிகளின் எண்ணிக்கையை அடிப்படையாகக் கொண்டது. "
+"மூல சரம் என்பது மொழிபெயர்ப்பு வடிவத்தில் வரையறுக்கப்பட்ட உரை அலகு ஆகும், இது "
+"ஒரு சொல், வாக்கியம் அல்லது பத்தி இருக்கலாம்."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
-msgstr ""
+msgstr "பட்டியலிடப்பட்ட அனைத்து விலைகளும் வாட் விலக்குகின்றன."
 
 #: wlhosted/integrations/templates/hosted/create.html:100
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
+"ஐரோப்பிய ஒன்றிய இறுதி பயனர்கள் மற்றும் செக் நிறுவனங்கள் கூடுதல் 21 %% VAT "
+"உடன் வசூலிக்கப்படும்."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
+"தலைகீழ் கட்டணம் ஐரோப்பிய ஒன்றியத்திற்குள் உள்ள வணிகங்களுக்கு வழங்கப்படும் "
+"விலைப்பட்டியல்களுக்கு பொருந்தும்."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
-msgstr ""
+msgstr "கட்டணத்திற்கு நன்றி, உங்கள் பில்லிங் இப்போது செலுத்தப்பட்டுள்ளது."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "இந்த பில்லிங் திட்டம் பின்வரும் திட்டங்களை உள்ளடக்கியது:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
-msgstr ""
+msgstr "உங்கள் பில்லிங் நிலையை சரிபார்க்கவும்"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
-msgstr ""
+msgstr "உங்கள் பில்லிங் திட்டம் செலுத்தப்பட்டது"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
-msgstr ""
+msgstr "பொருந்தக்கூடிய கட்டணம் எதுவும் கிடைக்கவில்லை."
 
 #: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr ""
+msgstr "ஓச்டிங் திட்டத்தை வாங்கியதற்கு நன்றி, அது இப்போது செயலில் உள்ளது."
 
 #: wlhosted/integrations/views.py:83
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
+"ஓச்டிங் திட்டத்தை வாங்கியதற்கு நன்றி, அதற்கான கட்டணம் நிலுவையில் உள்ளது "
+"மற்றும் பின்னணியில் செயலாக்கப்படும்."
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
-msgstr ""
+msgstr "கட்டணம் நிராகரிக்கப்பட்டது: {}"
 
 #: wlhosted/integrations/views.py:96
 msgid "Unknown reason"
-msgstr ""
+msgstr "தெரியாத காரணம்"
 
 #: wlhosted/integrations/views.py:112
 msgid "Payments are temporarily inactive."
-msgstr ""
+msgstr "கொடுப்பனவுகள் தற்காலிகமாக செயலற்றவை."
 
 #: wlhosted/payments/backends.py:192
 msgid "Your payment on weblate.org"
-msgstr ""
+msgstr "Weblate.org இல் உங்கள் கட்டணம்"
 
 #: wlhosted/payments/backends.py:194
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "Hello,\n"
 "\n"
@@ -197,13 +207,21 @@ msgid ""
 "\n"
 "%s\n"
 msgstr ""
+"வணக்கம், \n"
+"\n"
+" Weblate.org இல் நீங்கள் செலுத்தியதற்கு நன்றி. \n"
+"\n"
+" இணைக்கப்பட்ட இந்த கட்டணத்திற்கான விலைப்பட்டியலைக் காண்பீர்கள். \n"
+" மாற்றாக, நீங்கள் அதை வலைத்தளத்திலிருந்து பதிவிறக்கம் செய்யலாம்: \n"
+"\n"
+" %கள்\n"
 
 #: wlhosted/payments/backends.py:220
 msgid "Your payment on weblate.org failed"
-msgstr ""
+msgstr "Weblate.org இல் உங்கள் கட்டணம் தோல்வியடைந்தது"
 
 #: wlhosted/payments/backends.py:222
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "Hello,\n"
 "\n"
@@ -218,10 +236,23 @@ msgid ""
 "If concerning a recurring payment, it is retried three times,\n"
 "and if still failing, cancelled.\n"
 msgstr ""
+"வணக்கம், \n"
+"\n"
+" Weblate.org இல் உங்கள் கட்டணம் தோல்வியுற்றது. \n"
+"\n"
+" %கள் \n"
+"\n"
+" இணையதளத்தில் கட்டணத்தை வழங்குவதை மீண்டும் முயற்சிக்கவும்: \n"
+"\n"
+" %கள் \n"
+"\n"
+" தொடர்ச்சியான கட்டணத்தைப் பொறுத்தவரை, அது மூன்று முறை மீண்டும் "
+"முயற்சிக்கப்படுகிறது, \n"
+" இன்னும் தோல்வியுற்றால், ரத்து செய்யப்பட்டது.\n"
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
-msgstr ""
+msgstr "Weblate.org இல் நீங்கள் நிலுவையில் உள்ள கட்டணம்"
 
 #: wlhosted/payments/backends.py:257
 msgid ""
@@ -230,6 +261,11 @@ msgid ""
 "Your payment on weblate.org is pending. Please follow the provided\n"
 "instructions to complete the payment.\n"
 msgstr ""
+"வணக்கம், \n"
+"\n"
+" Weblate.org இல் உங்கள் கட்டணம் நிலுவையில் உள்ளது. வழங்கப்பட்டதைப் "
+"பின்தொடரவும் \n"
+" கட்டணத்தை முடிக்க வழிமுறைகள்.\n"
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
@@ -249,129 +285,134 @@ msgstr "பிட்காயின்"
 
 #: wlhosted/payments/backends.py:438
 msgid "IBAN bank transfer"
-msgstr ""
+msgstr "இபான் வங்கி பரிமாற்றம்"
 
 #: wlhosted/payments/backends.py:468
 msgid "Issuing bank"
-msgstr ""
+msgstr "வங்கி வழங்குதல்"
 
 #: wlhosted/payments/backends.py:469
 msgid "Account holder"
-msgstr ""
+msgstr "கணக்கு வைத்திருப்பவர்"
 
 #: wlhosted/payments/backends.py:470
 msgid "Account number"
-msgstr ""
+msgstr "கணக்கு எண்"
 
 #: wlhosted/payments/backends.py:471
 msgid "SWIFT code"
-msgstr ""
+msgstr "ச்விஃப்ட் குறியீடு"
 
 #: wlhosted/payments/backends.py:472
 msgid "IBAN"
-msgstr ""
+msgstr "இபான்"
 
 #: wlhosted/payments/backends.py:473
 msgid "Reference"
-msgstr ""
+msgstr "குறிப்பு"
 
 #: wlhosted/payments/models.py:77
 msgid "European VAT ID"
-msgstr ""
+msgstr "ஐரோப்பிய வாட் ஐடி"
 
 #: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
+"தயவுசெய்து ஐரோப்பிய ஒன்றிய வாட் ஐடியை நிரப்பவும், பொருந்தவில்லை என்றால் "
+"காலியாக விடவும்."
 
 #: wlhosted/payments/models.py:85
 msgid "Tax registration"
-msgstr ""
+msgstr "வரி பதிவு"
 
 #: wlhosted/payments/models.py:87
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
-msgstr ""
+msgstr "உங்கள் வரி பதிவு விலைப்பட்டியலில் தோன்றினால் அதை நிரப்பவும்."
 
 #: wlhosted/payments/models.py:94
 msgid "Company or individual name"
-msgstr ""
+msgstr "நிறுவனம் அல்லது தனிப்பட்ட பெயர்"
 
 #: wlhosted/payments/models.py:97
 msgid "Address"
-msgstr ""
+msgstr "முகவரி"
 
 #: wlhosted/payments/models.py:100
 msgid "Postcode and city"
-msgstr ""
+msgstr "அஞ்சல் குறியீடு மற்றும் நகரம்"
 
 #: wlhosted/payments/models.py:102
 msgid "Country"
-msgstr ""
+msgstr "நாடு"
 
 #: wlhosted/payments/models.py:134
 msgid "The country has to match your VAT code"
-msgstr ""
+msgstr "உங்கள் வாட் குறியீட்டை நாடு பொருத்த வேண்டும்"
 
 #: wlhosted/payments/models.py:157
 msgid "Annual"
-msgstr ""
+msgstr "ஆண்டு"
 
 #: wlhosted/payments/models.py:158
 msgid "Biannual"
-msgstr ""
+msgstr "இருண்ட"
 
 #: wlhosted/payments/models.py:159
 msgid "Quarterly"
-msgstr ""
+msgstr "காலாண்டு"
 
 #: wlhosted/payments/models.py:160
 msgid "Monthly"
-msgstr ""
+msgstr "மாதாந்திர"
 
 #: wlhosted/payments/models.py:161
 msgid "Onetime"
-msgstr ""
+msgstr "ஒரு முறை"
 
 #: wlhosted/payments/models.py:195
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "புதிய கட்டணம்"
 
 #: wlhosted/payments/models.py:196
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr ""
+msgstr "கட்டணம் காத்திருக்கிறது"
 
 #: wlhosted/payments/models.py:197
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr ""
+msgstr "கட்டணம் நிராகரிக்கப்பட்டது"
 
 #: wlhosted/payments/models.py:198
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr ""
+msgstr "கட்டணம் ஏற்றுக்கொள்ளப்பட்டது"
 
 #: wlhosted/payments/models.py:199
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr ""
+msgstr "கட்டண செயலாக்கப்பட்டது"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
 msgstr ""
+"Eum எந்தவொரு ஐரோப்பிய ஒன்றிய உறுப்பினருக்கும் சரியான நாட்டுக் குறியீடு அல்ல."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr ""
+msgstr "{the நாட்டின் வாட் ஐடி விவரக்குறிப்புகளுடன் பொருந்தவில்லை."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
+"{For க்கு VAT ஐடி சரிபார்ப்பு சேவை கிடைக்கவில்லை, தயவுசெய்து பின்னர் "
+"முயற்சிக்கவும்."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr ""
+msgstr "{} என்பது செல்லுபடியாகும் வாட் ஐடி அல்ல."
 
 #~ msgid "Service"
 #~ msgstr "சேவை"
