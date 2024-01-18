@@ -19,13 +19,25 @@
 """Custom addons for Hosted Weblate."""
 
 from django.utils.translation import gettext_lazy as _
-from weblate.addons.events import EVENT_DAILY, EVENT_PRE_COMMIT
+
+try:
+    # Weblate 5.4 and newer
+    from weblate.addons.events import AddonEvent
+except ImportError:
+    # Weblate 5.3 and older
+    from weblate.addons.events import EVENT_DAILY, EVENT_PRE_COMMIT
+
+    class AddonEvent:
+        EVENT_DAILY = EVENT_DAILY
+        EVENT_PRE_COMMIT = EVENT_PRE_COMMIT
+
+
 from weblate.addons.scripts import BaseAddon, BaseScriptAddon
 
 
 class UnknownHorizonsTemplateAddon(BaseScriptAddon):
     # Event used to trigger the script
-    events = (EVENT_PRE_COMMIT,)
+    events = (AddonEvent.EVENT_PRE_COMMIT,)
     # Name of the addon, has to be unique
     name = "weblate.hosted.uh_scenario"
     # Verbose name and long descrption
@@ -48,7 +60,7 @@ class UnknownHorizonsTemplateAddon(BaseScriptAddon):
 
 class ResetAddon(BaseAddon):
     # Event used to trigger the script
-    events = (EVENT_DAILY,)
+    events = (AddonEvent.EVENT_DAILY,)
     # Name of the addon, has to be unique
     name = "weblate.hosted.reset"
     # Verbose name and long descrption
