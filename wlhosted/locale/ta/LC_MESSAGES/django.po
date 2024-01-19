@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2024-01-17 20:31+0000\n"
+"PO-Revision-Date: 2024-01-19 18:08+0000\n"
 "Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/weblate/hosted/ta/>"
 "\n"
@@ -289,7 +289,7 @@ msgstr "இபான் வங்கி பரிமாற்றம்"
 
 #: wlhosted/payments/backends.py:468
 msgid "Issuing bank"
-msgstr "வங்கி வழங்குதல்"
+msgstr "வழங்குநர் வங்கி"
 
 #: wlhosted/payments/backends.py:469
 msgid "Account holder"
