@@ -48,6 +48,7 @@ text = "GPLv3+"
 lint = ["pre-commit==3.6.0"]
 test = [
   "httpretty",
+  "coverage",
   "build==1.0.3",
   "twine==4.0.2"
 ]
