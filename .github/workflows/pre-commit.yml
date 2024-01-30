@@ -39,7 +39,7 @@ jobs:
         if [ -f requirements-lint.txt ] ; then
           pip install -r requirements-lint.txt
         else
-          pip install -e .[lint]
+          pip install $(sed -n 's/.*"\(pre-commit==\([^"]*\)\)".*/\1/p')
         fi
     - name: pre-commit
       run: pre-commit run --all
