@@ -47,11 +47,13 @@ jobs:
       uses: actions/setup-python@v5
       with:
         python-version: ${{ matrix.python-version }}
+        cache: pip
+        cache-dependency-path: pyproject.toml
     - name: Install pip dependencies
       run: |
         pip install --upgrade pip wheel Cython setuptools
         pip install --no-binary :all: cffi
-        pip install -r requirements-test.txt -r requirements.txt
+        pip install -e .[test]
     - name: Test with Django
       env:
         CI_DATABASE: postgresql

@@ -1,4 +1,0 @@
-httpretty
-pytest
-pytest-cov
-twine==4.0.2

@@ -26,10 +26,10 @@ dependencies = [
   "fakturace==0.7.0",
   "fiobank==3.0.0",
   "nijel-thepay==0.5",
-  "psycopg2-binary",
+  "psycopg[binary]",
   "python-dateutil",
   "requests",
-  "Weblate"
+  "Weblate>=5.2"
 ]
 description = "Hosted Weblate Customization"
 name = "wlhosted"
@@ -43,6 +43,14 @@ name = "Michal Čihař"
 
 [project.license]
 text = "GPLv3+"
+
+[project.optional-dependencies]
+lint = ["pre-commit==3.6.0"]
+test = [
+  "httpretty",
+  "build==1.0.3",
+  "twine==4.0.2"
+]
 
 [project.urls]
 Download = "https://weblate.org/download/"
