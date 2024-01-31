@@ -43,3 +43,6 @@ jobs:
         fi
     - name: pre-commit
       run: pre-commit run --all
+    - name: diff
+      run: git diff
+      if: always()
