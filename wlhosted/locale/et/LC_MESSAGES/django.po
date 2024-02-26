@@ -7,13 +7,14 @@
 # Priit Jõerüüt <hwlate@joeruut.com>, 2020, 2021.
 # Stanislav Lem <justaryo@yandex.ru>, 2020.
 # Janar Leas <janarleas+ubuntuone@googlemail.com>, 2020.
+# Lauri Linnamäe <de0g7o8f@duck.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-04-27 18:32+0000\n"
-"Last-Translator: Priit Jõerüüt <hwlate@joeruut.com>\n"
+"PO-Revision-Date: 2024-02-26 17:31+0000\n"
+"Last-Translator: Lauri Linnamäe <de0g7o8f@duck.com>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/weblate/hosted/"
 "et/>\n"
 "Language: et\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -287,7 +288,7 @@ msgstr "Makse IBAN pangaülekandega"
 
 #: wlhosted/payments/backends.py:468
 msgid "Issuing bank"
-msgstr "Väljastav pank"
+msgstr "Väljastanud pank"
 
 #: wlhosted/payments/backends.py:469
 msgid "Account holder"
@@ -299,7 +300,7 @@ msgstr "Pangaarve number"
 
 #: wlhosted/payments/backends.py:471
 msgid "SWIFT code"
-msgstr "SWIFT-kood"
+msgstr "SWIFT kood"
 
 #: wlhosted/payments/backends.py:472
 msgid "IBAN"
@@ -307,28 +308,24 @@ msgstr "IBAN"
 
 #: wlhosted/payments/backends.py:473
 msgid "Reference"
-msgstr "Viide"
+msgstr "Selgitus"
 
 #: wlhosted/payments/models.py:77
 msgid "European VAT ID"
-msgstr "Euroopa käibemaksukohustuslase ID"
+msgstr "Euroopa KMKR"
 
 #: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
-msgstr ""
-"Palun täitke Euroopa Liidu käibemaksukohustuslasena registreerimise number "
-"või jätke see tühjaks, kui seda ei kohaldata."
+msgstr "Palun täitke Euroopa Liidu KMKR, selle puudumisel jätke tühjaks."
 
 #: wlhosted/payments/models.py:85
 msgid "Tax registration"
-msgstr "Käibemaksukohuslasena registreerimine"
+msgstr "Maksuresidentsus"
 
 #: wlhosted/payments/models.py:87
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
-msgstr ""
-"Palun lisa oma käibemaksukohuslasena registreerimise number, kui soovid seda "
-"näha arvel."
+msgstr "Palun lisa oma maksuresidentsus, kui soovid seda näha arvel."
 
 #: wlhosted/payments/models.py:94
 msgid "Company or individual name"
@@ -356,7 +353,7 @@ msgstr "Üks kord aastas"
 
 #: wlhosted/payments/models.py:158
 msgid "Biannual"
-msgstr "Kaks korda aastas"
+msgstr "Kord poolaastas"
 
 #: wlhosted/payments/models.py:159
 msgid "Quarterly"
@@ -364,7 +361,7 @@ msgstr "Kord kvartalis"
 
 #: wlhosted/payments/models.py:160
 msgid "Monthly"
-msgstr "Igakuine"
+msgstr "Kord kuus"
 
 #: wlhosted/payments/models.py:161
 msgid "Onetime"
@@ -388,7 +385,7 @@ msgstr "Makse on tagasi lükatud"
 #: wlhosted/payments/models.py:198
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "Makse on vastu võteud"
+msgstr "Makse on vastu võetud"
 
 #: wlhosted/payments/models.py:199
 msgctxt "Payment state"
@@ -401,18 +398,15 @@ msgstr "{} ei ole kehtiv Euroopa Liidu liikmesriigi kood."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr ""
-"{} ei vasta selle riigi käibemaksukohuslase registeerimisnumbri valemile."
+msgstr "{} ei vasta selle riigi KMKR-i formaadile."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
-msgstr ""
-"Käibemaksukohuslasena registreerimise numbrit kontrolliv teenus pole {} "
-"olnud saadaval. Palun proovi hiljem uuesti."
+msgstr "KMKR kontrollimine pole {} olnud saadaval. Palun proovi hiljem uuesti."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr "{} ei ole korrektne käibemaksukohuslasena registreerimise number."
+msgstr "{} ei ole korrektne KMKR."
 
 #~ msgid ""
 #~ "We comply with the Regulation No. %(law_679_2016)s, the General Data "
