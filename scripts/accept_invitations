@@ -4,6 +4,7 @@ Simple script to accept all invitations on GitHub.
 
 It takes GitHub access token as single parameter.
 """
+
 import sys
 
 import requests
