@@ -68,6 +68,7 @@ ignore = [
   "D10",  # TODO: we are missing many docstrings
   "D203",  # CONFIG: incompatible with D211
   "D212",  # CONFIG: incompatible with D213
+  "ISC001",  # CONFIG: formatter
   "D401",  # TODO: many strings need rephrasing
   "DJ001",  # TODO: Avoid using `null=True` on string-based fields such as CharField (maybe add noqa)
   "E501",  # WONTFIX: we accept long strings (rest is formatted by black)
