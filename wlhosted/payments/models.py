@@ -257,7 +257,9 @@ class Payment(models.Model):
             language = "en"
         return settings.PAYMENT_REDIRECT_URL.format(language=language, uuid=self.uuid)
 
-    def repeat_payment(self, skip_previous: bool = False, **kwargs):
+    def repeat_payment(
+        self, skip_previous: bool = False, amount: int | None = None, **kwargs
+    ):
         # Check if backend is still valid
         from wlhosted.payments.backends import get_backend
 
@@ -286,7 +288,7 @@ class Payment(models.Model):
             extra.update(self.extra)
             extra.update(kwargs)
             return Payment.objects.create(
-                amount=self.amount,
+                amount=self.amount if amount is None else amount,
                 backend=self.backend,
                 description=self.description,
                 recurring="",
