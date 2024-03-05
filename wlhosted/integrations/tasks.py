@@ -60,7 +60,9 @@ def notify_paid_removal(billing_id):
 @app.task
 def recurring_payments():
     cutoff = timezone.now().date() + timedelta(days=1)
-    for billing in Billing.objects.filter(state=Billing.STATE_ACTIVE):
+    for billing in Billing.objects.filter(state=Billing.STATE_ACTIVE).select_related(
+        "plan"
+    ):
         if "recurring" not in billing.payment:
             continue
         last_invoice = billing.invoice_set.order_by("-start")[0]
@@ -69,7 +71,12 @@ def recurring_payments():
 
         original = Payment.objects.get(pk=billing.payment["recurring"])
 
-        repeated = original.repeat_payment(billing=billing.pk)
+        repeated = original.repeat_payment(
+            amount=billing.plan.price
+            if original.extra["period"] == "m"
+            else billing.plan.yearly_price,
+            billing=billing.pk,
+        )
         if not repeated:
             # Remove recurring flag
             del billing.payment["recurring"]
