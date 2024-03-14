@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Weblate <noreply@weblate.org>, 2020.
 # Þórhalla Guðmundsdóttir Beck <plergux@outlook.com>, 2020.
-# Sveinn í Felli <sv1@fellsnet.is>, 2020, 2021.
+# Sveinn í Felli <sv1@fellsnet.is>, 2020, 2021, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-02-16 08:42+0000\n"
+"PO-Revision-Date: 2024-03-14 13:36+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <https://hosted.weblate.org/projects/weblate/hosted/"
 "is/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n % 10 != 1 || n % 100 == 11;\n"
-"X-Generator: Weblate 4.5-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -314,8 +314,8 @@ msgstr "Evrópskt virðisaukaskattsnúmer"
 #: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
-"Vinsamlegast fylltu inn evrópskt virðisaukaskattsnúmer, skildu reitinn eftir "
-"auðan ef það á ekki við."
+"Fylltu inn evrópskt virðisaukaskattsnúmer, skildu reitinn eftir auðan ef það "
+"á ekki við."
 
 #: wlhosted/payments/models.py:85
 msgid "Tax registration"
@@ -404,7 +404,7 @@ msgstr "{} passar ekki við upplýsingar um virðisaukaskattsnúmer landsins."
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
 "Staðfestingarþjónusta virðisaukaskattsnúmera fyrir {} er óvirk í "
-"augnablikinu, vinsamlegast reynið síðar."
+"augnablikinu, reyndu aftur síðar."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
