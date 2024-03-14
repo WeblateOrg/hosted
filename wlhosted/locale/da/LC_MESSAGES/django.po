@@ -9,13 +9,14 @@
 # Jeppe Skindstad Frederiksen <jeppeskindstadfrederiksen@live.dk>, 2020.
 # Aputsiak Niels Janussen <aputtu@gmail.com>, 2021.
 # Michael Millet <mikevlet@protonmail.com>, 2023.
+# cat <158170307+cultcats@users.noreply.github.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2023-05-31 21:49+0000\n"
-"Last-Translator: Michael Millet <mikevlet@protonmail.com>\n"
+"PO-Revision-Date: 2024-03-14 13:36+0000\n"
+"Last-Translator: cat <158170307+cultcats@users.noreply.github.com>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/weblate/hosted/da/"
 ">\n"
 "Language: da\n"
@@ -23,19 +24,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
-msgstr "Skab data til scenarie for Unknown Horizons"
+msgstr "Generér Unknown Horizons-scenariedata"
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
-msgstr "Gendan arkiv fra upstream"
+msgstr "Gendan repository til upstream"
 
 #: wlhosted/addons.py:58
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Afviser alle ændringer i Weblate-arkivet hver nat."
+msgstr "Kasserer alle ændringer i Weblate-repositoriet hver nat."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
@@ -43,7 +44,7 @@ msgstr "Fakturering"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
-msgstr "Vælg den betalingsplan du vil opdatere"
+msgstr "Vælg den betalingsplan, du vil opdatere"
 
 #: wlhosted/integrations/forms.py:34
 msgid "Create new billing plan"
@@ -84,7 +85,7 @@ msgstr "Nuværende plan"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Strings limit"
-msgstr "Begrænsning for strenge"
+msgstr "Grænse for strenge"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
@@ -95,15 +96,15 @@ msgstr "Ubegrænset"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
 msgid "Languages limit"
-msgstr "Sproggrænse"
+msgstr "Grænse for sprog"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Component limit"
-msgstr "Komponents grænse"
+msgstr "Grænse for komponent"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
-msgstr "Projektets grænse"
+msgstr "Grænse for projekter"
 
 #: wlhosted/integrations/templates/hosted/create.html:78
 #, python-format
@@ -114,7 +115,7 @@ msgstr "%(price)s EUR / måned"
 #: wlhosted/integrations/templates/hosted/create.html:85
 #, python-format
 msgid "%(price)s EUR including VAT"
-msgstr "%(price)s EUR med moms"
+msgstr "%(price)s EUR inkl. moms"
 
 #: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
@@ -127,9 +128,9 @@ msgid ""
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
-"Prissætningen er baseret på antallet af kildestrenge og målsprog. "
-"Kildestrengen er en tekstenhed defineret i et oversættelsesformat, kan være "
-"et ord, sætning eller afsnit."
+"Priserne er baseret på antallet af kildestrenge og målsprog. Kildestrengen "
+"er en tekstenhed, der er defineret i oversættelsesformat; det kan være et "
+"ord, en sætning eller et paragraf."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
@@ -140,23 +141,23 @@ msgstr "Alle viste priser er ekskl. moms."
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
-"Slutbrugere i EU og tjekkiske virksomheder vil blive opkrævet med yderligere "
+"Slutbrugere i EU og tjekkiske virksomheder vil blive opkrævet yderligere "
 "21%% moms."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
-"Den omvendte betalingspligt gælder på fakturaer udstedt til virksomheder "
+"Den omvendte betalingspligt gælder for fakturaer udstedt til virksomheder "
 "inden for EU."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
-msgstr "Tak for betalingen, din faktura er nu betalt."
+msgstr "Tak for betalingen; din faktura er nu betalt."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr "Faktureringsplanen dækker følgende projekter:"
+msgstr "Betalingsplanen dækker følgende projekter:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
@@ -168,19 +169,19 @@ msgstr "Din betalingsplan blev betalt"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
-msgstr "Fandt ingen betaling som matcher."
+msgstr "Ingen matchende betalinger fundet."
 
 #: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr "Tak for købet af hostingplan, den er nu aktiv."
+msgstr "Tak for købet af hostingplan; den er nu aktiv."
 
 #: wlhosted/integrations/views.py:83
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
-"Tak for køb af hostingplan, betalingen er afventende og vil blive behandlet "
-"i baggrunden."
+"Tak for købet af hostingplan; betalingen er afventende og vil blive "
+"behandlet i baggrunden."
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
@@ -214,14 +215,14 @@ msgstr ""
 "\n"
 "Tak for din betaling på weblate.org.\n"
 "\n"
-"Der er vedhæftet en faktura for betalingen.\n"
-"Som alternativ kan du hente den fra hjemmesiden:\n"
+"En faktura for denne betaling er vedhæftet.\n"
+"Alternativt kan du hente den fra hjemmesiden:\n"
 "\n"
 "%s\n"
 
 #: wlhosted/payments/backends.py:220
 msgid "Your payment on weblate.org failed"
-msgstr "Din betaling på weblate.org slog fejl"
+msgstr "Din betaling på weblate.org mislykkedes"
 
 #: wlhosted/payments/backends.py:222
 #, python-format
@@ -245,12 +246,12 @@ msgstr ""
 "\n"
 "%s\n"
 "\n"
-"Prøv at få betalingen udstedt igen på hjemmesiden på ny:\n"
+"Prøv at udstede betalingen på hjemmesiden igen:\n"
 "\n"
 "%s\n"
 "\n"
-"Hvis det vedrører en gentagende betaling, så er der forsøgt i tre omgange,\n"
-"og dersom det mislykkedes, så er den annulleret.\n"
+"Hvis det drejer sig om en tilbagevendende betaling, forsøges den tre gange,\n"
+"og hvis den stadig mislykkes, annulleres den.\n"
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
@@ -274,7 +275,7 @@ msgstr "Betalingskort"
 
 #: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
-msgstr "Betaling afbrudt"
+msgstr "Betaling annulleret"
 
 #: wlhosted/payments/backends.py:417
 msgid "Payment error"
@@ -319,8 +320,7 @@ msgstr "Europæisk moms-ID"
 #: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
-"Udfyld venligst den Europæiske Unions moms-ID, efterlad tomt, hvis ikke "
-"gældende."
+"Udfyld venligst EU's moms-ID. Lad det være tomt, hvis det ikke er relevant."
 
 #: wlhosted/payments/models.py:85
 msgid "Tax registration"
@@ -329,8 +329,7 @@ msgstr "Momsregistrering"
 #: wlhosted/payments/models.py:87
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
-msgstr ""
-"Udfyld venligst din momsregistrering, hvis den skal fremgå på fakturaen."
+msgstr "Udfyld venligst din momsregistrering, hvis den skal vises på fakturaen."
 
 #: wlhosted/payments/models.py:94
 msgid "Company or individual name"
@@ -350,7 +349,7 @@ msgstr "Land"
 
 #: wlhosted/payments/models.py:134
 msgid "The country has to match your VAT code"
-msgstr "Land skal stemme overens med dit momsnummer"
+msgstr "Landet skal matche din momskode"
 
 #: wlhosted/payments/models.py:157
 msgid "Annual"
