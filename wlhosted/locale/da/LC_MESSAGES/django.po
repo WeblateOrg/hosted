@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2024-03-14 13:38+0000\n"
+"PO-Revision-Date: 2024-03-17 11:47+0000\n"
 "Last-Translator: cat <158170307+cultcats@users.noreply.github.com>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/weblate/hosted/da/"
 ">\n"
@@ -32,7 +32,7 @@ msgstr "Generér Unknown Horizons-scenariedata"
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
-msgstr "Gendan repository til upstream"
+msgstr "Nulstil repository til upstream"
 
 #: wlhosted/addons.py:58
 msgid "Discards all changes in the Weblate repository each night."
