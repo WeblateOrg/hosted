@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2024-01-25 13:31+0000\n"
+"PO-Revision-Date: 2024-03-23 08:01+0000\n"
 "Last-Translator: Vlăduț Ilie <vladilie94@gmail.com>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/weblate/hosted/"
 "ro/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -28,7 +28,7 @@ msgstr "Generează datele scenariului Unknown Horizons"
 
 #: wlhosted/addons.py:57
 msgid "Reset repository to upstream"
-msgstr "Resetează depozitarul în sursa principală"
+msgstr "Resetează depozitarul la sursa principală"
 
 #: wlhosted/addons.py:58
 msgid "Discards all changes in the Weblate repository each night."
@@ -62,7 +62,7 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
-msgstr "Stare factură curentă"
+msgstr "Stare facturare curentă"
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
@@ -106,7 +106,7 @@ msgstr "Limită de proiecte"
 #: wlhosted/integrations/templates/hosted/create.html:78
 #, python-format
 msgid "%(price)s EUR / month"
-msgstr "%(price)s EUR / lună"
+msgstr "%(price)s EUR/lună"
 
 #: wlhosted/integrations/templates/hosted/create.html:79
 #: wlhosted/integrations/templates/hosted/create.html:85
@@ -117,7 +117,7 @@ msgstr "%(price)s EUR cu TVA inclus"
 #: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
 msgid "%(price)s EUR / year"
-msgstr "%(price)s EUR / an"
+msgstr "%(price)s EUR/an"
 
 #: wlhosted/integrations/templates/hosted/create.html:96
 msgid ""
