@@ -45,7 +45,7 @@ name = "Michal Čihař"
 text = "GPLv3+"
 
 [project.optional-dependencies]
-lint = ["pre-commit==3.6.2"]
+lint = ["pre-commit==3.7.0"]
 test = [
   "httpretty",
   "coverage",
