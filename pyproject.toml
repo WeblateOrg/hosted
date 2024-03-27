@@ -21,7 +21,7 @@ classifiers = [
 dependencies = [
   "Django>=4.2,<5.1",
   "django-appconf>=1.0",
-  "django-countries==7.5.1",
+  "django-countries==7.6",
   "django-vies==6.1.0",
   "fakturace==0.7.0",
   "fiobank==3.0.0",
