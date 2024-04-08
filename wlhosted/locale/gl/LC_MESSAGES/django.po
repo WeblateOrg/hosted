@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2024-03-09 18:05+0000\n"
+"PO-Revision-Date: 2024-04-08 19:07+0000\n"
 "Last-Translator: \"Miguel A. Bouzada\" <mbouzada@gmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/weblate/hosted/"
 "gl/>\n"
@@ -129,7 +129,7 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
-msgstr "Todos os prezos indicados exclúen o IVE."
+msgstr "Ningún dos prezos indicados inclúe o IVE."
 
 #: wlhosted/integrations/templates/hosted/create.html:100
 #, python-format
@@ -143,8 +143,8 @@ msgstr ""
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
-"A inversión de suxeito pasivo aplicarase ás facturas emitidas a empresas "
-"dentro da UE."
+"Ás facturas emitidas a empresas dentro da UE aplicaráselle a inversión de "
+"suxeito pasivo."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
@@ -184,7 +184,7 @@ msgstr "O pagamento foi rexeitado: {}"
 
 #: wlhosted/integrations/views.py:96
 msgid "Unknown reason"
-msgstr "Motivo descoñecido"
+msgstr "Causa descoñecida"
 
 #: wlhosted/integrations/views.py:112
 msgid "Payments are temporarily inactive."
@@ -217,7 +217,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:220
 msgid "Your payment on weblate.org failed"
-msgstr "Produciuse un fallo no seu pagamento no weblate.org"
+msgstr "Produciuse un fallo no seu pagamento en weblate.org"
 
 #: wlhosted/payments/backends.py:222
 #, python-format
@@ -310,12 +310,12 @@ msgstr "Referencia"
 
 #: wlhosted/payments/models.py:77
 msgid "European VAT ID"
-msgstr "ID. de IVE europeo"
+msgstr "ID. do IVE europeo"
 
 #: wlhosted/payments/models.py:79
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
-"Encha co número de Id. de IVE da Unión Europea, déixeo baleiro se non é "
+"Encha co número do ID. do IVE da Unión Europea, déixeo baleiro se non é "
 "aplicábel."
 
 #: wlhosted/payments/models.py:85
@@ -398,13 +398,13 @@ msgstr "{} non é un código de país válido para membros da Unión Europea."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr "{} non concorda coas especificacións da Id. de IVE do país."
+msgstr "{} non concorda coas especificacións do ID. do IVE do país."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
-"O servizo de validación de ID. do IVE non está dispoñíbel para {}; ténteo "
-"novamente máis tarde."
+"O servizo de validación do ID. do IVE non está dispoñíbel para {}; ténteo de "
+"novo máis tarde."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
