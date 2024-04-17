@@ -48,6 +48,7 @@ jobs:
       run: |
         pip install --upgrade pip wheel Cython setuptools
         pip install --no-binary :all: cffi
+        pip install https://github.com/WeblateOrg/weblate/archive/main.zip
         pip install -e .[test]
     - name: Test with Django
       env:

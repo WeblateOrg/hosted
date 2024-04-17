@@ -19,7 +19,7 @@ classifiers = [
   "Topic :: Internet :: WWW/HTTP :: Dynamic Content"
 ]
 dependencies = [
-  "Django>=4.2,<5.1",
+  "Django>=5.0,<5.1",
   "django-appconf>=1.0",
   "django-countries==7.6.1",
   "django-vies==6.1.0",
@@ -45,6 +45,9 @@ name = "Michal Čihař"
 text = "GPLv3+"
 
 [project.optional-dependencies]
+dev = [
+  "wlhosted[lint,test]"
+]
 lint = ["pre-commit==3.7.0"]
 test = [
   "httpretty",
