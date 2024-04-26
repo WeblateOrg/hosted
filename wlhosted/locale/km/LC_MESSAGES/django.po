@@ -6,13 +6,14 @@
 # Kou Prey Team <kouprey25@gmail.com>, 2020.
 # ប៉ុកណូ រ៉ូយ៉ាល់ <royalpokno68@gmail.com>, 2020, 2022.
 # កុសិនារា <kursinarapok@gmail.com>, 2023.
+# សិទ្ធិការ្យ <setthikarpok@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2023-11-09 11:34+0000\n"
-"Last-Translator: កុសិនារា <kursinarapok@gmail.com>\n"
+"PO-Revision-Date: 2024-04-26 06:35+0000\n"
+"Last-Translator: សិទ្ធិការ្យ <setthikarpok@gmail.com>\n"
 "Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/weblate/"
 "hosted/km/>\n"
 "Language: km\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.2-dev\n"
+"X-Generator: Weblate 5.5.1-dev\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -56,7 +57,7 @@ msgstr "គម្រោងបង់ប្រាក់ថ្មី"
 
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
-msgstr "សូមជ្រើសគម្រោងបង្ហោះ ដែលត្រូវជាមួយគម្រោងរបស់អ្នក។"
+msgstr "សូមជ្រើសគម្រោងបង្ហោះ ដែលសាកសមជាមួយគម្រោងរបស់អ្នក។"
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
@@ -123,7 +124,7 @@ msgid ""
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
-"ការកំណត់តម្លៃ គឺផ្អែកលើចំនួននៃខ្សែអក្សរ និងភាសាគោលដៅ។ ប្រភពខ្សែអក្សរ "
+"ការកំណត់តម្លៃ គឺផ្អែកលើចំនួនស្ទ្រុិង និងភាសាគោលដៅ។ ប្រភពស្ទ្រុិង "
 "គឺជាឯកតាអត្ថបទដែលបានកំណត់ជាទម្រង់នៃការបកប្រែ វាអាចជាពាក្យ ប្រយោគឬកថាខណ្ឌ។"
 
 #: wlhosted/integrations/templates/hosted/create.html:99
@@ -233,7 +234,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
-msgstr ""
+msgstr "ការទូទាត់ដែលមិនទាន់សម្រេចរបស់អ្នកឯ weblate.org"
 
 #: wlhosted/payments/backends.py:257
 msgid ""
