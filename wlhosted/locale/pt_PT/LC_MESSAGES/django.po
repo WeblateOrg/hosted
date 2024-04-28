@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Weblate <noreply@weblate.org>, 2020.
 # ssantos <ssantos@web.de>, 2020, 2021.
+# Manuela Silva <mmsrs@sky.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2021-01-27 08:35+0000\n"
-"PO-Revision-Date: 2021-01-31 12:14+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2024-04-28 18:28+0000\n"
+"Last-Translator: Manuela Silva <mmsrs@sky.com>\n"
 "Language-Team: Portuguese (Portugal) <https://hosted.weblate.org/projects/"
 "weblate/hosted/pt_PT/>\n"
 "Language: pt_PT\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.5-dev\n"
+"X-Generator: Weblate 5.5.1\n"
 
 #: wlhosted/addons.py:34 wlhosted/addons.py:35
 msgid "Generate Unknown Horizons scenario data"
@@ -29,7 +30,7 @@ msgstr "Redefinir repositório para \"upstream\""
 
 #: wlhosted/addons.py:58
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Descarta todas as alterações no repositório do Weblate todas as noites."
+msgstr "Ignora todas as alterações no repositório do Weblate todas as noites."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
@@ -171,8 +172,8 @@ msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
-"Obrigado por comprar um plano de alojamento. O pagamento está pendente e "
-"será processado em segundo plano."
+"Obrigado por comprar um plano de alojamento, o pagamento deste está pendente "
+"e será processado em segundo plano."
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
@@ -204,16 +205,16 @@ msgid ""
 msgstr ""
 "Olá\n"
 "\n"
-"Obrigado pelo seu pagamento no weblate.org.\n"
+"Obrigado pelo seu pagamento em weblate.org.\n"
 "\n"
-"Irá encontrar anexada uma fatura deste pagamento.\n"
-"Alternativamente, pode descarregá-la do site da Web:\n"
+"Irá encontrar uma fatura deste pagamento anexada.\n"
+"Alternativamente, pode transferi-la do ''site'' da Web:\n"
 "\n"
 "%s\n"
 
 #: wlhosted/payments/backends.py:220
 msgid "Your payment on weblate.org failed"
-msgstr "O seu pagamento no weblate.org falhou"
+msgstr "O seu pagamento em weblate.org falhou"
 
 #: wlhosted/payments/backends.py:222
 #, python-format
@@ -233,20 +234,20 @@ msgid ""
 msgstr ""
 "Olá\n"
 "\n"
-"O seu pagamento no weblate.org falhou.\n"
+"O seu pagamento em weblate.org falhou.\n"
 "\n"
 "%s\n"
 "\n"
-"Tente emitir o pagamento na página novamente:\n"
+"Tente emitir o pagamento no ''site'' da Web:\n"
 "\n"
 "%s\n"
 "\n"
-"Se estiver relacionado a um pagamento recorrente,\n"
-"será repetido três vezes e, se ainda falhar, cancelado.\n"
+"Se estiver relacionado com um pagamento recorrente,\n"
+"este será repetido três vezes e, se ainda falhar, cancelado.\n"
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
-msgstr "O seu pagamento pendente no weblate.org"
+msgstr "O seu pagamento pendente em weblate.org"
 
 #: wlhosted/payments/backends.py:257
 msgid ""
@@ -257,8 +258,8 @@ msgid ""
 msgstr ""
 "Olá,\n"
 "\n"
-"Seu pagamento em weblate.org está pendente. Por favor, siga as\n"
-"instruções para completar o pagamento.\n"
+"O seu pagamento em weblate.org está pendente. Por favor, siga as\n"
+"instruções fornecidas para concluir o pagamento.\n"
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
@@ -322,8 +323,8 @@ msgstr "Registo de imposto"
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
-"Por favor, preencha o seu registo de imposto se ele deveria aparecer na "
-"factura."
+"Por favor, preencha o seu registo de imposto se este deveria aparecer na "
+"fatura."
 
 #: wlhosted/payments/models.py:94
 msgid "Company or individual name"
