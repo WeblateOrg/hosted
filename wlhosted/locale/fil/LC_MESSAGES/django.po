@@ -5,11 +5,11 @@
 # Marco Santos <enum.scima@gmail.com>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2022-05-24 15:14+0000\n"
-"Last-Translator: Marco Santos <enum.scima@gmail.com>\n"
+"PO-Revision-Date: 2024-05-06 11:51+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Filipino <https://hosted.weblate.org/projects/weblate/hosted/"
 "fil/>\n"
 "Language: fil\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1 && n != 2 && n != 3 && (n % 10 == 4 "
 "|| n % 10 == 6 || n % 10 == 9);\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 5.5.3\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -372,10 +372,8 @@ msgid "Monthly"
 msgstr "Kada buwan"
 
 #: wlhosted/payments/models.py:171
-#, fuzzy
-#| msgid "Onetime"
 msgid "One-time"
-msgstr "Isang beses"
+msgstr "Isang beses lamang"
 
 #: wlhosted/payments/models.py:205
 msgctxt "Payment state"
