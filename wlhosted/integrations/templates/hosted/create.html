@@ -53,14 +53,14 @@
     <h3 class="panel-title">{{ plan.name }}</h3>
   </div>
   <table class="table table-striped">
-  <tr><th>{% trans "Strings limit" %}</th>
+  <tr><th>{% trans "Hosted strings limit" %}</th>
+  <td>{% if plan.display_limit_hosted_strings %}{{ plan.display_limit_hosted_strings|intcomma }}{% else %}{% trans "Unlimited" %}{% endif %}</td>
+  </tr>
+  <tr><th>{% trans "Source strings limit" %}</th>
   <td>{% if plan.display_limit_strings %}{{ plan.display_limit_strings|intcomma }}{% else %}{% trans "Unlimited" %}{% endif %}</td>
   </tr>
   <tr><th>{% trans "Languages limit" %}</th>
   <td>{% if plan.display_limit_languages %}{{ plan.display_limit_languages|intcomma }}{% else %}{% trans "Unlimited" %}{% endif %}</td>
-  </tr>
-  <tr><th>{% trans "Component limit" %}</th>
-  <td>{% trans "Unlimited" %}</td>
   </tr>
   <tr><th>{% trans "Projects limit" %}</th>
   <td>{% if plan.display_limit_projects %}{{ plan.display_limit_projects|intcomma }}{% else %}{% trans "Unlimited" %}{% endif %}</td>
