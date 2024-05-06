@@ -6,9 +6,9 @@
 # Michal Čihař <michal@cihar.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate\n"
+"Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2021-01-27 08:35+0000\n"
+"POT-Creation-Date: 2024-05-06 10:30+0000\n"
 "PO-Revision-Date: 2021-01-29 20:41+0000\n"
 "Last-Translator: Johan Jacobsson <johan.jacobsson@telia.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -20,15 +20,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.5-dev\n"
 
-#: wlhosted/addons.py:34 wlhosted/addons.py:35
+#: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
 msgstr "Generera Unknown Horizons scenariodata"
 
-#: wlhosted/addons.py:57
+#: wlhosted/addons.py:67
 msgid "Reset repository to upstream"
 msgstr "Återställ förrådet till uppströms"
 
-#: wlhosted/addons.py:58
+#: wlhosted/addons.py:68
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "Kasserar alla ändringar i Weblate-arkivet varje natt."
 
@@ -77,7 +77,9 @@ msgid "Current plan"
 msgstr "Aktuell plan"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
-msgid "Strings limit"
+#, fuzzy
+#| msgid "Strings limit"
+msgid "Hosted strings limit"
 msgstr "Strängbegränsning"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
@@ -88,12 +90,14 @@ msgid "Unlimited"
 msgstr "Obegränsat"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
-msgid "Languages limit"
-msgstr "Språkbegränsning"
+#, fuzzy
+#| msgid "Strings limit"
+msgid "Source strings limit"
+msgstr "Strängbegränsning"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
-msgid "Component limit"
-msgstr "Komponentgräns"
+msgid "Languages limit"
+msgstr "Språkbegränsning"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
@@ -305,84 +309,86 @@ msgstr "IBAN"
 msgid "Reference"
 msgstr "Referens"
 
-#: wlhosted/payments/models.py:77
+#: wlhosted/payments/models.py:88
 msgid "European VAT ID"
 msgstr "Europeiskt moms-ID"
 
-#: wlhosted/payments/models.py:79
+#: wlhosted/payments/models.py:90
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr "Vänligen fyll i EU:s moms-ID, lämna tomt om inte tillämpligt."
 
-#: wlhosted/payments/models.py:85
+#: wlhosted/payments/models.py:96
 msgid "Tax registration"
 msgstr "Skatteregistrering"
 
-#: wlhosted/payments/models.py:87
+#: wlhosted/payments/models.py:98
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "Vänligen fyll i din skatteregistrering om den ska visas på fakturan."
 
-#: wlhosted/payments/models.py:94
+#: wlhosted/payments/models.py:105
 msgid "Company or individual name"
 msgstr "Företag eller enskilt namn"
 
-#: wlhosted/payments/models.py:97
+#: wlhosted/payments/models.py:108
 msgid "Address"
 msgstr "Adress"
 
-#: wlhosted/payments/models.py:100
+#: wlhosted/payments/models.py:111
 msgid "Postcode and city"
 msgstr "Postnummer och stad"
 
-#: wlhosted/payments/models.py:102
+#: wlhosted/payments/models.py:113
 msgid "Country"
 msgstr "Land"
 
-#: wlhosted/payments/models.py:134
+#: wlhosted/payments/models.py:144
 msgid "The country has to match your VAT code"
 msgstr "Landet måste matcha din momskod"
 
-#: wlhosted/payments/models.py:157
+#: wlhosted/payments/models.py:167
 msgid "Annual"
 msgstr "Årlig"
 
-#: wlhosted/payments/models.py:158
+#: wlhosted/payments/models.py:168
 msgid "Biannual"
 msgstr "Två gånger om året"
 
-#: wlhosted/payments/models.py:159
+#: wlhosted/payments/models.py:169
 msgid "Quarterly"
 msgstr "Kvartalsvis"
 
-#: wlhosted/payments/models.py:160
+#: wlhosted/payments/models.py:170
 msgid "Monthly"
 msgstr "Månatlig"
 
-#: wlhosted/payments/models.py:161
-msgid "Onetime"
+#: wlhosted/payments/models.py:171
+#, fuzzy
+#| msgid "Onetime"
+msgid "One-time"
 msgstr "En gång"
 
-#: wlhosted/payments/models.py:195
+#: wlhosted/payments/models.py:205
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Ny betalning"
 
-#: wlhosted/payments/models.py:196
+#: wlhosted/payments/models.py:206
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Väntar på betalning"
 
-#: wlhosted/payments/models.py:197
+#: wlhosted/payments/models.py:207
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Betalning avvisad"
 
-#: wlhosted/payments/models.py:198
+#: wlhosted/payments/models.py:208
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Betalning accepterad"
 
-#: wlhosted/payments/models.py:199
+#: wlhosted/payments/models.py:209
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Betalning behandlad"
@@ -404,6 +410,9 @@ msgstr ""
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
 msgstr "{} är inte ett giltigt moms-ID."
+
+#~ msgid "Component limit"
+#~ msgstr "Komponentgräns"
 
 #~ msgid ""
 #~ "We comply with the Regulation No. %(law_679_2016)s, the General Data "
@@ -487,12 +496,12 @@ msgstr "{} är inte ett giltigt moms-ID."
 #~ "för att tillhandahålla våra tjänster på Tjänsten, för att kontakta dig i "
 #~ "frågor som rör våra tjänster (även med e-post och meddelanden) och för "
 #~ "att säkerställa den tekniska funktionaliteten för våra tjänster att "
-#~ "uppfylla avtalsenliga eller kontraktsmässiga skyldigheter (<a href="
-#~ "\"%(url)s\"> Artikel 6 (1) b. GDPR</a>)"
+#~ "uppfylla avtalsenliga eller kontraktsmässiga skyldigheter (<a "
+#~ "href=\"%(url)s\"> Artikel 6 (1) b. GDPR</a>)"
 
 #~ msgid ""
-#~ "to analyze your use of our services and improve our services (<a href="
-#~ "\"%(url)s\">Article 6 (1) b. and f. GDPR</a>)"
+#~ "to analyze your use of our services and improve our services (<a "
+#~ "href=\"%(url)s\">Article 6 (1) b. and f. GDPR</a>)"
 #~ msgstr ""
 #~ "att analysera din användning av våra tjänster och förbättra våra tjänster "
 #~ "(<a href=\"%(url)s\">artikel 6 (1) b. och f. GDPR</a>)"
@@ -503,8 +512,8 @@ msgstr "{} är inte ett giltigt moms-ID."
 #~ "GDPR</a>)"
 #~ msgstr ""
 #~ "med ditt uttryckliga medgivande eller instruktion att utföra vår "
-#~ "affärsverksamhet eller skicka nyhetsbrev till dig (<a href=\"%(url)s"
-#~ "\">artikel 6 (1) a. GDPR</a>)"
+#~ "affärsverksamhet eller skicka nyhetsbrev till dig (<a "
+#~ "href=\"%(url)s\">artikel 6 (1) a. GDPR</a>)"
 
 #~ msgid "Access to the Personal Data"
 #~ msgstr "Åtkomst till persondata"
@@ -916,14 +925,14 @@ msgstr "{} är inte ett giltigt moms-ID."
 #~ "affärskommunikation."
 
 #~ msgid ""
-#~ "The User declares awareness of own rights under <a href=\"%(url_15)s"
-#~ "\">Article 15</a> and <a href=\"%(url_17)s\">Article 17</a> of the GDPR "
-#~ "and declares that all the Personal Data is accurate and true and has been "
-#~ "provided voluntarily."
+#~ "The User declares awareness of own rights under <a "
+#~ "href=\"%(url_15)s\">Article 15</a> and <a href=\"%(url_17)s\">Article 17</"
+#~ "a> of the GDPR and declares that all the Personal Data is accurate and "
+#~ "true and has been provided voluntarily."
 #~ msgstr ""
-#~ "Användaren tillkännager medvetenhet om egna rättigheter under <a href="
-#~ "\"%(url_15)s\">Article 15</a> och <a href=\"%(url_17)s\">Article 17</a> i "
-#~ "GDPR och försäkrar att alla personuppgifter är korrekta och "
+#~ "Användaren tillkännager medvetenhet om egna rättigheter under <a "
+#~ "href=\"%(url_15)s\">Article 15</a> och <a href=\"%(url_17)s\">Article 17</"
+#~ "a> i GDPR och försäkrar att alla personuppgifter är korrekta och "
 #~ "sanningsenliga och har tillhandahållits frivilligt."
 
 #~ msgid ""

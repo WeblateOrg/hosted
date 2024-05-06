@@ -15,9 +15,9 @@
 # 99 efi <fegyed71@gmail.com>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate\n"
+"Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2021-01-27 08:35+0000\n"
+"POT-Creation-Date: 2024-05-06 10:30+0000\n"
 "PO-Revision-Date: 2022-05-01 10:27+0000\n"
 "Last-Translator: 99 efi <fegyed71@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -29,15 +29,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.12.1\n"
 
-#: wlhosted/addons.py:34 wlhosted/addons.py:35
+#: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
 msgstr "Unknown Horizons forgatókönyv adatok létrehozása"
 
-#: wlhosted/addons.py:57
+#: wlhosted/addons.py:67
 msgid "Reset repository to upstream"
 msgstr "Tároló visszaállítása az upstream-hez"
 
-#: wlhosted/addons.py:58
+#: wlhosted/addons.py:68
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "Minden éjjel elveti az összes változtatást a Weblate tárolóban."
 
@@ -88,7 +88,9 @@ msgid "Current plan"
 msgstr "Jelenlegi csomag"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
-msgid "Strings limit"
+#, fuzzy
+#| msgid "Strings limit"
+msgid "Hosted strings limit"
 msgstr "Szövegek korlátja"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
@@ -99,12 +101,14 @@ msgid "Unlimited"
 msgstr "Korlátlan"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
-msgid "Languages limit"
-msgstr "Nyelvek korlátja"
+#, fuzzy
+#| msgid "Strings limit"
+msgid "Source strings limit"
+msgstr "Szövegek korlátja"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
-msgid "Component limit"
-msgstr "Összetevők korlátja"
+msgid "Languages limit"
+msgstr "Nyelvek korlátja"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
@@ -315,86 +319,88 @@ msgstr "Nemzetközi bankszámlaszám (IBAN)"
 msgid "Reference"
 msgstr "Hivatkozás"
 
-#: wlhosted/payments/models.py:77
+#: wlhosted/payments/models.py:88
 msgid "European VAT ID"
 msgstr "Európai ÁFA azonosító"
 
-#: wlhosted/payments/models.py:79
+#: wlhosted/payments/models.py:90
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "Kérjük, töltse ki az Európai Unió ÁFA-azonosítóját, ha nem alkalmazható, "
 "hagyja üresen."
 
-#: wlhosted/payments/models.py:85
+#: wlhosted/payments/models.py:96
 msgid "Tax registration"
 msgstr "Adószám"
 
-#: wlhosted/payments/models.py:87
+#: wlhosted/payments/models.py:98
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "Kérjük, töltse ki adószámát, ha meg kell jeleníteni a számlán."
 
-#: wlhosted/payments/models.py:94
+#: wlhosted/payments/models.py:105
 msgid "Company or individual name"
 msgstr "Cég vagy magánszemély neve"
 
-#: wlhosted/payments/models.py:97
+#: wlhosted/payments/models.py:108
 msgid "Address"
 msgstr "Cím"
 
-#: wlhosted/payments/models.py:100
+#: wlhosted/payments/models.py:111
 msgid "Postcode and city"
 msgstr "Irányítószám és város"
 
-#: wlhosted/payments/models.py:102
+#: wlhosted/payments/models.py:113
 msgid "Country"
 msgstr "Ország"
 
-#: wlhosted/payments/models.py:134
+#: wlhosted/payments/models.py:144
 msgid "The country has to match your VAT code"
 msgstr "Az országnak meg kell egyeznie az ÁFA kóddal"
 
-#: wlhosted/payments/models.py:157
+#: wlhosted/payments/models.py:167
 msgid "Annual"
 msgstr "Éves"
 
-#: wlhosted/payments/models.py:158
+#: wlhosted/payments/models.py:168
 msgid "Biannual"
 msgstr "Féléves"
 
-#: wlhosted/payments/models.py:159
+#: wlhosted/payments/models.py:169
 msgid "Quarterly"
 msgstr "Negyedéves"
 
-#: wlhosted/payments/models.py:160
+#: wlhosted/payments/models.py:170
 msgid "Monthly"
 msgstr "Havonta"
 
-#: wlhosted/payments/models.py:161
-msgid "Onetime"
+#: wlhosted/payments/models.py:171
+#, fuzzy
+#| msgid "Onetime"
+msgid "One-time"
 msgstr "Egyszeri"
 
-#: wlhosted/payments/models.py:195
+#: wlhosted/payments/models.py:205
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Új fizetés"
 
-#: wlhosted/payments/models.py:196
+#: wlhosted/payments/models.py:206
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Fizetésre vár"
 
-#: wlhosted/payments/models.py:197
+#: wlhosted/payments/models.py:207
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Fizetés elutasítva"
 
-#: wlhosted/payments/models.py:198
+#: wlhosted/payments/models.py:208
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Fizetés elfogadva"
 
-#: wlhosted/payments/models.py:199
+#: wlhosted/payments/models.py:209
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Fizetés feldolgozva"
@@ -418,6 +424,9 @@ msgstr ""
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
 msgstr "{} érvénytelen ÁFA azonosító."
+
+#~ msgid "Component limit"
+#~ msgstr "Összetevők korlátja"
 
 #~ msgid ""
 #~ "We comply with the Regulation No. %(law_679_2016)s, the General Data "

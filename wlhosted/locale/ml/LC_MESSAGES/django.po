@@ -8,9 +8,9 @@
 # Alan Jacob Mathew <alanjacobmathew@gmail.com>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate\n"
+"Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2021-01-27 08:35+0000\n"
+"POT-Creation-Date: 2024-05-06 10:30+0000\n"
 "PO-Revision-Date: 2022-08-09 19:23+0000\n"
 "Last-Translator: Alan Jacob Mathew <alanjacobmathew@gmail.com>\n"
 "Language-Team: Malayalam <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -22,15 +22,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.14-dev\n"
 
-#: wlhosted/addons.py:34 wlhosted/addons.py:35
+#: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
 msgstr ""
 
-#: wlhosted/addons.py:57
+#: wlhosted/addons.py:67
 msgid "Reset repository to upstream"
 msgstr ""
 
-#: wlhosted/addons.py:58
+#: wlhosted/addons.py:68
 msgid "Discards all changes in the Weblate repository each night."
 msgstr ""
 
@@ -79,7 +79,7 @@ msgid "Current plan"
 msgstr "നിലവിലെ പ്ലാൻ"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
-msgid "Strings limit"
+msgid "Hosted strings limit"
 msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:57
@@ -90,11 +90,11 @@ msgid "Unlimited"
 msgstr "പരിധിയില്ലാത്തത്"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
-msgid "Languages limit"
+msgid "Source strings limit"
 msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:62
-msgid "Component limit"
+msgid "Languages limit"
 msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:65
@@ -275,84 +275,86 @@ msgstr "IBAN"
 msgid "Reference"
 msgstr ""
 
-#: wlhosted/payments/models.py:77
+#: wlhosted/payments/models.py:88
 msgid "European VAT ID"
 msgstr ""
 
-#: wlhosted/payments/models.py:79
+#: wlhosted/payments/models.py:90
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 
-#: wlhosted/payments/models.py:85
+#: wlhosted/payments/models.py:96
 msgid "Tax registration"
 msgstr "നികുതി രജിസ്ട്രേഷൻ"
 
-#: wlhosted/payments/models.py:87
+#: wlhosted/payments/models.py:98
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
 
-#: wlhosted/payments/models.py:94
+#: wlhosted/payments/models.py:105
 msgid "Company or individual name"
 msgstr "കമ്പനി അല്ലെങ്കിൽ വ്യക്തിയുടെ പേര്"
 
-#: wlhosted/payments/models.py:97
+#: wlhosted/payments/models.py:108
 msgid "Address"
 msgstr "മേൽവിലാസം"
 
-#: wlhosted/payments/models.py:100
+#: wlhosted/payments/models.py:111
 msgid "Postcode and city"
 msgstr "പിൻ കോഡും നഗരവും"
 
-#: wlhosted/payments/models.py:102
+#: wlhosted/payments/models.py:113
 msgid "Country"
 msgstr "രാജ്യം"
 
-#: wlhosted/payments/models.py:134
+#: wlhosted/payments/models.py:144
 msgid "The country has to match your VAT code"
 msgstr "താങ്കളുടെ VAT കോഡ് രാജ്യവുമായി പൊരുത്തപ്പെടണം"
 
-#: wlhosted/payments/models.py:157
+#: wlhosted/payments/models.py:167
 msgid "Annual"
 msgstr "വാർഷികം"
 
-#: wlhosted/payments/models.py:158
+#: wlhosted/payments/models.py:168
 msgid "Biannual"
 msgstr "ദ്വി വാർഷിക"
 
-#: wlhosted/payments/models.py:159
+#: wlhosted/payments/models.py:169
 msgid "Quarterly"
 msgstr "ത്രൈമാസ"
 
-#: wlhosted/payments/models.py:160
+#: wlhosted/payments/models.py:170
 msgid "Monthly"
 msgstr "പ്രതിമാസം"
 
-#: wlhosted/payments/models.py:161
-msgid "Onetime"
+#: wlhosted/payments/models.py:171
+#, fuzzy
+#| msgid "Onetime"
+msgid "One-time"
 msgstr "ഒരു തവണ"
 
-#: wlhosted/payments/models.py:195
+#: wlhosted/payments/models.py:205
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "പുതിയ പേയ്‌മെന്റ്"
 
-#: wlhosted/payments/models.py:196
+#: wlhosted/payments/models.py:206
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr ""
 
-#: wlhosted/payments/models.py:197
+#: wlhosted/payments/models.py:207
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "പേയ്‌മെന്റ് നിരസിച്ചു"
 
-#: wlhosted/payments/models.py:198
+#: wlhosted/payments/models.py:208
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "പേയ്‌മെന്റ് സ്വീകരിച്ചു"
 
-#: wlhosted/payments/models.py:199
+#: wlhosted/payments/models.py:209
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "പേയ്‌മെന്റ് പ്രോസസ്സ് ചെയ്‌തു"

@@ -4,9 +4,9 @@
 # Coool (github.com/Coool) <coool@mail.lv>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate\n"
+"Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2021-01-27 08:35+0000\n"
+"POT-Creation-Date: 2024-05-06 10:30+0000\n"
 "PO-Revision-Date: 2022-09-28 01:21+0000\n"
 "Last-Translator: Coool (github.com/Coool) <coool@mail.lv>\n"
 "Language-Team: Latvian <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -19,17 +19,17 @@ msgstr ""
 "19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);\n"
 "X-Generator: Weblate 4.14.1\n"
 
-#: wlhosted/addons.py:34 wlhosted/addons.py:35
+#: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
 msgstr "Ģenerēt scenāriju datus nezināmiem laika periodiem"
 
-#: wlhosted/addons.py:57
+#: wlhosted/addons.py:67
 msgid "Reset repository to upstream"
 msgstr ""
 "Atiestatīt repozitoriju tā sākotnējā stāvoklī, pa pamatu ņemot izejas koda "
 "repozitoriju"
 
-#: wlhosted/addons.py:58
+#: wlhosted/addons.py:68
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "Katru nakti atmet visas Weblate repozitorijā veiktās izmaiņas."
 
@@ -78,7 +78,9 @@ msgid "Current plan"
 msgstr "Pašreizējais plāns"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
-msgid "Strings limit"
+#, fuzzy
+#| msgid "Strings limit"
+msgid "Hosted strings limit"
 msgstr "Virknes ierobežojums"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
@@ -89,12 +91,14 @@ msgid "Unlimited"
 msgstr "Neierobežots"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
-msgid "Languages limit"
-msgstr "Valodu ierobežojums"
+#, fuzzy
+#| msgid "Strings limit"
+msgid "Source strings limit"
+msgstr "Virknes ierobežojums"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
-msgid "Component limit"
-msgstr "Komponentu ierobežojums"
+msgid "Languages limit"
+msgstr "Valodu ierobežojums"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
@@ -304,88 +308,90 @@ msgstr "IBAN"
 msgid "Reference"
 msgstr "Uzziņa"
 
-#: wlhosted/payments/models.py:77
+#: wlhosted/payments/models.py:88
 msgid "European VAT ID"
 msgstr "Eiropas PVN maksātāja numurs"
 
-#: wlhosted/payments/models.py:79
+#: wlhosted/payments/models.py:90
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "Lūdzu, aizpildiet Eiropas Savienības PVN maksātāja numuru, atstājiet tukšu, "
 "ja tas nav piemērojams."
 
-#: wlhosted/payments/models.py:85
+#: wlhosted/payments/models.py:96
 msgid "Tax registration"
 msgstr "Nodokļu reģistrācija"
 
-#: wlhosted/payments/models.py:87
+#: wlhosted/payments/models.py:98
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
 "Lūdzu, ievadiet savu nodokļu maksātāja numuru, ja vēlaties, lai tas parādās "
 "rēķinā."
 
-#: wlhosted/payments/models.py:94
+#: wlhosted/payments/models.py:105
 msgid "Company or individual name"
 msgstr "Uzņēmuma vai personas vārds"
 
-#: wlhosted/payments/models.py:97
+#: wlhosted/payments/models.py:108
 msgid "Address"
 msgstr "Adrese"
 
-#: wlhosted/payments/models.py:100
+#: wlhosted/payments/models.py:111
 msgid "Postcode and city"
 msgstr "Pasta indekss un pilsēta"
 
-#: wlhosted/payments/models.py:102
+#: wlhosted/payments/models.py:113
 msgid "Country"
 msgstr "Valsts"
 
-#: wlhosted/payments/models.py:134
+#: wlhosted/payments/models.py:144
 msgid "The country has to match your VAT code"
 msgstr "Valstij ir jāatbilst jūsu PVN kodam"
 
-#: wlhosted/payments/models.py:157
+#: wlhosted/payments/models.py:167
 msgid "Annual"
 msgstr "Ik gadu"
 
-#: wlhosted/payments/models.py:158
+#: wlhosted/payments/models.py:168
 msgid "Biannual"
 msgstr "Reizi pusgadā"
 
-#: wlhosted/payments/models.py:159
+#: wlhosted/payments/models.py:169
 msgid "Quarterly"
 msgstr "Reizi ceturksnī"
 
-#: wlhosted/payments/models.py:160
+#: wlhosted/payments/models.py:170
 msgid "Monthly"
 msgstr "Ikmēnesi"
 
-#: wlhosted/payments/models.py:161
-msgid "Onetime"
+#: wlhosted/payments/models.py:171
+#, fuzzy
+#| msgid "Onetime"
+msgid "One-time"
 msgstr "Vienreiz"
 
-#: wlhosted/payments/models.py:195
+#: wlhosted/payments/models.py:205
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Jauns maksājums"
 
-#: wlhosted/payments/models.py:196
+#: wlhosted/payments/models.py:206
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Gaida apmaksu"
 
-#: wlhosted/payments/models.py:197
+#: wlhosted/payments/models.py:207
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Maksājums noraidīts"
 
-#: wlhosted/payments/models.py:198
+#: wlhosted/payments/models.py:208
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Maksājums pieņemts"
 
-#: wlhosted/payments/models.py:199
+#: wlhosted/payments/models.py:209
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Maksājums apstrādāts"
@@ -407,3 +413,6 @@ msgstr ""
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
 msgstr "{} nav derīgs PVN maksātāja numurs."
+
+#~ msgid "Component limit"
+#~ msgstr "Komponentu ierobežojums"

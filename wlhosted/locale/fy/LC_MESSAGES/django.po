@@ -6,9 +6,9 @@
 # Vancha March <tjipkevdh@gmail.com>, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate\n"
+"Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2021-01-27 08:35+0000\n"
+"POT-Creation-Date: 2024-05-06 10:30+0000\n"
 "PO-Revision-Date: 2021-06-30 15:01+0000\n"
 "Last-Translator: Vancha March <tjipkevdh@gmail.com>\n"
 "Language-Team: Frisian <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -20,15 +20,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.7.1-dev\n"
 
-#: wlhosted/addons.py:34 wlhosted/addons.py:35
+#: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
 msgstr ""
 
-#: wlhosted/addons.py:57
+#: wlhosted/addons.py:67
 msgid "Reset repository to upstream"
 msgstr ""
 
-#: wlhosted/addons.py:58
+#: wlhosted/addons.py:68
 msgid "Discards all changes in the Weblate repository each night."
 msgstr ""
 
@@ -77,8 +77,10 @@ msgid "Current plan"
 msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:56
-msgid "Strings limit"
-msgstr ""
+#, fuzzy
+#| msgid "Merge style"
+msgid "Hosted strings limit"
+msgstr "Berjochtstyl"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
@@ -89,15 +91,15 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:59
 #, fuzzy
-#| msgid "Languages"
-msgid "Languages limit"
-msgstr "Talen"
+#| msgid "Merge style"
+msgid "Source strings limit"
+msgstr "Berjochtstyl"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 #, fuzzy
-#| msgid "Project"
-msgid "Component limit"
-msgstr "Projekt"
+#| msgid "Languages"
+msgid "Languages limit"
+msgstr "Talen"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 #, fuzzy
@@ -279,86 +281,88 @@ msgstr "IBAN"
 msgid "Reference"
 msgstr "Referinsje"
 
-#: wlhosted/payments/models.py:77
+#: wlhosted/payments/models.py:88
 msgid "European VAT ID"
 msgstr "Europeesk BTW ID"
 
-#: wlhosted/payments/models.py:79
+#: wlhosted/payments/models.py:90
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 
-#: wlhosted/payments/models.py:85
+#: wlhosted/payments/models.py:96
 msgid "Tax registration"
 msgstr "Belesting registraasje"
 
-#: wlhosted/payments/models.py:87
+#: wlhosted/payments/models.py:98
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
 "Graach jo belesting registraasje ynfiere as dit op de faktuer sjen litten "
 "wurde moat."
 
-#: wlhosted/payments/models.py:94
+#: wlhosted/payments/models.py:105
 msgid "Company or individual name"
 msgstr "Namme fan bedriuw as yndividu"
 
-#: wlhosted/payments/models.py:97
+#: wlhosted/payments/models.py:108
 msgid "Address"
 msgstr "Adres"
 
-#: wlhosted/payments/models.py:100
+#: wlhosted/payments/models.py:111
 msgid "Postcode and city"
 msgstr "Postkoade en stêd"
 
-#: wlhosted/payments/models.py:102
+#: wlhosted/payments/models.py:113
 msgid "Country"
 msgstr "Lân"
 
-#: wlhosted/payments/models.py:134
+#: wlhosted/payments/models.py:144
 msgid "The country has to match your VAT code"
 msgstr "It lân mat oerien komme mei jo BTW koade"
 
-#: wlhosted/payments/models.py:157
+#: wlhosted/payments/models.py:167
 msgid "Annual"
 msgstr "Jierliks"
 
-#: wlhosted/payments/models.py:158
+#: wlhosted/payments/models.py:168
 msgid "Biannual"
 msgstr "Twa kear yn 't jier"
 
-#: wlhosted/payments/models.py:159
+#: wlhosted/payments/models.py:169
 msgid "Quarterly"
 msgstr "Fearnsjierliks"
 
-#: wlhosted/payments/models.py:160
+#: wlhosted/payments/models.py:170
 msgid "Monthly"
 msgstr "Moanliks"
 
-#: wlhosted/payments/models.py:161
-msgid "Onetime"
+#: wlhosted/payments/models.py:171
+#, fuzzy
+#| msgid "Onetime"
+msgid "One-time"
 msgstr "Ien kear"
 
-#: wlhosted/payments/models.py:195
+#: wlhosted/payments/models.py:205
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Nije betelling"
 
-#: wlhosted/payments/models.py:196
+#: wlhosted/payments/models.py:206
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Yn ôfwachting fan betelling"
 
-#: wlhosted/payments/models.py:197
+#: wlhosted/payments/models.py:207
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Betelling net akseptearre"
 
-#: wlhosted/payments/models.py:198
+#: wlhosted/payments/models.py:208
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Betelling akseptearre"
 
-#: wlhosted/payments/models.py:199
+#: wlhosted/payments/models.py:209
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Betelling ferwurke"
@@ -378,6 +382,11 @@ msgstr ""
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Project"
+#~ msgid "Component limit"
+#~ msgstr "Projekt"
 
 #, fuzzy
 #~| msgid "Version control"
@@ -440,8 +449,3 @@ msgstr ""
 
 #~ msgid "Translations"
 #~ msgstr "Tersettings"
-
-#, fuzzy
-#~| msgid "Merge style"
-#~ msgid "Repositories limit"
-#~ msgstr "Berjochtstyl"

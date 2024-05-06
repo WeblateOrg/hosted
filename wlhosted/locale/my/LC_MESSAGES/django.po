@@ -6,9 +6,9 @@
 # Tun Tun AUNG <tuntunaung@codingclassroom.org>, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate\n"
+"Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2021-01-27 08:35+0000\n"
+"POT-Creation-Date: 2024-05-06 10:30+0000\n"
 "PO-Revision-Date: 2021-09-15 18:34+0000\n"
 "Last-Translator: Tun Tun AUNG <tuntunaung@codingclassroom.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -20,15 +20,15 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.9-dev\n"
 
-#: wlhosted/addons.py:34 wlhosted/addons.py:35
+#: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
 msgstr ""
 
-#: wlhosted/addons.py:57
+#: wlhosted/addons.py:67
 msgid "Reset repository to upstream"
 msgstr ""
 
-#: wlhosted/addons.py:58
+#: wlhosted/addons.py:68
 msgid "Discards all changes in the Weblate repository each night."
 msgstr ""
 
@@ -77,7 +77,7 @@ msgid "Current plan"
 msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:56
-msgid "Strings limit"
+msgid "Hosted strings limit"
 msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:57
@@ -88,11 +88,11 @@ msgid "Unlimited"
 msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:59
-msgid "Languages limit"
+msgid "Source strings limit"
 msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:62
-msgid "Component limit"
+msgid "Languages limit"
 msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:65
@@ -273,88 +273,90 @@ msgstr "IBAN"
 msgid "Reference"
 msgstr "ရည်ညွှန်း"
 
-#: wlhosted/payments/models.py:77
+#: wlhosted/payments/models.py:88
 msgid "European VAT ID"
 msgstr "ဥရောပသမဂ္ဂ VAT ID"
 
-#: wlhosted/payments/models.py:79
+#: wlhosted/payments/models.py:90
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr "ကျေးဇူးပြု၍ ဥရောပသမဂ္ဂ ၏ VAT ID ကိုဖြည့်ပါ၊ မသက်ဆိုင်ပါက ကွက်လပ်ချန်ထားနိုင်သည်။"
 
-#: wlhosted/payments/models.py:85
+#: wlhosted/payments/models.py:96
 msgid "Tax registration"
 msgstr "အခွန် မှတ်တမ်းတင်ခြင်း"
 
-#: wlhosted/payments/models.py:87
+#: wlhosted/payments/models.py:98
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
 "ကျေးဇူးပြု၍ သင် ၏ အခွန်မှတ်တမ်းကို ဖြည့်သွင်းခြင်းဖြင့် ၄င်းသည် ငွေပေးခြေလွှာပေါ်တွင် ပေါ်လာလိမ့်မည်။"
 
-#: wlhosted/payments/models.py:94
+#: wlhosted/payments/models.py:105
 msgid "Company or individual name"
 msgstr "ကုမ္ပဏီ သို့မဟုတ် ပုဂ္ဂလိက အမည်"
 
-#: wlhosted/payments/models.py:97
+#: wlhosted/payments/models.py:108
 #, fuzzy
 msgid "Address"
 msgstr "လိပ်စာ"
 
-#: wlhosted/payments/models.py:100
+#: wlhosted/payments/models.py:111
 msgid "Postcode and city"
 msgstr "စာပို့သင်္ကေတ နှင့် မြို့"
 
-#: wlhosted/payments/models.py:102
+#: wlhosted/payments/models.py:113
 #, fuzzy
 msgid "Country"
 msgstr "နိုင်ငံ"
 
-#: wlhosted/payments/models.py:134
+#: wlhosted/payments/models.py:144
 msgid "The country has to match your VAT code"
 msgstr "နိုင်ငံ နှင့် သင်၏ VAT ကုဒ် ကိုက်ညီရမည်"
 
-#: wlhosted/payments/models.py:157
+#: wlhosted/payments/models.py:167
 #, fuzzy
 msgid "Annual"
 msgstr "နှစ်စဉ်"
 
-#: wlhosted/payments/models.py:158
+#: wlhosted/payments/models.py:168
 msgid "Biannual"
 msgstr "ခြောက်လပတ်"
 
-#: wlhosted/payments/models.py:159
+#: wlhosted/payments/models.py:169
 msgid "Quarterly"
 msgstr "သုံးလပတ်"
 
-#: wlhosted/payments/models.py:160
+#: wlhosted/payments/models.py:170
 msgid "Monthly"
 msgstr "လစဥ်"
 
-#: wlhosted/payments/models.py:161
-msgid "Onetime"
+#: wlhosted/payments/models.py:171
+#, fuzzy
+#| msgid "Onetime"
+msgid "One-time"
 msgstr "တစ်ကြိမ်သာ"
 
-#: wlhosted/payments/models.py:195
+#: wlhosted/payments/models.py:205
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "ငွေပေးချေမှုအသစ်"
 
-#: wlhosted/payments/models.py:196
+#: wlhosted/payments/models.py:206
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "ငွေပေးချေမှု ကို စောင့်ဆိုင်းနေသည်"
 
-#: wlhosted/payments/models.py:197
+#: wlhosted/payments/models.py:207
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "ငွေပေးချေမှု ငြင်းပယ်ခဲ့သည်"
 
-#: wlhosted/payments/models.py:198
+#: wlhosted/payments/models.py:208
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "ငွေပေးချေမှု လက်ခံရရှိပါသည်"
 
-#: wlhosted/payments/models.py:199
+#: wlhosted/payments/models.py:209
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "ငွေပေးချေခြင်း လုပ်ဆောင်နေသည်"
@@ -369,9 +371,7 @@ msgstr "{} နိုင်ငံ၏ VAT ID သတ်မှတ်ချက်မ�
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
-msgstr ""
-"VAT ID အတည်ပြုခြင်း ဝန်ဆောင်မှုကို မရနိုင်ပါ {}၊ ကျေးဇူးပြု၍ "
-"နောက်မှထပ်ကြိုးစားပါ။"
+msgstr "VAT ID အတည်ပြုခြင်း ဝန်ဆောင်မှုကို မရနိုင်ပါ {}၊ ကျေးဇူးပြု၍ နောက်မှထပ်ကြိုးစားပါ။"
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."

@@ -4,9 +4,9 @@
 # Ouchene <merzouk.ouchene@laposte.net>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate\n"
+"Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2021-01-27 08:35+0000\n"
+"POT-Creation-Date: 2024-05-06 10:30+0000\n"
 "PO-Revision-Date: 2022-03-07 08:56+0000\n"
 "Last-Translator: Selyan Sliman Amiri <selyan.kab@gmail.com>\n"
 "Language-Team: Kabyle <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -18,15 +18,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.12-dev\n"
 
-#: wlhosted/addons.py:34 wlhosted/addons.py:35
+#: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
 msgstr "Sirew isefka n isinaṛyuten n tamiwin ur nettwassen ara"
 
-#: wlhosted/addons.py:57
+#: wlhosted/addons.py:67
 msgid "Reset repository to upstream"
 msgstr "Ales awennez n ukufi s ufella"
 
-#: wlhosted/addons.py:58
+#: wlhosted/addons.py:68
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "Sefsex ibeddilen meṛṛa deg ukufi Weblate yal iḍ."
 
@@ -75,7 +75,9 @@ msgid "Current plan"
 msgstr "Aɣawas amiran"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
-msgid "Strings limit"
+#, fuzzy
+#| msgid "Strings limit"
+msgid "Hosted strings limit"
 msgstr "Talast n izriren"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
@@ -86,12 +88,14 @@ msgid "Unlimited"
 msgstr "War talast"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
-msgid "Languages limit"
-msgstr "Talast n tutlayin"
+#, fuzzy
+#| msgid "Strings limit"
+msgid "Source strings limit"
+msgstr "Talast n izriren"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
-msgid "Component limit"
-msgstr "Talast n isenfaṛen"
+msgid "Languages limit"
+msgstr "Talast n tutlayin"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
@@ -304,86 +308,88 @@ msgstr "IBAN"
 msgid "Reference"
 msgstr "Tamsisɣelt"
 
-#: wlhosted/payments/models.py:77
+#: wlhosted/payments/models.py:88
 msgid "European VAT ID"
 msgstr "Asulay VAT n Turuft"
 
-#: wlhosted/payments/models.py:79
+#: wlhosted/payments/models.py:90
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "Ttxil-k mudd-d asulay VAT n turuft, eǧǧ-it d ilem ma yella ur yettwasemras "
 "ara."
 
-#: wlhosted/payments/models.py:85
+#: wlhosted/payments/models.py:96
 msgid "Tax registration"
 msgstr "Uṭṭun n tebzert"
 
-#: wlhosted/payments/models.py:87
+#: wlhosted/payments/models.py:98
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "Ttxil-k mudd-d asekles n tebzert ma yella ilaq ad tban deg tfaturt."
 
-#: wlhosted/payments/models.py:94
+#: wlhosted/payments/models.py:105
 msgid "Company or individual name"
 msgstr "Isem n tkebbanit neɣ isem-ik"
 
-#: wlhosted/payments/models.py:97
+#: wlhosted/payments/models.py:108
 msgid "Address"
 msgstr "Tansa"
 
-#: wlhosted/payments/models.py:100
+#: wlhosted/payments/models.py:111
 msgid "Postcode and city"
 msgstr "Tangalt n tnazant neɣ aɣrem"
 
-#: wlhosted/payments/models.py:102
+#: wlhosted/payments/models.py:113
 msgid "Country"
 msgstr "Tamurt"
 
-#: wlhosted/payments/models.py:134
+#: wlhosted/payments/models.py:144
 msgid "The country has to match your VAT code"
 msgstr "Tamurt ur temṣada ara akked tengalt-ik VAT"
 
-#: wlhosted/payments/models.py:157
+#: wlhosted/payments/models.py:167
 msgid "Annual"
 msgstr "S useggas"
 
-#: wlhosted/payments/models.py:158
+#: wlhosted/payments/models.py:168
 msgid "Biannual"
 msgstr "S sin n yiseggasen"
 
-#: wlhosted/payments/models.py:159
+#: wlhosted/payments/models.py:169
 msgid "Quarterly"
 msgstr "Yal tlata n wagguren"
 
-#: wlhosted/payments/models.py:160
+#: wlhosted/payments/models.py:170
 msgid "Monthly"
 msgstr "Yal aggur"
 
-#: wlhosted/payments/models.py:161
-msgid "Onetime"
+#: wlhosted/payments/models.py:171
+#, fuzzy
+#| msgid "Onetime"
+msgid "One-time"
 msgstr "Tikkelt"
 
-#: wlhosted/payments/models.py:195
+#: wlhosted/payments/models.py:205
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Lexlaṣ amaynut"
 
-#: wlhosted/payments/models.py:196
+#: wlhosted/payments/models.py:206
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Lexlaṣ yettraǧun"
 
-#: wlhosted/payments/models.py:197
+#: wlhosted/payments/models.py:207
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Lexlaṣ ur iɛeddan ara"
 
-#: wlhosted/payments/models.py:198
+#: wlhosted/payments/models.py:208
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Lexlaṣ yettwaqeblen"
 
-#: wlhosted/payments/models.py:199
+#: wlhosted/payments/models.py:209
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Lexlaṣ iɛeddan"
@@ -403,6 +409,9 @@ msgstr "Ameẓlu n usenqed n usulay n VAT ulac-it i {}, ttxil-k ɛreḍ ticki."
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
 msgstr "{} mačči d asulay n tebzert VAT ameɣtu."
+
+#~ msgid "Component limit"
+#~ msgstr "Talast n isenfaṛen"
 
 #~ msgid ""
 #~ "We comply with the Regulation No. %(law_679_2016)s, the General Data "
@@ -486,12 +495,12 @@ msgstr "{} mačči d asulay n tebzert VAT ameɣtu."
 #~ msgstr ""
 #~ "I umuddu n uxeddim deg yimeẓla-nneɣ, akken ad k-id-nenermes ɣef usentel "
 #~ "yerzan imeẓla (daɣen s yimayl akked tirawt) daɣen akken ad neḍmen tiddin "
-#~ "tatiknikant n yimeẓla-nneɣ s uqadeṛ n ugatu neɣ agatu uzwir (<a href="
-#~ "\"%(url)s\">Amagrad 6 (1) b. GDPR</a>)"
+#~ "tatiknikant n yimeẓla-nneɣ s uqadeṛ n ugatu neɣ agatu uzwir (<a "
+#~ "href=\"%(url)s\">Amagrad 6 (1) b. GDPR</a>)"
 
 #~ msgid ""
-#~ "to analyze your use of our services and improve our services (<a href="
-#~ "\"%(url)s\">Article 6 (1) b. and f. GDPR</a>)"
+#~ "to analyze your use of our services and improve our services (<a "
+#~ "href=\"%(url)s\">Article 6 (1) b. and f. GDPR</a>)"
 #~ msgstr ""
 #~ "akken ad nesleḍ aseqdec-ik n yimeẓla-nneɣ daɣen ad nesnerni ime zla-nneɣ "
 #~ "(<a href=\"%(url)s\">Amagrad 6 (1) b. d f. GDPR</a>)"
@@ -502,8 +511,8 @@ msgstr "{} mačči d asulay n tebzert VAT ameɣtu."
 #~ "GDPR</a>)"
 #~ msgstr ""
 #~ "s uqbal-ik ibanen neɣ s tsiregt-ik akken ad nessiweḍ akken iwata armud-"
-#~ "nneɣ n uzenzi neɣ akken ad ak-d-nazen tibratin n yisallen (<a href="
-#~ "\"%(url)s\">Amagrad 6, taseddaṛt1, agaz a), n RGPD</a>)"
+#~ "nneɣ n uzenzi neɣ akken ad ak-d-nazen tibratin n yisallen (<a "
+#~ "href=\"%(url)s\">Amagrad 6, taseddaṛt1, agaz a), n RGPD</a>)"
 
 #~ msgid "Access to the Personal Data"
 #~ msgstr "Anekcum ɣer yisefka udmawanen"

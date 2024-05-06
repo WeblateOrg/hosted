@@ -6,9 +6,9 @@
 # संकेत गराडे <garade@proton.me>, 2023.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate\n"
+"Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2021-01-27 08:35+0000\n"
+"POT-Creation-Date: 2024-05-06 10:30+0000\n"
 "PO-Revision-Date: 2023-04-08 19:38+0000\n"
 "Last-Translator: संकेत गराडे <garade@proton.me>\n"
 "Language-Team: Marathi <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -20,15 +20,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.17-dev\n"
 
-#: wlhosted/addons.py:34 wlhosted/addons.py:35
+#: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
 msgstr "अज्ञात होरायझन्स परिदृश्य डेटा तयार करा"
 
-#: wlhosted/addons.py:57
+#: wlhosted/addons.py:67
 msgid "Reset repository to upstream"
 msgstr "रेपॉजिटरी अपस्ट्रीमवर रीसेट करा"
 
-#: wlhosted/addons.py:58
+#: wlhosted/addons.py:68
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "दर रात्री वेबलेट भांडारातील सर्व बदल टाकून द्या."
 
@@ -77,7 +77,9 @@ msgid "Current plan"
 msgstr "सद्य योजना"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
-msgid "Strings limit"
+#, fuzzy
+#| msgid "Strings limit"
+msgid "Hosted strings limit"
 msgstr "स्ट्रिंग मर्यादा"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
@@ -88,12 +90,14 @@ msgid "Unlimited"
 msgstr "अमर्यादित"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
-msgid "Languages limit"
-msgstr "भाषा मर्यादा"
+#, fuzzy
+#| msgid "Strings limit"
+msgid "Source strings limit"
+msgstr "स्ट्रिंग मर्यादा"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
-msgid "Component limit"
-msgstr "घटक मर्यादा"
+msgid "Languages limit"
+msgstr "भाषा मर्यादा"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
@@ -121,9 +125,8 @@ msgid ""
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
-"उद्देश भाषा व स्रोत सूत्रांच्या संख्येनुसार शुल्क ठरवले आहेत. स्रोत सूत्र "
-"म्हणजे भाषांतर स्वरूपात लिहिलेले एक मजकूर एकक, जे की एखादे शब्द, वाक्य किंवा "
-"परिच्छेद असू शकते."
+"उद्देश भाषा व स्रोत सूत्रांच्या संख्येनुसार शुल्क ठरवले आहेत. स्रोत सूत्र म्हणजे भाषांतर स्वरूपात "
+"लिहिलेले एक मजकूर एकक, जे की एखादे शब्द, वाक्य किंवा परिच्छेद असू शकते."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
@@ -133,9 +136,7 @@ msgstr "सर्व सूचीबद्ध किंमती व्हॅट
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
-msgstr ""
-"EU च्या वापरकर्त्यांना व झेक रिपब्लिकच्या कंपन्यांना 21%% अधिक VAT भरावे "
-"लागेल."
+msgstr "EU च्या वापरकर्त्यांना व झेक रिपब्लिकच्या कंपन्यांना 21%% अधिक VAT भरावे लागेल."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
@@ -171,8 +172,8 @@ msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
-"होस्टींग योजना विकत घेतल्याबद्दल मनापासून आभार. भरण अद्याप प्रलंबित आहे व "
-"पार्श्वभूमीत प्रक्रियेत आहे."
+"होस्टींग योजना विकत घेतल्याबद्दल मनापासून आभार. भरण अद्याप प्रलंबित आहे व पार्श्वभूमीत "
+"प्रक्रियेत आहे."
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
@@ -304,84 +305,86 @@ msgstr "IBAN"
 msgid "Reference"
 msgstr "संदर्भ"
 
-#: wlhosted/payments/models.py:77
+#: wlhosted/payments/models.py:88
 msgid "European VAT ID"
 msgstr "युरोपियन व्हॅट आयडी"
 
-#: wlhosted/payments/models.py:79
+#: wlhosted/payments/models.py:90
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr "युरोप यूनियन VAT ID भरा, लागू नसेल तर रिकामे सोडा."
 
-#: wlhosted/payments/models.py:85
+#: wlhosted/payments/models.py:96
 msgid "Tax registration"
 msgstr "कर नोंदणी"
 
-#: wlhosted/payments/models.py:87
+#: wlhosted/payments/models.py:98
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "पावत्यावर दिसत असल्यास कृपया आपली कर नोंदणी भरा."
 
-#: wlhosted/payments/models.py:94
+#: wlhosted/payments/models.py:105
 msgid "Company or individual name"
 msgstr "कंपनी किंवा वैयक्तिक नाव"
 
-#: wlhosted/payments/models.py:97
+#: wlhosted/payments/models.py:108
 msgid "Address"
 msgstr "पत्ता"
 
-#: wlhosted/payments/models.py:100
+#: wlhosted/payments/models.py:111
 msgid "Postcode and city"
 msgstr "पोस्टकोड आणि शहर"
 
-#: wlhosted/payments/models.py:102
+#: wlhosted/payments/models.py:113
 msgid "Country"
 msgstr "देश"
 
-#: wlhosted/payments/models.py:134
+#: wlhosted/payments/models.py:144
 msgid "The country has to match your VAT code"
 msgstr "VAT कोड देशाशी जुळला पाहिजे"
 
-#: wlhosted/payments/models.py:157
+#: wlhosted/payments/models.py:167
 msgid "Annual"
 msgstr "वार्षिक"
 
-#: wlhosted/payments/models.py:158
+#: wlhosted/payments/models.py:168
 msgid "Biannual"
 msgstr "द्वैवार्षिक"
 
-#: wlhosted/payments/models.py:159
+#: wlhosted/payments/models.py:169
 msgid "Quarterly"
 msgstr "त्रैमासिक"
 
-#: wlhosted/payments/models.py:160
+#: wlhosted/payments/models.py:170
 msgid "Monthly"
 msgstr "मासिक"
 
-#: wlhosted/payments/models.py:161
-msgid "Onetime"
+#: wlhosted/payments/models.py:171
+#, fuzzy
+#| msgid "Onetime"
+msgid "One-time"
 msgstr "एकावेळी"
 
-#: wlhosted/payments/models.py:195
+#: wlhosted/payments/models.py:205
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "नवीन भराणा"
 
-#: wlhosted/payments/models.py:196
+#: wlhosted/payments/models.py:206
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "भरण्याची वाट पाहत आहे"
 
-#: wlhosted/payments/models.py:197
+#: wlhosted/payments/models.py:207
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "भरणा नाकारले"
 
-#: wlhosted/payments/models.py:198
+#: wlhosted/payments/models.py:208
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "भरणा स्विकारले"
 
-#: wlhosted/payments/models.py:199
+#: wlhosted/payments/models.py:209
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "भरणा पूर्ण"
@@ -401,6 +404,9 @@ msgstr "VAT ID सत्यापन सेवा {} साठी उपलब�
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
 msgstr "{} एक अवैध VAT ID आहे."
+
+#~ msgid "Component limit"
+#~ msgstr "घटक मर्यादा"
 
 #~ msgid "Personal Data Controller"
 #~ msgstr "वैयक्तिक डेटा नियंत्रक"

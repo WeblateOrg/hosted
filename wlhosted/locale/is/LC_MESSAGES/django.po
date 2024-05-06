@@ -6,9 +6,9 @@
 # Sveinn í Felli <sv1@fellsnet.is>, 2020, 2021, 2024.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate\n"
+"Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2021-01-27 08:35+0000\n"
+"POT-Creation-Date: 2024-05-06 10:30+0000\n"
 "PO-Revision-Date: 2024-03-14 13:36+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -20,15 +20,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n % 10 != 1 || n % 100 == 11;\n"
 "X-Generator: Weblate 5.5-dev\n"
 
-#: wlhosted/addons.py:34 wlhosted/addons.py:35
+#: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
 msgstr "Búðu til sviðsetningargögn fyrir Unknown Horizons"
 
-#: wlhosted/addons.py:57
+#: wlhosted/addons.py:67
 msgid "Reset repository to upstream"
 msgstr "Frumstilla gagnageymslu til samræmis við aðalsafn"
 
-#: wlhosted/addons.py:58
+#: wlhosted/addons.py:68
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "Eyðir öllum breytingum í Weblate-gagnasafninu á hverri nóttu."
 
@@ -78,7 +78,9 @@ msgid "Current plan"
 msgstr "Núverandi áskriftarleið"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
-msgid "Strings limit"
+#, fuzzy
+#| msgid "Strings limit"
+msgid "Hosted strings limit"
 msgstr "Takmörk á fjölda strengja"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
@@ -89,12 +91,14 @@ msgid "Unlimited"
 msgstr "Ótakmarkað"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
-msgid "Languages limit"
-msgstr "Takmörk á fjölda tungumála"
+#, fuzzy
+#| msgid "Strings limit"
+msgid "Source strings limit"
+msgstr "Takmörk á fjölda strengja"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
-msgid "Component limit"
-msgstr "Takmörk á fjölda eininga"
+msgid "Languages limit"
+msgstr "Takmörk á fjölda tungumála"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
@@ -307,86 +311,88 @@ msgstr "IBAN"
 msgid "Reference"
 msgstr "Tilvísun"
 
-#: wlhosted/payments/models.py:77
+#: wlhosted/payments/models.py:88
 msgid "European VAT ID"
 msgstr "Evrópskt virðisaukaskattsnúmer"
 
-#: wlhosted/payments/models.py:79
+#: wlhosted/payments/models.py:90
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "Fylltu inn evrópskt virðisaukaskattsnúmer, skildu reitinn eftir auðan ef það "
 "á ekki við."
 
-#: wlhosted/payments/models.py:85
+#: wlhosted/payments/models.py:96
 msgid "Tax registration"
 msgstr "Skattnúmer"
 
-#: wlhosted/payments/models.py:87
+#: wlhosted/payments/models.py:98
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "Fylltu inn skattnúmer þitt ef það á að birtast á reikningnum."
 
-#: wlhosted/payments/models.py:94
+#: wlhosted/payments/models.py:105
 msgid "Company or individual name"
 msgstr "Nafn fyrirtækis eða einstaklings"
 
-#: wlhosted/payments/models.py:97
+#: wlhosted/payments/models.py:108
 msgid "Address"
 msgstr "Heimilisfang"
 
-#: wlhosted/payments/models.py:100
+#: wlhosted/payments/models.py:111
 msgid "Postcode and city"
 msgstr "Póstnúmer og staður"
 
-#: wlhosted/payments/models.py:102
+#: wlhosted/payments/models.py:113
 msgid "Country"
 msgstr "Land"
 
-#: wlhosted/payments/models.py:134
+#: wlhosted/payments/models.py:144
 msgid "The country has to match your VAT code"
 msgstr "Landið þarf að passa við virðisaukaskattsnúmerið"
 
-#: wlhosted/payments/models.py:157
+#: wlhosted/payments/models.py:167
 msgid "Annual"
 msgstr "Árlegt"
 
-#: wlhosted/payments/models.py:158
+#: wlhosted/payments/models.py:168
 msgid "Biannual"
 msgstr "Á tveggja ára fresti"
 
-#: wlhosted/payments/models.py:159
+#: wlhosted/payments/models.py:169
 msgid "Quarterly"
 msgstr "Ársfjórðungslega"
 
-#: wlhosted/payments/models.py:160
+#: wlhosted/payments/models.py:170
 msgid "Monthly"
 msgstr "Mánaðarlega"
 
-#: wlhosted/payments/models.py:161
-msgid "Onetime"
+#: wlhosted/payments/models.py:171
+#, fuzzy
+#| msgid "Onetime"
+msgid "One-time"
 msgstr "Eitt skipti"
 
-#: wlhosted/payments/models.py:195
+#: wlhosted/payments/models.py:205
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Ný greiðsla"
 
-#: wlhosted/payments/models.py:196
+#: wlhosted/payments/models.py:206
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Bíður greiðslu"
 
-#: wlhosted/payments/models.py:197
+#: wlhosted/payments/models.py:207
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Greiðslu hafnað"
 
-#: wlhosted/payments/models.py:198
+#: wlhosted/payments/models.py:208
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Greiðsla samþykkt"
 
-#: wlhosted/payments/models.py:199
+#: wlhosted/payments/models.py:209
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Greiðsla meðhöndluð"
@@ -409,6 +415,9 @@ msgstr ""
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
 msgstr "{} er ekki gilt virðisaukaskattsnúmer."
+
+#~ msgid "Component limit"
+#~ msgstr "Takmörk á fjölda eininga"
 
 #~ msgid ""
 #~ "We comply with the Regulation No. %(law_679_2016)s, the General Data "
@@ -498,8 +507,8 @@ msgstr "{} er ekki gilt virðisaukaskattsnúmer."
 #~ "(1) b. í GDPR</a>)"
 
 #~ msgid ""
-#~ "to analyze your use of our services and improve our services (<a href="
-#~ "\"%(url)s\">Article 6 (1) b. and f. GDPR</a>)"
+#~ "to analyze your use of our services and improve our services (<a "
+#~ "href=\"%(url)s\">Article 6 (1) b. and f. GDPR</a>)"
 #~ msgstr ""
 #~ "til að greina notkun þína á þjónustum okkar og til að bæta þjónustur "
 #~ "okkar (<a href=\"%(url)s\">Grein 6 (1) b. og f. í GDPR</a>)"
@@ -582,8 +591,8 @@ msgstr "{} er ekki gilt virðisaukaskattsnúmer."
 #~ "even get a copy of all of it (<a href=\"%(url)s\">Article 15 GDPR</a>)"
 #~ msgstr ""
 #~ "Fá aðgang að öllum þeim persónuupplýsingum þínum sem Weblate notar eða "
-#~ "vinnur með, og jafnvel fengið afrit af þeim öllum (<a href=\"%(url)s"
-#~ "\">Grein 15 í GDPR</a>)"
+#~ "vinnur með, og jafnvel fengið afrit af þeim öllum (<a "
+#~ "href=\"%(url)s\">Grein 15 í GDPR</a>)"
 
 #~ msgid ""
 #~ "Correct the Personal Data that Weblate processes if you think that there "

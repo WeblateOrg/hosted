@@ -5,9 +5,9 @@
 # Dren Frañchto <hadrienlouque@gmail.com>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate\n"
+"Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2021-01-27 08:35+0000\n"
+"POT-Creation-Date: 2024-05-06 10:30+0000\n"
 "PO-Revision-Date: 2022-11-18 21:48+0000\n"
 "Last-Translator: Dren Frañchto <hadrienlouque@gmail.com>\n"
 "Language-Team: Breton <https://hosted.weblate.org/projects/weblate/hosted/br/"
@@ -18,20 +18,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=(n % 10 == 1 && n % 100 != 11 && n % 100 != "
 "71 && n % 100 != 91) ? 0 : ((n % 10 == 2 && n % 100 != 12 && n % 100 != 72 "
-"&& n % 100 != 92) ? 1 : ((((n % 10 == 3 || n % 10 == 4) || n % 10 == 9) && ("
-"n % 100 < 10 || n % 100 > 19) && (n % 100 < 70 || n % 100 > 79) && (n % 100 "
+"&& n % 100 != 92) ? 1 : ((((n % 10 == 3 || n % 10 == 4) || n % 10 == 9) && "
+"(n % 100 < 10 || n % 100 > 19) && (n % 100 < 70 || n % 100 > 79) && (n % 100 "
 "< 90 || n % 100 > 99)) ? 2 : ((n != 0 && n % 1000000 == 0) ? 3 : 4)));\n"
 "X-Generator: Weblate 4.15-dev\n"
 
-#: wlhosted/addons.py:34 wlhosted/addons.py:35
+#: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
 msgstr ""
 
-#: wlhosted/addons.py:57
+#: wlhosted/addons.py:67
 msgid "Reset repository to upstream"
 msgstr ""
 
-#: wlhosted/addons.py:58
+#: wlhosted/addons.py:68
 msgid "Discards all changes in the Weblate repository each night."
 msgstr ""
 
@@ -84,7 +84,7 @@ msgstr "Ger-tremen en implij"
 #: wlhosted/integrations/templates/hosted/create.html:56
 #, fuzzy
 #| msgid "Strings to review"
-msgid "Strings limit"
+msgid "Hosted strings limit"
 msgstr "Kemennadennoù da adwelet"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
@@ -96,15 +96,15 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:59
 #, fuzzy
-#| msgid "Languages"
-msgid "Languages limit"
-msgstr "Yezhoù"
+#| msgid "Strings to review"
+msgid "Source strings limit"
+msgstr "Kemennadennoù da adwelet"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 #, fuzzy
-#| msgid "Project"
-msgid "Component limit"
-msgstr "Raktres"
+#| msgid "Languages"
+msgid "Languages limit"
+msgstr "Yezhoù"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 #, fuzzy
@@ -286,88 +286,88 @@ msgstr ""
 msgid "Reference"
 msgstr ""
 
-#: wlhosted/payments/models.py:77
+#: wlhosted/payments/models.py:88
 msgid "European VAT ID"
 msgstr ""
 
-#: wlhosted/payments/models.py:79
+#: wlhosted/payments/models.py:90
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 
-#: wlhosted/payments/models.py:85
+#: wlhosted/payments/models.py:96
 msgid "Tax registration"
 msgstr ""
 
-#: wlhosted/payments/models.py:87
+#: wlhosted/payments/models.py:98
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
 
-#: wlhosted/payments/models.py:94
+#: wlhosted/payments/models.py:105
 msgid "Company or individual name"
 msgstr ""
 
-#: wlhosted/payments/models.py:97
+#: wlhosted/payments/models.py:108
 msgid "Address"
 msgstr ""
 
-#: wlhosted/payments/models.py:100
+#: wlhosted/payments/models.py:111
 msgid "Postcode and city"
 msgstr ""
 
-#: wlhosted/payments/models.py:102
+#: wlhosted/payments/models.py:113
 msgid "Country"
 msgstr ""
 
-#: wlhosted/payments/models.py:134
+#: wlhosted/payments/models.py:144
 msgid "The country has to match your VAT code"
 msgstr ""
 
-#: wlhosted/payments/models.py:157
+#: wlhosted/payments/models.py:167
 msgid "Annual"
 msgstr ""
 
-#: wlhosted/payments/models.py:158
+#: wlhosted/payments/models.py:168
 msgid "Biannual"
 msgstr ""
 
-#: wlhosted/payments/models.py:159
+#: wlhosted/payments/models.py:169
 msgid "Quarterly"
 msgstr ""
 
-#: wlhosted/payments/models.py:160
+#: wlhosted/payments/models.py:170
 msgid "Monthly"
 msgstr ""
 
-#: wlhosted/payments/models.py:161
-msgid "Onetime"
+#: wlhosted/payments/models.py:171
+msgid "One-time"
 msgstr ""
 
-#: wlhosted/payments/models.py:195
+#: wlhosted/payments/models.py:205
 msgctxt "Payment state"
 msgid "New payment"
 msgstr ""
 
-#: wlhosted/payments/models.py:196
+#: wlhosted/payments/models.py:206
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr ""
 
-#: wlhosted/payments/models.py:197
+#: wlhosted/payments/models.py:207
 #, fuzzy
 #| msgid "Payment card"
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Kartenn-baeañ"
 
-#: wlhosted/payments/models.py:198
+#: wlhosted/payments/models.py:208
 #, fuzzy
 #| msgid "Payment card"
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Kartenn-baeañ"
 
-#: wlhosted/payments/models.py:199
+#: wlhosted/payments/models.py:209
 #, fuzzy
 #| msgid "Payment card"
 msgctxt "Payment state"
@@ -389,6 +389,11 @@ msgstr ""
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Project"
+#~ msgid "Component limit"
+#~ msgstr "Raktres"
 
 #, fuzzy
 #~| msgid "Source strings review"
