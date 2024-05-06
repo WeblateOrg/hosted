@@ -29,7 +29,7 @@ dependencies = [
   "psycopg[binary]",
   "python-dateutil",
   "requests",
-  "Weblate>=5.2"
+  "Weblate>=5.5.3"
 ]
 description = "Hosted Weblate Customization"
 name = "wlhosted"
