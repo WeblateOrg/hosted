@@ -8,11 +8,11 @@
 # Džiugas J <dziugas1959@hotmail.com>, 2024.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-01-16 19:06+0000\n"
-"Last-Translator: Vaclovas Intas <vaclovas1999@gmail.com>\n"
+"PO-Revision-Date: 2024-05-06 11:51+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/weblate/"
 "hosted/lt/>\n"
 "Language: lt\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || "
 "n%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.5.3\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -330,8 +330,6 @@ msgid "Monthly"
 msgstr "Kas mėnesį"
 
 #: wlhosted/payments/models.py:171
-#, fuzzy
-#| msgid "Onetime"
 msgid "One-time"
 msgstr "Vienkartinis"
 
