@@ -7,11 +7,11 @@
 # Jose Delvani <delvani.eletricista@gmail.com>, 2024.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-04-22 02:07+0000\n"
-"Last-Translator: Jose Delvani <delvani.eletricista@gmail.com>\n"
+"PO-Revision-Date: 2024-05-06 11:51+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "weblate/hosted/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.5.3\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -80,10 +80,8 @@ msgid "Current plan"
 msgstr "Plano atual"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Hosted strings limit"
-msgstr "Limite de textos"
+msgstr "Limite de textos hospedados"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
@@ -368,8 +366,6 @@ msgid "Monthly"
 msgstr "Mensal"
 
 #: wlhosted/payments/models.py:171
-#, fuzzy
-#| msgid "Onetime"
 msgid "One-time"
 msgstr "Uma vez"
 
