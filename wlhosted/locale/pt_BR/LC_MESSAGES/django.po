@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-05-06 11:51+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2024-05-07 05:07+0000\n"
+"Last-Translator: Jose Delvani <delvani.eletricista@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "weblate/hosted/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.5.3\n"
+"X-Generator: Weblate 5.5.4-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -91,10 +91,8 @@ msgid "Unlimited"
 msgstr "Ilimitado"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Source strings limit"
-msgstr "Limite de textos"
+msgstr "Limite de textos fonte"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Languages limit"
@@ -139,13 +137,15 @@ msgstr "Todos os preços listados excluem o IVA."
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
-"Os usuários finais da UE e as empresas tchecas serão cobrados com um IVA "
-"adicional de 21%%."
+"Aos usuários finais da UE (União Europeia) e as empresas tchecas serão "
+"cobrados com um IVA adicional de 21%%."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
-msgstr "A cobrança reversa se aplica a faturas emitidas para empresas na UE."
+msgstr ""
+"A cobrança reversa se aplica a faturas emitidas para empresas na UE (União "
+"Europeia)."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
