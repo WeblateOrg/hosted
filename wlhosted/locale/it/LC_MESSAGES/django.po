@@ -13,13 +13,14 @@
 # coronabond <coronabond@airmail.cc>, 2020, 2021, 2023.
 # Jeannette L <j.lavoie@net-c.ca>, 2020.
 # Antenore Gatta <antenore@simbiosi.org>, 2020.
+# Massimo Pissarello <mapi68@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-05-06 11:51+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2024-05-07 15:30+0000\n"
+"Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/weblate/hosted/"
 "it/>\n"
 "Language: it\n"
@@ -27,7 +28,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.3\n"
+"X-Generator: Weblate 5.5.4-rc\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
@@ -98,10 +99,8 @@ msgid "Unlimited"
 msgstr "Illimitato"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Source strings limit"
-msgstr "Limite stringhe"
+msgstr "Limite stringhe sorgente"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Languages limit"
