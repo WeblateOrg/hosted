@@ -4,15 +4,15 @@
 # ButterflyOfFire <ButterflyOfFire@protonmail.com>, 2018.
 # Estébastien Robespi <estebastien@mailbox.org>, 2019.
 # Nathan <bonnemainsnathan@gmail.com>, 2019.
-# Julien Humbert <julroy67@gmail.com>, 2020, 2023.
+# Julien Humbert <julroy67@gmail.com>, 2020, 2023, 2024.
 # Localisation Lab <ao@localizationlab.org>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-05-06 11:51+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2024-05-10 09:04+0000\n"
+"Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/weblate/hosted/fr/"
 ">\n"
 "Language: fr\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.5.3\n"
+"X-Generator: Weblate 5.5.4-rc\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -92,10 +92,8 @@ msgid "Unlimited"
 msgstr "Illimité"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Source strings limit"
-msgstr "Limite des chaînes"
+msgstr "Limite de chaînes source"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Languages limit"
