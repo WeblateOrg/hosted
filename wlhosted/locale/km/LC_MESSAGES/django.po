@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-05-07 15:30+0000\n"
+"PO-Revision-Date: 2024-05-10 23:09+0000\n"
 "Last-Translator: សិទ្ធិការ្យ <setthikarpok@gmail.com>\n"
 "Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/weblate/"
 "hosted/km/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5.4-rc\n"
+"X-Generator: Weblate 5.5.4\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -136,6 +136,8 @@ msgstr "រាល់តម្លៃដែលបានចុះបញ្ជីម
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
+"អ្នកប្រើប្រាស់ចុងក្រោយរបស់សហភាពអឺរ៉ុប និងក្រុមហ៊ុនប្រទេសឆែក "
+"នឹងត្រូវបានគិតប្រាក់បន្ថែមជាមួយ VAT21%%។"
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
@@ -233,10 +235,22 @@ msgid ""
 "If concerning a recurring payment, it is retried three times,\n"
 "and if still failing, cancelled.\n"
 msgstr ""
+"សួស្តី,\n"
+"\n"
+"ការបង់ប្រាក់របស់អ្នកនៅលើ weblate.org បានបរាជ័យ។\n"
+"\n"
+"%s\n"
+"\n"
+"ព្យាយាមបញ្ចេញការបង់ប្រាក់ជាថ្មី នៅលើវេបសាយ៖\n"
+"\n"
+"%s\n"
+"\n"
+"ប្រសិនបើជាប់ទាក់ទងនឹងការបង់ប្រាក់ដែលកើតឡើងផ្ទួនៗ វាគឺបានព្យាយាមបីដងទៀត,\n"
+"ហើយប្រសិនបើនៅតែបរាជ័យ នឹងត្រូវលុបចោល។\n"
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
-msgstr "ការទូទាត់ដែលមិនទាន់សម្រេចរបស់អ្នកឯ weblate.org"
+msgstr "ការបង់ប្រាក់ដែលមិនទាន់សម្រេចរបស់អ្នកលើ weblate.org"
 
 #: wlhosted/payments/backends.py:257
 msgid ""
@@ -245,6 +259,11 @@ msgid ""
 "Your payment on weblate.org is pending. Please follow the provided\n"
 "instructions to complete the payment.\n"
 msgstr ""
+"សួស្តី,\n"
+"\n"
+"ការបង់ប្រាក់របស់អ្នកនៅលើ weblate.org គឺកំពុងព្យួរទុក។ សូមធ្វើតាមការផ្ដល់ជូននូ"
+"វ\n"
+"ការណែនាំ ដើម្បីបញ្ចប់ការបង់ប្រាក់។\n"
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
@@ -268,7 +287,7 @@ msgstr "ការផ្ទេរប្រាក់តាមធនាគារ IB
 
 #: wlhosted/payments/backends.py:468
 msgid "Issuing bank"
-msgstr ""
+msgstr "ធនាគារបញ្ចេញផ្សាយ"
 
 #: wlhosted/payments/backends.py:469
 msgid "Account holder"
@@ -378,15 +397,16 @@ msgstr "{} មិនមែនជាកូដប្រទេសដែលត្រ
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr ""
+msgstr "{} ពុំត្រូវគ្នានឹងព័ត៌មានលម្អិតនៃ VAT ID របស់ប្រទេសឡើយ។"
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
+"សេវាបញ្ជាក់ VAT ID សម្រាប់ {} មិនអាចប្រើបានឡើយ។ សូមព្យាយាមម្តងទៀត នៅពេលក្រោយ។"
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr ""
+msgstr "{} គឺពុំមែនជា VAT ID ត្រឹមត្រូវឡើយ។"
 
 #~ msgid "Component limit"
 #~ msgstr "កំហិតសមាសភាគ"
