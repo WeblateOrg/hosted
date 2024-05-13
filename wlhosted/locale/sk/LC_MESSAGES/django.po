@@ -8,13 +8,14 @@
 # Ivan Pleva <ivan.pleva@tutanota.com>, 2019, 2020.
 # Milan <mobrcian@hotmail.com>, 2021.
 # Peter Vančo <petervanco347@gmail.com>, 2023, 2024.
+# Michal Čihař <michal@weblate.org>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-05-06 14:50+0000\n"
-"Last-Translator: Peter Vančo <petervanco347@gmail.com>\n"
+"PO-Revision-Date: 2024-05-13 06:10+0000\n"
+"Last-Translator: Michal Čihař <michal@weblate.org>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/weblate/hosted/sk/"
 ">\n"
 "Language: sk\n"
@@ -22,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.5.4-dev\n"
+"X-Generator: Weblate 5.5.4\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -92,10 +93,8 @@ msgid "Unlimited"
 msgstr "Neobmedzene"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Source strings limit"
-msgstr "Počet reťazcov"
+msgstr "Limit zdrojových reťazcov"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Languages limit"
