@@ -10,13 +10,14 @@
 # Aputsiak Niels Janussen <aputtu@gmail.com>, 2021.
 # Michael Millet <mikevlet@protonmail.com>, 2023.
 # cat <158170307+cultcats@users.noreply.github.com>, 2024.
+# Luna <social.pvxuu@slmail.me>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-05-06 11:51+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2024-05-15 07:28+0000\n"
+"Last-Translator: Luna <social.pvxuu@slmail.me>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/weblate/hosted/da/"
 ">\n"
 "Language: da\n"
@@ -24,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.3\n"
+"X-Generator: Weblate 5.6-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -61,7 +62,7 @@ msgstr "Ny betalingsplan"
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
 msgstr ""
-"Vælg venligst den hostingplan der bedst passer størrelsen af dit projekt."
+"Vælg venligst den hostingplan, der bedst passer størrelsen af dit projekt."
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
@@ -84,10 +85,8 @@ msgid "Current plan"
 msgstr "Nuværende plan"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Hosted strings limit"
-msgstr "Grænse for strenge"
+msgstr "Grænse for Hosted strenge"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
@@ -97,10 +96,8 @@ msgid "Unlimited"
 msgstr "Ubegrænset"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Source strings limit"
-msgstr "Grænse for strenge"
+msgstr "Grænse for kildestrenge"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Languages limit"
@@ -177,14 +174,14 @@ msgstr "Ingen matchende betalinger fundet."
 
 #: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr "Tak for købet af hostingplan; den er nu aktiv."
+msgstr "Tak for købet af en hostingplan; den er nu aktiv."
 
 #: wlhosted/integrations/views.py:83
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
-"Tak for købet af hostingplan; betalingen er afventende og vil blive "
+"Tak for købet af en hostingplan; betalingen er afventende og bliver "
 "behandlet i baggrunden."
 
 #: wlhosted/integrations/views.py:95
