@@ -53,7 +53,7 @@ test = [
   "httpretty",
   "coverage",
   "build==1.2.1",
-  "twine==5.0.0"
+  "twine==5.1.0"
 ]
 
 [project.urls]
