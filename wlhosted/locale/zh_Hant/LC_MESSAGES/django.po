@@ -7,13 +7,14 @@
 # byStarTW <pan93412@gmail.com>, 2019, 2020.
 # Jeff Huang <s8321414@gmail.com>, 2021.
 # hugoalh <hugoalh@users.noreply.hosted.weblate.org>, 2024.
+# Supaplex <bejokeup@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-05-06 11:51+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2024-05-18 02:01+0000\n"
+"Last-Translator: Supaplex <bejokeup@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "weblate/hosted/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5.3\n"
+"X-Generator: Weblate 5.6-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -91,10 +92,8 @@ msgid "Unlimited"
 msgstr "沒有限制"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Source strings limit"
-msgstr "字串數限制"
+msgstr "來源字串數限制"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Languages limit"
