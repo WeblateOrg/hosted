@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-06-03 13:55+0000\n"
+"PO-Revision-Date: 2024-06-04 01:18+0000\n"
 "Last-Translator: Vinjar Drage <vinjardrage@gmail.com>\n"
 "Language-Team: Norwegian Nynorsk <https://hosted.weblate.org/projects/"
 "weblate/hosted/nn/>\n"
@@ -180,7 +180,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:192
 msgid "Your payment on weblate.org"
-msgstr ""
+msgstr "Betalinga di på weblate.org"
 
 #: wlhosted/payments/backends.py:194
 #, python-format
@@ -197,7 +197,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:220
 msgid "Your payment on weblate.org failed"
-msgstr ""
+msgstr "Betalinga di på weblate.org mislukkast"
 
 #: wlhosted/payments/backends.py:222
 #, python-format
@@ -218,7 +218,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
-msgstr ""
+msgstr "Den ventande betalinga di på weblate.org"
 
 #: wlhosted/payments/backends.py:257
 msgid ""
