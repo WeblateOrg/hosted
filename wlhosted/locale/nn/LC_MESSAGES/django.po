@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-06-03 13:48+0000\n"
+"PO-Revision-Date: 2024-06-03 13:55+0000\n"
 "Last-Translator: Vinjar Drage <vinjardrage@gmail.com>\n"
 "Language-Team: Norwegian Nynorsk <https://hosted.weblate.org/projects/"
 "weblate/hosted/nn/>\n"
@@ -326,8 +326,6 @@ msgid "Monthly"
 msgstr "Månadleg"
 
 #: wlhosted/payments/models.py:171
-#, fuzzy
-#| msgid "Onetime"
 msgid "One-time"
 msgstr "Éin gong"
 
