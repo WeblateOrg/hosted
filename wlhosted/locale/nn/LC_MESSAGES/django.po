@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # tryvseu <tryvseu@tuta.io>, 2023.
+# Vinjar Drage <vinjardrage@gmail.com>, 2024.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2023-04-17 11:36+0000\n"
-"Last-Translator: tryvseu <tryvseu@tuta.io>\n"
+"PO-Revision-Date: 2024-06-03 13:48+0000\n"
+"Last-Translator: Vinjar Drage <vinjardrage@gmail.com>\n"
 "Language-Team: Norwegian Nynorsk <https://hosted.weblate.org/projects/"
 "weblate/hosted/nn/>\n"
 "Language: nn\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 5.6-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -269,24 +270,24 @@ msgstr "IBAN"
 
 #: wlhosted/payments/backends.py:473
 msgid "Reference"
-msgstr ""
+msgstr "Referanse"
 
 #: wlhosted/payments/models.py:88
 msgid "European VAT ID"
-msgstr ""
+msgstr "Europeisk moms-ID"
 
 #: wlhosted/payments/models.py:90
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
-msgstr ""
+msgstr "Fyll inn moms-ID frå EU, lat stå tomt viss dette ikkje gjeld deg."
 
 #: wlhosted/payments/models.py:96
 msgid "Tax registration"
-msgstr ""
+msgstr "Skatteregistrering"
 
 #: wlhosted/payments/models.py:98
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
-msgstr ""
+msgstr "Fyll inn skatteregistreringa di viss den skal bli vist på fakturaen."
 
 #: wlhosted/payments/models.py:105
 msgid "Company or individual name"
@@ -338,30 +339,30 @@ msgstr "Ny betaling"
 #: wlhosted/payments/models.py:206
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr ""
+msgstr "Ventar på betaling"
 
 #: wlhosted/payments/models.py:207
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr ""
+msgstr "Betaling avvist"
 
 #: wlhosted/payments/models.py:208
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr ""
+msgstr "Betaling akseptert"
 
 #: wlhosted/payments/models.py:209
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr ""
+msgstr "Betaling handsama"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
-msgstr ""
+msgstr "{} er ikkje ein gyldig landskode for noko EU-medlemsland."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr ""
+msgstr "{} samsvarar ikkje med moms-ID-spesifikasjonane til landet."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
@@ -369,4 +370,4 @@ msgstr ""
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr ""
+msgstr "{} er ikkje ein gyldig moms-ID."
