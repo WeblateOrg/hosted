@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-06-04 01:18+0000\n"
+"PO-Revision-Date: 2024-06-04 03:31+0000\n"
 "Last-Translator: Vinjar Drage <vinjardrage@gmail.com>\n"
 "Language-Team: Norwegian Nynorsk <https://hosted.weblate.org/projects/"
 "weblate/hosted/nn/>\n"
@@ -33,7 +33,7 @@ msgstr ""
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
-msgstr ""
+msgstr "Fakturering"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
@@ -84,7 +84,7 @@ msgstr ""
 #: wlhosted/integrations/templates/hosted/create.html:63
 #: wlhosted/integrations/templates/hosted/create.html:66
 msgid "Unlimited"
-msgstr ""
+msgstr "Uavgrensa"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
 msgid "Source strings limit"
@@ -123,18 +123,22 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
-msgstr ""
+msgstr "Alle prisar er utan moms."
 
 #: wlhosted/integrations/templates/hosted/create.html:100
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
+"Sluttbrukarar i EU og tsjekkiske verksemder blir belasta med ytterlegare "
+"21%% moms."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
+"Omvendt avgiftshandsaming gjeld for fakturaar som er utferda til verksemder "
+"i EU."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
@@ -168,11 +172,11 @@ msgstr ""
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
-msgstr ""
+msgstr "Betalinga vart avvist: {}"
 
 #: wlhosted/integrations/views.py:96
 msgid "Unknown reason"
-msgstr ""
+msgstr "Ukjend grunn"
 
 #: wlhosted/integrations/views.py:112
 msgid "Payments are temporarily inactive."
