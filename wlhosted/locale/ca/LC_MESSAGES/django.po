@@ -2,15 +2,15 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Joan Montané <joan@montane.cat>, 2018, 2019.
-# Eduard Ereza Martínez <eduard@ereza.cat>, 2019, 2020, 2021, 2023.
+# Eduard Ereza Martínez <eduard@ereza.cat>, 2019, 2020, 2021, 2023, 2024.
 # Adolfo Jayme Barrientos <fitojb@ubuntu.com>, 2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-05-06 11:51+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2024-06-07 03:07+0000\n"
+"Last-Translator: Eduard Ereza Martínez <eduard@ereza.cat>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/weblate/hosted/"
 "ca/>\n"
 "Language: ca\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.3\n"
+"X-Generator: Weblate 5.6-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -77,10 +77,8 @@ msgid "Current plan"
 msgstr "Pla actual"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Hosted strings limit"
-msgstr "Límit de cadenes"
+msgstr "Límit de cadenes allotjades"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
@@ -90,10 +88,8 @@ msgid "Unlimited"
 msgstr "Il·limitat"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Source strings limit"
-msgstr "Límit de cadenes"
+msgstr "Límit de cadenes d’origen"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Languages limit"
