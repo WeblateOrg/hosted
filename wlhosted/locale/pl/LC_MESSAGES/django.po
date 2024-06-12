@@ -8,13 +8,14 @@
 # WaldiS <sto@tutanota.de>, 2020.
 # tomkolp <tomkolp@gmail.com>, 2021.
 # Agnieszka C <aga_04@o2.pl>, 2021, 2022, 2024.
+# Piotr Kołtun <pkoltungm@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-05-06 12:46+0000\n"
-"Last-Translator: Agnieszka C <aga_04@o2.pl>\n"
+"PO-Revision-Date: 2024-06-12 12:25+0000\n"
+"Last-Translator: Piotr Kołtun <pkoltungm@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/weblate/hosted/pl/"
 ">\n"
 "Language: pl\n"
@@ -23,11 +24,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.5.3\n"
+"X-Generator: Weblate 5.6-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
-msgstr "Wygeneruj dane scenariusza Nieznane Horyzonty"
+msgstr "Wygeneruj dane scenariusza Unknown Horizons"
 
 #: wlhosted/addons.py:67
 msgid "Reset repository to upstream"
