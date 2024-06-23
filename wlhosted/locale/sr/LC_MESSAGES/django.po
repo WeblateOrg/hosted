@@ -8,13 +8,14 @@
 # Слободан Симић(Slobodan Simić) <slsimic@gmail.com>, 2020, 2021.
 # Мирослав Николић <miroslavnikolic@rocketmail.com>, 2021.
 # NEXI <nexiphotographer@gmail.com>, 2023.
+# Julija Juli <slonovaca226@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-05-06 11:51+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2024-06-24 06:22+0000\n"
+"Last-Translator: Julija Juli <slonovaca226@gmail.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/weblate/hosted/"
 "sr/>\n"
 "Language: sr\n"
@@ -23,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.5.3\n"
+"X-Generator: Weblate 5.6-rc\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -82,10 +83,8 @@ msgid "Current plan"
 msgstr "Тренутни план"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Hosted strings limit"
-msgstr "Ограничење ниски"
+msgstr "Ograničenje uživo niski"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
@@ -95,10 +94,8 @@ msgid "Unlimited"
 msgstr "неограничено"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Source strings limit"
-msgstr "Ограничење ниски"
+msgstr "Ograničenje niski iz izvora"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Languages limit"
