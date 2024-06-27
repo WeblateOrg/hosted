@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Robert Readman <robert_readman@hotmail.com>, 2018.
 # anonymous <noreply@weblate.org>, 2019.
-# Andi Chandler <andi@gowling.com>, 2023.
+# Andi Chandler <andi@gowling.com>, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-05-06 11:51+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2024-06-28 08:01+0000\n"
+"Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom) <https://hosted.weblate.org/projects/"
 "weblate/hosted/en_GB/>\n"
 "Language: en_GB\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.3\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -77,10 +77,8 @@ msgid "Current plan"
 msgstr "Current plan"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Hosted strings limit"
-msgstr "Strings limit"
+msgstr "Hosted strings limit"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
@@ -90,10 +88,8 @@ msgid "Unlimited"
 msgstr "Unlimited"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Source strings limit"
-msgstr "Strings limit"
+msgstr "Source strings limit"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Languages limit"
