@@ -15,13 +15,14 @@
 # Ivan <goz9ae93qun@temp.mailbox.org>, 2021.
 # Blueberry <igory.ygr200@gmail.com>, 2021, 2022.
 # Темак <artemkotlubai@yandex.ru>, 2022.
+# Artemka <anonymous58630@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-05-07 05:07+0000\n"
-"Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
+"PO-Revision-Date: 2024-07-03 07:46+0000\n"
+"Last-Translator: Artemka <anonymous58630@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/weblate/hosted/"
 "ru/>\n"
 "Language: ru\n"
@@ -30,7 +31,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.5.4-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -109,7 +110,7 @@ msgstr "Предел языков"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
-msgstr "Предел проектов"
+msgstr "Лимит проектов"
 
 #: wlhosted/integrations/templates/hosted/create.html:78
 #, python-format
