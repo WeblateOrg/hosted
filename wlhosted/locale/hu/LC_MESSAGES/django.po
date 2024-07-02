@@ -4,7 +4,7 @@
 # farkasg.zoltan <farkasg.zoltan@gmail.com>, 2019.
 # Mister X <piko88@freemail.hu>, 2019.
 # Doma Gergő <domag02@gmail.com>, 2019, 2020.
-# Balázs Úr <balazs@urbalazs.hu>, 2019, 2020.
+# Balázs Úr <balazs@urbalazs.hu>, 2019, 2020, 2024.
 # Szőke Sándor <mail@szokesandor.hu>, 2019.
 # János Néhrer <iiamnot@gmail.com>, 2019.
 # miles <varota@gmail.com>, 2019.
@@ -15,11 +15,11 @@
 # 99 efi <fegyed71@gmail.com>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2022-05-01 10:27+0000\n"
-"Last-Translator: 99 efi <fegyed71@gmail.com>\n"
+"PO-Revision-Date: 2024-07-02 11:56+0000\n"
+"Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/weblate/hosted/"
 "hu/>\n"
 "Language: hu\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12.1\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -88,10 +88,8 @@ msgid "Current plan"
 msgstr "Jelenlegi csomag"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Hosted strings limit"
-msgstr "Szövegek korlátja"
+msgstr "Kiszolgált szövegek korlátja"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
