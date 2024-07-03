@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-07-02 11:56+0000\n"
+"PO-Revision-Date: 2024-07-03 20:49+0000\n"
 "Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/weblate/hosted/"
 "hu/>\n"
@@ -31,15 +31,15 @@ msgstr ""
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
-msgstr "Unknown Horizons forgatókönyv adatok létrehozása"
+msgstr "Unknown Horizons forgatókönyvadatok előállítása"
 
 #: wlhosted/addons.py:67
 msgid "Reset repository to upstream"
-msgstr "Tároló visszaállítása az upstream-hez"
+msgstr "Tároló visszaállítása a távolihoz"
 
 #: wlhosted/addons.py:68
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Minden éjjel elveti az összes változtatást a Weblate tárolóban."
+msgstr "Minden éjjel elveti az összes változtatást a Weblate tárolójában."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
@@ -99,10 +99,8 @@ msgid "Unlimited"
 msgstr "Korlátlan"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Source strings limit"
-msgstr "Szövegek korlátja"
+msgstr "Forrásszövegek korlátja"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Languages limit"
@@ -115,7 +113,7 @@ msgstr "Projektek korlátja"
 #: wlhosted/integrations/templates/hosted/create.html:78
 #, python-format
 msgid "%(price)s EUR / month"
-msgstr "%(price)s EUR / hónap"
+msgstr "%(price)s EUR/hónap"
 
 #: wlhosted/integrations/templates/hosted/create.html:79
 #: wlhosted/integrations/templates/hosted/create.html:85
@@ -126,7 +124,7 @@ msgstr "%(price)s EUR ÁFÁ-val"
 #: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
 msgid "%(price)s EUR / year"
-msgstr "%(price)s EUR / év"
+msgstr "%(price)s EUR/év"
 
 #: wlhosted/integrations/templates/hosted/create.html:96
 msgid ""
@@ -134,30 +132,32 @@ msgid ""
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
-"Az ár a forrásszövegek és a célnyelvek számán alapul. A forrásszöveg egy "
-"szövegegység fordítási formátumban definiálva, lehet egy szó, egy mondat "
-"vagy bekezdés."
+"Az árképzés a forrásszövegek és a célnyelvek számán alapul. A forrásszöveg "
+"egy fordítási formátumban meghatározott szövegegység, amely lehet egy szó, "
+"egy mondat vagy egy bekezdés."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
-msgstr "A listázott árak nem tartalmazzák az ÁFÁ-t."
+msgstr "A felsorolt árak nem tartalmazzák az ÁFÁ-t."
 
 #: wlhosted/integrations/templates/hosted/create.html:100
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
-msgstr "EU és Cseh vállalatoknak további 21 %% ÁFA kerül kiszámlázásra."
+msgstr ""
+"Az Európai Unió végfelhasználói és a cseh vállalatok további 21%% ÁFA-t "
+"fizetnek."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
-"A fordított adózás az EU-n belüli vállalkozások számára kiállított számlákra "
-"vonatkozik."
+"A fordított adózás az Európai Unión belüli vállalkozások számára kiállított "
+"számlákra vonatkozik."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
-msgstr "Köszönjük a befizetést, számlázása most már kifizetésre került."
+msgstr "Köszönjük a befizetést, számlázása most már fizetve van."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
@@ -169,7 +169,7 @@ msgstr "Számlázási állapot ellenőrzése"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
-msgstr "Számlázási terve kifizetésre került"
+msgstr "A számlázási csomagja fizetve lett"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
@@ -177,19 +177,21 @@ msgstr "Nem található megfelelő befizetés."
 
 #: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr "Köszönjük, hogy megvásárolta a tárhelyet, most már aktív."
+msgstr ""
+"Köszönjük, hogy megvásárolt egy tárhelyszolgáltatási csomagot, ez most már "
+"aktív."
 
 #: wlhosted/integrations/views.py:83
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
-"Köszönjük, hogy megvásárolta a tárhelyszolgáltatási csomagot, a befizetése "
-"még függőben van, az a háttérben lesz feldolgozva."
+"Köszönjük, hogy megvásárolt egy tárhelyszolgáltatási csomagot. A befizetése "
+"még függőben van, a háttérben lesz feldolgozva."
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
-msgstr "A fizetés el lett utasítva: {}"
+msgstr "A befizetés el lett utasítva: {}"
 
 #: wlhosted/integrations/views.py:96
 msgid "Unknown reason"
@@ -197,11 +199,11 @@ msgstr "Ismeretlen ok"
 
 #: wlhosted/integrations/views.py:112
 msgid "Payments are temporarily inactive."
-msgstr "A fizetések átmenetileg inaktívak."
+msgstr "A befizetések átmenetileg inaktívak."
 
 #: wlhosted/payments/backends.py:192
 msgid "Your payment on weblate.org"
-msgstr "Befizetése a weblate.org webhelyen"
+msgstr "Az Ön befizetése a weblate.org webhelyen"
 
 #: wlhosted/payments/backends.py:194
 #, python-format
@@ -215,18 +217,18 @@ msgid ""
 "\n"
 "%s\n"
 msgstr ""
-"Üdvözlet,\n"
+"Üdvözöljük!\n"
 "\n"
-"Köszönjük fizetését a weblate.org webhelyen.\n"
+"Köszönjük a befizetését a weblate.org webhelyen.\n"
 "\n"
-"A fizetésről számlát talál csatolva.\n"
-"Alternatív megoldásként letöltheti a weboldalról:\n"
+"A befizetésről szóló számlát mellékelve találja.\n"
+"Alternatív megoldásként letöltheti a webhelyről:\n"
 "\n"
 "%s\n"
 
 #: wlhosted/payments/backends.py:220
 msgid "Your payment on weblate.org failed"
-msgstr "A fizetés a weblate.org-on sikertelen volt"
+msgstr "A befizetése a weblate.org webhelyen sikertelen"
 
 #: wlhosted/payments/backends.py:222
 #, python-format
@@ -244,22 +246,22 @@ msgid ""
 "If concerning a recurring payment, it is retried three times,\n"
 "and if still failing, cancelled.\n"
 msgstr ""
-"Helló,\n"
+"Üdvözöljük!\n"
 "\n"
-"A weblate.org oldalon történő fizetése nem sikerült.\n"
-"\n"
-"%s\n"
-"\n"
-"Próbálkozzon újra a fizetés kiadásával a webhelyen:\n"
+"A befizetése a weblate.org webhelyen nem sikerült.\n"
 "\n"
 "%s\n"
 "\n"
-"Ismétlődő fizetés esetén háromszor próbálják újra,\n"
-"és ha még mindig nem sikerül, akkor lemondják.\n"
+"Próbálja meg újra a befizetést a webhelyen:\n"
+"\n"
+"%s\n"
+"\n"
+"Ha ismétlődő fizetésről van szó, akkor azt háromszor próbáljuk meg újra,\n"
+"és ha továbbra sem sikerül, akkor töröljük.\n"
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
-msgstr "Függőben lévő fizetése a weblate.org oldalon"
+msgstr "Függőben lévő befizetése a weblate.org webhelyen"
 
 #: wlhosted/payments/backends.py:257
 msgid ""
@@ -268,10 +270,10 @@ msgid ""
 "Your payment on weblate.org is pending. Please follow the provided\n"
 "instructions to complete the payment.\n"
 msgstr ""
-"Helló,\n"
+"Üdvözöljük!\n"
 "\n"
-"Fizetése a weblate.org oldalon függőben van. Kérjük, kövesse a\n"
-"megadott utasításokat a fizetés teljesítéséhez.\n"
+"A befizetése a weblate.org webhelyen függőben van. Kövesse a megadott\n"
+"utasításokat a befizetés befejezéséhez.\n"
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
@@ -279,11 +281,11 @@ msgstr "Bankkártya"
 
 #: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
-msgstr "A fizetés törölve"
+msgstr "Befizetés törölve"
 
 #: wlhosted/payments/backends.py:417
 msgid "Payment error"
-msgstr "Fizetési hiba"
+msgstr "Befizetési hiba"
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
@@ -307,11 +309,11 @@ msgstr "Számlaszám"
 
 #: wlhosted/payments/backends.py:471
 msgid "SWIFT code"
-msgstr "Swift kód"
+msgstr "SWIFT-kód"
 
 #: wlhosted/payments/backends.py:472
 msgid "IBAN"
-msgstr "Nemzetközi bankszámlaszám (IBAN)"
+msgstr "IBAN"
 
 #: wlhosted/payments/backends.py:473
 msgid "Reference"
@@ -319,13 +321,13 @@ msgstr "Hivatkozás"
 
 #: wlhosted/payments/models.py:88
 msgid "European VAT ID"
-msgstr "Európai ÁFA azonosító"
+msgstr "Európai ÁFA-azonosító"
 
 #: wlhosted/payments/models.py:90
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
-"Kérjük, töltse ki az Európai Unió ÁFA-azonosítóját, ha nem alkalmazható, "
-"hagyja üresen."
+"Töltse ki az Európai Unió ÁFA-azonosítóját. Hagyja üresen, ha nem "
+"alkalmazható."
 
 #: wlhosted/payments/models.py:96
 msgid "Tax registration"
@@ -334,7 +336,7 @@ msgstr "Adószám"
 #: wlhosted/payments/models.py:98
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
-msgstr "Kérjük, töltse ki adószámát, ha meg kell jeleníteni a számlán."
+msgstr "Töltse ki adószámát, ha meg kell jelennie a számlán."
 
 #: wlhosted/payments/models.py:105
 msgid "Company or individual name"
@@ -354,7 +356,7 @@ msgstr "Ország"
 
 #: wlhosted/payments/models.py:144
 msgid "The country has to match your VAT code"
-msgstr "Az országnak meg kell egyeznie az ÁFA kóddal"
+msgstr "Az országnak összhangban kell lennie az ÁFA-kóddal"
 
 #: wlhosted/payments/models.py:167
 msgid "Annual"
@@ -370,58 +372,55 @@ msgstr "Negyedéves"
 
 #: wlhosted/payments/models.py:170
 msgid "Monthly"
-msgstr "Havonta"
+msgstr "Havi"
 
 #: wlhosted/payments/models.py:171
-#, fuzzy
-#| msgid "Onetime"
 msgid "One-time"
 msgstr "Egyszeri"
 
 #: wlhosted/payments/models.py:205
 msgctxt "Payment state"
 msgid "New payment"
-msgstr "Új fizetés"
+msgstr "Új befizetés"
 
 #: wlhosted/payments/models.py:206
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr "Fizetésre vár"
+msgstr "Befizetésre vár"
 
 #: wlhosted/payments/models.py:207
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "Fizetés elutasítva"
+msgstr "Befizetés elutasítva"
 
 #: wlhosted/payments/models.py:208
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "Fizetés elfogadva"
+msgstr "Befizetés elfogadva"
 
 #: wlhosted/payments/models.py:209
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "Fizetés feldolgozva"
+msgstr "Befizetés feldolgozva"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
-msgstr ""
-"A megadott {} országkód nem felel meg az Európai Unió egyetlen tagországának "
-"sem."
+msgstr "A(z) {} nem érvényes országkód az Európai Unió egyik tagállamában sem."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr "{} nem felel meg az ország adóazonosító előírásainak."
+msgstr ""
+"A(z) {} nem felel meg az ország ÁFA-azonosítójára vonatkozó előírásoknak."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
-"Az adóazonosító-ellenőrző szolgáltatás nem érhető el a következő részére: "
-"{}, próbálkozzon később."
+"Az ÁFA-azonosító ellenőrző szolgáltatás nem érhető el ehhez: {}, próbálja "
+"meg később újra."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr "{} érvénytelen ÁFA azonosító."
+msgstr "A(z) {} nem érvényes ÁFA-azonosító."
 
 #~ msgid "Component limit"
 #~ msgstr "Összetevők korlátja"
