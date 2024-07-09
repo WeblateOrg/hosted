@@ -1,13 +1,13 @@
 # anonymous <noreply@weblate.org>, 2019, 2020.
-# Selyan Sliman Amiri <selyan.kab@gmail.com>, 2020, 2022.
+# Selyan Sliman Amiri <selyan.kab@gmail.com>, 2020, 2022, 2024.
 # Muḥend Belqasem <belkacem77@gmail.com>, 2020.
 # Ouchene <merzouk.ouchene@laposte.net>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2022-03-07 08:56+0000\n"
+"PO-Revision-Date: 2024-07-09 10:22+0000\n"
 "Last-Translator: Selyan Sliman Amiri <selyan.kab@gmail.com>\n"
 "Language-Team: Kabyle <https://hosted.weblate.org/projects/weblate/hosted/"
 "kab/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -75,10 +75,8 @@ msgid "Current plan"
 msgstr "Aɣawas amiran"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Hosted strings limit"
-msgstr "Talast n izriren"
+msgstr "Talast n wawalen"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
@@ -88,10 +86,8 @@ msgid "Unlimited"
 msgstr "War talast"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Source strings limit"
-msgstr "Talast n izriren"
+msgstr "Talast n wawalen n teɣbalut"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Languages limit"
@@ -364,8 +360,6 @@ msgid "Monthly"
 msgstr "Yal aggur"
 
 #: wlhosted/payments/models.py:171
-#, fuzzy
-#| msgid "Onetime"
 msgid "One-time"
 msgstr "Tikkelt"
 
