@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Jordan <jordandunican@gmail.com>, 2023.
+# Aindriú Mac Giolla Eoin <aindriu80@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-05-06 11:51+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2024-07-14 16:21+0000\n"
+"Last-Translator: Aindriú Mac Giolla Eoin <aindriu80@gmail.com>\n"
 "Language-Team: Irish <https://hosted.weblate.org/projects/weblate/hosted/ga/>"
 "\n"
 "Language: ga\n"
@@ -17,19 +18,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :("
 "n>6 && n<11) ? 3 : 4;\n"
-"X-Generator: Weblate 5.5.3\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
-msgstr ""
+msgstr "Gin sonraí cásanna Anaithnid Horizons"
 
 #: wlhosted/addons.py:67
 msgid "Reset repository to upstream"
-msgstr ""
+msgstr "Athshocraigh an stór go dtí an sruth"
 
 #: wlhosted/addons.py:68
 msgid "Discards all changes in the Weblate repository each night."
-msgstr ""
+msgstr "Caitheann sé gach athrú sa stór Weblate gach oíche."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
@@ -76,10 +77,8 @@ msgid "Current plan"
 msgstr "An plean reatha"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Hosted strings limit"
-msgstr "Teorainn teaghráin"
+msgstr "Teorainn teaghráin óstáilte"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
@@ -89,10 +88,8 @@ msgid "Unlimited"
 msgstr "Neamhtheoranta"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Source strings limit"
-msgstr "Teorainn teaghráin"
+msgstr "Teorainn teaghráin foinse"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Languages limit"
@@ -145,6 +142,8 @@ msgstr ""
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
+"Baineann an frithmhuirear le sonraisc a eisítear chuig gnólachtaí laistigh "
+"den AE."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
@@ -236,10 +235,23 @@ msgid ""
 "If concerning a recurring payment, it is retried three times,\n"
 "and if still failing, cancelled.\n"
 msgstr ""
+"Dia dhuit,\n"
+"\n"
+"Theip ar d'íocaíocht ar weblate.org.\n"
+"\n"
+"%s\n"
+"\n"
+"Bain triail eile as an íocaíocht a eisiúint ar an suíomh Gréasáin:\n"
+"\n"
+"%s\n"
+"\n"
+"Más rud é maidir le híocaíocht athfhillteach, déantar é a aisghabháil trí "
+"huaire,\n"
+"agus má theipeann air fós, cealaíodh é.\n"
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
-msgstr ""
+msgstr "D’íocaíocht ar feitheamh ar weblate.org"
 
 #: wlhosted/payments/backends.py:257
 msgid ""
@@ -248,6 +260,11 @@ msgid ""
 "Your payment on weblate.org is pending. Please follow the provided\n"
 "instructions to complete the payment.\n"
 msgstr ""
+"Dia dhuit,\n"
+"\n"
+"Tá d'íocaíocht ar weblate.org ar feitheamh. Lean an méid atá curtha ar fáil "
+"le do thoil\n"
+"treoracha chun an íocaíocht a chríochnú.\n"
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
@@ -295,11 +312,12 @@ msgstr "Tagairt"
 
 #: wlhosted/payments/models.py:88
 msgid "European VAT ID"
-msgstr ""
+msgstr "Aitheantas CBL Eorpach"
 
 #: wlhosted/payments/models.py:90
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
+"Comhlánaigh ID CBL an Aontais Eorpaigh le do thoil, fág bán é mura mbaineann."
 
 #: wlhosted/payments/models.py:96
 msgid "Tax registration"
@@ -309,6 +327,8 @@ msgstr "Clárú cánach"
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
+"Comhlánaigh do chlárúchán cánach más rud é gur chóir go mbeadh sé le "
+"feiceáil ar an sonrasc."
 
 #: wlhosted/payments/models.py:105
 msgid "Company or individual name"
@@ -381,15 +401,17 @@ msgstr "Ní cód tíre bailí de thír san Aontas Eorpaigh é {}."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr ""
+msgstr "Ní mheaitseálann {} sonraíochtaí aitheantais CBL na tíre."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
+"Níl seirbhís bailíochtaithe aitheantais CBL ar fáil do {}, bain triail eile "
+"as ar ball."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr ""
+msgstr "Ní ID CBL bailí é {}."
 
 #~ msgid "Component limit"
 #~ msgstr "Teorainn míre"
