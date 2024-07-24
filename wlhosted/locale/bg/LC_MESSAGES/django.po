@@ -5,13 +5,13 @@
 # Whod <whodizhod@gmail.com>, 2020.
 # Georgi <g.georgiev.shumen@gmail.com>, 2021.
 # Любомир Василев <lyubomirv@gmx.com>, 2021.
-# 109247019824 <stoyan@gmx.com>, 2021, 2022.
+# 109247019824 <stoyan@gmx.com>, 2021, 2022, 2024.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2022-01-30 06:55+0000\n"
+"PO-Revision-Date: 2024-07-24 22:37+0000\n"
 "Last-Translator: 109247019824 <stoyan@gmx.com>\n"
 "Language-Team: Bulgarian <https://hosted.weblate.org/projects/weblate/hosted/"
 "bg/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -56,7 +56,7 @@ msgstr "Нов платежен план"
 
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
-msgstr "Изберете план за хостване, който отговаря на големината на проекта Ви."
+msgstr "Изберете подходящия план за хостинг съобразно размера на проекта ви."
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
