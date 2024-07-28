@@ -48,7 +48,7 @@ text = "GPLv3+"
 dev = [
   "wlhosted[lint,test]"
 ]
-lint = ["pre-commit==3.7.1"]
+lint = ["pre-commit==3.8.0"]
 test = [
   "httpretty",
   "coverage",
