@@ -4,13 +4,14 @@
 # G Ran Berg <jagflashardinxbox360@gmail.com>, 2019.
 # Mattias Münster <mattiasmun@gmail.com>, 2019.
 # Michal Čihař <michal@cihar.com>, 2020.
+# tygyh <jonis9898@hotmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-05-06 11:51+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2024-08-04 20:35+0000\n"
+"Last-Translator: tygyh <jonis9898@hotmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/weblate/hosted/"
 "sv/>\n"
 "Language: sv\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.3\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -77,10 +78,8 @@ msgid "Current plan"
 msgstr "Aktuell plan"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Hosted strings limit"
-msgstr "Strängbegränsning"
+msgstr "Gräns för värdsträngar"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
@@ -90,10 +89,8 @@ msgid "Unlimited"
 msgstr "Obegränsat"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Source strings limit"
-msgstr "Strängbegränsning"
+msgstr "Gräns för källsträngar"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Languages limit"
