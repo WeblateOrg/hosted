@@ -19,7 +19,7 @@ classifiers = [
   "Topic :: Internet :: WWW/HTTP :: Dynamic Content"
 ]
 dependencies = [
-  "Django>=5.0,<5.1",
+  "Django>=5.0,<5.2",
   "django-appconf>=1.0",
   "django-countries==7.6.1",
   "django-vies==6.1.0",
