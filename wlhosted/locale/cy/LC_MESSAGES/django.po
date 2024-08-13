@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Weblate <noreply@weblate.org>, 2019.
 # anonymous <noreply@weblate.org>, 2019.
-# Rhoslyn Prys <rprys@posteo.net>, 2019, 2023.
+# Rhoslyn Prys <rprys@posteo.net>, 2019, 2023, 2024.
 # dreigiau <sterilgrimed23@gmail.com>, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-07-07 21:09+0000\n"
-"Last-Translator: dreigiau <sterilgrimed23@gmail.com>\n"
+"PO-Revision-Date: 2024-08-14 00:54+0000\n"
+"Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: Welsh <https://hosted.weblate.org/projects/weblate/hosted/cy/>"
 "\n"
 "Language: cy\n"
@@ -24,15 +24,15 @@ msgstr ""
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
-msgstr ""
+msgstr "Cynhyrchu data senario Horizons anhysbys"
 
 #: wlhosted/addons.py:67
 msgid "Reset repository to upstream"
-msgstr ""
+msgstr "Ailosod y storfa i fyny'r afon"
 
 #: wlhosted/addons.py:68
 msgid "Discards all changes in the Weblate repository each night."
-msgstr ""
+msgstr "Mae'n gwaredu pob newid yn ystorfa Weblate bob nos."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
@@ -40,39 +40,39 @@ msgstr "Bilio"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
-msgstr ""
+msgstr "Dewiswch y cynllun bilio yr hoffech ei ddiweddaru"
 
 #: wlhosted/integrations/forms.py:34
 msgid "Create new billing plan"
-msgstr ""
+msgstr "Crëwch gynllun bilio newydd"
 
 #: wlhosted/integrations/templates/hosted/create.html:8
 msgid "Create billing plan"
-msgstr ""
+msgstr "Crëwch gynllun bilio"
 
 #: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
-msgstr ""
+msgstr "Cynllun bilio newydd"
 
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
-msgstr ""
+msgstr "Dewiswch gynllun gwesteio sy'n addas i faint eich project."
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
-msgstr ""
+msgstr "Statws bilio cyfredol"
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
-msgstr ""
+msgstr "Yn rhy fach ar gyfer eich project."
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small"
-msgstr ""
+msgstr "Yn rhy fach"
 
 #: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
-msgstr ""
+msgstr "Y cynllun wedi'i ddewis"
 
 #: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
@@ -90,10 +90,8 @@ msgid "Unlimited"
 msgstr "Diderfyn"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Source strings limit"
-msgstr "Terfyn llinynnau"
+msgstr "Cyfyngiad llinynnau ffynhonnell"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Languages limit"
@@ -106,18 +104,18 @@ msgstr "Terfyn prosiectau"
 #: wlhosted/integrations/templates/hosted/create.html:78
 #, python-format
 msgid "%(price)s EUR / month"
-msgstr ""
+msgstr "%(price)s EUR / mis"
 
 #: wlhosted/integrations/templates/hosted/create.html:79
 #: wlhosted/integrations/templates/hosted/create.html:85
-#, python-format
+#, fuzzy, python-format
 msgid "%(price)s EUR including VAT"
-msgstr ""
+msgstr "%(price)s EUR gan gynnwys TAW"
 
 #: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
 msgid "%(price)s EUR / year"
-msgstr ""
+msgstr "%(price)s EUR / y flwyddyn"
 
 #: wlhosted/integrations/templates/hosted/create.html:96
 msgid ""
@@ -125,29 +123,37 @@ msgid ""
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
+"Mae prisio yn seiliedig ar nifer y llinynnau ffynhonnell ac ieithoedd "
+"targed. Mae'r llinyn ffynhonnell yn uned destun a ddiffinnir mewn fformat "
+"cyfieithu, gall fod yn air, brawddeg neu baragraff."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
+#, fuzzy
 msgid "All listed prices exclude VAT."
-msgstr ""
+msgstr "Mae'r holl brisiau a restrir yn eithrio TAW."
 
 #: wlhosted/integrations/templates/hosted/create.html:100
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
+"Bydd defnyddwyr terfynol yr UE a chwmnïau Tsiec yn gorfod talu 21%% TAW "
+"ychwanegol."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
+"Mae’r tâl gwrthdro yn berthnasol i anfonebau a roddir i fusnesau o fewn yr "
+"UE."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
-msgstr ""
+msgstr "Diolch am y taliad, mae eich bil bellach wedi'i dalu."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "Mae'r cynllun bilio hwn yn cynnwys y prosiectau canlynol:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
@@ -155,25 +161,27 @@ msgstr "Gwirio eich statws bilio"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
-msgstr ""
+msgstr "Talwyd eich cynllun bilio"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
-msgstr ""
+msgstr "Heb ganfod taliad cyfatebol."
 
 #: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr ""
+msgstr "Diolch am brynu cynllun gwesteio, mae'n weithredol nawr."
 
 #: wlhosted/integrations/views.py:83
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
+"Diolch am brynu cynllun gwesteio, mae'r taliad ar ei gyfer yn yr arfaeth a "
+"bydd yn cael ei brosesu yn y cefndir."
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
-msgstr ""
+msgstr "Gwrthodwyd y taliad: {}"
 
 #: wlhosted/integrations/views.py:96
 msgid "Unknown reason"
@@ -181,11 +189,11 @@ msgstr "Rheswm anhysbys"
 
 #: wlhosted/integrations/views.py:112
 msgid "Payments are temporarily inactive."
-msgstr ""
+msgstr "Mae taliadau yn anweithredol dros dro."
 
 #: wlhosted/payments/backends.py:192
 msgid "Your payment on weblate.org"
-msgstr ""
+msgstr "Eich taliad ar weblate.org"
 
 #: wlhosted/payments/backends.py:194
 #, python-format
@@ -199,10 +207,18 @@ msgid ""
 "\n"
 "%s\n"
 msgstr ""
+"Helo,\n"
+"\n"
+"Diolch am eich talu ar weblate.org.\n"
+"\n"
+"Byddwch yn canfod anfoneb ar gyfer y taliad hwn wedi'i hatodi.\n"
+"Fel arall, gallwch ei llwytho i lawr o'r wefan:\n"
+"\n"
+"%s\n"
 
 #: wlhosted/payments/backends.py:220
 msgid "Your payment on weblate.org failed"
-msgstr ""
+msgstr "Methodd eich taliad ar weblate.org"
 
 #: wlhosted/payments/backends.py:222
 #, python-format
@@ -220,10 +236,22 @@ msgid ""
 "If concerning a recurring payment, it is retried three times,\n"
 "and if still failing, cancelled.\n"
 msgstr ""
+"Helo,\n"
+"\n"
+"Mae eich taliad ar weblate.org wedi methu.\n"
+"\n"
+"%s\n"
+"\n"
+"Ceisiwch ail gynnig y taliad ar y wefan:\n"
+"\n"
+"%s\n"
+"\n"
+"Os yw'n ymwneud â thaliad cylchol, bydd cynnig tair gwaith,\n"
+"ac os yw'n dal i fethu, ei ganslo.\n"
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
-msgstr ""
+msgstr "Eich taliad ar y gweill ar weblate.org"
 
 #: wlhosted/payments/backends.py:257
 msgid ""
@@ -232,6 +260,10 @@ msgid ""
 "Your payment on weblate.org is pending. Please follow the provided\n"
 "instructions to complete the payment.\n"
 msgstr ""
+"Helo,\n"
+"\n"
+"Mae eich taliad ar weblate.org yn aros i'w brosesu. Dilynwch y\n"
+"cyfarwyddiadau a ddarperir i gwblhau'r taliad.\n"
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
@@ -254,9 +286,8 @@ msgid "IBAN bank transfer"
 msgstr "Trosglwyddiad banc IBAN"
 
 #: wlhosted/payments/backends.py:468
-#, fuzzy
 msgid "Issuing bank"
-msgstr "Banc cyhoeddi"
+msgstr "Banc darparu"
 
 #: wlhosted/payments/backends.py:469
 msgid "Account holder"
@@ -333,8 +364,6 @@ msgid "Monthly"
 msgstr "Misol"
 
 #: wlhosted/payments/models.py:171
-#, fuzzy
-#| msgid "Onetime"
 msgid "One-time"
 msgstr "Un tro"
 
@@ -380,7 +409,7 @@ msgstr ""
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr ""
+msgstr "Nid yw {} yn ID TAW dilys."
 
 #~ msgid "Cookies"
 #~ msgstr "Cwcis"
