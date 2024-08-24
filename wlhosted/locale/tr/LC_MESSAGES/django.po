@@ -8,15 +8,15 @@
 # Ali Demirtas <alidemirtas94@gmail.com>, 2019.
 # Michal Čihař <michal@cihar.com>, 2020.
 # Oğuz Ersen <oguzersen@protonmail.com>, 2020.
-# Kaya Zeren <kayazeren@gmail.com>, 2022.
+# Kaya Zeren <kayazeren@gmail.com>, 2022, 2024.
 # Oğuz Ersen <oguz@ersen.moe>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-05-07 05:07+0000\n"
-"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
+"PO-Revision-Date: 2024-08-24 12:19+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/weblate/hosted/"
 "tr/>\n"
 "Language: tr\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.4-dev\n"
+"X-Generator: Weblate 5.7.1-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -80,11 +80,11 @@ msgstr "Seçilmiş plan"
 
 #: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
-msgstr "Geçerli plan"
+msgstr "Geçerli tarife"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Hosted strings limit"
-msgstr "Barındırılan dizeler sınırı"
+msgstr "Barındırılan dizge sınırı"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
