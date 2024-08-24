@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-08-24 12:19+0000\n"
+"PO-Revision-Date: 2024-08-25 13:09+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/weblate/hosted/"
 "tr/>\n"
@@ -40,31 +40,31 @@ msgstr "Weblate deposunda her gece yapılan tüm değişiklikleri yok sayar."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
-msgstr "Faturalama"
+msgstr "Fatura"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
-msgstr "Güncellemek istediğiniz ödeme planını seçin"
+msgstr "Güncellemek istediğiniz ödeme tarifesini seçin"
 
 #: wlhosted/integrations/forms.py:34
 msgid "Create new billing plan"
-msgstr "Yeni faturalama planı oluştur"
+msgstr "Yeni fatura tarifesi oluştur"
 
 #: wlhosted/integrations/templates/hosted/create.html:8
 msgid "Create billing plan"
-msgstr "Faturalama planı oluştur"
+msgstr "Fatura tarifesi oluştur"
 
 #: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
-msgstr "Yeni faturalama planı"
+msgstr "Yeni fatura tarifesi"
 
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
-msgstr "Projenizin büyüklüğüne uygun bir barındırma planı seçin."
+msgstr "Projenizin büyüklüğüne uygun bir barındırma tarifesi seçin."
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
-msgstr "Geçerli faturalama durumu"
+msgstr "Geçerli fatura durumu"
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
@@ -76,7 +76,7 @@ msgstr "Çok küçük"
 
 #: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
-msgstr "Seçilmiş plan"
+msgstr "Seçilmiş tarife"
 
 #: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
@@ -128,7 +128,7 @@ msgid ""
 "word, sentence or paragraph."
 msgstr ""
 "Fiyatlandırma, kaynak dizge ve hedef dil sayısına göre yapılır. Kaynak "
-"dizge, çeviri biçiminde tanımlanan bir metin birimidir, bir sözcük, tümce ya "
+"dizge, çeviri biçiminde tanımlanan bir metin birimidir, bir sözcük, cümle ya "
 "da paragraf olabilir."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
@@ -140,12 +140,12 @@ msgstr "Listelenen fiyatlara KDV dahil değildir."
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
-"AB son kullanıcıları ve Çek şirketlerinden %%21 oranında ek KDV alınır."
+"AB son kullanıcıları ile Çekya kuruluşlarından %%21 oranında ek KDV alınır."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
-msgstr "Ters ücret, AB içindeki işletmelere verilen faturalar için geçerlidir."
+msgstr "Ters ücret, AB içindeki kuruluşlara kesilen faturalar için geçerlidir."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
@@ -153,24 +153,24 @@ msgstr "Ödeme için teşekkür ederiz. Faturanız ödendi."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr "Bu faturalama planında şu projeler bulunuyor:"
+msgstr "Bu fatura tarifesinde şu projeler bulunuyor:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
-msgstr "Faturalama durumunuzu denetleyin"
+msgstr "Fatura durumunuzu denetleyin"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
-msgstr "Faturalanan planınız ödendi"
+msgstr "Fatura tarifeniz ödendi"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
-msgstr "Eşleşen ödeme bulunamadı."
+msgstr "Eşleşen bir ödeme bulunamadı."
 
 #: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr ""
-"Bir barındırma planı satın aldığınız için teşekkür ederiz. Planınız "
+"Bir barındırma tarifesi satın aldığınız için teşekkür ederiz. Tarifeniz "
 "etkinleştirildi."
 
 #: wlhosted/integrations/views.py:83
@@ -178,8 +178,8 @@ msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
-"Bir barındırma planı satın aldığınız için teşekkür ederiz. Ödeme işleminizin "
-"tamamlanması bekleniyor ve arka planda işlenecek."
+"Bir barındırma tarifesi satın aldığınız için teşekkür ederiz. Ödeme "
+"işleminizin tamamlanması bekleniyor ve arka planda işlenecek."
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
@@ -187,11 +187,11 @@ msgstr "Ödeme reddedildi: {}"
 
 #: wlhosted/integrations/views.py:96
 msgid "Unknown reason"
-msgstr "Neden bilinmiyor"
+msgstr "Nedeni bilinmiyor"
 
 #: wlhosted/integrations/views.py:112
 msgid "Payments are temporarily inactive."
-msgstr "Ödemeler geçici olarak etkin değil."
+msgstr "Ödemeler geçici olarak yapılamıyor."
 
 #: wlhosted/payments/backends.py:192
 msgid "Your payment on weblate.org"
@@ -214,7 +214,7 @@ msgstr ""
 "Weblate.org ödemeniz için teşekkür ederiz.\n"
 "\n"
 "Bu ödemenin faturasını ekte bulabilirsiniz.\n"
-"Ayrıca web sitesinden de indirebilirsiniz:\n"
+"Ayrıca sitemizden de indirebilirsiniz:\n"
 "\n"
 "%s\n"
 
@@ -244,7 +244,7 @@ msgstr ""
 "\n"
 "%s\n"
 "\n"
-"Ödemeyi web sitesinden yeniden yapmak için:\n"
+"Ödemeyi sitemizden yeniden yapmak için:\n"
 "\n"
 "%s\n"
 "\n"
@@ -253,7 +253,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
-msgstr "Weblate.org bekleyen ödemeniz"
+msgstr "Weblate.org ödemeniz bekliyor"
 
 #: wlhosted/payments/backends.py:257
 msgid ""
@@ -264,9 +264,8 @@ msgid ""
 msgstr ""
 "Merhaba,\n"
 "\n"
-"Weblate.org ödeme işleminizin tamamlanması bekleniyor. Lütfen ödemeyi "
-"tamamlamak\n"
-"için yönergeleri uygulayın.\n"
+"Weblate.org ödemenizin tamamlanması bekleniyor. Lütfen ödemeyi tamamlamak\n"
+"için yönergeyi izleyin.\n"
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
@@ -290,7 +289,7 @@ msgstr "IBAN banka havalesi"
 
 #: wlhosted/payments/backends.py:468
 msgid "Issuing bank"
-msgstr "Veren banka"
+msgstr "İlgili banka"
 
 #: wlhosted/payments/backends.py:469
 msgid "Account holder"
@@ -328,11 +327,11 @@ msgstr "Vergi kaydı"
 #: wlhosted/payments/models.py:98
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
-msgstr "Lütfen faturada görünmesini istediğiniz vergi kaydınızı yazın."
+msgstr "Lütfen faturada görüntülenmesini istediğiniz vergi bilgilerinizi yazın."
 
 #: wlhosted/payments/models.py:105
 msgid "Company or individual name"
-msgstr "Şirket ya da şahıs adı"
+msgstr "Kurum ya da kişi adı"
 
 #: wlhosted/payments/models.py:108
 msgid "Address"
