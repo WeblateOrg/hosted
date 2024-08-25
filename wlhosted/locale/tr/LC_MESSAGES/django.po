@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-08-25 13:09+0000\n"
+"PO-Revision-Date: 2024-08-26 15:09+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/weblate/hosted/"
 "tr/>\n"
@@ -40,7 +40,7 @@ msgstr "Weblate deposunda her gece yapılan tüm değişiklikleri yok sayar."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
-msgstr "Fatura"
+msgstr "Faturalama"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
