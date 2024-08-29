@@ -60,13 +60,16 @@ def notify_paid_removal(billing_id):
 @app.task
 def recurring_payments():
     cutoff = timezone.now().date() + timedelta(days=1)
-    for billing in Billing.objects.filter(state=Billing.STATE_ACTIVE).select_related(
-        "plan"
-    ):
+    for billing in Billing.objects.filter(state=Billing.STATE_ACTIVE).prefetch():
         if "recurring" not in billing.payment:
+            # No recurring payment
             continue
         last_invoice = billing.invoice_set.order_by("-start")[0]
         if last_invoice.end > cutoff:
+            # Billing is still paid
+            continue
+        if not billing.ordered_projects:
+            # There are no projects associated
             continue
 
         original = Payment.objects.get(pk=billing.payment["recurring"])
