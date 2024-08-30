@@ -44,7 +44,7 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - uses: hynek/setup-cached-uv@v2
       with:
-        uv-cache-path: pyproject.toml
+        cache-dependency-path: pyproject.toml
     - name: Install pip dependencies
       run: uv pip install https://github.com/WeblateOrg/weblate/archive/main.zip -e .[test]
     - name: Test with Django
