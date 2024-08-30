@@ -63,8 +63,6 @@ class PaymentTest(TestCase):
         params = {"plan": self.plan_a.id, "period": "y"}
         params.update(kwargs)
         response = self.client.post(reverse("create-billing"), params)
-        bill = Billing.objects.get()
-        bill.projects.add(Project.objects.create(name="Project", slug="project"))
         self.assertRedirects(
             response, "http://example.com/payment", fetch_redirect_response=False
         )
@@ -257,6 +255,9 @@ class PaymentTest(TestCase):
         return payment, bill, invoices
 
     def run_recurring(self):
+        # Make sure billing has a project
+        bill = Billing.objects.get()
+        bill.projects.add(Project.objects.create(name="Project", slug="project"))
         # Invoke recurring payment
         httpretty.register_uri(httpretty.POST, "http://example.com/payment", body="")
         recurring_payments()
