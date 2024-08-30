@@ -27,6 +27,7 @@ from django.test.utils import override_settings
 from django.urls import reverse
 from django.utils import timezone
 from weblate.billing.models import Billing, Invoice, Plan
+from weblate.trans.models import Project
 from weblate.trans.tests.utils import create_test_user
 
 from wlhosted.integrations.tasks import pending_payments, recurring_payments
@@ -69,6 +70,7 @@ class PaymentTest(TestCase):
     def create_trial(self):
         bill = Billing.objects.create(state=Billing.STATE_TRIAL, plan=self.plan_b)
         bill.owners.add(self.user)
+        bill.projects.add(Project.objects.create(name="Project", slug="project"))
         return bill
 
     def test_create(self):
