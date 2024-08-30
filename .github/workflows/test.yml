@@ -42,14 +42,11 @@ jobs:
       uses: actions/setup-python@v5
       with:
         python-version: ${{ matrix.python-version }}
-        cache: pip
-        cache-dependency-path: pyproject.toml
+    - uses: hynek/setup-cached-uv@v2
+      with:
+        uv-cache-path: pyproject.toml
     - name: Install pip dependencies
-      run: |
-        pip install --upgrade pip wheel Cython setuptools
-        pip install --no-binary :all: cffi
-        pip install https://github.com/WeblateOrg/weblate/archive/main.zip
-        pip install -e .[test]
+      run: uv pip install https://github.com/WeblateOrg/weblate/archive/main.zip -e .[test]
     - name: Test with Django
       env:
         CI_DATABASE: postgresql
