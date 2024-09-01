@@ -9,13 +9,14 @@
 # Мирослав Николић <miroslavnikolic@rocketmail.com>, 2021.
 # NEXI <nexiphotographer@gmail.com>, 2023.
 # Julija Juli <slonovaca226@gmail.com>, 2024.
+# Reno Tx <renotx@users.noreply.hosted.weblate.org>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-06-24 06:22+0000\n"
-"Last-Translator: Julija Juli <slonovaca226@gmail.com>\n"
+"PO-Revision-Date: 2024-09-01 17:47+0000\n"
+"Last-Translator: Reno Tx <renotx@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/weblate/hosted/"
 "sr/>\n"
 "Language: sr\n"
@@ -24,7 +25,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.6-rc\n"
+"X-Generator: Weblate 5.8-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -84,18 +85,18 @@ msgstr "Тренутни план"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Hosted strings limit"
-msgstr "Ograničenje uživo niski"
+msgstr "Ограничење броја низова уживо"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
 #: wlhosted/integrations/templates/hosted/create.html:63
 #: wlhosted/integrations/templates/hosted/create.html:66
 msgid "Unlimited"
-msgstr "неограничено"
+msgstr "Неограничено"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
 msgid "Source strings limit"
-msgstr "Ograničenje niski iz izvora"
+msgstr "Ограничење броја изворних низова"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Languages limit"
@@ -127,8 +128,9 @@ msgid ""
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
-"Цена је заснована на броју изворних порука и језика за превод. Изворна "
-"порука је текстуална јединица превода. Може бити реч, реченица или пасус."
+"Цена је заснована на броју изворних низова и циљних језика. Изворни низ је "
+"текстуална јединица дефинисана у формату за превод. Може бити реч, реченица "
+"или пасус."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
@@ -138,12 +140,12 @@ msgstr "Приказане цене су без ПДВ-а."
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
-msgstr "ЕУ корисницима и чешким компанијама биће додатно наплаћено 21%% ПДВ."
+msgstr "Корисницима у ЕУ и чешким компанијама биће додатно наплаћено 21%% ПДВ."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
-msgstr "Повраћај трошкова примењује се на рачуне издате предузећима унутар ЕУ."
+msgstr "Обрачун повраћаја се примењује на рачуне издате предузећима унутар ЕУ."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
@@ -191,7 +193,7 @@ msgstr "Плаћања су привремено недоступна."
 
 #: wlhosted/payments/backends.py:192
 msgid "Your payment on weblate.org"
-msgstr "Ваша плаћања на weblate.org"
+msgstr "Ваше плаћање на weblate.org"
 
 #: wlhosted/payments/backends.py:194
 #, python-format
@@ -216,7 +218,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:220
 msgid "Your payment on weblate.org failed"
-msgstr "Ваша уплата на „weblate.org“-у није успела"
+msgstr "Ваше плаћање на „weblate.org“-у није успело"
 
 #: wlhosted/payments/backends.py:222
 #, python-format
@@ -234,22 +236,22 @@ msgid ""
 "If concerning a recurring payment, it is retried three times,\n"
 "and if still failing, cancelled.\n"
 msgstr ""
-"Здраво.\n"
+"Здраво,\n"
 "\n"
-"Ваше уплата на „weblate.org“-у није успела.\n"
-"\n"
-"%s\n"
-"\n"
-"Покушајте да обавите уплату на веб сајту:\n"
+"Ваше плаћање на „weblate.org“-у није успело.\n"
 "\n"
 "%s\n"
 "\n"
-"Ако вас брине поновљено плаћање, покушава се три пута,\n"
+"Покушајте да извршите уплату на веб сајту:\n"
+"\n"
+"%s\n"
+"\n"
+"Ако је у питању поновљено плаћање, покушава се три пута,\n"
 "и ако и даље не успе, отказује се.\n"
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
-msgstr "Ваше уплате на чекању на „weblate.org“-у"
+msgstr "Ваше плаћање на чекању на „weblate.org“-у"
 
 #: wlhosted/payments/backends.py:257
 msgid ""
@@ -258,9 +260,9 @@ msgid ""
 "Your payment on weblate.org is pending. Please follow the provided\n"
 "instructions to complete the payment.\n"
 msgstr ""
-"Здраво.\n"
+"Здраво,\n"
 "\n"
-"Ваша уплата на „weblate.org“-у је у обради. Пратите дате\n"
+"Ваше плаћање на „weblate.org“-у је на чекању. Пратите дате\n"
 "инструкције да довршите плаћање.\n"
 
 #: wlhosted/payments/backends.py:339
