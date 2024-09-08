@@ -14,13 +14,14 @@
 # Jeannette L <j.lavoie@net-c.ca>, 2020.
 # Antenore Gatta <antenore@simbiosi.org>, 2020.
 # Massimo Pissarello <mapi68@gmail.com>, 2024.
+# Aristide <mpvn@yahoo.it>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-06-22 13:23+0000\n"
-"Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
+"PO-Revision-Date: 2024-09-09 00:12+0000\n"
+"Last-Translator: Aristide <mpvn@yahoo.it>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/weblate/hosted/"
 "it/>\n"
 "Language: it\n"
@@ -28,12 +29,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6-rc\n"
+"X-Generator: Weblate 5.8-dev\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
-msgstr "Genera dati scenario orizzonte sconosciuto"
+msgstr "Genera dati dello scenario sconosciuto"
 
 #: wlhosted/addons.py:67
 msgid "Reset repository to upstream"
