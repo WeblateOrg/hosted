@@ -4,15 +4,15 @@
 # anonymous <noreply@weblate.org>, 2019.
 # Whod <whodizhod@gmail.com>, 2020.
 # Georgi <g.georgiev.shumen@gmail.com>, 2021.
-# Любомир Василев <lyubomirv@gmx.com>, 2021.
+# Любомир Василев <lyubomirv@gmx.com>, 2021, 2024.
 # 109247019824 <stoyan@gmx.com>, 2021, 2022, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-07-24 22:37+0000\n"
-"Last-Translator: 109247019824 <stoyan@gmx.com>\n"
+"PO-Revision-Date: 2024-09-21 12:04+0000\n"
+"Last-Translator: Любомир Василев <lyubomirv@gmx.com>\n"
 "Language-Team: Bulgarian <https://hosted.weblate.org/projects/weblate/hosted/"
 "bg/>\n"
 "Language: bg\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.8-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -79,10 +79,8 @@ msgid "Current plan"
 msgstr "Текущ план"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Hosted strings limit"
-msgstr "Ограничение на броя низове"
+msgstr "Ограничение на броя низове на сървъра"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
@@ -92,10 +90,8 @@ msgid "Unlimited"
 msgstr "Без ограничение"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Source strings limit"
-msgstr "Ограничение на броя низове"
+msgstr "Ограничение на броя изходни низове"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Languages limit"
@@ -369,8 +365,6 @@ msgid "Monthly"
 msgstr "Ежемесечно"
 
 #: wlhosted/payments/models.py:171
-#, fuzzy
-#| msgid "Onetime"
 msgid "One-time"
 msgstr "Еднократно"
 
