@@ -45,6 +45,8 @@ jobs:
     - uses: astral-sh/setup-uv@v3
       with:
         enable-cache: true
+        cache-dependency-glob: ''
+        cache-suffix: ${{ matrix.python-version }}
     - name: Install pip dependencies
       run: uv pip install --system https://github.com/WeblateOrg/weblate/archive/main.zip -e .[test]
     - name: Test with Django
