@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-08-11 00:55+0000\n"
+"PO-Revision-Date: 2024-09-28 08:33+0000\n"
 "Last-Translator: amano <amano@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/weblate/hosted/"
 "ja/>\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.8-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -369,7 +369,7 @@ msgstr "月払い"
 
 #: wlhosted/payments/models.py:171
 msgid "One-time"
-msgstr "一括払い"
+msgstr "１回限り"
 
 #: wlhosted/payments/models.py:205
 msgctxt "Payment state"
