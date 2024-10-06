@@ -52,7 +52,7 @@ lint = ["pre-commit==4.0.0"]
 test = [
   "httpretty",
   "coverage",
-  "build==1.2.2",
+  "build==1.2.2.post1",
   "twine==5.1.1"
 ]
 
