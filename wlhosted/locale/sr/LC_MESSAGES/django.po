@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-10-09 21:47+0000\n"
+"PO-Revision-Date: 2024-10-11 04:11+0000\n"
 "Last-Translator: Reno Tx <renotx@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/weblate/hosted/"
 "sr/>\n"
@@ -364,7 +364,7 @@ msgstr "месечно"
 
 #: wlhosted/payments/models.py:171
 msgid "One-time"
-msgstr "једнократно"
+msgstr "Једнократно"
 
 #: wlhosted/payments/models.py:205
 msgctxt "Payment state"
