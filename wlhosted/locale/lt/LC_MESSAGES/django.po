@@ -6,13 +6,14 @@
 # Tomas Darius Davainis <tomas@davainis.lt>, 2020.
 # Vaclovas Intas <vaclovas1999@gmail.com>, 2023, 2024.
 # Džiugas J <dziugas1959@hotmail.com>, 2024.
+# Vaclovas Intas <Gateway_31@protonmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-05-06 11:51+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2024-10-11 11:45+0000\n"
+"Last-Translator: Vaclovas Intas <Gateway_31@protonmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/weblate/"
 "hosted/lt/>\n"
 "Language: lt\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || "
 "n%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
-"X-Generator: Weblate 5.5.3\n"
+"X-Generator: Weblate 5.8-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -238,7 +239,7 @@ msgstr "Mokėjimo kortelė"
 
 #: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
-msgstr "Mokėjimas nutrauktas"
+msgstr "Mokėjimas atšauktas"
 
 #: wlhosted/payments/backends.py:417
 msgid "Payment error"
@@ -246,7 +247,7 @@ msgstr "Mokėjimo klaida"
 
 #: wlhosted/payments/backends.py:429
 msgid "Bitcoin"
-msgstr "Bitcoin"
+msgstr "Bitkoinas"
 
 #: wlhosted/payments/backends.py:438
 msgid "IBAN bank transfer"
@@ -254,7 +255,7 @@ msgstr "IBAN banko pervedimas"
 
 #: wlhosted/payments/backends.py:468
 msgid "Issuing bank"
-msgstr "Bankas emitentas"
+msgstr "Išduodantis bankas"
 
 #: wlhosted/payments/backends.py:469
 msgid "Account holder"
@@ -274,7 +275,7 @@ msgstr "IBAN"
 
 #: wlhosted/payments/backends.py:473
 msgid "Reference"
-msgstr ""
+msgstr "Nuoroda"
 
 #: wlhosted/payments/models.py:88
 msgid "European VAT ID"
@@ -283,19 +284,23 @@ msgstr "Europos PVM mokėtojo kodas"
 #: wlhosted/payments/models.py:90
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
+"Užpildykite Europos Sąjungos PVM mokėtojo kodą. Palikite tuščią, jei "
+"netaikoma."
 
 #: wlhosted/payments/models.py:96
 msgid "Tax registration"
-msgstr ""
+msgstr "Mokesčių registracija"
 
 #: wlhosted/payments/models.py:98
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
+"Užpildykite savo mokesčių mokėtojo registraciją, jei ji turėtų būti nurodoma "
+"sąskaitoje faktūroje."
 
 #: wlhosted/payments/models.py:105
 msgid "Company or individual name"
-msgstr "Įmonės arba fizinio asmens vardas"
+msgstr "Bendrovės arba fizinio asmens vardas"
 
 #: wlhosted/payments/models.py:108
 msgid "Address"
