@@ -15,13 +15,14 @@
 # Antenore Gatta <antenore@simbiosi.org>, 2020.
 # Massimo Pissarello <mapi68@gmail.com>, 2024.
 # Aristide <mpvn@yahoo.it>, 2024.
+# bovirus <roberto.boriotti@canon.it>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-09-09 00:12+0000\n"
-"Last-Translator: Aristide <mpvn@yahoo.it>\n"
+"PO-Revision-Date: 2024-10-15 06:55+0000\n"
+"Last-Translator: bovirus <roberto.boriotti@canon.it>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/weblate/hosted/"
 "it/>\n"
 "Language: it\n"
@@ -29,7 +30,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.8-rc\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
@@ -276,7 +277,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
-msgstr "Pagamento con carta"
+msgstr "Carta pagamento"
 
 #: wlhosted/payments/backends.py:415
 msgid "Payment cancelled"
@@ -334,7 +335,7 @@ msgstr "Partita IVA"
 #: wlhosted/payments/models.py:98
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
-msgstr "Compila la tua partita IVA poichè deve essere riportata sulla fattura."
+msgstr "Compila la partita IVA poichè deve essere riportata sulla fattura."
 
 #: wlhosted/payments/models.py:105
 msgid "Company or individual name"
@@ -350,11 +351,11 @@ msgstr "CAP e città"
 
 #: wlhosted/payments/models.py:113
 msgid "Country"
-msgstr "Paese"
+msgstr "Nazione"
 
 #: wlhosted/payments/models.py:144
 msgid "The country has to match your VAT code"
-msgstr "Il Paese deve corrispondere al tuo codice IVA"
+msgstr "La nazione deve corrispondere al codice IVA"
 
 #: wlhosted/payments/models.py:167
 msgid "Annual"
