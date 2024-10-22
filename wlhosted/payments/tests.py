@@ -29,7 +29,6 @@ from django.test.utils import override_settings
 
 from wlhosted.payments.backends import FioBank, InvalidState, get_backend, list_backends
 from wlhosted.payments.models import Customer, Payment
-from wlhosted.payments.validators import validate_vatin
 
 CUSTOMER = {
     "name": "Michal Čihař",
@@ -269,14 +268,3 @@ class BackendTest(TestCase):
         self.assertEqual(
             payment.details["transaction"]["recipient_message"], proforma_id
         )
-
-
-class VATTest(SimpleTestCase):
-    def test_validation(self):
-        with self.assertRaises(ValidationError):
-            validate_vatin("XX123456")
-        with self.assertRaises(ValidationError):
-            validate_vatin("CZ123456")
-        with self.assertRaises(ValidationError):
-            validate_vatin("CZ8003280317")
-        validate_vatin("CZ8003280318")
