@@ -84,7 +84,7 @@ class Customer(models.Model):
     vat = VATINField(
         validators=[validate_vatin],
         blank=True,
-        null=True,
+        default="",
         verbose_name=gettext_lazy("European VAT ID"),
         help_text=gettext_lazy(
             "Please fill in European Union VAT ID, leave blank if not applicable."
@@ -101,16 +101,20 @@ class Customer(models.Model):
     )
     name = models.CharField(
         max_length=200,
-        null=True,
+        default="",
         verbose_name=gettext_lazy("Company or individual name"),
     )
     address = models.CharField(
-        max_length=200, null=True, verbose_name=gettext_lazy("Address")
+        max_length=200,
+        default="",
+        verbose_name=gettext_lazy("Address"),
     )
     city = models.CharField(
-        max_length=200, null=True, verbose_name=gettext_lazy("Postcode and city")
+        max_length=200,
+        default="",
+        verbose_name=gettext_lazy("Postcode and city"),
     )
-    country = CountryField(null=True, verbose_name=gettext_lazy("Country"))
+    country = CountryField(default="", verbose_name=gettext_lazy("Country"))
     email = models.EmailField(blank=False, max_length=190, validators=[validate_email])
     origin = models.URLField(max_length=300)
     user_id = models.IntegerField()
