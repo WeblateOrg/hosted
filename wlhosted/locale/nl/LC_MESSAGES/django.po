@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-08-26 15:09+0000\n"
+"PO-Revision-Date: 2024-10-23 09:15+0000\n"
 "Last-Translator: Dick Groskamp <dikgro@yahoo.co.uk>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/weblate/hosted/nl/>"
 "\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7.1-dev\n"
+"X-Generator: Weblate 5.8.2-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -38,7 +38,7 @@ msgstr "Verwerp elke avond alle wijzigingen in de Weblate-opslagruimte."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
-msgstr "Facturering"
+msgstr "Facturatie"
 
 #: wlhosted/integrations/forms.py:33
 msgid "Choose the billing plan you want to update"
@@ -92,10 +92,8 @@ msgid "Unlimited"
 msgstr "Onbeperkt"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Source strings limit"
-msgstr "Tekenreekslimiet"
+msgstr "Brontekenreeks limiet"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Languages limit"
