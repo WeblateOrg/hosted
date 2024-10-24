@@ -17,13 +17,17 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
 
+from __future__ import annotations
+from django.utils import timezone
+
+import datetime
 from django import forms
 from django.core.exceptions import ValidationError
 from django.utils.translation import gettext_lazy as _
 from weblate.billing.models import Billing, Plan
 
 from wlhosted.integrations.utils import get_origin
-from wlhosted.payments.models import Customer, Payment
+from wlhosted.payments.models import Customer, Payment, get_period_delta, date_format
 
 
 class ChooseBillingForm(forms.Form):
@@ -73,16 +77,27 @@ class BillingForm(ChooseBillingForm):
 
         plan = self.cleaned_data["plan"]
         period = self.cleaned_data["period"]
-        description = "Weblate hosting ({}, {})".format(
-            plan.name, "Monthly" if period == "m" else "Yearly"
-        )
+        extra = {
+            "plan": plan.pk,
+            "period": period,
+        }
+        if billing := self.cleaned_data["billing"]:
+            extra["billing"] = billing.pk
+            try:
+                invoice = billing.get_last_invoice_object()
+            except IndexError:
+                start_date = timezone.now()
+            else:
+                start_date = invoice.end + datetime.timedelta(days=1)
+        else:
+            start_date = timezone.now()
+        end_date = start_date + get_period_delta(period)
+
+        description = f"Weblate hosting ({plan.name}) [{date_format(start_date)} - {date_format(end_date)}]"
         amount = plan.price if period == "m" else plan.yearly_price
         if self.cleaned_data["extra_domain"]:
             amount += 100
             description += " + Custom domain"
-        extra = {"plan": plan.pk, "period": period}
-        if self.cleaned_data["billing"]:
-            extra["billing"] = self.cleaned_data["billing"].pk
         return Payment.objects.create(
             amount=amount,
             description=description,

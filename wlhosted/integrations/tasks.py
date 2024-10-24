@@ -32,6 +32,7 @@ from weblate.utils.celery import app
 from wlhosted.integrations.models import handle_received_payment
 from wlhosted.integrations.utils import get_origin
 from wlhosted.payments.models import Payment
+from wlhosted.payments.models import get_period_delta, date_format
 
 
 @app.task
@@ -74,10 +75,16 @@ def recurring_payments():
 
         original = Payment.objects.get(pk=billing.payment["recurring"])
 
+        start_date = last_invoice.end + timedelta(days=1)
+        end_date = start_date + get_period_delta(original.extra["period"])
+
+        description = f"Weblate hosting ({billing.plan.name}) [{date_format(start_date)} - {date_format(end_date)}]"
+
         repeated = original.repeat_payment(
             amount=billing.plan.price
             if original.extra["period"] == "m"
             else billing.plan.yearly_price,
+            description=description,
             billing=billing.pk,
         )
         if not repeated:
