@@ -23,6 +23,7 @@ import uuid
 import requests
 from appconf import AppConf
 from dateutil.relativedelta import relativedelta
+from datetime import datetime
 from django.conf import settings
 from django.core.exceptions import ValidationError
 from django.core.serializers.json import DjangoJSONEncoder
@@ -273,7 +274,11 @@ class Payment(models.Model):
         return settings.PAYMENT_REDIRECT_URL.format(language=language, uuid=self.uuid)
 
     def repeat_payment(
-        self, skip_previous: bool = False, amount: int | None = None, **kwargs
+        self,
+        skip_previous: bool = False,
+        amount: int | None = None,
+        description: str | None = None,
+        **kwargs,
     ):
         # Check if backend is still valid
         from wlhosted.payments.backends import get_backend
@@ -282,6 +287,9 @@ class Payment(models.Model):
             get_backend(self.backend)
         except KeyError:
             return False
+
+        if description is None:
+            description = self.description
 
         with transaction.atomic(using="payments_db"):
             # Check for failed payments
@@ -305,7 +313,7 @@ class Payment(models.Model):
             return Payment.objects.create(
                 amount=self.amount if amount is None else amount,
                 backend=self.backend,
-                description=self.description,
+                description=description,
                 recurring="",
                 customer=self.customer,
                 amount_fixed=self.amount_fixed,
@@ -346,3 +354,7 @@ def get_period_delta(period):
     if period == "m":
         return relativedelta(months=1) - relativedelta(days=1)
     raise ValueError(f"Invalid payment period {period!r}!")
+
+
+def date_format(value: datetime) -> str:
+    return value.strftime("%-d %b %Y")
