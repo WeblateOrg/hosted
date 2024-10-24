@@ -423,7 +423,7 @@ class ThePayCard(Backend):
         return False
 
 
-@register_backend
+# @register_backend
 class ThePayBitcoin(ThePayCard):
     name = "thepay-bitcoin"
     verbose = gettext_lazy("Bitcoin")
@@ -514,3 +514,13 @@ class FioBank(Backend):
                         )
                 except Payment.DoesNotExist:
                     print(f"No matching payment for {proforma_id} found")
+
+
+@register_backend
+class ThePay2Card(Backend):
+    name = "thepay2-card"
+    verbose = gettext_lazy("Payment card")
+    description = "Payment Card (The Pay)"
+    recurring = True
+    # TODO: make it production
+    debug = True
