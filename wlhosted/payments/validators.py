@@ -1,8 +1,6 @@
-import sentry_sdk
 from django.core.cache import cache
 from django.core.exceptions import ValidationError
 from django.utils.translation import gettext as _
-from suds import WebFault
 from vies.types import VATIN
 
 
@@ -17,14 +15,10 @@ def cache_vies_data(value):
             value.verify_regex()
         except ValidationError:
             return value
-        try:
-            data = {}
-            for item in value.data:
-                data[item] = value.data[item]
-            cache.set(key, data, 3600)
-        except WebFault as error:
-            sentry_sdk.capture_exception()
-            data = {"valid": False, "fault_reason": str(error.fault.faultstring)}
+        data = {}
+        for item in value.data:
+            data[item] = value.data[item]
+        cache.set(key, data, 3600)
     value.__dict__["vies_data"] = data
 
     return value

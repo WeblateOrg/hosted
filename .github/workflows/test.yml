@@ -28,8 +28,6 @@ jobs:
           POSTGRES_PASSWORD: postgres
     steps:
     - uses: actions/checkout@v4
-      with:
-        submodules: recursive
     - name: Configure git
       run: |
         git config --global user.email "ci@example.com"
@@ -37,7 +35,7 @@ jobs:
     - name: Install apt dependencies
       run: |
         sudo apt update
-        sudo apt install texlive-latex-recommended libcairo-dev gir1.2-pango-1.0 libgirepository1.0-dev libacl1-dev gettext texlive-lang-japanese texlive-xetex texlive-fonts-recommended liblz4-dev libzstd-dev libxxhash-dev gir1.2-rsvg-2.0
+        sudo apt install libcairo-dev gir1.2-pango-1.0 libgirepository1.0-dev libacl1-dev gettext liblz4-dev libzstd-dev libxxhash-dev gir1.2-rsvg-2.0
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v5
       with:
