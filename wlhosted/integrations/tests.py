@@ -33,7 +33,6 @@ from weblate.trans.tests.utils import create_test_user
 from wlhosted.integrations.tasks import pending_payments, recurring_payments
 from wlhosted.payments.backends import get_backend
 from wlhosted.payments.models import Customer, Payment
-from wlhosted.payments.tests import setup_dirs
 
 
 class PaymentTest(TestCase):
@@ -56,7 +55,6 @@ class PaymentTest(TestCase):
         self.plan_d = Plan.objects.create(
             name="Plan D", slug="plan-d", price=0, yearly_price=0, public=True
         )
-        setup_dirs()
 
     @override_settings(PAYMENT_REDIRECT_URL="http://example.com/payment")
     def create_payment(self, **kwargs):
