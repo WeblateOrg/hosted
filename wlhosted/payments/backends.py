@@ -283,5 +283,3 @@ class ThePay2Card(Backend):
     verbose = gettext_lazy("Payment card")
     description = "Payment Card (The Pay)"
     recurring = True
-    # TODO: make it production
-    debug = True
