@@ -110,13 +110,31 @@ class Customer(models.Model):
         default="",
         verbose_name=gettext_lazy("Address"),
     )
+    address_2 = models.CharField(
+        max_length=200,
+        default="",
+        verbose_name=gettext_lazy("Additional address information"),
+        blank=True,
+    )
     city = models.CharField(
         max_length=200,
         default="",
         verbose_name=gettext_lazy("Postcode and city"),
     )
-    country = CountryField(default="", verbose_name=gettext_lazy("Country"))
-    email = models.EmailField(blank=False, max_length=190, validators=[validate_email])
+    postcode = models.CharField(
+        max_length=20,
+        default="",
+        verbose_name=gettext_lazy("Postcode"),
+    )
+    country = CountryField(
+        default="",
+        verbose_name=gettext_lazy("Country"),
+    )
+    email = models.EmailField(
+        blank=True,
+        max_length=190,
+        validators=[validate_email],
+    )
     origin = models.URLField(max_length=300)
     user_id = models.IntegerField()
 
