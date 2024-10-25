@@ -261,15 +261,6 @@ class DebugPending(DebugPay):
 
 
 @register_backend
-class ThePayCard(Backend):
-    name = "thepay-card"
-    verbose = gettext_lazy("Payment card")
-    description = "Payment Card (The Pay)"
-    recurring = True
-    thepay_method = 31
-
-
-@register_backend
 class FioBank(Backend):
     name = "fio-bank"
     verbose = gettext_lazy("IBAN bank transfer")
