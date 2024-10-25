@@ -33,7 +33,7 @@ description = "Hosted Weblate Customization"
 name = "wlhosted"
 readme = "README.rst"
 requires-python = ">=3.11"
-version = "2023.7"
+version = "2024.10"
 
 [[project.authors]]
 email = "michal@cihar.com"
