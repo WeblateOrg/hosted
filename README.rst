@@ -8,11 +8,8 @@ used by over 2500 libre projects and companies in more than 165 countries.**
 
 Hosted Weblate customizations
 
-.. image:: https://github.com/WeblateOrg/hosted/workflows/Test/badge.svg
-   :target: https://github.com/WeblateOrg/hosted/actions?query=workflow%3ATest
-
-.. image:: https://github.com/WeblateOrg/hosted/workflows/Lint/badge.svg
-   :target: https://github.com/WeblateOrg/hosted/actions?query=workflow%3ALint
+.. image:: https://github.com/WeblateOrg/hosted/actions/workflows/test.yml/badge.svg
+   :target: https://github.com/WeblateOrg/hosted/actions/workflows/test.yml
 
 .. image:: https://codecov.io/gh/WeblateOrg/hosted/branch/main/graph/badge.svg
    :target: https://codecov.io/gh/WeblateOrg/hosted
