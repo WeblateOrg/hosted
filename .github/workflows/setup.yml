@@ -1,0 +1,36 @@
+# Copyright © Michal Čihař <michal@weblate.org>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+name: Distribution
+
+on: [push, pull_request]
+
+jobs:
+  setup:
+    runs-on: ubuntu-24.04
+    permissions:
+      id-token: write
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+    - uses: astral-sh/setup-uv@v3
+    - name: build
+      run: uv build
+    - name: twine
+      run: uvx twine check dist/*
+    - name: pydistcheck
+      run: uvx pydistcheck --inspect dist/*
+    - name: pyroma
+      run: uvx pyroma dist/*.tar.gz
+    - name: check-wheel-contents
+      run: uvx check-wheel-contents dist/*.whl
+    - name: check-manifest
+      run: uvx check-manifest -v
+    - name: Publish package
+      if: github.event_name == 'push' && startsWith(github.event.ref, 'refs/tags')
+      run: uv publish --trusted-publishing always

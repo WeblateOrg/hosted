@@ -4,15 +4,19 @@ requires = ["setuptools>=61.2"]
 
 [project]
 classifiers = [
+  "Development Status :: 5 - Production/Stable",
   "Environment :: Web Environment",
   "Framework :: Django",
   "Intended Audience :: Developers",
   "Intended Audience :: System Administrators",
   "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
   "Operating System :: OS Independent",
-  "Development Status :: 5 - Production/Stable",
   "Programming Language :: Python",
   "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
   "Topic :: Software Development :: Internationalization",
   "Topic :: Software Development :: Localization",
   "Topic :: Internet :: WWW/HTTP",
@@ -30,8 +34,15 @@ dependencies = [
   "Weblate>=5.5.3"
 ]
 description = "Hosted Weblate Customization"
+keywords = [
+  "i18n",
+  "l10n",
+  "gettext",
+  "git",
+  "mercurial",
+  "translate"
+]
 name = "wlhosted"
-readme = "README.rst"
 requires-python = ">=3.11"
 version = "2024.10"
 
@@ -46,7 +57,9 @@ text = "GPLv3+"
 dev = [
   "wlhosted[lint,test]"
 ]
-lint = ["pre-commit==4.0.1"]
+lint = [
+  "pre-commit==4.0.1"
+]
 test = [
   "httpretty",
   "coverage",
@@ -54,12 +67,66 @@ test = [
   "twine==5.1.1"
 ]
 
-[project.urls]
-Download = "https://weblate.org/download/"
-Homepage = "https://weblate.org/"
+[project.readme]
+content-type = "text/x-rst"
+file = "README.rst"
 
-[tool.black]
-target-version = ['py311']
+[project.urls]
+Documentation = "https://docs.weblate.org/"
+Download = "https://github.com/WeblateOrg/hosted"
+Homepage = "https://weblate.org/"
+"Issue Tracker" = "https://github.com/WeblateOrg/hosted/issues"
+"Source Code" = "https://github.com/WeblateOrg/hosted"
+Twitter = "https://twitter.com/WeblateOrg"
+
+[tool.check-manifest]
+ignore = [
+  "LICENSES/*",
+  "json/*",
+  ".reuse/dep5",
+  "scripts/*",
+  "*.toml",
+  "*.yml",
+  "*.yaml",
+  "*.json",
+  ".editorconfig",
+  ".weblate"
+]
+
+[tool.check-wheel-contents]
+ignore = [
+  "W004"  # Django migrations fail here
+]
+
+[tool.coverage.paths]
+source = [
+  "."
+]
+
+[tool.coverage.report]
+exclude_also = [
+  "@(abc\\.)?abstractmethod",
+  # Have to re-enable the standard pragma
+  "pragma: no cover",
+  # Don't complain about missing debug-only code:
+  "def __repr__",
+  "if self\\.debug",
+  # Don't complain if tests don't hit defensive assertion code:
+  "raise AssertionError",
+  "raise NotImplementedError",
+  # Don't complain if non-runnable code isn't run:
+  "if 0:",
+  "if __name__ == .__main__.:",
+  # Type checking
+  "if TYPE_CHECKING:"
+]
+
+[tool.coverage.run]
+branch = true
+concurrency = ["thread", "multiprocessing"]
+omit = [
+  ".venv*/*"
+]
 
 [tool.isort]
 profile = "black"
@@ -128,5 +195,10 @@ max-complexity = 16
 
 [tool.setuptools]
 include-package-data = true
-packages = ["wlhosted"]
 zip-safe = true
+
+[tool.setuptools.package-dir]
+hosted = "hosted"
+
+[tool.setuptools.packages.find]
+namespaces = true
