@@ -64,7 +64,7 @@ test = [
   "httpretty",
   "coverage",
   "build==1.2.2.post1",
-  "twine==6.0.0"
+  "twine==6.0.1"
 ]
 
 [project.readme]
