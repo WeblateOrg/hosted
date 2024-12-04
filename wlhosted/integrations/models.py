@@ -38,10 +38,12 @@ def end_interval(payment, start):
 @transaction.atomic(using="payments_db")
 def handle_received_payment(payment):
     params = {
-        "plan": Plan.objects.get(pk=payment.extra["plan"]),
         "state": Billing.STATE_ACTIVE,
         "removal": None,
     }
+    if plan := payment.extra.get("plan"):
+        # Needed for new payments only
+        params["plan"] = Plan.objects.get(pk=plan)
     if "billing" in payment.extra:
         billing = Billing.objects.get(pk=payment.extra["billing"])
         if billing.removal:

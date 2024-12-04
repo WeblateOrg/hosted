@@ -86,6 +86,7 @@ def recurring_payments():
             else billing.plan.yearly_price,
             description=description,
             billing=billing.pk,
+            plan=None,
         )
         if not repeated:
             # Remove recurring flag
