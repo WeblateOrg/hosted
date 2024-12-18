@@ -137,6 +137,7 @@ class Customer(models.Model):
     )
     origin = models.URLField(max_length=300)
     user_id = models.IntegerField()
+    created = models.DateTimeField(auto_now_add=True)
 
     class Meta:
         verbose_name = "Customer"
