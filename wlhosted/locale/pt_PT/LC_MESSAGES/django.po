@@ -4,13 +4,14 @@
 # Weblate <noreply@weblate.org>, 2020.
 # ssantos <ssantos@web.de>, 2020, 2021, 2024.
 # Manuela Silva <mmsrs@sky.com>, 2024.
+# Horus68 <horus68@users.noreply.hosted.weblate.org>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-07-16 20:09+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2024-12-19 04:56+0000\n"
+"Last-Translator: Horus68 <horus68@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Portuguese (Portugal) <https://hosted.weblate.org/projects/"
 "weblate/hosted/pt_PT/>\n"
 "Language: pt_PT\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.9.2-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -208,7 +209,7 @@ msgstr ""
 "Obrigado pelo seu pagamento em weblate.org.\n"
 "\n"
 "Irá encontrar uma fatura deste pagamento anexada.\n"
-"Alternativamente, pode transferi-la do ''site'' da Web:\n"
+"Alternativamente, pode transferi-la do sítio Web:\n"
 "\n"
 "%s\n"
 
@@ -238,7 +239,7 @@ msgstr ""
 "\n"
 "%s\n"
 "\n"
-"Tente emitir o pagamento no ''site'' da Web:\n"
+"Tente emitir o pagamento no sítio Web:\n"
 "\n"
 "%s\n"
 "\n"
