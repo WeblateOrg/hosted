@@ -17,7 +17,6 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
 
-import os.path
 import uuid
 
 import requests
@@ -28,7 +27,6 @@ from django.conf import settings
 from django.core.exceptions import ValidationError
 from django.core.serializers.json import DjangoJSONEncoder
 from django.db import models, transaction
-from django.utils.functional import cached_property
 from django.utils.translation import get_language, gettext_lazy, pgettext_lazy
 from django_countries.fields import CountryField
 from vies.models import VATINField
@@ -256,34 +254,6 @@ class Payment(models.Model):
 
     def __str__(self):
         return f"payment:{self.pk}"
-
-    @cached_property
-    def is_legacy(self):
-        return self.invoice.startswith("P") or len(self.invoice) == 6
-
-    @cached_property
-    def invoice_filename(self):
-        if self.is_legacy:
-            return f"{self.invoice}.pdf"
-        return f"Weblate_Invoice_{self.invoice}.pdf"
-
-    @cached_property
-    def invoice_full_filename(self):
-        if self.is_legacy:
-            subdir = ("proforma" if self.state == self.PENDING else "pdf",)
-            invoice_path = settings.PAYMENT_FAKTURACE_LECACY / subdir
-        else:
-            invoice_path = (
-                settings.PAYMENT_FAKTURACE
-                / f"{self.created.year}"
-                / f"{self.created.month:02d}"
-            )
-        full_path = invoice_path / self.invoice_filename
-        return full_path.as_posix()
-
-    @cached_property
-    def invoice_filename_valid(self):
-        return os.path.exists(self.invoice_full_filename)
 
     @property
     def vat_amount(self):
