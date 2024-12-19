@@ -258,16 +258,28 @@ class Payment(models.Model):
         return f"payment:{self.pk}"
 
     @cached_property
+    def is_legacy(self):
+        return self.invoice.startswith("P") or len(self.invoice == 6)
+
+    @cached_property
     def invoice_filename(self):
-        return f"{self.invoice}.pdf"
+        if self.is_legacy:
+            return f"{self.invoice}.pdf"
+        return f"Weblate_Invoice_{self.invoice}.pdf"
 
     @cached_property
     def invoice_full_filename(self):
-        return os.path.join(
-            settings.PAYMENT_FAKTURACE,
-            "proforma" if self.state == self.PENDING else "pdf",
-            self.invoice_filename,
-        )
+        if self.is_legacy:
+            subdir = ("proforma" if self.state == self.PENDING else "pdf",)
+            invoice_path = settings.PAYMENT_FAKTURACE_LECACY / subdir
+        else:
+            invoice_path = (
+                settings.PAYMENT_FAKTURACE
+                / f"{self.created.year}"
+                / f"{self.created.month:02d}"
+            )
+        full_path = invoice_path / self.invoice_filename
+        return full_path.as_posix()
 
     @cached_property
     def invoice_filename_valid(self):
