@@ -259,7 +259,7 @@ class Payment(models.Model):
 
     @cached_property
     def is_legacy(self):
-        return self.invoice.startswith("P") or len(self.invoice == 6)
+        return self.invoice.startswith("P") or len(self.invoice) == 6
 
     @cached_property
     def invoice_filename(self):
