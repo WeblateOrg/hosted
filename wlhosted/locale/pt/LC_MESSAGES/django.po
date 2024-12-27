@@ -6,13 +6,14 @@
 # Pedro Albuquerque <pmra@gmx.com>, 2019.
 # Manuela Silva <mmsrs@sky.com>, 2019, 2020.
 # Michal Čihař <michal@cihar.com>, 2020.
+# Horus68 <horus68@users.noreply.hosted.weblate.org>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-07-16 20:09+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2024-12-27 12:01+0000\n"
+"Last-Translator: Horus68 <horus68@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/weblate/"
 "hosted/pt/>\n"
 "Language: pt\n"
@@ -20,11 +21,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
-msgstr "Gerar dados de cenário \"Horizontes Desconhecidos\""
+msgstr "Gerar dados de cenário \"Horizontes desconhecidos\""
 
 #: wlhosted/addons.py:67
 msgid "Reset repository to upstream"
@@ -32,8 +33,7 @@ msgstr "Redefinir repositório para \"upstream\""
 
 #: wlhosted/addons.py:68
 msgid "Discards all changes in the Weblate repository each night."
-msgstr ""
-"Descarta todas as alterações no repositório do Weblate todas as noites."
+msgstr "Em cada noite ignorar todas as alterações no repositório do Weblate."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
@@ -192,7 +192,7 @@ msgstr "Os pagamentos estão temporariamente inativos."
 
 #: wlhosted/payments/backends.py:192
 msgid "Your payment on weblate.org"
-msgstr "O seu pagamento no weblate.org"
+msgstr "O seu pagamento em weblate.org"
 
 #: wlhosted/payments/backends.py:194
 #, python-format
@@ -208,10 +208,10 @@ msgid ""
 msgstr ""
 "Olá\n"
 "\n"
-"Obrigado pelo seu pagamento no weblate.org.\n"
+"Obrigado pelo seu pagamento em weblate.org.\n"
 "\n"
 "Irá encontrar anexada uma fatura deste pagamento.\n"
-"Alternativamente, pode descarregá-la do site da Web:\n"
+"Alternativamente, pode descarregá-la do sítio Web:\n"
 "\n"
 "%s\n"
 
@@ -237,7 +237,7 @@ msgid ""
 msgstr ""
 "Olá\n"
 "\n"
-"O seu pagamento no weblate.org falhou.\n"
+"O seu pagamento em weblate.org falhou.\n"
 "\n"
 "%s\n"
 "\n"
@@ -245,8 +245,8 @@ msgstr ""
 "\n"
 "%s\n"
 "\n"
-"Se estiver relacionado a um pagamento recorrente,\n"
-"será repetido três vezes e, se ainda falhar, cancelado.\n"
+"Se estiver relacionado com um pagamento recorrente,\n"
+"será repetido três vezes e, se voltar a falhar, cancelado.\n"
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
@@ -261,8 +261,8 @@ msgid ""
 msgstr ""
 "Olá,\n"
 "\n"
-"Seu pagamento em weblate.org está pendente. Por favor, siga as\n"
-"instruções para completar o pagamento.\n"
+"O seu pagamento em weblate.org está pendente. Por favor, siga as\n"
+"instruções fornecidas para concluir o pagamento.\n"
 
 #: wlhosted/payments/backends.py:339
 msgid "Payment card"
@@ -310,12 +310,12 @@ msgstr "Referência"
 
 #: wlhosted/payments/models.py:88
 msgid "European VAT ID"
-msgstr "Id. do IVA Europeu"
+msgstr "N.º de IVA Europeu"
 
 #: wlhosted/payments/models.py:90
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
-"Por favor, preencha a 'Id. do IVA' da União Europeia. Deixe em branco se não "
+"Por favor, preencha um n.º de IVA da União Europeia. Deixe em branco se não "
 "for aplicável."
 
 #: wlhosted/payments/models.py:96
@@ -326,8 +326,7 @@ msgstr "Registo de imposto"
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
-"Por favor, preencha o seu registo de imposto se ele deveria aparecer na "
-"factura."
+"Por favor, preencha o seu registo de imposto se este deva aparecer na fatura."
 
 #: wlhosted/payments/models.py:105
 msgid "Company or individual name"
@@ -347,7 +346,7 @@ msgstr "País"
 
 #: wlhosted/payments/models.py:144
 msgid "The country has to match your VAT code"
-msgstr "O país tem que corresponder ao seu código de IVA"
+msgstr "O país tem de corresponder ao seu código de IVA"
 
 #: wlhosted/payments/models.py:167
 msgid "Annual"
@@ -401,7 +400,7 @@ msgstr ""
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr "{} não corresponde às especificações da Id. do IVA do país."
+msgstr "{} não corresponde às especificações do n.º de IVA do país."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
@@ -411,7 +410,7 @@ msgstr ""
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr "{} não é uma Id. do IVA válida."
+msgstr "{} não é um n.º de IVA válido."
 
 #~ msgid "Component limit"
 #~ msgstr "Limite de componentes"
