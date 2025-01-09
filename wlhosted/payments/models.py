@@ -94,8 +94,7 @@ class Customer(models.Model):
         blank=True,
         verbose_name=gettext_lazy("Tax registration"),
         help_text=gettext_lazy(
-            "Please fill in your tax registration if it should "
-            "appear on the invoice."
+            "Please fill in your tax registration if it should appear on the invoice."
         ),
     )
     name = models.CharField(
