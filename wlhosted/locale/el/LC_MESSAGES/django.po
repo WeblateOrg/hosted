@@ -7,13 +7,14 @@
 # Michalis <michalisntovas@yahoo.gr>, 2021, 2022.
 # george kitsoukakis <norhorn@gmail.com>, 2022.
 # Vision <VisionR1@users.noreply.hosted.weblate.org>, 2024.
+# VisionR1 <25982450+VisionR1@users.noreply.github.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-11-16 09:13+0000\n"
-"Last-Translator: Vision <VisionR1@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2025-01-25 19:27+0000\n"
+"Last-Translator: VisionR1 <25982450+VisionR1@users.noreply.github.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/weblate/hosted/el/>"
 "\n"
 "Language: el\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9-dev\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -92,10 +93,8 @@ msgid "Unlimited"
 msgstr "Απεριόριστο"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Source strings limit"
-msgstr "Όριο κειμένων"
+msgstr "Όριο συμβολοσειρών πηγής"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Languages limit"
