@@ -7,13 +7,13 @@
 # Heimen Stoffels <vistausss@outlook.com>, 2020, 2021.
 # BudsieBuds <bas_hubers@hotmail.com>, 2021.
 # Heimen Stoffels <vistausss@fastmail.com>, 2021.
-# Dick Groskamp <dikgro@yahoo.co.uk>, 2024.
+# Dick Groskamp <dikgro@yahoo.co.uk>, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-10-23 09:15+0000\n"
+"PO-Revision-Date: 2025-01-28 12:49+0000\n"
 "Last-Translator: Dick Groskamp <dikgro@yahoo.co.uk>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/weblate/hosted/nl/>"
 "\n"
@@ -22,11 +22,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.2-dev\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
-msgstr "Scenario-data van Unknown Horizons genereren"
+msgstr "Scenario-gegevens van Unknown Horizons genereren"
 
 #: wlhosted/addons.py:67
 msgid "Reset repository to upstream"
@@ -34,7 +34,7 @@ msgstr "Opslagplaats opnieuw instellen naar upstream"
 
 #: wlhosted/addons.py:68
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Verwerp elke avond alle wijzigingen in de Weblate-opslagruimte."
+msgstr "Verwerp elke avond alle wijzigingen in de opslagruimte van Weblate."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
@@ -106,7 +106,7 @@ msgstr "Projectlimiet"
 #: wlhosted/integrations/templates/hosted/create.html:78
 #, python-format
 msgid "%(price)s EUR / month"
-msgstr "%(price)s euro per maand"
+msgstr "%(price)s EUR / maand"
 
 #: wlhosted/integrations/templates/hosted/create.html:79
 #: wlhosted/integrations/templates/hosted/create.html:85
@@ -126,7 +126,7 @@ msgid ""
 "word, sentence or paragraph."
 msgstr ""
 "De prijsstelling is gebaseerd op het aantal brontekenreeksen en doeltalen. "
-"De brontekenreeks is een teksteenheid gedefinieerd in een vertaalformaat. "
+"De brontekenreeks is een teksteenheid gedefinieerd in een vertaalindeling. "
 "Het kan een woord, zin of alinea zijn."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
