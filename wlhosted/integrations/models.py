@@ -36,7 +36,7 @@ def end_interval(payment, start):
 
 
 @transaction.atomic(using="payments_db")
-def handle_received_payment(payment):
+def handle_received_payment(payment: Payment) -> Billing | None:
     params = {
         "state": Billing.STATE_ACTIVE,
         "removal": None,
@@ -52,9 +52,11 @@ def handle_received_payment(payment):
             notify_paid_removal(billing.id)
         for key, value in params.items():
             setattr(billing, key, value)
-    else:
+    elif "plan" in payment.extra:
         billing = Billing.objects.create(**params)
         billing.owners.add(User.objects.get(pk=payment.customer.user_id))
+    else:
+        return None
 
     # Update recurrence information
     if payment.recurring:
