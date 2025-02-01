@@ -2,15 +2,15 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Weblate <noreply@weblate.org>, 2019.
-# Prachi Joshi <josprachi@yahoo.com>, 2019, 2020.
+# Prachi Joshi <josprachi@yahoo.com>, 2019, 2020, 2025.
 # संकेत गराडे <garade@proton.me>, 2023.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2023-04-08 19:38+0000\n"
-"Last-Translator: संकेत गराडे <garade@proton.me>\n"
+"PO-Revision-Date: 2025-02-01 19:29+0000\n"
+"Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://hosted.weblate.org/projects/weblate/hosted/"
 "mr/>\n"
 "Language: mr\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -77,10 +77,8 @@ msgid "Current plan"
 msgstr "सद्य योजना"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Hosted strings limit"
-msgstr "स्ट्रिंग मर्यादा"
+msgstr "होस्ट केलेल्या स्ट्रिंग मर्यादा"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
@@ -90,10 +88,8 @@ msgid "Unlimited"
 msgstr "अमर्यादित"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Source strings limit"
-msgstr "स्ट्रिंग मर्यादा"
+msgstr "स्रोत स्ट्रिंग मर्यादा"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Languages limit"
@@ -359,10 +355,8 @@ msgid "Monthly"
 msgstr "मासिक"
 
 #: wlhosted/payments/models.py:171
-#, fuzzy
-#| msgid "Onetime"
 msgid "One-time"
-msgstr "एकावेळी"
+msgstr "एकवेळ"
 
 #: wlhosted/payments/models.py:205
 msgctxt "Payment state"
