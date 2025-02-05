@@ -41,11 +41,11 @@ CUSTOMERS = {
 def get_country(text):
     try:
         return ALIASES[text]
-    except KeyError:
+    except KeyError as error:
         for code, name in countries:
             if text == name:
                 return code
-        raise ValueError(f"Unknown country: {text}")
+        raise ValueError(f"Unknown country: {text}") from error
 
 
 class Command(BaseCommand):
