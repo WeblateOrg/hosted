@@ -136,7 +136,6 @@ target-version = "py311"
 
 [tool.ruff.lint]
 ignore = [
-  "PERF401",  # TODO
   "D10",  # TODO: we are missing many docstrings
   "D203",  # CONFIG: incompatible with D211
   "D212",  # CONFIG: incompatible with D213

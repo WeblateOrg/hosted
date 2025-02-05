@@ -39,14 +39,6 @@ def get_backend(name):
     return backend
 
 
-def list_backends():
-    result = []
-    for backend in BACKENDS.values():
-        if not backend.debug or settings.PAYMENT_DEBUG:
-            result.append(backend)
-    return sorted(result, key=lambda x: x.name)
-
-
 class InvalidState(ValueError):
     pass
 
