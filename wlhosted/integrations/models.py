@@ -104,7 +104,7 @@ class HostedConf(AppConf):
 
 @receiver(pre_save, sender=User)
 @disable_for_loaddata
-def propagate_user_changes(sender, instance, **kwargs):
+def propagate_user_changes(sender, instance, **kwargs) -> None:
     from wlhosted.integrations.tasks import notify_user_change
 
     if instance.is_anonymous:

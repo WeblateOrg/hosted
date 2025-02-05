@@ -19,6 +19,7 @@
 
 import os
 import re
+from typing import Never
 
 from django.conf import settings
 from django.core.mail import EmailMessage
@@ -68,14 +69,14 @@ class Backend:
         self.invoice = None
 
     @property
-    def image_name(self):
+    def image_name(self) -> str:
         return f"payment/{self.name}.png"
 
-    def perform(self, request, back_url, complete_url):
+    def perform(self, request, back_url, complete_url) -> Never:
         """Performs payment and optionally redirects user."""
         raise NotImplementedError
 
-    def collect(self, request):
+    def collect(self, request) -> Never:
         """Collects payment information."""
         raise NotImplementedError
 
@@ -100,7 +101,7 @@ class Backend:
 
         return result
 
-    def complete(self, request):
+    def complete(self, request) -> bool:
         """Payment completion called from returned request."""
         if self.payment.state != Payment.PENDING:
             raise InvalidState
@@ -114,7 +115,7 @@ class Backend:
         self.failure()
         return False
 
-    def notify_user(self):
+    def notify_user(self) -> None:
         """Send email notification with an invoice."""
         email = EmailMessage(
             gettext("Your payment on weblate.org"),
@@ -142,7 +143,7 @@ Alternatively, you can download it from the website:
                 )
         email.send()
 
-    def notify_failure(self):
+    def notify_failure(self) -> None:
         """Send email notification with a failure."""
         email = EmailMessage(
             gettext("Your payment on weblate.org failed"),
@@ -177,7 +178,7 @@ and if still failing, cancelled.
                 )
         email.send()
 
-    def notify_pending(self):
+    def notify_pending(self) -> None:
         """Send email notification with a pending."""
         email = EmailMessage(
             gettext("Your pending payment on weblate.org"),
@@ -203,7 +204,7 @@ instructions to complete the payment.
     def get_invoice_kwargs(self):
         return {"payment_id": str(self.payment.pk), "payment_method": self.description}
 
-    def success(self):
+    def success(self) -> None:
         self.payment.state = Payment.ACCEPTED
         if not self.recurring:
             self.payment.recurring = ""
@@ -212,7 +213,7 @@ instructions to complete the payment.
 
         self.notify_user()
 
-    def failure(self):
+    def failure(self) -> None:
         self.payment.state = Payment.REJECTED
         self.payment.save()
 
@@ -227,10 +228,10 @@ class DebugPay(Backend):
     description = "Paid (TEST)"
     recurring = True
 
-    def perform(self, request, back_url, complete_url):
+    def perform(self, request, back_url, complete_url) -> None:
         return None
 
-    def collect(self, request):
+    def collect(self, request) -> bool:
         return True
 
 
@@ -241,7 +242,7 @@ class DebugReject(DebugPay):
     description = "Reject (TEST)"
     recurring = False
 
-    def collect(self, request):
+    def collect(self, request) -> bool:
         self.payment.details["reject_reason"] = "Debug reject"
         return False
 
@@ -256,7 +257,7 @@ class DebugPending(DebugPay):
     def perform(self, request, back_url, complete_url):
         return redirect("https://cihar.com/?url=" + complete_url)
 
-    def collect(self, request):
+    def collect(self, request) -> bool:
         return True
 
 

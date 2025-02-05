@@ -73,5 +73,5 @@ class ResetAddon(BaseAddon):
         # Only instalable on the sandbox project
         return component.project.slug == "sandbox"
 
-    def daily(self, component):
+    def daily(self, component) -> None:
         component.do_reset()

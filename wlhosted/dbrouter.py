@@ -26,7 +26,7 @@ class HostedRouter:
     block running migrations on that.
     """
 
-    def db_for_read(self, model, **hints):
+    def db_for_read(self, model, **hints) -> str | None:
         """Attempts to read payments models go to payments_db."""
         if model._meta.app_label == "payments":
             return "payments_db"
@@ -34,7 +34,7 @@ class HostedRouter:
             return "memory_db"
         return None
 
-    def db_for_write(self, model, **hints):
+    def db_for_write(self, model, **hints) -> str | None:
         """Attempts to write payments models go to payments_db."""
         if model._meta.app_label == "payments":
             return "payments_db"

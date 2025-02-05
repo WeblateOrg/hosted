@@ -136,6 +136,8 @@ target-version = "py311"
 
 [tool.ruff.lint]
 ignore = [
+  "S113",  # TODO
+  "PERF401",  # TODO
   "D10",  # TODO: we are missing many docstrings
   "D203",  # CONFIG: incompatible with D211
   "D212",  # CONFIG: incompatible with D213
@@ -149,43 +151,30 @@ ignore = [
   "PLR2004",  # TODO: Magic value used in comparison, consider replacing 201 with a constant variable
   "PLW2901",  # TODO: overwriting variables inside loop
   "N818",  # TODO: exception naming
+  "COM",  # CONFIG: No trailing commas
+  "PTH",  # TODO: Not using pathlib
+  "FBT",  # TODO: Boolean in function definition
+  "TD002",  # CONFIG: no detailed TODO documentation is required
+  "TD003",  # CONFIG: no detailed TODO documentation is required
+  "PT",  # CONFIG: Not using pytest
+  "EM101",  # TODO: Exception must not use a string literal, assign to variable first
+  "EM102",  # TODO: Exception must not use an f-string literal, assign to variable first
+  "ARG001",  # TODO: Unused function argument (mostly for API compatibility)
+  "ARG002",  # TODO: Unused method argument (mostly for API compatibility)
+  "ARG003",  # TODO: Unused class method argument (mostly for API compatibility)
+  "FIX002",  # CONFIG: we use TODO
   "RUF012",  # TODO: Mutable class attributes should be annotated with `typing.ClassVar`
+  "ANN001",  # TODO: Missing type annotation for function argument
+  "ANN002",  # TODO: Missing type annotation for `*args`
+  "ANN003",  # TODO: Missing type annotation for `**kwargs`
+  "ANN201",  # TODO: Missing return type annotation for public function
+  "ANN202",  # TODO:  Missing return type annotation for private function
+  "ANN204",  # TODO: Missing return type annotation for special method
+  "ANN205",  # TODO: Missing return type annotation for staticmethod
+  "ANN206",  # TODO: Missing return type annotation for classmethod
   "SLF001"  # TODO: Private member accessed (might need noqa tags)
 ]
-select = [
-  "E",
-  "F",
-  "B",
-  "T10",
-  "A",
-  "C4",
-  "C90",
-  "YTT",
-  "DJ",
-  "UP",
-  "D",
-  "PD",
-  "PGH",
-  "PL",
-  "TRY",
-  "RUF",
-  "ERA",
-  "ICN",
-  "ISC",
-  "EXE",
-  "INP",
-  "PIE",
-  "G",
-  "PYI",
-  "Q",
-  "SIM",
-  "TID",
-  "RSE",
-  "T20",
-  "RET",
-  "SLF",
-  "N"
-]
+select = ["ALL"]
 
 [tool.ruff.lint.mccabe]
 max-complexity = 16

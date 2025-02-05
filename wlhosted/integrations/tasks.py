@@ -31,12 +31,11 @@ from weblate.utils.celery import app
 
 from wlhosted.integrations.models import handle_received_payment
 from wlhosted.integrations.utils import get_origin
-from wlhosted.payments.models import Payment
-from wlhosted.payments.models import get_period_delta, date_format
+from wlhosted.payments.models import Payment, date_format, get_period_delta
 
 
 @app.task
-def pending_payments():
+def pending_payments() -> None:
     with transaction.atomic(using="payments_db"):
         payments = Payment.objects.filter(
             customer__origin=get_origin(), state=Payment.ACCEPTED
@@ -46,7 +45,7 @@ def pending_payments():
 
 
 @app.task
-def notify_paid_removal(billing_id):
+def notify_paid_removal(billing_id) -> None:
     billing = Billing.objects.get(pk=billing_id)
     for user in billing.get_notify_users():
         send_notification_email(
@@ -59,7 +58,7 @@ def notify_paid_removal(billing_id):
 
 
 @app.task
-def recurring_payments():
+def recurring_payments() -> None:
     cutoff = timezone.now().date() + timedelta(days=1)
     for billing in Billing.objects.filter(state=Billing.STATE_ACTIVE).prefetch():
         if "recurring" not in billing.payment:
@@ -100,7 +99,7 @@ def recurring_payments():
 
 
 @app.task
-def notify_user_change(username, changes, create):
+def notify_user_change(username, changes, create) -> None:
     if not settings.PAYMENT_SECRET:
         return
     response = requests.post(
@@ -117,7 +116,7 @@ def notify_user_change(username, changes, create):
 
 
 @app.on_after_finalize.connect
-def setup_periodic_tasks(sender, **kwargs):
+def setup_periodic_tasks(sender, **kwargs) -> None:
     sender.add_periodic_task(300, pending_payments.s(), name="pending-payments")
     sender.add_periodic_task(
         crontab(hour=8, minute=0), recurring_payments.s(), name="recurring-payments"

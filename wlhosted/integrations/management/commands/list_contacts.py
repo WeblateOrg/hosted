@@ -18,14 +18,14 @@
 #
 
 from django.core.management.base import BaseCommand
-from weblate.billing.models import Billing
 from weblate.auth.models import User
+from weblate.billing.models import Billing
 
 
 class Command(BaseCommand):
     help = "lists payments using obsolete payment method"
 
-    def handle(self, *args, **options):
+    def handle(self, *args, **options) -> None:
         emails = set()
         for billing in (
             Billing.objects.filter(state=Billing.STATE_ACTIVE)

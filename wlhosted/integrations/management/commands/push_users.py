@@ -26,6 +26,6 @@ from wlhosted.integrations.models import propagate_user_changes
 class Command(BaseCommand):
     help = "pushes user data to weblate.org"
 
-    def handle(self, *args, **options):
+    def handle(self, *args, **options) -> None:
         for user in User.objects.filter(is_active=True).iterator():
             propagate_user_changes(None, user)

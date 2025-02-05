@@ -18,16 +18,17 @@
 #
 
 from __future__ import annotations
-from django.utils import timezone
 
 import datetime
+
 from django import forms
 from django.core.exceptions import ValidationError
+from django.utils import timezone
 from django.utils.translation import gettext_lazy as _
 from weblate.billing.models import Billing, Plan
 
 from wlhosted.integrations.utils import get_origin
-from wlhosted.payments.models import Customer, Payment, get_period_delta, date_format
+from wlhosted.payments.models import Customer, Payment, date_format, get_period_delta
 
 
 class ChooseBillingForm(forms.Form):
@@ -60,7 +61,7 @@ class BillingForm(ChooseBillingForm):
         super().__init__(user, *args, **kwargs)
         self.fields["plan"].queryset = Plan.objects.public(user)
 
-    def clean(self):
+    def clean(self) -> None:
         plan = self.cleaned_data.get("plan")
         period = self.cleaned_data.get("period")
         if not plan or not period:

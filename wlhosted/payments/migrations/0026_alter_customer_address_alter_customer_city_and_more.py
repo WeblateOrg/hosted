@@ -2,8 +2,9 @@
 
 import django_countries.fields
 import vies.models
-import wlhosted.payments.validators
 from django.db import migrations, models
+
+import wlhosted.payments.validators
 
 
 class Migration(migrations.Migration):

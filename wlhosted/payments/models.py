@@ -18,11 +18,11 @@
 #
 
 import uuid
+from datetime import datetime
 
 import requests
 from appconf import AppConf
 from dateutil.relativedelta import relativedelta
-from datetime import datetime
 from django.conf import settings
 from django.core.exceptions import ValidationError
 from django.core.serializers.json import DjangoJSONEncoder
@@ -69,7 +69,7 @@ VAT_RATE = 21
 
 
 class Char32UUIDField(models.UUIDField):
-    def db_type(self, connection):
+    def db_type(self, connection) -> str:
         return "char(32)"
 
     def get_db_prep_value(self, value, connection, prepared=False):
@@ -159,14 +159,14 @@ class Customer(models.Model):
             return self.vat[:2].upper()
         return None
 
-    def clean(self):
+    def clean(self) -> None:
         if self.vat and self.vat_country_code != self.country_code:
             raise ValidationError(
                 {"country": gettext_lazy("The country has to match your VAT code")}
             )
 
     @property
-    def is_empty(self):
+    def is_empty(self) -> bool:
         return not (self.name and self.address and self.city and self.country)
 
     @property
@@ -321,7 +321,7 @@ class Payment(models.Model):
                 extra=extra,
             )
 
-    def trigger_remotely(self):
+    def trigger_remotely(self) -> None:
         # Trigger payment processing remotely
         requests.post(
             self.get_payment_url(),

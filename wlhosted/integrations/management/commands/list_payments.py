@@ -27,7 +27,7 @@ from wlhosted.payments.models import Payment
 class Command(BaseCommand):
     help = "lists payments using obsolete payment method"
 
-    def handle(self, *args, **options):
+    def handle(self, *args, **options) -> None:
         for billing in Billing.objects.filter(state=Billing.STATE_ACTIVE):
             if "recurring" not in billing.payment:
                 continue

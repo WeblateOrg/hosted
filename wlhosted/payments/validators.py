@@ -24,7 +24,7 @@ def cache_vies_data(value):
     return value
 
 
-def validate_vatin(value):
+def validate_vatin(value) -> None:
     value = cache_vies_data(value)
     try:
         value.verify_country_code()

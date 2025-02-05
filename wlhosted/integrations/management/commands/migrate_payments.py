@@ -51,7 +51,7 @@ def get_country(text):
 class Command(BaseCommand):
     help = "migrates payments to include all needed metadata"
 
-    def update_payment(self, invoice):
+    def update_payment(self, invoice) -> None:
         payment = Payment.objects.get(pk=invoice.payment["pk"])
         if payment.start:
             return
@@ -60,7 +60,7 @@ class Command(BaseCommand):
         payment.end = invoice.end
         payment.save(update_fields=["start", "end"])
 
-    def handle_missing_payment(self, invoice, storage):
+    def handle_missing_payment(self, invoice, storage) -> bool:
         if not invoice.ref:
             self.stderr.write(
                 f"Missing reference in {invoice.pk} [{invoice.billing.pk}]: {invoice}"
@@ -116,14 +116,14 @@ class Command(BaseCommand):
         invoice.save(update_fields=["payment"])
         return True
 
-    def include_billing_id(self, invoice):
+    def include_billing_id(self, invoice) -> None:
         payment = Payment.objects.get(pk=invoice.payment["pk"])
         if "billing" not in payment.extra:
             self.stdout.write(f"Linking payment: {payment}")
             payment.extra["billing"] = invoice.billing_id
             payment.save(update_fields=["extra"])
 
-    def handle(self, *args, **options):
+    def handle(self, *args, **options) -> None:
         storage = InvoiceStorage(settings.PAYMENT_FAKTURACE)
         for invoice in Invoice.objects.all():
             if isinstance(invoice.payment, dict) and "pk" in invoice.payment:

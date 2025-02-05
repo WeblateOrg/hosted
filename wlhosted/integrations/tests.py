@@ -38,11 +38,14 @@ from wlhosted.payments.models import Customer, Payment
 class PaymentTest(TestCase):
     databases = "__all__"
 
-    def setUp(self):
+    def setUp(self) -> None:
         Payment.objects.all().delete()
         Customer.objects.all().delete()
         self.user = create_test_user()
-        self.client.login(username="testuser", password="testpassword")
+        self.client.login(
+            username="testuser",
+            password="testpassword",  # noqa: S106
+        )
         self.plan_a = Plan.objects.create(
             name="Plan A", slug="plan-a", price=19, yearly_price=199, public=True
         )
@@ -57,7 +60,7 @@ class PaymentTest(TestCase):
         )
 
     @override_settings(PAYMENT_REDIRECT_URL="http://example.com/payment")
-    def create_payment(self, **kwargs):
+    def create_payment(self, **kwargs) -> None:
         params = {"plan": self.plan_a.id, "period": "y"}
         params.update(kwargs)
         response = self.client.post(reverse("create-billing"), params)
@@ -71,7 +74,7 @@ class PaymentTest(TestCase):
         bill.projects.add(Project.objects.create(name="Project", slug="project"))
         return bill
 
-    def test_create(self):
+    def test_create(self) -> None:
         response = self.client.get(reverse("create-billing"))
         self.assertContains(response, "Plan A")
         self.assertContains(response, "Plan B")
@@ -89,13 +92,13 @@ class PaymentTest(TestCase):
         payment = Payment.objects.exclude(uuid=payment.uuid)[0]
         self.assertEqual(payment.amount, self.plan_a.price)
 
-    def test_pending_payments(self):
+    def test_pending_payments(self) -> None:
         self.test_create()
         Payment.objects.all().update(state=Payment.ACCEPTED)
         pending_payments()
         self.assertFalse(Payment.objects.filter(state=Payment.ACCEPTED).exists())
 
-    def test_existing_billing(self):
+    def test_existing_billing(self) -> None:
         bill = self.create_trial()
         bill.removal = timezone.now()
         bill.save(update_fields=["removal"])
@@ -124,7 +127,7 @@ class PaymentTest(TestCase):
         self.assertEqual(len(mail.outbox), 1)
         self.assertEqual(mail.outbox[0].subject, "[Weblate] Your billing plan was paid")
 
-    def test_error_handling(self):
+    def test_error_handling(self) -> None:
         response = self.client.post(reverse("create-billing"))
         self.assertContains(response, "This field is required")
 
@@ -135,7 +138,7 @@ class PaymentTest(TestCase):
             self.assertRedirects(response, reverse("create-billing"))
 
     @override_settings(PAYMENT_REDIRECT_URL="http://example.com/payment")
-    def test_payment_redirects(self):
+    def test_payment_redirects(self) -> None:
         # Invalid UUID
         self.assertRedirects(
             self.client.get(reverse("create-billing"), {"payment": "i"}),
@@ -188,24 +191,24 @@ class PaymentTest(TestCase):
         self.assertRedirects(response, billing.get_absolute_url())
         return billing
 
-    def test_complete(self):
+    def test_complete(self) -> None:
         bill = self.do_complete()
         self.assertEqual(bill.state, Billing.STATE_ACTIVE)
         self.assertEqual(bill.plan, self.plan_a)
 
-    def test_complete_monthly(self):
+    def test_complete_monthly(self) -> None:
         self.do_complete(period="m")
         bill = Billing.objects.all()[0]
         self.assertEqual(bill.state, Billing.STATE_ACTIVE)
         self.assertEqual(bill.plan, self.plan_a)
 
-    def test_complete_trial(self):
+    def test_complete_trial(self) -> None:
         bill = self.create_trial()
         bill = self.do_complete(billing=bill.pk)
         self.assertEqual(bill.state, Billing.STATE_ACTIVE)
         self.assertEqual(bill.plan, self.plan_a)
 
-    def test_complete_second(self):
+    def test_complete_second(self) -> None:
         bill = self.create_trial()
         now = timezone.now()
         Invoice.objects.create(
@@ -252,7 +255,7 @@ class PaymentTest(TestCase):
 
         return payment, bill, invoices
 
-    def run_recurring(self):
+    def run_recurring(self) -> None:
         # Make sure billing has a project
         bill = Billing.objects.get()
         bill.projects.add(Project.objects.create(name="Project", slug="project"))
@@ -264,7 +267,7 @@ class PaymentTest(TestCase):
         PAYMENT_DEBUG=True, PAYMENT_REDIRECT_URL="http://example.com/payment"
     )
     @httpretty.activate
-    def test_recurring(self):
+    def test_recurring(self) -> None:
         """Test recurring payments."""
         payment, bill, invoices = self.prepare_recurring("pay")
         self.assertEqual(bill.payment["recurring"], str(payment.pk))
@@ -284,7 +287,7 @@ class PaymentTest(TestCase):
         self.assertEqual(invoices + 1, bill.invoice_set.count())
 
     @override_settings(PAYMENT_DEBUG=True)
-    def test_recurring_none(self):
+    def test_recurring_none(self) -> None:
         """Test method without support for recurring payments."""
         # The pending method does not support recurring payments
         payment, bill, _invoices = self.prepare_recurring("pending")
@@ -296,7 +299,7 @@ class PaymentTest(TestCase):
         self.assertFalse(Payment.objects.exclude(pk=payment.pk).exists())
 
     @override_settings(PAYMENT_DEBUG=True)
-    def test_recurring_invalid(self):
+    def test_recurring_invalid(self) -> None:
         """Test handling of invalid (removed) method."""
         payment, bill, _invoices = self.prepare_recurring("pay")
         self.assertEqual(bill.payment["recurring"], str(payment.pk))
@@ -317,7 +320,7 @@ class PaymentTest(TestCase):
         PAYMENT_DEBUG=True, PAYMENT_REDIRECT_URL="http://example.com/payment"
     )
     @httpretty.activate
-    def test_recurring_one_error(self):
+    def test_recurring_one_error(self) -> None:
         """Test handling of single failed recurring payments."""
         payment, bill, invoices = self.prepare_recurring("pay")
         self.assertEqual(bill.payment["recurring"], str(payment.pk))
@@ -341,7 +344,7 @@ class PaymentTest(TestCase):
         self.assertEqual(invoices + 1, bill.invoice_set.count())
 
     @override_settings(PAYMENT_DEBUG=True)
-    def test_recurring_more_error(self):
+    def test_recurring_more_error(self) -> None:
         """Test handling of more failed recurring payments."""
         payment, bill, _invoices = self.prepare_recurring("pay")
         self.assertEqual(bill.payment["recurring"], str(payment.pk))
