@@ -327,6 +327,7 @@ class Payment(models.Model):
             self.get_payment_url(),
             allow_redirects=False,
             data={"method": self.backend, "secret": settings.PAYMENT_SECRET},
+            timeout=60,
         )
 
 

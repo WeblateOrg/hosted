@@ -111,6 +111,7 @@ def notify_user_change(username, changes, create) -> None:
                 salt="weblate.user",
             )
         },
+        timeout=60,
     )
     response.raise_for_status()
 

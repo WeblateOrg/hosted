@@ -9,6 +9,8 @@ import sys
 
 import requests
 
+TIMEOUT = 60
+
 
 def check_response(response, do_raise: bool = True):
     if response.status_code != 200:
@@ -27,11 +29,19 @@ def main():
     url = "https://api.github.com/user/memberships/orgs"
     accept_url = "https://api.github.com/user/memberships/orgs/{}"
 
-    orgs = requests.get(url, headers=headers)
+    orgs = requests.get(
+        url,
+        headers=headers,
+        timeout=TIMEOUT,
+    )
     check_response(orgs)
 
     while 1:
-        orgs = requests.get(url, headers=headers)
+        orgs = requests.get(
+            url,
+            headers=headers,
+            timeout=TIMEOUT,
+        )
         check_response(orgs)
 
         for org in orgs.json():
@@ -39,7 +49,10 @@ def main():
                 name = org["organization"]["login"]
                 print(f"Accepting org {name}")
                 response = requests.patch(
-                    accept_url.format(name), '{"state":"active"}', headers=headers
+                    accept_url.format(name),
+                    '{"state":"active"}',
+                    headers=headers,
+                    timeout=TIMEOUT,
                 )
                 check_response(response)
 
@@ -49,7 +62,11 @@ def main():
 
     url = "https://api.github.com/user/repository_invitations"
 
-    invitations = requests.get(url, headers=headers)
+    invitations = requests.get(
+        url,
+        headers=headers,
+        timeout=TIMEOUT,
+    )
     check_response(invitations)
     for invitation in invitations.json():
         print(
@@ -58,7 +75,11 @@ def main():
                 invitation["html_url"],
             )
         )
-        response = requests.patch(invitation["url"], headers=headers)
+        response = requests.patch(
+            invitation["url"],
+            headers=headers,
+            timeout=TIMEOUT,
+        )
         check_response(response, do_raise=False)
 
 
