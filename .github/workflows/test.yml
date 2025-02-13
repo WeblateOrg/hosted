@@ -59,3 +59,5 @@ jobs:
         token: ${{secrets.CODECOV_TOKEN}}
         flags: unittests
         name: Python ${{ matrix.python-version }}
+permissions:
+  contents: read
