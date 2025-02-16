@@ -6,7 +6,7 @@
 # Z. Cs. <zbus021@gmail.com>, 2019.
 # anonymous <noreply@weblate.org>, 2019.
 # Слободан Симић(Slobodan Simić) <slsimic@gmail.com>, 2020, 2021.
-# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2021.
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2021, 2025.
 # NEXI <nexiphotographer@gmail.com>, 2023.
 # Julija Juli <slonovaca226@gmail.com>, 2024.
 # Reno Tx <renotx@users.noreply.hosted.weblate.org>, 2024.
@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-10-11 04:11+0000\n"
-"Last-Translator: Reno Tx <renotx@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2025-02-16 13:11+0000\n"
+"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/weblate/hosted/"
 "sr/>\n"
 "Language: sr\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.10\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -37,7 +37,7 @@ msgstr "Ресетуј складиште ка извору"
 
 #: wlhosted/addons.py:68
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Поништиће све измене у складишту Веблејта сваке ноћи."
+msgstr "Поништиће сваке ноћи све измене у складишту Веблејта."
 
 #: wlhosted/integrations/forms.py:32
 msgid "Billing"
@@ -61,7 +61,7 @@ msgstr "Нови план наплате"
 
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
-msgstr "Изаберите хостинг план који одговара величини вашег пројекта."
+msgstr "Изаберите план удомљавања који одговара величини вашег пројекта."
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
@@ -85,7 +85,7 @@ msgstr "Тренутни план"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Hosted strings limit"
-msgstr "Ограничење броја ниски уживо"
+msgstr "Ограничење броја ниски"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
@@ -140,7 +140,7 @@ msgstr "Приказане цене су без ПДВ-а."
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
-msgstr "Корисницима у ЕУ и чешким компанијама биће додатно наплаћено 21%% ПДВ."
+msgstr "Корисницима у ЕУ и чешким компанијама биће додатно наплаћен 21%% ПДВ-а."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
@@ -169,14 +169,14 @@ msgstr "Нема одговарајућег плаћања."
 
 #: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr "Хвала вам на куповини хостинг плана. Сада је активиран."
+msgstr "Хвала вам на куповини плана удомљавања. Сада је активиран."
 
 #: wlhosted/integrations/views.py:83
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
-"Хвала вам на куповини хостинг плана. Плаћање је у току и биће обрађено у "
+"Хвала вам на куповини плана удомљавања. Плаћање је у току и биће обрађено у "
 "позадини."
 
 #: wlhosted/integrations/views.py:95
@@ -193,7 +193,7 @@ msgstr "Плаћања су привремено недоступна."
 
 #: wlhosted/payments/backends.py:192
 msgid "Your payment on weblate.org"
-msgstr "Ваше плаћање на weblate.org"
+msgstr "Ваше плаћање на „weblate.org“-у"
 
 #: wlhosted/payments/backends.py:194
 #, python-format
@@ -251,7 +251,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:255
 msgid "Your pending payment on weblate.org"
-msgstr "Ваше плаћање на чекању на „weblate.org“-у"
+msgstr "Ваше плаћање је на чекању на „weblate.org“-у"
 
 #: wlhosted/payments/backends.py:257
 msgid ""
@@ -311,11 +311,11 @@ msgstr "Референца"
 
 #: wlhosted/payments/models.py:88
 msgid "European VAT ID"
-msgstr "Европски ПДВ ID"
+msgstr "Европски ПДВ ИД"
 
 #: wlhosted/payments/models.py:90
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
-msgstr "Попуните европски ПДВ ID. Оставите празно ако се не примењује."
+msgstr "Попуните европски ПДВ ИД. Оставите празно ако се не примењује."
 
 #: wlhosted/payments/models.py:96
 msgid "Tax registration"
@@ -393,19 +393,19 @@ msgstr "Уплата је обрађена"
 
 #: wlhosted/payments/validators.py:38
 msgid "{} is not a valid country code for any European Union member."
-msgstr "{} није исправан код државе чланице Европске уније."
+msgstr "„{}“ није исправан код државе чланице Европске уније."
 
 #: wlhosted/payments/validators.py:43
 msgid "{} does not match the country's VAT ID specifications."
-msgstr "{} се не подудара са спецификацијом ПДВ ID-а државе."
+msgstr "„{}“ се не подудара са ИД спецификацијом ПДВ-а државе."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
-msgstr "Услуга за проверу ПДВ ID-а није доступна за {}. Покушајте касније."
+msgstr "Услуга за проверу ПДВ ИД-а није доступна за {}. Покушајте касније."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
-msgstr "{} није исправан ПДВ ID."
+msgstr "„{}“ није исправан ПДВ ИД."
 
 #~ msgid "Component limit"
 #~ msgstr "Ограничење компоненти"
