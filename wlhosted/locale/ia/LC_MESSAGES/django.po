@@ -5,13 +5,14 @@
 # Software In Interlingua <softinterlingua@gmail.com>, 2020.
 # Carmelo Serraino <melo@carmu.com>, 2024.
 # famese <hmcb2080@gmail.com>, 2024.
+# Michal Čihař <michal@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2024-05-06 10:30+0000\n"
-"PO-Revision-Date: 2024-10-19 22:16+0000\n"
-"Last-Translator: famese <hmcb2080@gmail.com>\n"
+"PO-Revision-Date: 2025-02-21 09:44+0000\n"
+"Last-Translator: Michal Čihař <michal@weblate.org>\n"
 "Language-Team: Interlingua <https://hosted.weblate.org/projects/weblate/"
 "hosted/ia/>\n"
 "Language: ia\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8-rc\n"
+"X-Generator: Weblate 5.10.1-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -394,8 +395,7 @@ msgstr "{} non satisface le specificationes de ID VAT del pais."
 
 #: wlhosted/payments/validators.py:50
 msgid "VAT ID validation service unavailable for {}, please try again later."
-msgstr ""
-"Servicio de validation ID VAT  indisponibile pro {}, retenta plus tarde."
+msgstr "Servicio de validation ID VAT indisponibile pro {}, retenta plus tarde."
 
 #: wlhosted/payments/validators.py:53
 msgid "{} is not a valid VAT ID."
