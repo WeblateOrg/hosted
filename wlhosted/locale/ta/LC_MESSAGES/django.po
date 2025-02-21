@@ -6,19 +6,19 @@
 # தமிழ்நேரம் <anishprabu.t@gmail.com>, 2024.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2024-05-29 07:47+0000\n"
-"Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
-"Language-Team: Tamil <https://hosted.weblate.org/projects/weblate/hosted/ta/"
-">\n"
+"PO-Revision-Date: 2025-02-21 11:52+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/weblate/hosted/ta/>"
+"\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6-dev\n"
+"X-Generator: Weblate 5.10.1-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -226,15 +226,13 @@ msgstr "முகவரி"
 
 #: wlhosted/payments/models.py:113
 msgid "Additional address information"
-msgstr ""
+msgstr "பட்டியலிடல் செய்தி"
 
 #: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "அஞ்சல் குறியீடு மற்றும் நகரம்"
 
 #: wlhosted/payments/models.py:124
-#, fuzzy
-#| msgid "Postcode and city"
 msgid "Postcode"
 msgstr "அஞ்சல் குறியீடு மற்றும் நகரம்"
 
