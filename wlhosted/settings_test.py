@@ -36,5 +36,6 @@ DATABASES["memory_db"] = DATABASES["default"]
 DATABASE_ROUTERS = ["wlhosted.dbrouter.HostedRouter"]
 
 LOCALE_PATHS = [os.path.join(os.path.dirname(__file__), "locale")]
+LOCALE_FILTER_FILES = False
 
 FIO_TOKEN = "test-token"  # noqa: S105
