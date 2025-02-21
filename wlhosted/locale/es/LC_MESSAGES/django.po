@@ -9,11 +9,11 @@
 # gallegonovato <fran-carro@hotmail.es>, 2023, 2024.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2024-09-21 12:04+0000\n"
-"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
+"PO-Revision-Date: 2025-02-21 11:52+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/weblate/hosted/"
 "es/>\n"
 "Language: es\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.10.1-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -228,20 +228,16 @@ msgid "Address"
 msgstr "Dirección"
 
 #: wlhosted/payments/models.py:113
-#, fuzzy
-#| msgid "Billing information"
 msgid "Additional address information"
-msgstr "Datos de facturación"
+msgstr "Información adicional de la facturación"
 
 #: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "Código postal y ciudad"
 
 #: wlhosted/payments/models.py:124
-#, fuzzy
-#| msgid "Postcode and city"
 msgid "Postcode"
-msgstr "Código postal y ciudad"
+msgstr "Código postal"
 
 #: wlhosted/payments/models.py:128
 msgid "Country"
