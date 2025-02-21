@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2024-05-06 10:30+0000\n"
+"POT-Creation-Date: 2025-02-21 09:56+0000\n"
 "PO-Revision-Date: 2024-05-18 02:01+0000\n"
 "Last-Translator: Supaplex <bejokeup@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
@@ -36,15 +36,15 @@ msgstr "重設儲存庫回上游狀態"
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "每天晚上都丟棄在 Weblate 儲存庫中所有的變動。"
 
-#: wlhosted/integrations/forms.py:32
+#: wlhosted/integrations/forms.py:37
 msgid "Billing"
 msgstr "帳單"
 
-#: wlhosted/integrations/forms.py:33
+#: wlhosted/integrations/forms.py:38
 msgid "Choose the billing plan you want to update"
 msgstr "選擇您想要更新的付費方案"
 
-#: wlhosted/integrations/forms.py:34
+#: wlhosted/integrations/forms.py:39
 msgid "Create new billing plan"
 msgstr "建立新的付費方案"
 
@@ -185,142 +185,32 @@ msgstr "不明原因"
 msgid "Payments are temporarily inactive."
 msgstr "支付暫時無法使用。"
 
-#: wlhosted/payments/backends.py:192
-msgid "Your payment on weblate.org"
-msgstr "您於 weblate.org 的付款"
-
-#: wlhosted/payments/backends.py:194
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Thank you for your payment on weblate.org.\n"
-"\n"
-"You will find an invoice for this payment attached.\n"
-"Alternatively, you can download it from the website:\n"
-"\n"
-"%s\n"
-msgstr ""
-"您好，\n"
-"\n"
-"感謝您在 weblate.org 上付款。\n"
-"\n"
-"您可在附件中找到此次支付的發票。\n"
-"或者，您也可以從網站下載：\n"
-"\n"
-"%s\n"
-
-#: wlhosted/payments/backends.py:220
-msgid "Your payment on weblate.org failed"
-msgstr "您於 weblate.org 的付款失敗"
-
-#: wlhosted/payments/backends.py:222
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org has failed.\n"
-"\n"
-"%s\n"
-"\n"
-"Retry issuing the payment on the website:\n"
-"\n"
-"%s\n"
-"\n"
-"If concerning a recurring payment, it is retried three times,\n"
-"and if still failing, cancelled.\n"
-msgstr ""
-"您好，\n"
-"\n"
-"您在 weblate.org 上的付款失敗了。\n"
-"\n"
-"%s\n"
-"\n"
-"請重新嘗試網站上的付款：\n"
-"\n"
-"%s\n"
-"\n"
-"如果涉及定期付款，則系統會重試三次，\n"
-"如果仍然失敗，則請您取消付款。\n"
-
-#: wlhosted/payments/backends.py:255
-msgid "Your pending payment on weblate.org"
-msgstr "您於 weblate.org 的待付款"
-
-#: wlhosted/payments/backends.py:257
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org is pending. Please follow the provided\n"
-"instructions to complete the payment.\n"
-msgstr ""
-"敬啟者\n"
-"\n"
-"您在 weblate.org 上的消費支付仍處於未完狀態。請遵照下列\n"
-"提供的指示完成付款。\n"
-
-#: wlhosted/payments/backends.py:339
-msgid "Payment card"
-msgstr "付帳卡"
-
-#: wlhosted/payments/backends.py:415
-msgid "Payment cancelled"
-msgstr "付款已取消"
-
-#: wlhosted/payments/backends.py:417
-msgid "Payment error"
-msgstr "付款錯誤"
-
-#: wlhosted/payments/backends.py:429
-msgid "Bitcoin"
-msgstr "比特幣"
-
-#: wlhosted/payments/backends.py:438
+#: wlhosted/payments/backends.py:156
 msgid "IBAN bank transfer"
 msgstr "IBAN 銀行電匯"
 
-#: wlhosted/payments/backends.py:468
-msgid "Issuing bank"
-msgstr "發行銀行"
+#: wlhosted/payments/backends.py:164
+msgid "Payment card"
+msgstr "付帳卡"
 
-#: wlhosted/payments/backends.py:469
-msgid "Account holder"
-msgstr "帳號持有人"
-
-#: wlhosted/payments/backends.py:470
-msgid "Account number"
-msgstr "帳號"
-
-#: wlhosted/payments/backends.py:471
-msgid "SWIFT code"
-msgstr "SWIFT 代碼"
-
-#: wlhosted/payments/backends.py:472
-msgid "IBAN"
-msgstr "IBAN"
-
-#: wlhosted/payments/backends.py:473
-msgid "Reference"
-msgstr "參考"
-
-#: wlhosted/payments/models.py:88
+#: wlhosted/payments/models.py:87
 msgid "European VAT ID"
 msgstr "歐盟 VAT ID"
 
-#: wlhosted/payments/models.py:90
+#: wlhosted/payments/models.py:89
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr "請填入歐盟 VAT ID，如果不適用請留空。"
 
-#: wlhosted/payments/models.py:96
+#: wlhosted/payments/models.py:95
 msgid "Tax registration"
 msgstr "稅務註冊"
 
-#: wlhosted/payments/models.py:98
+#: wlhosted/payments/models.py:97
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "如果稅務註冊資訊應顯示於發票上，請填入您的相關資訊。"
 
-#: wlhosted/payments/models.py:105
+#: wlhosted/payments/models.py:103
 msgid "Company or individual name"
 msgstr "公司或個體名稱"
 
@@ -328,78 +218,185 @@ msgstr "公司或個體名稱"
 msgid "Address"
 msgstr "地址"
 
-#: wlhosted/payments/models.py:111
+#: wlhosted/payments/models.py:113
+#, fuzzy
+#| msgid "Billing information"
+msgid "Additional address information"
+msgstr "結帳資訊"
+
+#: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "郵遞區號與城市"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:124
+#, fuzzy
+#| msgid "Postcode and city"
+msgid "Postcode"
+msgstr "郵遞區號與城市"
+
+#: wlhosted/payments/models.py:128
 msgid "Country"
 msgstr "國家"
 
-#: wlhosted/payments/models.py:144
+#: wlhosted/payments/models.py:165
 msgid "The country has to match your VAT code"
 msgstr "國家必須與您的 VAT 碼相符"
 
-#: wlhosted/payments/models.py:167
+#: wlhosted/payments/models.py:188
 msgid "Annual"
 msgstr "每年"
 
-#: wlhosted/payments/models.py:168
+#: wlhosted/payments/models.py:189
 msgid "Biannual"
 msgstr "每半年"
 
-#: wlhosted/payments/models.py:169
+#: wlhosted/payments/models.py:190
 msgid "Quarterly"
 msgstr "每季"
 
-#: wlhosted/payments/models.py:170
+#: wlhosted/payments/models.py:191
 msgid "Monthly"
 msgstr "每月"
 
-#: wlhosted/payments/models.py:171
+#: wlhosted/payments/models.py:192
 msgid "One-time"
 msgstr "一次性"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:226
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "新付款"
 
-#: wlhosted/payments/models.py:206
+#: wlhosted/payments/models.py:227
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "等候付款"
 
-#: wlhosted/payments/models.py:207
+#: wlhosted/payments/models.py:228
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "付款被拒絕"
 
-#: wlhosted/payments/models.py:208
+#: wlhosted/payments/models.py:229
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "付款已接受"
 
-#: wlhosted/payments/models.py:209
+#: wlhosted/payments/models.py:230
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "付款已處理"
 
-#: wlhosted/payments/validators.py:38
+#: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
 msgstr "{} 不是任一歐盟成員有效的國家碼。"
 
-#: wlhosted/payments/validators.py:43
+#: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
 msgstr "{} 與國家的 VAT ID 規格不符。"
 
-#: wlhosted/payments/validators.py:50
+#: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr "{} 的 VAT ID 驗證服務無法使用，請稍後再試。"
 
-#: wlhosted/payments/validators.py:53
+#: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "{} 不是有效的 VAT ID。"
+
+#~ msgid "Your payment on weblate.org"
+#~ msgstr "您於 weblate.org 的付款"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Thank you for your payment on weblate.org.\n"
+#~ "\n"
+#~ "You will find an invoice for this payment attached.\n"
+#~ "Alternatively, you can download it from the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "您好，\n"
+#~ "\n"
+#~ "感謝您在 weblate.org 上付款。\n"
+#~ "\n"
+#~ "您可在附件中找到此次支付的發票。\n"
+#~ "或者，您也可以從網站下載：\n"
+#~ "\n"
+#~ "%s\n"
+
+#~ msgid "Your payment on weblate.org failed"
+#~ msgstr "您於 weblate.org 的付款失敗"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org has failed.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Retry issuing the payment on the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "If concerning a recurring payment, it is retried three times,\n"
+#~ "and if still failing, cancelled.\n"
+#~ msgstr ""
+#~ "您好，\n"
+#~ "\n"
+#~ "您在 weblate.org 上的付款失敗了。\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "請重新嘗試網站上的付款：\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "如果涉及定期付款，則系統會重試三次，\n"
+#~ "如果仍然失敗，則請您取消付款。\n"
+
+#~ msgid "Your pending payment on weblate.org"
+#~ msgstr "您於 weblate.org 的待付款"
+
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org is pending. Please follow the provided\n"
+#~ "instructions to complete the payment.\n"
+#~ msgstr ""
+#~ "敬啟者\n"
+#~ "\n"
+#~ "您在 weblate.org 上的消費支付仍處於未完狀態。請遵照下列\n"
+#~ "提供的指示完成付款。\n"
+
+#~ msgid "Payment cancelled"
+#~ msgstr "付款已取消"
+
+#~ msgid "Payment error"
+#~ msgstr "付款錯誤"
+
+#~ msgid "Bitcoin"
+#~ msgstr "比特幣"
+
+#~ msgid "Issuing bank"
+#~ msgstr "發行銀行"
+
+#~ msgid "Account holder"
+#~ msgstr "帳號持有人"
+
+#~ msgid "Account number"
+#~ msgstr "帳號"
+
+#~ msgid "SWIFT code"
+#~ msgstr "SWIFT 代碼"
+
+#~ msgid "IBAN"
+#~ msgstr "IBAN"
+
+#~ msgid "Reference"
+#~ msgstr "參考"
 
 #~ msgid "Component limit"
 #~ msgstr "組件限制"
@@ -454,9 +451,6 @@ msgstr "{} 不是有效的 VAT ID。"
 #~ msgstr ""
 #~ "之所以記錄這些資訊，是為了知道您的帳號是否有重大變動（例如：更動密碼），依"
 #~ "此分析您的帳號是否被盜取"
-
-#~ msgid "Billing information"
-#~ msgstr "結帳資訊"
 
 #~ msgid ""
 #~ "In case you purchase service from us, we collect additional billing "

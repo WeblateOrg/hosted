@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2024-05-06 10:30+0000\n"
+"POT-Creation-Date: 2025-02-21 09:56+0000\n"
 "PO-Revision-Date: 2025-01-20 08:05+0000\n"
 "Last-Translator: Priit Jõerüüt <hwlate@joeruut.com>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -36,15 +36,15 @@ msgstr "Lähtesta varamu ülesvoole"
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "Tühista igal öösel kõik muudatused Weblate'i varamus."
 
-#: wlhosted/integrations/forms.py:32
+#: wlhosted/integrations/forms.py:37
 msgid "Billing"
 msgstr "Arveldamine"
 
-#: wlhosted/integrations/forms.py:33
+#: wlhosted/integrations/forms.py:38
 msgid "Choose the billing plan you want to update"
 msgstr "Vali arvelduskava, mida sa soovid uuendada"
 
-#: wlhosted/integrations/forms.py:34
+#: wlhosted/integrations/forms.py:39
 msgid "Create new billing plan"
 msgstr "Loo uus arvelduskava"
 
@@ -192,142 +192,32 @@ msgstr "Tundmatu põhjus"
 msgid "Payments are temporarily inactive."
 msgstr "Makseliides ajutiselt ei tööta."
 
-#: wlhosted/payments/backends.py:192
-msgid "Your payment on weblate.org"
-msgstr "Sinu rahakanne Weblate.org-is"
-
-#: wlhosted/payments/backends.py:194
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Thank you for your payment on weblate.org.\n"
-"\n"
-"You will find an invoice for this payment attached.\n"
-"Alternatively, you can download it from the website:\n"
-"\n"
-"%s\n"
-msgstr ""
-"Tere,\n"
-"\n"
-"Tänud makse eest weblate.org veebisaidis.\n"
-"\n"
-"Makse arve on kirja manuses ning selle saad\n"
-"laadida ka meie saidist:\n"
-"\n"
-"%s\n"
-
-#: wlhosted/payments/backends.py:220
-msgid "Your payment on weblate.org failed"
-msgstr "Sinu makse weblate.org saidis ei õnnestunud"
-
-#: wlhosted/payments/backends.py:222
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org has failed.\n"
-"\n"
-"%s\n"
-"\n"
-"Retry issuing the payment on the website:\n"
-"\n"
-"%s\n"
-"\n"
-"If concerning a recurring payment, it is retried three times,\n"
-"and if still failing, cancelled.\n"
-msgstr ""
-"Tere,\n"
-"\n"
-"Sinu makse weblate.org saidis ei õnnestunud.\n"
-"\n"
-"%s\n"
-"\n"
-"Proovi uut makset lehel:\n"
-"\n"
-"%s\n"
-"\n"
-"Kui tegemist oli püsimaksega, siis proovime seda kolm korda\n"
-"ning kui see ikkagi ebaõnnestub, siis tühistame tellimuse.\n"
-
-#: wlhosted/payments/backends.py:255
-msgid "Your pending payment on weblate.org"
-msgstr "Sinu ootel makse weblate.org'le"
-
-#: wlhosted/payments/backends.py:257
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org is pending. Please follow the provided\n"
-"instructions to complete the payment.\n"
-msgstr ""
-"Tere,\n"
-"\n"
-"Sinul on weblate.org saidis ootel makse. Makse tegemiseks\n"
-"palun järgi seda juhendit.\n"
-
-#: wlhosted/payments/backends.py:339
-msgid "Payment card"
-msgstr "Maksekaart"
-
-#: wlhosted/payments/backends.py:415
-msgid "Payment cancelled"
-msgstr "Makse tühistatud"
-
-#: wlhosted/payments/backends.py:417
-msgid "Payment error"
-msgstr "Viga maksel"
-
-#: wlhosted/payments/backends.py:429
-msgid "Bitcoin"
-msgstr "Bitcoin"
-
-#: wlhosted/payments/backends.py:438
+#: wlhosted/payments/backends.py:156
 msgid "IBAN bank transfer"
 msgstr "Makse IBAN pangaülekandega"
 
-#: wlhosted/payments/backends.py:468
-msgid "Issuing bank"
-msgstr "Väljastanud pank"
+#: wlhosted/payments/backends.py:164
+msgid "Payment card"
+msgstr "Maksekaart"
 
-#: wlhosted/payments/backends.py:469
-msgid "Account holder"
-msgstr "Konto omanik"
-
-#: wlhosted/payments/backends.py:470
-msgid "Account number"
-msgstr "Pangaarve number"
-
-#: wlhosted/payments/backends.py:471
-msgid "SWIFT code"
-msgstr "SWIFT kood"
-
-#: wlhosted/payments/backends.py:472
-msgid "IBAN"
-msgstr "IBAN"
-
-#: wlhosted/payments/backends.py:473
-msgid "Reference"
-msgstr "Viide"
-
-#: wlhosted/payments/models.py:88
+#: wlhosted/payments/models.py:87
 msgid "European VAT ID"
 msgstr "Euroopa KMKR"
 
-#: wlhosted/payments/models.py:90
+#: wlhosted/payments/models.py:89
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr "Palun täitke Euroopa Liidu KMKR, selle puudumisel jätke tühjaks."
 
-#: wlhosted/payments/models.py:96
+#: wlhosted/payments/models.py:95
 msgid "Tax registration"
 msgstr "Maksuresidentsus"
 
-#: wlhosted/payments/models.py:98
+#: wlhosted/payments/models.py:97
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "Palun lisa oma maksuresidentsus, kui soovid seda näha arvel."
 
-#: wlhosted/payments/models.py:105
+#: wlhosted/payments/models.py:103
 msgid "Company or individual name"
 msgstr "Äriühingu või eraisiku nimi"
 
@@ -335,78 +225,185 @@ msgstr "Äriühingu või eraisiku nimi"
 msgid "Address"
 msgstr "Aadress"
 
-#: wlhosted/payments/models.py:111
+#: wlhosted/payments/models.py:113
+#, fuzzy
+#| msgid "Billing information"
+msgid "Additional address information"
+msgstr "Arveldusteave"
+
+#: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "Sihtnumber ja linn"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:124
+#, fuzzy
+#| msgid "Postcode and city"
+msgid "Postcode"
+msgstr "Sihtnumber ja linn"
+
+#: wlhosted/payments/models.py:128
 msgid "Country"
 msgstr "Riik"
 
-#: wlhosted/payments/models.py:144
+#: wlhosted/payments/models.py:165
 msgid "The country has to match your VAT code"
 msgstr "Riik peab vastama teie käibemaksukoodile"
 
-#: wlhosted/payments/models.py:167
+#: wlhosted/payments/models.py:188
 msgid "Annual"
 msgstr "Üks kord aastas"
 
-#: wlhosted/payments/models.py:168
+#: wlhosted/payments/models.py:189
 msgid "Biannual"
 msgstr "Kord poolaastas"
 
-#: wlhosted/payments/models.py:169
+#: wlhosted/payments/models.py:190
 msgid "Quarterly"
 msgstr "Kord kvartalis"
 
-#: wlhosted/payments/models.py:170
+#: wlhosted/payments/models.py:191
 msgid "Monthly"
 msgstr "Kord kuus"
 
-#: wlhosted/payments/models.py:171
+#: wlhosted/payments/models.py:192
 msgid "One-time"
 msgstr "Ühekordne"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:226
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Uus makse"
 
-#: wlhosted/payments/models.py:206
+#: wlhosted/payments/models.py:227
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Ootan makset"
 
-#: wlhosted/payments/models.py:207
+#: wlhosted/payments/models.py:228
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Makse on tagasi lükatud"
 
-#: wlhosted/payments/models.py:208
+#: wlhosted/payments/models.py:229
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Makse on vastu võetud"
 
-#: wlhosted/payments/models.py:209
+#: wlhosted/payments/models.py:230
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Makse on töödeldud"
 
-#: wlhosted/payments/validators.py:38
+#: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
 msgstr "{} ei ole kehtiv Euroopa Liidu liikmesriigi kood."
 
-#: wlhosted/payments/validators.py:43
+#: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
 msgstr "{} ei vasta selle riigi KMKR-i formaadile."
 
-#: wlhosted/payments/validators.py:50
+#: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr "KMKR kontrollimine pole {} olnud saadaval. Palun proovi hiljem uuesti."
 
-#: wlhosted/payments/validators.py:53
+#: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "{} ei ole korrektne KMKR."
+
+#~ msgid "Your payment on weblate.org"
+#~ msgstr "Sinu rahakanne Weblate.org-is"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Thank you for your payment on weblate.org.\n"
+#~ "\n"
+#~ "You will find an invoice for this payment attached.\n"
+#~ "Alternatively, you can download it from the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "Tere,\n"
+#~ "\n"
+#~ "Tänud makse eest weblate.org veebisaidis.\n"
+#~ "\n"
+#~ "Makse arve on kirja manuses ning selle saad\n"
+#~ "laadida ka meie saidist:\n"
+#~ "\n"
+#~ "%s\n"
+
+#~ msgid "Your payment on weblate.org failed"
+#~ msgstr "Sinu makse weblate.org saidis ei õnnestunud"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org has failed.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Retry issuing the payment on the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "If concerning a recurring payment, it is retried three times,\n"
+#~ "and if still failing, cancelled.\n"
+#~ msgstr ""
+#~ "Tere,\n"
+#~ "\n"
+#~ "Sinu makse weblate.org saidis ei õnnestunud.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Proovi uut makset lehel:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Kui tegemist oli püsimaksega, siis proovime seda kolm korda\n"
+#~ "ning kui see ikkagi ebaõnnestub, siis tühistame tellimuse.\n"
+
+#~ msgid "Your pending payment on weblate.org"
+#~ msgstr "Sinu ootel makse weblate.org'le"
+
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org is pending. Please follow the provided\n"
+#~ "instructions to complete the payment.\n"
+#~ msgstr ""
+#~ "Tere,\n"
+#~ "\n"
+#~ "Sinul on weblate.org saidis ootel makse. Makse tegemiseks\n"
+#~ "palun järgi seda juhendit.\n"
+
+#~ msgid "Payment cancelled"
+#~ msgstr "Makse tühistatud"
+
+#~ msgid "Payment error"
+#~ msgstr "Viga maksel"
+
+#~ msgid "Bitcoin"
+#~ msgstr "Bitcoin"
+
+#~ msgid "Issuing bank"
+#~ msgstr "Väljastanud pank"
+
+#~ msgid "Account holder"
+#~ msgstr "Konto omanik"
+
+#~ msgid "Account number"
+#~ msgstr "Pangaarve number"
+
+#~ msgid "SWIFT code"
+#~ msgstr "SWIFT kood"
+
+#~ msgid "IBAN"
+#~ msgstr "IBAN"
+
+#~ msgid "Reference"
+#~ msgstr "Viide"
 
 #~ msgid "Component limit"
 #~ msgstr "Osiste piirang"
@@ -469,9 +466,6 @@ msgstr "{} ei ole korrektne KMKR."
 #~ "Need logitakse teie konto oluliste muudatuste korral (nt parooli "
 #~ "muutmine), et võimaldada hilisemat analüüssi, kui teie konto satub "
 #~ "valedesse kätesse"
-
-#~ msgid "Billing information"
-#~ msgstr "Arveldusteave"
 
 #~ msgid ""
 #~ "In case you purchase service from us, we collect additional billing "

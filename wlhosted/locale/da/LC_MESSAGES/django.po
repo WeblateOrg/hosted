@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2024-05-06 10:30+0000\n"
+"POT-Creation-Date: 2025-02-21 09:56+0000\n"
 "PO-Revision-Date: 2024-06-04 10:29+0000\n"
 "Last-Translator: Luna <social.pvxuu@slmail.me>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/weblate/hosted/da/"
@@ -39,15 +39,15 @@ msgstr "Nulstil repository til upstream"
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "Kasserer alle ændringer i Weblate-repositoriet hver nat."
 
-#: wlhosted/integrations/forms.py:32
+#: wlhosted/integrations/forms.py:37
 msgid "Billing"
 msgstr "Fakturering"
 
-#: wlhosted/integrations/forms.py:33
+#: wlhosted/integrations/forms.py:38
 msgid "Choose the billing plan you want to update"
 msgstr "Vælg den betalingsplan, du vil opdatere"
 
-#: wlhosted/integrations/forms.py:34
+#: wlhosted/integrations/forms.py:39
 msgid "Create new billing plan"
 msgstr "Opret ny betalingsplan"
 
@@ -196,144 +196,34 @@ msgstr "Ukendt årsag"
 msgid "Payments are temporarily inactive."
 msgstr "Betalinger er midlertidigt inaktive."
 
-#: wlhosted/payments/backends.py:192
-msgid "Your payment on weblate.org"
-msgstr "Din betaling på weblate.org"
-
-#: wlhosted/payments/backends.py:194
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Thank you for your payment on weblate.org.\n"
-"\n"
-"You will find an invoice for this payment attached.\n"
-"Alternatively, you can download it from the website:\n"
-"\n"
-"%s\n"
-msgstr ""
-"Hej,\n"
-"\n"
-"Tak for din betaling på weblate.org.\n"
-"\n"
-"En faktura for denne betaling er vedhæftet.\n"
-"Alternativt kan du hente den fra hjemmesiden:\n"
-"\n"
-"%s\n"
-
-#: wlhosted/payments/backends.py:220
-msgid "Your payment on weblate.org failed"
-msgstr "Din betaling på weblate.org mislykkedes"
-
-#: wlhosted/payments/backends.py:222
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org has failed.\n"
-"\n"
-"%s\n"
-"\n"
-"Retry issuing the payment on the website:\n"
-"\n"
-"%s\n"
-"\n"
-"If concerning a recurring payment, it is retried three times,\n"
-"and if still failing, cancelled.\n"
-msgstr ""
-"Hej,\n"
-"\n"
-"Din betaling på weblate.org mislykkedes.\n"
-"\n"
-"%s\n"
-"\n"
-"Prøv at udstede betalingen på hjemmesiden igen:\n"
-"\n"
-"%s\n"
-"\n"
-"Hvis det drejer sig om en tilbagevendende betaling, forsøges den tre gange,\n"
-"og hvis den stadig mislykkes, annulleres den.\n"
-
-#: wlhosted/payments/backends.py:255
-msgid "Your pending payment on weblate.org"
-msgstr "Din afventende betaling på weblate.org"
-
-#: wlhosted/payments/backends.py:257
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org is pending. Please follow the provided\n"
-"instructions to complete the payment.\n"
-msgstr ""
-"Hej,\n"
-"\n"
-"Din betaling på weblate.org står som afventende. Følg venligst de\n"
-"angivne instrukser for at fuldføre betalingen.\n"
-
-#: wlhosted/payments/backends.py:339
-msgid "Payment card"
-msgstr "Betalingskort"
-
-#: wlhosted/payments/backends.py:415
-msgid "Payment cancelled"
-msgstr "Betaling annulleret"
-
-#: wlhosted/payments/backends.py:417
-msgid "Payment error"
-msgstr "Betalingsfejl"
-
-#: wlhosted/payments/backends.py:429
-msgid "Bitcoin"
-msgstr "Bitcoin"
-
-#: wlhosted/payments/backends.py:438
+#: wlhosted/payments/backends.py:156
 msgid "IBAN bank transfer"
 msgstr "IBAN-bankoverførsel"
 
-#: wlhosted/payments/backends.py:468
-msgid "Issuing bank"
-msgstr "Udstedende bank"
+#: wlhosted/payments/backends.py:164
+msgid "Payment card"
+msgstr "Betalingskort"
 
-#: wlhosted/payments/backends.py:469
-msgid "Account holder"
-msgstr "Kontoindehaver"
-
-#: wlhosted/payments/backends.py:470
-msgid "Account number"
-msgstr "Kontonummer"
-
-#: wlhosted/payments/backends.py:471
-msgid "SWIFT code"
-msgstr "SWIFT-kode"
-
-#: wlhosted/payments/backends.py:472
-msgid "IBAN"
-msgstr "IBAN"
-
-#: wlhosted/payments/backends.py:473
-msgid "Reference"
-msgstr "Reference"
-
-#: wlhosted/payments/models.py:88
+#: wlhosted/payments/models.py:87
 msgid "European VAT ID"
 msgstr "Europæisk moms-ID"
 
-#: wlhosted/payments/models.py:90
+#: wlhosted/payments/models.py:89
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "Udfyld venligst EU's moms-ID. Lad det være tomt, hvis det ikke er relevant."
 
-#: wlhosted/payments/models.py:96
+#: wlhosted/payments/models.py:95
 msgid "Tax registration"
 msgstr "Momsregistrering"
 
-#: wlhosted/payments/models.py:98
+#: wlhosted/payments/models.py:97
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
 "Udfyld venligst din momsregistrering, hvis den skal vises på fakturaen."
 
-#: wlhosted/payments/models.py:105
+#: wlhosted/payments/models.py:103
 msgid "Company or individual name"
 msgstr "Selskabs- eller personnavn"
 
@@ -341,80 +231,188 @@ msgstr "Selskabs- eller personnavn"
 msgid "Address"
 msgstr "Adresse"
 
-#: wlhosted/payments/models.py:111
+#: wlhosted/payments/models.py:113
+#, fuzzy
+#| msgid "Billing information"
+msgid "Additional address information"
+msgstr "Faktureringsinformation"
+
+#: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "Postnummer og by"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:124
+#, fuzzy
+#| msgid "Postcode and city"
+msgid "Postcode"
+msgstr "Postnummer og by"
+
+#: wlhosted/payments/models.py:128
 msgid "Country"
 msgstr "Land"
 
-#: wlhosted/payments/models.py:144
+#: wlhosted/payments/models.py:165
 msgid "The country has to match your VAT code"
 msgstr "Landet skal matche din momskode"
 
-#: wlhosted/payments/models.py:167
+#: wlhosted/payments/models.py:188
 msgid "Annual"
 msgstr "Årlig"
 
-#: wlhosted/payments/models.py:168
+#: wlhosted/payments/models.py:189
 msgid "Biannual"
 msgstr "Halvårlig"
 
-#: wlhosted/payments/models.py:169
+#: wlhosted/payments/models.py:190
 msgid "Quarterly"
 msgstr "Kvartalsvis"
 
-#: wlhosted/payments/models.py:170
+#: wlhosted/payments/models.py:191
 msgid "Monthly"
 msgstr "Månedlig"
 
-#: wlhosted/payments/models.py:171
+#: wlhosted/payments/models.py:192
 msgid "One-time"
 msgstr "Engangs"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:226
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Ny betaling"
 
-#: wlhosted/payments/models.py:206
+#: wlhosted/payments/models.py:227
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Afventer betaling"
 
-#: wlhosted/payments/models.py:207
+#: wlhosted/payments/models.py:228
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Betaling afvist"
 
-#: wlhosted/payments/models.py:208
+#: wlhosted/payments/models.py:229
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Betaling accepteret"
 
-#: wlhosted/payments/models.py:209
+#: wlhosted/payments/models.py:230
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Betaling behandlet"
 
-#: wlhosted/payments/validators.py:38
+#: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
 msgstr "{} er ikke en gyldig landekode for noget EU-medlemsland."
 
-#: wlhosted/payments/validators.py:43
+#: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
 msgstr "{} matcher ikke landets specifikationer for moms-ID."
 
-#: wlhosted/payments/validators.py:50
+#: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
 "Godkendelsestjeneste for moms-ID utilgængelig for {}, prøv venligst igen "
 "senere."
 
-#: wlhosted/payments/validators.py:53
+#: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "{} er ikke et gyldigt moms-ID."
+
+#~ msgid "Your payment on weblate.org"
+#~ msgstr "Din betaling på weblate.org"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Thank you for your payment on weblate.org.\n"
+#~ "\n"
+#~ "You will find an invoice for this payment attached.\n"
+#~ "Alternatively, you can download it from the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "Hej,\n"
+#~ "\n"
+#~ "Tak for din betaling på weblate.org.\n"
+#~ "\n"
+#~ "En faktura for denne betaling er vedhæftet.\n"
+#~ "Alternativt kan du hente den fra hjemmesiden:\n"
+#~ "\n"
+#~ "%s\n"
+
+#~ msgid "Your payment on weblate.org failed"
+#~ msgstr "Din betaling på weblate.org mislykkedes"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org has failed.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Retry issuing the payment on the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "If concerning a recurring payment, it is retried three times,\n"
+#~ "and if still failing, cancelled.\n"
+#~ msgstr ""
+#~ "Hej,\n"
+#~ "\n"
+#~ "Din betaling på weblate.org mislykkedes.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Prøv at udstede betalingen på hjemmesiden igen:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Hvis det drejer sig om en tilbagevendende betaling, forsøges den tre "
+#~ "gange,\n"
+#~ "og hvis den stadig mislykkes, annulleres den.\n"
+
+#~ msgid "Your pending payment on weblate.org"
+#~ msgstr "Din afventende betaling på weblate.org"
+
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org is pending. Please follow the provided\n"
+#~ "instructions to complete the payment.\n"
+#~ msgstr ""
+#~ "Hej,\n"
+#~ "\n"
+#~ "Din betaling på weblate.org står som afventende. Følg venligst de\n"
+#~ "angivne instrukser for at fuldføre betalingen.\n"
+
+#~ msgid "Payment cancelled"
+#~ msgstr "Betaling annulleret"
+
+#~ msgid "Payment error"
+#~ msgstr "Betalingsfejl"
+
+#~ msgid "Bitcoin"
+#~ msgstr "Bitcoin"
+
+#~ msgid "Issuing bank"
+#~ msgstr "Udstedende bank"
+
+#~ msgid "Account holder"
+#~ msgstr "Kontoindehaver"
+
+#~ msgid "Account number"
+#~ msgstr "Kontonummer"
+
+#~ msgid "SWIFT code"
+#~ msgstr "SWIFT-kode"
+
+#~ msgid "IBAN"
+#~ msgstr "IBAN"
+
+#~ msgid "Reference"
+#~ msgstr "Reference"
 
 #~ msgid "Component limit"
 #~ msgstr "Grænse for komponent"
@@ -453,9 +451,6 @@ msgstr "{} er ikke et gyldigt moms-ID."
 #~ msgstr ""
 #~ "De logges i tilfælde af vigtige ændringer på din konto (f.eks. ændring af "
 #~ "adgangskode) så der kan diagnosticeres hvis din konto bliver stjålet"
-
-#~ msgid "Billing information"
-#~ msgstr "Faktureringsinformation"
 
 #~ msgid "Access to the Personal Data"
 #~ msgstr "Adgang til den personlige data"

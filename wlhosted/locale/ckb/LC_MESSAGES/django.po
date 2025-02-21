@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2024-05-06 10:30+0000\n"
+"POT-Creation-Date: 2025-02-21 09:56+0000\n"
 "PO-Revision-Date: 2021-04-04 13:26+0000\n"
 "Last-Translator: Rener kaka <Rabarajax51@gmail.com>\n"
 "Language-Team: Kurdish (Central) <https://hosted.weblate.org/projects/"
@@ -33,15 +33,15 @@ msgstr "دووبارە ڕێکخستنەوەی کۆگا بۆ سەرەوەی ست�
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "هەموو گۆڕانکاریەکان لابدە لە کۆگای وێبلایت هەموو شەوێک."
 
-#: wlhosted/integrations/forms.py:32
+#: wlhosted/integrations/forms.py:37
 msgid "Billing"
 msgstr "لیست"
 
-#: wlhosted/integrations/forms.py:33
+#: wlhosted/integrations/forms.py:38
 msgid "Choose the billing plan you want to update"
 msgstr "هەڵبژاردنی پلانی پسوڵەکە کە دەتەوێت نوێکاری بکەیت"
 
-#: wlhosted/integrations/forms.py:34
+#: wlhosted/integrations/forms.py:39
 msgid "Create new billing plan"
 msgstr "دروستکردنی پلانی نوێی پڕۆژە یاساکە"
 
@@ -192,145 +192,35 @@ msgstr "هۆکاری نەزانراو"
 msgid "Payments are temporarily inactive."
 msgstr "پارەدانەکان بە شێوەیەکی کاتی ناچالاکن."
 
-#: wlhosted/payments/backends.py:192
-msgid "Your payment on weblate.org"
-msgstr "پارەدانەکەت لە weblate.org"
-
-#: wlhosted/payments/backends.py:194
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Thank you for your payment on weblate.org.\n"
-"\n"
-"You will find an invoice for this payment attached.\n"
-"Alternatively, you can download it from the website:\n"
-"\n"
-"%s\n"
-msgstr ""
-"سڵاو‌‌‌\n"
-"\n"
-"سوپاس بۆ پێدانی پارەت weblate.org.\n"
-"\n"
-"لیستی لیستی پارەدان دەدۆزیتەوە بۆ هاوپێچکردنی ئەم پارەدانە.\n"
-"بە شێوەیەکی جێگرەوە,دەتوانیت دایبگریت لە وێب سایتەوە:\n"
-"\n"
-"%s\n"
-
-#: wlhosted/payments/backends.py:220
-msgid "Your payment on weblate.org failed"
-msgstr "پارەدانەکەت لە weblate.org سەرکەوتوو نەبوو"
-
-#: wlhosted/payments/backends.py:222
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org has failed.\n"
-"\n"
-"%s\n"
-"\n"
-"Retry issuing the payment on the website:\n"
-"\n"
-"%s\n"
-"\n"
-"If concerning a recurring payment, it is retried three times,\n"
-"and if still failing, cancelled.\n"
-msgstr ""
-"سڵاو,\n"
-"\n"
-"پارەدانەکەت بۆ weblate.org سەرکەوتوو نەبوو.\n"
-"\n"
-"%s\n"
-"\n"
-"دووبارە هەوڵی دەرکردنی پارەدانەکە بدە لەسەر وێب سایتەکە:\n"
-"\n"
-"%s\n"
-"\n"
-"ئەگەر دەربارەی دووبارەکردنەوەی پارەدان، سێ جار هەوڵ درا,\n"
-"ئەگەر هەر شکست بخۆیت، هەڵوەشاتەوە.\n"
-
-#: wlhosted/payments/backends.py:255
-msgid "Your pending payment on weblate.org"
-msgstr "پارەدانەکەت لە weblate.org"
-
-#: wlhosted/payments/backends.py:257
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org is pending. Please follow the provided\n"
-"instructions to complete the payment.\n"
-msgstr ""
-"سڵاو,\n"
-"\n"
-"پارەدانەکەت weblate.org هەڵواسراوە. تکایە دوای دابینکراو بکەوە\n"
-"بۆ تەواوکردنی پارەدانەکە.\n"
-
-#: wlhosted/payments/backends.py:339
-msgid "Payment card"
-msgstr "کارتی پارەدان"
-
-#: wlhosted/payments/backends.py:415
-msgid "Payment cancelled"
-msgstr "پارەدان ڕەتکرایەوە"
-
-#: wlhosted/payments/backends.py:417
-msgid "Payment error"
-msgstr "هەڵەی پارەدان"
-
-#: wlhosted/payments/backends.py:429
-msgid "Bitcoin"
-msgstr "بیتکۆین"
-
-#: wlhosted/payments/backends.py:438
+#: wlhosted/payments/backends.py:156
 msgid "IBAN bank transfer"
 msgstr "گواستنەوەی بانکی IBAN"
 
-#: wlhosted/payments/backends.py:468
-msgid "Issuing bank"
-msgstr "بانکی درووستکەر"
+#: wlhosted/payments/backends.py:164
+msgid "Payment card"
+msgstr "کارتی پارەدان"
 
-#: wlhosted/payments/backends.py:469
-msgid "Account holder"
-msgstr "هەڵگری هەژمار"
-
-#: wlhosted/payments/backends.py:470
-msgid "Account number"
-msgstr "ژمارەی هەژمار"
-
-#: wlhosted/payments/backends.py:471
-msgid "SWIFT code"
-msgstr "سویفت کۆد"
-
-#: wlhosted/payments/backends.py:472
-msgid "IBAN"
-msgstr "ئای بان"
-
-#: wlhosted/payments/backends.py:473
-msgid "Reference"
-msgstr "ژێدەر"
-
-#: wlhosted/payments/models.py:88
+#: wlhosted/payments/models.py:87
 msgid "European VAT ID"
 msgstr "ناسنامەی VAT ی ئەوروپی"
 
-#: wlhosted/payments/models.py:90
+#: wlhosted/payments/models.py:89
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "تکایە ناسنامەی VAT یەکێتی ئەوروپا پڕبکەوە، ئەگەر کارپێکراو نەبوو، بەتاڵ بەجێ "
 "بێڵە."
 
-#: wlhosted/payments/models.py:96
+#: wlhosted/payments/models.py:95
 msgid "Tax registration"
 msgstr "باجی تۆمارکردن"
 
-#: wlhosted/payments/models.py:98
+#: wlhosted/payments/models.py:97
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
 "تکایە تۆماری باجەکەت پڕبکەوە ئەگەر پێویستە لەسەر لیستی باجەکە دەربکەوێت."
 
-#: wlhosted/payments/models.py:105
+#: wlhosted/payments/models.py:103
 msgid "Company or individual name"
 msgstr "کۆمپانیا یان ناوی تاک"
 
@@ -338,81 +228,188 @@ msgstr "کۆمپانیا یان ناوی تاک"
 msgid "Address"
 msgstr "ناونیشان"
 
-#: wlhosted/payments/models.py:111
+#: wlhosted/payments/models.py:113
+#, fuzzy
+#| msgid "Billing information"
+msgid "Additional address information"
+msgstr "زانیاری پڕۆژەی یاسا"
+
+#: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "پۆستی کۆد و شار"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:124
+#, fuzzy
+#| msgid "Postcode and city"
+msgid "Postcode"
+msgstr "پۆستی کۆد و شار"
+
+#: wlhosted/payments/models.py:128
 msgid "Country"
 msgstr "وڵات"
 
-#: wlhosted/payments/models.py:144
+#: wlhosted/payments/models.py:165
 msgid "The country has to match your VAT code"
 msgstr "دەبێت وڵاتەکەت لەگەڵ کۆدی VAT بگونجێت"
 
-#: wlhosted/payments/models.py:167
+#: wlhosted/payments/models.py:188
 msgid "Annual"
 msgstr "ساڵانە"
 
-#: wlhosted/payments/models.py:168
+#: wlhosted/payments/models.py:189
 msgid "Biannual"
 msgstr "شەش مانگی"
 
-#: wlhosted/payments/models.py:169
+#: wlhosted/payments/models.py:190
 msgid "Quarterly"
 msgstr "سێ مانگی"
 
-#: wlhosted/payments/models.py:170
+#: wlhosted/payments/models.py:191
 msgid "Monthly"
 msgstr "مانگانە"
 
-#: wlhosted/payments/models.py:171
+#: wlhosted/payments/models.py:192
 #, fuzzy
 #| msgid "Onetime"
 msgid "One-time"
 msgstr "یەکجار"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:226
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "پارەدانی نوێ"
 
-#: wlhosted/payments/models.py:206
+#: wlhosted/payments/models.py:227
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "چاوەڕوانی پارە"
 
-#: wlhosted/payments/models.py:207
+#: wlhosted/payments/models.py:228
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "پارەدانکردن ڕەتکرایەوە"
 
-#: wlhosted/payments/models.py:208
+#: wlhosted/payments/models.py:229
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "پارەدانکردن پەسەند کرا"
 
-#: wlhosted/payments/models.py:209
+#: wlhosted/payments/models.py:230
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "پارەدانکردن ئەنجام درا"
 
-#: wlhosted/payments/validators.py:38
+#: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
 msgstr "{} بۆ هیچ ئەندامێکی یەکێتی ئەوروپا کۆدێکی وڵاتی دروست نییە."
 
-#: wlhosted/payments/validators.py:43
+#: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
 msgstr "{} لەگەڵ تایبەتمەندی ناسنامەی VAT ی وڵات یەک ناگرێتەوە."
 
-#: wlhosted/payments/validators.py:50
+#: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
 "خزمەتگوزاری سەلماندنی VAT ی ئەوروپی بەردەست نیە بۆ {}, تکایە دواتر هەوڵدەوە."
 
-#: wlhosted/payments/validators.py:53
+#: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "{} ناسنامەیەکی بڕوادار بە VAT نییە."
+
+#~ msgid "Your payment on weblate.org"
+#~ msgstr "پارەدانەکەت لە weblate.org"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Thank you for your payment on weblate.org.\n"
+#~ "\n"
+#~ "You will find an invoice for this payment attached.\n"
+#~ "Alternatively, you can download it from the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "سڵاو‌‌‌\n"
+#~ "\n"
+#~ "سوپاس بۆ پێدانی پارەت weblate.org.\n"
+#~ "\n"
+#~ "لیستی لیستی پارەدان دەدۆزیتەوە بۆ هاوپێچکردنی ئەم پارەدانە.\n"
+#~ "بە شێوەیەکی جێگرەوە,دەتوانیت دایبگریت لە وێب سایتەوە:\n"
+#~ "\n"
+#~ "%s\n"
+
+#~ msgid "Your payment on weblate.org failed"
+#~ msgstr "پارەدانەکەت لە weblate.org سەرکەوتوو نەبوو"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org has failed.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Retry issuing the payment on the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "If concerning a recurring payment, it is retried three times,\n"
+#~ "and if still failing, cancelled.\n"
+#~ msgstr ""
+#~ "سڵاو,\n"
+#~ "\n"
+#~ "پارەدانەکەت بۆ weblate.org سەرکەوتوو نەبوو.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "دووبارە هەوڵی دەرکردنی پارەدانەکە بدە لەسەر وێب سایتەکە:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "ئەگەر دەربارەی دووبارەکردنەوەی پارەدان، سێ جار هەوڵ درا,\n"
+#~ "ئەگەر هەر شکست بخۆیت، هەڵوەشاتەوە.\n"
+
+#~ msgid "Your pending payment on weblate.org"
+#~ msgstr "پارەدانەکەت لە weblate.org"
+
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org is pending. Please follow the provided\n"
+#~ "instructions to complete the payment.\n"
+#~ msgstr ""
+#~ "سڵاو,\n"
+#~ "\n"
+#~ "پارەدانەکەت weblate.org هەڵواسراوە. تکایە دوای دابینکراو بکەوە\n"
+#~ "بۆ تەواوکردنی پارەدانەکە.\n"
+
+#~ msgid "Payment cancelled"
+#~ msgstr "پارەدان ڕەتکرایەوە"
+
+#~ msgid "Payment error"
+#~ msgstr "هەڵەی پارەدان"
+
+#~ msgid "Bitcoin"
+#~ msgstr "بیتکۆین"
+
+#~ msgid "Issuing bank"
+#~ msgstr "بانکی درووستکەر"
+
+#~ msgid "Account holder"
+#~ msgstr "هەڵگری هەژمار"
+
+#~ msgid "Account number"
+#~ msgstr "ژمارەی هەژمار"
+
+#~ msgid "SWIFT code"
+#~ msgstr "سویفت کۆد"
+
+#~ msgid "IBAN"
+#~ msgstr "ئای بان"
+
+#~ msgid "Reference"
+#~ msgstr "ژێدەر"
 
 #~ msgid "Component limit"
 #~ msgstr "سنووری پێکهاتە"
@@ -473,9 +470,6 @@ msgstr "{} ناسنامەیەکی بڕوادار بە VAT نییە."
 #~ msgstr ""
 #~ "ئەمانە لە حاڵەتی گۆڕانکاری گرنگ بۆ ئەژمێرەکەت (بۆ وێنە گۆڕینی وشەی نهێنی) "
 #~ "داخڵ بوون بۆ ڕێگەدان بە دەستنیشانکردنی ئەگەر ئەژمێرەکەت دزرا"
-
-#~ msgid "Billing information"
-#~ msgstr "زانیاری پڕۆژەی یاسا"
 
 #~ msgid ""
 #~ "In case you purchase service from us, we collect additional billing "

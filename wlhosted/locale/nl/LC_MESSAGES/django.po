@@ -12,11 +12,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2024-05-06 10:30+0000\n"
+"POT-Creation-Date: 2025-02-21 09:56+0000\n"
 "PO-Revision-Date: 2025-01-28 12:49+0000\n"
 "Last-Translator: Dick Groskamp <dikgro@yahoo.co.uk>\n"
-"Language-Team: Dutch <https://hosted.weblate.org/projects/weblate/hosted/nl/>"
-"\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/weblate/hosted/nl/"
+">\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,15 +36,15 @@ msgstr "Opslagplaats opnieuw instellen naar upstream"
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "Verwerp elke avond alle wijzigingen in de opslagruimte van Weblate."
 
-#: wlhosted/integrations/forms.py:32
+#: wlhosted/integrations/forms.py:37
 msgid "Billing"
 msgstr "Facturatie"
 
-#: wlhosted/integrations/forms.py:33
+#: wlhosted/integrations/forms.py:38
 msgid "Choose the billing plan you want to update"
 msgstr "Kies het bij te werken factureringsplan"
 
-#: wlhosted/integrations/forms.py:34
+#: wlhosted/integrations/forms.py:39
 msgid "Create new billing plan"
 msgstr "Nieuw factureringsplan maken"
 
@@ -193,144 +193,33 @@ msgstr "Onbekende reden"
 msgid "Payments are temporarily inactive."
 msgstr "Betalingen zijn tijdelijk niet actief."
 
-#: wlhosted/payments/backends.py:192
-msgid "Your payment on weblate.org"
-msgstr "Uw betaling op weblate.org"
-
-#: wlhosted/payments/backends.py:194
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Thank you for your payment on weblate.org.\n"
-"\n"
-"You will find an invoice for this payment attached.\n"
-"Alternatively, you can download it from the website:\n"
-"\n"
-"%s\n"
-msgstr ""
-"Hallo\n"
-"\n"
-"Bedankt voor uw betaling op weblate.org.\n"
-"\n"
-"U vindt een factuur voor deze betaling bijgevoegd.\n"
-"U kunt deze ook downloaden via de website:\n"
-"\n"
-"%s\n"
-
-#: wlhosted/payments/backends.py:220
-msgid "Your payment on weblate.org failed"
-msgstr "Uw betaling op weblate.org is mislukt"
-
-#: wlhosted/payments/backends.py:222
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org has failed.\n"
-"\n"
-"%s\n"
-"\n"
-"Retry issuing the payment on the website:\n"
-"\n"
-"%s\n"
-"\n"
-"If concerning a recurring payment, it is retried three times,\n"
-"and if still failing, cancelled.\n"
-msgstr ""
-"Hallo\n"
-"\n"
-"Uw betaling op weblate.org is mislukt.\n"
-"\n"
-"%s\n"
-"\n"
-"Probeer de betaling opnieuw uit te voeren op de website:\n"
-"\n"
-"%s\n"
-"\n"
-"Indien het een terugkerende betaling betreft, wordt deze driemaal opnieuw "
-"geprobeerd.\n"
-"Als het dan nog steeds niet lukt, wordt deze geannuleerd.\n"
-
-#: wlhosted/payments/backends.py:255
-msgid "Your pending payment on weblate.org"
-msgstr "Uw openstaande betaling op weblate.org"
-
-#: wlhosted/payments/backends.py:257
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org is pending. Please follow the provided\n"
-"instructions to complete the payment.\n"
-msgstr ""
-"Hallo,\n"
-"\n"
-"Uw betaling op weblate.org is in behandeling. Volg de bijgevoegde\n"
-"instructies om de betaling af te ronden.\n"
-
-#: wlhosted/payments/backends.py:339
-msgid "Payment card"
-msgstr "Betaalkaart"
-
-#: wlhosted/payments/backends.py:415
-msgid "Payment cancelled"
-msgstr "Betaling afgebroken"
-
-#: wlhosted/payments/backends.py:417
-msgid "Payment error"
-msgstr "Betaalfout"
-
-#: wlhosted/payments/backends.py:429
-msgid "Bitcoin"
-msgstr "Bitcoin"
-
-#: wlhosted/payments/backends.py:438
+#: wlhosted/payments/backends.py:156
 msgid "IBAN bank transfer"
 msgstr "IBAN-bankoverschrijving"
 
-#: wlhosted/payments/backends.py:468
-msgid "Issuing bank"
-msgstr "Uitgevende bank"
+#: wlhosted/payments/backends.py:164
+msgid "Payment card"
+msgstr "Betaalkaart"
 
-#: wlhosted/payments/backends.py:469
-msgid "Account holder"
-msgstr "Rekeninghouder"
-
-#: wlhosted/payments/backends.py:470
-msgid "Account number"
-msgstr "Rekeningnummer"
-
-#: wlhosted/payments/backends.py:471
-msgid "SWIFT code"
-msgstr "SWIFT-code"
-
-#: wlhosted/payments/backends.py:472
-msgid "IBAN"
-msgstr "IBAN"
-
-#: wlhosted/payments/backends.py:473
-msgid "Reference"
-msgstr "Referentie"
-
-#: wlhosted/payments/models.py:88
+#: wlhosted/payments/models.py:87
 msgid "European VAT ID"
 msgstr "Europees btw-nummer"
 
-#: wlhosted/payments/models.py:90
+#: wlhosted/payments/models.py:89
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr "Voer het Europese btw-nummer in. Laat leeg indien niet van toepassing."
 
-#: wlhosted/payments/models.py:96
+#: wlhosted/payments/models.py:95
 msgid "Tax registration"
 msgstr "Fiscale registratie"
 
-#: wlhosted/payments/models.py:98
+#: wlhosted/payments/models.py:97
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
 "Voer uw fiscale registratie in als deze op de factuur vermeld moet worden."
 
-#: wlhosted/payments/models.py:105
+#: wlhosted/payments/models.py:103
 msgid "Company or individual name"
 msgstr "Bedrijfs- of persoonsnaam"
 
@@ -338,81 +227,189 @@ msgstr "Bedrijfs- of persoonsnaam"
 msgid "Address"
 msgstr "Adres"
 
-#: wlhosted/payments/models.py:111
+#: wlhosted/payments/models.py:113
+#, fuzzy
+#| msgid "Billing information"
+msgid "Additional address information"
+msgstr "Facturatie-informatie"
+
+#: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "Postcode en stad"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:124
+#, fuzzy
+#| msgid "Postcode and city"
+msgid "Postcode"
+msgstr "Postcode en stad"
+
+#: wlhosted/payments/models.py:128
 msgid "Country"
 msgstr "Land"
 
-#: wlhosted/payments/models.py:144
+#: wlhosted/payments/models.py:165
 msgid "The country has to match your VAT code"
 msgstr "Het land moet overeenkomen met uw btw-code"
 
-#: wlhosted/payments/models.py:167
+#: wlhosted/payments/models.py:188
 msgid "Annual"
 msgstr "Jaarlijks"
 
-#: wlhosted/payments/models.py:168
+#: wlhosted/payments/models.py:189
 msgid "Biannual"
 msgstr "Halfjaarlijks"
 
-#: wlhosted/payments/models.py:169
+#: wlhosted/payments/models.py:190
 msgid "Quarterly"
 msgstr "Per kwartaal"
 
-#: wlhosted/payments/models.py:170
+#: wlhosted/payments/models.py:191
 msgid "Monthly"
 msgstr "Maandelijks"
 
-#: wlhosted/payments/models.py:171
+#: wlhosted/payments/models.py:192
 msgid "One-time"
 msgstr "Eenmalig"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:226
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Nieuwe betaling"
 
-#: wlhosted/payments/models.py:206
+#: wlhosted/payments/models.py:227
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Wachtend op betaling"
 
-#: wlhosted/payments/models.py:207
+#: wlhosted/payments/models.py:228
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Betaling geweigerd"
 
-#: wlhosted/payments/models.py:208
+#: wlhosted/payments/models.py:229
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Betaling goedgekeurd"
 
-#: wlhosted/payments/models.py:209
+#: wlhosted/payments/models.py:230
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Betaling verwerkt"
 
-#: wlhosted/payments/validators.py:38
+#: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
 msgstr "{} is geen geldige landcode voor een lid van de Europese Unie."
 
-#: wlhosted/payments/validators.py:43
+#: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
 msgstr ""
 "‘{}’ komt niet overeen met de btw-identificatiespecificaties van het land."
 
-#: wlhosted/payments/validators.py:50
+#: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
 "De btw-nummervalidatiedienst niet beschikbaar voor {}. Probeer het later "
 "opnieuw."
 
-#: wlhosted/payments/validators.py:53
+#: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "{} is geen geldige btw-identificatie."
+
+#~ msgid "Your payment on weblate.org"
+#~ msgstr "Uw betaling op weblate.org"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Thank you for your payment on weblate.org.\n"
+#~ "\n"
+#~ "You will find an invoice for this payment attached.\n"
+#~ "Alternatively, you can download it from the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "Hallo\n"
+#~ "\n"
+#~ "Bedankt voor uw betaling op weblate.org.\n"
+#~ "\n"
+#~ "U vindt een factuur voor deze betaling bijgevoegd.\n"
+#~ "U kunt deze ook downloaden via de website:\n"
+#~ "\n"
+#~ "%s\n"
+
+#~ msgid "Your payment on weblate.org failed"
+#~ msgstr "Uw betaling op weblate.org is mislukt"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org has failed.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Retry issuing the payment on the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "If concerning a recurring payment, it is retried three times,\n"
+#~ "and if still failing, cancelled.\n"
+#~ msgstr ""
+#~ "Hallo\n"
+#~ "\n"
+#~ "Uw betaling op weblate.org is mislukt.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Probeer de betaling opnieuw uit te voeren op de website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Indien het een terugkerende betaling betreft, wordt deze driemaal opnieuw "
+#~ "geprobeerd.\n"
+#~ "Als het dan nog steeds niet lukt, wordt deze geannuleerd.\n"
+
+#~ msgid "Your pending payment on weblate.org"
+#~ msgstr "Uw openstaande betaling op weblate.org"
+
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org is pending. Please follow the provided\n"
+#~ "instructions to complete the payment.\n"
+#~ msgstr ""
+#~ "Hallo,\n"
+#~ "\n"
+#~ "Uw betaling op weblate.org is in behandeling. Volg de bijgevoegde\n"
+#~ "instructies om de betaling af te ronden.\n"
+
+#~ msgid "Payment cancelled"
+#~ msgstr "Betaling afgebroken"
+
+#~ msgid "Payment error"
+#~ msgstr "Betaalfout"
+
+#~ msgid "Bitcoin"
+#~ msgstr "Bitcoin"
+
+#~ msgid "Issuing bank"
+#~ msgstr "Uitgevende bank"
+
+#~ msgid "Account holder"
+#~ msgstr "Rekeninghouder"
+
+#~ msgid "Account number"
+#~ msgstr "Rekeningnummer"
+
+#~ msgid "SWIFT code"
+#~ msgstr "SWIFT-code"
+
+#~ msgid "IBAN"
+#~ msgstr "IBAN"
+
+#~ msgid "Reference"
+#~ msgstr "Referentie"
 
 #~ msgid "Component limit"
 #~ msgstr "Onderdelenlimiet"
@@ -473,9 +470,6 @@ msgstr "{} is geen geldige btw-identificatie."
 #~ "Deze worden bijgehouden in geval van belangrijke wijzigingen aan uw "
 #~ "account (bijvoorbeeld wachtwoordwijziging), voor een diagnose in geval "
 #~ "van een gestolen account"
-
-#~ msgid "Billing information"
-#~ msgstr "Facturatie-informatie"
 
 #~ msgid ""
 #~ "In case you purchase service from us, we collect additional billing "

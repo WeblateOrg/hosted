@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2024-05-06 10:30+0000\n"
+"POT-Creation-Date: 2025-02-21 09:56+0000\n"
 "PO-Revision-Date: 2025-02-16 15:12+0000\n"
 "Last-Translator: Vlăduț Ilie <vladilie94@gmail.com>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -35,15 +35,15 @@ msgstr "Resetează depozitarul la sursa principală"
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "Elimină toate modificările din depozitarul Weblate în fiecare noapte."
 
-#: wlhosted/integrations/forms.py:32
+#: wlhosted/integrations/forms.py:37
 msgid "Billing"
 msgstr "Facturare"
 
-#: wlhosted/integrations/forms.py:33
+#: wlhosted/integrations/forms.py:38
 msgid "Choose the billing plan you want to update"
 msgstr "Alege planul de facturare pe care vrei să îl actualizezi"
 
-#: wlhosted/integrations/forms.py:34
+#: wlhosted/integrations/forms.py:39
 msgid "Create new billing plan"
 msgstr "Creează un nou plan de facturare"
 
@@ -192,148 +192,36 @@ msgstr "Motiv necunoscut"
 msgid "Payments are temporarily inactive."
 msgstr "Plățile sunt temporar inactive."
 
-#: wlhosted/payments/backends.py:192
-msgid "Your payment on weblate.org"
-msgstr "Plata ta pe weblate.org"
-
-#: wlhosted/payments/backends.py:194
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Thank you for your payment on weblate.org.\n"
-"\n"
-"You will find an invoice for this payment attached.\n"
-"Alternatively, you can download it from the website:\n"
-"\n"
-"%s\n"
-msgstr ""
-"Salut,\n"
-"\n"
-"Îți mulțumim pentru plata ta pe weblate.org.\n"
-"\n"
-"Vei găsi atașată o factură pentru această plată.\n"
-"Alternativ, o poți descărca de pe site:\n"
-"\n"
-"%s\n"
-
-#: wlhosted/payments/backends.py:220
-msgid "Your payment on weblate.org failed"
-msgstr "Plata ta pe weblate.org a eșuat"
-
-#: wlhosted/payments/backends.py:222
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org has failed.\n"
-"\n"
-"%s\n"
-"\n"
-"Retry issuing the payment on the website:\n"
-"\n"
-"%s\n"
-"\n"
-"If concerning a recurring payment, it is retried three times,\n"
-"and if still failing, cancelled.\n"
-msgstr ""
-"Salut,\n"
-"\n"
-"Plata ta pe weblate.org a eșuat.\n"
-"\n"
-"%s\n"
-"\n"
-"Reîncearcă să emiți plata pe site-ul web:\n"
-"\n"
-"%s\n"
-"\n"
-"Dacă este vorba despre o plată recurentă, aceasta este reîncercată de trei "
-"ori,\n"
-"și, dacă tot nu reușește, se anulează.\n"
-
-#: wlhosted/payments/backends.py:255
-msgid "Your pending payment on weblate.org"
-msgstr "Plata ta în așteptare pe weblate.org"
-
-#: wlhosted/payments/backends.py:257
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org is pending. Please follow the provided\n"
-"instructions to complete the payment.\n"
-msgstr ""
-"Salut,\n"
-"\n"
-"Plata ta pe weblate.org este în așteptare. Te rugăm să urmezi "
-"instrucțiunile\n"
-"furnizate pentru a finaliza plata.\n"
-
-#: wlhosted/payments/backends.py:339
-msgid "Payment card"
-msgstr "Card de plată"
-
-#: wlhosted/payments/backends.py:415
-msgid "Payment cancelled"
-msgstr "Plată anulată"
-
-#: wlhosted/payments/backends.py:417
-msgid "Payment error"
-msgstr "Eroare plată"
-
-#: wlhosted/payments/backends.py:429
-msgid "Bitcoin"
-msgstr "Bitcoin"
-
-#: wlhosted/payments/backends.py:438
+#: wlhosted/payments/backends.py:156
 msgid "IBAN bank transfer"
 msgstr "Transfer bancar IBAN"
 
-#: wlhosted/payments/backends.py:468
-msgid "Issuing bank"
-msgstr "Bancă emitentă"
+#: wlhosted/payments/backends.py:164
+msgid "Payment card"
+msgstr "Card de plată"
 
-#: wlhosted/payments/backends.py:469
-msgid "Account holder"
-msgstr "Titular cont"
-
-#: wlhosted/payments/backends.py:470
-msgid "Account number"
-msgstr "Număr cont"
-
-#: wlhosted/payments/backends.py:471
-msgid "SWIFT code"
-msgstr "Cod SWIFT"
-
-#: wlhosted/payments/backends.py:472
-msgid "IBAN"
-msgstr "IBAN"
-
-#: wlhosted/payments/backends.py:473
-msgid "Reference"
-msgstr "Referință"
-
-#: wlhosted/payments/models.py:88
+#: wlhosted/payments/models.py:87
 msgid "European VAT ID"
 msgstr "Număr european de TVA"
 
-#: wlhosted/payments/models.py:90
+#: wlhosted/payments/models.py:89
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "Te rugăm să completezi codul de TVA al Uniunii Europene, lasă gol dacă nu "
 "este cazul."
 
-#: wlhosted/payments/models.py:96
+#: wlhosted/payments/models.py:95
 msgid "Tax registration"
 msgstr "Înregistrare fiscală"
 
-#: wlhosted/payments/models.py:98
+#: wlhosted/payments/models.py:97
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
 "Te rugăm să completezi numărul de înregistrare fiscală dacă acesta trebuie "
 "să apară pe factură."
 
-#: wlhosted/payments/models.py:105
+#: wlhosted/payments/models.py:103
 msgid "Company or individual name"
 msgstr "Nume firmă sau persoană fizică"
 
@@ -341,81 +229,188 @@ msgstr "Nume firmă sau persoană fizică"
 msgid "Address"
 msgstr "Adresă"
 
-#: wlhosted/payments/models.py:111
+#: wlhosted/payments/models.py:113
+msgid "Additional address information"
+msgstr ""
+
+#: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "Cod poștal și oraș"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:124
+#, fuzzy
+#| msgid "Postcode and city"
+msgid "Postcode"
+msgstr "Cod poștal și oraș"
+
+#: wlhosted/payments/models.py:128
 msgid "Country"
 msgstr "Țară"
 
-#: wlhosted/payments/models.py:144
+#: wlhosted/payments/models.py:165
 msgid "The country has to match your VAT code"
 msgstr "Țara trebuie să se potrivească cu codul tău de TVA"
 
-#: wlhosted/payments/models.py:167
+#: wlhosted/payments/models.py:188
 msgid "Annual"
 msgstr "Anual"
 
-#: wlhosted/payments/models.py:168
+#: wlhosted/payments/models.py:189
 msgid "Biannual"
 msgstr "Semestrial"
 
-#: wlhosted/payments/models.py:169
+#: wlhosted/payments/models.py:190
 msgid "Quarterly"
 msgstr "Trimestrial"
 
-#: wlhosted/payments/models.py:170
+#: wlhosted/payments/models.py:191
 msgid "Monthly"
 msgstr "Lunar"
 
-#: wlhosted/payments/models.py:171
+#: wlhosted/payments/models.py:192
 msgid "One-time"
 msgstr "O dată"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:226
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Plată nouă"
 
-#: wlhosted/payments/models.py:206
+#: wlhosted/payments/models.py:227
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "În așteptarea plății"
 
-#: wlhosted/payments/models.py:207
+#: wlhosted/payments/models.py:228
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Plată respinsă"
 
-#: wlhosted/payments/models.py:208
+#: wlhosted/payments/models.py:229
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Plată acceptată"
 
-#: wlhosted/payments/models.py:209
+#: wlhosted/payments/models.py:230
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Plată procesată"
 
-#: wlhosted/payments/validators.py:38
+#: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
 msgstr ""
 "{} nu este un cod de țară valabil pentru niciun membru al Uniunii Europene."
 
-#: wlhosted/payments/validators.py:43
+#: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
 msgstr "{} nu corespunde specificațiilor privind codul de TVA al țării."
 
-#: wlhosted/payments/validators.py:50
+#: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
 "Serviciul de validare a codului de TVA nu este disponibil pentru {}, te "
 "rugăm să încerci din nou mai târziu."
 
-#: wlhosted/payments/validators.py:53
+#: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "{} nu este un cod de TVA valabil."
+
+#~ msgid "Your payment on weblate.org"
+#~ msgstr "Plata ta pe weblate.org"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Thank you for your payment on weblate.org.\n"
+#~ "\n"
+#~ "You will find an invoice for this payment attached.\n"
+#~ "Alternatively, you can download it from the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "Salut,\n"
+#~ "\n"
+#~ "Îți mulțumim pentru plata ta pe weblate.org.\n"
+#~ "\n"
+#~ "Vei găsi atașată o factură pentru această plată.\n"
+#~ "Alternativ, o poți descărca de pe site:\n"
+#~ "\n"
+#~ "%s\n"
+
+#~ msgid "Your payment on weblate.org failed"
+#~ msgstr "Plata ta pe weblate.org a eșuat"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org has failed.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Retry issuing the payment on the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "If concerning a recurring payment, it is retried three times,\n"
+#~ "and if still failing, cancelled.\n"
+#~ msgstr ""
+#~ "Salut,\n"
+#~ "\n"
+#~ "Plata ta pe weblate.org a eșuat.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Reîncearcă să emiți plata pe site-ul web:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Dacă este vorba despre o plată recurentă, aceasta este reîncercată de "
+#~ "trei ori,\n"
+#~ "și, dacă tot nu reușește, se anulează.\n"
+
+#~ msgid "Your pending payment on weblate.org"
+#~ msgstr "Plata ta în așteptare pe weblate.org"
+
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org is pending. Please follow the provided\n"
+#~ "instructions to complete the payment.\n"
+#~ msgstr ""
+#~ "Salut,\n"
+#~ "\n"
+#~ "Plata ta pe weblate.org este în așteptare. Te rugăm să urmezi "
+#~ "instrucțiunile\n"
+#~ "furnizate pentru a finaliza plata.\n"
+
+#~ msgid "Payment cancelled"
+#~ msgstr "Plată anulată"
+
+#~ msgid "Payment error"
+#~ msgstr "Eroare plată"
+
+#~ msgid "Bitcoin"
+#~ msgstr "Bitcoin"
+
+#~ msgid "Issuing bank"
+#~ msgstr "Bancă emitentă"
+
+#~ msgid "Account holder"
+#~ msgstr "Titular cont"
+
+#~ msgid "Account number"
+#~ msgstr "Număr cont"
+
+#~ msgid "SWIFT code"
+#~ msgstr "Cod SWIFT"
+
+#~ msgid "IBAN"
+#~ msgstr "IBAN"
+
+#~ msgid "Reference"
+#~ msgstr "Referință"
 
 #~ msgid "Component limit"
 #~ msgstr "Limită de componente"

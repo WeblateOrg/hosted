@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2024-05-06 10:30+0000\n"
+"POT-Creation-Date: 2025-02-21 09:56+0000\n"
 "PO-Revision-Date: 2024-05-07 05:07+0000\n"
 "Last-Translator: Linerly <linerly@proton.me>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/weblate/"
@@ -38,15 +38,15 @@ msgstr "Reset repositori ke upstream"
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "Buang semua perubahan dalam repositori Weblate setiap malam."
 
-#: wlhosted/integrations/forms.py:32
+#: wlhosted/integrations/forms.py:37
 msgid "Billing"
 msgstr "Penagihan"
 
-#: wlhosted/integrations/forms.py:33
+#: wlhosted/integrations/forms.py:38
 msgid "Choose the billing plan you want to update"
 msgstr "Pilih paket penagihan yang ingin Anda perbarui"
 
-#: wlhosted/integrations/forms.py:34
+#: wlhosted/integrations/forms.py:39
 msgid "Create new billing plan"
 msgstr "Buat paket penagihan baru"
 
@@ -194,143 +194,33 @@ msgstr "Alasan tidak diketahui"
 msgid "Payments are temporarily inactive."
 msgstr "Pembayaran untuk sementara tidak aktif."
 
-#: wlhosted/payments/backends.py:192
-msgid "Your payment on weblate.org"
-msgstr "Pembayaran Anda pada weblate.org"
-
-#: wlhosted/payments/backends.py:194
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Thank you for your payment on weblate.org.\n"
-"\n"
-"You will find an invoice for this payment attached.\n"
-"Alternatively, you can download it from the website:\n"
-"\n"
-"%s\n"
-msgstr ""
-"Halo,\n"
-"\n"
-"Terima kasih atas pembayaran Anda di weblate.org\n"
-"\n"
-"Anda dapat menemukan faktur untuk pembayaran ini di dalam lampiran.\n"
-"Atau, Anda dapat mengunduhnya dari situs web:\n"
-"\n"
-"%s\n"
-
-#: wlhosted/payments/backends.py:220
-msgid "Your payment on weblate.org failed"
-msgstr "Pembayaran Anda di weblate.org gagal"
-
-#: wlhosted/payments/backends.py:222
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org has failed.\n"
-"\n"
-"%s\n"
-"\n"
-"Retry issuing the payment on the website:\n"
-"\n"
-"%s\n"
-"\n"
-"If concerning a recurring payment, it is retried three times,\n"
-"and if still failing, cancelled.\n"
-msgstr ""
-"Halo,\n"
-"\n"
-"Pembayaran Anda di weblate.org telah gagal.\n"
-"\n"
-"%s\n"
-"\n"
-"Coba lakukan pembayaran kembali di situs web:\n"
-"\n"
-"%s\n"
-"\n"
-"Jika itu menyangkut pembayaran rutin, akan dicoba kembali hingga tiga kali\n"
-"dan jika masih tidak berhasil, maka akan dibatalkan.\n"
-
-#: wlhosted/payments/backends.py:255
-msgid "Your pending payment on weblate.org"
-msgstr "Pembayaran tertunda Anda di weblate.org"
-
-#: wlhosted/payments/backends.py:257
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org is pending. Please follow the provided\n"
-"instructions to complete the payment.\n"
-msgstr ""
-"Halo,\n"
-"\n"
-"Pembayaran Anda pada weblate.org masih tertunda. Harap mengikuti\n"
-"petunjuk yang sudah disediakan untuk menyelesaikan pembayaran.\n"
-
-#: wlhosted/payments/backends.py:339
-msgid "Payment card"
-msgstr "Kartu pembayaran"
-
-#: wlhosted/payments/backends.py:415
-msgid "Payment cancelled"
-msgstr "Pembayaran dibatalkan"
-
-#: wlhosted/payments/backends.py:417
-msgid "Payment error"
-msgstr "Kesalahan dalam pembayaran"
-
-#: wlhosted/payments/backends.py:429
-msgid "Bitcoin"
-msgstr "Bitcoin"
-
-#: wlhosted/payments/backends.py:438
+#: wlhosted/payments/backends.py:156
 msgid "IBAN bank transfer"
 msgstr "Transfer bank melalui IBAN"
 
-#: wlhosted/payments/backends.py:468
-msgid "Issuing bank"
-msgstr "Bank yang menerbitkan"
+#: wlhosted/payments/backends.py:164
+msgid "Payment card"
+msgstr "Kartu pembayaran"
 
-#: wlhosted/payments/backends.py:469
-msgid "Account holder"
-msgstr "Nama pemegang rekening"
-
-#: wlhosted/payments/backends.py:470
-msgid "Account number"
-msgstr "Nomor rekening"
-
-#: wlhosted/payments/backends.py:471
-msgid "SWIFT code"
-msgstr "Kode SWIFT"
-
-#: wlhosted/payments/backends.py:472
-msgid "IBAN"
-msgstr "IBAN"
-
-#: wlhosted/payments/backends.py:473
-msgid "Reference"
-msgstr "Referensi"
-
-#: wlhosted/payments/models.py:88
+#: wlhosted/payments/models.py:87
 msgid "European VAT ID"
 msgstr "ID PPN Eropa"
 
-#: wlhosted/payments/models.py:90
+#: wlhosted/payments/models.py:89
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr "Silakan mengisi ID PPN Uni Eropa, kosongkan bila tidak berlaku."
 
-#: wlhosted/payments/models.py:96
+#: wlhosted/payments/models.py:95
 msgid "Tax registration"
 msgstr "Registrasi pajak"
 
-#: wlhosted/payments/models.py:98
+#: wlhosted/payments/models.py:97
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
 "Silakan mengisi registrasi pajak Anda apabila ingin ditampilkan pada faktur."
 
-#: wlhosted/payments/models.py:105
+#: wlhosted/payments/models.py:103
 msgid "Company or individual name"
 msgstr "Nama perusahaan atau individu"
 
@@ -338,80 +228,188 @@ msgstr "Nama perusahaan atau individu"
 msgid "Address"
 msgstr "Alamat"
 
-#: wlhosted/payments/models.py:111
+#: wlhosted/payments/models.py:113
+#, fuzzy
+#| msgid "Billing information"
+msgid "Additional address information"
+msgstr "Informasi penagihan"
+
+#: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "Kode pos dan kota"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:124
+#, fuzzy
+#| msgid "Postcode and city"
+msgid "Postcode"
+msgstr "Kode pos dan kota"
+
+#: wlhosted/payments/models.py:128
 msgid "Country"
 msgstr "Negara"
 
-#: wlhosted/payments/models.py:144
+#: wlhosted/payments/models.py:165
 msgid "The country has to match your VAT code"
 msgstr "Negara harus sesuai dengan kode PPN Anda"
 
-#: wlhosted/payments/models.py:167
+#: wlhosted/payments/models.py:188
 msgid "Annual"
 msgstr "Tahunan"
 
-#: wlhosted/payments/models.py:168
+#: wlhosted/payments/models.py:189
 msgid "Biannual"
 msgstr "Dua kali setahun"
 
-#: wlhosted/payments/models.py:169
+#: wlhosted/payments/models.py:190
 msgid "Quarterly"
 msgstr "Triwulanan"
 
-#: wlhosted/payments/models.py:170
+#: wlhosted/payments/models.py:191
 msgid "Monthly"
 msgstr "Bulanan"
 
-#: wlhosted/payments/models.py:171
+#: wlhosted/payments/models.py:192
 msgid "One-time"
 msgstr "Satu kali"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:226
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Pembayaran baru"
 
-#: wlhosted/payments/models.py:206
+#: wlhosted/payments/models.py:227
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Menunggu Pembayaran"
 
-#: wlhosted/payments/models.py:207
+#: wlhosted/payments/models.py:228
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Pembayaran dibatalkan"
 
-#: wlhosted/payments/models.py:208
+#: wlhosted/payments/models.py:229
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Pembayaran diterima"
 
-#: wlhosted/payments/models.py:209
+#: wlhosted/payments/models.py:230
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Pembayaran diproses"
 
-#: wlhosted/payments/validators.py:38
+#: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
 msgstr "{} bukan kode negara yang sah untuk negara anggota Uni Eropa."
 
-#: wlhosted/payments/validators.py:43
+#: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
 msgstr "{} tidak sesuai dengan spesifikasi ID PPN negara yang bersangkutan."
 
-#: wlhosted/payments/validators.py:50
+#: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
 "Layanan validasi ID PPN tidak tersedia untuk {}, silakan coba beberapa saat "
 "lagi."
 
-#: wlhosted/payments/validators.py:53
+#: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "{} bukan ID PPN yang valid."
+
+#~ msgid "Your payment on weblate.org"
+#~ msgstr "Pembayaran Anda pada weblate.org"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Thank you for your payment on weblate.org.\n"
+#~ "\n"
+#~ "You will find an invoice for this payment attached.\n"
+#~ "Alternatively, you can download it from the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "Halo,\n"
+#~ "\n"
+#~ "Terima kasih atas pembayaran Anda di weblate.org\n"
+#~ "\n"
+#~ "Anda dapat menemukan faktur untuk pembayaran ini di dalam lampiran.\n"
+#~ "Atau, Anda dapat mengunduhnya dari situs web:\n"
+#~ "\n"
+#~ "%s\n"
+
+#~ msgid "Your payment on weblate.org failed"
+#~ msgstr "Pembayaran Anda di weblate.org gagal"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org has failed.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Retry issuing the payment on the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "If concerning a recurring payment, it is retried three times,\n"
+#~ "and if still failing, cancelled.\n"
+#~ msgstr ""
+#~ "Halo,\n"
+#~ "\n"
+#~ "Pembayaran Anda di weblate.org telah gagal.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Coba lakukan pembayaran kembali di situs web:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Jika itu menyangkut pembayaran rutin, akan dicoba kembali hingga tiga "
+#~ "kali\n"
+#~ "dan jika masih tidak berhasil, maka akan dibatalkan.\n"
+
+#~ msgid "Your pending payment on weblate.org"
+#~ msgstr "Pembayaran tertunda Anda di weblate.org"
+
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org is pending. Please follow the provided\n"
+#~ "instructions to complete the payment.\n"
+#~ msgstr ""
+#~ "Halo,\n"
+#~ "\n"
+#~ "Pembayaran Anda pada weblate.org masih tertunda. Harap mengikuti\n"
+#~ "petunjuk yang sudah disediakan untuk menyelesaikan pembayaran.\n"
+
+#~ msgid "Payment cancelled"
+#~ msgstr "Pembayaran dibatalkan"
+
+#~ msgid "Payment error"
+#~ msgstr "Kesalahan dalam pembayaran"
+
+#~ msgid "Bitcoin"
+#~ msgstr "Bitcoin"
+
+#~ msgid "Issuing bank"
+#~ msgstr "Bank yang menerbitkan"
+
+#~ msgid "Account holder"
+#~ msgstr "Nama pemegang rekening"
+
+#~ msgid "Account number"
+#~ msgstr "Nomor rekening"
+
+#~ msgid "SWIFT code"
+#~ msgstr "Kode SWIFT"
+
+#~ msgid "IBAN"
+#~ msgstr "IBAN"
+
+#~ msgid "Reference"
+#~ msgstr "Referensi"
 
 #~ msgid "Component limit"
 #~ msgstr "Batasan komponen"
@@ -471,9 +469,6 @@ msgstr "{} bukan ID PPN yang valid."
 #~ msgstr ""
 #~ "Ini dicatat jika ada perubahan penting pada akun Anda (seperti Perubahan "
 #~ "kata sandi) untuk memungkinkan pemeriksaan seandainya akun Anda dicuri"
-
-#~ msgid "Billing information"
-#~ msgstr "Informasi penagihan"
 
 #~ msgid ""
 #~ "In case you purchase service from us, we collect additional billing "

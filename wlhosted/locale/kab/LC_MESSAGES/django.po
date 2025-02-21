@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2024-05-06 10:30+0000\n"
+"POT-Creation-Date: 2025-02-21 09:56+0000\n"
 "PO-Revision-Date: 2024-07-09 10:22+0000\n"
 "Last-Translator: Selyan Sliman Amiri <selyan.kab@gmail.com>\n"
 "Language-Team: Kabyle <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -30,15 +30,15 @@ msgstr "Ales awennez n ukufi s ufella"
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "Sefsex ibeddilen meṛṛa deg ukufi Weblate yal iḍ."
 
-#: wlhosted/integrations/forms.py:32
+#: wlhosted/integrations/forms.py:37
 msgid "Billing"
 msgstr "After"
 
-#: wlhosted/integrations/forms.py:33
+#: wlhosted/integrations/forms.py:38
 msgid "Choose the billing plan you want to update"
 msgstr "Fren leblan n tfaṭurt i tesriḍ ad tleqmeḍ"
 
-#: wlhosted/integrations/forms.py:34
+#: wlhosted/integrations/forms.py:39
 msgid "Create new billing plan"
 msgstr "Snulfu-d leblan n tfaṭurt amaynut"
 
@@ -186,144 +186,34 @@ msgstr "Sebba tarussint"
 msgid "Payments are temporarily inactive."
 msgstr "Lexlaṣ yensa akka tura."
 
-#: wlhosted/payments/backends.py:192
-msgid "Your payment on weblate.org"
-msgstr "Lexlaṣ-ik deg weblate.org"
-
-#: wlhosted/payments/backends.py:194
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Thank you for your payment on weblate.org.\n"
-"\n"
-"You will find an invoice for this payment attached.\n"
-"Alternatively, you can download it from the website:\n"
-"\n"
-"%s\n"
-msgstr ""
-"Azul,\n"
-"\n"
-"Tanemmirt-ik ɣef lexlaṣ deg weblate.org.\n"
-"\n"
-"Ad tafeḍ tafakturt- n lexlaṣ-a teddad-d dagi.\n"
-"Neɣ ma ulac, tzemreḍ ad tt-id-tessadreḍ seg usmel web:\n"
-"\n"
-"%s\n"
-
-#: wlhosted/payments/backends.py:220
-msgid "Your payment on weblate.org failed"
-msgstr "Lexlaṣ-ik deg weblate.org yecceḍ"
-
-#: wlhosted/payments/backends.py:222
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org has failed.\n"
-"\n"
-"%s\n"
-"\n"
-"Retry issuing the payment on the website:\n"
-"\n"
-"%s\n"
-"\n"
-"If concerning a recurring payment, it is retried three times,\n"
-"and if still failing, cancelled.\n"
-msgstr ""
-"Azul,\n"
-"\n"
-"Lexlaṣ-ik deg weblate.org has yecceḍ.\n"
-"\n"
-"%s\n"
-"\n"
-"Ɛreḍ tuzna n lexlaṣ deg usmel web:\n"
-"\n"
-"%s\n"
-"\n"
-"Ma d lexlaṣ i d-yettuɣalen, ad yefsex deffir n tlata n uɛraḍ,\n"
-"daɣen ma yezga yecceḍ, ad yefsex.\n"
-
-#: wlhosted/payments/backends.py:255
-msgid "Your pending payment on weblate.org"
-msgstr "Lexlaṣ-ik yettraǧu deg weblate.org"
-
-#: wlhosted/payments/backends.py:257
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org is pending. Please follow the provided\n"
-"instructions to complete the payment.\n"
-msgstr ""
-"Azul,\n"
-"\n"
-"Lexlaṣ-ik deg weblate.org yettṛaǧu. \n"
-"Ma ulac aɣilif ḍfeṛ iwellihen i d-yettunefkes akken ad tkemmleḍ lexlaṣ.\n"
-
-#: wlhosted/payments/backends.py:339
-msgid "Payment card"
-msgstr "Takarḍa n lexlaṣ"
-
-#: wlhosted/payments/backends.py:415
-msgid "Payment cancelled"
-msgstr "Lexlaṣ yefsex"
-
-#: wlhosted/payments/backends.py:417
-msgid "Payment error"
-msgstr "Tuccḍa n lexlaṣ"
-
-#: wlhosted/payments/backends.py:429
-msgid "Bitcoin"
-msgstr "Bitcoin"
-
-#: wlhosted/payments/backends.py:438
+#: wlhosted/payments/backends.py:156
 msgid "IBAN bank transfer"
 msgstr "Asiweḍ n tbankat IBAN"
 
-#: wlhosted/payments/backends.py:468
-msgid "Issuing bank"
-msgstr "Tabankat tamazant"
+#: wlhosted/payments/backends.py:164
+msgid "Payment card"
+msgstr "Takarḍa n lexlaṣ"
 
-#: wlhosted/payments/backends.py:469
-msgid "Account holder"
-msgstr "Bab n umiḍan"
-
-#: wlhosted/payments/backends.py:470
-msgid "Account number"
-msgstr "Uṭṭun n umiḍan"
-
-#: wlhosted/payments/backends.py:471
-msgid "SWIFT code"
-msgstr "Tangalt SWIFT"
-
-#: wlhosted/payments/backends.py:472
-msgid "IBAN"
-msgstr "IBAN"
-
-#: wlhosted/payments/backends.py:473
-msgid "Reference"
-msgstr "Tamsisɣelt"
-
-#: wlhosted/payments/models.py:88
+#: wlhosted/payments/models.py:87
 msgid "European VAT ID"
 msgstr "Asulay VAT n Turuft"
 
-#: wlhosted/payments/models.py:90
+#: wlhosted/payments/models.py:89
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "Ttxil-k mudd-d asulay VAT n turuft, eǧǧ-it d ilem ma yella ur yettwasemras "
 "ara."
 
-#: wlhosted/payments/models.py:96
+#: wlhosted/payments/models.py:95
 msgid "Tax registration"
 msgstr "Uṭṭun n tebzert"
 
-#: wlhosted/payments/models.py:98
+#: wlhosted/payments/models.py:97
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "Ttxil-k mudd-d asekles n tebzert ma yella ilaq ad tban deg tfaturt."
 
-#: wlhosted/payments/models.py:105
+#: wlhosted/payments/models.py:103
 msgid "Company or individual name"
 msgstr "Isem n tkebbanit neɣ isem-ik"
 
@@ -331,78 +221,185 @@ msgstr "Isem n tkebbanit neɣ isem-ik"
 msgid "Address"
 msgstr "Tansa"
 
-#: wlhosted/payments/models.py:111
+#: wlhosted/payments/models.py:113
+#, fuzzy
+#| msgid "Billing information"
+msgid "Additional address information"
+msgstr "Talɣut n ufter"
+
+#: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "Tangalt n tnazant neɣ aɣrem"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:124
+#, fuzzy
+#| msgid "Postcode and city"
+msgid "Postcode"
+msgstr "Tangalt n tnazant neɣ aɣrem"
+
+#: wlhosted/payments/models.py:128
 msgid "Country"
 msgstr "Tamurt"
 
-#: wlhosted/payments/models.py:144
+#: wlhosted/payments/models.py:165
 msgid "The country has to match your VAT code"
 msgstr "Tamurt ur temṣada ara akked tengalt-ik VAT"
 
-#: wlhosted/payments/models.py:167
+#: wlhosted/payments/models.py:188
 msgid "Annual"
 msgstr "S useggas"
 
-#: wlhosted/payments/models.py:168
+#: wlhosted/payments/models.py:189
 msgid "Biannual"
 msgstr "S sin n yiseggasen"
 
-#: wlhosted/payments/models.py:169
+#: wlhosted/payments/models.py:190
 msgid "Quarterly"
 msgstr "Yal tlata n wagguren"
 
-#: wlhosted/payments/models.py:170
+#: wlhosted/payments/models.py:191
 msgid "Monthly"
 msgstr "Yal aggur"
 
-#: wlhosted/payments/models.py:171
+#: wlhosted/payments/models.py:192
 msgid "One-time"
 msgstr "Tikkelt"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:226
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Lexlaṣ amaynut"
 
-#: wlhosted/payments/models.py:206
+#: wlhosted/payments/models.py:227
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Lexlaṣ yettraǧun"
 
-#: wlhosted/payments/models.py:207
+#: wlhosted/payments/models.py:228
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Lexlaṣ ur iɛeddan ara"
 
-#: wlhosted/payments/models.py:208
+#: wlhosted/payments/models.py:229
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Lexlaṣ yettwaqeblen"
 
-#: wlhosted/payments/models.py:209
+#: wlhosted/payments/models.py:230
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Lexlaṣ iɛeddan"
 
-#: wlhosted/payments/validators.py:38
+#: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
 msgstr "{} mačči d tangalt n tmurṭ tameɣtut n yiɛeggalen n tiddukla n turuft."
 
-#: wlhosted/payments/validators.py:43
+#: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
 msgstr "{} ur imṣada ara d yilugan VAT n tmurt."
 
-#: wlhosted/payments/validators.py:50
+#: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr "Ameẓlu n usenqed n usulay n VAT ulac-it i {}, ttxil-k ɛreḍ ticki."
 
-#: wlhosted/payments/validators.py:53
+#: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "{} mačči d asulay n tebzert VAT ameɣtu."
+
+#~ msgid "Your payment on weblate.org"
+#~ msgstr "Lexlaṣ-ik deg weblate.org"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Thank you for your payment on weblate.org.\n"
+#~ "\n"
+#~ "You will find an invoice for this payment attached.\n"
+#~ "Alternatively, you can download it from the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "Azul,\n"
+#~ "\n"
+#~ "Tanemmirt-ik ɣef lexlaṣ deg weblate.org.\n"
+#~ "\n"
+#~ "Ad tafeḍ tafakturt- n lexlaṣ-a teddad-d dagi.\n"
+#~ "Neɣ ma ulac, tzemreḍ ad tt-id-tessadreḍ seg usmel web:\n"
+#~ "\n"
+#~ "%s\n"
+
+#~ msgid "Your payment on weblate.org failed"
+#~ msgstr "Lexlaṣ-ik deg weblate.org yecceḍ"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org has failed.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Retry issuing the payment on the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "If concerning a recurring payment, it is retried three times,\n"
+#~ "and if still failing, cancelled.\n"
+#~ msgstr ""
+#~ "Azul,\n"
+#~ "\n"
+#~ "Lexlaṣ-ik deg weblate.org has yecceḍ.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Ɛreḍ tuzna n lexlaṣ deg usmel web:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Ma d lexlaṣ i d-yettuɣalen, ad yefsex deffir n tlata n uɛraḍ,\n"
+#~ "daɣen ma yezga yecceḍ, ad yefsex.\n"
+
+#~ msgid "Your pending payment on weblate.org"
+#~ msgstr "Lexlaṣ-ik yettraǧu deg weblate.org"
+
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org is pending. Please follow the provided\n"
+#~ "instructions to complete the payment.\n"
+#~ msgstr ""
+#~ "Azul,\n"
+#~ "\n"
+#~ "Lexlaṣ-ik deg weblate.org yettṛaǧu. \n"
+#~ "Ma ulac aɣilif ḍfeṛ iwellihen i d-yettunefkes akken ad tkemmleḍ lexlaṣ.\n"
+
+#~ msgid "Payment cancelled"
+#~ msgstr "Lexlaṣ yefsex"
+
+#~ msgid "Payment error"
+#~ msgstr "Tuccḍa n lexlaṣ"
+
+#~ msgid "Bitcoin"
+#~ msgstr "Bitcoin"
+
+#~ msgid "Issuing bank"
+#~ msgstr "Tabankat tamazant"
+
+#~ msgid "Account holder"
+#~ msgstr "Bab n umiḍan"
+
+#~ msgid "Account number"
+#~ msgstr "Uṭṭun n umiḍan"
+
+#~ msgid "SWIFT code"
+#~ msgstr "Tangalt SWIFT"
+
+#~ msgid "IBAN"
+#~ msgstr "IBAN"
+
+#~ msgid "Reference"
+#~ msgstr "Tamsisɣelt"
 
 #~ msgid "Component limit"
 #~ msgstr "Talast n isenfaṛen"
@@ -463,9 +460,6 @@ msgstr "{} mačči d asulay n tebzert VAT ameɣtu."
 #~ msgstr ""
 #~ "Uɣalen ɣer uɣmis ma llan ibeddilen meqqren deg umiḍan-ik (amedya, abeddel "
 #~ "n wawal uffir) akken ad nsireg tasleḍt ma yettwaker umiḍan-ik"
-
-#~ msgid "Billing information"
-#~ msgstr "Talɣut n ufter"
 
 #~ msgid ""
 #~ "In case you purchase service from us, we collect additional billing "

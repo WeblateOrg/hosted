@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2024-05-06 10:30+0000\n"
+"POT-Creation-Date: 2025-02-21 09:56+0000\n"
 "PO-Revision-Date: 2024-05-10 23:09+0000\n"
 "Last-Translator: សិទ្ធិការ្យ <setthikarpok@gmail.com>\n"
 "Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/weblate/"
@@ -35,15 +35,15 @@ msgstr "កំណត់ឃ្លាំងឡើងវិញទៅកាន់ Up
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "បោះបង់ការផ្លាស់ប្តូរទាំងអស់នៅក្នុងឃ្លាំង Weblate រៀងរាល់យប់។"
 
-#: wlhosted/integrations/forms.py:32
+#: wlhosted/integrations/forms.py:37
 msgid "Billing"
 msgstr "វិក័យប័ត្រ"
 
-#: wlhosted/integrations/forms.py:33
+#: wlhosted/integrations/forms.py:38
 msgid "Choose the billing plan you want to update"
 msgstr "ជ្រើសរើសគំរោងបង់ប្រាក់ដែលអ្នកចង់ធ្វើបច្ចុប្បន្នភាព"
 
-#: wlhosted/integrations/forms.py:34
+#: wlhosted/integrations/forms.py:39
 msgid "Create new billing plan"
 msgstr "បង្កើតគម្រោងបង់ប្រាក់ថ្មី"
 
@@ -136,15 +136,12 @@ msgstr "រាល់តម្លៃដែលបានចុះបញ្ជីម
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
-"អ្នកប្រើប្រាស់ចុងក្រោយរបស់សហភាពអឺរ៉ុប និងក្រុមហ៊ុនប្រទេសឆែក "
-"នឹងត្រូវបានគិតប្រាក់បន្ថែមជាមួយ VAT21%%។"
+"អ្នកប្រើប្រាស់ចុងក្រោយរបស់សហភាពអឺរ៉ុប និងក្រុមហ៊ុនប្រទេសឆែក នឹងត្រូវបានគិតប្រាក់បន្ថែមជាមួយ VAT21%%។"
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
-msgstr ""
-"ការគិតប្រាក់បញ្ច្រាសអនុវត្តចំពោះវិក្កយបត្រដែលចេញឱ្យអាជីវកម្មនៅក្នុងសហភាពអឺរ៉ុ"
-"ប។"
+msgstr "ការគិតប្រាក់បញ្ច្រាសអនុវត្តចំពោះវិក្កយបត្រដែលចេញឱ្យអាជីវកម្មនៅក្នុងសហភាពអឺរ៉ុប។"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
@@ -190,143 +187,32 @@ msgstr "មូលហេតុមិនស្គាល់"
 msgid "Payments are temporarily inactive."
 msgstr "ការទូទាត់ប្រាក់ ត្រូវបានផ្អាកបណ្ដោះអាសន្ន។"
 
-#: wlhosted/payments/backends.py:192
-msgid "Your payment on weblate.org"
-msgstr "ការបង់ប្រាក់របស់អ្នកនៅលើ weblate.org"
-
-#: wlhosted/payments/backends.py:194
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Thank you for your payment on weblate.org.\n"
-"\n"
-"You will find an invoice for this payment attached.\n"
-"Alternatively, you can download it from the website:\n"
-"\n"
-"%s\n"
-msgstr ""
-"សួស្តី,\n"
-"\n"
-"សូមអរគុណសម្រាប់ការបង់ប្រាក់របស់អ្នកនៅលើ weblate.org ។\n"
-"\n"
-"អ្នកនឹងឃើញវិក្កយបត្រសម្រាប់ការទូទាត់នេះភ្ជាប់មកជាមួយ។\n"
-"ជាជម្រើសផ្សេងទៀត, អ្នកក៏អាចទាញយកវាពីវេបសាយ៖\n"
-"\n"
-"%s\n"
-
-#: wlhosted/payments/backends.py:220
-msgid "Your payment on weblate.org failed"
-msgstr "ការបង់ប្រាក់របស់អ្នកនៅលើ weblate.org បានបរាជ័យ"
-
-#: wlhosted/payments/backends.py:222
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org has failed.\n"
-"\n"
-"%s\n"
-"\n"
-"Retry issuing the payment on the website:\n"
-"\n"
-"%s\n"
-"\n"
-"If concerning a recurring payment, it is retried three times,\n"
-"and if still failing, cancelled.\n"
-msgstr ""
-"សួស្តី,\n"
-"\n"
-"ការបង់ប្រាក់របស់អ្នកនៅលើ weblate.org បានបរាជ័យ។\n"
-"\n"
-"%s\n"
-"\n"
-"ព្យាយាមបញ្ចេញការបង់ប្រាក់ជាថ្មី នៅលើវេបសាយ៖\n"
-"\n"
-"%s\n"
-"\n"
-"ប្រសិនបើជាប់ទាក់ទងនឹងការបង់ប្រាក់ដែលកើតឡើងផ្ទួនៗ វាគឺបានព្យាយាមបីដងទៀត,\n"
-"ហើយប្រសិនបើនៅតែបរាជ័យ នឹងត្រូវលុបចោល។\n"
-
-#: wlhosted/payments/backends.py:255
-msgid "Your pending payment on weblate.org"
-msgstr "ការបង់ប្រាក់ដែលមិនទាន់សម្រេចរបស់អ្នកលើ weblate.org"
-
-#: wlhosted/payments/backends.py:257
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org is pending. Please follow the provided\n"
-"instructions to complete the payment.\n"
-msgstr ""
-"សួស្តី,\n"
-"\n"
-"ការបង់ប្រាក់របស់អ្នកនៅលើ weblate.org គឺកំពុងព្យួរទុក។ សូមធ្វើតាមការផ្ដល់ជូននូ"
-"វ\n"
-"ការណែនាំ ដើម្បីបញ្ចប់ការបង់ប្រាក់។\n"
-
-#: wlhosted/payments/backends.py:339
-msgid "Payment card"
-msgstr "កាតបង់ប្រាក់"
-
-#: wlhosted/payments/backends.py:415
-msgid "Payment cancelled"
-msgstr "ការបង់ប្រាក់ ត្រូវបានបោះបង់"
-
-#: wlhosted/payments/backends.py:417
-msgid "Payment error"
-msgstr "កំហុសក្នុងការបង់ប្រាក់"
-
-#: wlhosted/payments/backends.py:429
-msgid "Bitcoin"
-msgstr "Bitcoin"
-
-#: wlhosted/payments/backends.py:438
+#: wlhosted/payments/backends.py:156
 msgid "IBAN bank transfer"
 msgstr "ការផ្ទេរប្រាក់តាមធនាគារ IBAN"
 
-#: wlhosted/payments/backends.py:468
-msgid "Issuing bank"
-msgstr "ធនាគារបញ្ចេញផ្សាយ"
+#: wlhosted/payments/backends.py:164
+msgid "Payment card"
+msgstr "កាតបង់ប្រាក់"
 
-#: wlhosted/payments/backends.py:469
-msgid "Account holder"
-msgstr "ម្ចាស់គណនី"
-
-#: wlhosted/payments/backends.py:470
-msgid "Account number"
-msgstr "លេខគណនី"
-
-#: wlhosted/payments/backends.py:471
-msgid "SWIFT code"
-msgstr "កូដ SWIFT"
-
-#: wlhosted/payments/backends.py:472
-msgid "IBAN"
-msgstr "IBAN"
-
-#: wlhosted/payments/backends.py:473
-msgid "Reference"
-msgstr "សេចក្ដីយោង"
-
-#: wlhosted/payments/models.py:88
+#: wlhosted/payments/models.py:87
 msgid "European VAT ID"
 msgstr "លេខសម្គាល់ពន្ធអាករអ៊ឺរ៉ុប"
 
-#: wlhosted/payments/models.py:90
+#: wlhosted/payments/models.py:89
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr "សូមបំពេញលេខសម្គាល់ពន្ធអាករលើតម្លៃបន្ថែមរបស់សហគមន៍អ៊ឺរ៉ុប ឫទុកវាឱ្យនៅទំនេរ បើមិនមាន។"
 
-#: wlhosted/payments/models.py:96
+#: wlhosted/payments/models.py:95
 msgid "Tax registration"
 msgstr "ការចុះឈ្មោះពន្ធ"
 
-#: wlhosted/payments/models.py:98
+#: wlhosted/payments/models.py:97
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "សូមបំពេញការចុះឈ្មោះបង់ពន្ធរបស់អ្នក ប្រសិនបើវាមានបង្ហាញនៅលើវិក្កយបត្រ។"
 
-#: wlhosted/payments/models.py:105
+#: wlhosted/payments/models.py:103
 msgid "Company or individual name"
 msgstr "ឈ្មោះក្រុមហ៊ុន ឬឯកត្ដជន"
 
@@ -334,79 +220,185 @@ msgstr "ឈ្មោះក្រុមហ៊ុន ឬឯកត្ដជន"
 msgid "Address"
 msgstr "អាសយដ្ឋាន"
 
-#: wlhosted/payments/models.py:111
+#: wlhosted/payments/models.py:113
+#, fuzzy
+#| msgid "Billing information"
+msgid "Additional address information"
+msgstr "ព័ត៌មានវិក័យប័ត្រ"
+
+#: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "កូដប្រៃសណីយ៍ និងទីក្រុង"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:124
+#, fuzzy
+#| msgid "Postcode and city"
+msgid "Postcode"
+msgstr "កូដប្រៃសណីយ៍ និងទីក្រុង"
+
+#: wlhosted/payments/models.py:128
 msgid "Country"
 msgstr "ប្រទេស"
 
-#: wlhosted/payments/models.py:144
+#: wlhosted/payments/models.py:165
 msgid "The country has to match your VAT code"
 msgstr "ប្រទេសនោះត្រូវតែស៊ីគ្នានឹងកូដ VAT របស់អ្នក"
 
-#: wlhosted/payments/models.py:167
+#: wlhosted/payments/models.py:188
 msgid "Annual"
 msgstr "ប្រចាំឆ្នាំ"
 
-#: wlhosted/payments/models.py:168
+#: wlhosted/payments/models.py:189
 msgid "Biannual"
 msgstr "ប្រចាំឆមាស"
 
-#: wlhosted/payments/models.py:169
+#: wlhosted/payments/models.py:190
 msgid "Quarterly"
 msgstr "ប្រចាំត្រីមាស"
 
-#: wlhosted/payments/models.py:170
+#: wlhosted/payments/models.py:191
 msgid "Monthly"
 msgstr "ប្រចាំខែ"
 
-#: wlhosted/payments/models.py:171
+#: wlhosted/payments/models.py:192
 msgid "One-time"
 msgstr "១ដង"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:226
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "ការបង់ប្រាក់ថ្មី"
 
-#: wlhosted/payments/models.py:206
+#: wlhosted/payments/models.py:227
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "កំពុងរង់ចាំការបង់ប្រាក់"
 
-#: wlhosted/payments/models.py:207
+#: wlhosted/payments/models.py:228
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "ការបង់ប្រាក់ត្រូវបានច្រានចោល"
 
-#: wlhosted/payments/models.py:208
+#: wlhosted/payments/models.py:229
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "ការបង់ប្រាក់ បានទទួល"
 
-#: wlhosted/payments/models.py:209
+#: wlhosted/payments/models.py:230
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "ការបង់ប្រាក់ បានបន្តដំណើរការ"
 
-#: wlhosted/payments/validators.py:38
+#: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
 msgstr "{} មិនមែនជាកូដប្រទេសដែលត្រឹមត្រូវ សម្រាប់គ្រប់សមាជិកសហភាពអឺរ៉ុបទេ។"
 
-#: wlhosted/payments/validators.py:43
+#: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
 msgstr "{} ពុំត្រូវគ្នានឹងព័ត៌មានលម្អិតនៃ VAT ID របស់ប្រទេសឡើយ។"
 
-#: wlhosted/payments/validators.py:50
+#: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
-msgstr ""
-"សេវាបញ្ជាក់ VAT ID សម្រាប់ {} មិនអាចប្រើបានឡើយ។ សូមព្យាយាមម្តងទៀត នៅពេលក្រោយ។"
+msgstr "សេវាបញ្ជាក់ VAT ID សម្រាប់ {} មិនអាចប្រើបានឡើយ។ សូមព្យាយាមម្តងទៀត នៅពេលក្រោយ។"
 
-#: wlhosted/payments/validators.py:53
+#: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "{} គឺពុំមែនជា VAT ID ត្រឹមត្រូវឡើយ។"
+
+#~ msgid "Your payment on weblate.org"
+#~ msgstr "ការបង់ប្រាក់របស់អ្នកនៅលើ weblate.org"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Thank you for your payment on weblate.org.\n"
+#~ "\n"
+#~ "You will find an invoice for this payment attached.\n"
+#~ "Alternatively, you can download it from the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "សួស្តី,\n"
+#~ "\n"
+#~ "សូមអរគុណសម្រាប់ការបង់ប្រាក់របស់អ្នកនៅលើ weblate.org ។\n"
+#~ "\n"
+#~ "អ្នកនឹងឃើញវិក្កយបត្រសម្រាប់ការទូទាត់នេះភ្ជាប់មកជាមួយ។\n"
+#~ "ជាជម្រើសផ្សេងទៀត, អ្នកក៏អាចទាញយកវាពីវេបសាយ៖\n"
+#~ "\n"
+#~ "%s\n"
+
+#~ msgid "Your payment on weblate.org failed"
+#~ msgstr "ការបង់ប្រាក់របស់អ្នកនៅលើ weblate.org បានបរាជ័យ"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org has failed.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Retry issuing the payment on the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "If concerning a recurring payment, it is retried three times,\n"
+#~ "and if still failing, cancelled.\n"
+#~ msgstr ""
+#~ "សួស្តី,\n"
+#~ "\n"
+#~ "ការបង់ប្រាក់របស់អ្នកនៅលើ weblate.org បានបរាជ័យ។\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "ព្យាយាមបញ្ចេញការបង់ប្រាក់ជាថ្មី នៅលើវេបសាយ៖\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "ប្រសិនបើជាប់ទាក់ទងនឹងការបង់ប្រាក់ដែលកើតឡើងផ្ទួនៗ វាគឺបានព្យាយាមបីដងទៀត,\n"
+#~ "ហើយប្រសិនបើនៅតែបរាជ័យ នឹងត្រូវលុបចោល។\n"
+
+#~ msgid "Your pending payment on weblate.org"
+#~ msgstr "ការបង់ប្រាក់ដែលមិនទាន់សម្រេចរបស់អ្នកលើ weblate.org"
+
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org is pending. Please follow the provided\n"
+#~ "instructions to complete the payment.\n"
+#~ msgstr ""
+#~ "សួស្តី,\n"
+#~ "\n"
+#~ "ការបង់ប្រាក់របស់អ្នកនៅលើ weblate.org គឺកំពុងព្យួរទុក។ សូមធ្វើតាមការផ្ដល់ជូននូវ\n"
+#~ "ការណែនាំ ដើម្បីបញ្ចប់ការបង់ប្រាក់។\n"
+
+#~ msgid "Payment cancelled"
+#~ msgstr "ការបង់ប្រាក់ ត្រូវបានបោះបង់"
+
+#~ msgid "Payment error"
+#~ msgstr "កំហុសក្នុងការបង់ប្រាក់"
+
+#~ msgid "Bitcoin"
+#~ msgstr "Bitcoin"
+
+#~ msgid "Issuing bank"
+#~ msgstr "ធនាគារបញ្ចេញផ្សាយ"
+
+#~ msgid "Account holder"
+#~ msgstr "ម្ចាស់គណនី"
+
+#~ msgid "Account number"
+#~ msgstr "លេខគណនី"
+
+#~ msgid "SWIFT code"
+#~ msgstr "កូដ SWIFT"
+
+#~ msgid "IBAN"
+#~ msgstr "IBAN"
+
+#~ msgid "Reference"
+#~ msgstr "សេចក្ដីយោង"
 
 #~ msgid "Component limit"
 #~ msgstr "កំហិតសមាសភាគ"
@@ -463,9 +455,6 @@ msgstr "{} គឺពុំមែនជា VAT ID ត្រឹមត្រូវ�
 #~ msgstr ""
 #~ "ទាំងនេះត្រូវបានកត់ត្រាក្នុងករណីមានការផ្លាស់ប្តូរសំខាន់ៗ ចំពោះគណនីរបស់អ្នក (ឧទាហរណ៍៖ "
 #~ "ការផ្លាស់ប្តូរពាក្យសម្ងាត់) ដើម្បីអនុញ្ញាតឱ្យធ្វើការវិនិច្ឆ័យក្នុងករណីគណនីរបស់អ្នកត្រូវបានគេលួច"
-
-#~ msgid "Billing information"
-#~ msgstr "ព័ត៌មានវិក័យប័ត្រ"
 
 #~ msgid ""
 #~ "In case you purchase service from us, we collect additional billing "

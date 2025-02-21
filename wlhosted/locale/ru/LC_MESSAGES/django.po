@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2024-05-06 10:30+0000\n"
+"POT-Creation-Date: 2025-02-21 09:56+0000\n"
 "PO-Revision-Date: 2024-10-12 04:29+0000\n"
 "Last-Translator: Victor K <ktrace@yandex.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -45,15 +45,15 @@ msgstr "Вернуть сетевое хранилище в исходное с�
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "Отменять все изменения в сетевом хранилище Weblate каждую ночь."
 
-#: wlhosted/integrations/forms.py:32
+#: wlhosted/integrations/forms.py:37
 msgid "Billing"
 msgstr "Выставление счетов"
 
-#: wlhosted/integrations/forms.py:33
+#: wlhosted/integrations/forms.py:38
 msgid "Choose the billing plan you want to update"
 msgstr "Выбор тарифного плана, который вы желаете обновить"
 
-#: wlhosted/integrations/forms.py:34
+#: wlhosted/integrations/forms.py:39
 msgid "Create new billing plan"
 msgstr "Создать новый тарифный план"
 
@@ -201,146 +201,36 @@ msgstr "Неизвестная причина"
 msgid "Payments are temporarily inactive."
 msgstr "Платежи временно не работают."
 
-#: wlhosted/payments/backends.py:192
-msgid "Your payment on weblate.org"
-msgstr "Ваш платёж на weblate.org"
-
-#: wlhosted/payments/backends.py:194
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Thank you for your payment on weblate.org.\n"
-"\n"
-"You will find an invoice for this payment attached.\n"
-"Alternatively, you can download it from the website:\n"
-"\n"
-"%s\n"
-msgstr ""
-"Здравствуйте,\n"
-"\n"
-"Спасибо за ваш платёж на сайте weblate.org.\n"
-"\n"
-"К письму прилагается счёт-фактура за эту оплату.\n"
-"Также, вы можете скачать его с веб-сайта:\n"
-"\n"
-"%s\n"
-
-#: wlhosted/payments/backends.py:220
-msgid "Your payment on weblate.org failed"
-msgstr "Ваш платёж на weblate.org не прошёл"
-
-#: wlhosted/payments/backends.py:222
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org has failed.\n"
-"\n"
-"%s\n"
-"\n"
-"Retry issuing the payment on the website:\n"
-"\n"
-"%s\n"
-"\n"
-"If concerning a recurring payment, it is retried three times,\n"
-"and if still failing, cancelled.\n"
-msgstr ""
-"Здравствуйте,\n"
-"\n"
-"Ваш платёж на сайте weblate.org не прошёл.\n"
-"\n"
-"%s\n"
-"\n"
-"Повторите составление платежа на сайте:\n"
-"\n"
-"%s\n"
-"\n"
-"Если речь идёт о регулярном платеже, это повторяется три раза,\n"
-"и если все равно не получается, то он отменяется.\n"
-
-#: wlhosted/payments/backends.py:255
-msgid "Your pending payment on weblate.org"
-msgstr "Ваш ожидающий платёж на weblate.org"
-
-#: wlhosted/payments/backends.py:257
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org is pending. Please follow the provided\n"
-"instructions to complete the payment.\n"
-msgstr ""
-"Здравствуйте!\n"
-"\n"
-"Ваш платёж в weblate.org находится на рассмотрении. Пожалуйста, \n"
-"следуйте указанным инструкциям для завершения оплаты.\n"
-
-#: wlhosted/payments/backends.py:339
-msgid "Payment card"
-msgstr "Карта оплаты"
-
-#: wlhosted/payments/backends.py:415
-msgid "Payment cancelled"
-msgstr "Платёж отменён"
-
-#: wlhosted/payments/backends.py:417
-msgid "Payment error"
-msgstr "Ошибка платежа"
-
-#: wlhosted/payments/backends.py:429
-msgid "Bitcoin"
-msgstr "Биткойн"
-
-#: wlhosted/payments/backends.py:438
+#: wlhosted/payments/backends.py:156
 msgid "IBAN bank transfer"
 msgstr "Банковский перевод по IBAN"
 
-#: wlhosted/payments/backends.py:468
-msgid "Issuing bank"
-msgstr "Банк-эмитент"
+#: wlhosted/payments/backends.py:164
+msgid "Payment card"
+msgstr "Карта оплаты"
 
-#: wlhosted/payments/backends.py:469
-msgid "Account holder"
-msgstr "Владелец счёта"
-
-#: wlhosted/payments/backends.py:470
-msgid "Account number"
-msgstr "Номер счёта"
-
-#: wlhosted/payments/backends.py:471
-msgid "SWIFT code"
-msgstr "Код SWIFT"
-
-#: wlhosted/payments/backends.py:472
-msgid "IBAN"
-msgstr "IBAN"
-
-#: wlhosted/payments/backends.py:473
-msgid "Reference"
-msgstr "Рекомендация"
-
-#: wlhosted/payments/models.py:88
+#: wlhosted/payments/models.py:87
 msgid "European VAT ID"
 msgstr "Европейский номер плательщика НДС"
 
-#: wlhosted/payments/models.py:90
+#: wlhosted/payments/models.py:89
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "Заполните номер плательщика НДС Европейского Союза, оставьте пустым, если не "
 "применимо."
 
-#: wlhosted/payments/models.py:96
+#: wlhosted/payments/models.py:95
 msgid "Tax registration"
 msgstr "Налоговая регистрация"
 
-#: wlhosted/payments/models.py:98
+#: wlhosted/payments/models.py:97
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
 "Заполните налоговую регистрацию, если она должна быть указана в счёте-"
 "фактуре."
 
-#: wlhosted/payments/models.py:105
+#: wlhosted/payments/models.py:103
 msgid "Company or individual name"
 msgstr "Название компании или физического лица"
 
@@ -348,81 +238,188 @@ msgstr "Название компании или физического лица
 msgid "Address"
 msgstr "Адрес"
 
-#: wlhosted/payments/models.py:111
+#: wlhosted/payments/models.py:113
+#, fuzzy
+#| msgid "Billing information"
+msgid "Additional address information"
+msgstr "Платёжная информация"
+
+#: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "Почтовый код и город"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:124
+#, fuzzy
+#| msgid "Postcode and city"
+msgid "Postcode"
+msgstr "Почтовый код и город"
+
+#: wlhosted/payments/models.py:128
 msgid "Country"
 msgstr "Страна"
 
-#: wlhosted/payments/models.py:144
+#: wlhosted/payments/models.py:165
 msgid "The country has to match your VAT code"
 msgstr "Страна соответствует вашему коду НДС"
 
-#: wlhosted/payments/models.py:167
+#: wlhosted/payments/models.py:188
 msgid "Annual"
 msgstr "Ежегодно"
 
-#: wlhosted/payments/models.py:168
+#: wlhosted/payments/models.py:189
 msgid "Biannual"
 msgstr "Двухгодично"
 
-#: wlhosted/payments/models.py:169
+#: wlhosted/payments/models.py:190
 msgid "Quarterly"
 msgstr "Ежеквартально"
 
-#: wlhosted/payments/models.py:170
+#: wlhosted/payments/models.py:191
 msgid "Monthly"
 msgstr "Ежемесячно"
 
-#: wlhosted/payments/models.py:171
+#: wlhosted/payments/models.py:192
 msgid "One-time"
 msgstr "Единовременно"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:226
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Новый платёж"
 
-#: wlhosted/payments/models.py:206
+#: wlhosted/payments/models.py:227
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Ожидающий платёж"
 
-#: wlhosted/payments/models.py:207
+#: wlhosted/payments/models.py:228
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Платёж отклонён"
 
-#: wlhosted/payments/models.py:208
+#: wlhosted/payments/models.py:229
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Платёж принят"
 
-#: wlhosted/payments/models.py:209
+#: wlhosted/payments/models.py:230
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Платёж обработан"
 
-#: wlhosted/payments/validators.py:38
+#: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
 msgstr ""
 "{} не является допустимым кодом страны для любого члена Европейского Союза."
 
-#: wlhosted/payments/validators.py:43
+#: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
 msgstr "{} не соответствует спецификациям номера плательщика НДС в стране."
 
-#: wlhosted/payments/validators.py:50
+#: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
 "Услуга проверки идентификатора НДС недоступна для {}, пожалуйста, повторите "
 "попытку позже."
 
-#: wlhosted/payments/validators.py:53
+#: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "{} не является допустимым номером плательщика НДС."
+
+#~ msgid "Your payment on weblate.org"
+#~ msgstr "Ваш платёж на weblate.org"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Thank you for your payment on weblate.org.\n"
+#~ "\n"
+#~ "You will find an invoice for this payment attached.\n"
+#~ "Alternatively, you can download it from the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "Здравствуйте,\n"
+#~ "\n"
+#~ "Спасибо за ваш платёж на сайте weblate.org.\n"
+#~ "\n"
+#~ "К письму прилагается счёт-фактура за эту оплату.\n"
+#~ "Также, вы можете скачать его с веб-сайта:\n"
+#~ "\n"
+#~ "%s\n"
+
+#~ msgid "Your payment on weblate.org failed"
+#~ msgstr "Ваш платёж на weblate.org не прошёл"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org has failed.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Retry issuing the payment on the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "If concerning a recurring payment, it is retried three times,\n"
+#~ "and if still failing, cancelled.\n"
+#~ msgstr ""
+#~ "Здравствуйте,\n"
+#~ "\n"
+#~ "Ваш платёж на сайте weblate.org не прошёл.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Повторите составление платежа на сайте:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Если речь идёт о регулярном платеже, это повторяется три раза,\n"
+#~ "и если все равно не получается, то он отменяется.\n"
+
+#~ msgid "Your pending payment on weblate.org"
+#~ msgstr "Ваш ожидающий платёж на weblate.org"
+
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org is pending. Please follow the provided\n"
+#~ "instructions to complete the payment.\n"
+#~ msgstr ""
+#~ "Здравствуйте!\n"
+#~ "\n"
+#~ "Ваш платёж в weblate.org находится на рассмотрении. Пожалуйста, \n"
+#~ "следуйте указанным инструкциям для завершения оплаты.\n"
+
+#~ msgid "Payment cancelled"
+#~ msgstr "Платёж отменён"
+
+#~ msgid "Payment error"
+#~ msgstr "Ошибка платежа"
+
+#~ msgid "Bitcoin"
+#~ msgstr "Биткойн"
+
+#~ msgid "Issuing bank"
+#~ msgstr "Банк-эмитент"
+
+#~ msgid "Account holder"
+#~ msgstr "Владелец счёта"
+
+#~ msgid "Account number"
+#~ msgstr "Номер счёта"
+
+#~ msgid "SWIFT code"
+#~ msgstr "Код SWIFT"
+
+#~ msgid "IBAN"
+#~ msgstr "IBAN"
+
+#~ msgid "Reference"
+#~ msgstr "Рекомендация"
 
 #~ msgid "Component limit"
 #~ msgstr "Предел компонентов"
@@ -483,9 +480,6 @@ msgstr "{} не является допустимым номером плате�
 #~ "Они журналируются на случай существенных изменений в вашей учётной записи "
 #~ "(например, смена пароля), чтобы позволить диагностику в случае кражи "
 #~ "вашей учётной записи"
-
-#~ msgid "Billing information"
-#~ msgstr "Платёжная информация"
 
 #~ msgid ""
 #~ "In case you purchase service from us, we collect additional billing "

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2024-05-06 10:30+0000\n"
+"POT-Creation-Date: 2025-02-21 09:56+0000\n"
 "PO-Revision-Date: 2022-05-29 08:18+0000\n"
 "Last-Translator: Nizami <nizamismidov4@gmail.com>\n"
 "Language-Team: Azerbaijani <https://hosted.weblate.org/projects/weblate/"
@@ -35,15 +35,15 @@ msgstr "Repozitoriyanı sıfırlayın"
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "Hər gecə Weblate deposundakı bütün dəyişiklikləri rədd edir."
 
-#: wlhosted/integrations/forms.py:32
+#: wlhosted/integrations/forms.py:37
 msgid "Billing"
 msgstr "Fakturalandırma"
 
-#: wlhosted/integrations/forms.py:33
+#: wlhosted/integrations/forms.py:38
 msgid "Choose the billing plan you want to update"
 msgstr "Yeniləmək istədiyiniz faktura planını seçin"
 
-#: wlhosted/integrations/forms.py:34
+#: wlhosted/integrations/forms.py:39
 msgid "Create new billing plan"
 msgstr "Yeni faktura planı yaradın"
 
@@ -191,147 +191,34 @@ msgstr "Naməlum səbəb"
 msgid "Payments are temporarily inactive."
 msgstr "Ödənişlər müvəqqəti olaraq qeyri-aktivdir."
 
-#: wlhosted/payments/backends.py:192
-msgid "Your payment on weblate.org"
-msgstr "Weblate.org saytındakı ödənişiniz"
-
-#: wlhosted/payments/backends.py:194
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Thank you for your payment on weblate.org.\n"
-"\n"
-"You will find an invoice for this payment attached.\n"
-"Alternatively, you can download it from the website:\n"
-"\n"
-"%s\n"
-msgstr ""
-"Salam,\n"
-"\n"
-"Weblate.org saytında ödəniş etdiyiniz üçün təşəkkür edirik.\n"
-"\n"
-"Əlavədə bu ödəniş üçün faktura\n"
-"tapa bilərsiniz.\n"
-"Alternativ olaraq, onu vebsaytdan endirə bilərsiniz:\n"
-"\n"
-"%s\n"
-
-#: wlhosted/payments/backends.py:220
-msgid "Your payment on weblate.org failed"
-msgstr "Weblate.org saytında ödənişiniz alınmadı"
-
-#: wlhosted/payments/backends.py:222
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org has failed.\n"
-"\n"
-"%s\n"
-"\n"
-"Retry issuing the payment on the website:\n"
-"\n"
-"%s\n"
-"\n"
-"If concerning a recurring payment, it is retried three times,\n"
-"and if still failing, cancelled.\n"
-msgstr ""
-"Salam,\n"
-"\n"
-"Weblate.org saytındakı ödənişiniz uğursuz oldu.\n"
-"\n"
-"%s\n"
-"\n"
-"Veb saytında ödənişi təkrar etməyə cəhd edin:\n"
-"\n"
-"%s\n"
-"\n"
-"Əgər təkrarlanan ödənişlə bağlı olarsa, o, üç dəfə təkrar sınanır və hələ də "
-"uğursuz olarsa, ləğv edilir.\n"
-
-#: wlhosted/payments/backends.py:255
-msgid "Your pending payment on weblate.org"
-msgstr "Weblate.org saytında gözlənilən ödənişiniz"
-
-#: wlhosted/payments/backends.py:257
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org is pending. Please follow the provided\n"
-"instructions to complete the payment.\n"
-msgstr ""
-"Salam,\n"
-"\n"
-"Weblate.org saytındakı ödənişiniz gözlənilir. Ödənişi tamamlamaq üçün "
-"verilən təlimatlara əməl edin.\n"
-
-#: wlhosted/payments/backends.py:339
-msgid "Payment card"
-msgstr "javascript://%250aalert(1)"
-
-#: wlhosted/payments/backends.py:415
-msgid "Payment cancelled"
-msgstr "Ödəniş ləğv edildi"
-
-#: wlhosted/payments/backends.py:417
-msgid "Payment error"
-msgstr "Ödəniş xətası"
-
-#: wlhosted/payments/backends.py:429
-msgid "Bitcoin"
-msgstr ""
-"https://hosted.weblate.org/translate/weblate/website/az/?"
-"checksum=6a72b6a918db3458"
-
-#: wlhosted/payments/backends.py:438
+#: wlhosted/payments/backends.py:156
 msgid "IBAN bank transfer"
 msgstr "IBAN bank köçürməsi"
 
-#: wlhosted/payments/backends.py:468
-msgid "Issuing bank"
-msgstr "Verən bank"
+#: wlhosted/payments/backends.py:164
+msgid "Payment card"
+msgstr "javascript://%250aalert(1)"
 
-#: wlhosted/payments/backends.py:469
-msgid "Account holder"
-msgstr "Hesab sahibi"
-
-#: wlhosted/payments/backends.py:470
-msgid "Account number"
-msgstr "Hesab nömrəsi"
-
-#: wlhosted/payments/backends.py:471
-msgid "SWIFT code"
-msgstr "SWIFT kodu"
-
-#: wlhosted/payments/backends.py:472
-msgid "IBAN"
-msgstr "IBAN"
-
-#: wlhosted/payments/backends.py:473
-msgid "Reference"
-msgstr "İstinad"
-
-#: wlhosted/payments/models.py:88
+#: wlhosted/payments/models.py:87
 msgid "European VAT ID"
 msgstr "Avropa ƏDV ID"
 
-#: wlhosted/payments/models.py:90
+#: wlhosted/payments/models.py:89
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "Zəhmət olmasa, Avropa Birliyi ƏDV ID-nı doldurun, uyğun deyilsə boş qoyun."
 
-#: wlhosted/payments/models.py:96
+#: wlhosted/payments/models.py:95
 msgid "Tax registration"
 msgstr "Vergi qeydiyyatı"
 
-#: wlhosted/payments/models.py:98
+#: wlhosted/payments/models.py:97
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
 "Zəhmət olmasa hesab-fakturada görünməlidirsə, vergi qeydinizi doldurun."
 
-#: wlhosted/payments/models.py:105
+#: wlhosted/payments/models.py:103
 msgid "Company or individual name"
 msgstr "Şirkət və ya fərdi ad"
 
@@ -339,81 +226,191 @@ msgstr "Şirkət və ya fərdi ad"
 msgid "Address"
 msgstr "Ünvan"
 
-#: wlhosted/payments/models.py:111
+#: wlhosted/payments/models.py:113
+#, fuzzy
+#| msgid "Billing information"
+msgid "Additional address information"
+msgstr "Ödəniş məlumatı"
+
+#: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "Poçt indeksi və şəhər"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:124
+#, fuzzy
+#| msgid "Postcode and city"
+msgid "Postcode"
+msgstr "Poçt indeksi və şəhər"
+
+#: wlhosted/payments/models.py:128
 msgid "Country"
 msgstr "Ölkə"
 
-#: wlhosted/payments/models.py:144
+#: wlhosted/payments/models.py:165
 msgid "The country has to match your VAT code"
 msgstr "Ölkə ƏDV kodunuza uyğun olmalıdır"
 
-#: wlhosted/payments/models.py:167
+#: wlhosted/payments/models.py:188
 msgid "Annual"
 msgstr "İllik"
 
-#: wlhosted/payments/models.py:168
+#: wlhosted/payments/models.py:189
 msgid "Biannual"
 msgstr "İldə iki dəfə"
 
-#: wlhosted/payments/models.py:169
+#: wlhosted/payments/models.py:190
 msgid "Quarterly"
 msgstr "Rüblük"
 
-#: wlhosted/payments/models.py:170
+#: wlhosted/payments/models.py:191
 msgid "Monthly"
 msgstr "Aylıq"
 
-#: wlhosted/payments/models.py:171
+#: wlhosted/payments/models.py:192
 #, fuzzy
 #| msgid "Onetime"
 msgid "One-time"
 msgstr "Bir dəfə"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:226
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Yeni ödəniş"
 
-#: wlhosted/payments/models.py:206
+#: wlhosted/payments/models.py:227
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Gözlənən ödəniş"
 
-#: wlhosted/payments/models.py:207
+#: wlhosted/payments/models.py:228
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Ödəniş rədd edildi"
 
-#: wlhosted/payments/models.py:208
+#: wlhosted/payments/models.py:229
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Ödəniş qəbul edildi"
 
-#: wlhosted/payments/models.py:209
+#: wlhosted/payments/models.py:230
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Ödəniş işlənib"
 
-#: wlhosted/payments/validators.py:38
+#: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
 msgstr "{} heç bir Avropa Birliyi üzvü üçün etibarlı ölkə kodu deyil."
 
-#: wlhosted/payments/validators.py:43
+#: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
 msgstr "{} ölkənin ƏDV ID xüsusiyyətlərinə uyğun gəlmir."
 
-#: wlhosted/payments/validators.py:50
+#: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
 "ƏDV ID təsdiqləmə xidməti {} üçün əlçatmazdır, daha sonra yenidən cəhd edin."
 
-#: wlhosted/payments/validators.py:53
+#: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "{} etibarlı ƏDV ID deyil."
+
+#~ msgid "Your payment on weblate.org"
+#~ msgstr "Weblate.org saytındakı ödənişiniz"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Thank you for your payment on weblate.org.\n"
+#~ "\n"
+#~ "You will find an invoice for this payment attached.\n"
+#~ "Alternatively, you can download it from the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "Salam,\n"
+#~ "\n"
+#~ "Weblate.org saytında ödəniş etdiyiniz üçün təşəkkür edirik.\n"
+#~ "\n"
+#~ "Əlavədə bu ödəniş üçün faktura\n"
+#~ "tapa bilərsiniz.\n"
+#~ "Alternativ olaraq, onu vebsaytdan endirə bilərsiniz:\n"
+#~ "\n"
+#~ "%s\n"
+
+#~ msgid "Your payment on weblate.org failed"
+#~ msgstr "Weblate.org saytında ödənişiniz alınmadı"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org has failed.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Retry issuing the payment on the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "If concerning a recurring payment, it is retried three times,\n"
+#~ "and if still failing, cancelled.\n"
+#~ msgstr ""
+#~ "Salam,\n"
+#~ "\n"
+#~ "Weblate.org saytındakı ödənişiniz uğursuz oldu.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Veb saytında ödənişi təkrar etməyə cəhd edin:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Əgər təkrarlanan ödənişlə bağlı olarsa, o, üç dəfə təkrar sınanır və hələ "
+#~ "də uğursuz olarsa, ləğv edilir.\n"
+
+#~ msgid "Your pending payment on weblate.org"
+#~ msgstr "Weblate.org saytında gözlənilən ödənişiniz"
+
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org is pending. Please follow the provided\n"
+#~ "instructions to complete the payment.\n"
+#~ msgstr ""
+#~ "Salam,\n"
+#~ "\n"
+#~ "Weblate.org saytındakı ödənişiniz gözlənilir. Ödənişi tamamlamaq üçün "
+#~ "verilən təlimatlara əməl edin.\n"
+
+#~ msgid "Payment cancelled"
+#~ msgstr "Ödəniş ləğv edildi"
+
+#~ msgid "Payment error"
+#~ msgstr "Ödəniş xətası"
+
+#~ msgid "Bitcoin"
+#~ msgstr ""
+#~ "https://hosted.weblate.org/translate/weblate/website/az/?"
+#~ "checksum=6a72b6a918db3458"
+
+#~ msgid "Issuing bank"
+#~ msgstr "Verən bank"
+
+#~ msgid "Account holder"
+#~ msgstr "Hesab sahibi"
+
+#~ msgid "Account number"
+#~ msgstr "Hesab nömrəsi"
+
+#~ msgid "SWIFT code"
+#~ msgstr "SWIFT kodu"
+
+#~ msgid "IBAN"
+#~ msgstr "IBAN"
+
+#~ msgid "Reference"
+#~ msgstr "İstinad"
 
 #~ msgid "Component limit"
 #~ msgstr "Komponent limiti"
@@ -470,9 +467,6 @@ msgstr "{} etibarlı ƏDV ID deyil."
 #~ msgstr ""
 #~ "Hesabınızın oğurlandığı təqdirdə diaqnoz qoymaq üçün hesabınıza vacib "
 #~ "dəyişikliklər (məsələn, şifrə dəyişikliyi) daxil olur"
-
-#~ msgid "Billing information"
-#~ msgstr "Ödəniş məlumatı"
 
 #~ msgid ""
 #~ "In case you purchase service from us, we collect additional billing "

@@ -9,11 +9,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2024-05-06 10:30+0000\n"
+"POT-Creation-Date: 2025-02-21 09:56+0000\n"
 "PO-Revision-Date: 2024-10-17 16:19+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
-"Language-Team: Welsh <https://hosted.weblate.org/projects/weblate/hosted/cy/>"
-"\n"
+"Language-Team: Welsh <https://hosted.weblate.org/projects/weblate/hosted/cy/"
+">\n"
 "Language: cy\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,15 +34,15 @@ msgstr "Ailosod y storfa i fyny'r afon"
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "Mae'n gwaredu pob newid yn ystorfa Weblate bob nos."
 
-#: wlhosted/integrations/forms.py:32
+#: wlhosted/integrations/forms.py:37
 msgid "Billing"
 msgstr "Bilio"
 
-#: wlhosted/integrations/forms.py:33
+#: wlhosted/integrations/forms.py:38
 msgid "Choose the billing plan you want to update"
 msgstr "Dewiswch y cynllun bilio yr hoffech ei ddiweddaru"
 
-#: wlhosted/integrations/forms.py:34
+#: wlhosted/integrations/forms.py:39
 msgid "Create new billing plan"
 msgstr "Crëwch gynllun bilio newydd"
 
@@ -190,143 +190,33 @@ msgstr "Rheswm anhysbys"
 msgid "Payments are temporarily inactive."
 msgstr "Mae taliadau yn anweithredol dros dro."
 
-#: wlhosted/payments/backends.py:192
-msgid "Your payment on weblate.org"
-msgstr "Eich taliad ar weblate.org"
-
-#: wlhosted/payments/backends.py:194
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Thank you for your payment on weblate.org.\n"
-"\n"
-"You will find an invoice for this payment attached.\n"
-"Alternatively, you can download it from the website:\n"
-"\n"
-"%s\n"
-msgstr ""
-"Helo,\n"
-"\n"
-"Diolch am eich talu ar weblate.org.\n"
-"\n"
-"Byddwch yn canfod anfoneb ar gyfer y taliad hwn wedi'i hatodi.\n"
-"Fel arall, gallwch ei llwytho i lawr o'r wefan:\n"
-"\n"
-"%s\n"
-
-#: wlhosted/payments/backends.py:220
-msgid "Your payment on weblate.org failed"
-msgstr "Methodd eich taliad ar weblate.org"
-
-#: wlhosted/payments/backends.py:222
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org has failed.\n"
-"\n"
-"%s\n"
-"\n"
-"Retry issuing the payment on the website:\n"
-"\n"
-"%s\n"
-"\n"
-"If concerning a recurring payment, it is retried three times,\n"
-"and if still failing, cancelled.\n"
-msgstr ""
-"Helo,\n"
-"\n"
-"Mae eich taliad ar weblate.org wedi methu.\n"
-"\n"
-"%s\n"
-"\n"
-"Ceisiwch ail gynnig y taliad ar y wefan:\n"
-"\n"
-"%s\n"
-"\n"
-"Os yw'n ymwneud â thaliad cylchol, bydd cynnig tair gwaith,\n"
-"ac os yw'n dal i fethu, ei ganslo.\n"
-
-#: wlhosted/payments/backends.py:255
-msgid "Your pending payment on weblate.org"
-msgstr "Eich taliad ar y gweill ar weblate.org"
-
-#: wlhosted/payments/backends.py:257
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org is pending. Please follow the provided\n"
-"instructions to complete the payment.\n"
-msgstr ""
-"Helo,\n"
-"\n"
-"Mae eich taliad ar weblate.org yn aros i'w brosesu. Dilynwch y\n"
-"cyfarwyddiadau a ddarperir i gwblhau'r taliad.\n"
-
-#: wlhosted/payments/backends.py:339
-msgid "Payment card"
-msgstr "Cerdyn talu"
-
-#: wlhosted/payments/backends.py:415
-msgid "Payment cancelled"
-msgstr "Taliad wedi'i ganslo"
-
-#: wlhosted/payments/backends.py:417
-msgid "Payment error"
-msgstr "Gwall wrth dalu"
-
-#: wlhosted/payments/backends.py:429
-msgid "Bitcoin"
-msgstr "Bitcoin"
-
-#: wlhosted/payments/backends.py:438
+#: wlhosted/payments/backends.py:156
 msgid "IBAN bank transfer"
 msgstr "Trosglwyddiad banc IBAN"
 
-#: wlhosted/payments/backends.py:468
-msgid "Issuing bank"
-msgstr "Banc darparu"
+#: wlhosted/payments/backends.py:164
+msgid "Payment card"
+msgstr "Cerdyn talu"
 
-#: wlhosted/payments/backends.py:469
-msgid "Account holder"
-msgstr "Deiliad y cyfrif"
-
-#: wlhosted/payments/backends.py:470
-msgid "Account number"
-msgstr "Rhif cyfrif"
-
-#: wlhosted/payments/backends.py:471
-msgid "SWIFT code"
-msgstr "cod SWIFT"
-
-#: wlhosted/payments/backends.py:472
-msgid "IBAN"
-msgstr "IBAN"
-
-#: wlhosted/payments/backends.py:473
-msgid "Reference"
-msgstr "Cyfeiriadau"
-
-#: wlhosted/payments/models.py:88
+#: wlhosted/payments/models.py:87
 msgid "European VAT ID"
 msgstr "ID TAW Ewropeaidd"
 
-#: wlhosted/payments/models.py:90
+#: wlhosted/payments/models.py:89
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "Llenwch ID TAW yr Undeb Ewropeaidd, gadewch yn wag os nad yw'n berthnasol."
 
-#: wlhosted/payments/models.py:96
+#: wlhosted/payments/models.py:95
 msgid "Tax registration"
 msgstr "Cofrestriad treth"
 
-#: wlhosted/payments/models.py:98
+#: wlhosted/payments/models.py:97
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "Llenwch eich cofrestriad treth os y ddylai ymddangos ar yr anfoneb."
 
-#: wlhosted/payments/models.py:105
+#: wlhosted/payments/models.py:103
 msgid "Company or individual name"
 msgstr "Enw cwmni neu unigolyn"
 
@@ -334,81 +224,186 @@ msgstr "Enw cwmni neu unigolyn"
 msgid "Address"
 msgstr "Cyfeiriad"
 
-#: wlhosted/payments/models.py:111
+#: wlhosted/payments/models.py:113
+msgid "Additional address information"
+msgstr ""
+
+#: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "Cod post a dinas"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:124
+#, fuzzy
+#| msgid "Postcode and city"
+msgid "Postcode"
+msgstr "Cod post a dinas"
+
+#: wlhosted/payments/models.py:128
 msgid "Country"
 msgstr "Gwlad"
 
-#: wlhosted/payments/models.py:144
+#: wlhosted/payments/models.py:165
 msgid "The country has to match your VAT code"
 msgstr "Rhaid i'r wlad gyd-fynd â'ch cod TAW"
 
-#: wlhosted/payments/models.py:167
+#: wlhosted/payments/models.py:188
 msgid "Annual"
 msgstr "Blynyddol"
 
-#: wlhosted/payments/models.py:168
+#: wlhosted/payments/models.py:189
 msgid "Biannual"
 msgstr "Dwywaith y flwyddyn"
 
-#: wlhosted/payments/models.py:169
+#: wlhosted/payments/models.py:190
 msgid "Quarterly"
 msgstr "Chwarterol"
 
-#: wlhosted/payments/models.py:170
+#: wlhosted/payments/models.py:191
 msgid "Monthly"
 msgstr "Misol"
 
-#: wlhosted/payments/models.py:171
+#: wlhosted/payments/models.py:192
 msgid "One-time"
 msgstr "Un tro"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:226
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Taliad newydd"
 
-#: wlhosted/payments/models.py:206
+#: wlhosted/payments/models.py:227
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Yn aros am daliad"
 
-#: wlhosted/payments/models.py:207
+#: wlhosted/payments/models.py:228
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Taliad wedi'i wrthod"
 
-#: wlhosted/payments/models.py:208
+#: wlhosted/payments/models.py:229
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Taliad wedi'i dderbyn"
 
-#: wlhosted/payments/models.py:209
+#: wlhosted/payments/models.py:230
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Taliad wedi'i brosesu"
 
-#: wlhosted/payments/validators.py:38
+#: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
 msgstr ""
 "Nid yw {} yn god gwlad dilys ar gyfer unrhyw aelod o'r Undeb Ewropeaidd."
 
-#: wlhosted/payments/validators.py:43
+#: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
 msgstr "Nid yw {} yn cyfateb i fanylebau ID TAW y wlad."
 
-#: wlhosted/payments/validators.py:50
+#: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
 "Nid yw gwasanaeth dilysu ID TAW ar gael ar gyfer {}, ceisiwch eto yn nes "
 "ymlaen."
 
-#: wlhosted/payments/validators.py:53
+#: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "Nid yw {} yn ID TAW dilys."
+
+#~ msgid "Your payment on weblate.org"
+#~ msgstr "Eich taliad ar weblate.org"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Thank you for your payment on weblate.org.\n"
+#~ "\n"
+#~ "You will find an invoice for this payment attached.\n"
+#~ "Alternatively, you can download it from the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "Helo,\n"
+#~ "\n"
+#~ "Diolch am eich talu ar weblate.org.\n"
+#~ "\n"
+#~ "Byddwch yn canfod anfoneb ar gyfer y taliad hwn wedi'i hatodi.\n"
+#~ "Fel arall, gallwch ei llwytho i lawr o'r wefan:\n"
+#~ "\n"
+#~ "%s\n"
+
+#~ msgid "Your payment on weblate.org failed"
+#~ msgstr "Methodd eich taliad ar weblate.org"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org has failed.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Retry issuing the payment on the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "If concerning a recurring payment, it is retried three times,\n"
+#~ "and if still failing, cancelled.\n"
+#~ msgstr ""
+#~ "Helo,\n"
+#~ "\n"
+#~ "Mae eich taliad ar weblate.org wedi methu.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Ceisiwch ail gynnig y taliad ar y wefan:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Os yw'n ymwneud â thaliad cylchol, bydd cynnig tair gwaith,\n"
+#~ "ac os yw'n dal i fethu, ei ganslo.\n"
+
+#~ msgid "Your pending payment on weblate.org"
+#~ msgstr "Eich taliad ar y gweill ar weblate.org"
+
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org is pending. Please follow the provided\n"
+#~ "instructions to complete the payment.\n"
+#~ msgstr ""
+#~ "Helo,\n"
+#~ "\n"
+#~ "Mae eich taliad ar weblate.org yn aros i'w brosesu. Dilynwch y\n"
+#~ "cyfarwyddiadau a ddarperir i gwblhau'r taliad.\n"
+
+#~ msgid "Payment cancelled"
+#~ msgstr "Taliad wedi'i ganslo"
+
+#~ msgid "Payment error"
+#~ msgstr "Gwall wrth dalu"
+
+#~ msgid "Bitcoin"
+#~ msgstr "Bitcoin"
+
+#~ msgid "Issuing bank"
+#~ msgstr "Banc darparu"
+
+#~ msgid "Account holder"
+#~ msgstr "Deiliad y cyfrif"
+
+#~ msgid "Account number"
+#~ msgstr "Rhif cyfrif"
+
+#~ msgid "SWIFT code"
+#~ msgstr "cod SWIFT"
+
+#~ msgid "IBAN"
+#~ msgstr "IBAN"
+
+#~ msgid "Reference"
+#~ msgstr "Cyfeiriadau"
 
 #~ msgid "Cookies"
 #~ msgstr "Cwcis"

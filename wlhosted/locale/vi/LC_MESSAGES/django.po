@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2024-05-06 10:30+0000\n"
+"POT-Creation-Date: 2025-02-21 09:56+0000\n"
 "PO-Revision-Date: 2024-05-06 11:51+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Vietnamese <https://hosted.weblate.org/projects/weblate/"
@@ -32,15 +32,15 @@ msgstr "Đặt lại kho về thượng nguồn"
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "Bỏ đi tất cả thay đổi trong kho Weblate vào mỗi đêm."
 
-#: wlhosted/integrations/forms.py:32
+#: wlhosted/integrations/forms.py:37
 msgid "Billing"
 msgstr "Thanh toán"
 
-#: wlhosted/integrations/forms.py:33
+#: wlhosted/integrations/forms.py:38
 msgid "Choose the billing plan you want to update"
 msgstr "Chọn kế hoạch thanh toán bạn muốn cập nhật"
 
-#: wlhosted/integrations/forms.py:34
+#: wlhosted/integrations/forms.py:39
 msgid "Create new billing plan"
 msgstr "Tạo kế hoạch thanh toán mới"
 
@@ -191,142 +191,32 @@ msgstr "Lý do không xác định"
 msgid "Payments are temporarily inactive."
 msgstr "Các lượt thanh toán tạm thời không hoạt động."
 
-#: wlhosted/payments/backends.py:192
-msgid "Your payment on weblate.org"
-msgstr "Thanh toán của bạn trên weblate.org"
-
-#: wlhosted/payments/backends.py:194
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Thank you for your payment on weblate.org.\n"
-"\n"
-"You will find an invoice for this payment attached.\n"
-"Alternatively, you can download it from the website:\n"
-"\n"
-"%s\n"
-msgstr ""
-"Xin chào,\n"
-"\n"
-"Cảm ơn bạn vì đã thanh toán trên weblate.org.\n"
-"\n"
-"Bạn sẽ tìm thấy một hóa đơn của việc thanh toán này được đính kèm vào.\n"
-"Bạn cũng có thể tải nó xuống từ trang web.\n"
-"\n"
-"%s\n"
-
-#: wlhosted/payments/backends.py:220
-msgid "Your payment on weblate.org failed"
-msgstr "Việc thanh toán của bạn trên weblate.org đã thất bại"
-
-#: wlhosted/payments/backends.py:222
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org has failed.\n"
-"\n"
-"%s\n"
-"\n"
-"Retry issuing the payment on the website:\n"
-"\n"
-"%s\n"
-"\n"
-"If concerning a recurring payment, it is retried three times,\n"
-"and if still failing, cancelled.\n"
-msgstr ""
-"Xin chào,\n"
-"\n"
-"Việc thanh toán của bạn trên weblate.org đã thất bại.\n"
-"\n"
-"%s\n"
-"\n"
-"Hãy thử thanh toán lại trên trang web:\n"
-"\n"
-"%s\n"
-"\n"
-"Nếu nhắc đến thanh toán lặp lại, thì nó được thử lại ba lần,\n"
-"và nếu vẫn thất bại thì sẽ bị hủy.\n"
-
-#: wlhosted/payments/backends.py:255
-msgid "Your pending payment on weblate.org"
-msgstr "Thanh toán đang chờ của bạn trên weblate.org"
-
-#: wlhosted/payments/backends.py:257
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org is pending. Please follow the provided\n"
-"instructions to complete the payment.\n"
-msgstr ""
-"Xin chào,\n"
-"\n"
-"Việc thanh toán của bạn trên weblate.org đang chờ xử lý. Vui lòng làm theo\n"
-"hướng dẫn được cung cấp để hoàn tất việc thanh toán.\n"
-
-#: wlhosted/payments/backends.py:339
-msgid "Payment card"
-msgstr "Thẻ thanh toán"
-
-#: wlhosted/payments/backends.py:415
-msgid "Payment cancelled"
-msgstr "Đã hủy thanh toán"
-
-#: wlhosted/payments/backends.py:417
-msgid "Payment error"
-msgstr "Lỗi khi thanh toán"
-
-#: wlhosted/payments/backends.py:429
-msgid "Bitcoin"
-msgstr "Bitcoin"
-
-#: wlhosted/payments/backends.py:438
+#: wlhosted/payments/backends.py:156
 msgid "IBAN bank transfer"
 msgstr "Chuyển khoản ngân hàng IBAN"
 
-#: wlhosted/payments/backends.py:468
-msgid "Issuing bank"
-msgstr "Ngân hàng phát hành"
+#: wlhosted/payments/backends.py:164
+msgid "Payment card"
+msgstr "Thẻ thanh toán"
 
-#: wlhosted/payments/backends.py:469
-msgid "Account holder"
-msgstr "Chủ tài khoản"
-
-#: wlhosted/payments/backends.py:470
-msgid "Account number"
-msgstr "Số tài khoản"
-
-#: wlhosted/payments/backends.py:471
-msgid "SWIFT code"
-msgstr "Mã SWIFT"
-
-#: wlhosted/payments/backends.py:472
-msgid "IBAN"
-msgstr "IBAN"
-
-#: wlhosted/payments/backends.py:473
-msgid "Reference"
-msgstr "Giấy chứng nhận"
-
-#: wlhosted/payments/models.py:88
+#: wlhosted/payments/models.py:87
 msgid "European VAT ID"
 msgstr "ID VAT châu Âu"
 
-#: wlhosted/payments/models.py:90
+#: wlhosted/payments/models.py:89
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr "Vui lòng điền ID VAT của Liên minh châu Âu, để trống nếu không có."
 
-#: wlhosted/payments/models.py:96
+#: wlhosted/payments/models.py:95
 msgid "Tax registration"
 msgstr "Đăng ký thuế"
 
-#: wlhosted/payments/models.py:98
+#: wlhosted/payments/models.py:97
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "Vui lòng điền thông tin đăng ký thuế (nếu có) vào hóa đơn."
 
-#: wlhosted/payments/models.py:105
+#: wlhosted/payments/models.py:103
 msgid "Company or individual name"
 msgstr "Tên cá nhân hoặc công ty"
 
@@ -334,80 +224,186 @@ msgstr "Tên cá nhân hoặc công ty"
 msgid "Address"
 msgstr "Địa chỉ"
 
-#: wlhosted/payments/models.py:111
+#: wlhosted/payments/models.py:113
+msgid "Additional address information"
+msgstr ""
+
+#: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "Mã bưu chính và thành phố"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:124
+#, fuzzy
+#| msgid "Postcode and city"
+msgid "Postcode"
+msgstr "Mã bưu chính và thành phố"
+
+#: wlhosted/payments/models.py:128
 msgid "Country"
 msgstr "Quốc gia"
 
-#: wlhosted/payments/models.py:144
+#: wlhosted/payments/models.py:165
 msgid "The country has to match your VAT code"
 msgstr "Quốc gia phải phù hợp với mã VAT"
 
-#: wlhosted/payments/models.py:167
+#: wlhosted/payments/models.py:188
 msgid "Annual"
 msgstr "Hàng năm"
 
-#: wlhosted/payments/models.py:168
+#: wlhosted/payments/models.py:189
 msgid "Biannual"
 msgstr "Hai lần một năm"
 
-#: wlhosted/payments/models.py:169
+#: wlhosted/payments/models.py:190
 msgid "Quarterly"
 msgstr "Hàng quý"
 
-#: wlhosted/payments/models.py:170
+#: wlhosted/payments/models.py:191
 msgid "Monthly"
 msgstr "Hàng tháng"
 
-#: wlhosted/payments/models.py:171
+#: wlhosted/payments/models.py:192
 msgid "One-time"
 msgstr "Một lần"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:226
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Thanh toán mới"
 
-#: wlhosted/payments/models.py:206
+#: wlhosted/payments/models.py:227
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Thanh toán đang chờ"
 
-#: wlhosted/payments/models.py:207
+#: wlhosted/payments/models.py:228
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Thanh toán bị từ chối"
 
-#: wlhosted/payments/models.py:208
+#: wlhosted/payments/models.py:229
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Đã nhận thanh toán"
 
-#: wlhosted/payments/models.py:209
+#: wlhosted/payments/models.py:230
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Đang xử lý thanh toán"
 
-#: wlhosted/payments/validators.py:38
+#: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
 msgstr ""
 "{} không phải là mã quốc gia hợp lệ của bất kỳ thành viên Liên minh châu Âu "
 "nào."
 
-#: wlhosted/payments/validators.py:43
+#: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
 msgstr "{} không khớp với thông số ID VAT của quốc gia đó."
 
-#: wlhosted/payments/validators.py:50
+#: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr "Dịch vụ xác thực ID VAT không có sẵn cho {}, vui lòng thử lại sau."
 
-#: wlhosted/payments/validators.py:53
+#: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "{} không phải là ID VAT hợp lệ."
+
+#~ msgid "Your payment on weblate.org"
+#~ msgstr "Thanh toán của bạn trên weblate.org"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Thank you for your payment on weblate.org.\n"
+#~ "\n"
+#~ "You will find an invoice for this payment attached.\n"
+#~ "Alternatively, you can download it from the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "Xin chào,\n"
+#~ "\n"
+#~ "Cảm ơn bạn vì đã thanh toán trên weblate.org.\n"
+#~ "\n"
+#~ "Bạn sẽ tìm thấy một hóa đơn của việc thanh toán này được đính kèm vào.\n"
+#~ "Bạn cũng có thể tải nó xuống từ trang web.\n"
+#~ "\n"
+#~ "%s\n"
+
+#~ msgid "Your payment on weblate.org failed"
+#~ msgstr "Việc thanh toán của bạn trên weblate.org đã thất bại"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org has failed.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Retry issuing the payment on the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "If concerning a recurring payment, it is retried three times,\n"
+#~ "and if still failing, cancelled.\n"
+#~ msgstr ""
+#~ "Xin chào,\n"
+#~ "\n"
+#~ "Việc thanh toán của bạn trên weblate.org đã thất bại.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Hãy thử thanh toán lại trên trang web:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Nếu nhắc đến thanh toán lặp lại, thì nó được thử lại ba lần,\n"
+#~ "và nếu vẫn thất bại thì sẽ bị hủy.\n"
+
+#~ msgid "Your pending payment on weblate.org"
+#~ msgstr "Thanh toán đang chờ của bạn trên weblate.org"
+
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org is pending. Please follow the provided\n"
+#~ "instructions to complete the payment.\n"
+#~ msgstr ""
+#~ "Xin chào,\n"
+#~ "\n"
+#~ "Việc thanh toán của bạn trên weblate.org đang chờ xử lý. Vui lòng làm "
+#~ "theo\n"
+#~ "hướng dẫn được cung cấp để hoàn tất việc thanh toán.\n"
+
+#~ msgid "Payment cancelled"
+#~ msgstr "Đã hủy thanh toán"
+
+#~ msgid "Payment error"
+#~ msgstr "Lỗi khi thanh toán"
+
+#~ msgid "Bitcoin"
+#~ msgstr "Bitcoin"
+
+#~ msgid "Issuing bank"
+#~ msgstr "Ngân hàng phát hành"
+
+#~ msgid "Account holder"
+#~ msgstr "Chủ tài khoản"
+
+#~ msgid "Account number"
+#~ msgstr "Số tài khoản"
+
+#~ msgid "SWIFT code"
+#~ msgstr "Mã SWIFT"
+
+#~ msgid "IBAN"
+#~ msgstr "IBAN"
+
+#~ msgid "Reference"
+#~ msgstr "Giấy chứng nhận"
 
 #~ msgid "Component limit"
 #~ msgstr "Giới hạn thành phần"

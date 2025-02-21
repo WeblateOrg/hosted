@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2024-05-06 10:30+0000\n"
+"POT-Creation-Date: 2025-02-21 09:56+0000\n"
 "PO-Revision-Date: 2024-05-06 11:51+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Filipino <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -32,15 +32,15 @@ msgstr "I-reset ang repository sa upstream"
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "Balewalain lahat ng pagbabago sa Weblate repository kada gabi."
 
-#: wlhosted/integrations/forms.py:32
+#: wlhosted/integrations/forms.py:37
 msgid "Billing"
 msgstr "Billing"
 
-#: wlhosted/integrations/forms.py:33
+#: wlhosted/integrations/forms.py:38
 msgid "Choose the billing plan you want to update"
 msgstr "Pumili po ng billing plan na gusto niyong i-update"
 
-#: wlhosted/integrations/forms.py:34
+#: wlhosted/integrations/forms.py:39
 msgid "Create new billing plan"
 msgstr "Gumawa ng bagong billing plan"
 
@@ -195,147 +195,36 @@ msgstr "Di alam na dahilan"
 msgid "Payments are temporarily inactive."
 msgstr "Pansamantalang di-aktibo po ang mga bayad."
 
-#: wlhosted/payments/backends.py:192
-msgid "Your payment on weblate.org"
-msgstr "Bayad niyo sa weblate.org"
-
-#: wlhosted/payments/backends.py:194
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Thank you for your payment on weblate.org.\n"
-"\n"
-"You will find an invoice for this payment attached.\n"
-"Alternatively, you can download it from the website:\n"
-"\n"
-"%s\n"
-msgstr ""
-"Kamusta po,\n"
-"\n"
-"Maraming salamat po sa bayad niyo sa weblate.org.\n"
-"\n"
-"Makakikita niyo po ang isang invoice na naka-attach para sa bayad niyo.\n"
-"Bukod rito, mada-download niyo rin ito sa website:\n"
-"\n"
-"%s\n"
-
-#: wlhosted/payments/backends.py:220
-msgid "Your payment on weblate.org failed"
-msgstr "Bigo po ang bayad niyo sa weblate.org"
-
-#: wlhosted/payments/backends.py:222
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org has failed.\n"
-"\n"
-"%s\n"
-"\n"
-"Retry issuing the payment on the website:\n"
-"\n"
-"%s\n"
-"\n"
-"If concerning a recurring payment, it is retried three times,\n"
-"and if still failing, cancelled.\n"
-msgstr ""
-"Kamusta po,\n"
-"\n"
-"Nabigo po ang bayad niyo sa weblate.org.\n"
-"\n"
-"%s\n"
-"\n"
-"Subukan pong iisyu ang bayad sa website:\n"
-"\n"
-"%s\n"
-"\n"
-"Kung sakaling umuulit na bayad po ito, susubukan po ito nang tatlong beses,\n"
-"at kung nabigo pa rin, ikakansela po ito.\n"
-
-#: wlhosted/payments/backends.py:255
-msgid "Your pending payment on weblate.org"
-msgstr "Nakabinbing bayad niyo sa weblate.org"
-
-#: wlhosted/payments/backends.py:257
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org is pending. Please follow the provided\n"
-"instructions to complete the payment.\n"
-msgstr ""
-"Kamusta po,\n"
-"\n"
-"Nakabinbin po ang bayad niyo sa weblate.org. Mangyaring sundin po ang "
-"binigay na\n"
-"gabay para makumpleto ang bayad.\n"
-
-#: wlhosted/payments/backends.py:339
-msgid "Payment card"
-msgstr "Card pambayad"
-
-#: wlhosted/payments/backends.py:415
-msgid "Payment cancelled"
-msgstr "Kinansela ang bayad"
-
-#: wlhosted/payments/backends.py:417
-msgid "Payment error"
-msgstr "Error sa bayad"
-
-#: wlhosted/payments/backends.py:429
-msgid "Bitcoin"
-msgstr "Bitcoin"
-
-#: wlhosted/payments/backends.py:438
+#: wlhosted/payments/backends.py:156
 msgid "IBAN bank transfer"
 msgstr "IBAN bank transfer"
 
-#: wlhosted/payments/backends.py:468
-msgid "Issuing bank"
-msgstr "Nag-iisyung bangko"
+#: wlhosted/payments/backends.py:164
+msgid "Payment card"
+msgstr "Card pambayad"
 
-#: wlhosted/payments/backends.py:469
-msgid "Account holder"
-msgstr "May-hawak ng account"
-
-#: wlhosted/payments/backends.py:470
-msgid "Account number"
-msgstr "Numero ng account"
-
-#: wlhosted/payments/backends.py:471
-msgid "SWIFT code"
-msgstr "SWIFT code"
-
-#: wlhosted/payments/backends.py:472
-msgid "IBAN"
-msgstr "IBAN"
-
-#: wlhosted/payments/backends.py:473
-msgid "Reference"
-msgstr "Sanggunian"
-
-#: wlhosted/payments/models.py:88
+#: wlhosted/payments/models.py:87
 msgid "European VAT ID"
 msgstr "VAT ID ng Europa"
 
-#: wlhosted/payments/models.py:90
+#: wlhosted/payments/models.py:89
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "Mangyaring punan po ang VAT ID ng Europa, iwanang bakante kung hindi "
 "applicable."
 
-#: wlhosted/payments/models.py:96
+#: wlhosted/payments/models.py:95
 msgid "Tax registration"
 msgstr "Rehistro ng buwis"
 
-#: wlhosted/payments/models.py:98
+#: wlhosted/payments/models.py:97
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
 "Mangyaring punan ang rehistro ng buwis niyo kung dapat po itong magpakita sa "
 "invoice."
 
-#: wlhosted/payments/models.py:105
+#: wlhosted/payments/models.py:103
 msgid "Company or individual name"
 msgstr "Pangalan ng kumpanya o indibidwal"
 
@@ -343,81 +232,188 @@ msgstr "Pangalan ng kumpanya o indibidwal"
 msgid "Address"
 msgstr "Address"
 
-#: wlhosted/payments/models.py:111
+#: wlhosted/payments/models.py:113
+msgid "Additional address information"
+msgstr ""
+
+#: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "Postcode at lungsod"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:124
+#, fuzzy
+#| msgid "Postcode and city"
+msgid "Postcode"
+msgstr "Postcode at lungsod"
+
+#: wlhosted/payments/models.py:128
 msgid "Country"
 msgstr "Bansa"
 
-#: wlhosted/payments/models.py:144
+#: wlhosted/payments/models.py:165
 msgid "The country has to match your VAT code"
 msgstr "Kailangang tumugma ang bansa sa VAT code niyo"
 
-#: wlhosted/payments/models.py:167
+#: wlhosted/payments/models.py:188
 msgid "Annual"
 msgstr "Kada taon"
 
-#: wlhosted/payments/models.py:168
+#: wlhosted/payments/models.py:189
 msgid "Biannual"
 msgstr "Kada 6 na buwan"
 
-#: wlhosted/payments/models.py:169
+#: wlhosted/payments/models.py:190
 msgid "Quarterly"
 msgstr "Kada 3 buwan"
 
-#: wlhosted/payments/models.py:170
+#: wlhosted/payments/models.py:191
 msgid "Monthly"
 msgstr "Kada buwan"
 
-#: wlhosted/payments/models.py:171
+#: wlhosted/payments/models.py:192
 msgid "One-time"
 msgstr "Isang beses lamang"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:226
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Bagong bayad"
 
-#: wlhosted/payments/models.py:206
+#: wlhosted/payments/models.py:227
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Naghihintay ng bayad"
 
-#: wlhosted/payments/models.py:207
+#: wlhosted/payments/models.py:228
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Tinanggihan ang bayad"
 
-#: wlhosted/payments/models.py:208
+#: wlhosted/payments/models.py:229
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Tinanggap ang bayad"
 
-#: wlhosted/payments/models.py:209
+#: wlhosted/payments/models.py:230
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Prinoseso ang bayad"
 
-#: wlhosted/payments/validators.py:38
+#: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
 msgstr ""
 "Di valid na code ng bansa ang {} para sa alinmang miyembro ng European Union."
 
-#: wlhosted/payments/validators.py:43
+#: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
 msgstr "Di tumutugma sa mga specification ng VAT ID ng bansa ang {}."
 
-#: wlhosted/payments/validators.py:50
+#: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
 "Di available ang VAT ID validation service para sa {}, mangyaring subukan po "
 "muli."
 
-#: wlhosted/payments/validators.py:53
+#: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "Di valid na VAT ID ang {}."
+
+#~ msgid "Your payment on weblate.org"
+#~ msgstr "Bayad niyo sa weblate.org"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Thank you for your payment on weblate.org.\n"
+#~ "\n"
+#~ "You will find an invoice for this payment attached.\n"
+#~ "Alternatively, you can download it from the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "Kamusta po,\n"
+#~ "\n"
+#~ "Maraming salamat po sa bayad niyo sa weblate.org.\n"
+#~ "\n"
+#~ "Makakikita niyo po ang isang invoice na naka-attach para sa bayad niyo.\n"
+#~ "Bukod rito, mada-download niyo rin ito sa website:\n"
+#~ "\n"
+#~ "%s\n"
+
+#~ msgid "Your payment on weblate.org failed"
+#~ msgstr "Bigo po ang bayad niyo sa weblate.org"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org has failed.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Retry issuing the payment on the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "If concerning a recurring payment, it is retried three times,\n"
+#~ "and if still failing, cancelled.\n"
+#~ msgstr ""
+#~ "Kamusta po,\n"
+#~ "\n"
+#~ "Nabigo po ang bayad niyo sa weblate.org.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Subukan pong iisyu ang bayad sa website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Kung sakaling umuulit na bayad po ito, susubukan po ito nang tatlong "
+#~ "beses,\n"
+#~ "at kung nabigo pa rin, ikakansela po ito.\n"
+
+#~ msgid "Your pending payment on weblate.org"
+#~ msgstr "Nakabinbing bayad niyo sa weblate.org"
+
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org is pending. Please follow the provided\n"
+#~ "instructions to complete the payment.\n"
+#~ msgstr ""
+#~ "Kamusta po,\n"
+#~ "\n"
+#~ "Nakabinbin po ang bayad niyo sa weblate.org. Mangyaring sundin po ang "
+#~ "binigay na\n"
+#~ "gabay para makumpleto ang bayad.\n"
+
+#~ msgid "Payment cancelled"
+#~ msgstr "Kinansela ang bayad"
+
+#~ msgid "Payment error"
+#~ msgstr "Error sa bayad"
+
+#~ msgid "Bitcoin"
+#~ msgstr "Bitcoin"
+
+#~ msgid "Issuing bank"
+#~ msgstr "Nag-iisyung bangko"
+
+#~ msgid "Account holder"
+#~ msgstr "May-hawak ng account"
+
+#~ msgid "Account number"
+#~ msgstr "Numero ng account"
+
+#~ msgid "SWIFT code"
+#~ msgstr "SWIFT code"
+
+#~ msgid "IBAN"
+#~ msgstr "IBAN"
+
+#~ msgid "Reference"
+#~ msgstr "Sanggunian"
 
 #~ msgid "Component limit"
 #~ msgstr "Limit sa component"

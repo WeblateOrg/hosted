@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2024-05-06 10:30+0000\n"
+"POT-Creation-Date: 2025-02-21 09:56+0000\n"
 "PO-Revision-Date: 2024-11-11 20:15+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -32,15 +32,15 @@ msgstr "Frumstilla gagnageymslu til samræmis við aðalsafn"
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "Eyðir öllum breytingum í Weblate-gagnasafninu á hverri nóttu."
 
-#: wlhosted/integrations/forms.py:32
+#: wlhosted/integrations/forms.py:37
 msgid "Billing"
 msgstr "Greiðslur"
 
-#: wlhosted/integrations/forms.py:33
+#: wlhosted/integrations/forms.py:38
 msgid "Choose the billing plan you want to update"
 msgstr "Veldu greiðsluáætlunina sem þú vilt uppfæra"
 
-#: wlhosted/integrations/forms.py:34
+#: wlhosted/integrations/forms.py:39
 msgid "Create new billing plan"
 msgstr "Búa til nýja greiðsluáætlun"
 
@@ -189,144 +189,34 @@ msgstr "Óþekkt ástæða"
 msgid "Payments are temporarily inactive."
 msgstr "Greiðslur eru tímabundið óvirkar."
 
-#: wlhosted/payments/backends.py:192
-msgid "Your payment on weblate.org"
-msgstr "Greiðsla þín á weblate.org"
-
-#: wlhosted/payments/backends.py:194
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Thank you for your payment on weblate.org.\n"
-"\n"
-"You will find an invoice for this payment attached.\n"
-"Alternatively, you can download it from the website:\n"
-"\n"
-"%s\n"
-msgstr ""
-"Góðan daginn,\n"
-"\n"
-"Takk fyrir greiðsluna þína á weblate.org.\n"
-"\n"
-"Þú getur séð reikning fyrir greiðslunni í viðhengi.\n"
-"Eins geturðu sótt hann af vefsvæðinu:\n"
-"\n"
-"%s\n"
-
-#: wlhosted/payments/backends.py:220
-msgid "Your payment on weblate.org failed"
-msgstr "Greiðsla þín á weblate.org mistókst"
-
-#: wlhosted/payments/backends.py:222
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org has failed.\n"
-"\n"
-"%s\n"
-"\n"
-"Retry issuing the payment on the website:\n"
-"\n"
-"%s\n"
-"\n"
-"If concerning a recurring payment, it is retried three times,\n"
-"and if still failing, cancelled.\n"
-msgstr ""
-"Góðan daginn,\n"
-"\n"
-"Greiðsla þín á weblate.org mistókst.\n"
-"\n"
-"%s\n"
-"\n"
-"Reyndu að greiða þetta aftur á vefsvæðinu:\n"
-"\n"
-"%s\n"
-"\n"
-"Ef þetta tengist endurteknum greiðslum, þá er reynt þrisvar,\n"
-"og ef það gengur ekki, er þjónustunni sagt upp.\n"
-
-#: wlhosted/payments/backends.py:255
-msgid "Your pending payment on weblate.org"
-msgstr "Greiðsla þín í bið á weblate.org"
-
-#: wlhosted/payments/backends.py:257
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org is pending. Please follow the provided\n"
-"instructions to complete the payment.\n"
-msgstr ""
-"Góðan daginn,\n"
-"\n"
-"Greiðsla þín á weblate.org er í biðstöðu. Farðu eftir leiðbeiningunum\n"
-"til þess að ljúka greiðslunni.\n"
-
-#: wlhosted/payments/backends.py:339
-msgid "Payment card"
-msgstr "Greiðslukort"
-
-#: wlhosted/payments/backends.py:415
-msgid "Payment cancelled"
-msgstr "Greiðsla afturkölluð"
-
-#: wlhosted/payments/backends.py:417
-msgid "Payment error"
-msgstr "Villa kom upp í greiðslu"
-
-#: wlhosted/payments/backends.py:429
-msgid "Bitcoin"
-msgstr "Bitcoin"
-
-#: wlhosted/payments/backends.py:438
+#: wlhosted/payments/backends.py:156
 msgid "IBAN bank transfer"
 msgstr "IBAN bankamillifærsla"
 
-#: wlhosted/payments/backends.py:468
-msgid "Issuing bank"
-msgstr "Útgáfubanki"
+#: wlhosted/payments/backends.py:164
+msgid "Payment card"
+msgstr "Greiðslukort"
 
-#: wlhosted/payments/backends.py:469
-msgid "Account holder"
-msgstr "Reikningseigandi"
-
-#: wlhosted/payments/backends.py:470
-msgid "Account number"
-msgstr "Reikningsnúmer"
-
-#: wlhosted/payments/backends.py:471
-msgid "SWIFT code"
-msgstr "SWIFT-númer"
-
-#: wlhosted/payments/backends.py:472
-msgid "IBAN"
-msgstr "IBAN"
-
-#: wlhosted/payments/backends.py:473
-msgid "Reference"
-msgstr "Tilvísun"
-
-#: wlhosted/payments/models.py:88
+#: wlhosted/payments/models.py:87
 msgid "European VAT ID"
 msgstr "Evrópskt virðisaukaskattsnúmer"
 
-#: wlhosted/payments/models.py:90
+#: wlhosted/payments/models.py:89
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "Fylltu inn evrópskt virðisaukaskattsnúmer, skildu reitinn eftir auðan ef það "
 "á ekki við."
 
-#: wlhosted/payments/models.py:96
+#: wlhosted/payments/models.py:95
 msgid "Tax registration"
 msgstr "Skattnúmer"
 
-#: wlhosted/payments/models.py:98
+#: wlhosted/payments/models.py:97
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "Fylltu inn skattnúmer þitt ef það á að birtast á reikningnum."
 
-#: wlhosted/payments/models.py:105
+#: wlhosted/payments/models.py:103
 msgid "Company or individual name"
 msgstr "Nafn fyrirtækis eða einstaklings"
 
@@ -334,81 +224,188 @@ msgstr "Nafn fyrirtækis eða einstaklings"
 msgid "Address"
 msgstr "Heimilisfang"
 
-#: wlhosted/payments/models.py:111
+#: wlhosted/payments/models.py:113
+#, fuzzy
+#| msgid "Billing information"
+msgid "Additional address information"
+msgstr "Upplýsingar um greiðanda"
+
+#: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "Póstnúmer og staður"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:124
+#, fuzzy
+#| msgid "Postcode and city"
+msgid "Postcode"
+msgstr "Póstnúmer og staður"
+
+#: wlhosted/payments/models.py:128
 msgid "Country"
 msgstr "Land"
 
-#: wlhosted/payments/models.py:144
+#: wlhosted/payments/models.py:165
 msgid "The country has to match your VAT code"
 msgstr "Landið þarf að passa við virðisaukaskattsnúmerið"
 
-#: wlhosted/payments/models.py:167
+#: wlhosted/payments/models.py:188
 msgid "Annual"
 msgstr "Árlegt"
 
-#: wlhosted/payments/models.py:168
+#: wlhosted/payments/models.py:189
 msgid "Biannual"
 msgstr "Á tveggja ára fresti"
 
-#: wlhosted/payments/models.py:169
+#: wlhosted/payments/models.py:190
 msgid "Quarterly"
 msgstr "Ársfjórðungslega"
 
-#: wlhosted/payments/models.py:170
+#: wlhosted/payments/models.py:191
 msgid "Monthly"
 msgstr "Mánaðarlega"
 
-#: wlhosted/payments/models.py:171
+#: wlhosted/payments/models.py:192
 msgid "One-time"
 msgstr "Eitt skipti"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:226
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Ný greiðsla"
 
-#: wlhosted/payments/models.py:206
+#: wlhosted/payments/models.py:227
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Bíður greiðslu"
 
-#: wlhosted/payments/models.py:207
+#: wlhosted/payments/models.py:228
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Greiðslu hafnað"
 
-#: wlhosted/payments/models.py:208
+#: wlhosted/payments/models.py:229
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Greiðsla samþykkt"
 
-#: wlhosted/payments/models.py:209
+#: wlhosted/payments/models.py:230
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Greiðsla meðhöndluð"
 
-#: wlhosted/payments/validators.py:38
+#: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
 msgstr ""
 "{} er ekki gilt landsnúmer fyrir nokkurt aðildarríki Evrópusambandsins."
 
-#: wlhosted/payments/validators.py:43
+#: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
 msgstr "{} passar ekki við upplýsingar um virðisaukaskattsnúmer landsins."
 
-#: wlhosted/payments/validators.py:50
+#: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
 "Staðfestingarþjónusta virðisaukaskattsnúmera fyrir {} er óvirk í "
 "augnablikinu, reyndu aftur síðar."
 
-#: wlhosted/payments/validators.py:53
+#: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "{} er ekki gilt virðisaukaskattsnúmer."
+
+#~ msgid "Your payment on weblate.org"
+#~ msgstr "Greiðsla þín á weblate.org"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Thank you for your payment on weblate.org.\n"
+#~ "\n"
+#~ "You will find an invoice for this payment attached.\n"
+#~ "Alternatively, you can download it from the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "Góðan daginn,\n"
+#~ "\n"
+#~ "Takk fyrir greiðsluna þína á weblate.org.\n"
+#~ "\n"
+#~ "Þú getur séð reikning fyrir greiðslunni í viðhengi.\n"
+#~ "Eins geturðu sótt hann af vefsvæðinu:\n"
+#~ "\n"
+#~ "%s\n"
+
+#~ msgid "Your payment on weblate.org failed"
+#~ msgstr "Greiðsla þín á weblate.org mistókst"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org has failed.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Retry issuing the payment on the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "If concerning a recurring payment, it is retried three times,\n"
+#~ "and if still failing, cancelled.\n"
+#~ msgstr ""
+#~ "Góðan daginn,\n"
+#~ "\n"
+#~ "Greiðsla þín á weblate.org mistókst.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Reyndu að greiða þetta aftur á vefsvæðinu:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Ef þetta tengist endurteknum greiðslum, þá er reynt þrisvar,\n"
+#~ "og ef það gengur ekki, er þjónustunni sagt upp.\n"
+
+#~ msgid "Your pending payment on weblate.org"
+#~ msgstr "Greiðsla þín í bið á weblate.org"
+
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org is pending. Please follow the provided\n"
+#~ "instructions to complete the payment.\n"
+#~ msgstr ""
+#~ "Góðan daginn,\n"
+#~ "\n"
+#~ "Greiðsla þín á weblate.org er í biðstöðu. Farðu eftir leiðbeiningunum\n"
+#~ "til þess að ljúka greiðslunni.\n"
+
+#~ msgid "Payment cancelled"
+#~ msgstr "Greiðsla afturkölluð"
+
+#~ msgid "Payment error"
+#~ msgstr "Villa kom upp í greiðslu"
+
+#~ msgid "Bitcoin"
+#~ msgstr "Bitcoin"
+
+#~ msgid "Issuing bank"
+#~ msgstr "Útgáfubanki"
+
+#~ msgid "Account holder"
+#~ msgstr "Reikningseigandi"
+
+#~ msgid "Account number"
+#~ msgstr "Reikningsnúmer"
+
+#~ msgid "SWIFT code"
+#~ msgstr "SWIFT-númer"
+
+#~ msgid "IBAN"
+#~ msgstr "IBAN"
+
+#~ msgid "Reference"
+#~ msgstr "Tilvísun"
 
 #~ msgid "Component limit"
 #~ msgstr "Takmörk á fjölda eininga"
@@ -470,9 +467,6 @@ msgstr "{} er ekki gilt virðisaukaskattsnúmer."
 #~ "Þetta er skráð til að nota ef mikilvægar breytingar verða á "
 #~ "notandaaðgangnum þínum (t.d. breytingar á lykilorði) svo hægt sé að "
 #~ "greina hvort aðgangnum þínum hafi verið stolið"
-
-#~ msgid "Billing information"
-#~ msgstr "Upplýsingar um greiðanda"
 
 #~ msgid ""
 #~ "In case you purchase service from us, we collect additional billing "

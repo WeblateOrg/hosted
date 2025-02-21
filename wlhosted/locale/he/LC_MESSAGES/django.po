@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2024-05-06 10:30+0000\n"
+"POT-Creation-Date: 2025-02-21 09:56+0000\n"
 "PO-Revision-Date: 2024-05-06 11:51+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/weblate/hosted/he/"
@@ -34,15 +34,15 @@ msgstr "איפוס המאגר לפי מאגר המקור"
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "משליך את כל השינויים במאגר של Weblate כל לילה."
 
-#: wlhosted/integrations/forms.py:32
+#: wlhosted/integrations/forms.py:37
 msgid "Billing"
 msgstr "חיוב"
 
-#: wlhosted/integrations/forms.py:33
+#: wlhosted/integrations/forms.py:38
 msgid "Choose the billing plan you want to update"
 msgstr "נא לבחור את תכנית החיוב שברצונך לעדכן"
 
-#: wlhosted/integrations/forms.py:34
+#: wlhosted/integrations/forms.py:39
 msgid "Create new billing plan"
 msgstr "יצירת תכנית חיוב חדשה"
 
@@ -184,142 +184,32 @@ msgstr "סיבה בלתי ידועה"
 msgid "Payments are temporarily inactive."
 msgstr "התשלומים אינם פעילים באופן זמני."
 
-#: wlhosted/payments/backends.py:192
-msgid "Your payment on weblate.org"
-msgstr "התשלום שלך באתר weblate.org"
-
-#: wlhosted/payments/backends.py:194
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Thank you for your payment on weblate.org.\n"
-"\n"
-"You will find an invoice for this payment attached.\n"
-"Alternatively, you can download it from the website:\n"
-"\n"
-"%s\n"
-msgstr ""
-"שלום,\n"
-"\n"
-"תודה רבה על התשלום שלך מול weblate.org.\n"
-"\n"
-"להודעה זו מצורפת חשבונית.\n"
-"לחלופין, ניתן להוריד אותה מהאתר:\n"
-"\n"
-"%s\n"
-
-#: wlhosted/payments/backends.py:220
-msgid "Your payment on weblate.org failed"
-msgstr "התשלום שלך ב־weblate.org נכשל"
-
-#: wlhosted/payments/backends.py:222
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org has failed.\n"
-"\n"
-"%s\n"
-"\n"
-"Retry issuing the payment on the website:\n"
-"\n"
-"%s\n"
-"\n"
-"If concerning a recurring payment, it is retried three times,\n"
-"and if still failing, cancelled.\n"
-msgstr ""
-"שלום,\n"
-"\n"
-"התשלום שלך ב־weblate.org נכשל.\n"
-"\n"
-"%s\n"
-"\n"
-"ניתן לנסות לשלם פעם נוספת באתר:\n"
-"\n"
-"%s\n"
-"\n"
-"במקרה של ניסיונות חוזרים, הניסיון מתבצע שלוש פעמים,\n"
-"אם התשלום עדיין נכשל, הוא מבוטל.\n"
-
-#: wlhosted/payments/backends.py:255
-msgid "Your pending payment on weblate.org"
-msgstr "התשלום שלך שממתין ב־weblate.org"
-
-#: wlhosted/payments/backends.py:257
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org is pending. Please follow the provided\n"
-"instructions to complete the payment.\n"
-msgstr ""
-"שלום,\n"
-"\n"
-"התשלום שלך ל־weblate.org ממתין כעת. נא לעקוב אחר ההנחיות\n"
-"שלהלן כדי להשלים את התשלום.\n"
-
-#: wlhosted/payments/backends.py:339
-msgid "Payment card"
-msgstr "כרטיס תשלום"
-
-#: wlhosted/payments/backends.py:415
-msgid "Payment cancelled"
-msgstr "התשלום בוטל"
-
-#: wlhosted/payments/backends.py:417
-msgid "Payment error"
-msgstr "שגיאת תשלום"
-
-#: wlhosted/payments/backends.py:429
-msgid "Bitcoin"
-msgstr "ביטקוין"
-
-#: wlhosted/payments/backends.py:438
+#: wlhosted/payments/backends.py:156
 msgid "IBAN bank transfer"
 msgstr "העברה בנקאית עם זה״ב"
 
-#: wlhosted/payments/backends.py:468
-msgid "Issuing bank"
-msgstr "הבנק המנפיק"
+#: wlhosted/payments/backends.py:164
+msgid "Payment card"
+msgstr "כרטיס תשלום"
 
-#: wlhosted/payments/backends.py:469
-msgid "Account holder"
-msgstr "בעל החשבון"
-
-#: wlhosted/payments/backends.py:470
-msgid "Account number"
-msgstr "מספר חשבון"
-
-#: wlhosted/payments/backends.py:471
-msgid "SWIFT code"
-msgstr "קוד SWIFT"
-
-#: wlhosted/payments/backends.py:472
-msgid "IBAN"
-msgstr "מספר זה״ב"
-
-#: wlhosted/payments/backends.py:473
-msgid "Reference"
-msgstr "הפניה"
-
-#: wlhosted/payments/models.py:88
+#: wlhosted/payments/models.py:87
 msgid "European VAT ID"
 msgstr "מזהה מע״מ אירופאי"
 
-#: wlhosted/payments/models.py:90
+#: wlhosted/payments/models.py:89
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr "נא למלא מזהה מע״מ אירופאי, יש להשאיר את השדה ריק אם אין בו צורך."
 
-#: wlhosted/payments/models.py:96
+#: wlhosted/payments/models.py:95
 msgid "Tax registration"
 msgstr "רישום מס"
 
-#: wlhosted/payments/models.py:98
+#: wlhosted/payments/models.py:97
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "נא למלא את פרטי רישום המס שלך אם הם אמורים להופיע בחשבונית."
 
-#: wlhosted/payments/models.py:105
+#: wlhosted/payments/models.py:103
 msgid "Company or individual name"
 msgstr "שם האדם או החברה"
 
@@ -327,78 +217,185 @@ msgstr "שם האדם או החברה"
 msgid "Address"
 msgstr "כתובת"
 
-#: wlhosted/payments/models.py:111
+#: wlhosted/payments/models.py:113
+#, fuzzy
+#| msgid "Billing information"
+msgid "Additional address information"
+msgstr "פרטי חיוב"
+
+#: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "מיקוד ועיר"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:124
+#, fuzzy
+#| msgid "Postcode and city"
+msgid "Postcode"
+msgstr "מיקוד ועיר"
+
+#: wlhosted/payments/models.py:128
 msgid "Country"
 msgstr "ארץ"
 
-#: wlhosted/payments/models.py:144
+#: wlhosted/payments/models.py:165
 msgid "The country has to match your VAT code"
 msgstr "על הארץ להיות תואמת לקוד המע״מ שלך"
 
-#: wlhosted/payments/models.py:167
+#: wlhosted/payments/models.py:188
 msgid "Annual"
 msgstr "שנתי"
 
-#: wlhosted/payments/models.py:168
+#: wlhosted/payments/models.py:189
 msgid "Biannual"
 msgstr "דו־שנתי"
 
-#: wlhosted/payments/models.py:169
+#: wlhosted/payments/models.py:190
 msgid "Quarterly"
 msgstr "רבעוני"
 
-#: wlhosted/payments/models.py:170
+#: wlhosted/payments/models.py:191
 msgid "Monthly"
 msgstr "חודשי"
 
-#: wlhosted/payments/models.py:171
+#: wlhosted/payments/models.py:192
 msgid "One-time"
 msgstr "חד־פעמי"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:226
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "תשלום חדש"
 
-#: wlhosted/payments/models.py:206
+#: wlhosted/payments/models.py:227
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "בהמתנה לתשלום"
 
-#: wlhosted/payments/models.py:207
+#: wlhosted/payments/models.py:228
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "התשלום נדחה"
 
-#: wlhosted/payments/models.py:208
+#: wlhosted/payments/models.py:229
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "התשלום התקבל"
 
-#: wlhosted/payments/models.py:209
+#: wlhosted/payments/models.py:230
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "התשלום עבר עיבוד"
 
-#: wlhosted/payments/validators.py:38
+#: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
 msgstr "{} אינו קוד מדינה תקני לחברות באיחוד האירופי."
 
-#: wlhosted/payments/validators.py:43
+#: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
 msgstr "{} אינו תואם את פירוט מזהה המע״מ של המדינה."
 
-#: wlhosted/payments/validators.py:50
+#: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr "שירות אימות מזהה המע״מ אינו זמין עבור {}, נא לנסות שוב בהמשך."
 
-#: wlhosted/payments/validators.py:53
+#: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "{} אינו מזהה מע״מ תקני."
+
+#~ msgid "Your payment on weblate.org"
+#~ msgstr "התשלום שלך באתר weblate.org"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Thank you for your payment on weblate.org.\n"
+#~ "\n"
+#~ "You will find an invoice for this payment attached.\n"
+#~ "Alternatively, you can download it from the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "שלום,\n"
+#~ "\n"
+#~ "תודה רבה על התשלום שלך מול weblate.org.\n"
+#~ "\n"
+#~ "להודעה זו מצורפת חשבונית.\n"
+#~ "לחלופין, ניתן להוריד אותה מהאתר:\n"
+#~ "\n"
+#~ "%s\n"
+
+#~ msgid "Your payment on weblate.org failed"
+#~ msgstr "התשלום שלך ב־weblate.org נכשל"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org has failed.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Retry issuing the payment on the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "If concerning a recurring payment, it is retried three times,\n"
+#~ "and if still failing, cancelled.\n"
+#~ msgstr ""
+#~ "שלום,\n"
+#~ "\n"
+#~ "התשלום שלך ב־weblate.org נכשל.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "ניתן לנסות לשלם פעם נוספת באתר:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "במקרה של ניסיונות חוזרים, הניסיון מתבצע שלוש פעמים,\n"
+#~ "אם התשלום עדיין נכשל, הוא מבוטל.\n"
+
+#~ msgid "Your pending payment on weblate.org"
+#~ msgstr "התשלום שלך שממתין ב־weblate.org"
+
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org is pending. Please follow the provided\n"
+#~ "instructions to complete the payment.\n"
+#~ msgstr ""
+#~ "שלום,\n"
+#~ "\n"
+#~ "התשלום שלך ל־weblate.org ממתין כעת. נא לעקוב אחר ההנחיות\n"
+#~ "שלהלן כדי להשלים את התשלום.\n"
+
+#~ msgid "Payment cancelled"
+#~ msgstr "התשלום בוטל"
+
+#~ msgid "Payment error"
+#~ msgstr "שגיאת תשלום"
+
+#~ msgid "Bitcoin"
+#~ msgstr "ביטקוין"
+
+#~ msgid "Issuing bank"
+#~ msgstr "הבנק המנפיק"
+
+#~ msgid "Account holder"
+#~ msgstr "בעל החשבון"
+
+#~ msgid "Account number"
+#~ msgstr "מספר חשבון"
+
+#~ msgid "SWIFT code"
+#~ msgstr "קוד SWIFT"
+
+#~ msgid "IBAN"
+#~ msgstr "מספר זה״ב"
+
+#~ msgid "Reference"
+#~ msgstr "הפניה"
 
 #~ msgid "Component limit"
 #~ msgstr "מגבלת רכיבים"
@@ -456,9 +453,6 @@ msgstr "{} אינו מזהה מע״מ תקני."
 #~ msgstr ""
 #~ "אלו מתועדים למקרה שיתרחשו שינויים חשובים לחשבונך (למשל: החלפת ססמה) כדי "
 #~ "לאפשר ניתוח במקרה של גניבת החשבון שלך"
-
-#~ msgid "Billing information"
-#~ msgstr "פרטי חיוב"
 
 #~ msgid ""
 #~ "In case you purchase service from us, we collect additional billing "

@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2024-05-06 10:30+0000\n"
+"POT-Creation-Date: 2025-02-21 09:56+0000\n"
 "PO-Revision-Date: 2024-09-25 21:15+0000\n"
 "Last-Translator: jonnysemon <jonnysemon@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/weblate/hosted/ar/"
@@ -41,15 +41,15 @@ msgstr "إعادة تعيين المستودع إلى المنبع"
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "يتجاهل جميع التغييرات في مستودع Weblate كل ليلة."
 
-#: wlhosted/integrations/forms.py:32
+#: wlhosted/integrations/forms.py:37
 msgid "Billing"
 msgstr "الفَوترة"
 
-#: wlhosted/integrations/forms.py:33
+#: wlhosted/integrations/forms.py:38
 msgid "Choose the billing plan you want to update"
 msgstr "اختر خطة الفوترة التي تريد تحديثها"
 
-#: wlhosted/integrations/forms.py:34
+#: wlhosted/integrations/forms.py:39
 msgid "Create new billing plan"
 msgstr "إنشاء خطة فوترة جديدة"
 
@@ -194,144 +194,34 @@ msgstr "سبب مجهول"
 msgid "Payments are temporarily inactive."
 msgstr "لقد تم تعطيل الدفع مؤقتا."
 
-#: wlhosted/payments/backends.py:192
-msgid "Your payment on weblate.org"
-msgstr "دفعتك على weblate.org"
-
-#: wlhosted/payments/backends.py:194
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Thank you for your payment on weblate.org.\n"
-"\n"
-"You will find an invoice for this payment attached.\n"
-"Alternatively, you can download it from the website:\n"
-"\n"
-"%s\n"
-msgstr ""
-"مرحبًا\n"
-"\n"
-"شكرا لك على دفعك على weblate.org.\n"
-"\n"
-"ستجد فاتورة لهذه الدفعة مرفقة.\n"
-"بدلا من ذلك ، يمكنك تنزيله من موقع الويب:\n"
-"\n"
-"%s\n"
-
-#: wlhosted/payments/backends.py:220
-msgid "Your payment on weblate.org failed"
-msgstr "فشلت عملية الدفع في weblate.org"
-
-#: wlhosted/payments/backends.py:222
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org has failed.\n"
-"\n"
-"%s\n"
-"\n"
-"Retry issuing the payment on the website:\n"
-"\n"
-"%s\n"
-"\n"
-"If concerning a recurring payment, it is retried three times,\n"
-"and if still failing, cancelled.\n"
-msgstr ""
-"مرحبًا\n"
-"\n"
-"فشلت عملية الدفع الخاصة بك على weblate.org.\n"
-"\n"
-"%s\n"
-"\n"
-"أعد محاولة إصدار الدفعة على الموقع:\n"
-"\n"
-"%s\n"
-"\n"
-"إذا كان الأمر يتعلق بدفعة متكررة ، تتم إعادة المحاولة ثلاث مرات ،\n"
-"وإذا كان لا يزال يفشل ، تم إلغاؤه.\n"
-
-#: wlhosted/payments/backends.py:255
-msgid "Your pending payment on weblate.org"
-msgstr "دفعتك المعلقة على weblate.org"
-
-#: wlhosted/payments/backends.py:257
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org is pending. Please follow the provided\n"
-"instructions to complete the payment.\n"
-msgstr ""
-"مرحبًا\n"
-"\n"
-"دفعتك على weblate.org معلقة. يرجى اتباع ما تم توفيره\n"
-"تعليمات لإتمام الدفع.\n"
-
-#: wlhosted/payments/backends.py:339
-msgid "Payment card"
-msgstr "بطاقة الدفع"
-
-#: wlhosted/payments/backends.py:415
-msgid "Payment cancelled"
-msgstr "تم إلغاء الدفع"
-
-#: wlhosted/payments/backends.py:417
-msgid "Payment error"
-msgstr "خطأ في الدفع"
-
-#: wlhosted/payments/backends.py:429
-msgid "Bitcoin"
-msgstr "البتكوين"
-
-#: wlhosted/payments/backends.py:438
+#: wlhosted/payments/backends.py:156
 msgid "IBAN bank transfer"
 msgstr "التحويل المصرفي IBAN"
 
-#: wlhosted/payments/backends.py:468
-msgid "Issuing bank"
-msgstr "البنك المصدر"
+#: wlhosted/payments/backends.py:164
+msgid "Payment card"
+msgstr "بطاقة الدفع"
 
-#: wlhosted/payments/backends.py:469
-msgid "Account holder"
-msgstr "صاحب الحساب"
-
-#: wlhosted/payments/backends.py:470
-msgid "Account number"
-msgstr "رقم الحساب"
-
-#: wlhosted/payments/backends.py:471
-msgid "SWIFT code"
-msgstr "رمز السويفت"
-
-#: wlhosted/payments/backends.py:472
-msgid "IBAN"
-msgstr "رقم الحساب المصرفي الدولي (IBAN)"
-
-#: wlhosted/payments/backends.py:473
-msgid "Reference"
-msgstr "مرجع"
-
-#: wlhosted/payments/models.py:88
+#: wlhosted/payments/models.py:87
 msgid "European VAT ID"
 msgstr "معرف ضريبة القيمة المضافة الأوروبية"
 
-#: wlhosted/payments/models.py:90
+#: wlhosted/payments/models.py:89
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "يرجى ملء معرف ضريبة القيمة المضافة في الاتحاد الأوروبي ، واتركه فارغا إذا لم "
 "يكن قابلا للتطبيق."
 
-#: wlhosted/payments/models.py:96
+#: wlhosted/payments/models.py:95
 msgid "Tax registration"
 msgstr "التسجيل الضريبي"
 
-#: wlhosted/payments/models.py:98
+#: wlhosted/payments/models.py:97
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "يرجى ملء التسجيل الضريبي الخاص بك إذا كان يجب أن يظهر على الفاتورة."
 
-#: wlhosted/payments/models.py:105
+#: wlhosted/payments/models.py:103
 msgid "Company or individual name"
 msgstr "اسم الشركة أو اسم الفرد"
 
@@ -339,80 +229,187 @@ msgstr "اسم الشركة أو اسم الفرد"
 msgid "Address"
 msgstr "العنوان البريدي"
 
-#: wlhosted/payments/models.py:111
+#: wlhosted/payments/models.py:113
+#, fuzzy
+#| msgid "Billing information"
+msgid "Additional address information"
+msgstr "معلومات الفوترة"
+
+#: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "الرمز البريدي و المدينة"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:124
+#, fuzzy
+#| msgid "Postcode and city"
+msgid "Postcode"
+msgstr "الرمز البريدي و المدينة"
+
+#: wlhosted/payments/models.py:128
 msgid "Country"
 msgstr "البلد"
 
-#: wlhosted/payments/models.py:144
+#: wlhosted/payments/models.py:165
 msgid "The country has to match your VAT code"
 msgstr "على البلد ان يطابق رمز ضريبة القيمة المضافة"
 
-#: wlhosted/payments/models.py:167
+#: wlhosted/payments/models.py:188
 msgid "Annual"
 msgstr "سنوي"
 
-#: wlhosted/payments/models.py:168
+#: wlhosted/payments/models.py:189
 msgid "Biannual"
 msgstr "نصف سنوي"
 
-#: wlhosted/payments/models.py:169
+#: wlhosted/payments/models.py:190
 msgid "Quarterly"
 msgstr "فصليا"
 
-#: wlhosted/payments/models.py:170
+#: wlhosted/payments/models.py:191
 msgid "Monthly"
 msgstr "شهرياً"
 
-#: wlhosted/payments/models.py:171
+#: wlhosted/payments/models.py:192
 msgid "One-time"
 msgstr "مرة واحدة"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:226
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "دفعة جديدة"
 
-#: wlhosted/payments/models.py:206
+#: wlhosted/payments/models.py:227
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "في انتظار الدفع"
 
-#: wlhosted/payments/models.py:207
+#: wlhosted/payments/models.py:228
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "تم رفض الدفع"
 
-#: wlhosted/payments/models.py:208
+#: wlhosted/payments/models.py:229
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "الدفع مقبول"
 
-#: wlhosted/payments/models.py:209
+#: wlhosted/payments/models.py:230
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "تمت معالجة الدفع"
 
-#: wlhosted/payments/validators.py:38
+#: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
 msgstr "{} ليس رمز بلد صالحا لأي عضو في الاتحاد الأوروبي."
 
-#: wlhosted/payments/validators.py:43
+#: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
 msgstr "{} لا يتطابق مع مواصفات معرف ضريبة القيمة المضافة للبلد."
 
-#: wlhosted/payments/validators.py:50
+#: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
 "خدمة التحقق من صحة معرف ضريبة القيمة المضافة غير متوفرة ل {}، يرجى إعادة "
 "المحاولة لاحقا."
 
-#: wlhosted/payments/validators.py:53
+#: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "{} ليس معرف ضريبة قيمة مضافة صالحا."
+
+#~ msgid "Your payment on weblate.org"
+#~ msgstr "دفعتك على weblate.org"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Thank you for your payment on weblate.org.\n"
+#~ "\n"
+#~ "You will find an invoice for this payment attached.\n"
+#~ "Alternatively, you can download it from the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "مرحبًا\n"
+#~ "\n"
+#~ "شكرا لك على دفعك على weblate.org.\n"
+#~ "\n"
+#~ "ستجد فاتورة لهذه الدفعة مرفقة.\n"
+#~ "بدلا من ذلك ، يمكنك تنزيله من موقع الويب:\n"
+#~ "\n"
+#~ "%s\n"
+
+#~ msgid "Your payment on weblate.org failed"
+#~ msgstr "فشلت عملية الدفع في weblate.org"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org has failed.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Retry issuing the payment on the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "If concerning a recurring payment, it is retried three times,\n"
+#~ "and if still failing, cancelled.\n"
+#~ msgstr ""
+#~ "مرحبًا\n"
+#~ "\n"
+#~ "فشلت عملية الدفع الخاصة بك على weblate.org.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "أعد محاولة إصدار الدفعة على الموقع:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "إذا كان الأمر يتعلق بدفعة متكررة ، تتم إعادة المحاولة ثلاث مرات ،\n"
+#~ "وإذا كان لا يزال يفشل ، تم إلغاؤه.\n"
+
+#~ msgid "Your pending payment on weblate.org"
+#~ msgstr "دفعتك المعلقة على weblate.org"
+
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org is pending. Please follow the provided\n"
+#~ "instructions to complete the payment.\n"
+#~ msgstr ""
+#~ "مرحبًا\n"
+#~ "\n"
+#~ "دفعتك على weblate.org معلقة. يرجى اتباع ما تم توفيره\n"
+#~ "تعليمات لإتمام الدفع.\n"
+
+#~ msgid "Payment cancelled"
+#~ msgstr "تم إلغاء الدفع"
+
+#~ msgid "Payment error"
+#~ msgstr "خطأ في الدفع"
+
+#~ msgid "Bitcoin"
+#~ msgstr "البتكوين"
+
+#~ msgid "Issuing bank"
+#~ msgstr "البنك المصدر"
+
+#~ msgid "Account holder"
+#~ msgstr "صاحب الحساب"
+
+#~ msgid "Account number"
+#~ msgstr "رقم الحساب"
+
+#~ msgid "SWIFT code"
+#~ msgstr "رمز السويفت"
+
+#~ msgid "IBAN"
+#~ msgstr "رقم الحساب المصرفي الدولي (IBAN)"
+
+#~ msgid "Reference"
+#~ msgstr "مرجع"
 
 #~ msgid "Component limit"
 #~ msgstr "حد المُكوّن"
@@ -456,9 +453,6 @@ msgstr "{} ليس معرف ضريبة قيمة مضافة صالحا."
 #~ msgstr ""
 #~ "ستُسجل هذه في حال وجود تغييرات مهمة في حسابك (مثل تغيير كلمة السر) لكي "
 #~ "يسمح بتشخيص حالات سرقة الحساب"
-
-#~ msgid "Billing information"
-#~ msgstr "معلومات الفوترة"
 
 #~ msgid ""
 #~ "In case you purchase service from us, we collect additional billing "

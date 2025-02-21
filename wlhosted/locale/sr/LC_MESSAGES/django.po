@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2024-05-06 10:30+0000\n"
+"POT-Creation-Date: 2025-02-21 09:56+0000\n"
 "PO-Revision-Date: 2025-02-16 13:11+0000\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -39,15 +39,15 @@ msgstr "Ресетуј складиште ка извору"
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "Поништиће сваке ноћи све измене у складишту Веблејта."
 
-#: wlhosted/integrations/forms.py:32
+#: wlhosted/integrations/forms.py:37
 msgid "Billing"
 msgstr "Наплата"
 
-#: wlhosted/integrations/forms.py:33
+#: wlhosted/integrations/forms.py:38
 msgid "Choose the billing plan you want to update"
 msgstr "Изаберите план наплате који желите да ажурирате"
 
-#: wlhosted/integrations/forms.py:34
+#: wlhosted/integrations/forms.py:39
 msgid "Create new billing plan"
 msgstr "Направи нови план наплате"
 
@@ -140,7 +140,8 @@ msgstr "Приказане цене су без ПДВ-а."
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
-msgstr "Корисницима у ЕУ и чешким компанијама биће додатно наплаћен 21%% ПДВ-а."
+msgstr ""
+"Корисницима у ЕУ и чешким компанијама биће додатно наплаћен 21%% ПДВ-а."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
@@ -191,142 +192,32 @@ msgstr "Непознат разлог"
 msgid "Payments are temporarily inactive."
 msgstr "Плаћања су привремено недоступна."
 
-#: wlhosted/payments/backends.py:192
-msgid "Your payment on weblate.org"
-msgstr "Ваше плаћање на „weblate.org“-у"
-
-#: wlhosted/payments/backends.py:194
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Thank you for your payment on weblate.org.\n"
-"\n"
-"You will find an invoice for this payment attached.\n"
-"Alternatively, you can download it from the website:\n"
-"\n"
-"%s\n"
-msgstr ""
-"Здраво,\n"
-"\n"
-"Хвала вам на уплати на „weblate.org“-у.\n"
-"\n"
-"У прилогу ћете наћи рачун за ово плаћање.\n"
-"Можете га преузети и са веб сајта:\n"
-"\n"
-"%s\n"
-
-#: wlhosted/payments/backends.py:220
-msgid "Your payment on weblate.org failed"
-msgstr "Ваше плаћање на „weblate.org“-у није успело"
-
-#: wlhosted/payments/backends.py:222
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org has failed.\n"
-"\n"
-"%s\n"
-"\n"
-"Retry issuing the payment on the website:\n"
-"\n"
-"%s\n"
-"\n"
-"If concerning a recurring payment, it is retried three times,\n"
-"and if still failing, cancelled.\n"
-msgstr ""
-"Здраво,\n"
-"\n"
-"Ваше плаћање на „weblate.org“-у није успело.\n"
-"\n"
-"%s\n"
-"\n"
-"Покушајте да извршите уплату на веб сајту:\n"
-"\n"
-"%s\n"
-"\n"
-"Ако је у питању поновљено плаћање, покушава се три пута,\n"
-"и ако и даље не успе, отказује се.\n"
-
-#: wlhosted/payments/backends.py:255
-msgid "Your pending payment on weblate.org"
-msgstr "Ваше плаћање је на чекању на „weblate.org“-у"
-
-#: wlhosted/payments/backends.py:257
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org is pending. Please follow the provided\n"
-"instructions to complete the payment.\n"
-msgstr ""
-"Здраво,\n"
-"\n"
-"Ваше плаћање на „weblate.org“-у је на чекању. Пратите дате\n"
-"инструкције да довршите плаћање.\n"
-
-#: wlhosted/payments/backends.py:339
-msgid "Payment card"
-msgstr "Платна картица"
-
-#: wlhosted/payments/backends.py:415
-msgid "Payment cancelled"
-msgstr "Плаћање је отказано"
-
-#: wlhosted/payments/backends.py:417
-msgid "Payment error"
-msgstr "Грешка при плаћању"
-
-#: wlhosted/payments/backends.py:429
-msgid "Bitcoin"
-msgstr "Bitcoin"
-
-#: wlhosted/payments/backends.py:438
+#: wlhosted/payments/backends.py:156
 msgid "IBAN bank transfer"
 msgstr "IBAN банковни трансфер"
 
-#: wlhosted/payments/backends.py:468
-msgid "Issuing bank"
-msgstr "Банка издавач"
+#: wlhosted/payments/backends.py:164
+msgid "Payment card"
+msgstr "Платна картица"
 
-#: wlhosted/payments/backends.py:469
-msgid "Account holder"
-msgstr "Власник рачуна"
-
-#: wlhosted/payments/backends.py:470
-msgid "Account number"
-msgstr "Број рачуна"
-
-#: wlhosted/payments/backends.py:471
-msgid "SWIFT code"
-msgstr "SWIFT кôд"
-
-#: wlhosted/payments/backends.py:472
-msgid "IBAN"
-msgstr "IBAN"
-
-#: wlhosted/payments/backends.py:473
-msgid "Reference"
-msgstr "Референца"
-
-#: wlhosted/payments/models.py:88
+#: wlhosted/payments/models.py:87
 msgid "European VAT ID"
 msgstr "Европски ПДВ ИД"
 
-#: wlhosted/payments/models.py:90
+#: wlhosted/payments/models.py:89
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr "Попуните европски ПДВ ИД. Оставите празно ако се не примењује."
 
-#: wlhosted/payments/models.py:96
+#: wlhosted/payments/models.py:95
 msgid "Tax registration"
 msgstr "Пореска пријава"
 
-#: wlhosted/payments/models.py:98
+#: wlhosted/payments/models.py:97
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "Попуните своју пореску пријаву ако је потребно да се појави на рачуну."
 
-#: wlhosted/payments/models.py:105
+#: wlhosted/payments/models.py:103
 msgid "Company or individual name"
 msgstr "Предузеће или лично име"
 
@@ -334,78 +225,183 @@ msgstr "Предузеће или лично име"
 msgid "Address"
 msgstr "Адреса"
 
-#: wlhosted/payments/models.py:111
+#: wlhosted/payments/models.py:113
+msgid "Additional address information"
+msgstr ""
+
+#: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "Поштански број и место"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:124
+#, fuzzy
+#| msgid "Postcode and city"
+msgid "Postcode"
+msgstr "Поштански број и место"
+
+#: wlhosted/payments/models.py:128
 msgid "Country"
 msgstr "Држава"
 
-#: wlhosted/payments/models.py:144
+#: wlhosted/payments/models.py:165
 msgid "The country has to match your VAT code"
 msgstr "Држава мора да се поклапа са ПДВ кодом"
 
-#: wlhosted/payments/models.py:167
+#: wlhosted/payments/models.py:188
 msgid "Annual"
 msgstr "годишње"
 
-#: wlhosted/payments/models.py:168
+#: wlhosted/payments/models.py:189
 msgid "Biannual"
 msgstr "двогодишње"
 
-#: wlhosted/payments/models.py:169
+#: wlhosted/payments/models.py:190
 msgid "Quarterly"
 msgstr "квартално"
 
-#: wlhosted/payments/models.py:170
+#: wlhosted/payments/models.py:191
 msgid "Monthly"
 msgstr "месечно"
 
-#: wlhosted/payments/models.py:171
+#: wlhosted/payments/models.py:192
 msgid "One-time"
 msgstr "Једнократно"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:226
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Нова уплата"
 
-#: wlhosted/payments/models.py:206
+#: wlhosted/payments/models.py:227
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Уплата на чекању"
 
-#: wlhosted/payments/models.py:207
+#: wlhosted/payments/models.py:228
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Уплата је одбијена"
 
-#: wlhosted/payments/models.py:208
+#: wlhosted/payments/models.py:229
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Уплата је прихваћена"
 
-#: wlhosted/payments/models.py:209
+#: wlhosted/payments/models.py:230
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Уплата је обрађена"
 
-#: wlhosted/payments/validators.py:38
+#: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
 msgstr "„{}“ није исправан код државе чланице Европске уније."
 
-#: wlhosted/payments/validators.py:43
+#: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
 msgstr "„{}“ се не подудара са ИД спецификацијом ПДВ-а државе."
 
-#: wlhosted/payments/validators.py:50
+#: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr "Услуга за проверу ПДВ ИД-а није доступна за {}. Покушајте касније."
 
-#: wlhosted/payments/validators.py:53
+#: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "„{}“ није исправан ПДВ ИД."
+
+#~ msgid "Your payment on weblate.org"
+#~ msgstr "Ваше плаћање на „weblate.org“-у"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Thank you for your payment on weblate.org.\n"
+#~ "\n"
+#~ "You will find an invoice for this payment attached.\n"
+#~ "Alternatively, you can download it from the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "Здраво,\n"
+#~ "\n"
+#~ "Хвала вам на уплати на „weblate.org“-у.\n"
+#~ "\n"
+#~ "У прилогу ћете наћи рачун за ово плаћање.\n"
+#~ "Можете га преузети и са веб сајта:\n"
+#~ "\n"
+#~ "%s\n"
+
+#~ msgid "Your payment on weblate.org failed"
+#~ msgstr "Ваше плаћање на „weblate.org“-у није успело"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org has failed.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Retry issuing the payment on the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "If concerning a recurring payment, it is retried three times,\n"
+#~ "and if still failing, cancelled.\n"
+#~ msgstr ""
+#~ "Здраво,\n"
+#~ "\n"
+#~ "Ваше плаћање на „weblate.org“-у није успело.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Покушајте да извршите уплату на веб сајту:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Ако је у питању поновљено плаћање, покушава се три пута,\n"
+#~ "и ако и даље не успе, отказује се.\n"
+
+#~ msgid "Your pending payment on weblate.org"
+#~ msgstr "Ваше плаћање је на чекању на „weblate.org“-у"
+
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org is pending. Please follow the provided\n"
+#~ "instructions to complete the payment.\n"
+#~ msgstr ""
+#~ "Здраво,\n"
+#~ "\n"
+#~ "Ваше плаћање на „weblate.org“-у је на чекању. Пратите дате\n"
+#~ "инструкције да довршите плаћање.\n"
+
+#~ msgid "Payment cancelled"
+#~ msgstr "Плаћање је отказано"
+
+#~ msgid "Payment error"
+#~ msgstr "Грешка при плаћању"
+
+#~ msgid "Bitcoin"
+#~ msgstr "Bitcoin"
+
+#~ msgid "Issuing bank"
+#~ msgstr "Банка издавач"
+
+#~ msgid "Account holder"
+#~ msgstr "Власник рачуна"
+
+#~ msgid "Account number"
+#~ msgstr "Број рачуна"
+
+#~ msgid "SWIFT code"
+#~ msgstr "SWIFT кôд"
+
+#~ msgid "IBAN"
+#~ msgstr "IBAN"
+
+#~ msgid "Reference"
+#~ msgstr "Референца"
 
 #~ msgid "Component limit"
 #~ msgstr "Ограничење компоненти"

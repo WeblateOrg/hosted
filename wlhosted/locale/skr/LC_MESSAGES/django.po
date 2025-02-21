@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2024-05-06 10:30+0000\n"
+"POT-Creation-Date: 2025-02-21 09:56+0000\n"
 "PO-Revision-Date: 2025-02-21 09:44+0000\n"
 "Last-Translator: Michal Čihař <michal@weblate.org>\n"
 "Language-Team: Saraiki <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -31,15 +31,15 @@ msgstr "ریپوزٹری کوں اپ سٹریم تے ولدا مقرر کرو"
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "ہر رات Weblate ریپوزیٹری وچ ساریاں تبدیلیاں کڈھ سٹو۔"
 
-#: wlhosted/integrations/forms.py:32
+#: wlhosted/integrations/forms.py:37
 msgid "Billing"
 msgstr "ٻلنگ"
 
-#: wlhosted/integrations/forms.py:33
+#: wlhosted/integrations/forms.py:38
 msgid "Choose the billing plan you want to update"
 msgstr "آپݨاں ٻل بھرݨ دا منصوبہ چݨو جہڑا تساں اپ ڈیٹ کرݨ چاہندے ہو"
 
-#: wlhosted/integrations/forms.py:34
+#: wlhosted/integrations/forms.py:39
 msgid "Create new billing plan"
 msgstr "نواں ٻلنگ منصوبہ بݨاؤ"
 
@@ -187,144 +187,35 @@ msgstr "نامعلوم وجہ"
 msgid "Payments are temporarily inactive."
 msgstr "ادائیگیاں عارضی طور تے غیرفعال ہن۔"
 
-#: wlhosted/payments/backends.py:192
-msgid "Your payment on weblate.org"
-msgstr "weblate.org تے تہاݙی ادائیگی"
-
-#: wlhosted/payments/backends.py:194
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Thank you for your payment on weblate.org.\n"
-"\n"
-"You will find an invoice for this payment attached.\n"
-"Alternatively, you can download it from the website:\n"
-"\n"
-"%s\n"
-msgstr ""
-"سلام\n"
-"\n"
-"weblate.org تے ادائیگی تے تہاݙا شکریہ\n"
-"\n"
-"ایں ادائیگی کیتے تہاکوں ہک انوائس ملسی\n"
-"متبادل طور تے، تساں ایں کوں ویب سائٹ توں ڈاؤن لوڈ کر سڳدے ہو\n"
-"%s\n"
-
-#: wlhosted/payments/backends.py:220
-msgid "Your payment on weblate.org failed"
-msgstr "weblate.org تے تہاݙی ادائیگی ناکام تھئی"
-
-#: wlhosted/payments/backends.py:222
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org has failed.\n"
-"\n"
-"%s\n"
-"\n"
-"Retry issuing the payment on the website:\n"
-"\n"
-"%s\n"
-"\n"
-"If concerning a recurring payment, it is retried three times,\n"
-"and if still failing, cancelled.\n"
-msgstr ""
-"سلام\n"
-"\n"
-" weblate.org تے تہاݙی ادائیگی ناکام تھی ڳئی ہے\n"
-"\n"
-"%s\n"
-"\n"
-"ویب سائٹ تے ادائیگی جاری کرݨ دی ولدا کوشش کرو\n"
-"\n"
-"%s\n"
-"\n"
-"جے ول ول تھیوݨ آلی ادائیگی دا تعلق ہے تاں ایں کوں ترائے واری ازمایا ویندے\n"
-"جے وت وی ناکام تھیندے، منسوخِ کر ݙتا ویندے\n"
-
-#: wlhosted/payments/backends.py:255
-msgid "Your pending payment on weblate.org"
-msgstr "weblate.org تے تہاݙی زیر غور ادائیگی"
-
-#: wlhosted/payments/backends.py:257
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org is pending. Please follow the provided\n"
-"instructions to complete the payment.\n"
-msgstr ""
-"سلام،\n"
-"\n"
-"weblate.org وچ تہاݙی ادائیگی التوا وچ ہے۔ سوہݨا، ادائیگی مکمل کرݨ کیتے\n"
-"مہیا تھیاں ہدایات تے عمل کرو\n"
-
-#: wlhosted/payments/backends.py:339
-msgid "Payment card"
-msgstr "ادائیگی کارڈ"
-
-#: wlhosted/payments/backends.py:415
-msgid "Payment cancelled"
-msgstr "ادائیگی منسوخ تھی ڳئی"
-
-#: wlhosted/payments/backends.py:417
-msgid "Payment error"
-msgstr "ادائیگی خرابی"
-
-#: wlhosted/payments/backends.py:429
-msgid "Bitcoin"
-msgstr "بٹ کوائن"
-
-#: wlhosted/payments/backends.py:438
+#: wlhosted/payments/backends.py:156
 msgid "IBAN bank transfer"
 msgstr "آئی بی اے این بینک ٹرانسفر"
 
-#: wlhosted/payments/backends.py:468
-msgid "Issuing bank"
-msgstr "جاری کرݨ آلا بینک"
+#: wlhosted/payments/backends.py:164
+msgid "Payment card"
+msgstr "ادائیگی کارڈ"
 
-#: wlhosted/payments/backends.py:469
-msgid "Account holder"
-msgstr "کھاتہ دار"
-
-#: wlhosted/payments/backends.py:470
-msgid "Account number"
-msgstr "کھاتہ نمبر"
-
-#: wlhosted/payments/backends.py:471
-msgid "SWIFT code"
-msgstr "SWIFT کوڈ"
-
-#: wlhosted/payments/backends.py:472
-msgid "IBAN"
-msgstr "آئی بی اے این"
-
-#: wlhosted/payments/backends.py:473
-msgid "Reference"
-msgstr "حوالہ"
-
-#: wlhosted/payments/models.py:88
+#: wlhosted/payments/models.py:87
 msgid "European VAT ID"
 msgstr "یورپی وی اے ٹی آئی ڈی"
 
-#: wlhosted/payments/models.py:90
+#: wlhosted/payments/models.py:89
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "سوہݨا، یورپی یونین وی اے ٹی آئی ڈی پُر کرو، جے لاگو کائنی تھیندا تاں خالی "
 "چھوڑو۔"
 
-#: wlhosted/payments/models.py:96
+#: wlhosted/payments/models.py:95
 msgid "Tax registration"
 msgstr "ٹیکس رجسٹریشن"
 
-#: wlhosted/payments/models.py:98
+#: wlhosted/payments/models.py:97
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
 "سوہݨا، آپݨاں ٹیکس رجسٹریشن پُر کرو جے ایہ انوائس تے ظاہر تھیوݨاں چاہیدا ہے۔"
 
-#: wlhosted/payments/models.py:105
+#: wlhosted/payments/models.py:103
 msgid "Company or individual name"
 msgstr "کمپنی یا انفرادی ناں"
 
@@ -332,80 +223,185 @@ msgstr "کمپنی یا انفرادی ناں"
 msgid "Address"
 msgstr "پتہ"
 
-#: wlhosted/payments/models.py:111
+#: wlhosted/payments/models.py:113
+msgid "Additional address information"
+msgstr ""
+
+#: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "پوسٹ کوڈ تے شہر"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:124
+#, fuzzy
+#| msgid "Postcode and city"
+msgid "Postcode"
+msgstr "پوسٹ کوڈ تے شہر"
+
+#: wlhosted/payments/models.py:128
 msgid "Country"
 msgstr "ملک"
 
-#: wlhosted/payments/models.py:144
+#: wlhosted/payments/models.py:165
 msgid "The country has to match your VAT code"
 msgstr "ملک دا تہاݙے وی اے ٹی کوڈ دے مطابق ہووݨ ضروری ہے"
 
-#: wlhosted/payments/models.py:167
+#: wlhosted/payments/models.py:188
 msgid "Annual"
 msgstr "سالانہ"
 
-#: wlhosted/payments/models.py:168
+#: wlhosted/payments/models.py:189
 msgid "Biannual"
 msgstr "سال وچ ݙو واری"
 
-#: wlhosted/payments/models.py:169
+#: wlhosted/payments/models.py:190
 msgid "Quarterly"
 msgstr "سہ ماہی"
 
-#: wlhosted/payments/models.py:170
+#: wlhosted/payments/models.py:191
 msgid "Monthly"
 msgstr "ماہوار"
 
-#: wlhosted/payments/models.py:171
+#: wlhosted/payments/models.py:192
 msgid "One-time"
 msgstr "ہک: واری"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:226
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "نویں ادائیگی"
 
-#: wlhosted/payments/models.py:206
+#: wlhosted/payments/models.py:227
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "تانگھ وچ"
 
-#: wlhosted/payments/models.py:207
+#: wlhosted/payments/models.py:228
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "ادائیگی مسترد تھی ڳئی"
 
-#: wlhosted/payments/models.py:208
+#: wlhosted/payments/models.py:229
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "ادائیگی قبول تھی ڳئی"
 
-#: wlhosted/payments/models.py:209
+#: wlhosted/payments/models.py:230
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "ادائیگی دی کاروائی تھی ڳئی"
 
-#: wlhosted/payments/validators.py:38
+#: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
 msgstr "کہیں وی یورپی یونین رکن کیتے {} ٹھیک ملک کوڈ کائنی۔"
 
-#: wlhosted/payments/validators.py:43
+#: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
 msgstr "{} ملک دے وی اے ٹی آئی ڈی تخصیصاں نال میل کائنی کھاندا۔"
 
-#: wlhosted/payments/validators.py:50
+#: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
 "{} کیتے وی اے ٹی آئی ڈی جوازکاری خدمت دستیاب کائنی، سوہݨا، ولدا بعد وچ کوشش "
 "کرو۔"
 
-#: wlhosted/payments/validators.py:53
+#: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "{} ٹھیک وی اے ٹی آئی ڈی کائنی۔"
+
+#~ msgid "Your payment on weblate.org"
+#~ msgstr "weblate.org تے تہاݙی ادائیگی"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Thank you for your payment on weblate.org.\n"
+#~ "\n"
+#~ "You will find an invoice for this payment attached.\n"
+#~ "Alternatively, you can download it from the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "سلام\n"
+#~ "\n"
+#~ "weblate.org تے ادائیگی تے تہاݙا شکریہ\n"
+#~ "\n"
+#~ "ایں ادائیگی کیتے تہاکوں ہک انوائس ملسی\n"
+#~ "متبادل طور تے، تساں ایں کوں ویب سائٹ توں ڈاؤن لوڈ کر سڳدے ہو\n"
+#~ "%s\n"
+
+#~ msgid "Your payment on weblate.org failed"
+#~ msgstr "weblate.org تے تہاݙی ادائیگی ناکام تھئی"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org has failed.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Retry issuing the payment on the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "If concerning a recurring payment, it is retried three times,\n"
+#~ "and if still failing, cancelled.\n"
+#~ msgstr ""
+#~ "سلام\n"
+#~ "\n"
+#~ " weblate.org تے تہاݙی ادائیگی ناکام تھی ڳئی ہے\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "ویب سائٹ تے ادائیگی جاری کرݨ دی ولدا کوشش کرو\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "جے ول ول تھیوݨ آلی ادائیگی دا تعلق ہے تاں ایں کوں ترائے واری ازمایا "
+#~ "ویندے\n"
+#~ "جے وت وی ناکام تھیندے، منسوخِ کر ݙتا ویندے\n"
+
+#~ msgid "Your pending payment on weblate.org"
+#~ msgstr "weblate.org تے تہاݙی زیر غور ادائیگی"
+
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org is pending. Please follow the provided\n"
+#~ "instructions to complete the payment.\n"
+#~ msgstr ""
+#~ "سلام،\n"
+#~ "\n"
+#~ "weblate.org وچ تہاݙی ادائیگی التوا وچ ہے۔ سوہݨا، ادائیگی مکمل کرݨ کیتے\n"
+#~ "مہیا تھیاں ہدایات تے عمل کرو\n"
+
+#~ msgid "Payment cancelled"
+#~ msgstr "ادائیگی منسوخ تھی ڳئی"
+
+#~ msgid "Payment error"
+#~ msgstr "ادائیگی خرابی"
+
+#~ msgid "Bitcoin"
+#~ msgstr "بٹ کوائن"
+
+#~ msgid "Issuing bank"
+#~ msgstr "جاری کرݨ آلا بینک"
+
+#~ msgid "Account holder"
+#~ msgstr "کھاتہ دار"
+
+#~ msgid "Account number"
+#~ msgstr "کھاتہ نمبر"
+
+#~ msgid "SWIFT code"
+#~ msgstr "SWIFT کوڈ"
+
+#~ msgid "IBAN"
+#~ msgstr "آئی بی اے این"
+
+#~ msgid "Reference"
+#~ msgstr "حوالہ"
 
 #~ msgid "Component limit"
 #~ msgstr "اجزاء دی حد"

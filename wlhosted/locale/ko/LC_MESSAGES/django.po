@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2024-05-06 10:30+0000\n"
+"POT-Creation-Date: 2025-02-21 09:56+0000\n"
 "PO-Revision-Date: 2025-02-14 06:27+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/weblate/hosted/ko/"
@@ -37,15 +37,15 @@ msgstr "저장소를 업스트림으로 재설정"
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "매일 밤 Weblate 저장소의 모든 변경사항을 폐기합니다."
 
-#: wlhosted/integrations/forms.py:32
+#: wlhosted/integrations/forms.py:37
 msgid "Billing"
 msgstr "청구"
 
-#: wlhosted/integrations/forms.py:33
+#: wlhosted/integrations/forms.py:38
 msgid "Choose the billing plan you want to update"
 msgstr "갱신할 청구 요금제를 선택합니다"
 
-#: wlhosted/integrations/forms.py:34
+#: wlhosted/integrations/forms.py:39
 msgid "Create new billing plan"
 msgstr "새 청구 요금제 만들기"
 
@@ -190,142 +190,32 @@ msgstr "알 수 없는 이유"
 msgid "Payments are temporarily inactive."
 msgstr "결제가 일시적으로 비활성 상태입니다."
 
-#: wlhosted/payments/backends.py:192
-msgid "Your payment on weblate.org"
-msgstr "weblate.org에 지불한 사용자의 결제 내역"
-
-#: wlhosted/payments/backends.py:194
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Thank you for your payment on weblate.org.\n"
-"\n"
-"You will find an invoice for this payment attached.\n"
-"Alternatively, you can download it from the website:\n"
-"\n"
-"%s\n"
-msgstr ""
-"안녕하세요,\n"
-"\n"
-"weblate.org에서 결제해 주셔서 감사합니다.\n"
-"\n"
-"이 결제에 대한 청구서가 첨부되어 있습니다.\n"
-"또는, 웹사이트에서 내려받을 수 있습니다:\n"
-"\n"
-"%s\n"
-
-#: wlhosted/payments/backends.py:220
-msgid "Your payment on weblate.org failed"
-msgstr "weblate.org에서 결제하지 못했습니다"
-
-#: wlhosted/payments/backends.py:222
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org has failed.\n"
-"\n"
-"%s\n"
-"\n"
-"Retry issuing the payment on the website:\n"
-"\n"
-"%s\n"
-"\n"
-"If concerning a recurring payment, it is retried three times,\n"
-"and if still failing, cancelled.\n"
-msgstr ""
-"안녕하세요,\n"
-"\n"
-"weblate.org에서 사용자의 결제가 실패했습니다\n"
-"\n"
-"%s\n"
-"\n"
-"웹사이트에서 결제를 다시 시도해 보세요:\n"
-"\n"
-"%s\n"
-"\n"
-"3번 이상의 결제시도를 했음에도 불구하고,\n"
-"여전히 실패한다면, 신청한 서비스가 취소된 것입니다.\n"
-
-#: wlhosted/payments/backends.py:255
-msgid "Your pending payment on weblate.org"
-msgstr "weblate.org에서 보류 중인 결제 내역"
-
-#: wlhosted/payments/backends.py:257
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org is pending. Please follow the provided\n"
-"instructions to complete the payment.\n"
-msgstr ""
-"안녕하세요,\n"
-"\n"
-"weblate.org에서 결제가 보류중입니다.\n"
-"제공된 안내에 따라 결제를 완료하세요.\n"
-
-#: wlhosted/payments/backends.py:339
-msgid "Payment card"
-msgstr "결제 카드"
-
-#: wlhosted/payments/backends.py:415
-msgid "Payment cancelled"
-msgstr "결제 취소됨"
-
-#: wlhosted/payments/backends.py:417
-msgid "Payment error"
-msgstr "결제 오류"
-
-#: wlhosted/payments/backends.py:429
-msgid "Bitcoin"
-msgstr "비트코인"
-
-#: wlhosted/payments/backends.py:438
+#: wlhosted/payments/backends.py:156
 msgid "IBAN bank transfer"
 msgstr "IBAN 은행 송금"
 
-#: wlhosted/payments/backends.py:468
-msgid "Issuing bank"
-msgstr "발행 은행"
+#: wlhosted/payments/backends.py:164
+msgid "Payment card"
+msgstr "결제 카드"
 
-#: wlhosted/payments/backends.py:469
-msgid "Account holder"
-msgstr "예금주"
-
-#: wlhosted/payments/backends.py:470
-msgid "Account number"
-msgstr "계좌번호"
-
-#: wlhosted/payments/backends.py:471
-msgid "SWIFT code"
-msgstr "SWIFT 은행 코드"
-
-#: wlhosted/payments/backends.py:472
-msgid "IBAN"
-msgstr "IBAN"
-
-#: wlhosted/payments/backends.py:473
-msgid "Reference"
-msgstr "참조"
-
-#: wlhosted/payments/models.py:88
+#: wlhosted/payments/models.py:87
 msgid "European VAT ID"
 msgstr "유럽 VAT ID"
 
-#: wlhosted/payments/models.py:90
+#: wlhosted/payments/models.py:89
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr "유럽 연합 VAT ID를 입력하고, 해당되지 않는 경우 비워두세요."
 
-#: wlhosted/payments/models.py:96
+#: wlhosted/payments/models.py:95
 msgid "Tax registration"
 msgstr "세금 등록"
 
-#: wlhosted/payments/models.py:98
+#: wlhosted/payments/models.py:97
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "청구서에 표시해야 할 경우라면 세금 등록란을 채우세요."
 
-#: wlhosted/payments/models.py:105
+#: wlhosted/payments/models.py:103
 msgid "Company or individual name"
 msgstr "회사 또는 개인 이름"
 
@@ -333,79 +223,186 @@ msgstr "회사 또는 개인 이름"
 msgid "Address"
 msgstr "주소"
 
-#: wlhosted/payments/models.py:111
+#: wlhosted/payments/models.py:113
+#, fuzzy
+#| msgid "Billing information"
+msgid "Additional address information"
+msgstr "결제 정보"
+
+#: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "우편번호 및 도시"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:124
+#, fuzzy
+#| msgid "Postcode and city"
+msgid "Postcode"
+msgstr "우편번호 및 도시"
+
+#: wlhosted/payments/models.py:128
 msgid "Country"
 msgstr "국가"
 
-#: wlhosted/payments/models.py:144
+#: wlhosted/payments/models.py:165
 msgid "The country has to match your VAT code"
 msgstr "국가는 VAT 코드와 일치해야 합니다"
 
-#: wlhosted/payments/models.py:167
+#: wlhosted/payments/models.py:188
 msgid "Annual"
 msgstr "연 1회"
 
-#: wlhosted/payments/models.py:168
+#: wlhosted/payments/models.py:189
 msgid "Biannual"
 msgstr "연 2회"
 
-#: wlhosted/payments/models.py:169
+#: wlhosted/payments/models.py:190
 msgid "Quarterly"
 msgstr "분기별"
 
-#: wlhosted/payments/models.py:170
+#: wlhosted/payments/models.py:191
 msgid "Monthly"
 msgstr "매월"
 
-#: wlhosted/payments/models.py:171
+#: wlhosted/payments/models.py:192
 msgid "One-time"
 msgstr "일회성"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:226
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "신규 결제"
 
-#: wlhosted/payments/models.py:206
+#: wlhosted/payments/models.py:227
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "대기 중인 결제"
 
-#: wlhosted/payments/models.py:207
+#: wlhosted/payments/models.py:228
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "결제 거부됨"
 
-#: wlhosted/payments/models.py:208
+#: wlhosted/payments/models.py:229
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "결제 승인됨"
 
-#: wlhosted/payments/models.py:209
+#: wlhosted/payments/models.py:230
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "결제 처리됨"
 
-#: wlhosted/payments/validators.py:38
+#: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
 msgstr "{}은(는) 유럽 연합 회원국에 유효한 국가 코드가 아닙니다."
 
-#: wlhosted/payments/validators.py:43
+#: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
 msgstr "{}은(는) 해당 국가의 VAT ID 사양과 일치하지 않습니다."
 
-#: wlhosted/payments/validators.py:50
+#: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
 "{}에 대한 VAT ID 확인 서비스를 사용할 수 없습니다. 나중에 다시 시도하세요."
 
-#: wlhosted/payments/validators.py:53
+#: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "{}은(는) 유효한 VAT ID가 아닙니다."
+
+#~ msgid "Your payment on weblate.org"
+#~ msgstr "weblate.org에 지불한 사용자의 결제 내역"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Thank you for your payment on weblate.org.\n"
+#~ "\n"
+#~ "You will find an invoice for this payment attached.\n"
+#~ "Alternatively, you can download it from the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "안녕하세요,\n"
+#~ "\n"
+#~ "weblate.org에서 결제해 주셔서 감사합니다.\n"
+#~ "\n"
+#~ "이 결제에 대한 청구서가 첨부되어 있습니다.\n"
+#~ "또는, 웹사이트에서 내려받을 수 있습니다:\n"
+#~ "\n"
+#~ "%s\n"
+
+#~ msgid "Your payment on weblate.org failed"
+#~ msgstr "weblate.org에서 결제하지 못했습니다"
+
+#, python-format
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org has failed.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Retry issuing the payment on the website:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "If concerning a recurring payment, it is retried three times,\n"
+#~ "and if still failing, cancelled.\n"
+#~ msgstr ""
+#~ "안녕하세요,\n"
+#~ "\n"
+#~ "weblate.org에서 사용자의 결제가 실패했습니다\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "웹사이트에서 결제를 다시 시도해 보세요:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "3번 이상의 결제시도를 했음에도 불구하고,\n"
+#~ "여전히 실패한다면, 신청한 서비스가 취소된 것입니다.\n"
+
+#~ msgid "Your pending payment on weblate.org"
+#~ msgstr "weblate.org에서 보류 중인 결제 내역"
+
+#~ msgid ""
+#~ "Hello,\n"
+#~ "\n"
+#~ "Your payment on weblate.org is pending. Please follow the provided\n"
+#~ "instructions to complete the payment.\n"
+#~ msgstr ""
+#~ "안녕하세요,\n"
+#~ "\n"
+#~ "weblate.org에서 결제가 보류중입니다.\n"
+#~ "제공된 안내에 따라 결제를 완료하세요.\n"
+
+#~ msgid "Payment cancelled"
+#~ msgstr "결제 취소됨"
+
+#~ msgid "Payment error"
+#~ msgstr "결제 오류"
+
+#~ msgid "Bitcoin"
+#~ msgstr "비트코인"
+
+#~ msgid "Issuing bank"
+#~ msgstr "발행 은행"
+
+#~ msgid "Account holder"
+#~ msgstr "예금주"
+
+#~ msgid "Account number"
+#~ msgstr "계좌번호"
+
+#~ msgid "SWIFT code"
+#~ msgstr "SWIFT 은행 코드"
+
+#~ msgid "IBAN"
+#~ msgstr "IBAN"
+
+#~ msgid "Reference"
+#~ msgstr "참조"
 
 #~ msgid "Component limit"
 #~ msgstr "구성요소 제한"
@@ -462,9 +459,6 @@ msgstr "{}은(는) 유효한 VAT ID가 아닙니다."
 #~ msgstr ""
 #~ "계정에 중요한 변경 사항이 있을 경우 (예 : 암호 변경) 로그인하여 계정을 도"
 #~ "난당했는 지를 진단할 수 있습니다"
-
-#~ msgid "Billing information"
-#~ msgstr "결제 정보"
 
 #~ msgid ""
 #~ "In case you purchase service from us, we collect additional billing "

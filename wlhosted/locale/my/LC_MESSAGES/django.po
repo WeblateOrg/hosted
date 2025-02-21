@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate \n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2024-05-06 10:30+0000\n"
+"POT-Creation-Date: 2025-02-21 09:56+0000\n"
 "PO-Revision-Date: 2021-09-15 18:34+0000\n"
 "Last-Translator: Tun Tun AUNG <tuntunaung@codingclassroom.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -32,15 +32,15 @@ msgstr ""
 msgid "Discards all changes in the Weblate repository each night."
 msgstr ""
 
-#: wlhosted/integrations/forms.py:32
+#: wlhosted/integrations/forms.py:37
 msgid "Billing"
 msgstr ""
 
-#: wlhosted/integrations/forms.py:33
+#: wlhosted/integrations/forms.py:38
 msgid "Choose the billing plan you want to update"
 msgstr ""
 
-#: wlhosted/integrations/forms.py:34
+#: wlhosted/integrations/forms.py:39
 msgid "Create new billing plan"
 msgstr ""
 
@@ -179,119 +179,33 @@ msgstr ""
 msgid "Payments are temporarily inactive."
 msgstr ""
 
-#: wlhosted/payments/backends.py:192
-msgid "Your payment on weblate.org"
-msgstr ""
-
-#: wlhosted/payments/backends.py:194
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Thank you for your payment on weblate.org.\n"
-"\n"
-"You will find an invoice for this payment attached.\n"
-"Alternatively, you can download it from the website:\n"
-"\n"
-"%s\n"
-msgstr ""
-
-#: wlhosted/payments/backends.py:220
-msgid "Your payment on weblate.org failed"
-msgstr ""
-
-#: wlhosted/payments/backends.py:222
-#, python-format
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org has failed.\n"
-"\n"
-"%s\n"
-"\n"
-"Retry issuing the payment on the website:\n"
-"\n"
-"%s\n"
-"\n"
-"If concerning a recurring payment, it is retried three times,\n"
-"and if still failing, cancelled.\n"
-msgstr ""
-
-#: wlhosted/payments/backends.py:255
-msgid "Your pending payment on weblate.org"
-msgstr ""
-
-#: wlhosted/payments/backends.py:257
-msgid ""
-"Hello,\n"
-"\n"
-"Your payment on weblate.org is pending. Please follow the provided\n"
-"instructions to complete the payment.\n"
-msgstr ""
-
-#: wlhosted/payments/backends.py:339
-msgid "Payment card"
-msgstr "ငွေပေးချေ ကဒ်"
-
-#: wlhosted/payments/backends.py:415
-msgid "Payment cancelled"
-msgstr "ငွေပေးချေမှု ဖျက်သိမ်း"
-
-#: wlhosted/payments/backends.py:417
-msgid "Payment error"
-msgstr "ငွေပေးချေမှု အမှား"
-
-#: wlhosted/payments/backends.py:429
-msgid "Bitcoin"
-msgstr "ဘစ်ကွိုင်"
-
-#: wlhosted/payments/backends.py:438
+#: wlhosted/payments/backends.py:156
 msgid "IBAN bank transfer"
 msgstr "IBAN ဘဏ် ငွေလွှဲ"
 
-#: wlhosted/payments/backends.py:468
-msgid "Issuing bank"
-msgstr "ထုတ်ပေးသည့် ဘဏ်"
+#: wlhosted/payments/backends.py:164
+msgid "Payment card"
+msgstr "ငွေပေးချေ ကဒ်"
 
-#: wlhosted/payments/backends.py:469
-msgid "Account holder"
-msgstr "စာရင်း ပိုင်ရှင်"
-
-#: wlhosted/payments/backends.py:470
-msgid "Account number"
-msgstr "အကောင့်နံပါတ်"
-
-#: wlhosted/payments/backends.py:471
-msgid "SWIFT code"
-msgstr "SWIFT ကုဒ်"
-
-#: wlhosted/payments/backends.py:472
-msgid "IBAN"
-msgstr "IBAN"
-
-#: wlhosted/payments/backends.py:473
-msgid "Reference"
-msgstr "ရည်ညွှန်း"
-
-#: wlhosted/payments/models.py:88
+#: wlhosted/payments/models.py:87
 msgid "European VAT ID"
 msgstr "ဥရောပသမဂ္ဂ VAT ID"
 
-#: wlhosted/payments/models.py:90
+#: wlhosted/payments/models.py:89
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr "ကျေးဇူးပြု၍ ဥရောပသမဂ္ဂ ၏ VAT ID ကိုဖြည့်ပါ၊ မသက်ဆိုင်ပါက ကွက်လပ်ချန်ထားနိုင်သည်။"
 
-#: wlhosted/payments/models.py:96
+#: wlhosted/payments/models.py:95
 msgid "Tax registration"
 msgstr "အခွန် မှတ်တမ်းတင်ခြင်း"
 
-#: wlhosted/payments/models.py:98
+#: wlhosted/payments/models.py:97
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
 "ကျေးဇူးပြု၍ သင် ၏ အခွန်မှတ်တမ်းကို ဖြည့်သွင်းခြင်းဖြင့် ၄င်းသည် ငွေပေးခြေလွှာပေါ်တွင် ပေါ်လာလိမ့်မည်။"
 
-#: wlhosted/payments/models.py:105
+#: wlhosted/payments/models.py:103
 msgid "Company or individual name"
 msgstr "ကုမ္ပဏီ သို့မဟုတ် ပုဂ္ဂလိက အမည်"
 
@@ -300,91 +214,127 @@ msgstr "ကုမ္ပဏီ သို့မဟုတ် ပုဂ္ဂလိ�
 msgid "Address"
 msgstr "လိပ်စာ"
 
-#: wlhosted/payments/models.py:111
+#: wlhosted/payments/models.py:113
+#, fuzzy
+#| msgid "Billing information"
+msgid "Additional address information"
+msgstr "ငွေတောင်းခံလွှာ အချက်အလက်"
+
+#: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "စာပို့သင်္ကေတ နှင့် မြို့"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:124
+#, fuzzy
+#| msgid "Postcode and city"
+msgid "Postcode"
+msgstr "စာပို့သင်္ကေတ နှင့် မြို့"
+
+#: wlhosted/payments/models.py:128
 #, fuzzy
 msgid "Country"
 msgstr "နိုင်ငံ"
 
-#: wlhosted/payments/models.py:144
+#: wlhosted/payments/models.py:165
 msgid "The country has to match your VAT code"
 msgstr "နိုင်ငံ နှင့် သင်၏ VAT ကုဒ် ကိုက်ညီရမည်"
 
-#: wlhosted/payments/models.py:167
+#: wlhosted/payments/models.py:188
 #, fuzzy
 msgid "Annual"
 msgstr "နှစ်စဉ်"
 
-#: wlhosted/payments/models.py:168
+#: wlhosted/payments/models.py:189
 msgid "Biannual"
 msgstr "ခြောက်လပတ်"
 
-#: wlhosted/payments/models.py:169
+#: wlhosted/payments/models.py:190
 msgid "Quarterly"
 msgstr "သုံးလပတ်"
 
-#: wlhosted/payments/models.py:170
+#: wlhosted/payments/models.py:191
 msgid "Monthly"
 msgstr "လစဥ်"
 
-#: wlhosted/payments/models.py:171
+#: wlhosted/payments/models.py:192
 #, fuzzy
 #| msgid "Onetime"
 msgid "One-time"
 msgstr "တစ်ကြိမ်သာ"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:226
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "ငွေပေးချေမှုအသစ်"
 
-#: wlhosted/payments/models.py:206
+#: wlhosted/payments/models.py:227
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "ငွေပေးချေမှု ကို စောင့်ဆိုင်းနေသည်"
 
-#: wlhosted/payments/models.py:207
+#: wlhosted/payments/models.py:228
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "ငွေပေးချေမှု ငြင်းပယ်ခဲ့သည်"
 
-#: wlhosted/payments/models.py:208
+#: wlhosted/payments/models.py:229
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "ငွေပေးချေမှု လက်ခံရရှိပါသည်"
 
-#: wlhosted/payments/models.py:209
+#: wlhosted/payments/models.py:230
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "ငွေပေးချေခြင်း လုပ်ဆောင်နေသည်"
 
-#: wlhosted/payments/validators.py:38
+#: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
 msgstr "{} သည် မှန်ကန်သော မည်သည့် ဥရောပသမဂ္ဂအဖွဲ့ဝင် နိုင်ငံ ၏ ကုဒ် မဟုတ်ပါ။"
 
-#: wlhosted/payments/validators.py:43
+#: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
 msgstr "{} နိုင်ငံ၏ VAT ID သတ်မှတ်ချက်များနှင့် မကိုက်ညီပါ။"
 
-#: wlhosted/payments/validators.py:50
+#: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr "VAT ID အတည်ပြုခြင်း ဝန်ဆောင်မှုကို မရနိုင်ပါ {}၊ ကျေးဇူးပြု၍ နောက်မှထပ်ကြိုးစားပါ။"
 
-#: wlhosted/payments/validators.py:53
+#: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "{} သည်မှန်ကန်သော VAT ID မဟုတ်ပါ။"
+
+#~ msgid "Payment cancelled"
+#~ msgstr "ငွေပေးချေမှု ဖျက်သိမ်း"
+
+#~ msgid "Payment error"
+#~ msgstr "ငွေပေးချေမှု အမှား"
+
+#~ msgid "Bitcoin"
+#~ msgstr "ဘစ်ကွိုင်"
+
+#~ msgid "Issuing bank"
+#~ msgstr "ထုတ်ပေးသည့် ဘဏ်"
+
+#~ msgid "Account holder"
+#~ msgstr "စာရင်း ပိုင်ရှင်"
+
+#~ msgid "Account number"
+#~ msgstr "အကောင့်နံပါတ်"
+
+#~ msgid "SWIFT code"
+#~ msgstr "SWIFT ကုဒ်"
+
+#~ msgid "IBAN"
+#~ msgstr "IBAN"
+
+#~ msgid "Reference"
+#~ msgstr "ရည်ညွှန်း"
 
 #~ msgid "Personal Data Controller"
 #~ msgstr "ပုဂ္ဂိုလ်ရေး အချက်အလက် ထိန်းချုပ်သူ"
 
 #~ msgid "%(provider)s, Reg. No. %(reg_no)s"
 #~ msgstr "%(provider)s၊ မှတ်ပုံတင် အမှတ်.%(reg_no)s"
-
-#~ msgid "Billing information"
-#~ msgstr "ငွေတောင်းခံလွှာ အချက်အလက်"
 
 #~ msgid "Access to the Personal Data"
 #~ msgstr "ပုဂ္ဂိုလ်ရေး အချက်အလက် ရယူသုံးစွဲမှု"
