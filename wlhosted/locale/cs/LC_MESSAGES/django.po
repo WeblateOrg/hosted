@@ -8,19 +8,19 @@
 # Fjuro <fjuro@alius.cz>, 2025.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2025-01-18 20:22+0000\n"
-"Last-Translator: Fjuro <fjuro@alius.cz>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/weblate/hosted/cs/"
-">\n"
+"PO-Revision-Date: 2025-02-21 11:52+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/weblate/hosted/cs/>"
+"\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.10-dev\n"
+"X-Generator: Weblate 5.10.1-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -226,20 +226,16 @@ msgid "Address"
 msgstr "Adresa"
 
 #: wlhosted/payments/models.py:113
-#, fuzzy
-#| msgid "Billing information"
 msgid "Additional address information"
-msgstr "Fakturační údaje"
+msgstr "Doplňující informace o adrese"
 
 #: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "PSČ a město"
 
 #: wlhosted/payments/models.py:124
-#, fuzzy
-#| msgid "Postcode and city"
 msgid "Postcode"
-msgstr "PSČ a město"
+msgstr "PSČ"
 
 #: wlhosted/payments/models.py:128
 msgid "Country"
