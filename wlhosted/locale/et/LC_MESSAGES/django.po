@@ -10,11 +10,11 @@
 # Lauri Linnamäe <de0g7o8f@duck.com>, 2024.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2025-01-20 08:05+0000\n"
-"Last-Translator: Priit Jõerüüt <hwlate@joeruut.com>\n"
+"PO-Revision-Date: 2025-02-21 11:52+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/weblate/hosted/"
 "et/>\n"
 "Language: et\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10-dev\n"
+"X-Generator: Weblate 5.10.1-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -226,20 +226,16 @@ msgid "Address"
 msgstr "Aadress"
 
 #: wlhosted/payments/models.py:113
-#, fuzzy
-#| msgid "Billing information"
 msgid "Additional address information"
-msgstr "Arveldusteave"
+msgstr "Täiendav aadressi teave"
 
 #: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "Sihtnumber ja linn"
 
 #: wlhosted/payments/models.py:124
-#, fuzzy
-#| msgid "Postcode and city"
 msgid "Postcode"
-msgstr "Sihtnumber ja linn"
+msgstr "Postiindeks"
 
 #: wlhosted/payments/models.py:128
 msgid "Country"
