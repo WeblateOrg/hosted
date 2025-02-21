@@ -8,11 +8,11 @@
 # Michal Čihař <michal@weblate.org>, 2025.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2025-02-21 09:44+0000\n"
-"Last-Translator: Michal Čihař <michal@weblate.org>\n"
+"PO-Revision-Date: 2025-02-21 11:52+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Interlingua <https://hosted.weblate.org/projects/weblate/"
 "hosted/ia/>\n"
 "Language: ia\n"
@@ -225,10 +225,8 @@ msgid "Postcode and city"
 msgstr "Codice postal e citate"
 
 #: wlhosted/payments/models.py:124
-#, fuzzy
-#| msgid "Postcode and city"
 msgid "Postcode"
-msgstr "Codice postal e citate"
+msgstr "Codice postal"
 
 #: wlhosted/payments/models.py:128
 msgid "Country"
