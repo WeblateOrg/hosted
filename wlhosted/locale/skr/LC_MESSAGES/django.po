@@ -5,11 +5,11 @@
 # Michal Čihař <michal@weblate.org>, 2025.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2025-02-21 09:44+0000\n"
-"Last-Translator: Michal Čihař <michal@weblate.org>\n"
+"PO-Revision-Date: 2025-02-21 11:52+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Saraiki <https://hosted.weblate.org/projects/weblate/hosted/"
 "skr/>\n"
 "Language: skr\n"
@@ -225,17 +225,15 @@ msgstr "پتہ"
 
 #: wlhosted/payments/models.py:113
 msgid "Additional address information"
-msgstr ""
+msgstr "وادھوں پتہ معلومات"
 
 #: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "پوسٹ کوڈ تے شہر"
 
 #: wlhosted/payments/models.py:124
-#, fuzzy
-#| msgid "Postcode and city"
 msgid "Postcode"
-msgstr "پوسٹ کوڈ تے شہر"
+msgstr "پوسٹ کوڈ"
 
 #: wlhosted/payments/models.py:128
 msgid "Country"
