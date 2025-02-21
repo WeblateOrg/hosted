@@ -10,11 +10,11 @@
 # Damjan Gerl <damjan@damjan.net>, 2023.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2024-09-24 14:19+0000\n"
-"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
+"PO-Revision-Date: 2025-02-21 11:52+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Slovenian <https://hosted.weblate.org/projects/weblate/hosted/"
 "sl/>\n"
 "Language: sl\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.10.1-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -224,20 +224,16 @@ msgid "Address"
 msgstr "Naslov"
 
 #: wlhosted/payments/models.py:113
-#, fuzzy
-#| msgid "Billing information"
 msgid "Additional address information"
-msgstr "Podatki za račun"
+msgstr "Dodatni podatki o naslovu"
 
 #: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "Poštna številka in kraj"
 
 #: wlhosted/payments/models.py:124
-#, fuzzy
-#| msgid "Postcode and city"
 msgid "Postcode"
-msgstr "Poštna številka in kraj"
+msgstr "Poštna številka"
 
 #: wlhosted/payments/models.py:128
 msgid "Country"
