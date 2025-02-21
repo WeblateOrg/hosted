@@ -6,11 +6,11 @@
 # Sveinn í Felli <sv1@fellsnet.is>, 2020, 2021, 2024.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2024-11-11 20:15+0000\n"
-"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
+"PO-Revision-Date: 2025-02-21 11:52+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Icelandic <https://hosted.weblate.org/projects/weblate/hosted/"
 "is/>\n"
 "Language: is\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n % 10 != 1 || n % 100 == 11;\n"
-"X-Generator: Weblate 5.8.2\n"
+"X-Generator: Weblate 5.10.1-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -225,20 +225,16 @@ msgid "Address"
 msgstr "Heimilisfang"
 
 #: wlhosted/payments/models.py:113
-#, fuzzy
-#| msgid "Billing information"
 msgid "Additional address information"
-msgstr "Upplýsingar um greiðanda"
+msgstr "Viðbótarupplýsingar um heimilisfang"
 
 #: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "Póstnúmer og staður"
 
 #: wlhosted/payments/models.py:124
-#, fuzzy
-#| msgid "Postcode and city"
 msgid "Postcode"
-msgstr "Póstnúmer og staður"
+msgstr "Póstnúmer"
 
 #: wlhosted/payments/models.py:128
 msgid "Country"
