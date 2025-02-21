@@ -17,14 +17,12 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
 
-import os
 import re
 from typing import Never
 
 from django.conf import settings
-from django.core.mail import EmailMessage
 from django.shortcuts import redirect
-from django.utils.translation import gettext, gettext_lazy
+from django.utils.translation import gettext_lazy
 
 from wlhosted.payments.models import Payment
 
@@ -60,10 +58,6 @@ class Backend:
         self.payment = select[0]
         self.invoice = None
 
-    @property
-    def image_name(self) -> str:
-        return f"payment/{self.name}.png"
-
     def perform(self, request, back_url, complete_url) -> Never:
         """Performs payment and optionally redirects user."""
         raise NotImplementedError
@@ -71,10 +65,6 @@ class Backend:
     def collect(self, request) -> Never:
         """Collects payment information."""
         raise NotImplementedError
-
-    def get_instructions(self):
-        """Payment instructions for manual methods."""
-        return []
 
     def initiate(self, request, back_url, complete_url):
         """Initiates payment and optionally redirects user."""
@@ -107,95 +97,6 @@ class Backend:
         self.failure()
         return False
 
-    def notify_user(self) -> None:
-        """Send email notification with an invoice."""
-        email = EmailMessage(
-            gettext("Your payment on weblate.org"),
-            gettext(
-                """Hello,
-
-Thank you for your payment on weblate.org.
-
-You will find an invoice for this payment attached.
-Alternatively, you can download it from the website:
-
-%s
-"""
-            )
-            % self.payment.customer.origin,
-            "billing@weblate.org",
-            [self.payment.customer.email],
-        )
-        if self.invoice is not None:
-            with open(self.invoice.pdf_path, "rb") as handle:
-                email.attach(
-                    os.path.basename(self.invoice.pdf_path),
-                    handle.read(),
-                    "application/pdf",
-                )
-        email.send()
-
-    def notify_failure(self) -> None:
-        """Send email notification with a failure."""
-        email = EmailMessage(
-            gettext("Your payment on weblate.org failed"),
-            gettext(
-                """Hello,
-
-Your payment on weblate.org has failed.
-
-%s
-
-Retry issuing the payment on the website:
-
-%s
-
-If concerning a recurring payment, it is retried three times,
-and if still failing, cancelled.
-"""
-            )
-            % (
-                self.payment.details.get("reject_reason", "Uknown"),
-                self.payment.customer.origin,
-            ),
-            "billing@weblate.org",
-            [self.payment.customer.email],
-        )
-        if self.invoice is not None:
-            with open(self.invoice.pdf_path, "rb") as handle:
-                email.attach(
-                    os.path.basename(self.invoice.pdf_path),
-                    handle.read(),
-                    "application/pdf",
-                )
-        email.send()
-
-    def notify_pending(self) -> None:
-        """Send email notification with a pending."""
-        email = EmailMessage(
-            gettext("Your pending payment on weblate.org"),
-            gettext(
-                """Hello,
-
-Your payment on weblate.org is pending. Please follow the provided
-instructions to complete the payment.
-"""
-            ),
-            "billing@weblate.org",
-            [self.payment.customer.email],
-        )
-        if self.invoice is not None:
-            with open(self.invoice.pdf_path, "rb") as handle:
-                email.attach(
-                    os.path.basename(self.invoice.pdf_path),
-                    handle.read(),
-                    "application/pdf",
-                )
-        email.send()
-
-    def get_invoice_kwargs(self):
-        return {"payment_id": str(self.payment.pk), "payment_method": self.description}
-
     def success(self) -> None:
         self.payment.state = Payment.ACCEPTED
         if not self.recurring:
@@ -203,13 +104,9 @@ instructions to complete the payment.
 
         self.payment.save()
 
-        self.notify_user()
-
     def failure(self) -> None:
         self.payment.state = Payment.REJECTED
         self.payment.save()
-
-        self.notify_failure()
 
 
 @register_backend
