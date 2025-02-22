@@ -5,14 +5,14 @@
 # Iván Seoane <ivanrsm1997@gmail.com>, 2018, 2019.
 # Iváns <ivanrsm1997@gmail.com>, 2019.
 # gallegonovato <fran-carro@hotmail.es>, 2022.
-# "Miguel A. Bouzada" <mbouzada@gmail.com>, 2024.
+# "Miguel A. Bouzada" <mbouzada@gmail.com>, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2025-02-21 11:52+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2025-02-22 10:26+0000\n"
+"Last-Translator: \"Miguel A. Bouzada\" <mbouzada@gmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/weblate/hosted/"
 "gl/>\n"
 "Language: gl\n"
@@ -227,7 +227,7 @@ msgstr "Enderezo"
 
 #: wlhosted/payments/models.py:113
 msgid "Additional address information"
-msgstr "Información adicional sobre o enderezo"
+msgstr "Información adicional do enderezo"
 
 #: wlhosted/payments/models.py:119
 msgid "Postcode and city"
