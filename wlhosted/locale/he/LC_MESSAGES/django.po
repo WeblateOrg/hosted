@@ -1,16 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Yaron Shahrabani <sh.yaron@gmail.com>, 2018, 2019, 2020, 2021, 2024.
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2018, 2019, 2020, 2021, 2024, 2025.
 # ButterflyOfFire <ButterflyOfFire@protonmail.com>, 2018.
 # tamer dab <dabsantamer@yahoo.com>, 2020.
 # Omeritzics Games <omeritzicschwartz@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2024-05-06 11:51+0000\n"
+"PO-Revision-Date: 2025-02-27 09:01+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/weblate/hosted/he/"
 ">\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Weblate 5.5.3\n"
+"X-Generator: Weblate 5.10.2-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -218,20 +218,16 @@ msgid "Address"
 msgstr "כתובת"
 
 #: wlhosted/payments/models.py:113
-#, fuzzy
-#| msgid "Billing information"
 msgid "Additional address information"
-msgstr "פרטי חיוב"
+msgstr "פרטי כתובת נוספים"
 
 #: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "מיקוד ועיר"
 
 #: wlhosted/payments/models.py:124
-#, fuzzy
-#| msgid "Postcode and city"
 msgid "Postcode"
-msgstr "מיקוד ועיר"
+msgstr "מיקוד"
 
 #: wlhosted/payments/models.py:128
 msgid "Country"
