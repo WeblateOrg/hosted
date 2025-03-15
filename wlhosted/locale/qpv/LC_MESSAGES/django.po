@@ -1,0 +1,289 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Languages add-on <noreply-addon-languages@weblate.org>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hosted Weblate\n"
+"Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
+"POT-Creation-Date: 2025-02-21 09:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: qpv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: wlhosted/addons.py:44 wlhosted/addons.py:45
+msgid "Generate Unknown Horizons scenario data"
+msgstr ""
+
+#: wlhosted/addons.py:67
+msgid "Reset repository to upstream"
+msgstr ""
+
+#: wlhosted/addons.py:68
+msgid "Discards all changes in the Weblate repository each night."
+msgstr ""
+
+#: wlhosted/integrations/forms.py:37
+msgid "Billing"
+msgstr ""
+
+#: wlhosted/integrations/forms.py:38
+msgid "Choose the billing plan you want to update"
+msgstr ""
+
+#: wlhosted/integrations/forms.py:39
+msgid "Create new billing plan"
+msgstr ""
+
+#: wlhosted/integrations/templates/hosted/create.html:8
+msgid "Create billing plan"
+msgstr ""
+
+#: wlhosted/integrations/templates/hosted/create.html:17
+msgid "New billing plan"
+msgstr ""
+
+#: wlhosted/integrations/templates/hosted/create.html:20
+msgid "Please choose a hosting plan that fits the size of your project."
+msgstr ""
+
+#: wlhosted/integrations/templates/hosted/create.html:26
+msgid "Current billing status"
+msgstr ""
+
+#: wlhosted/integrations/templates/hosted/create.html:47
+msgid "Too small for your project."
+msgstr ""
+
+#: wlhosted/integrations/templates/hosted/create.html:47
+msgid "Too small"
+msgstr ""
+
+#: wlhosted/integrations/templates/hosted/create.html:49
+msgid "Selected plan"
+msgstr ""
+
+#: wlhosted/integrations/templates/hosted/create.html:51
+msgid "Current plan"
+msgstr ""
+
+#: wlhosted/integrations/templates/hosted/create.html:56
+msgid "Hosted strings limit"
+msgstr ""
+
+#: wlhosted/integrations/templates/hosted/create.html:57
+#: wlhosted/integrations/templates/hosted/create.html:60
+#: wlhosted/integrations/templates/hosted/create.html:63
+#: wlhosted/integrations/templates/hosted/create.html:66
+msgid "Unlimited"
+msgstr ""
+
+#: wlhosted/integrations/templates/hosted/create.html:59
+msgid "Source strings limit"
+msgstr ""
+
+#: wlhosted/integrations/templates/hosted/create.html:62
+msgid "Languages limit"
+msgstr ""
+
+#: wlhosted/integrations/templates/hosted/create.html:65
+msgid "Projects limit"
+msgstr ""
+
+#: wlhosted/integrations/templates/hosted/create.html:78
+#, python-format
+msgid "%(price)s EUR / month"
+msgstr ""
+
+#: wlhosted/integrations/templates/hosted/create.html:79
+#: wlhosted/integrations/templates/hosted/create.html:85
+#, python-format
+msgid "%(price)s EUR including VAT"
+msgstr ""
+
+#: wlhosted/integrations/templates/hosted/create.html:84
+#, python-format
+msgid "%(price)s EUR / year"
+msgstr ""
+
+#: wlhosted/integrations/templates/hosted/create.html:96
+msgid ""
+"Pricing is based on the number of source strings and target languages. The "
+"source string is a text unit defined in a translation format, it can be a "
+"word, sentence or paragraph."
+msgstr ""
+
+#: wlhosted/integrations/templates/hosted/create.html:99
+msgid "All listed prices exclude VAT."
+msgstr ""
+
+#: wlhosted/integrations/templates/hosted/create.html:100
+#, python-format
+msgid ""
+"EU end users and Czech companies will be charged with additional 21%% VAT."
+msgstr ""
+
+#: wlhosted/integrations/templates/hosted/create.html:101
+msgid ""
+"The reverse charge applies to invoices issued to businesses within the EU."
+msgstr ""
+
+#: wlhosted/integrations/templates/mail/billing_paid.html:6
+msgid "Thank you for the payment, your billing is now paid."
+msgstr ""
+
+#: wlhosted/integrations/templates/mail/billing_paid.html:8
+msgid "This billing plan covers following projects:"
+msgstr ""
+
+#: wlhosted/integrations/templates/mail/billing_paid.html:17
+msgid "Check your billing status"
+msgstr ""
+
+#: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
+msgid "Your billing plan was paid"
+msgstr ""
+
+#: wlhosted/integrations/views.py:67
+msgid "No matching payment found."
+msgstr ""
+
+#: wlhosted/integrations/views.py:75
+msgid "Thank you for purchasing a hosting plan, it is now active."
+msgstr ""
+
+#: wlhosted/integrations/views.py:83
+msgid ""
+"Thank you for purchasing a hosting plan, the payment for it is pending and "
+"will be processed in the background."
+msgstr ""
+
+#: wlhosted/integrations/views.py:95
+msgid "The payment was rejected: {}"
+msgstr ""
+
+#: wlhosted/integrations/views.py:96
+msgid "Unknown reason"
+msgstr ""
+
+#: wlhosted/integrations/views.py:112
+msgid "Payments are temporarily inactive."
+msgstr ""
+
+#: wlhosted/payments/backends.py:156
+msgid "IBAN bank transfer"
+msgstr ""
+
+#: wlhosted/payments/backends.py:164
+msgid "Payment card"
+msgstr ""
+
+#: wlhosted/payments/models.py:87
+msgid "European VAT ID"
+msgstr ""
+
+#: wlhosted/payments/models.py:89
+msgid "Please fill in European Union VAT ID, leave blank if not applicable."
+msgstr ""
+
+#: wlhosted/payments/models.py:95
+msgid "Tax registration"
+msgstr ""
+
+#: wlhosted/payments/models.py:97
+msgid ""
+"Please fill in your tax registration if it should appear on the invoice."
+msgstr ""
+
+#: wlhosted/payments/models.py:103
+msgid "Company or individual name"
+msgstr ""
+
+#: wlhosted/payments/models.py:108
+msgid "Address"
+msgstr ""
+
+#: wlhosted/payments/models.py:113
+msgid "Additional address information"
+msgstr ""
+
+#: wlhosted/payments/models.py:119
+msgid "Postcode and city"
+msgstr ""
+
+#: wlhosted/payments/models.py:124
+msgid "Postcode"
+msgstr ""
+
+#: wlhosted/payments/models.py:128
+msgid "Country"
+msgstr ""
+
+#: wlhosted/payments/models.py:165
+msgid "The country has to match your VAT code"
+msgstr ""
+
+#: wlhosted/payments/models.py:188
+msgid "Annual"
+msgstr ""
+
+#: wlhosted/payments/models.py:189
+msgid "Biannual"
+msgstr ""
+
+#: wlhosted/payments/models.py:190
+msgid "Quarterly"
+msgstr ""
+
+#: wlhosted/payments/models.py:191
+msgid "Monthly"
+msgstr ""
+
+#: wlhosted/payments/models.py:192
+msgid "One-time"
+msgstr ""
+
+#: wlhosted/payments/models.py:226
+msgctxt "Payment state"
+msgid "New payment"
+msgstr ""
+
+#: wlhosted/payments/models.py:227
+msgctxt "Payment state"
+msgid "Awaiting payment"
+msgstr ""
+
+#: wlhosted/payments/models.py:228
+msgctxt "Payment state"
+msgid "Payment rejected"
+msgstr ""
+
+#: wlhosted/payments/models.py:229
+msgctxt "Payment state"
+msgid "Payment accepted"
+msgstr ""
+
+#: wlhosted/payments/models.py:230
+msgctxt "Payment state"
+msgid "Payment processed"
+msgstr ""
+
+#: wlhosted/payments/validators.py:32
+msgid "{} is not a valid country code for any European Union member."
+msgstr ""
+
+#: wlhosted/payments/validators.py:37
+msgid "{} does not match the country's VAT ID specifications."
+msgstr ""
+
+#: wlhosted/payments/validators.py:44
+msgid "VAT ID validation service unavailable for {}, please try again later."
+msgstr ""
+
+#: wlhosted/payments/validators.py:47
+msgid "{} is not a valid VAT ID."
+msgstr ""
