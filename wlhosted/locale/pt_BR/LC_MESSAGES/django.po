@@ -5,13 +5,14 @@
 # Rafael Fontenelle <rafaelff@gnome.org>, 2018, 2019, 2020, 2021, 2025.
 # Felipe <felipefplzx@gmail.com>, 2021.
 # Jose Delvani <delvani.eletricista@gmail.com>, 2024.
+# dedakir923 <dedakir923@exoular.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2025-02-22 10:26+0000\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"PO-Revision-Date: 2025-03-20 18:17+0000\n"
+"Last-Translator: dedakir923 <dedakir923@exoular.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "weblate/hosted/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.10.1-dev\n"
+"X-Generator: Weblate 5.11-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -137,8 +138,8 @@ msgstr "Todos os preços listados excluem o IVA."
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
-"Aos usuários finais da UE (União Europeia) e as empresas tchecas serão "
-"cobrados com um IVA adicional de 21%%."
+"Aos usuários finais da União Europeia e as empresas tchecas serão cobrados "
+"com um adicional de 21%% de IVA."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
@@ -201,13 +202,13 @@ msgstr "Cartão de pagamento"
 
 #: wlhosted/payments/models.py:87
 msgid "European VAT ID"
-msgstr "ID do IVA europeu"
+msgstr "Código IVA europeu"
 
 #: wlhosted/payments/models.py:89
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
-"Por favor preencha o ID do IVA da União Europeia. Deixe em branco se não for "
-"aplicável."
+"Por favor preencha o código IVA da União Europeia. Deixe em branco se não "
+"for aplicável."
 
 #: wlhosted/payments/models.py:95
 msgid "Tax registration"
@@ -299,7 +300,7 @@ msgstr ""
 
 #: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
-msgstr "{} não corresponde às especificações de ID do IVA do país."
+msgstr "{} não corresponde às especificações do código IVA do país."
 
 #: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
@@ -309,7 +310,7 @@ msgstr ""
 
 #: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
-msgstr "{} não é um ID de IVA válido."
+msgstr "{} não é um código de IVA válido."
 
 #~ msgid "Your payment on weblate.org"
 #~ msgstr "Seu pagamento no weblate.org"
