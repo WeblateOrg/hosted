@@ -134,6 +134,13 @@ class Customer(models.Model):
     )
     origin = models.URLField(max_length=300)
     user_id = models.IntegerField()
+    end_client = models.CharField(
+        max_length=200,
+        default="",
+        blank=True,
+        verbose_name="End client name",
+    )
+    note = models.TextField(blank=True, verbose_name="Note")
     created = models.DateTimeField(auto_now_add=True)
 
     class Meta:
