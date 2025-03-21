@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Sena <jn-sena@proton.me>, 2023.
+# Bee Crankson <ProfB.crankson@gmail.com>, 2025.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2023-04-27 16:49+0000\n"
-"Last-Translator: Sena <jn-sena@proton.me>\n"
+"PO-Revision-Date: 2025-03-21 15:09+0000\n"
+"Last-Translator: Bee Crankson <ProfB.crankson@gmail.com>\n"
 "Language-Team: Toki Pona <https://hosted.weblate.org/projects/weblate/hosted/"
 "tok/>\n"
 "Language: tok\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.11-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -232,48 +233,48 @@ msgstr ""
 
 #: wlhosted/payments/models.py:188
 msgid "Annual"
-msgstr ""
+msgstr "wan lon tenpo sike"
 
 #: wlhosted/payments/models.py:189
 msgid "Biannual"
-msgstr ""
+msgstr "tu lon tenpo sike"
 
 #: wlhosted/payments/models.py:190
 msgid "Quarterly"
-msgstr ""
+msgstr "tu tu lon tenpo sike"
 
 #: wlhosted/payments/models.py:191
 msgid "Monthly"
-msgstr ""
+msgstr "wan lon tenpo mun"
 
 #: wlhosted/payments/models.py:192
 msgid "One-time"
-msgstr ""
+msgstr "wan lon tenpo ale"
 
 #: wlhosted/payments/models.py:226
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "esun sin"
 
 #: wlhosted/payments/models.py:227
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr ""
+msgstr "mi awen wile e esun"
 
 #: wlhosted/payments/models.py:228
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr ""
+msgstr "mi kama ala e esun"
 
 #: wlhosted/payments/models.py:229
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr ""
+msgstr "mi kama lon e esun"
 
 #: wlhosted/payments/models.py:230
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr ""
+msgstr "mi kama sona e esun"
 
 #: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
