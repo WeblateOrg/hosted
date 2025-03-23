@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Coool (github.com/Coool) <coool@mail.lv>, 2022.
 # "Coool (github.com/Coool)" <coool@mail.lv>, 2024.
+# "ℂ𝕠𝕠𝕠𝕝 (𝕘𝕚𝕥𝕙𝕦𝕓.𝕔𝕠𝕞/ℂ𝕠𝕠𝕠𝕝)" <coool@mail.lv>, 2025.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2024-09-22 01:54+0000\n"
-"Last-Translator: \"Coool (github.com/Coool)\" <coool@mail.lv>\n"
+"PO-Revision-Date: 2025-03-23 12:52+0000\n"
+"Last-Translator: \"ℂ𝕠𝕠𝕠𝕝 (𝕘𝕚𝕥𝕙𝕦𝕓.𝕔𝕠𝕞/ℂ𝕠𝕠𝕠𝕝)\" <coool@mail.lv>\n"
 "Language-Team: Latvian <https://hosted.weblate.org/projects/weblate/hosted/"
 "lv/>\n"
 "Language: lv\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= "
 "19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.11-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -44,11 +45,11 @@ msgstr "Atlasiet rēķina plānu, kuru vēlaties atjaunināt"
 
 #: wlhosted/integrations/forms.py:39
 msgid "Create new billing plan"
-msgstr "Izveidojiet jaunu rēķinu plānu"
+msgstr "Izveidot jaunu rēķina plānu"
 
 #: wlhosted/integrations/templates/hosted/create.html:8
 msgid "Create billing plan"
-msgstr "Izveidot rēķinu plānu"
+msgstr "Izveidot rēķina plānu"
 
 #: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
@@ -226,17 +227,15 @@ msgstr "Adrese"
 
 #: wlhosted/payments/models.py:113
 msgid "Additional address information"
-msgstr ""
+msgstr "Papildu adreses informācija"
 
 #: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "Pasta indekss un pilsēta"
 
 #: wlhosted/payments/models.py:124
-#, fuzzy
-#| msgid "Postcode and city"
 msgid "Postcode"
-msgstr "Pasta indekss un pilsēta"
+msgstr "Pasta indekss"
 
 #: wlhosted/payments/models.py:128
 msgid "Country"
