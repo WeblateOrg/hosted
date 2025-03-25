@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2025-03-25 08:32+0000\n"
+"PO-Revision-Date: 2025-03-25 19:47+0000\n"
 "Last-Translator: Emilia Meza <emiliameza@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/weblate/hosted/"
 "eo/>\n"
@@ -203,12 +203,13 @@ msgstr "Pagkarto"
 
 #: wlhosted/payments/models.py:87
 msgid "European VAT ID"
-msgstr "Eŭropa AVI-a ID"
+msgstr "Eŭropa AVI-a identigilo"
 
 #: wlhosted/payments/models.py:89
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
-"Bonvolu plenigi la AVI-a ID de Eŭropa Unio, lasi malplena se ne aplikebla."
+"Bonvolu plenigi la AVI-a identigilo de Eŭropa Unio, lasi malplena se ne "
+"aplikebla."
 
 #: wlhosted/payments/models.py:95
 msgid "Tax registration"
@@ -230,7 +231,7 @@ msgstr "Adreso"
 
 #: wlhosted/payments/models.py:113
 msgid "Additional address information"
-msgstr "Pliaj adresinformoj"
+msgstr "Pliaj adresaj informoj"
 
 #: wlhosted/payments/models.py:119
 msgid "Postcode and city"
@@ -299,17 +300,17 @@ msgstr "{} ne estas valida landkodo por ajna membro de Eŭropa Unio."
 
 #: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
-msgstr "{} ne kongruas kun la specifoj de AVI-a ID de la lando."
+msgstr "{} ne kongruas kun la specifoj de AVI-a identigilo de la lando."
 
 #: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
-"Servo de validigo de AVI-a ID nedisponebla por {}, bonvolu provi denove "
-"poste."
+"Servo de validigo de AVI-a identigilo nedisponebla por {}, bonvolu provi "
+"denove poste."
 
 #: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
-msgstr "{} ne estas valida AVI-a ID."
+msgstr "{} ne estas valida AVI-a identigilo."
 
 #~ msgid "Your pending payment on weblate.org"
 #~ msgstr "Via farota pago sur weblate.org"
