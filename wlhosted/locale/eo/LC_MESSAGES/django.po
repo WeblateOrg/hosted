@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2025-03-25 06:53+0000\n"
+"PO-Revision-Date: 2025-03-25 07:05+0000\n"
 "Last-Translator: Emilia Meza <emiliameza@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/weblate/hosted/"
 "eo/>\n"
@@ -96,92 +96,82 @@ msgid "Unlimited"
 msgstr "Senlimita"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Source strings limit"
-msgstr "Tekstoĉena limo"
+msgstr "Limo de fontaj ĉenoj"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Languages limit"
-msgstr "Lingvaj limoj"
+msgstr "Limo de lingvoj"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
-msgstr "Projekta limo"
+msgstr "Limo de projektoj"
 
 #: wlhosted/integrations/templates/hosted/create.html:78
 #, python-format
 msgid "%(price)s EUR / month"
-msgstr "%(price)s EUR / monate"
+msgstr "%(price)s EUR / monato"
 
 #: wlhosted/integrations/templates/hosted/create.html:79
 #: wlhosted/integrations/templates/hosted/create.html:85
 #, python-format
 msgid "%(price)s EUR including VAT"
-msgstr ""
+msgstr "%(price)s EUR inkluzive de AVI"
 
 #: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
 msgid "%(price)s EUR / year"
-msgstr ""
+msgstr "%(price)s EUR / jaro"
 
 #: wlhosted/integrations/templates/hosted/create.html:96
-#, fuzzy
-#| msgid ""
-#| "The pricing is based on number of source strings and target languages. "
-#| "The source string is a text unit defined in a translation format, it can "
-#| "be a word, sentence or paragraph."
 msgid ""
 "Pricing is based on the number of source strings and target languages. The "
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
-"La prezo baziĝas sur iuj fontaj tekstoĉenoj kaj celaj lingvoj. Fonta "
-"tekstoĉeno estas teksto-unuo difinita en traduka formato, vorto, frazo aŭ "
-"alineo."
+"Prezo baziĝas sur la nombro da fontaj ĉenoj kaj cellingvoj. La fonta ĉeno "
+"estas teksta unuo difinita en tradukformato, ĝi povas esti vorto, frazo aŭ "
+"paragrafo."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
-msgstr ""
+msgstr "Ĉiuj listigitaj prezoj ekskludas AVI."
 
 #: wlhosted/integrations/templates/hosted/create.html:100
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
-msgstr ""
+msgstr "EU-finuzantoj kaj ĉeĥaj kompanioj estos ŝargitaj per plia 21%% AVI."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
+"La inversa pagendaĵo validas por fakturoj emisiitaj al entreprenoj ene de EU."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
-msgstr ""
+msgstr "Dankon pro la pago, via fakturo nun estas pagita."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "Ĉi tiu faktura plano kovras jenajn projektojn:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
-#, fuzzy
-#| msgid "Current billing status"
 msgid "Check your billing status"
-msgstr "Nuna fakturada statuso"
+msgstr "Kontrolu vian fakturan staton"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
-#, fuzzy
-#| msgid "Create billing plan"
 msgid "Your billing plan was paid"
-msgstr "Krei fakturadan planon"
+msgstr "Via faktura plano estis pagita"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
-msgstr ""
+msgstr "Neniu kongrua pago trovita."
 
 #: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr ""
+msgstr "Dankon pro aĉetado de gastiga plano, ĝi nun estas aktiva."
 
 #: wlhosted/integrations/views.py:83
 msgid ""
