@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2025-03-25 07:05+0000\n"
+"PO-Revision-Date: 2025-03-25 08:32+0000\n"
 "Last-Translator: Emilia Meza <emiliameza@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/weblate/hosted/"
 "eo/>\n"
@@ -178,47 +178,51 @@ msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
+"Dankon pro aĉetado de gastiga plano, la pago por ĝi estas atendata kaj estos "
+"procesita en la fono."
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
-msgstr ""
+msgstr "La pago estis malakceptita: {}"
 
 #: wlhosted/integrations/views.py:96
 msgid "Unknown reason"
-msgstr ""
+msgstr "Nekonata kialo"
 
 #: wlhosted/integrations/views.py:112
 msgid "Payments are temporarily inactive."
-msgstr ""
+msgstr "Pagoj provizore estas neaktivaj."
 
 #: wlhosted/payments/backends.py:156
 msgid "IBAN bank transfer"
-msgstr ""
+msgstr "IBAN banktransigo"
 
 #: wlhosted/payments/backends.py:164
 msgid "Payment card"
-msgstr "Pagilo"
+msgstr "Pagkarto"
 
 #: wlhosted/payments/models.py:87
 msgid "European VAT ID"
-msgstr ""
+msgstr "Eŭropa AVI-a ID"
 
 #: wlhosted/payments/models.py:89
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
+"Bonvolu plenigi la AVI-a ID de Eŭropa Unio, lasi malplena se ne aplikebla."
 
 #: wlhosted/payments/models.py:95
 msgid "Tax registration"
-msgstr ""
+msgstr "Imposta registriĝo"
 
 #: wlhosted/payments/models.py:97
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
+"Bonvolu plenigi vian impostan registriĝon se ĝi devus aperi sur la fakturo."
 
 #: wlhosted/payments/models.py:103
 msgid "Company or individual name"
-msgstr ""
+msgstr "Kompanio aŭ individua nomo"
 
 #: wlhosted/payments/models.py:108
 msgid "Address"
@@ -226,15 +230,15 @@ msgstr "Adreso"
 
 #: wlhosted/payments/models.py:113
 msgid "Additional address information"
-msgstr ""
+msgstr "Pliaj adresinformoj"
 
 #: wlhosted/payments/models.py:119
 msgid "Postcode and city"
-msgstr ""
+msgstr "Poŝtkodo kaj urbo"
 
 #: wlhosted/payments/models.py:124
 msgid "Postcode"
-msgstr ""
+msgstr "Poŝtkodo"
 
 #: wlhosted/payments/models.py:128
 msgid "Country"
@@ -242,68 +246,70 @@ msgstr "Lando"
 
 #: wlhosted/payments/models.py:165
 msgid "The country has to match your VAT code"
-msgstr ""
+msgstr "La lando devas kongrui kun via AVI-kodo"
 
 #: wlhosted/payments/models.py:188
 msgid "Annual"
-msgstr ""
+msgstr "Ĉiujara"
 
 #: wlhosted/payments/models.py:189
 msgid "Biannual"
-msgstr ""
+msgstr "Dujara"
 
 #: wlhosted/payments/models.py:190
 msgid "Quarterly"
-msgstr ""
+msgstr "Kvaronjara"
 
 #: wlhosted/payments/models.py:191
 msgid "Monthly"
-msgstr ""
+msgstr "Monata"
 
 #: wlhosted/payments/models.py:192
 msgid "One-time"
-msgstr ""
+msgstr "Unufoja"
 
 #: wlhosted/payments/models.py:226
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "Nova pago"
 
 #: wlhosted/payments/models.py:227
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr ""
+msgstr "Atendante pagon"
 
 #: wlhosted/payments/models.py:228
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr ""
+msgstr "Pago malakceptita"
 
 #: wlhosted/payments/models.py:229
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr ""
+msgstr "Pago akceptita"
 
 #: wlhosted/payments/models.py:230
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr ""
+msgstr "Pago procesita"
 
 #: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
-msgstr ""
+msgstr "{} ne estas valida landkodo por ajna membro de Eŭropa Unio."
 
 #: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
-msgstr ""
+msgstr "{} ne kongruas kun la specifoj de AVI-a ID de la lando."
 
 #: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
+"Servo de validigo de AVI-a ID nedisponebla por {}, bonvolu provi denove "
+"poste."
 
 #: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
-msgstr ""
+msgstr "{} ne estas valida AVI-a ID."
 
 #~ msgid "Your pending payment on weblate.org"
 #~ msgstr "Via farota pago sur weblate.org"
