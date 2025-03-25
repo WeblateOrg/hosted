@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2025-03-25 06:22+0000\n"
+"PO-Revision-Date: 2025-03-25 06:53+0000\n"
 "Last-Translator: Emilia Meza <emiliameza@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/weblate/hosted/"
 "eo/>\n"
@@ -37,7 +37,7 @@ msgstr "Restarigu deponejon al kontraŭfluo"
 
 #: wlhosted/addons.py:68
 msgid "Discards all changes in the Weblate repository each night."
-msgstr ""
+msgstr "Forĵetas ĉiujn ŝanĝojn en la deponejo Weblate ĉiunokte."
 
 #: wlhosted/integrations/forms.py:37
 msgid "Billing"
@@ -62,7 +62,7 @@ msgstr "Nova fakturada plano"
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
 msgstr ""
-"Bonvolu elekti gastigantan planon kiu konvenas la grandecon de via projekto."
+"Bonvolu elekti gastigan planon, kiu konvenas al la grandeco de via projekto."
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
@@ -85,10 +85,8 @@ msgid "Current plan"
 msgstr "Nuna plano"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Hosted strings limit"
-msgstr "Tekstoĉena limo"
+msgstr "Limo de gastigitaj ĉenoj"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
