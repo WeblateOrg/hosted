@@ -4,16 +4,16 @@
 # Michal Čihař <michal@cihar.com>, 2019.
 # anonymous <noreply@weblate.org>, 2019.
 # Kou Prey Team <kouprey25@gmail.com>, 2020.
-# ប៉ុកណូ រ៉ូយ៉ាល់ <royalpokno68@gmail.com>, 2020, 2022.
+# ប៉ុកណូ រ៉ូយ៉ាល់ <royalpokno68@gmail.com>, 2020, 2022, 2025.
 # កុសិនារា <kursinarapok@gmail.com>, 2023.
 # សិទ្ធិការ្យ <setthikarpok@gmail.com>, 2024.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2024-05-10 23:09+0000\n"
-"Last-Translator: សិទ្ធិការ្យ <setthikarpok@gmail.com>\n"
+"PO-Revision-Date: 2025-03-30 18:05+0000\n"
+"Last-Translator: ប៉ុកណូ រ៉ូយ៉ាល់ <royalpokno68@gmail.com>\n"
 "Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/weblate/"
 "hosted/km/>\n"
 "Language: km\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5.4\n"
+"X-Generator: Weblate 5.11-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -221,20 +221,16 @@ msgid "Address"
 msgstr "អាសយដ្ឋាន"
 
 #: wlhosted/payments/models.py:113
-#, fuzzy
-#| msgid "Billing information"
 msgid "Additional address information"
-msgstr "ព័ត៌មានវិក័យប័ត្រ"
+msgstr "ព័ត៌មានអាសយដ្ឋានលម្អិតបន្ថែម"
 
 #: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "កូដប្រៃសណីយ៍ និងទីក្រុង"
 
 #: wlhosted/payments/models.py:124
-#, fuzzy
-#| msgid "Postcode and city"
 msgid "Postcode"
-msgstr "កូដប្រៃសណីយ៍ និងទីក្រុង"
+msgstr "កូដប្រៃសណីយ៍"
 
 #: wlhosted/payments/models.py:128
 msgid "Country"
