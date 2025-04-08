@@ -132,6 +132,9 @@ profile = "black"
 [tool.ruff]
 target-version = "py311"
 
+[tool.ruff.format]
+docstring-code-format = true
+
 [tool.ruff.lint]
 ignore = [
   "D10",  # TODO: we are missing many docstrings
