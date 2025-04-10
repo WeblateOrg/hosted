@@ -4,36 +4,35 @@
 # Automatically generated, 2014.
 # Viktar Vauchkevich <victorenator@gmail.com>, 2018.
 # anonymous <noreply@weblate.org>, 2019.
+# CyrTranslit <noreply-mt-cyrtranslit@weblate.org>, 2025.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2020-12-08 08:53+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Belarusian (latin) <https://hosted.weblate.org/projects/"
-"weblate/hosted/be_Latn/>\n"
-"Language: be@latin\n"
+"PO-Revision-Date: 2025-04-10 11:40+0000\n"
+"Last-Translator: CyrTranslit <noreply-mt-cyrtranslit@weblate.org>\n"
+"Language-Team: Belarusian (Latin script) <https://hosted.weblate.org/"
+"projects/weblate/hosted/be_Latn/>\n"
+"Language: be_Latn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 5.11-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
-msgstr ""
+msgstr "Generavacz' dany'ya dlya scze'nary'yu Unknown Horizons"
 
 #: wlhosted/addons.py:67
 msgid "Reset repository to upstream"
-msgstr ""
+msgstr "Skіnucz' re'pazіtory'j da verxnyaga"
 
 #: wlhosted/addons.py:68
-#, fuzzy
-#| msgid "Reset all changes in the local repository"
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Skіnuć usie zmieny ŭ lakaĺnym repazіtoryі"
+msgstr "SHtonoch adkіdvae ўse zmeny' ў re'pazіtory'і Weblate."
 
 #: wlhosted/integrations/forms.py:37
 msgid "Billing"
@@ -41,47 +40,46 @@ msgstr "Aplata"
 
 #: wlhosted/integrations/forms.py:38
 msgid "Choose the billing plan you want to update"
-msgstr ""
+msgstr "Abyary'cze tary'fny' plan dlya abnaўlennya"
 
 #: wlhosted/integrations/forms.py:39
 msgid "Create new billing plan"
-msgstr ""
+msgstr "Stvary'cz' novy' tary'fny' plan"
 
 #: wlhosted/integrations/templates/hosted/create.html:8
 msgid "Create billing plan"
-msgstr ""
+msgstr "Stvary'cz' tary'fny' plan"
 
 #: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
-msgstr ""
+msgstr "Novy' tary'fny' plan"
 
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
 msgstr ""
+"Kalі laska, abyary'cze plan xosty'ngu, yakі pady'xodzіcz' vashamu praektu."
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
-msgstr ""
+msgstr "Aktual'ny' stan razlіkaў"
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
-msgstr ""
+msgstr "Zamaly' dlya vashaga praekta."
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small"
-msgstr ""
+msgstr "Zamaly'"
 
 #: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
-msgstr ""
+msgstr "Abrany' plan"
 
 #: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
 msgstr "Biahučy taryfny plan"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Hosted strings limit"
 msgstr "Abmiežavannie radka"
 
@@ -93,8 +91,6 @@ msgid "Unlimited"
 msgstr "Nieabmiežavany"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Source strings limit"
 msgstr "Abmiežavannie radka"
 
@@ -115,7 +111,7 @@ msgstr "%(price)s EUR / miesiac"
 #: wlhosted/integrations/templates/hosted/create.html:85
 #, python-format
 msgid "%(price)s EUR including VAT"
-msgstr ""
+msgstr "%(price)s eўra ўklyuchayuchy' PDV"
 
 #: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
@@ -123,38 +119,35 @@ msgid "%(price)s EUR / year"
 msgstr "%(price)s EUR / hod"
 
 #: wlhosted/integrations/templates/hosted/create.html:96
-#, fuzzy
-#| msgid ""
-#| "The pricing is based on number of source strings and number of target "
-#| "languages. The source string is a text unit defined in a translation "
-#| "format, it can be word, sentence or a paragraph."
 msgid ""
 "Pricing is based on the number of source strings and target languages. The "
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
-"Košty ŭ zaliežnasci ad koĺkasci zychodnych radkoŭ i koĺkasci metavych moŭ. "
-"Zychodny radok — tekstavaja adzinka, jakaja vykarystoŭvajecca ŭ "
-"pierakladzie, heta moža być slova, skaz aĺbo abzac."
+"Kosht zalezhy'cz' ad kol'kasczі zy'xodny'x radkoў і me'tavy'x moў. Zy'xodny' "
+"radok — te'kstavaya adzіnka, yakaya vy'kary'stoўvaeczcza ў perakladze, ge'ta "
+"mozha by'cz' slova, skaz al'bo abzacz."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
-msgstr ""
+msgstr "Use cze'ny' bez PDV."
 
 #: wlhosted/integrations/templates/hosted/create.html:100
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
+"Sa spazhy'ўczoў ES і che'shskіx kampanіj dadatkova spaganyaeczcza 21 %% PDV."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
+"Zvarotnaya aplata ўzhy'vaeczcza da raxunkaў, vy'dadzeny'x pradpry'emstvam ES."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
-msgstr ""
+msgstr "Dzyakuem za aplatu."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
@@ -166,102 +159,103 @@ msgstr "Praviercie stan vašych aplat"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
-msgstr ""
+msgstr "Vash tary'fny' plan aplachany'"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
-msgstr ""
+msgstr "Nyama adpavednaj aplaty'."
 
 #: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr ""
+msgstr "Dzyakuem za naby'czczyo plana xosty'ngu. YOn uzho dzejnіchae."
 
 #: wlhosted/integrations/views.py:83
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
+"Dzyakuem za naby'czczyo plana xosty'ngu. Aplata yashche' apraczoўvaeczcza ў "
+"fonavy'm re'zhy'me."
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
-msgstr ""
+msgstr "Placzezh adxіleny': {}"
 
 #: wlhosted/integrations/views.py:96
 msgid "Unknown reason"
-msgstr ""
+msgstr "Nevyadomaya pry'chy'na"
 
 #: wlhosted/integrations/views.py:112
 msgid "Payments are temporarily inactive."
-msgstr ""
+msgstr "Placzyazhy' chasova neakty'ўny'ya."
 
 #: wlhosted/payments/backends.py:156
 msgid "IBAN bank transfer"
-msgstr ""
+msgstr "Bankaўskі peravod IBAN"
 
 #: wlhosted/payments/backends.py:164
-#, fuzzy
-#| msgid "Failed to process form!"
 msgid "Payment card"
-msgstr "Nie ŭdalosia apracavać farmuliar!"
+msgstr "Placzezhnaya kartka"
 
 #: wlhosted/payments/models.py:87
 msgid "European VAT ID"
-msgstr ""
+msgstr "Eўrapejskі іde'nty'fіkatar PDV"
 
 #: wlhosted/payments/models.py:89
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
+"Kalі laska, zapoўnіcze іde'nty'fіkatar PDV EZ. Kalі nyama, pakіncze pusty'm."
 
 #: wlhosted/payments/models.py:95
 msgid "Tax registration"
-msgstr ""
+msgstr "Padatkovaya re'gіstraczy'ya"
 
 #: wlhosted/payments/models.py:97
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
+"Kalі laska, zapoўnіcze padatkovuyu re'gіstraczy'yu, kalі yana budze "
+"razmyashchaczcza na raxunku."
 
 #: wlhosted/payments/models.py:103
 msgid "Company or individual name"
-msgstr ""
+msgstr "Nazva kampanіі al'bo іmya pry'vatnaj asoby'"
 
 #: wlhosted/payments/models.py:108
 msgid "Address"
-msgstr ""
+msgstr "Adras"
 
 #: wlhosted/payments/models.py:113
-#, fuzzy
-#| msgid "Billing information"
 msgid "Additional address information"
-msgstr "Zviestki ab aplacie"
+msgstr "Zviestki ab aplakie"
 
 #: wlhosted/payments/models.py:119
 msgid "Postcode and city"
-msgstr ""
+msgstr "Pashtovy' іnde'ks і gorad"
 
 #: wlhosted/payments/models.py:124
 msgid "Postcode"
-msgstr ""
+msgstr "Pashtovy' іnde'ks і gorad"
 
 #: wlhosted/payments/models.py:128
 msgid "Country"
-msgstr ""
+msgstr "Kraіna"
 
 #: wlhosted/payments/models.py:165
 msgid "The country has to match your VAT code"
-msgstr ""
+msgstr "Kraіna musіcz' adpavyadacz' vashamu kodu PDV"
 
 #: wlhosted/payments/models.py:188
 msgid "Annual"
-msgstr ""
+msgstr "SHtogod"
 
 #: wlhosted/payments/models.py:189
 msgid "Biannual"
-msgstr ""
+msgstr "Dva razy' na god"
 
 #: wlhosted/payments/models.py:190
 msgid "Quarterly"
-msgstr ""
+msgstr "SHtokvartal'na"
 
 #: wlhosted/payments/models.py:191
 msgid "Monthly"
@@ -269,54 +263,50 @@ msgstr "Štomiesiac"
 
 #: wlhosted/payments/models.py:192
 msgid "One-time"
-msgstr ""
+msgstr "Adnarazova"
 
 #: wlhosted/payments/models.py:226
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "Novy' placzezh"
 
 #: wlhosted/payments/models.py:227
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr ""
+msgstr "Placzezh u chakannі"
 
 #: wlhosted/payments/models.py:228
-#, fuzzy
-#| msgid "Failed to process form!"
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "Nie ŭdalosia apracavać farmuliar!"
+msgstr "Placzezh adxіleny'"
 
 #: wlhosted/payments/models.py:229
-#, fuzzy
-#| msgid "Failed to process form!"
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "Nie ŭdalosia apracavać farmuliar!"
+msgstr "Placzezh pry'nyaty'"
 
 #: wlhosted/payments/models.py:230
-#, fuzzy
-#| msgid "Failed to process form!"
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "Nie ŭdalosia apracavać farmuliar!"
+msgstr "Placzezh apraczavany'"
 
 #: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
-msgstr ""
+msgstr "{} ne yoscz' sapraўdny'm kodam kraіny' nіvodnaga ўdzel'nіka EZ."
 
 #: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
-msgstr ""
+msgstr "{} ne adpavyadae speczy'fіkaczy'yam PDV u kraіne."
 
 #: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
+"Pasluga praverkі іde'nty'fіkatara PDV nedastupnaya dlya {}, pasprabujcze "
+"yashche' raz paznej."
 
 #: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
-msgstr ""
+msgstr "{} ne yoscz' sapraўdny'm іde'nty'fіkataram PDV."
 
 #, fuzzy
 #~| msgid "Failed to process form!"
