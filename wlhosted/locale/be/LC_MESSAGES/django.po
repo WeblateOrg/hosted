@@ -8,13 +8,14 @@
 # Alex Ky <esthomolupus@gmail.com>, 2020.
 # Michal Čihař <michal@cihar.com>, 2020.
 # CyrTranslit <noreply-mt-cyrtranslit@weblate.org>, 2025.
+# Yauhen <bugomol@users.noreply.hosted.weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2025-04-10 11:40+0000\n"
-"Last-Translator: CyrTranslit <noreply-mt-cyrtranslit@weblate.org>\n"
+"PO-Revision-Date: 2025-04-12 18:21+0000\n"
+"Last-Translator: Yauhen <bugomol@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Belarusian <https://hosted.weblate.org/projects/weblate/"
 "hosted/be/>\n"
 "Language: be\n"
@@ -83,7 +84,7 @@ msgstr "Бягучы план"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Hosted strings limit"
-msgstr "Абмиеžаванние радка"
+msgstr "Абмежаванне на размешчаныя радкі"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
@@ -94,15 +95,15 @@ msgstr "Неабмежавана"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
 msgid "Source strings limit"
-msgstr "Абмиеžаванние радка"
+msgstr "Абмежаванне зыходных радкоў"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Languages limit"
-msgstr "Ліміт моў"
+msgstr "Колькасць моў"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
-msgstr "Ліміт праектаў"
+msgstr "Колькасць праектаў"
 
 #: wlhosted/integrations/templates/hosted/create.html:78
 #, python-format
@@ -233,10 +234,8 @@ msgid "Postcode and city"
 msgstr "Паштовы індэкс і горад"
 
 #: wlhosted/payments/models.py:124
-#, fuzzy
-#| msgid "Postcode and city"
 msgid "Postcode"
-msgstr "Паштовы індэкс і горад"
+msgstr "Паштовы індэкс"
 
 #: wlhosted/payments/models.py:128
 msgid "Country"
