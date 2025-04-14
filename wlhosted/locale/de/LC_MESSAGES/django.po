@@ -13,15 +13,15 @@
 # 5nake <jakob.mayer@htlstp.at>, 2021.
 # nautilusx <translate@disroot.org>, 2021.
 # Christian Eichert <c@zp1.net>, 2021.
-# VfBFan <drop0815@posteo.de>, 2023.
+# VfBFan <drop0815@posteo.de>, 2023, 2025.
 # VfBFan <VfBFan@users.noreply.hosted.weblate.org>, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2025-02-21 11:52+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2025-04-14 09:51+0000\n"
+"Last-Translator: VfBFan <drop0815@posteo.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/weblate/hosted/de/"
 ">\n"
 "Language: de\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.1-dev\n"
+"X-Generator: Weblate 5.11-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -316,8 +316,8 @@ msgstr "entspricht nicht den Angaben zur Umsatzsteuer-ID des Landes."
 #: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
-"UST-ID-Überprüfungssservice nicht verfügbar für {}, bitte versuchen Sie es "
-"später noch einmal."
+"UST-ID-Überprüfungssservice nicht verfügbar für {}, bitte später erneut "
+"versuchen."
 
 #: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
