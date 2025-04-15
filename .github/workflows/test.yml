@@ -14,11 +14,11 @@ jobs:
 
     services:
       redis:
-        image: redis:7-alpine
+        image: redis:7-alpine@sha256:02419de7eddf55aa5bcf49efb74e88fa8d931b4d77c07eff8a6b2144472b6952
         ports:
         - 6379:6379
       postgres:
-        image: postgres:17
+        image: postgres:17@sha256:fe3f571d128e8efadcd8b2fde0e2b73ebab6dbec33f6bfe69d98c682c7d8f7bd
         ports:
         - 5432:5432
         # needed because the postgres container does not provide a healthcheck
