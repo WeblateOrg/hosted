@@ -35,7 +35,7 @@ jobs:
     - name: Install apt dependencies
       run: |
         sudo apt update
-        sudo apt install libcairo-dev gir1.2-pango-1.0 libgirepository1.0-dev libacl1-dev gettext liblz4-dev libzstd-dev libxxhash-dev gir1.2-rsvg-2.0
+        sudo apt install libcairo-dev gir1.2-pango-1.0 libgirepository-2.0-dev libacl1-dev gettext liblz4-dev libzstd-dev libxxhash-dev gir1.2-rsvg-2.0
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@8d9ed9ac5c53483de85588cdf95a591a75ab9f55 # v5.5.0
       with:
