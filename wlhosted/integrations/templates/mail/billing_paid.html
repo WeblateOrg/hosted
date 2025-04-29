@@ -1,11 +1,11 @@
 {% extends "mail/base.html" %}
 
-{% load i18n %}{% load translations %}
+{% load i18n translations %}
 
 {% block content %}
-<p>{% trans "Thank you for the payment, your billing is now paid." %}</p>
+<p>{% translate "Thank you for the payment, your billing is now paid." %}</p>
 
-<p>{% trans "This billing plan covers following projects:" %}</p>
+<p>{% translate "This billing plan covers following projects:" %}</p>
 
 <ul>
 {% for project in billing.projects.all %}
@@ -14,7 +14,7 @@
 </ul>
 
 <div class="line buttons">
-    <a href="{% url 'billing' %}" class="button">{% trans "Check your billing status" %}</a>
+    <a href="{% url 'billing' %}" class="button">{% translate "Check your billing status" %}</a>
 </div>
 
-{% endblock %}
+{% endblock content %}

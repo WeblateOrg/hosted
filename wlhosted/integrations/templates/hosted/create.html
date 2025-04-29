@@ -1,12 +1,9 @@
 {% extends "base.html" %}
-{% load i18n %}
-{% load translations %}
-{% load crispy_forms_tags %}
-{% load humanize %}
+{% load crispy_forms_tags humanize i18n translations %}
 
 {% block breadcrumbs %}
-<li><a href="{% url 'create-billing' %}">{% trans "Create billing plan" %}</a></li>
-{% endblock %}
+<li><a href="{% url 'create-billing' %}">{% translate "Create billing plan" %}</a></li>
+{% endblock breadcrumbs %}
 
 {% block content %}
 <div class="container-fluid">
@@ -14,16 +11,16 @@
 {% if not choose_billing and not billing %}
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h3 class="panel-title">{% trans "New billing plan" %}</h3>
+    <h3 class="panel-title">{% translate "New billing plan" %}</h3>
   </div>
   <div class="panel-body">
-  {% trans "Please choose a hosting plan that fits the size of your project." %}
+  {% translate "Please choose a hosting plan that fits the size of your project." %}
   </div>
 </div>
 {% else %}
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h3 class="panel-title">{% trans "Current billing status" %}</h3>
+    <h3 class="panel-title">{% translate "Current billing status" %}</h3>
   </div>
 {% if choose_billing %}
   <div class="panel-body">
@@ -44,26 +41,26 @@
 <div class="panel panel-default">
   <div class="panel-heading">
     {% if billing and not plan.would_fit %}
-    <span class="badge pull-right flip" title="{% trans "Too small for your project." %}">{% trans "Too small" %}</span>
+    <span class="badge pull-right flip" title="{% translate "Too small for your project." %}">{% translate "Too small" %}</span>
     {% elif plan == selected_plan %}
-    <span class="badge pull-right flip">{% trans "Selected plan" %}</span>
+    <span class="badge pull-right flip">{% translate "Selected plan" %}</span>
     {% elif billing.plan == plan %}
-    <span class="badge pull-right flip">{% trans "Current plan" %}</span>
+    <span class="badge pull-right flip">{% translate "Current plan" %}</span>
     {% endif %}
     <h3 class="panel-title">{{ plan.name }}</h3>
   </div>
   <table class="table table-striped">
-  <tr><th>{% trans "Hosted strings limit" %}</th>
-  <td>{% if plan.display_limit_hosted_strings %}{{ plan.display_limit_hosted_strings|intcomma }}{% else %}{% trans "Unlimited" %}{% endif %}</td>
+  <tr><th>{% translate "Hosted strings limit" %}</th>
+  <td>{% if plan.display_limit_hosted_strings %}{{ plan.display_limit_hosted_strings|intcomma }}{% else %}{% translate "Unlimited" %}{% endif %}</td>
   </tr>
-  <tr><th>{% trans "Source strings limit" %}</th>
-  <td>{% if plan.display_limit_strings %}{{ plan.display_limit_strings|intcomma }}{% else %}{% trans "Unlimited" %}{% endif %}</td>
+  <tr><th>{% translate "Source strings limit" %}</th>
+  <td>{% if plan.display_limit_strings %}{{ plan.display_limit_strings|intcomma }}{% else %}{% translate "Unlimited" %}{% endif %}</td>
   </tr>
-  <tr><th>{% trans "Languages limit" %}</th>
-  <td>{% if plan.display_limit_languages %}{{ plan.display_limit_languages|intcomma }}{% else %}{% trans "Unlimited" %}{% endif %}</td>
+  <tr><th>{% translate "Languages limit" %}</th>
+  <td>{% if plan.display_limit_languages %}{{ plan.display_limit_languages|intcomma }}{% else %}{% translate "Unlimited" %}{% endif %}</td>
   </tr>
-  <tr><th>{% trans "Projects limit" %}</th>
-  <td>{% if plan.display_limit_projects %}{{ plan.display_limit_projects|intcomma }}{% else %}{% trans "Unlimited" %}{% endif %}</td>
+  <tr><th>{% translate "Projects limit" %}</th>
+  <td>{% if plan.display_limit_projects %}{{ plan.display_limit_projects|intcomma }}{% else %}{% translate "Unlimited" %}{% endif %}</td>
   </tr>
   </table>
   <div class="panel-footer billing-buttons">
@@ -75,14 +72,14 @@
 {% endif %}
 {% if plan.price %}
 <button type="submit" class="btn btn-primary btn-spaced" name="period" value="m" {% if billing and not plan.would_fit %}disabled{% endif %}>
-<big>{% blocktrans with price=plan.price|intcomma %}{{ price }} EUR / month{% endblocktrans %}</big><br>
-<small>{% blocktrans with price=plan.vat_price|intcomma %}{{ price }} EUR including VAT{% endblocktrans %}</small>
+<big>{% blocktranslate with price=plan.price|intcomma %}{{ price }} EUR / month{% endblocktranslate %}</big><br>
+<small>{% blocktranslate with price=plan.vat_price|intcomma %}{{ price }} EUR including VAT{% endblocktranslate %}</small>
 </button>
 {% endif %}
 {% if plan.yearly_price %}
 <button type="submit" class="btn btn-primary btn-spaced" name="period" value="y" {% if billing and not plan.would_fit %}disabled{% endif %}>
-<big>{% blocktrans with price=plan.yearly_price|intcomma %}{{ price }} EUR / year{% endblocktrans %}</big><br>
-<small>{% blocktrans with price=plan.vat_yearly_price|intcomma %}{{ price }} EUR including VAT{% endblocktrans %}</small>
+<big>{% blocktranslate with price=plan.yearly_price|intcomma %}{{ price }} EUR / year{% endblocktranslate %}</big><br>
+<small>{% blocktranslate with price=plan.vat_yearly_price|intcomma %}{{ price }} EUR including VAT{% endblocktranslate %}</small>
 </button>
 {% endif %}
 </form>
@@ -93,12 +90,12 @@
 </div>
 
 <p class="help-block">
-{% trans "Pricing is based on the number of source strings and target languages. The source string is a text unit defined in a translation format, it can be a word, sentence or paragraph." %}
+{% translate "Pricing is based on the number of source strings and target languages. The source string is a text unit defined in a translation format, it can be a word, sentence or paragraph." %}
 </p>
 <p class="help-block">
-    {% trans "All listed prices exclude VAT." %}
-    {% trans "EU end users and Czech companies will be charged with additional 21% VAT." %}
-    {% trans "The reverse charge applies to invoices issued to businesses within the EU." %}
+    {% translate "All listed prices exclude VAT." %}
+    {% translate "EU end users and Czech companies will be charged with additional 21% VAT." %}
+    {% translate "The reverse charge applies to invoices issued to businesses within the EU." %}
 </p>
 
-{% endblock %}
+{% endblock content %}

@@ -1,2 +1,2 @@
 {% load i18n %}
-{% trans "Your billing plan was paid" %}
+{% translate "Your billing plan was paid" %}
