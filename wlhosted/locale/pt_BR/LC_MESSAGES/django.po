@@ -6,13 +6,14 @@
 # Felipe <felipefplzx@gmail.com>, 2021.
 # Jose Delvani <delvani.eletricista@gmail.com>, 2024.
 # dedakir923 <dedakir923@exoular.com>, 2025.
+# Jose Delvani <dedakir923@exoular.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2025-03-20 18:17+0000\n"
-"Last-Translator: dedakir923 <dedakir923@exoular.com>\n"
+"PO-Revision-Date: 2025-05-07 07:01+0000\n"
+"Last-Translator: Jose Delvani <dedakir923@exoular.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "weblate/hosted/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.11-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -145,8 +146,8 @@ msgstr ""
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
-"A cobrança reversa se aplica a faturas emitidas para empresas na UE (União "
-"Europeia)."
+"A cobrança reversa se aplica a faturas emitidas para empresas na União "
+"Europeia."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
@@ -212,7 +213,7 @@ msgstr ""
 
 #: wlhosted/payments/models.py:95
 msgid "Tax registration"
-msgstr "Registro do imposto"
+msgstr "Registro de imposto"
 
 #: wlhosted/payments/models.py:97
 msgid ""
@@ -222,7 +223,7 @@ msgstr ""
 
 #: wlhosted/payments/models.py:103
 msgid "Company or individual name"
-msgstr "Nome da companhia ou indivíduo"
+msgstr "Nome da empresa ou pessoa física"
 
 #: wlhosted/payments/models.py:108
 msgid "Address"
@@ -246,7 +247,7 @@ msgstr "País"
 
 #: wlhosted/payments/models.py:165
 msgid "The country has to match your VAT code"
-msgstr "O país deve corresponder ao seu código de IVA"
+msgstr "O país deve corresponder ao seu código IVA"
 
 #: wlhosted/payments/models.py:188
 msgid "Annual"
@@ -296,7 +297,7 @@ msgstr "Pagamento processado"
 #: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
 msgstr ""
-"{} não é um código de país válido para nenhum membro da União Europeia."
+"{} não é um código de país válido para qualquer membro da União Europeia."
 
 #: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
@@ -305,12 +306,12 @@ msgstr "{} não corresponde às especificações do código IVA do país."
 #: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
-"Serviço de validação de ID do IVA indisponível para {}. Tente novamente mais "
-"tarde."
+"Serviço de validação do código IVA indisponível para {}, tente novamente "
+"mais tarde."
 
 #: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
-msgstr "{} não é um código de IVA válido."
+msgstr "{} código IVA inválido."
 
 #~ msgid "Your payment on weblate.org"
 #~ msgstr "Seu pagamento no weblate.org"
