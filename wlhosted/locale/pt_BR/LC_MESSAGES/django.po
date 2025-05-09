@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2025-05-07 07:01+0000\n"
+"PO-Revision-Date: 2025-05-10 16:02+0000\n"
 "Last-Translator: Jose Delvani <dedakir923@exoular.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "weblate/hosted/pt_BR/>\n"
@@ -33,7 +33,9 @@ msgstr "Redefinir repositório para o upstream"
 
 #: wlhosted/addons.py:68
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Descarta todas as alterações no repositório Weblate todas as noites."
+msgstr ""
+"Todas as noites, as alterações feitas no repositório Weblate serão "
+"descartadas."
 
 #: wlhosted/integrations/forms.py:37
 msgid "Billing"
