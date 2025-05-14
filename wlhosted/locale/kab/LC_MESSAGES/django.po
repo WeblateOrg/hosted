@@ -2,13 +2,14 @@
 # Selyan Sliman Amiri <selyan.kab@gmail.com>, 2020, 2022, 2024.
 # Muḥend Belqasem <belkacem77@gmail.com>, 2020.
 # Ouchene <merzouk.ouchene@laposte.net>, 2020.
+# ButterflyOfFire <boffire@users.noreply.hosted.weblate.org>, 2025.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2024-07-09 10:22+0000\n"
-"Last-Translator: Selyan Sliman Amiri <selyan.kab@gmail.com>\n"
+"PO-Revision-Date: 2025-05-14 12:08+0000\n"
+"Last-Translator: ButterflyOfFire <boffire@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Kabyle <https://hosted.weblate.org/projects/weblate/hosted/"
 "kab/>\n"
 "Language: kab\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -44,7 +45,7 @@ msgstr "Snulfu-d leblan n tfaṭurt amaynut"
 
 #: wlhosted/integrations/templates/hosted/create.html:8
 msgid "Create billing plan"
-msgstr "Rnu aɣawas n ufter"
+msgstr "Snulfu-d aɣawas n tfatuṛt"
 
 #: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
@@ -222,20 +223,16 @@ msgid "Address"
 msgstr "Tansa"
 
 #: wlhosted/payments/models.py:113
-#, fuzzy
-#| msgid "Billing information"
 msgid "Additional address information"
-msgstr "Talɣut n ufter"
+msgstr "Ugar n yisallen ɣef tansa"
 
 #: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "Tangalt n tnazant neɣ aɣrem"
 
 #: wlhosted/payments/models.py:124
-#, fuzzy
-#| msgid "Postcode and city"
 msgid "Postcode"
-msgstr "Tangalt n tnazant neɣ aɣrem"
+msgstr "Tangalt n tnazant"
 
 #: wlhosted/payments/models.py:128
 msgid "Country"
