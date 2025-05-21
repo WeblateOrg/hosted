@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2025-05-21 09:28+0000\n"
+"PO-Revision-Date: 2025-05-21 12:22+0000\n"
 "Last-Translator: RViktor <rviktor@ivankapal.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/weblate/hosted/"
 "hu/>\n"
@@ -139,22 +139,22 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
-msgstr "A felsorolt árak nem tartalmazzák az ÁFÁ-t."
+msgstr "A feltüntetett árak áfát nem tartalmaznak."
 
 #: wlhosted/integrations/templates/hosted/create.html:100
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
-"Az Európai Unió végfelhasználói és a cseh vállalatok további 21%% ÁFA-t "
-"fizetnek."
+"EU-s végfelhasználók és cseh cégek esetén további 21%% áfa kerül "
+"felszámításra."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
-"A fordított adózás az Európai Unión belüli vállalkozások számára kiállított "
-"számlákra vonatkozik."
+"Az EU-n belüli vállalkozásoknak kiállított számlák esetében fordított adózás "
+"alkalmazandó."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
@@ -192,7 +192,7 @@ msgstr ""
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
-msgstr "A befizetés el lett utasítva: {}"
+msgstr "A fizetés el lett utasítva: {}"
 
 #: wlhosted/integrations/views.py:96
 msgid "Unknown reason"
