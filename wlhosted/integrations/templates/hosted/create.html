@@ -1,101 +1,140 @@
 {% extends "base.html" %}
+
 {% load crispy_forms_tags humanize i18n translations %}
 
 {% block breadcrumbs %}
-<li><a href="{% url 'create-billing' %}">{% translate "Create billing plan" %}</a></li>
+  <li>
+    <a href="{% url 'create-billing' %}">{% translate "Create billing plan" %}</a>
+  </li>
 {% endblock breadcrumbs %}
 
 {% block content %}
-<div class="container-fluid">
+  <div class="container-fluid">
 
-{% if not choose_billing and not billing %}
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">{% translate "New billing plan" %}</h3>
-  </div>
-  <div class="panel-body">
-  {% translate "Please choose a hosting plan that fits the size of your project." %}
-  </div>
-</div>
-{% else %}
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">{% translate "Current billing status" %}</h3>
-  </div>
-{% if choose_billing %}
-  <div class="panel-body">
-<form class="autosubmit">
-{{ choose_billing|crispy }}
-</form>
-  </div>
-{% endif %}
-  {% if billing %}
-  {% include "billing/status.html" with projects=billing.projects.all hide_buttons=True %}
-  {% endif %}
-</div>
-{% endif %}
-
-<div class="row">
-{% for plan in plans %}
-<div class="col-md-3">
-<div class="panel panel-default">
-  <div class="panel-heading">
-    {% if billing and not plan.would_fit %}
-    <span class="badge pull-right flip" title="{% translate "Too small for your project." %}">{% translate "Too small" %}</span>
-    {% elif plan == selected_plan %}
-    <span class="badge pull-right flip">{% translate "Selected plan" %}</span>
-    {% elif billing.plan == plan %}
-    <span class="badge pull-right flip">{% translate "Current plan" %}</span>
+    {% if not choose_billing and not billing %}
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">{% translate "New billing plan" %}</h3>
+        </div>
+        <div class="panel-body">{% translate "Please choose a hosting plan that fits the size of your project." %}</div>
+      </div>
+    {% else %}
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">{% translate "Current billing status" %}</h3>
+        </div>
+        {% if choose_billing %}
+          <div class="panel-body">
+            <form class="autosubmit">
+              {{ choose_billing|crispy }}
+            </form>
+          </div>
+        {% endif %}
+        {% if billing %}
+          {% include "billing/status.html" with projects=billing.projects.all hide_buttons=True %}
+        {% endif %}
+      </div>
     {% endif %}
-    <h3 class="panel-title">{{ plan.name }}</h3>
-  </div>
-  <table class="table table-striped">
-  <tr><th>{% translate "Hosted strings limit" %}</th>
-  <td>{% if plan.display_limit_hosted_strings %}{{ plan.display_limit_hosted_strings|intcomma }}{% else %}{% translate "Unlimited" %}{% endif %}</td>
-  </tr>
-  <tr><th>{% translate "Source strings limit" %}</th>
-  <td>{% if plan.display_limit_strings %}{{ plan.display_limit_strings|intcomma }}{% else %}{% translate "Unlimited" %}{% endif %}</td>
-  </tr>
-  <tr><th>{% translate "Languages limit" %}</th>
-  <td>{% if plan.display_limit_languages %}{{ plan.display_limit_languages|intcomma }}{% else %}{% translate "Unlimited" %}{% endif %}</td>
-  </tr>
-  <tr><th>{% translate "Projects limit" %}</th>
-  <td>{% if plan.display_limit_projects %}{{ plan.display_limit_projects|intcomma }}{% else %}{% translate "Unlimited" %}{% endif %}</td>
-  </tr>
-  </table>
-  <div class="panel-footer billing-buttons">
-<form action="{% url 'create-billing' %}" method="post" class="form-inline">
-{% csrf_token %}
-<input type="hidden" name="plan" value="{{ plan.pk }}">
-{% if billing %}
-<input type="hidden" name="billing" value="{{ billing.pk }}">
-{% endif %}
-{% if plan.price %}
-<button type="submit" class="btn btn-primary btn-spaced" name="period" value="m" {% if billing and not plan.would_fit %}disabled{% endif %}>
-<big>{% blocktranslate with price=plan.price|intcomma %}{{ price }} EUR / month{% endblocktranslate %}</big><br>
-<small>{% blocktranslate with price=plan.vat_price|intcomma %}{{ price }} EUR including VAT{% endblocktranslate %}</small>
-</button>
-{% endif %}
-{% if plan.yearly_price %}
-<button type="submit" class="btn btn-primary btn-spaced" name="period" value="y" {% if billing and not plan.would_fit %}disabled{% endif %}>
-<big>{% blocktranslate with price=plan.yearly_price|intcomma %}{{ price }} EUR / year{% endblocktranslate %}</big><br>
-<small>{% blocktranslate with price=plan.vat_yearly_price|intcomma %}{{ price }} EUR including VAT{% endblocktranslate %}</small>
-</button>
-{% endif %}
-</form>
-  </div>
-</div>
-</div>
-{% endfor %}
-</div>
 
-<p class="help-block">
-{% translate "Pricing is based on the number of source strings and target languages. The source string is a text unit defined in a translation format, it can be a word, sentence or paragraph." %}
-</p>
-<p class="help-block">
-    {% translate "All listed prices exclude VAT." %}
-    {% translate "EU end users and Czech companies will be charged with additional 21% VAT." %}
-    {% translate "The reverse charge applies to invoices issued to businesses within the EU." %}
-</p>
+    <div class="row">
+      {% for plan in plans %}
+        <div class="col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              {% if billing and not plan.would_fit %}
+                <span class="badge pull-right flip"
+                      title="{% translate "Too small for your project." %}">{% translate "Too small" %}</span>
+              {% elif plan == selected_plan %}
+                <span class="badge pull-right flip">{% translate "Selected plan" %}</span>
+              {% elif billing.plan == plan %}
+                <span class="badge pull-right flip">{% translate "Current plan" %}</span>
+              {% endif %}
+              <h3 class="panel-title">{{ plan.name }}</h3>
+            </div>
+            <table class="table table-striped">
+              <tr>
+                <th>{% translate "Hosted strings limit" %}</th>
+                <td>
+                  {% if plan.display_limit_hosted_strings %}
+                    {{ plan.display_limit_hosted_strings|intcomma }}
+                  {% else %}
+                    {% translate "Unlimited" %}
+                  {% endif %}
+                </td>
+              </tr>
+              <tr>
+                <th>{% translate "Source strings limit" %}</th>
+                <td>
+                  {% if plan.display_limit_strings %}
+                    {{ plan.display_limit_strings|intcomma }}
+                  {% else %}
+                    {% translate "Unlimited" %}
+                  {% endif %}
+                </td>
+              </tr>
+              <tr>
+                <th>{% translate "Languages limit" %}</th>
+                <td>
+                  {% if plan.display_limit_languages %}
+                    {{ plan.display_limit_languages|intcomma }}
+                  {% else %}
+                    {% translate "Unlimited" %}
+                  {% endif %}
+                </td>
+              </tr>
+              <tr>
+                <th>{% translate "Projects limit" %}</th>
+                <td>
+                  {% if plan.display_limit_projects %}
+                    {{ plan.display_limit_projects|intcomma }}
+                  {% else %}
+                    {% translate "Unlimited" %}
+                  {% endif %}
+                </td>
+              </tr>
+            </table>
+            <div class="panel-footer billing-buttons">
+              <form action="{% url 'create-billing' %}" method="post" class="form-inline">
+                {% csrf_token %}
+                <input type="hidden" name="plan" value="{{ plan.pk }}">
+                {% if billing %}<input type="hidden" name="billing" value="{{ billing.pk }}">{% endif %}
+                {% if plan.price %}
+                  <button type="submit"
+                          class="btn btn-primary btn-spaced"
+                          name="period"
+                          value="m"
+                          {% if billing and not plan.would_fit %}disabled{% endif %}>
+                    <big>{% blocktranslate with price=plan.price|intcomma %}{{ price }} EUR / month{% endblocktranslate %}</big>
+                    <br>
+                    <small>{% blocktranslate with price=plan.vat_price|intcomma %}{{ price }} EUR including VAT{% endblocktranslate %}</small>
+                  </button>
+                {% endif %}
+                {% if plan.yearly_price %}
+                  <button type="submit"
+                          class="btn btn-primary btn-spaced"
+                          name="period"
+                          value="y"
+                          {% if billing and not plan.would_fit %}disabled{% endif %}>
+                    <big>{% blocktranslate with price=plan.yearly_price|intcomma %}{{ price }} EUR / year{% endblocktranslate %}</big>
+                    <br>
+                    <small>{% blocktranslate with price=plan.vat_yearly_price|intcomma %}{{ price }} EUR including VAT{% endblocktranslate %}</small>
+                  </button>
+                {% endif %}
+              </form>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <p class="help-block">
+      {% translate "Pricing is based on the number of source strings and target languages. The source string is a text unit defined in a translation format, it can be a word, sentence or paragraph." %}
+    </p>
+    <p class="help-block">
+      {% translate "All listed prices exclude VAT." %}
+      {% translate "EU end users and Czech companies will be charged with additional 21% VAT." %}
+      {% translate "The reverse charge applies to invoices issued to businesses within the EU." %}
+    </p>
+  </div>
 
 {% endblock content %}

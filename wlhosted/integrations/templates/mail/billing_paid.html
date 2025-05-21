@@ -3,18 +3,20 @@
 {% load i18n translations %}
 
 {% block content %}
-<p>{% translate "Thank you for the payment, your billing is now paid." %}</p>
+  <p>{% translate "Thank you for the payment, your billing is now paid." %}</p>
 
-<p>{% translate "This billing plan covers following projects:" %}</p>
+  <p>{% translate "This billing plan covers following projects:" %}</p>
 
-<ul>
-{% for project in billing.projects.all %}
-    <li><a href="{{ project.get_absolute_url }}">{{ project }}</a></li>
-{% endfor %}
-</ul>
+  <ul>
+    {% for project in billing.projects.all %}
+      <li>
+        <a href="{{ project.get_absolute_url }}">{{ project }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 
-<div class="line buttons">
+  <div class="line buttons">
     <a href="{% url 'billing' %}" class="button">{% translate "Check your billing status" %}</a>
-</div>
+  </div>
 
 {% endblock content %}
