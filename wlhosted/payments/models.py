@@ -143,6 +143,8 @@ class Customer(models.Model):
     note = models.TextField(blank=True, verbose_name="Note")
     created = models.DateTimeField(auto_now_add=True)
 
+    zammad_id = models.IntegerField(default=0)
+
     class Meta:
         verbose_name = "Customer"
         verbose_name_plural = "Customers"
