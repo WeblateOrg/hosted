@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2025-04-22 12:49+0000\n"
+"PO-Revision-Date: 2025-05-29 17:01+0000\n"
 "Last-Translator: Manuela Silva <mmsrs@sky.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/weblate/"
 "hosted/pt/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.1-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -41,7 +41,7 @@ msgstr "Faturação"
 
 #: wlhosted/integrations/forms.py:38
 msgid "Choose the billing plan you want to update"
-msgstr "Escolha o plano de faturação que deseja atualizar"
+msgstr "Escolha o plano de faturação que pretende atualizar"
 
 #: wlhosted/integrations/forms.py:39
 msgid "Create new billing plan"
@@ -106,18 +106,18 @@ msgstr "Limite de projetos"
 #: wlhosted/integrations/templates/hosted/create.html:78
 #, python-format
 msgid "%(price)s EUR / month"
-msgstr "%(price)s EUR / mês"
+msgstr "%(price)s €/mês"
 
 #: wlhosted/integrations/templates/hosted/create.html:79
 #: wlhosted/integrations/templates/hosted/create.html:85
 #, python-format
 msgid "%(price)s EUR including VAT"
-msgstr "%(price)s EUR incluindo IVA"
+msgstr "%(price)s €, incluindo IVA"
 
 #: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
 msgid "%(price)s EUR / year"
-msgstr "%(price)s EUR / ano"
+msgstr "%(price)s €/ano"
 
 #: wlhosted/integrations/templates/hosted/create.html:96
 msgid ""
@@ -125,9 +125,9 @@ msgid ""
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
-"O preço é baseado na quantidade de cadeias fonte e os idiomas de destino. A "
-"cadeia fonte é uma unidade de texto definida num formato de tradução, esta "
-"pode ser uma palavra, uma frase ou um parágrafo."
+"O preço é baseado no número de cadeias de carateres fonte e os idiomas de "
+"destino. A cadeia de carateres fonte é uma unidade de texto definida num "
+"formato de tradução, esta pode ser uma palavra, uma frase ou um parágrafo."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
@@ -144,11 +144,11 @@ msgstr ""
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
-msgstr "A taxa inversa aplica-se a faturas emitidas para empresas na UE."
+msgstr "A taxa inversa aplica-se às faturas emitidas às empresas na UE."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
-msgstr "Obrigado pelo pagamento, a sua faturação está agora paga."
+msgstr "Obrigado pelo pagamento, a sua fatura está agora paga."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
