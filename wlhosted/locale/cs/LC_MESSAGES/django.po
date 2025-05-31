@@ -6,13 +6,14 @@
 # Michal Čihař <michal@weblate.org>, 2021, 2024.
 # Petr Branberger <petr@webrun.cz>, 2023.
 # Fjuro <fjuro@alius.cz>, 2025.
+# zenobit <zenobit@disroot.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2025-02-21 11:52+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2025-05-31 17:11+0000\n"
+"Last-Translator: zenobit <zenobit@disroot.org>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/weblate/hosted/cs/>"
 "\n"
 "Language: cs\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.10.1-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -32,11 +33,11 @@ msgstr "Resetovat repozitář do podoby v upstream"
 
 #: wlhosted/addons.py:68
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Každou noc zahodí všechny změny v repozitáři Weblate."
+msgstr "Zahodit všechny změny v repozitáři Weblate každou noc."
 
 #: wlhosted/integrations/forms.py:37
 msgid "Billing"
-msgstr "Předplatné"
+msgstr "Placení"
 
 #: wlhosted/integrations/forms.py:38
 msgid "Choose the billing plan you want to update"
@@ -56,7 +57,7 @@ msgstr "Nové předplatné"
 
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
-msgstr "Prosím zvolte si balíček, který nejlépe odpovídá vašemu projektu."
+msgstr "Prosím zvolte balíček, který nejlépe odpovídá vašemu projektu."
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
@@ -72,7 +73,7 @@ msgstr "Příliš malé"
 
 #: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
-msgstr "Zvolené předplatné"
+msgstr "Vybrané předplatné"
 
 #: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
@@ -175,8 +176,8 @@ msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
-"Děkujeme za zakoupení předplatného, platba se ještě zpracovává a poté bude "
-"balíček aktivován."
+"Děkujeme za zakoupení předplatného, platba se ještě zpracovává a bude "
+"pokračovat na pozadí."
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
@@ -219,7 +220,7 @@ msgstr "Prosím zadejte vaše IČO, pokud se má objevit na faktuře."
 
 #: wlhosted/payments/models.py:103
 msgid "Company or individual name"
-msgstr "Název společnosti nebo jméno osoby"
+msgstr "Společnost nebo jméno osoby"
 
 #: wlhosted/payments/models.py:108
 msgid "Address"
@@ -227,7 +228,7 @@ msgstr "Adresa"
 
 #: wlhosted/payments/models.py:113
 msgid "Additional address information"
-msgstr "Doplňující informace o adrese"
+msgstr "Doplňující informace k adrese"
 
 #: wlhosted/payments/models.py:119
 msgid "Postcode and city"
@@ -247,19 +248,19 @@ msgstr "Země musí odpovídat DIČ"
 
 #: wlhosted/payments/models.py:188
 msgid "Annual"
-msgstr "Ročně"
+msgstr "Roční"
 
 #: wlhosted/payments/models.py:189
 msgid "Biannual"
-msgstr "Pololetně"
+msgstr "Pololetní"
 
 #: wlhosted/payments/models.py:190
 msgid "Quarterly"
-msgstr "Čtvrtletně"
+msgstr "Čtvrtletní"
 
 #: wlhosted/payments/models.py:191
 msgid "Monthly"
-msgstr "Měsíčně"
+msgstr "Měsíční"
 
 #: wlhosted/payments/models.py:192
 msgid "One-time"
@@ -292,7 +293,7 @@ msgstr "Platba zpracována"
 
 #: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
-msgstr "{} není platný kód země Evropské unie."
+msgstr "{} není platný kód země žádného člena Evropské unie."
 
 #: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
