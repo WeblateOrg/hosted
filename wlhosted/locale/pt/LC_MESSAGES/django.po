@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2025-05-31 10:16+0000\n"
+"PO-Revision-Date: 2025-06-02 00:24+0000\n"
 "Last-Translator: Manuela Silva <mmsrs@sky.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/weblate/"
 "hosted/pt/>\n"
@@ -25,7 +25,7 @@ msgstr ""
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
-msgstr "Gerar dados de cenário \"Horizontes desconhecidos\""
+msgstr "Gerar dados de cenário \"Horizontes Desconhecidos\""
 
 #: wlhosted/addons.py:67
 msgid "Reset repository to upstream"
@@ -33,7 +33,7 @@ msgstr "Redefinir repositório para \"upstream\""
 
 #: wlhosted/addons.py:68
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Em cada noite ignorar todas as alterações no repositório do Weblate."
+msgstr "Rejeita todas as alterações no repositório do Weblate todas as noites."
 
 #: wlhosted/integrations/forms.py:37
 msgid "Billing"
@@ -82,7 +82,7 @@ msgstr "Plano atual"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Hosted strings limit"
-msgstr "Limite de cadeias alojadas"
+msgstr "Limite de cadeias de carateres hospedadas"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
@@ -93,7 +93,7 @@ msgstr "Ilimitado"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
 msgid "Source strings limit"
-msgstr "Limite de cadeias fonte"
+msgstr "Limite de cadeias de carateres fonte"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Languages limit"
@@ -160,22 +160,22 @@ msgstr "Verificar o seu estado da faturação"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
-msgstr "O seu plano de faturamento foi pago"
+msgstr "O seu plano de faturação foi pago"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
-msgstr "Sem pagamento correspondente."
+msgstr "Não foi encontrado nenhum pagamento correspondente."
 
 #: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr "Obrigado por comprar um plano de alojamento. Este está ativo agora."
+msgstr "Obrigado por comprar um plano de hospedagem. Este agora está ativo."
 
 #: wlhosted/integrations/views.py:83
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
-"Obrigado por comprar um plano de alojamento. O pagamento está pendente e "
+"Obrigado por comprar um plano de hospedagem. O pagamento está pendente e "
 "será processado em segundo plano."
 
 #: wlhosted/integrations/views.py:95
@@ -228,7 +228,7 @@ msgstr "Morada"
 
 #: wlhosted/payments/models.py:113
 msgid "Additional address information"
-msgstr "Informações adicionais de endereço"
+msgstr "Informação adicional da morada"
 
 #: wlhosted/payments/models.py:119
 msgid "Postcode and city"
@@ -252,7 +252,7 @@ msgstr "Anual"
 
 #: wlhosted/payments/models.py:189
 msgid "Biannual"
-msgstr "Semestral"
+msgstr "Semianual"
 
 #: wlhosted/payments/models.py:190
 msgid "Quarterly"
