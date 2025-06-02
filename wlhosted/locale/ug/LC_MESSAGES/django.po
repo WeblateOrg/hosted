@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Abdusalam <1810010207@s.upc.edu.cn>, 2020.
 # xukur <xukurjim@outlook.com>, 2024.
+# Abduqadir Abliz <sahranbay@gmail.com>, 2025.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2024-05-30 03:03+0000\n"
-"Last-Translator: xukur <xukurjim@outlook.com>\n"
+"PO-Revision-Date: 2025-06-02 00:24+0000\n"
+"Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur <https://hosted.weblate.org/projects/weblate/hosted/ug/"
 ">\n"
 "Language: ug\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -28,10 +29,8 @@ msgid "Reset repository to upstream"
 msgstr "ئامبارنى يۇقىرى ئېقىنغا ئەسلىگە كەلتۈرۈڭ"
 
 #: wlhosted/addons.py:68
-#, fuzzy
-#| msgid "Reset all changes in the local repository"
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "يەرلىك ئامباردىكى بارلىق ئۆزگەرتىشلەرنى ئەسلىگە كەلتۈرۈڭ"
+msgstr "ھەر كۈنى كەچتە Weblate خەزىنىسىدىكى بارلىق ئۆزگەرتىشلەرنى تاشلىۋېتىدۇ."
 
 #: wlhosted/integrations/forms.py:37
 msgid "Billing"
@@ -78,10 +77,8 @@ msgid "Current plan"
 msgstr "نۆۋەتتىكى پىلان"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Hosted strings limit"
-msgstr "ھەرپ تىزمىسى چىكى"
+msgstr "ۋاكالىتەن باشقۇرىدىغان ھەرپ تىزمىسى چېكى"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
@@ -91,10 +88,8 @@ msgid "Unlimited"
 msgstr "چەكلىمىسىز"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Source strings limit"
-msgstr "ھەرپ تىزمىسى چىكى"
+msgstr "مەنبە ھەرپ تىزىقى چېكى"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Languages limit"
@@ -107,18 +102,18 @@ msgstr "تۈر چەكلىمىسى"
 #: wlhosted/integrations/templates/hosted/create.html:78
 #, python-format
 msgid "%(price)s EUR / month"
-msgstr ""
+msgstr "%(price)s ياۋرو/ئاي"
 
 #: wlhosted/integrations/templates/hosted/create.html:79
 #: wlhosted/integrations/templates/hosted/create.html:85
 #, python-format
 msgid "%(price)s EUR including VAT"
-msgstr ""
+msgstr "%(price)s ياۋرو قوشۇلما قىممەت بېجى ئىچىدە"
 
 #: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
 msgid "%(price)s EUR / year"
-msgstr ""
+msgstr "%(price)s ياۋرو/يىل"
 
 #: wlhosted/integrations/templates/hosted/create.html:96
 msgid ""
@@ -126,55 +121,62 @@ msgid ""
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
+"باھا مەنبە ھەرپ تىزىقى سانى ۋە نىشان تىل سانى ئاساسىدا بولىدۇ. ئەسلى ھەرپ "
+"تىزىقى تەرجىمە پىچىمىدا بەلگىلەنگەن تېكىست بۆلىكى بولۇپ، سۆز، جۈملە ياكى "
+"ئابزاس بولۇشى مۇمكىن."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
-msgstr ""
+msgstr "تىزىلغان بارلىق باھا قوشۇلما قىممەت بېجىنى ئۆز ئىچىگە ئالمايدۇ."
 
 #: wlhosted/integrations/templates/hosted/create.html:100
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
+"ياۋروپا ئىتتىپاقى ئاخىرقى ئىشلەتكۈچىسى ۋە چېخىيە شىركەتلىرىدىن قوشۇمچە %%21 "
+"قوشۇمچە قىممەت بېجى ئېلىنىدۇ."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
+"قارشى يۆنىلىشتە ھەق ئېلىش ياۋروپا ئىتتىپاقى چېگراسى ئىچىدىكى شىركەتلەرگە "
+"كېسىلگەن تالونغا قوللىنىلىدۇ."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
-msgstr ""
+msgstr "ھەق تاپشۇرغىنىڭىزغا رەھمەت، ھازىر ھېسابات چىقىمىڭىز تۆلەندى."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "بۇ ھېسابات چىقىم پىلانى تۆۋەندىكى قۇرۇلۇشلارنى قاپلايدۇ:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
-#, fuzzy
-#| msgid "Current billing status"
 msgid "Check your billing status"
-msgstr "نۆۋەتتىكى ھېسابات ھالىتى"
+msgstr "ھېساباتىڭىزنىڭ ھالىتىنى تەكشۈرىدۇ"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
-#, fuzzy
-#| msgid "Create billing plan"
 msgid "Your billing plan was paid"
-msgstr "ھېسابات پىلانى تۈزۈڭ"
+msgstr "ھېسابات پىلانىڭىز تۆلەنگەن"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
-msgstr ""
+msgstr "ھېچقانداق ماس كېلىدىغان چىقىم تېپىلمىدى."
 
 #: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr ""
+"ۋاكالىتەن باشقۇرۇش پىلانىنى سېتىۋالغانلىقىڭىزغا كۆپ رەھمەت، ھازىر ئۇ "
+"ئاكتىپلاندى."
 
 #: wlhosted/integrations/views.py:83
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
+"ۋاكالىتەن باشقۇرۇش پىلانىنى سېتىۋالغانلىقىڭىزغا كۆپ رەھمەت، چىقىم قىلىش بىر "
+"تەرەپ قىلىشنى كۈتۈۋاتىدۇ، ئارقا سۇپىدا بىجىرىلىدۇ."
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
@@ -186,7 +188,7 @@ msgstr "نامەلۇم سەۋەب"
 
 #: wlhosted/integrations/views.py:112
 msgid "Payments are temporarily inactive."
-msgstr ""
+msgstr "چىقىم قىلىشنى ۋاقتىنچە ئىشلەتكىلى بولمايدۇ."
 
 #: wlhosted/payments/backends.py:156
 msgid "IBAN bank transfer"
@@ -225,17 +227,15 @@ msgstr "ئادرېس"
 
 #: wlhosted/payments/models.py:113
 msgid "Additional address information"
-msgstr ""
+msgstr "قوشۇمچە ئادرېس ئۇچۇرى"
 
 #: wlhosted/payments/models.py:119
 msgid "Postcode and city"
 msgstr "پوچتا نومۇرى ۋە شەھەر"
 
 #: wlhosted/payments/models.py:124
-#, fuzzy
-#| msgid "Postcode and city"
 msgid "Postcode"
-msgstr "پوچتا نومۇرى ۋە شەھەر"
+msgstr "پوچتا نومۇرى"
 
 #: wlhosted/payments/models.py:128
 msgid "Country"
@@ -302,10 +302,12 @@ msgstr "{} دۆلەتنىڭ قوشۇلما قىممەت بېجى ئۆلچىمى�
 #: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
+"{} نىڭ قوشۇلما قىممەت بېجى كىملىكىنى دەلىللەش مۇلازىمىتىنى ئىشلەتكىلى "
+"بولمايدۇ، سەل تۇرۇپ قايتا سىناڭ."
 
 #: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
-msgstr ""
+msgstr "{} ياۋروپا ئىتتىپاقىنىڭ ئىناۋەتلىك قوشۇلما قىممەت بېجى كىملىكى ئەمەس."
 
 #~ msgid "Payment cancelled"
 #~ msgstr "چىقىم بىكار قىلىندى"
