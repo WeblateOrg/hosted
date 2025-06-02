@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2025-06-02 00:24+0000\n"
+"PO-Revision-Date: 2025-06-03 00:01+0000\n"
 "Last-Translator: cat <catsnote@proton.me>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/weblate/hosted/da/"
 ">\n"
@@ -86,7 +86,7 @@ msgstr "Nuværende plan"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Hosted strings limit"
-msgstr "Grænse for hosted strenge"
+msgstr "Grænse for hostede strenge"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
@@ -142,8 +142,8 @@ msgstr "Alle viste priser er ekskl. moms."
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
-"Slutbrugere i EU og tjekkiske virksomheder vil blive opkrævet yderligere "
-"21%% moms."
+"Slutbrugere i EU og tjekkiske virksomheder bliver opkrævet yderligere 21%% "
+"moms."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
@@ -308,8 +308,7 @@ msgstr "{} matcher ikke landets specifikationer for momsnummer."
 #: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
-"Godkendelsestjeneste for moms-ID utilgængelig for {}, prøv venligst igen "
-"senere."
+"Godkendelsestjeneste for momsnummer utilgængelig for {}. Prøv igen senere."
 
 #: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
