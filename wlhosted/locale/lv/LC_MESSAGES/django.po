@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2025-05-02 02:39+0000\n"
+"PO-Revision-Date: 2025-06-07 16:48+0000\n"
 "Last-Translator: \"ℂ𝕠𝕠𝕠𝕝 (𝕘𝕚𝕥𝕙𝕦𝕓.𝕔𝕠𝕞/ℂ𝕠𝕠𝕠𝕝)\" <coool@mail.lv>\n"
 "Language-Team: Latvian <https://hosted.weblate.org/projects/weblate/hosted/"
 "lv/>\n"
@@ -243,7 +243,7 @@ msgstr "Valsts"
 
 #: wlhosted/payments/models.py:165
 msgid "The country has to match your VAT code"
-msgstr "Valstij ir jāatbilst jūsu PVN kodam"
+msgstr "Valstij jāsakrīt ar jūsu PVN maksātāja numuru"
 
 #: wlhosted/payments/models.py:188
 msgid "Annual"
