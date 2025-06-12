@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2025-06-12 12:04+0000\n"
-"Last-Translator: Zulfar <mzulfar20@gmail.com>\n"
+"PO-Revision-Date: 2025-06-12 13:30+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Bashkir <https://hosted.weblate.org/projects/weblate/hosted/"
 "ba/>\n"
 "Language: ba\n"
@@ -126,7 +126,7 @@ msgid "All listed prices exclude VAT."
 msgstr "Бөтә күрһәтелгән хаҡтарға ПСҺ инмәй."
 
 #: wlhosted/integrations/templates/hosted/create.html:100
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
