@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2025-05-31 10:45+0000\n"
+"PO-Revision-Date: 2025-06-12 12:04+0000\n"
 "Last-Translator: Zulfar <mzulfar20@gmail.com>\n"
 "Language-Team: Bashkir <https://hosted.weblate.org/projects/weblate/hosted/"
 "ba/>\n"
@@ -33,7 +33,7 @@ msgstr ""
 
 #: wlhosted/integrations/forms.py:37
 msgid "Billing"
-msgstr ""
+msgstr "Түләүҙәр"
 
 #: wlhosted/integrations/forms.py:38
 msgid "Choose the billing plan you want to update"
@@ -73,18 +73,18 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
-msgstr ""
+msgstr "Ағымдағы план"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Hosted strings limit"
-msgstr ""
+msgstr "Хостингтағы юлдар лимиты"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
 #: wlhosted/integrations/templates/hosted/create.html:63
 #: wlhosted/integrations/templates/hosted/create.html:66
 msgid "Unlimited"
-msgstr ""
+msgstr "Сикһеҙ"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
 msgid "Source strings limit"
@@ -92,11 +92,11 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Languages limit"
-msgstr ""
+msgstr "Телдәр лимиты"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
-msgstr ""
+msgstr "Проекттар лимиты"
 
 #: wlhosted/integrations/templates/hosted/create.html:78
 #, python-format
@@ -123,18 +123,22 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
-msgstr ""
+msgstr "Бөтә күрһәтелгән хаҡтарға ПСҺ инмәй."
 
 #: wlhosted/integrations/templates/hosted/create.html:100
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
+"ЕС-тың һуңғы ҡулланыусыларына һәм Чехия компанияларына өҫтәмә 21% ПСҺ "
+"һалынасаҡ."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
+"ЕС эсендәге бизнестарға бирелгән иҫәп-фактураларға кире түләү ҡағиҙәһе "
+"ҡулланыла."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
@@ -146,7 +150,7 @@ msgstr ""
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
-msgstr ""
+msgstr "Түләү статусығыҙҙы тикшерегеҙ"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
@@ -168,11 +172,11 @@ msgstr ""
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
-msgstr ""
+msgstr "Түләү кире ҡағылды: {}"
 
 #: wlhosted/integrations/views.py:96
 msgid "Unknown reason"
-msgstr ""
+msgstr "Билдәһеҙ сәбәп"
 
 #: wlhosted/integrations/views.py:112
 msgid "Payments are temporarily inactive."
@@ -180,40 +184,44 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:156
 msgid "IBAN bank transfer"
-msgstr ""
+msgstr "IBAN банк күсереүе"
 
 #: wlhosted/payments/backends.py:164
 msgid "Payment card"
-msgstr ""
+msgstr "Түләү картаһы"
 
 #: wlhosted/payments/models.py:87
 msgid "European VAT ID"
-msgstr ""
+msgstr "Европа ПСҺ ID-һы"
 
 #: wlhosted/payments/models.py:89
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
+"Зинһар, Европа Берләшмәһе ПСҺ ID-һын тултырығыҙ, әгәр ҡағылмаһа, буш "
+"ҡалдырығыҙ."
 
 #: wlhosted/payments/models.py:95
 msgid "Tax registration"
-msgstr ""
+msgstr "Һалым теркәүе"
 
 #: wlhosted/payments/models.py:97
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
+"Әгәр иҫәп-фактурала күренергә тейеш булһа, зинһар, һалым теркәүегеҙҙе "
+"тултырығыҙ."
 
 #: wlhosted/payments/models.py:103
 msgid "Company or individual name"
-msgstr ""
+msgstr "Компания йәки шәхси исем"
 
 #: wlhosted/payments/models.py:108
 msgid "Address"
-msgstr ""
+msgstr "Адрес"
 
 #: wlhosted/payments/models.py:113
 msgid "Additional address information"
-msgstr ""
+msgstr "Өҫтәмә адрес мәғлүмәте"
 
 #: wlhosted/payments/models.py:119
 msgid "Postcode and city"
@@ -221,68 +229,68 @@ msgstr ""
 
 #: wlhosted/payments/models.py:124
 msgid "Postcode"
-msgstr ""
+msgstr "Почта индексы"
 
 #: wlhosted/payments/models.py:128
 msgid "Country"
-msgstr ""
+msgstr "Ил"
 
 #: wlhosted/payments/models.py:165
 msgid "The country has to match your VAT code"
-msgstr ""
+msgstr "Ил һеҙҙең ПСҺ кодығыҙ менән тап килергә тейеш"
 
 #: wlhosted/payments/models.py:188
 msgid "Annual"
-msgstr ""
+msgstr "Йыл һайын"
 
 #: wlhosted/payments/models.py:189
 msgid "Biannual"
-msgstr ""
+msgstr "Ярты йыл һайын"
 
 #: wlhosted/payments/models.py:190
 msgid "Quarterly"
-msgstr ""
+msgstr "Квартал һайын"
 
 #: wlhosted/payments/models.py:191
 msgid "Monthly"
-msgstr ""
+msgstr "Ай һайын"
 
 #: wlhosted/payments/models.py:192
 msgid "One-time"
-msgstr ""
+msgstr "Бер тапҡырлыҡ"
 
 #: wlhosted/payments/models.py:226
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "Яңы түләү"
 
 #: wlhosted/payments/models.py:227
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr ""
+msgstr "Түләү көтөлә"
 
 #: wlhosted/payments/models.py:228
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr ""
+msgstr "Түләү кире ҡағылды"
 
 #: wlhosted/payments/models.py:229
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr ""
+msgstr "Түләү ҡабул ителде"
 
 #: wlhosted/payments/models.py:230
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr ""
+msgstr "Түләү эшкәртелде"
 
 #: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
-msgstr ""
+msgstr "{} Европа Берләшмәһенең бер ағзаһы өсөн дә дөрөҫ ил коды түгел."
 
 #: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
-msgstr ""
+msgstr "{} илдең ПСҺ ID-һы спецификацияларына тап килмәй."
 
 #: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
@@ -290,4 +298,4 @@ msgstr ""
 
 #: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
-msgstr ""
+msgstr "{} дөрөҫ ПСҺ ID-һы түгел."
