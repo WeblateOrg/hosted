@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2025-06-12 13:30+0000\n"
+"PO-Revision-Date: 2025-06-13 13:38+0000\n"
 "Last-Translator: Zulfar <mzulfar20@gmail.com>\n"
 "Language-Team: Bashkir <https://hosted.weblate.org/projects/weblate/hosted/"
 "ba/>\n"
@@ -25,11 +25,11 @@ msgstr "Unknown Horizons сценарийының мәғлүмәттәрен б�
 
 #: wlhosted/addons.py:67
 msgid "Reset repository to upstream"
-msgstr ""
+msgstr "Репозиторийҙы өҫкө ағымға кире ҡайтарырға"
 
 #: wlhosted/addons.py:68
 msgid "Discards all changes in the Weblate repository each night."
-msgstr ""
+msgstr "Һәр төн Weblate репозиторийындағы бөтә үҙгәрештәрҙе лә кире ала."
 
 #: wlhosted/integrations/forms.py:37
 msgid "Billing"
@@ -37,39 +37,39 @@ msgstr "Түләүҙәр"
 
 #: wlhosted/integrations/forms.py:38
 msgid "Choose the billing plan you want to update"
-msgstr ""
+msgstr "Яңыртырға теләгән түләү планын һайлағыҙ"
 
 #: wlhosted/integrations/forms.py:39
 msgid "Create new billing plan"
-msgstr ""
+msgstr "Яңы түләү планы булдырырға"
 
 #: wlhosted/integrations/templates/hosted/create.html:8
 msgid "Create billing plan"
-msgstr ""
+msgstr "Түләү планы булдырырға"
 
 #: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
-msgstr ""
+msgstr "Яңы түләү планы"
 
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
-msgstr ""
+msgstr "Зинһар, проектығыҙҙың күләменә тап килгән хостинг планын һайлағыҙ."
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
-msgstr ""
+msgstr "Ағымдағы түләү статусы"
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
-msgstr ""
+msgstr "Проектығыҙ өсөн бигерәк бәләкәй."
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small"
-msgstr ""
+msgstr "Бигерәк бәләкәй"
 
 #: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
-msgstr ""
+msgstr "Һайланған план"
 
 #: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
@@ -88,7 +88,7 @@ msgstr "Сикһеҙ"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
 msgid "Source strings limit"
-msgstr ""
+msgstr "Сығанаҡ юлдар лимиты"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Languages limit"
@@ -101,18 +101,18 @@ msgstr "Проекттар лимиты"
 #: wlhosted/integrations/templates/hosted/create.html:78
 #, python-format
 msgid "%(price)s EUR / month"
-msgstr ""
+msgstr "%(price)s EUR / айына"
 
 #: wlhosted/integrations/templates/hosted/create.html:79
 #: wlhosted/integrations/templates/hosted/create.html:85
 #, python-format
 msgid "%(price)s EUR including VAT"
-msgstr ""
+msgstr "%(price)s EUR, VAT-ты индереп"
 
 #: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
 msgid "%(price)s EUR / year"
-msgstr ""
+msgstr "%(price)s EUR / йылына"
 
 #: wlhosted/integrations/templates/hosted/create.html:96
 msgid ""
@@ -120,6 +120,9 @@ msgid ""
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
+"Хаҡтар сығанаҡ юлдар һәм маҡсатлы телдәр һанына нигеҙләнгән. Сығанаҡ юл – ул "
+"тәржемә форматында билдәләнгән текст берәмеге, ул һүҙ, һөйләм йәки абзац "
+"булырға мөмкин."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
@@ -130,7 +133,7 @@ msgstr "Бөтә күрһәтелгән хаҡтарға VAT инмәй."
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
-"ЕС-тың һуңғы ҡулланыусыларына һәм Чехия компанияларына өҫтәмә 21% ПСҺ "
+"ЕС-тың һуңғы ҡулланыусыларына һәм Чехия компанияларына өҫтәмә 21% VAT "
 "һалынасаҡ."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
@@ -142,11 +145,11 @@ msgstr ""
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
-msgstr ""
+msgstr "Түләүегеҙ өсөн рәхмәт, һеҙҙең иҫәбегеҙ хәҙер түләнгән."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "Был түләү планы түбәндәге проекттарҙы үҙ эсенә ала:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
@@ -154,21 +157,23 @@ msgstr "Түләү статусығыҙҙы тикшерегеҙ"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
-msgstr ""
+msgstr "Һеҙҙең түләү планығыҙ түләнде"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
-msgstr ""
+msgstr "Тап килгән түләү табылманы."
 
 #: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr ""
+msgstr "Хостинг планын һатып алғанығыҙ өсөн рәхмәт, ул хәҙер әүҙем."
 
 #: wlhosted/integrations/views.py:83
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
+"Хостинг планын һатып алғанығыҙ өсөн рәхмәт, уның өсөн түләү көтөлә һәм фон "
+"режимында эшкәртеләсәк."
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
@@ -180,7 +185,7 @@ msgstr "Билдәһеҙ сәбәп"
 
 #: wlhosted/integrations/views.py:112
 msgid "Payments are temporarily inactive."
-msgstr ""
+msgstr "Түләүҙәр ваҡытлыса әүҙем түгел."
 
 #: wlhosted/payments/backends.py:156
 msgid "IBAN bank transfer"
@@ -192,12 +197,12 @@ msgstr "Түләү картаһы"
 
 #: wlhosted/payments/models.py:87
 msgid "European VAT ID"
-msgstr "Европа ПСҺ ID-һы"
+msgstr "Европа VAT ID-һы"
 
 #: wlhosted/payments/models.py:89
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
-"Зинһар, Европа Берләшмәһе ПСҺ ID-һын тултырығыҙ, әгәр ҡағылмаһа, буш "
+"Зинһар, Европа Берләшмәһе VAT ID-һын тултырығыҙ, әгәр ҡағылмаһа, буш "
 "ҡалдырығыҙ."
 
 #: wlhosted/payments/models.py:95
@@ -225,7 +230,7 @@ msgstr "Өҫтәмә адрес мәғлүмәте"
 
 #: wlhosted/payments/models.py:119
 msgid "Postcode and city"
-msgstr ""
+msgstr "Почта индексы һәм ҡала"
 
 #: wlhosted/payments/models.py:124
 msgid "Postcode"
@@ -237,7 +242,7 @@ msgstr "Ил"
 
 #: wlhosted/payments/models.py:165
 msgid "The country has to match your VAT code"
-msgstr "Ил һеҙҙең ПСҺ кодығыҙ менән тап килергә тейеш"
+msgstr "Ил һеҙҙең VAT кодығыҙ менән тап килергә тейеш"
 
 #: wlhosted/payments/models.py:188
 msgid "Annual"
@@ -290,12 +295,14 @@ msgstr "{} Европа Берләшмәһенең бер ағзаһы өсөн 
 
 #: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
-msgstr "{} илдең ПСҺ ID-һы спецификацияларына тап килмәй."
+msgstr "{} илдең VAT ID-һы спецификацияларына тап килмәй."
 
 #: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
+"{} өсөн VAT ID-һын тикшереү сервисы эшләмәй, зинһар, һуңыраҡ ҡабатлап "
+"ҡарағыҙ."
 
 #: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
-msgstr "{} дөрөҫ ПСҺ ID-һы түгел."
+msgstr "{} дөрөҫ VAT ID-һы түгел."
