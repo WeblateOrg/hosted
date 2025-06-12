@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
 "PO-Revision-Date: 2025-06-12 13:30+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Last-Translator: Zulfar <mzulfar20@gmail.com>\n"
 "Language-Team: Bashkir <https://hosted.weblate.org/projects/weblate/hosted/"
 "ba/>\n"
 "Language: ba\n"
@@ -123,7 +123,7 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
-msgstr "Бөтә күрһәтелгән хаҡтарға ПСҺ инмәй."
+msgstr "Бөтә күрһәтелгән хаҡтарға VAT инмәй."
 
 #: wlhosted/integrations/templates/hosted/create.html:100
 #, fuzzy, python-format
