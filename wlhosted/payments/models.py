@@ -290,7 +290,7 @@ class Payment(models.Model):
         **kwargs,
     ):
         # Check if backend is still valid
-        from wlhosted.payments.backends import get_backend
+        from wlhosted.payments.backends import get_backend  # noqa: PLC0415
 
         try:
             get_backend(self.backend)
