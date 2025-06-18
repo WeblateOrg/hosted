@@ -47,7 +47,7 @@ def handle_received_payment(payment: Payment) -> Billing | None:
     if "billing" in payment.extra:
         billing = Billing.objects.get(pk=payment.extra["billing"])
         if billing.removal:
-            from wlhosted.integrations.tasks import notify_paid_removal
+            from wlhosted.integrations.tasks import notify_paid_removal  # noqa: PLC0415
 
             notify_paid_removal(billing.id)
         for key, value in params.items():
@@ -105,7 +105,7 @@ class HostedConf(AppConf):
 @receiver(pre_save, sender=User)
 @disable_for_loaddata
 def propagate_user_changes(sender, instance, **kwargs) -> None:
-    from wlhosted.integrations.tasks import notify_user_change
+    from wlhosted.integrations.tasks import notify_user_change  # noqa: PLC0415
 
     if instance.is_anonymous:
         return
