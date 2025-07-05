@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2025-06-02 00:24+0000\n"
+"PO-Revision-Date: 2025-07-06 03:34+0000\n"
 "Last-Translator: Manuela Silva <mmsrs@sky.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/weblate/"
 "hosted/pt/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -216,7 +216,8 @@ msgstr "Registo de imposto"
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
-"Por favor, preencha o seu registo de imposto se este deva aparecer na fatura."
+"Por favor, preencha o seu registo de imposto se este deveria aparecer na "
+"fatura."
 
 #: wlhosted/payments/models.py:103
 msgid "Company or individual name"
@@ -303,8 +304,8 @@ msgstr "{} não corresponde às especificações do n.º de IVA do país."
 #: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
-"O serviço de validação de ID de IVA não está disponível para {}, tente "
-"novamente mais tarde."
+"O serviço de validação do n.º de IVA não está disponível para {}, por favor, "
+"tente novamente mais tarde."
 
 #: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
