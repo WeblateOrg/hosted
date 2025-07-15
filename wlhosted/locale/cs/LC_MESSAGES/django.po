@@ -37,7 +37,7 @@ msgstr "Zahodit všechny změny v repozitáři Weblate každou noc."
 
 #: wlhosted/integrations/forms.py:37
 msgid "Billing"
-msgstr "Předplatné"
+msgstr "Fakturace"
 
 #: wlhosted/integrations/forms.py:38
 msgid "Choose the billing plan you want to update"
