@@ -21,7 +21,7 @@ git remote update weblate
 git rebase --onto weblate/main
 
 # Cleanup locale dirs
-find wlhosted/locale -name '*.mo' -o -name '*~' -delete
+find wlhosted/locale \( -name '*.mo' -o -name '*~' \) -delete
 find wlhosted/locale -type d -empty -delete
 
 # Update po files itself
@@ -31,8 +31,8 @@ django-admin makemessages --keep-pot -a -i 'data/*' -i 'docs/*' -i 'examples/*' 
 sed \
     -i \
     -e 's@"Report-Msgid-Bugs-To:.*@"Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\\n"@' \
-    -e 's/"Project-Id-Version:.*/"Project-Id-Version: Hosted Weblate '$version'\\n"/' \
-    wlhosted/locale/*/*/*.po wlhosted/locale/*.pot \
+    -e 's/"Project-Id-Version:.*/"Project-Id-Version: Hosted Weblate\\n"/' \
+    wlhosted/locale/*/*/*.po wlhosted/locale/*.pot
 
 # Commit changes
 git add wlhosted/locale/*/*/*.po
