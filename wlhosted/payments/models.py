@@ -214,7 +214,7 @@ class Payment(models.Model):
     CURRENCY_USD = 2
     CURRENCY_CZK = 3
 
-    uuid = Char32UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    uuid = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     amount = models.IntegerField()
     currency = models.IntegerField(
         choices=(
