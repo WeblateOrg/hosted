@@ -61,7 +61,7 @@ lint = [
 test = [
   "httpretty",
   "coverage",
-  "build==1.2.2.post1",
+  "build==1.3.0",
   "twine==6.1.0"
 ]
 
