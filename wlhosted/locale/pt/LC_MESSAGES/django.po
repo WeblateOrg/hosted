@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2025-07-09 13:01+0000\n"
+"PO-Revision-Date: 2025-08-12 10:25+0000\n"
 "Last-Translator: Manuela Silva <mmsrs@sky.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/weblate/"
 "hosted/pt/>\n"
@@ -33,7 +33,7 @@ msgstr "Redefinir repositório para \"upstream\""
 
 #: wlhosted/addons.py:68
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Rejeita todas as alterações no repositório do Weblate todas as noites."
+msgstr "Limpa todas as alterações no repositório do Weblate todas as noites."
 
 #: wlhosted/integrations/forms.py:37
 msgid "Billing"
@@ -168,14 +168,14 @@ msgstr "Não foi encontrado nenhum pagamento correspondente."
 
 #: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr "Obrigado por comprar um plano de hospedagem. Este agora está ativo."
+msgstr "Obrigado por comprar um plano de alojamento. Este agora está ativo."
 
 #: wlhosted/integrations/views.py:83
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
-"Obrigado por comprar um plano de hospedagem. O pagamento está pendente e "
+"Obrigado por comprar um plano de alojamento. O pagamento está pendente e "
 "será processado em segundo plano."
 
 #: wlhosted/integrations/views.py:95
