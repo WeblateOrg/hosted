@@ -7,13 +7,14 @@
 # Vaclovas Intas <vaclovas1999@gmail.com>, 2023, 2024.
 # Džiugas J <dziugas1959@hotmail.com>, 2024.
 # Vaclovas Intas <Gateway_31@protonmail.com>, 2024.
+# Marija Grineviciute <marijagrine@protonmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2025-02-21 11:52+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2025-08-26 03:34+0000\n"
+"Last-Translator: Marija Grineviciute <marijagrine@protonmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/weblate/"
 "hosted/lt/>\n"
 "Language: lt\n"
@@ -22,7 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || "
 "n%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
-"X-Generator: Weblate 5.10.1-dev\n"
+"X-Generator: Weblate 5.13\n"
 
 #: wlhosted/addons.py:44 wlhosted/addons.py:45
 msgid "Generate Unknown Horizons scenario data"
@@ -30,51 +31,51 @@ msgstr "Generuoti Nežinomų horizontų scenarijaus duomenis"
 
 #: wlhosted/addons.py:67
 msgid "Reset repository to upstream"
-msgstr ""
+msgstr "Atstatyti saugyklą į pradinę būseną"
 
 #: wlhosted/addons.py:68
 msgid "Discards all changes in the Weblate repository each night."
-msgstr ""
+msgstr "Kasnakt panaikina visus pakeitimus „Weblate“ saugykloje."
 
 #: wlhosted/integrations/forms.py:37
 msgid "Billing"
-msgstr ""
+msgstr "Mokėjimas"
 
 #: wlhosted/integrations/forms.py:38
 msgid "Choose the billing plan you want to update"
-msgstr ""
+msgstr "Pasirinkite mokėjimo planą, kurį norite atnaujinti"
 
 #: wlhosted/integrations/forms.py:39
 msgid "Create new billing plan"
-msgstr ""
+msgstr "Kurti naują mokėjimo planą"
 
 #: wlhosted/integrations/templates/hosted/create.html:8
 msgid "Create billing plan"
-msgstr ""
+msgstr "Kurti mokėjimo planą"
 
 #: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
-msgstr ""
+msgstr "Naujas mokėjimo planas"
 
 #: wlhosted/integrations/templates/hosted/create.html:20
 msgid "Please choose a hosting plan that fits the size of your project."
-msgstr ""
+msgstr "Pasirinkite prieglobos planą, atitinkantį jūsų projekto dydį."
 
 #: wlhosted/integrations/templates/hosted/create.html:26
 msgid "Current billing status"
-msgstr ""
+msgstr "Dabartinė mokėjimo būsena"
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small for your project."
-msgstr ""
+msgstr "Per mažas jūsų projektui."
 
 #: wlhosted/integrations/templates/hosted/create.html:47
 msgid "Too small"
-msgstr ""
+msgstr "Per mažas"
 
 #: wlhosted/integrations/templates/hosted/create.html:49
 msgid "Selected plan"
-msgstr ""
+msgstr "Pasirinktas planas"
 
 #: wlhosted/integrations/templates/hosted/create.html:51
 msgid "Current plan"
@@ -82,7 +83,7 @@ msgstr "Dabartinis planas"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Hosted strings limit"
-msgstr ""
+msgstr "Talpinamų eilučių limitas"
 
 #: wlhosted/integrations/templates/hosted/create.html:57
 #: wlhosted/integrations/templates/hosted/create.html:60
@@ -93,11 +94,11 @@ msgstr "Neribotas"
 
 #: wlhosted/integrations/templates/hosted/create.html:59
 msgid "Source strings limit"
-msgstr ""
+msgstr "Šaltinio eilučių limitas"
 
 #: wlhosted/integrations/templates/hosted/create.html:62
 msgid "Languages limit"
-msgstr ""
+msgstr "Kalbų limitas"
 
 #: wlhosted/integrations/templates/hosted/create.html:65
 msgid "Projects limit"
@@ -112,7 +113,7 @@ msgstr "%(price)s EUR / mėnesiui"
 #: wlhosted/integrations/templates/hosted/create.html:85
 #, python-format
 msgid "%(price)s EUR including VAT"
-msgstr ""
+msgstr "%(price)s EUR, įskaitant PVM"
 
 #: wlhosted/integrations/templates/hosted/create.html:84
 #, python-format
@@ -125,63 +126,71 @@ msgid ""
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
+"Kaina priklauso nuo eilučių kiekio šaltinyje ir tikslinių kalbų. Šaltinio "
+"eilutė – tai teksto vienetas, apibrėžtas vertimo formate. Tai gali būti "
+"žodis, sakinys arba pastraipa."
 
 #: wlhosted/integrations/templates/hosted/create.html:99
 msgid "All listed prices exclude VAT."
-msgstr ""
+msgstr "Visos pateiktos kainos yra be PVM."
 
 #: wlhosted/integrations/templates/hosted/create.html:100
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
+"ES galutiniai vartotojai ir Čekijos įmonės turės sumokėti papildomą 21%% PVM."
 
 #: wlhosted/integrations/templates/hosted/create.html:101
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
+"Atvirkštinis apmokestinimas taikomas sąskaitoms, išduotoms ES ribose "
+"esantiems verslams."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
-msgstr ""
+msgstr "Dėkojame, kad pirkote. Jūsų sąskaita dabar apmokėta."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "Šis mokėjimo planas apima šiuos projektus:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:17
 msgid "Check your billing status"
-msgstr ""
+msgstr "Patikrinkite savo mokėjimo būseną"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
-msgstr ""
+msgstr "Jūsų sąskaita apmokėta"
 
 #: wlhosted/integrations/views.py:67
 msgid "No matching payment found."
-msgstr ""
+msgstr "Nerastas joks sutampantis mokėjimas."
 
 #: wlhosted/integrations/views.py:75
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr ""
+msgstr "Dėkojame, kad pirkote prieglobos planą. Dabar jis jau veikia."
 
 #: wlhosted/integrations/views.py:83
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
+"Dėkojame, kad pirkote prieglobos planą. Mokėjimas už jį dar neatliktas ir "
+"bus apdorojamas fone."
 
 #: wlhosted/integrations/views.py:95
 msgid "The payment was rejected: {}"
-msgstr ""
+msgstr "Mokėjimas atmestas: {}"
 
 #: wlhosted/integrations/views.py:96
 msgid "Unknown reason"
-msgstr ""
+msgstr "Nežinoma priežastis"
 
 #: wlhosted/integrations/views.py:112
 msgid "Payments are temporarily inactive."
-msgstr ""
+msgstr "Mokėjimai laikinai neveikia."
 
 #: wlhosted/payments/backends.py:156
 msgid "IBAN bank transfer"
@@ -268,43 +277,38 @@ msgstr "Naujas mokėjimas"
 #: wlhosted/payments/models.py:227
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr ""
+msgstr "Laukiama mokėjimo"
 
 #: wlhosted/payments/models.py:228
-#, fuzzy
-#| msgid "Payment card"
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "Mokėjimo kortelė"
+msgstr "Mokėjimas atmestas"
 
 #: wlhosted/payments/models.py:229
-#, fuzzy
-#| msgid "Payment cancelled"
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "Mokėjimas nutrauktas"
+msgstr "Mokėjimas priimtas"
 
 #: wlhosted/payments/models.py:230
-#, fuzzy
-#| msgid "Payment cancelled"
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "Mokėjimas nutrauktas"
+msgstr "Mokėjimas apdorotas"
 
 #: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
-msgstr ""
+msgstr "{} neatitinka nė vienos Europos Sąjungos narės šalies kodo."
 
 #: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
-msgstr ""
+msgstr "{} neatitinka šalies PVM mokėtojo kodo reikalavimų."
 
 #: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
+"PVM mokėtojo kodo patvirtinimo paslauga neprieinama {}. Bandykite dar kartą "
+"vėliau."
 
 #: wlhosted/payments/validators.py:47
-#, fuzzy
 msgid "{} is not a valid VAT ID."
 msgstr "{} negaliojantis PVM mokėtojo kodas."
 
