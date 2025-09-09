@@ -71,7 +71,9 @@ class PaymentTest(TestCase):
     def create_trial(self):
         bill = Billing.objects.create(state=Billing.STATE_TRIAL, plan=self.plan_b)
         bill.owners.add(self.user)
-        bill.projects.add(Project.objects.create(name="Project", slug="project"))
+        project = Project.objects.create(name="Project", slug="project")
+        bill.projects.add(project)
+        project.add_user(self.user)
         return bill
 
     def test_create(self) -> None:
@@ -255,10 +257,14 @@ class PaymentTest(TestCase):
 
         return payment, bill, invoices
 
-    def run_recurring(self) -> None:
+    def run_recurring(self, *, add_project: bool = True, add_user: bool = True) -> None:
         # Make sure billing has a project
         bill = Billing.objects.get()
-        bill.projects.add(Project.objects.create(name="Project", slug="project"))
+        project = Project.objects.create(name="Project", slug="project")
+        if add_project:
+            bill.projects.add(project)
+        if add_user:
+            project.add_user(self.user)
         # Invoke recurring payment
         httpretty.register_uri(httpretty.POST, "http://example.com/payment", body="")
         recurring_payments()
@@ -304,7 +310,7 @@ class PaymentTest(TestCase):
         payment, bill, _invoices = self.prepare_recurring("pay")
         self.assertEqual(bill.payment["recurring"], str(payment.pk))
 
-        # Fake payment menthod
+        # Fake payment method
         payment.details["backend"] = "invalid"
         payment.save()
 
@@ -315,6 +321,28 @@ class PaymentTest(TestCase):
         # Recurrence should be disabled
         bill = Billing.objects.get(pk=bill.pk)
         self.assertNotIn("recurring", bill.payment)
+
+    @override_settings(PAYMENT_DEBUG=True)
+    def test_recurring_no_project(self) -> None:
+        """Test handling of invalid (removed) method."""
+        payment, bill, _invoices = self.prepare_recurring("pay")
+        self.assertEqual(bill.payment["recurring"], str(payment.pk))
+
+        self.run_recurring(add_project=False)
+
+        # There should be no new payment
+        self.assertFalse(Payment.objects.exclude(pk=payment.pk).exists())
+
+    @override_settings(PAYMENT_DEBUG=True)
+    def test_recurring_no_users(self) -> None:
+        """Test handling of invalid (removed) method."""
+        payment, bill, _invoices = self.prepare_recurring("pay")
+        self.assertEqual(bill.payment["recurring"], str(payment.pk))
+
+        self.run_recurring(add_user=False)
+
+        # There should be no new payment
+        self.assertFalse(Payment.objects.exclude(pk=payment.pk).exists())
 
     @override_settings(
         PAYMENT_DEBUG=True, PAYMENT_REDIRECT_URL="http://example.com/payment"
