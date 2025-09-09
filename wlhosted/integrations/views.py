@@ -37,7 +37,7 @@ from wlhosted.payments.models import Payment
 
 
 def get_default_billing(user):
-    """Get trial billing for user to be ugpraded."""
+    """Get trial billing for user to be upgraded."""
     billings = Billing.objects.for_user(user).filter(state=Billing.STATE_TRIAL)
     if billings.count() == 1:
         return billings[0]

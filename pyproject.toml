@@ -203,3 +203,9 @@ hosted = "hosted"
 
 [tool.setuptools.packages.find]
 namespaces = true
+
+[tool.typos.files]
+extend-exclude = [
+  "**.po",
+  "**.pot"
+]

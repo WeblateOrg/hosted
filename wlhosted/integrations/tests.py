@@ -352,7 +352,7 @@ class PaymentTest(TestCase):
         Payment.objects.create(
             repeat=payment, customer=payment.customer, state=Payment.PROCESSED, amount=1
         )
-        # Ensure rest is after procesed one
+        # Ensure rest is after processed one
         sleep(1)
         Payment.objects.create(
             repeat=payment, customer=payment.customer, state=Payment.REJECTED, amount=1

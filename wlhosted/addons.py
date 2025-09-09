@@ -40,7 +40,7 @@ class UnknownHorizonsTemplateAddon(BaseScriptAddon):
     events = (AddonEvent.EVENT_PRE_COMMIT,)
     # Name of the addon, has to be unique
     name = "weblate.hosted.uh_scenario"
-    # Verbose name and long descrption
+    # Verbose name and long description
     verbose = _("Generate Unknown Horizons scenario data")
     description = _("Generate Unknown Horizons scenario data")
 
@@ -63,7 +63,7 @@ class ResetAddon(BaseAddon):
     events = (AddonEvent.EVENT_DAILY,)
     # Name of the addon, has to be unique
     name = "weblate.hosted.reset"
-    # Verbose name and long descrption
+    # Verbose name and long description
     verbose = _("Reset repository to upstream")
     description = _("Discards all changes in the Weblate repository each night.")
     repo_scope = True
