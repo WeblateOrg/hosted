@@ -71,6 +71,9 @@ def recurring_payments() -> None:
         if not billing.ordered_projects:
             # There are no projects associated
             continue
+        # Skip projects without admins
+        if not any(project.all_admins for project in billing.ordered_projects):
+            continue
 
         original = Payment.objects.get(pk=billing.payment["recurring"])
 
