@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-02-21 09:56+0000\n"
-"PO-Revision-Date: 2025-09-08 19:22+0000\n"
+"PO-Revision-Date: 2025-09-17 16:01+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/weblate/hosted/"
 "hr/>\n"
@@ -27,7 +27,7 @@ msgstr "Stvori podatke Unknown Horizons scenarija"
 
 #: wlhosted/addons.py:67
 msgid "Reset repository to upstream"
-msgstr "Ponovo postavi repozitorij u izvorni"
+msgstr "Resetiraj repozitorij na izvorni"
 
 #: wlhosted/addons.py:68
 msgid "Discards all changes in the Weblate repository each night."
