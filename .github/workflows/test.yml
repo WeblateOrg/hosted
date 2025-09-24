@@ -18,7 +18,7 @@ jobs:
         ports:
         - 6379:6379
       postgres:
-        image: postgres:17.6-alpine@sha256:efe21e7fcf192082a0732edb108ed0d97c06102e17d2805250ea5cd676f8c42b
+        image: postgres:17.6-alpine@sha256:855021a5b10954343902a8c22a15f8464233126c1d12d9ad84d4a14c5af07a80
         ports:
         - 5432:5432
         # needed because the postgres container does not provide a healthcheck
