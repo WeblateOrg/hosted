@@ -18,21 +18,17 @@
 #
 """Custom addons for Hosted Weblate."""
 
+from __future__ import annotations
+
+from typing import TYPE_CHECKING
+
 from django.utils.translation import gettext_lazy as _
-
-try:
-    # Weblate 5.4 and newer
-    from weblate.addons.events import AddonEvent
-except ImportError:
-    # Weblate 5.3 and older
-    from weblate.addons.events import EVENT_DAILY, EVENT_PRE_COMMIT
-
-    class AddonEvent:
-        EVENT_DAILY = EVENT_DAILY
-        EVENT_PRE_COMMIT = EVENT_PRE_COMMIT
-
-
+from weblate.addons.events import AddonEvent
 from weblate.addons.scripts import BaseAddon, BaseScriptAddon
+
+if TYPE_CHECKING:
+    from weblate.auth.models import User
+    from weblate.trans.models import Component
 
 
 class UnknownHorizonsTemplateAddon(BaseScriptAddon):
@@ -51,7 +47,7 @@ class UnknownHorizonsTemplateAddon(BaseScriptAddon):
     add_file = "content/scenarios/*_{{ language_code }}.yaml"
 
     @classmethod
-    def can_install(cls, component, user):
+    def can_install(cls, component: Component, user: User | None) -> bool:
         """Only useful for Unknown Horizons project."""
         if component.project.slug != "uh":
             return False
@@ -69,9 +65,9 @@ class ResetAddon(BaseAddon):
     repo_scope = True
 
     @classmethod
-    def can_install(cls, component, user):
+    def can_install(cls, component: Component, user: User | None) -> bool:
         # Only instalable on the sandbox project
         return component.project.slug == "sandbox"
 
-    def daily(self, component) -> None:
+    def daily(self, component: Component, activity_log_id: int | None = None) -> None:
         component.do_reset()

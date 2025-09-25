@@ -150,6 +150,17 @@ target-version = "py311"
 docstring-code-format = true
 
 [tool.ruff.lint]
+extend-safe-fixes = [
+  "ANN",
+  "D",
+  "EM101",
+  "FA102",
+  "FLY",
+  "SIM",
+  "TCH",
+  "UP"
+]
+future-annotations = true
 ignore = [
   "D10",  # TODO: we are missing many docstrings
   "D203",  # CONFIG: incompatible with D211
