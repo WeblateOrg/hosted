@@ -16,9 +16,10 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
+from __future__ import annotations
 
 import uuid
-from datetime import datetime
+from typing import TYPE_CHECKING
 
 import requests
 from appconf import AppConf
@@ -34,6 +35,9 @@ from weblate.utils.validators import validate_email
 
 from wlhosted.data import SUPPORTED_LANGUAGES
 from wlhosted.payments.validators import validate_vatin
+
+if TYPE_CHECKING:
+    from datetime import datetime
 
 EU_VAT_RATES = {
     "BE": 21,
