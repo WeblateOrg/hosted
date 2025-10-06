@@ -26,7 +26,7 @@ from django.core.signing import dumps
 from django.db import transaction
 from django.utils import timezone
 from weblate.accounts.notifications import send_notification_email
-from weblate.billing.models import Billing
+from weblate.billing.models import Billing, BillingEvent
 from weblate.utils.celery import app
 
 from wlhosted.integrations.models import handle_received_payment
@@ -48,6 +48,9 @@ def pending_payments() -> None:
 def notify_paid_removal(billing_id: int) -> None:
     billing = Billing.objects.get(pk=billing_id)
     for user in billing.get_notify_users():
+        billing.billinglog_set.create(
+            event=BillingEvent.EMAIL, summary="Billing paid", user=user
+        )
         send_notification_email(
             user.profile.language,
             [user.email],
@@ -100,6 +103,10 @@ def recurring_payments() -> None:
             # Remove recurring flag
             del billing.payment["recurring"]
             billing.save()
+            billing.billinglog_set.create(
+                event=BillingEvent.DISABLED_RECURRING,
+                summary="Payment {original.pk} could not be repeated",
+            )
         else:
             repeated.trigger_remotely()
 

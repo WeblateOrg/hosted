@@ -29,7 +29,7 @@ from django.db.models.signals import pre_save
 from django.dispatch.dispatcher import receiver
 from django.utils import timezone
 from weblate.auth.models import User
-from weblate.billing.models import Billing, Invoice, Plan
+from weblate.billing.models import Billing, BillingEvent, Invoice, Plan
 from weblate.utils.decorators import disable_for_loaddata
 
 from wlhosted.payments.models import Payment, get_period_delta
@@ -79,6 +79,9 @@ def handle_received_payment(payment: Payment) -> Billing | None:
     billing.payment["all"].append(payment.pk)
 
     billing.save()
+    billing.billinglog_set.create(
+        event=BillingEvent.PAYMENT, summary=f"Billing paid via {payment.pk}"
+    )
 
     start = billing.invoice_set.aggregate(Max("end"))["end__max"]
     if start is not None:
