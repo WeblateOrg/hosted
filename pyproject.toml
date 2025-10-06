@@ -144,6 +144,10 @@ omit = [
   ".venv*/*"
 ]
 
+[tool.django-stubs]
+django_settings_module = "wlhosted.settings_test"
+strict_settings = false
+
 [tool.djlint]
 blank_line_after_tag = "load,extends,endblock"
 # - reconsider T032 and H014 once formatter is in use
@@ -162,6 +166,12 @@ profile = "django"
 
 [tool.isort]
 profile = "black"
+
+[tool.mypy]
+check_untyped_defs = true
+plugins = [
+  "mypy_django_plugin.main"
+]
 
 [[tool.mypy.overrides]]
 disallow_untyped_defs = true
