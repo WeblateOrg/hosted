@@ -33,7 +33,7 @@ if TYPE_CHECKING:
 
 class UnknownHorizonsTemplateAddon(BaseScriptAddon):
     # Event used to trigger the script
-    events = (AddonEvent.EVENT_PRE_COMMIT,)
+    events = {AddonEvent.EVENT_PRE_COMMIT}
     # Name of the addon, has to be unique
     name = "weblate.hosted.uh_scenario"
     # Verbose name and long description
@@ -56,7 +56,7 @@ class UnknownHorizonsTemplateAddon(BaseScriptAddon):
 
 class ResetAddon(BaseAddon):
     # Event used to trigger the script
-    events = (AddonEvent.EVENT_DAILY,)
+    events = {AddonEvent.EVENT_DAILY}
     # Name of the addon, has to be unique
     name = "weblate.hosted.reset"
     # Verbose name and long description

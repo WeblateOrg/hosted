@@ -16,9 +16,10 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
+from __future__ import annotations
 
 import re
-from typing import Never
+from typing import TYPE_CHECKING
 
 from django.conf import settings
 from django.shortcuts import redirect
@@ -26,7 +27,10 @@ from django.utils.translation import gettext_lazy
 
 from wlhosted.payments.models import Payment
 
-BACKENDS = {}
+if TYPE_CHECKING:
+    from django_stubs_ext import StrOrPromise
+
+BACKENDS: dict[str, Backend] = {}
 PROFORMA_RE = re.compile("20[0-9]{7}")
 
 
@@ -47,9 +51,9 @@ def register_backend(backend):
 
 
 class Backend:
-    name = None
+    name: str
     debug = False
-    verbose = None
+    verbose: StrOrPromise
     description = ""
     recurring = False
 
@@ -58,11 +62,11 @@ class Backend:
         self.payment = select[0]
         self.invoice = None
 
-    def perform(self, request, back_url, complete_url) -> Never:
+    def perform(self, request, back_url, complete_url) -> str | None:
         """Performs payment and optionally redirects user."""
         raise NotImplementedError
 
-    def collect(self, request) -> Never:
+    def collect(self, request) -> bool | None:
         """Collects payment information."""
         raise NotImplementedError
 
@@ -88,7 +92,7 @@ class Backend:
         if self.payment.state != Payment.PENDING:
             raise InvalidState
 
-        status = self.collect(request)
+        status: bool | None = self.collect(request)
         if status is None:
             return False
         if status:
