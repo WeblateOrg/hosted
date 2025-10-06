@@ -45,23 +45,22 @@ def end_interval(payment: Payment, start: datetime) -> datetime:
 @transaction.atomic
 @transaction.atomic(using="payments_db")
 def handle_received_payment(payment: Payment) -> Billing | None:
-    params = {
-        "state": Billing.STATE_ACTIVE,
-        "removal": None,
-    }
-    if plan := payment.extra.get("plan"):
+    plan: Plan | None = None
+    if plan_id := payment.extra.get("plan"):
         # Needed for new payments only
-        params["plan"] = Plan.objects.get(pk=plan)
+        plan = Plan.objects.get(pk=plan_id)
     if "billing" in payment.extra:
         billing = Billing.objects.select_for_update().get(pk=payment.extra["billing"])
         if billing.removal:
             from wlhosted.integrations.tasks import notify_paid_removal  # noqa: PLC0415
 
             notify_paid_removal.delay(billing.id)
-        for key, value in params.items():
-            setattr(billing, key, value)
+        billing.removal = None
+        billing.state = Billing.STATE_ACTIVE
+        if plan is not None:
+            billing.plan = plan
     elif "plan" in payment.extra:
-        billing = Billing.objects.create(**params)
+        billing = Billing.objects.create(state=Billing.STATE_ACTIVE, plan=plan)
         billing.owners.add(User.objects.get(pk=payment.customer.user_id))
     else:
         return None
