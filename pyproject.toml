@@ -22,7 +22,7 @@ test = [
   "pytest-xdist==3.8.0",
   "pytest==8.4.2",
   "coverage==7.10.7",
-  "httpretty==1.1.4"
+  "responses==0.25.8"
 ]
 types = [
   "celery-types==0.23.0",
@@ -168,7 +168,6 @@ disallow_untyped_defs = true
 ignore_missing_imports = true
 module = [
   "vies.*",
-  "httpretty.*",
   "appconf.*"
 ]
 
