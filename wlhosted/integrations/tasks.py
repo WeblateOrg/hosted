@@ -105,7 +105,7 @@ def recurring_payments() -> None:
             billing.save()
             billing.billinglog_set.create(
                 event=BillingEvent.DISABLED_RECURRING,
-                summary="Payment {original.pk} could not be repeated",
+                summary=f"Payment {original.pk} could not be repeated",
             )
         else:
             repeated.trigger_remotely()
