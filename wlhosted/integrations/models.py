@@ -59,7 +59,7 @@ def handle_received_payment(payment: Payment) -> Billing | None:
         billing.state = Billing.STATE_ACTIVE
         if plan is not None:
             billing.plan = plan
-    elif "plan" in payment.extra:
+    elif plan is not None:
         billing = Billing.objects.create(state=Billing.STATE_ACTIVE, plan=plan)
         billing.owners.add(User.objects.get(pk=payment.customer.user_id))
     else:
