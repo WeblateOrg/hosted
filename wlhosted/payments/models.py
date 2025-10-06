@@ -19,7 +19,7 @@
 from __future__ import annotations
 
 import uuid
-from typing import TYPE_CHECKING
+from typing import TYPE_CHECKING, Literal
 
 import requests
 from appconf import AppConf
@@ -358,7 +358,7 @@ class PaymentConf(AppConf):
         prefix = "PAYMENT"
 
 
-def get_period_delta(period):
+def get_period_delta(period: Literal["y", "b", "q", "m"]) -> relativedelta:
     if period == "y":
         return relativedelta(years=1) - relativedelta(days=1)
     if period == "b":

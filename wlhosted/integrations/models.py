@@ -17,6 +17,10 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
 
+from __future__ import annotations
+
+from typing import TYPE_CHECKING
+
 from appconf import AppConf
 from dateutil.relativedelta import relativedelta
 from django.db import transaction
@@ -30,8 +34,11 @@ from weblate.utils.decorators import disable_for_loaddata
 
 from wlhosted.payments.models import Payment, get_period_delta
 
+if TYPE_CHECKING:
+    from datetime import datetime
 
-def end_interval(payment, start):
+
+def end_interval(payment: Payment, start: datetime) -> datetime:
     return start + get_period_delta(payment.extra["period"])
 
 
