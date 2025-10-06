@@ -151,32 +151,42 @@ class PaymentTest(TestCase):
         bill_url = reverse("billing")
         create_url = reverse("create-billing")
         pay_url = "http://example.com/payment"
-        params = create_url, {"payment": payment.uuid}
         # New should redirect to payment interface
         self.assertRedirects(
-            self.client.get(*params), pay_url, fetch_redirect_response=False
+            self.client.get(create_url, {"payment": payment.uuid}),
+            pay_url,
+            fetch_redirect_response=False,
         )
         # Pending should redirect to billings
         payment.state = Payment.PENDING
         payment.save()
-        self.assertRedirects(self.client.get(*params), bill_url)
+        self.assertRedirects(
+            self.client.get(create_url, {"payment": payment.uuid}), bill_url
+        )
         # Accepted should redirect to billings
         payment.state = Payment.ACCEPTED
         payment.save()
-        response = self.client.get(*params, follow=True)
+        response = self.client.get(create_url, {"payment": payment.uuid}, follow=True)
         bill_url = Billing.objects.get().get_absolute_url()
         self.assertRedirects(response, bill_url)
         # Processed should redirect to billings
         payment.state = Payment.PROCESSED
         payment.save()
-        self.assertRedirects(self.client.get(*params, follow=True), bill_url)
+        self.assertRedirects(
+            self.client.get(create_url, {"payment": payment.uuid}, follow=True),
+            bill_url,
+        )
         # Rejected should redirect to create
         payment.state = Payment.REJECTED
         payment.save()
-        self.assertRedirects(self.client.get(*params), create_url)
+        self.assertRedirects(
+            self.client.get(create_url, {"payment": payment.uuid}), create_url
+        )
         # Non existing should redirect to create
         payment.delete()
-        self.assertRedirects(self.client.get(*params), create_url)
+        self.assertRedirects(
+            self.client.get(create_url, {"payment": payment.uuid}), create_url
+        )
 
     def do_complete(self, **kwargs):
         self.create_payment(**kwargs)
