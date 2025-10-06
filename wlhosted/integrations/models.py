@@ -35,6 +35,7 @@ def end_interval(payment, start):
     return start + get_period_delta(payment.extra["period"])
 
 
+@transaction.atomic
 @transaction.atomic(using="payments_db")
 def handle_received_payment(payment: Payment) -> Billing | None:
     params = {
