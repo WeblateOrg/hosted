@@ -19,7 +19,7 @@
 
 from time import sleep
 
-import httpretty
+import responses
 from dateutil.relativedelta import relativedelta
 from django.core import mail
 from django.test import TestCase
@@ -266,13 +266,13 @@ class PaymentTest(TestCase):
         if add_user:
             project.add_user(self.user)
         # Invoke recurring payment
-        httpretty.register_uri(httpretty.POST, "http://example.com/payment", body="")
+        responses.add(responses.POST, "http://example.com/payment", body="")
         recurring_payments()
 
     @override_settings(
         PAYMENT_DEBUG=True, PAYMENT_REDIRECT_URL="http://example.com/payment"
     )
-    @httpretty.activate
+    @responses.activate
     def test_recurring(self) -> None:
         """Test recurring payments."""
         payment, bill, invoices = self.prepare_recurring("pay")
@@ -347,7 +347,7 @@ class PaymentTest(TestCase):
     @override_settings(
         PAYMENT_DEBUG=True, PAYMENT_REDIRECT_URL="http://example.com/payment"
     )
-    @httpretty.activate
+    @responses.activate
     def test_recurring_one_error(self) -> None:
         """Test handling of single failed recurring payments."""
         payment, bill, invoices = self.prepare_recurring("pay")

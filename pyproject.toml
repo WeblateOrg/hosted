@@ -59,7 +59,7 @@ lint = [
   "pre-commit==4.3.0"
 ]
 test = [
-  "httpretty",
+  "responses",
   "coverage"
 ]
 
