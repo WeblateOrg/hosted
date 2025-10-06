@@ -151,42 +151,37 @@ class PaymentTest(TestCase):
         bill_url = reverse("billing")
         create_url = reverse("create-billing")
         pay_url = "http://example.com/payment"
+        pay_params = {"payment": str(payment.uuid)}
         # New should redirect to payment interface
         self.assertRedirects(
-            self.client.get(create_url, {"payment": payment.uuid}),
+            self.client.get(create_url, pay_params),
             pay_url,
             fetch_redirect_response=False,
         )
         # Pending should redirect to billings
         payment.state = Payment.PENDING
         payment.save()
-        self.assertRedirects(
-            self.client.get(create_url, {"payment": payment.uuid}), bill_url
-        )
+        self.assertRedirects(self.client.get(create_url, pay_params), bill_url)
         # Accepted should redirect to billings
         payment.state = Payment.ACCEPTED
         payment.save()
-        response = self.client.get(create_url, {"payment": payment.uuid}, follow=True)
+        response = self.client.get(create_url, pay_params, follow=True)
         bill_url = Billing.objects.get().get_absolute_url()
         self.assertRedirects(response, bill_url)
         # Processed should redirect to billings
         payment.state = Payment.PROCESSED
         payment.save()
         self.assertRedirects(
-            self.client.get(create_url, {"payment": payment.uuid}, follow=True),
+            self.client.get(create_url, pay_params, follow=True),
             bill_url,
         )
         # Rejected should redirect to create
         payment.state = Payment.REJECTED
         payment.save()
-        self.assertRedirects(
-            self.client.get(create_url, {"payment": payment.uuid}), create_url
-        )
+        self.assertRedirects(self.client.get(create_url, pay_params), create_url)
         # Non existing should redirect to create
         payment.delete()
-        self.assertRedirects(
-            self.client.get(create_url, {"payment": payment.uuid}), create_url
-        )
+        self.assertRedirects(self.client.get(create_url, pay_params), create_url)
 
     def do_complete(self, **kwargs):
         self.create_payment(**kwargs)
@@ -194,7 +189,7 @@ class PaymentTest(TestCase):
         payment.state = Payment.ACCEPTED
         payment.save()
         response = self.client.get(
-            reverse("create-billing"), {"payment": payment.uuid}, follow=True
+            reverse("create-billing"), {"payment": str(payment.uuid)}, follow=True
         )
         if "billing" in kwargs:
             billing = Billing.objects.get(pk=kwargs["billing"])
@@ -251,7 +246,7 @@ class PaymentTest(TestCase):
         backend.complete(None)
 
         response = self.client.get(
-            reverse("create-billing"), {"payment": payment.uuid}, follow=True
+            reverse("create-billing"), {"payment": str(payment.uuid)}, follow=True
         )
         billing = Billing.objects.all()[0]
         self.assertRedirects(response, billing.get_absolute_url())
