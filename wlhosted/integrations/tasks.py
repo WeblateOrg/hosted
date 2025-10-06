@@ -56,7 +56,7 @@ def notify_paid_removal(billing_id: int) -> None:
             [user.email],
             "billing_paid",
             context={"billing": billing},
-            info=billing,
+            info=str(billing),
         )
 
 
