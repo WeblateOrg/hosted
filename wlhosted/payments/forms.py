@@ -28,7 +28,7 @@ from wlhosted.payments.models import Customer
 class BootstrapVATINWidget(VATINWidget):
     template_name = "widgets/vatin.html"
 
-    def __init__(self, choices=VIES_COUNTRY_CHOICES, attrs=None):
+    def __init__(self, choices=VIES_COUNTRY_CHOICES, attrs=None) -> None:
         select_attrs = {"class": "form-control custom-select"}
         input_attrs = {"class": "form-control"}
         if attrs is not None:

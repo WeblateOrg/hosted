@@ -153,7 +153,7 @@ class Customer(models.Model):
         verbose_name = "Customer"
         verbose_name_plural = "Customers"
 
-    def __str__(self):
+    def __str__(self) -> str:
         if self.name:
             return f"{self.name} ({self.email})"
         return self.email
@@ -264,7 +264,7 @@ class Payment(models.Model):
         verbose_name = "Payment"
         verbose_name_plural = "Payments"
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f"payment:{self.pk}"
 
     @property

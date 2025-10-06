@@ -57,7 +57,7 @@ class Backend:
     description = ""
     recurring = False
 
-    def __init__(self, payment):
+    def __init__(self, payment) -> None:
         select = Payment.objects.filter(pk=payment.pk).select_for_update()
         self.payment = select[0]
         self.invoice = None

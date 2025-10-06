@@ -44,7 +44,7 @@ class ChooseBillingForm(forms.Form):
         queryset=Plan.objects.public(), widget=forms.HiddenInput, required=False
     )
 
-    def __init__(self, user, *args, **kwargs):
+    def __init__(self, user, *args, **kwargs) -> None:
         super().__init__(*args, **kwargs)
         cast(
             "forms.ModelChoiceField", self.fields["billing"]
@@ -60,7 +60,7 @@ class BillingForm(ChooseBillingForm):
     )
     extra_domain = forms.BooleanField(required=False, widget=forms.HiddenInput)
 
-    def __init__(self, user, *args, **kwargs):
+    def __init__(self, user, *args, **kwargs) -> None:
         super().__init__(user, *args, **kwargs)
         cast(
             "forms.ModelChoiceField", self.fields["plan"]
