@@ -22,6 +22,7 @@ from time import sleep
 import responses
 from dateutil.relativedelta import relativedelta
 from django.core import mail
+from django.db import transaction
 from django.test import TestCase
 from django.test.utils import override_settings
 from django.urls import reverse
@@ -230,7 +231,8 @@ class PaymentTest(TestCase):
 
         # Complete the payment
         backend = get_backend(method)(payment)
-        backend.initiate(None, "", "")
+        with transaction.atomic(using="payments_db"):
+            backend.initiate(None, "", "")
         Customer.objects.update(
             name="Michal Čihař",
             address="Zdiměřická 1439",
@@ -238,7 +240,8 @@ class PaymentTest(TestCase):
             country="CZ",
             vat="CZ8003280318",
         )
-        backend.complete(None)
+        with transaction.atomic(using="payments_db"):
+            backend.complete(None)
 
         response = self.client.get(
             reverse("create-billing"), {"payment": payment.uuid}, follow=True
@@ -283,8 +286,9 @@ class PaymentTest(TestCase):
         # Complete the payment (we've faked the payment server above)
         recure_payment = Payment.objects.exclude(pk=payment.pk)[0]
         backend = get_backend("pay")(recure_payment)
-        backend.initiate(None, "", "")
-        backend.complete(None)
+        with transaction.atomic(using="payments_db"):
+            backend.initiate(None, "", "")
+            backend.complete(None)
 
         # Process pending payments
         pending_payments()
@@ -362,8 +366,9 @@ class PaymentTest(TestCase):
         # Complete the payment (we've faked the payment server above)
         recure_payment = Payment.objects.exclude(pk=payment.pk).exclude(amount=1)[0]
         backend = get_backend("pay")(recure_payment)
-        backend.initiate(None, "", "")
-        backend.complete(None)
+        with transaction.atomic(using="payments_db"):
+            backend.initiate(None, "", "")
+            backend.complete(None)
 
         # Process pending payments
         pending_payments()

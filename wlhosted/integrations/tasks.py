@@ -34,14 +34,23 @@ from wlhosted.integrations.utils import get_origin
 from wlhosted.payments.models import Payment, date_format, get_period_delta
 
 
-@app.task
-@transaction.atomic(using="payments_db")
-def pending_payments() -> None:
+def _process_pending_payments() -> None:
+    """
+    Internal function to process pending payments.
+    Must be called within transaction contexts for both databases.
+    """
     payments = Payment.objects.filter(
         customer__origin=get_origin(), state=Payment.ACCEPTED
     ).select_for_update()
     for payment in payments:
         handle_received_payment(payment)
+
+
+@app.task
+@transaction.atomic
+@transaction.atomic(using="payments_db")
+def pending_payments() -> None:
+    _process_pending_payments()
 
 
 @app.task
@@ -111,7 +120,7 @@ def recurring_payments() -> None:
             repeated.trigger_remotely()
 
     # We have created bunch of pending payments, process them now
-    pending_payments()
+    _process_pending_payments()
 
 
 @app.task

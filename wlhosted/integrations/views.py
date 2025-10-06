@@ -103,7 +103,7 @@ class CreateBillingView(FormView):
         if "do" in request.GET:
             return self.post(request, *args, **kwargs)
         if "payment" in request.GET:
-            with transaction.atomic(using="payments_db"):
+            with transaction.atomic(), transaction.atomic(using="payments_db"):
                 return self.handle_payment(request)
         return super().get(request, *args, **kwargs)
 

@@ -42,9 +42,13 @@ def end_interval(payment: Payment, start: datetime) -> datetime:
     return start + get_period_delta(payment.extra["period"])
 
 
-@transaction.atomic
-@transaction.atomic(using="payments_db")
 def handle_received_payment(payment: Payment) -> Billing | None:
+    """
+    Process a received payment and create/update billing.
+    
+    Must be called within both @transaction.atomic and @transaction.atomic(using="payments_db")
+    contexts as it modifies data in both databases.
+    """
     params = {
         "state": Billing.STATE_ACTIVE,
         "removal": None,

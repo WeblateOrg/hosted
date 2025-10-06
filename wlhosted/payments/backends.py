@@ -58,8 +58,7 @@ class Backend:
     recurring = False
 
     def __init__(self, payment):
-        select = Payment.objects.filter(pk=payment.pk).select_for_update()
-        self.payment = select[0]
+        self.payment = payment
         self.invoice = None
 
     def perform(self, request, back_url, complete_url) -> str | None:
@@ -72,6 +71,9 @@ class Backend:
 
     def initiate(self, request, back_url, complete_url):
         """Initiates payment and optionally redirects user."""
+        # Refresh payment with lock to prevent race conditions
+        self.payment = Payment.objects.select_for_update().get(pk=self.payment.pk)
+        
         if self.payment.state != Payment.NEW:
             raise InvalidState
 
@@ -89,6 +91,9 @@ class Backend:
 
     def complete(self, request) -> bool:
         """Payment completion called from returned request."""
+        # Refresh payment with lock to prevent race conditions
+        self.payment = Payment.objects.select_for_update().get(pk=self.payment.pk)
+        
         if self.payment.state != Payment.PENDING:
             raise InvalidState
 
