@@ -45,7 +45,7 @@ def pending_payments() -> None:
 
 
 @app.task
-def notify_paid_removal(billing_id) -> None:
+def notify_paid_removal(billing_id: int) -> None:
     billing = Billing.objects.get(pk=billing_id)
     for user in billing.get_notify_users():
         send_notification_email(

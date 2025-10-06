@@ -49,7 +49,7 @@ def handle_received_payment(payment: Payment) -> Billing | None:
         if billing.removal:
             from wlhosted.integrations.tasks import notify_paid_removal  # noqa: PLC0415
 
-            notify_paid_removal(billing.id)
+            notify_paid_removal.delay(billing.id)
         for key, value in params.items():
             setattr(billing, key, value)
     elif "plan" in payment.extra:
