@@ -16,6 +16,9 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
+from __future__ import annotations
+
+from typing import TYPE_CHECKING
 
 from django.conf import settings
 from django.contrib.auth.decorators import login_required
@@ -35,6 +38,9 @@ from wlhosted.integrations.models import handle_received_payment
 from wlhosted.integrations.utils import get_origin
 from wlhosted.payments.models import Payment
 
+if TYPE_CHECKING:
+    from weblate.auth.models import AuthenticatedHttpRequest
+
 
 def get_default_billing(user):
     """Get trial billing for user to be upgraded."""
@@ -48,6 +54,7 @@ def get_default_billing(user):
 class CreateBillingView(FormView):
     template_name = "hosted/create.html"
     form_class = BillingForm
+    request: AuthenticatedHttpRequest
 
     def get_form_kwargs(self):
         result = super().get_form_kwargs()

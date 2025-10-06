@@ -20,6 +20,7 @@
 from __future__ import annotations
 
 import datetime
+from typing import cast
 
 from django import forms
 from django.core.exceptions import ValidationError
@@ -45,7 +46,9 @@ class ChooseBillingForm(forms.Form):
 
     def __init__(self, user, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.fields["billing"].queryset = Billing.objects.for_user(user)
+        cast(
+            "forms.ModelChoiceField", self.fields["billing"]
+        ).queryset = Billing.objects.for_user(user)
 
 
 class BillingForm(ChooseBillingForm):
@@ -59,7 +62,9 @@ class BillingForm(ChooseBillingForm):
 
     def __init__(self, user, *args, **kwargs):
         super().__init__(user, *args, **kwargs)
-        self.fields["plan"].queryset = Plan.objects.public(user)
+        cast(
+            "forms.ModelChoiceField", self.fields["plan"]
+        ).queryset = Plan.objects.public(user)
 
     def clean(self) -> None:
         plan = self.cleaned_data.get("plan")
