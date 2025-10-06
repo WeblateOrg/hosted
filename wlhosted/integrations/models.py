@@ -23,7 +23,6 @@ from typing import TYPE_CHECKING
 
 from appconf import AppConf
 from dateutil.relativedelta import relativedelta
-from django.db import transaction
 from django.db.models.aggregates import Max
 from django.db.models.signals import pre_save
 from django.dispatch.dispatcher import receiver
@@ -45,7 +44,7 @@ def end_interval(payment: Payment, start: datetime) -> datetime:
 def handle_received_payment(payment: Payment) -> Billing | None:
     """
     Process a received payment and create/update billing.
-    
+
     Must be called within both @transaction.atomic and @transaction.atomic(using="payments_db")
     contexts as it modifies data in both databases.
     """

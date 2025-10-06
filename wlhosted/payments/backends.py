@@ -73,7 +73,7 @@ class Backend:
         """Initiates payment and optionally redirects user."""
         # Refresh payment with lock to prevent race conditions
         self.payment = Payment.objects.select_for_update().get(pk=self.payment.pk)
-        
+
         if self.payment.state != Payment.NEW:
             raise InvalidState
 
@@ -93,7 +93,7 @@ class Backend:
         """Payment completion called from returned request."""
         # Refresh payment with lock to prevent race conditions
         self.payment = Payment.objects.select_for_update().get(pk=self.payment.pk)
-        
+
         if self.payment.state != Payment.PENDING:
             raise InvalidState
 

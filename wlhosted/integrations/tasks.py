@@ -37,6 +37,7 @@ from wlhosted.payments.models import Payment, date_format, get_period_delta
 def _process_pending_payments() -> None:
     """
     Internal function to process pending payments.
+
     Must be called within transaction contexts for both databases.
     """
     payments = Payment.objects.filter(
