@@ -46,7 +46,7 @@ def handle_received_payment(payment: Payment) -> Billing | None:
         # Needed for new payments only
         params["plan"] = Plan.objects.get(pk=plan)
     if "billing" in payment.extra:
-        billing = Billing.objects.get(pk=payment.extra["billing"])
+        billing = Billing.objects.select_for_update().get(pk=payment.extra["billing"])
         if billing.removal:
             from wlhosted.integrations.tasks import notify_paid_removal  # noqa: PLC0415
 

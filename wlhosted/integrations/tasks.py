@@ -35,13 +35,13 @@ from wlhosted.payments.models import Payment, date_format, get_period_delta
 
 
 @app.task
+@transaction.atomic(using="payments_db")
 def pending_payments() -> None:
-    with transaction.atomic(using="payments_db"):
-        payments = Payment.objects.filter(
-            customer__origin=get_origin(), state=Payment.ACCEPTED
-        ).select_for_update()
-        for payment in payments:
-            handle_received_payment(payment)
+    payments = Payment.objects.filter(
+        customer__origin=get_origin(), state=Payment.ACCEPTED
+    ).select_for_update()
+    for payment in payments:
+        handle_received_payment(payment)
 
 
 @app.task
@@ -58,9 +58,15 @@ def notify_paid_removal(billing_id: int) -> None:
 
 
 @app.task
+@transaction.atomic
+@transaction.atomic(using="payments_db")
 def recurring_payments() -> None:
     cutoff = timezone.now().date() + timedelta(days=1)
-    for billing in Billing.objects.filter(state=Billing.STATE_ACTIVE).prefetch():
+    for billing in (
+        Billing.objects.filter(state=Billing.STATE_ACTIVE)
+        .select_for_update()
+        .prefetch()
+    ):
         if "recurring" not in billing.payment:
             # No recurring payment
             continue
