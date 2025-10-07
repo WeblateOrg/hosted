@@ -26,7 +26,7 @@ jobs:
       run: |
         sudo apt update
         sudo apt install libcairo-dev gir1.2-pango-1.0 libgirepository-2.0-dev libacl1-dev gettext liblz4-dev libzstd-dev libxxhash-dev gir1.2-rsvg-2.0
-    - uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6.8.0
+    - uses: astral-sh/setup-uv@eb1897b8dc4b5d5bfe39a428a8f2304605e0983c # v7.0.0
       with:
         save-cache: ${{ github.ref == 'refs/heads/main' }}
         cache-suffix: '3.13'
