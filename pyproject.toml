@@ -56,7 +56,7 @@ classifiers = [
 dependencies = [
   "Django>=5.2,<5.3",
   "django-appconf>=1.0",
-  "django-countries==7.6.1",
+  "django-countries==8.0.0",
   "django-vies==6.2.1",
   "fakturace==0.7.2",
   "psycopg[binary]",
