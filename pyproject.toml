@@ -30,7 +30,7 @@ types = [
   "django-stubs[compatible-mypy]==5.2.7",
   "mypy==1.18.2",
   "types-dateparser==1.2.2.20250809",
-  "types-python-dateutil==2.9.0.20251108",
+  "types-python-dateutil==2.9.0.20251115",
   "types-requests==2.32.4.20250913"
 ]
 
