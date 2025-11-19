@@ -77,7 +77,7 @@ repos:
   - id: shellcheck
     require_serial: true
 - repo: https://github.com/gitleaks/gitleaks
-  rev: v8.29.0
+  rev: v8.29.1
   hooks:
   - id: gitleaks
 - repo: https://github.com/crate-ci/typos
