@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2025-02-21 09:56+0000\n"
+"POT-Creation-Date: 2025-11-20 14:14+0000\n"
 "PO-Revision-Date: 2025-11-17 05:51+0000\n"
 "Last-Translator: 이정희 <daemul72@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/weblate/hosted/ko/"
@@ -26,31 +26,43 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.15-dev\n"
 
-#: wlhosted/addons.py:44 wlhosted/addons.py:45
+#: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
 msgstr "알 수 없는 지평선 시나리오 데이터 생성하기"
 
-#: wlhosted/addons.py:67
+#: wlhosted/addons.py:63
 msgid "Reset repository to upstream"
 msgstr "리포지터리를 업스트림으로 재설정"
 
-#: wlhosted/addons.py:68
+#: wlhosted/addons.py:64
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "매일 밤 Weblate 리포지터리의 모든 변경 사항을 버립니다."
 
-#: wlhosted/integrations/forms.py:37
+#: wlhosted/integrations/forms.py:38
 msgid "Billing"
 msgstr "청구"
 
-#: wlhosted/integrations/forms.py:38
+#: wlhosted/integrations/forms.py:39
 msgid "Choose the billing plan you want to update"
 msgstr "갱신할 요금제를 선택하세요"
 
-#: wlhosted/integrations/forms.py:39
+#: wlhosted/integrations/forms.py:40
 msgid "Create new billing plan"
 msgstr "새 청구 요금제 만들기"
 
-#: wlhosted/integrations/templates/hosted/create.html:8
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
+msgid "Sign in here to access our services:"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
+msgid "Weblate customer care portal"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
+msgid "Weblate commercial services management"
+msgstr ""
+
+#: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
 msgstr "청구 요금제 만들기"
 
@@ -58,27 +70,27 @@ msgstr "청구 요금제 만들기"
 msgid "New billing plan"
 msgstr "새 청구 요금제"
 
-#: wlhosted/integrations/templates/hosted/create.html:20
+#: wlhosted/integrations/templates/hosted/create.html:19
 msgid "Please choose a hosting plan that fits the size of your project."
 msgstr "프로젝트 규모에 맞는 호스팅 요금제를 선택하세요."
 
-#: wlhosted/integrations/templates/hosted/create.html:26
+#: wlhosted/integrations/templates/hosted/create.html:24
 msgid "Current billing status"
 msgstr "현재 청구 상태"
 
-#: wlhosted/integrations/templates/hosted/create.html:47
+#: wlhosted/integrations/templates/hosted/create.html:46
 msgid "Too small for your project."
 msgstr "당신의 프로젝트에 비해 너무 작습니다."
 
-#: wlhosted/integrations/templates/hosted/create.html:47
+#: wlhosted/integrations/templates/hosted/create.html:46
 msgid "Too small"
 msgstr "너무 작음"
 
-#: wlhosted/integrations/templates/hosted/create.html:49
+#: wlhosted/integrations/templates/hosted/create.html:48
 msgid "Selected plan"
 msgstr "선택된 요금제"
 
-#: wlhosted/integrations/templates/hosted/create.html:51
+#: wlhosted/integrations/templates/hosted/create.html:50
 msgid "Current plan"
 msgstr "현재 요금제"
 
@@ -86,42 +98,42 @@ msgstr "현재 요금제"
 msgid "Hosted strings limit"
 msgstr "주요 문자열 제한"
 
-#: wlhosted/integrations/templates/hosted/create.html:57
-#: wlhosted/integrations/templates/hosted/create.html:60
-#: wlhosted/integrations/templates/hosted/create.html:63
-#: wlhosted/integrations/templates/hosted/create.html:66
+#: wlhosted/integrations/templates/hosted/create.html:61
+#: wlhosted/integrations/templates/hosted/create.html:71
+#: wlhosted/integrations/templates/hosted/create.html:81
+#: wlhosted/integrations/templates/hosted/create.html:91
 msgid "Unlimited"
 msgstr "무제한"
 
-#: wlhosted/integrations/templates/hosted/create.html:59
+#: wlhosted/integrations/templates/hosted/create.html:66
 msgid "Source strings limit"
 msgstr "원문 문자열 제한"
 
-#: wlhosted/integrations/templates/hosted/create.html:62
+#: wlhosted/integrations/templates/hosted/create.html:76
 msgid "Languages limit"
 msgstr "언어 제한"
 
-#: wlhosted/integrations/templates/hosted/create.html:65
+#: wlhosted/integrations/templates/hosted/create.html:86
 msgid "Projects limit"
 msgstr "프로젝트 제한"
 
-#: wlhosted/integrations/templates/hosted/create.html:78
+#: wlhosted/integrations/templates/hosted/create.html:107
 #, python-format
 msgid "%(price)s EUR / month"
 msgstr "%(price)s EUR / 월"
 
-#: wlhosted/integrations/templates/hosted/create.html:79
-#: wlhosted/integrations/templates/hosted/create.html:85
+#: wlhosted/integrations/templates/hosted/create.html:109
+#: wlhosted/integrations/templates/hosted/create.html:120
 #, python-format
 msgid "%(price)s EUR including VAT"
 msgstr "%(price)s EUR 부가세 포함"
 
-#: wlhosted/integrations/templates/hosted/create.html:84
+#: wlhosted/integrations/templates/hosted/create.html:118
 #, python-format
 msgid "%(price)s EUR / year"
 msgstr "%(price)s EUR / 년"
 
-#: wlhosted/integrations/templates/hosted/create.html:96
+#: wlhosted/integrations/templates/hosted/create.html:131
 msgid ""
 "Pricing is based on the number of source strings and target languages. The "
 "source string is a text unit defined in a translation format, it can be a "
@@ -130,17 +142,17 @@ msgstr ""
 "요금은 원본 문자열 및 대상 언어의 수에 의해 결정됩니다. 원본 문자열은 번역 형"
 "식으로 정의된 문자 단위이며, 이는 단어, 문장, 문단일 수 있습니다."
 
-#: wlhosted/integrations/templates/hosted/create.html:99
+#: wlhosted/integrations/templates/hosted/create.html:134
 msgid "All listed prices exclude VAT."
 msgstr "표시된 모든 요금은 부가가치세를 제외한 가격입니다."
 
-#: wlhosted/integrations/templates/hosted/create.html:100
+#: wlhosted/integrations/templates/hosted/create.html:135
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr "EU 최종 사용자와 체코 기업들은 21%%의 부가가치세가 추가로 부과됩니다."
 
-#: wlhosted/integrations/templates/hosted/create.html:101
+#: wlhosted/integrations/templates/hosted/create.html:136
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
@@ -155,7 +167,7 @@ msgstr "결제해 주셔서 감사합니다. 이제 청구 금액이 결제되�
 msgid "This billing plan covers following projects:"
 msgstr "이 청구 요금제에는 다음 프로젝트가 포함됩니다:"
 
-#: wlhosted/integrations/templates/mail/billing_paid.html:17
+#: wlhosted/integrations/templates/mail/billing_paid.html:19
 msgid "Check your billing status"
 msgstr "사용자의 청구 상태 확인"
 
@@ -163,15 +175,15 @@ msgstr "사용자의 청구 상태 확인"
 msgid "Your billing plan was paid"
 msgstr "사용자의 청구 요금제가 결제되었습니다"
 
-#: wlhosted/integrations/views.py:67
+#: wlhosted/integrations/views.py:74
 msgid "No matching payment found."
 msgstr "일치하는 결제를 찾을 수 없습니다."
 
-#: wlhosted/integrations/views.py:75
+#: wlhosted/integrations/views.py:82
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr "호스팅 요금제를 구매해 주셔서 감사합니다. 이제 활성화되었습니다."
 
-#: wlhosted/integrations/views.py:83
+#: wlhosted/integrations/views.py:90
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
@@ -179,112 +191,112 @@ msgstr ""
 "호스팅 요금제를 구매해 주셔서 감사합니다. 해당 요금제에 대한 결제가 보류 중이"
 "며 백그라운드에서 처리됩니다."
 
-#: wlhosted/integrations/views.py:95
+#: wlhosted/integrations/views.py:102
 msgid "The payment was rejected: {}"
 msgstr "결제가 거부되었습니다: {}"
 
-#: wlhosted/integrations/views.py:96
+#: wlhosted/integrations/views.py:103
 msgid "Unknown reason"
 msgstr "알 수 없는 이유"
 
-#: wlhosted/integrations/views.py:112
+#: wlhosted/integrations/views.py:119
 msgid "Payments are temporarily inactive."
 msgstr "결제가 일시적으로 비활성 상태입니다."
 
-#: wlhosted/payments/backends.py:156
+#: wlhosted/payments/backends.py:160
 msgid "IBAN bank transfer"
 msgstr "IBAN 은행 송금"
 
-#: wlhosted/payments/backends.py:164
+#: wlhosted/payments/backends.py:168
 msgid "Payment card"
 msgstr "결제 카드"
 
-#: wlhosted/payments/models.py:87
+#: wlhosted/payments/models.py:91
 msgid "European VAT ID"
 msgstr "유럽 VAT ID"
 
-#: wlhosted/payments/models.py:89
+#: wlhosted/payments/models.py:93
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr "유럽 연합 VAT ID를 입력하고, 해당되지 않는 경우 비워두세요."
 
-#: wlhosted/payments/models.py:95
+#: wlhosted/payments/models.py:99
 msgid "Tax registration"
 msgstr "세금 등록"
 
-#: wlhosted/payments/models.py:97
+#: wlhosted/payments/models.py:101
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "청구서에 표시해야 할 경우라면 세금 등록란을 채우세요."
 
-#: wlhosted/payments/models.py:103
+#: wlhosted/payments/models.py:107
 msgid "Company or individual name"
 msgstr "회사 또는 개인 이름"
 
-#: wlhosted/payments/models.py:108
+#: wlhosted/payments/models.py:112
 msgid "Address"
 msgstr "주소"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:117
 msgid "Additional address information"
 msgstr "추가 주소 정보"
 
-#: wlhosted/payments/models.py:119
+#: wlhosted/payments/models.py:123
 msgid "Postcode and city"
 msgstr "우편번호 및 도시"
 
-#: wlhosted/payments/models.py:124
+#: wlhosted/payments/models.py:128
 msgid "Postcode"
 msgstr "우편번호"
 
-#: wlhosted/payments/models.py:128
+#: wlhosted/payments/models.py:132
 msgid "Country"
 msgstr "국가"
 
-#: wlhosted/payments/models.py:165
+#: wlhosted/payments/models.py:178
 msgid "The country has to match your VAT code"
 msgstr "국가는 VAT 코드와 일치해야 합니다"
 
-#: wlhosted/payments/models.py:188
+#: wlhosted/payments/models.py:201
 msgid "Annual"
 msgstr "연 1회"
 
-#: wlhosted/payments/models.py:189
+#: wlhosted/payments/models.py:202
 msgid "Biannual"
 msgstr "연 2회"
 
-#: wlhosted/payments/models.py:190
+#: wlhosted/payments/models.py:203
 msgid "Quarterly"
 msgstr "분기별"
 
-#: wlhosted/payments/models.py:191
+#: wlhosted/payments/models.py:204
 msgid "Monthly"
 msgstr "매월"
 
-#: wlhosted/payments/models.py:192
+#: wlhosted/payments/models.py:205
 msgid "One-time"
 msgstr "일회성"
 
-#: wlhosted/payments/models.py:226
+#: wlhosted/payments/models.py:239
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "신규 결제"
 
-#: wlhosted/payments/models.py:227
+#: wlhosted/payments/models.py:240
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "대기 중인 결제"
 
-#: wlhosted/payments/models.py:228
+#: wlhosted/payments/models.py:241
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "결제 거부됨"
 
-#: wlhosted/payments/models.py:229
+#: wlhosted/payments/models.py:242
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "결제 승인됨"
 
-#: wlhosted/payments/models.py:230
+#: wlhosted/payments/models.py:243
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "결제 처리됨"
@@ -409,9 +421,9 @@ msgstr "{}은(는) 유효한 VAT ID가 아닙니다."
 #~ "Protection Regulation, also known as GDPR. This document includes "
 #~ "necessary specifications."
 #~ msgstr ""
-#~ "우리는 General Data Protection Regulation, 이하 GDPR의 규정 no. "
-#~ "%(law_679_2016)s 를 준수합니다. 이 문서에는 필요한 명세서가 포함되어 있습"
-#~ "니다."
+#~ "우리는 General Data Protection Regulation, 이하 GDPR의 규정 no. %"
+#~ "(law_679_2016)s 를 준수합니다. 이 문서에는 필요한 명세서가 포함되어 있습니"
+#~ "다."
 
 #~ msgid "Personal Data Controller"
 #~ msgstr "개인 자료 컨트롤러"
@@ -420,8 +432,8 @@ msgstr "{}은(는) 유효한 VAT ID가 아닙니다."
 #~ msgstr "%(provider)s, 등록 번호. No. %(reg_no)s"
 
 #~ msgid ""
-#~ "Weblate has appointed a data protection officer who may be reached via "
-#~ "%(privacy_contact)s."
+#~ "Weblate has appointed a data protection officer who may be reached via %"
+#~ "(privacy_contact)s."
 #~ msgstr ""
 #~ "웨블레이트는 %(privacy_contact)s을 통해 연락할 수 있는 자료 보호 책임자를 "
 #~ "임명했습니다."
@@ -479,12 +491,12 @@ msgstr "{}은(는) 유효한 VAT ID가 아닙니다."
 #~ msgstr ""
 #~ "당사 서비스에 관한 서비스 제공, 당사 서비스 관련 문제에 귀하에게 연락하기 "
 #~ "위해 (또한 전자우편과 메시지를 통해) 그리고 계약 상 또는 사전 계약 상의 우"
-#~ "리의 서비스 이행의 기술적 기능을 보장하기 위해 사용됩니다 (<a "
-#~ "href=\"%(url)s\">GDPR 제 6조 1항</a>)"
+#~ "리의 서비스 이행의 기술적 기능을 보장하기 위해 사용됩니다 (<a href=\"%"
+#~ "(url)s\">GDPR 제 6조 1항</a>)"
 
 #~ msgid ""
-#~ "to analyze your use of our services and improve our services (<a "
-#~ "href=\"%(url)s\">Article 6 (1) b. and f. GDPR</a>)"
+#~ "to analyze your use of our services and improve our services (<a href=\"%"
+#~ "(url)s\">Article 6 (1) b. and f. GDPR</a>)"
 #~ msgstr ""
 #~ "우리의 서비스 개선과 귀하의 서비스 사용을 분석하기 위해 사용됩니다 (<a "
 #~ "href=\"%(url)s\">GDPR 제 6조 1항</a>)"
@@ -706,11 +718,11 @@ msgstr "{}은(는) 유효한 VAT ID가 아닙니다."
 #~ msgstr "개인 정보"
 
 #~ msgid ""
-#~ "means personal data within the meaning of EU Regulation No. "
-#~ "%(law_679_2016)s inserted by the User into the Service and/or Cookies"
+#~ "means personal data within the meaning of EU Regulation No. %"
+#~ "(law_679_2016)s inserted by the User into the Service and/or Cookies"
 #~ msgstr ""
-#~ "사용자가 서비스 및 / 또는 쿠키에 삽입한 유럽연합 규정 번호 "
-#~ "%(law_679_2016)s의 의미 내에서 개인 데이터를 의미합니다"
+#~ "사용자가 서비스 및 / 또는 쿠키에 삽입한 유럽연합 규정 번호 %"
+#~ "(law_679_2016)s의 의미 내에서 개인 데이터를 의미합니다"
 
 #~ msgid "Owner"
 #~ msgstr "소유자"
@@ -860,8 +872,8 @@ msgstr "{}은(는) 유효한 VAT ID가 아닙니다."
 #~ "needs of the Provider’s contractual partners and for statistical and/or "
 #~ "marketing purposes of the Provider."
 #~ msgstr ""
-#~ "제공하는 사람의 결정에 따른 개인 정보의 처리 목적은 법 No. "
-#~ "%(law_480_2004)s Coll의 개정된 정보 사회 특정 서비스에 따라 전자적 수단으"
+#~ "제공하는 사람의 결정에 따른 개인 정보의 처리 목적은 법 No. %"
+#~ "(law_480_2004)s Coll의 개정된 정보 사회 특정 서비스에 따라 전자적 수단으"
 #~ "로 자료의 주체 (사용자)에게 상업적 통신을 전송하고 공급자의 계약 파트너의 "
 #~ "마케팅 및 비즈니스 요구와 공급자의 통계 및/또는 마케팅 목적을 위한 목적의 "
 #~ "개인 정보 사용입니다."
@@ -876,15 +888,14 @@ msgstr "{}은(는) 유효한 VAT ID가 아닙니다."
 #~ "스 커뮤니케이션을 더 이상 보내지 않아야 합니다."
 
 #~ msgid ""
-#~ "The User declares awareness of own rights under <a "
-#~ "href=\"%(url_15)s\">Article 15</a> and <a href=\"%(url_17)s\">Article 17</"
-#~ "a> of the GDPR and declares that all the Personal Data is accurate and "
-#~ "true and has been provided voluntarily."
+#~ "The User declares awareness of own rights under <a href=\"%"
+#~ "(url_15)s\">Article 15</a> and <a href=\"%(url_17)s\">Article 17</a> of "
+#~ "the GDPR and declares that all the Personal Data is accurate and true and "
+#~ "has been provided voluntarily."
 #~ msgstr ""
-#~ "사용자는 GDPR의 <a href=\"%(url_15)s\">제 15 조</a> 및 <a "
-#~ "href=\"%(url_17)s\">제 17 조</a>에 따라 자신의 권리에 대한 인식을 선언하"
-#~ "고 선언합니다. 모든 개인 정보는 정확하고 진실되며 자발적으로 제공되었습니"
-#~ "다."
+#~ "사용자는 GDPR의 <a href=\"%(url_15)s\">제 15 조</a> 및 <a href=\"%"
+#~ "(url_17)s\">제 17 조</a>에 따라 자신의 권리에 대한 인식을 선언하고 선언합"
+#~ "니다. 모든 개인 정보는 정확하고 진실되며 자발적으로 제공되었습니다."
 
 #~ msgid ""
 #~ "The Provider declares that it will collect Personal Data only in the "

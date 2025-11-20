@@ -12,9 +12,9 @@
 # Reno Tx <renotx@users.noreply.hosted.weblate.org>, 2024.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2025-02-21 09:56+0000\n"
+"POT-Creation-Date: 2025-11-20 14:14+0000\n"
 "PO-Revision-Date: 2025-02-16 13:11+0000\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -27,31 +27,43 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Weblate 5.10\n"
 
-#: wlhosted/addons.py:44 wlhosted/addons.py:45
+#: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
 msgstr "Створи податке за сценарио игре „Непознати хоризонти“"
 
-#: wlhosted/addons.py:67
+#: wlhosted/addons.py:63
 msgid "Reset repository to upstream"
 msgstr "Ресетуј складиште ка извору"
 
-#: wlhosted/addons.py:68
+#: wlhosted/addons.py:64
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "Поништиће сваке ноћи све измене у складишту Веблејта."
 
-#: wlhosted/integrations/forms.py:37
+#: wlhosted/integrations/forms.py:38
 msgid "Billing"
 msgstr "Наплата"
 
-#: wlhosted/integrations/forms.py:38
+#: wlhosted/integrations/forms.py:39
 msgid "Choose the billing plan you want to update"
 msgstr "Изаберите план наплате који желите да ажурирате"
 
-#: wlhosted/integrations/forms.py:39
+#: wlhosted/integrations/forms.py:40
 msgid "Create new billing plan"
 msgstr "Направи нови план наплате"
 
-#: wlhosted/integrations/templates/hosted/create.html:8
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
+msgid "Sign in here to access our services:"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
+msgid "Weblate customer care portal"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
+msgid "Weblate commercial services management"
+msgstr ""
+
+#: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
 msgstr "Направи план наплате"
 
@@ -59,27 +71,27 @@ msgstr "Направи план наплате"
 msgid "New billing plan"
 msgstr "Нови план наплате"
 
-#: wlhosted/integrations/templates/hosted/create.html:20
+#: wlhosted/integrations/templates/hosted/create.html:19
 msgid "Please choose a hosting plan that fits the size of your project."
 msgstr "Изаберите план удомљавања који одговара величини вашег пројекта."
 
-#: wlhosted/integrations/templates/hosted/create.html:26
+#: wlhosted/integrations/templates/hosted/create.html:24
 msgid "Current billing status"
 msgstr "Тренутно стање наплате"
 
-#: wlhosted/integrations/templates/hosted/create.html:47
+#: wlhosted/integrations/templates/hosted/create.html:46
 msgid "Too small for your project."
 msgstr "Премало за ваш пројекат."
 
-#: wlhosted/integrations/templates/hosted/create.html:47
+#: wlhosted/integrations/templates/hosted/create.html:46
 msgid "Too small"
 msgstr "Премало"
 
-#: wlhosted/integrations/templates/hosted/create.html:49
+#: wlhosted/integrations/templates/hosted/create.html:48
 msgid "Selected plan"
 msgstr "Изабрани план"
 
-#: wlhosted/integrations/templates/hosted/create.html:51
+#: wlhosted/integrations/templates/hosted/create.html:50
 msgid "Current plan"
 msgstr "Тренутни план"
 
@@ -87,42 +99,42 @@ msgstr "Тренутни план"
 msgid "Hosted strings limit"
 msgstr "Ограничење броја ниски"
 
-#: wlhosted/integrations/templates/hosted/create.html:57
-#: wlhosted/integrations/templates/hosted/create.html:60
-#: wlhosted/integrations/templates/hosted/create.html:63
-#: wlhosted/integrations/templates/hosted/create.html:66
+#: wlhosted/integrations/templates/hosted/create.html:61
+#: wlhosted/integrations/templates/hosted/create.html:71
+#: wlhosted/integrations/templates/hosted/create.html:81
+#: wlhosted/integrations/templates/hosted/create.html:91
 msgid "Unlimited"
 msgstr "Неограничено"
 
-#: wlhosted/integrations/templates/hosted/create.html:59
+#: wlhosted/integrations/templates/hosted/create.html:66
 msgid "Source strings limit"
 msgstr "Ограничење броја изворних низова"
 
-#: wlhosted/integrations/templates/hosted/create.html:62
+#: wlhosted/integrations/templates/hosted/create.html:76
 msgid "Languages limit"
 msgstr "Ограничење језика"
 
-#: wlhosted/integrations/templates/hosted/create.html:65
+#: wlhosted/integrations/templates/hosted/create.html:86
 msgid "Projects limit"
 msgstr "Ограничење пројеката"
 
-#: wlhosted/integrations/templates/hosted/create.html:78
+#: wlhosted/integrations/templates/hosted/create.html:107
 #, python-format
 msgid "%(price)s EUR / month"
 msgstr "%(price)s € / месечно"
 
-#: wlhosted/integrations/templates/hosted/create.html:79
-#: wlhosted/integrations/templates/hosted/create.html:85
+#: wlhosted/integrations/templates/hosted/create.html:109
+#: wlhosted/integrations/templates/hosted/create.html:120
 #, python-format
 msgid "%(price)s EUR including VAT"
 msgstr "%(price)s € укључујући ПДВ"
 
-#: wlhosted/integrations/templates/hosted/create.html:84
+#: wlhosted/integrations/templates/hosted/create.html:118
 #, python-format
 msgid "%(price)s EUR / year"
 msgstr "%(price)s € / годишње"
 
-#: wlhosted/integrations/templates/hosted/create.html:96
+#: wlhosted/integrations/templates/hosted/create.html:131
 msgid ""
 "Pricing is based on the number of source strings and target languages. The "
 "source string is a text unit defined in a translation format, it can be a "
@@ -132,18 +144,18 @@ msgstr ""
 "текстуална јединица дефинисана у формату за превод. Може бити реч, реченица "
 "или пасус."
 
-#: wlhosted/integrations/templates/hosted/create.html:99
+#: wlhosted/integrations/templates/hosted/create.html:134
 msgid "All listed prices exclude VAT."
 msgstr "Приказане цене су без ПДВ-а."
 
-#: wlhosted/integrations/templates/hosted/create.html:100
+#: wlhosted/integrations/templates/hosted/create.html:135
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
 "Корисницима у ЕУ и чешким компанијама биће додатно наплаћен 21%% ПДВ-а."
 
-#: wlhosted/integrations/templates/hosted/create.html:101
+#: wlhosted/integrations/templates/hosted/create.html:136
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr "Обрачун повраћаја се примењује на рачуне издате предузећима унутар ЕУ."
@@ -156,7 +168,7 @@ msgstr "Хвала вам на уплати, ваш рачун је сада п�
 msgid "This billing plan covers following projects:"
 msgstr "Овај план наплате покрива следеће пројекте:"
 
-#: wlhosted/integrations/templates/mail/billing_paid.html:17
+#: wlhosted/integrations/templates/mail/billing_paid.html:19
 msgid "Check your billing status"
 msgstr "Проверите стање плаћања"
 
@@ -164,15 +176,15 @@ msgstr "Проверите стање плаћања"
 msgid "Your billing plan was paid"
 msgstr "Ваш износ рачуна је уплаћен"
 
-#: wlhosted/integrations/views.py:67
+#: wlhosted/integrations/views.py:74
 msgid "No matching payment found."
 msgstr "Нема одговарајућег плаћања."
 
-#: wlhosted/integrations/views.py:75
+#: wlhosted/integrations/views.py:82
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr "Хвала вам на куповини плана удомљавања. Сада је активиран."
 
-#: wlhosted/integrations/views.py:83
+#: wlhosted/integrations/views.py:90
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
@@ -180,114 +192,114 @@ msgstr ""
 "Хвала вам на куповини плана удомљавања. Плаћање је у току и биће обрађено у "
 "позадини."
 
-#: wlhosted/integrations/views.py:95
+#: wlhosted/integrations/views.py:102
 msgid "The payment was rejected: {}"
 msgstr "Плаћање је одбијено: {}"
 
-#: wlhosted/integrations/views.py:96
+#: wlhosted/integrations/views.py:103
 msgid "Unknown reason"
 msgstr "Непознат разлог"
 
-#: wlhosted/integrations/views.py:112
+#: wlhosted/integrations/views.py:119
 msgid "Payments are temporarily inactive."
 msgstr "Плаћања су привремено недоступна."
 
-#: wlhosted/payments/backends.py:156
+#: wlhosted/payments/backends.py:160
 msgid "IBAN bank transfer"
 msgstr "IBAN банковни трансфер"
 
-#: wlhosted/payments/backends.py:164
+#: wlhosted/payments/backends.py:168
 msgid "Payment card"
 msgstr "Платна картица"
 
-#: wlhosted/payments/models.py:87
+#: wlhosted/payments/models.py:91
 msgid "European VAT ID"
 msgstr "Европски ПДВ ИД"
 
-#: wlhosted/payments/models.py:89
+#: wlhosted/payments/models.py:93
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr "Попуните европски ПДВ ИД. Оставите празно ако се не примењује."
 
-#: wlhosted/payments/models.py:95
+#: wlhosted/payments/models.py:99
 msgid "Tax registration"
 msgstr "Пореска пријава"
 
-#: wlhosted/payments/models.py:97
+#: wlhosted/payments/models.py:101
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "Попуните своју пореску пријаву ако је потребно да се појави на рачуну."
 
-#: wlhosted/payments/models.py:103
+#: wlhosted/payments/models.py:107
 msgid "Company or individual name"
 msgstr "Предузеће или лично име"
 
-#: wlhosted/payments/models.py:108
+#: wlhosted/payments/models.py:112
 msgid "Address"
 msgstr "Адреса"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:117
 msgid "Additional address information"
 msgstr ""
 
-#: wlhosted/payments/models.py:119
+#: wlhosted/payments/models.py:123
 msgid "Postcode and city"
 msgstr "Поштански број и место"
 
-#: wlhosted/payments/models.py:124
+#: wlhosted/payments/models.py:128
 #, fuzzy
 #| msgid "Postcode and city"
 msgid "Postcode"
 msgstr "Поштански број и место"
 
-#: wlhosted/payments/models.py:128
+#: wlhosted/payments/models.py:132
 msgid "Country"
 msgstr "Држава"
 
-#: wlhosted/payments/models.py:165
+#: wlhosted/payments/models.py:178
 msgid "The country has to match your VAT code"
 msgstr "Држава мора да се поклапа са ПДВ кодом"
 
-#: wlhosted/payments/models.py:188
+#: wlhosted/payments/models.py:201
 msgid "Annual"
 msgstr "годишње"
 
-#: wlhosted/payments/models.py:189
+#: wlhosted/payments/models.py:202
 msgid "Biannual"
 msgstr "двогодишње"
 
-#: wlhosted/payments/models.py:190
+#: wlhosted/payments/models.py:203
 msgid "Quarterly"
 msgstr "квартално"
 
-#: wlhosted/payments/models.py:191
+#: wlhosted/payments/models.py:204
 msgid "Monthly"
 msgstr "месечно"
 
-#: wlhosted/payments/models.py:192
+#: wlhosted/payments/models.py:205
 msgid "One-time"
 msgstr "Једнократно"
 
-#: wlhosted/payments/models.py:226
+#: wlhosted/payments/models.py:239
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Нова уплата"
 
-#: wlhosted/payments/models.py:227
+#: wlhosted/payments/models.py:240
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Уплата на чекању"
 
-#: wlhosted/payments/models.py:228
+#: wlhosted/payments/models.py:241
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Уплата је одбијена"
 
-#: wlhosted/payments/models.py:229
+#: wlhosted/payments/models.py:242
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Уплата је прихваћена"
 
-#: wlhosted/payments/models.py:230
+#: wlhosted/payments/models.py:243
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Уплата је обрађена"

@@ -7,9 +7,9 @@
 # Rener kaka <Rabarajax51@gmail.com>, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hosted Weblate \n"
+"Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2025-02-21 09:56+0000\n"
+"POT-Creation-Date: 2025-11-20 14:14+0000\n"
 "PO-Revision-Date: 2021-04-04 13:26+0000\n"
 "Last-Translator: Rener kaka <Rabarajax51@gmail.com>\n"
 "Language-Team: Kurdish (Central) <https://hosted.weblate.org/projects/"
@@ -21,31 +21,43 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.6-dev\n"
 
-#: wlhosted/addons.py:44 wlhosted/addons.py:45
+#: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
 msgstr "دروستکردنی داتای سیناریۆی ئاسۆی نەناسراو"
 
-#: wlhosted/addons.py:67
+#: wlhosted/addons.py:63
 msgid "Reset repository to upstream"
 msgstr "دووبارە ڕێکخستنەوەی کۆگا بۆ سەرەوەی سترایم"
 
-#: wlhosted/addons.py:68
+#: wlhosted/addons.py:64
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "هەموو گۆڕانکاریەکان لابدە لە کۆگای وێبلایت هەموو شەوێک."
 
-#: wlhosted/integrations/forms.py:37
+#: wlhosted/integrations/forms.py:38
 msgid "Billing"
 msgstr "لیست"
 
-#: wlhosted/integrations/forms.py:38
+#: wlhosted/integrations/forms.py:39
 msgid "Choose the billing plan you want to update"
 msgstr "هەڵبژاردنی پلانی پسوڵەکە کە دەتەوێت نوێکاری بکەیت"
 
-#: wlhosted/integrations/forms.py:39
+#: wlhosted/integrations/forms.py:40
 msgid "Create new billing plan"
 msgstr "دروستکردنی پلانی نوێی پڕۆژە یاساکە"
 
-#: wlhosted/integrations/templates/hosted/create.html:8
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
+msgid "Sign in here to access our services:"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
+msgid "Weblate customer care portal"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
+msgid "Weblate commercial services management"
+msgstr ""
+
+#: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
 msgstr "دروستکردنی پلانی پسوڵە"
 
@@ -53,27 +65,27 @@ msgstr "دروستکردنی پلانی پسوڵە"
 msgid "New billing plan"
 msgstr "پلانی نوێی پڕۆژە یاساکە"
 
-#: wlhosted/integrations/templates/hosted/create.html:20
+#: wlhosted/integrations/templates/hosted/create.html:19
 msgid "Please choose a hosting plan that fits the size of your project."
 msgstr "تکایە پلانی میوانداری هەڵبژێرە کە لەگەڵ قەبارەی پرۆژەکەت بگونجێت."
 
-#: wlhosted/integrations/templates/hosted/create.html:26
+#: wlhosted/integrations/templates/hosted/create.html:24
 msgid "Current billing status"
 msgstr "دۆخی لیستی هەژمێری ئێستا"
 
-#: wlhosted/integrations/templates/hosted/create.html:47
+#: wlhosted/integrations/templates/hosted/create.html:46
 msgid "Too small for your project."
 msgstr "زۆر بچووکە بۆ پڕۆژەکەت."
 
-#: wlhosted/integrations/templates/hosted/create.html:47
+#: wlhosted/integrations/templates/hosted/create.html:46
 msgid "Too small"
 msgstr "زۆر بچووکە"
 
-#: wlhosted/integrations/templates/hosted/create.html:49
+#: wlhosted/integrations/templates/hosted/create.html:48
 msgid "Selected plan"
 msgstr "پلانی دیاریکراو"
 
-#: wlhosted/integrations/templates/hosted/create.html:51
+#: wlhosted/integrations/templates/hosted/create.html:50
 msgid "Current plan"
 msgstr "پلانی ئێستا"
 
@@ -83,44 +95,44 @@ msgstr "پلانی ئێستا"
 msgid "Hosted strings limit"
 msgstr "سنووری زنجیرەکان"
 
-#: wlhosted/integrations/templates/hosted/create.html:57
-#: wlhosted/integrations/templates/hosted/create.html:60
-#: wlhosted/integrations/templates/hosted/create.html:63
-#: wlhosted/integrations/templates/hosted/create.html:66
+#: wlhosted/integrations/templates/hosted/create.html:61
+#: wlhosted/integrations/templates/hosted/create.html:71
+#: wlhosted/integrations/templates/hosted/create.html:81
+#: wlhosted/integrations/templates/hosted/create.html:91
 msgid "Unlimited"
 msgstr "بێسنوور"
 
-#: wlhosted/integrations/templates/hosted/create.html:59
+#: wlhosted/integrations/templates/hosted/create.html:66
 #, fuzzy
 #| msgid "Strings limit"
 msgid "Source strings limit"
 msgstr "سنووری زنجیرەکان"
 
-#: wlhosted/integrations/templates/hosted/create.html:62
+#: wlhosted/integrations/templates/hosted/create.html:76
 msgid "Languages limit"
 msgstr "سنووری زمانەکان"
 
-#: wlhosted/integrations/templates/hosted/create.html:65
+#: wlhosted/integrations/templates/hosted/create.html:86
 msgid "Projects limit"
 msgstr "سنووری پڕۆژەکان"
 
-#: wlhosted/integrations/templates/hosted/create.html:78
+#: wlhosted/integrations/templates/hosted/create.html:107
 #, python-format
 msgid "%(price)s EUR / month"
 msgstr "%(price)s یۆرۆ \\ مانگانە"
 
-#: wlhosted/integrations/templates/hosted/create.html:79
-#: wlhosted/integrations/templates/hosted/create.html:85
+#: wlhosted/integrations/templates/hosted/create.html:109
+#: wlhosted/integrations/templates/hosted/create.html:120
 #, python-format
 msgid "%(price)s EUR including VAT"
 msgstr "%(price)s زیادکردن بە vat"
 
-#: wlhosted/integrations/templates/hosted/create.html:84
+#: wlhosted/integrations/templates/hosted/create.html:118
 #, python-format
 msgid "%(price)s EUR / year"
 msgstr "%(price)s یۆرۆ \\ ساڵانە"
 
-#: wlhosted/integrations/templates/hosted/create.html:96
+#: wlhosted/integrations/templates/hosted/create.html:131
 msgid ""
 "Pricing is based on the number of source strings and target languages. The "
 "source string is a text unit defined in a translation format, it can be a "
@@ -130,11 +142,11 @@ msgstr ""
 "سەرچاوە یەکەیەکی دەقی پێناسەکراو لە فۆرماتی وەرگێڕاندا، دەکرێت وشە، ڕستە یان "
 "پاراگراف بێت."
 
-#: wlhosted/integrations/templates/hosted/create.html:99
+#: wlhosted/integrations/templates/hosted/create.html:134
 msgid "All listed prices exclude VAT."
 msgstr "هەموو نرخە لیستکراوەکان VAT بەدەر دەکەن."
 
-#: wlhosted/integrations/templates/hosted/create.html:100
+#: wlhosted/integrations/templates/hosted/create.html:135
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
@@ -142,7 +154,7 @@ msgstr ""
 "بەکارهێنەرانی کۆتایی یەکێتی ئەورووپا و کۆمپانیاکانی چیک بە 21%% زیاتر لە VAT "
 "تاوانبار دەبن."
 
-#: wlhosted/integrations/templates/hosted/create.html:101
+#: wlhosted/integrations/templates/hosted/create.html:136
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
@@ -156,7 +168,7 @@ msgstr "سوپاس بۆ پارەدانەکەت، ئێستا پارەت بۆ دە
 msgid "This billing plan covers following projects:"
 msgstr "ئەم پلانی پڕۆژە یاسایانە ئەم پرۆژانە دادەگرێت:"
 
-#: wlhosted/integrations/templates/mail/billing_paid.html:17
+#: wlhosted/integrations/templates/mail/billing_paid.html:19
 msgid "Check your billing status"
 msgstr "پشکنینی باری پسوڵە"
 
@@ -164,15 +176,15 @@ msgstr "پشکنینی باری پسوڵە"
 msgid "Your billing plan was paid"
 msgstr "پلانی پسوڵەی تۆ درا"
 
-#: wlhosted/integrations/views.py:67
+#: wlhosted/integrations/views.py:74
 msgid "No matching payment found."
 msgstr "هیچ پارەدانێکی هاوتا نەدۆزرایەوە."
 
-#: wlhosted/integrations/views.py:75
+#: wlhosted/integrations/views.py:82
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr "سوپاس بۆ کڕینی پلانی میوانداریکردن، ئێستا چالاکە."
 
-#: wlhosted/integrations/views.py:83
+#: wlhosted/integrations/views.py:90
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
@@ -180,121 +192,121 @@ msgstr ""
 "سوپاس بۆ کڕینی پلانی میوانداریکردن، پارەدانەکەی لە چاوەڕوانیدایە و لە "
 "باکگراوند ئەنجام دەدریت."
 
-#: wlhosted/integrations/views.py:95
+#: wlhosted/integrations/views.py:102
 msgid "The payment was rejected: {}"
 msgstr "پارەدان ڕەتکرایەوە: {}"
 
-#: wlhosted/integrations/views.py:96
+#: wlhosted/integrations/views.py:103
 msgid "Unknown reason"
 msgstr "هۆکاری نەزانراو"
 
-#: wlhosted/integrations/views.py:112
+#: wlhosted/integrations/views.py:119
 msgid "Payments are temporarily inactive."
 msgstr "پارەدانەکان بە شێوەیەکی کاتی ناچالاکن."
 
-#: wlhosted/payments/backends.py:156
+#: wlhosted/payments/backends.py:160
 msgid "IBAN bank transfer"
 msgstr "گواستنەوەی بانکی IBAN"
 
-#: wlhosted/payments/backends.py:164
+#: wlhosted/payments/backends.py:168
 msgid "Payment card"
 msgstr "کارتی پارەدان"
 
-#: wlhosted/payments/models.py:87
+#: wlhosted/payments/models.py:91
 msgid "European VAT ID"
 msgstr "ناسنامەی VAT ی ئەوروپی"
 
-#: wlhosted/payments/models.py:89
+#: wlhosted/payments/models.py:93
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "تکایە ناسنامەی VAT یەکێتی ئەوروپا پڕبکەوە، ئەگەر کارپێکراو نەبوو، بەتاڵ بەجێ "
 "بێڵە."
 
-#: wlhosted/payments/models.py:95
+#: wlhosted/payments/models.py:99
 msgid "Tax registration"
 msgstr "باجی تۆمارکردن"
 
-#: wlhosted/payments/models.py:97
+#: wlhosted/payments/models.py:101
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
 "تکایە تۆماری باجەکەت پڕبکەوە ئەگەر پێویستە لەسەر لیستی باجەکە دەربکەوێت."
 
-#: wlhosted/payments/models.py:103
+#: wlhosted/payments/models.py:107
 msgid "Company or individual name"
 msgstr "کۆمپانیا یان ناوی تاک"
 
-#: wlhosted/payments/models.py:108
+#: wlhosted/payments/models.py:112
 msgid "Address"
 msgstr "ناونیشان"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:117
 #, fuzzy
 #| msgid "Billing information"
 msgid "Additional address information"
 msgstr "زانیاری پڕۆژەی یاسا"
 
-#: wlhosted/payments/models.py:119
+#: wlhosted/payments/models.py:123
 msgid "Postcode and city"
 msgstr "پۆستی کۆد و شار"
 
-#: wlhosted/payments/models.py:124
+#: wlhosted/payments/models.py:128
 #, fuzzy
 #| msgid "Postcode and city"
 msgid "Postcode"
 msgstr "پۆستی کۆد و شار"
 
-#: wlhosted/payments/models.py:128
+#: wlhosted/payments/models.py:132
 msgid "Country"
 msgstr "وڵات"
 
-#: wlhosted/payments/models.py:165
+#: wlhosted/payments/models.py:178
 msgid "The country has to match your VAT code"
 msgstr "دەبێت وڵاتەکەت لەگەڵ کۆدی VAT بگونجێت"
 
-#: wlhosted/payments/models.py:188
+#: wlhosted/payments/models.py:201
 msgid "Annual"
 msgstr "ساڵانە"
 
-#: wlhosted/payments/models.py:189
+#: wlhosted/payments/models.py:202
 msgid "Biannual"
 msgstr "شەش مانگی"
 
-#: wlhosted/payments/models.py:190
+#: wlhosted/payments/models.py:203
 msgid "Quarterly"
 msgstr "سێ مانگی"
 
-#: wlhosted/payments/models.py:191
+#: wlhosted/payments/models.py:204
 msgid "Monthly"
 msgstr "مانگانە"
 
-#: wlhosted/payments/models.py:192
+#: wlhosted/payments/models.py:205
 #, fuzzy
 #| msgid "Onetime"
 msgid "One-time"
 msgstr "یەکجار"
 
-#: wlhosted/payments/models.py:226
+#: wlhosted/payments/models.py:239
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "پارەدانی نوێ"
 
-#: wlhosted/payments/models.py:227
+#: wlhosted/payments/models.py:240
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "چاوەڕوانی پارە"
 
-#: wlhosted/payments/models.py:228
+#: wlhosted/payments/models.py:241
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "پارەدانکردن ڕەتکرایەوە"
 
-#: wlhosted/payments/models.py:229
+#: wlhosted/payments/models.py:242
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "پارەدانکردن پەسەند کرا"
 
-#: wlhosted/payments/models.py:230
+#: wlhosted/payments/models.py:243
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "پارەدانکردن ئەنجام درا"
@@ -430,11 +442,11 @@ msgstr "{} ناسنامەیەکی بڕوادار بە VAT نییە."
 #~ msgstr "%(provider)s, Reg. No. %(reg_no)s"
 
 #~ msgid ""
-#~ "Weblate has appointed a data protection officer who may be reached via "
-#~ "%(privacy_contact)s."
+#~ "Weblate has appointed a data protection officer who may be reached via %"
+#~ "(privacy_contact)s."
 #~ msgstr ""
-#~ "وێبلایت ئەفسەری پاراستنی داتای دیاریکردووە کە لەوانەیە بگاتە "
-#~ "%(privacy_contact)s."
+#~ "وێبلایت ئەفسەری پاراستنی داتای دیاریکردووە کە لەوانەیە بگاتە %"
+#~ "(privacy_contact)s."
 
 #~ msgid "Personal Data processed by Weblate"
 #~ msgstr "زانیاری تایبەتی لەلایەن وێبلایتەوە پرۆسێس کراوە"

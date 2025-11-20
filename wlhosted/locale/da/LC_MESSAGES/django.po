@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2025-02-21 09:56+0000\n"
+"POT-Creation-Date: 2025-11-20 14:14+0000\n"
 "PO-Revision-Date: 2025-06-03 00:03+0000\n"
 "Last-Translator: cat <catsnote@proton.me>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/weblate/hosted/da/"
@@ -28,31 +28,43 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.12-dev\n"
 
-#: wlhosted/addons.py:44 wlhosted/addons.py:45
+#: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
 msgstr "Generér Unknown Horizons-scenariedata"
 
-#: wlhosted/addons.py:67
+#: wlhosted/addons.py:63
 msgid "Reset repository to upstream"
 msgstr "Nulstil repository til upstream"
 
-#: wlhosted/addons.py:68
+#: wlhosted/addons.py:64
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "Kasserer alle ændringer i Weblate-repositoriet hver nat."
 
-#: wlhosted/integrations/forms.py:37
+#: wlhosted/integrations/forms.py:38
 msgid "Billing"
 msgstr "Fakturering"
 
-#: wlhosted/integrations/forms.py:38
+#: wlhosted/integrations/forms.py:39
 msgid "Choose the billing plan you want to update"
 msgstr "Vælg den betalingsplan, du vil opdatere"
 
-#: wlhosted/integrations/forms.py:39
+#: wlhosted/integrations/forms.py:40
 msgid "Create new billing plan"
 msgstr "Opret ny betalingsplan"
 
-#: wlhosted/integrations/templates/hosted/create.html:8
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
+msgid "Sign in here to access our services:"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
+msgid "Weblate customer care portal"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
+msgid "Weblate commercial services management"
+msgstr ""
+
+#: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
 msgstr "Opret betalingsplan"
 
@@ -60,27 +72,27 @@ msgstr "Opret betalingsplan"
 msgid "New billing plan"
 msgstr "Ny betalingsplan"
 
-#: wlhosted/integrations/templates/hosted/create.html:20
+#: wlhosted/integrations/templates/hosted/create.html:19
 msgid "Please choose a hosting plan that fits the size of your project."
 msgstr "Vælg en hostingplan, der passer til størrelsen på dit projekt."
 
-#: wlhosted/integrations/templates/hosted/create.html:26
+#: wlhosted/integrations/templates/hosted/create.html:24
 msgid "Current billing status"
 msgstr "Aktuel faktureringsstatus"
 
-#: wlhosted/integrations/templates/hosted/create.html:47
+#: wlhosted/integrations/templates/hosted/create.html:46
 msgid "Too small for your project."
 msgstr "For lille til dit projekt."
 
-#: wlhosted/integrations/templates/hosted/create.html:47
+#: wlhosted/integrations/templates/hosted/create.html:46
 msgid "Too small"
 msgstr "For lille"
 
-#: wlhosted/integrations/templates/hosted/create.html:49
+#: wlhosted/integrations/templates/hosted/create.html:48
 msgid "Selected plan"
 msgstr "Valgte plan"
 
-#: wlhosted/integrations/templates/hosted/create.html:51
+#: wlhosted/integrations/templates/hosted/create.html:50
 msgid "Current plan"
 msgstr "Nuværende plan"
 
@@ -88,42 +100,42 @@ msgstr "Nuværende plan"
 msgid "Hosted strings limit"
 msgstr "Grænse for hostede strenge"
 
-#: wlhosted/integrations/templates/hosted/create.html:57
-#: wlhosted/integrations/templates/hosted/create.html:60
-#: wlhosted/integrations/templates/hosted/create.html:63
-#: wlhosted/integrations/templates/hosted/create.html:66
+#: wlhosted/integrations/templates/hosted/create.html:61
+#: wlhosted/integrations/templates/hosted/create.html:71
+#: wlhosted/integrations/templates/hosted/create.html:81
+#: wlhosted/integrations/templates/hosted/create.html:91
 msgid "Unlimited"
 msgstr "Ubegrænset"
 
-#: wlhosted/integrations/templates/hosted/create.html:59
+#: wlhosted/integrations/templates/hosted/create.html:66
 msgid "Source strings limit"
 msgstr "Grænse for kildestrenge"
 
-#: wlhosted/integrations/templates/hosted/create.html:62
+#: wlhosted/integrations/templates/hosted/create.html:76
 msgid "Languages limit"
 msgstr "Grænse for sprog"
 
-#: wlhosted/integrations/templates/hosted/create.html:65
+#: wlhosted/integrations/templates/hosted/create.html:86
 msgid "Projects limit"
 msgstr "Projektgrænse"
 
-#: wlhosted/integrations/templates/hosted/create.html:78
+#: wlhosted/integrations/templates/hosted/create.html:107
 #, python-format
 msgid "%(price)s EUR / month"
 msgstr "%(price)s EUR / måned"
 
-#: wlhosted/integrations/templates/hosted/create.html:79
-#: wlhosted/integrations/templates/hosted/create.html:85
+#: wlhosted/integrations/templates/hosted/create.html:109
+#: wlhosted/integrations/templates/hosted/create.html:120
 #, python-format
 msgid "%(price)s EUR including VAT"
 msgstr "%(price)s EUR inkl. moms"
 
-#: wlhosted/integrations/templates/hosted/create.html:84
+#: wlhosted/integrations/templates/hosted/create.html:118
 #, python-format
 msgid "%(price)s EUR / year"
 msgstr "%(price)s EUR / år"
 
-#: wlhosted/integrations/templates/hosted/create.html:96
+#: wlhosted/integrations/templates/hosted/create.html:131
 msgid ""
 "Pricing is based on the number of source strings and target languages. The "
 "source string is a text unit defined in a translation format, it can be a "
@@ -133,11 +145,11 @@ msgstr ""
 "er en tekstenhed defineret i et oversættelsesformat; det kan være et ord, en "
 "sætning eller et paragraf."
 
-#: wlhosted/integrations/templates/hosted/create.html:99
+#: wlhosted/integrations/templates/hosted/create.html:134
 msgid "All listed prices exclude VAT."
 msgstr "Alle viste priser er ekskl. moms."
 
-#: wlhosted/integrations/templates/hosted/create.html:100
+#: wlhosted/integrations/templates/hosted/create.html:135
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
@@ -145,7 +157,7 @@ msgstr ""
 "Slutbrugere i EU og tjekkiske virksomheder bliver opkrævet yderligere 21%% "
 "moms."
 
-#: wlhosted/integrations/templates/hosted/create.html:101
+#: wlhosted/integrations/templates/hosted/create.html:136
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
@@ -160,7 +172,7 @@ msgstr "Tak for betalingen; din faktura er nu betalt."
 msgid "This billing plan covers following projects:"
 msgstr "Betalingsplanen dækker følgende projekter:"
 
-#: wlhosted/integrations/templates/mail/billing_paid.html:17
+#: wlhosted/integrations/templates/mail/billing_paid.html:19
 msgid "Check your billing status"
 msgstr "Tjek din faktureringsstatus"
 
@@ -168,15 +180,15 @@ msgstr "Tjek din faktureringsstatus"
 msgid "Your billing plan was paid"
 msgstr "Din betalingsplan blev betalt"
 
-#: wlhosted/integrations/views.py:67
+#: wlhosted/integrations/views.py:74
 msgid "No matching payment found."
 msgstr "Ingen matchende betaling fundet."
 
-#: wlhosted/integrations/views.py:75
+#: wlhosted/integrations/views.py:82
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr "Tak for købet af en hostingplan; den er nu aktiv."
 
-#: wlhosted/integrations/views.py:83
+#: wlhosted/integrations/views.py:90
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
@@ -184,115 +196,115 @@ msgstr ""
 "Tak for købet af en hostingplan; betalingen er afventende og bliver "
 "behandlet i baggrunden."
 
-#: wlhosted/integrations/views.py:95
+#: wlhosted/integrations/views.py:102
 msgid "The payment was rejected: {}"
 msgstr "Betalingen blev afvist: {}"
 
-#: wlhosted/integrations/views.py:96
+#: wlhosted/integrations/views.py:103
 msgid "Unknown reason"
 msgstr "Ukendt årsag"
 
-#: wlhosted/integrations/views.py:112
+#: wlhosted/integrations/views.py:119
 msgid "Payments are temporarily inactive."
 msgstr "Betalinger er midlertidigt inaktive."
 
-#: wlhosted/payments/backends.py:156
+#: wlhosted/payments/backends.py:160
 msgid "IBAN bank transfer"
 msgstr "IBAN-bankoverførsel"
 
-#: wlhosted/payments/backends.py:164
+#: wlhosted/payments/backends.py:168
 msgid "Payment card"
 msgstr "Betalingskort"
 
-#: wlhosted/payments/models.py:87
+#: wlhosted/payments/models.py:91
 msgid "European VAT ID"
 msgstr "Europæisk momsnummer"
 
-#: wlhosted/payments/models.py:89
+#: wlhosted/payments/models.py:93
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "Udfyld venligst momsnummer for EU. Lad det stå tomt, hvis det ikke er "
 "relevant."
 
-#: wlhosted/payments/models.py:95
+#: wlhosted/payments/models.py:99
 msgid "Tax registration"
 msgstr "Skatteregistrering"
 
-#: wlhosted/payments/models.py:97
+#: wlhosted/payments/models.py:101
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
 "Udfyld venligst din skatteregistrering, hvis den skal vises på fakturaen."
 
-#: wlhosted/payments/models.py:103
+#: wlhosted/payments/models.py:107
 msgid "Company or individual name"
 msgstr "Virksomheds- eller personnavn"
 
-#: wlhosted/payments/models.py:108
+#: wlhosted/payments/models.py:112
 msgid "Address"
 msgstr "Adresse"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:117
 msgid "Additional address information"
 msgstr "Yderligere adresseoplysninger"
 
-#: wlhosted/payments/models.py:119
+#: wlhosted/payments/models.py:123
 msgid "Postcode and city"
 msgstr "Postnummer og by"
 
-#: wlhosted/payments/models.py:124
+#: wlhosted/payments/models.py:128
 msgid "Postcode"
 msgstr "Postnummer"
 
-#: wlhosted/payments/models.py:128
+#: wlhosted/payments/models.py:132
 msgid "Country"
 msgstr "Land"
 
-#: wlhosted/payments/models.py:165
+#: wlhosted/payments/models.py:178
 msgid "The country has to match your VAT code"
 msgstr "Landet skal matche din momskode"
 
-#: wlhosted/payments/models.py:188
+#: wlhosted/payments/models.py:201
 msgid "Annual"
 msgstr "Årlig"
 
-#: wlhosted/payments/models.py:189
+#: wlhosted/payments/models.py:202
 msgid "Biannual"
 msgstr "Halvårlig"
 
-#: wlhosted/payments/models.py:190
+#: wlhosted/payments/models.py:203
 msgid "Quarterly"
 msgstr "Kvartalsvis"
 
-#: wlhosted/payments/models.py:191
+#: wlhosted/payments/models.py:204
 msgid "Monthly"
 msgstr "Månedlig"
 
-#: wlhosted/payments/models.py:192
+#: wlhosted/payments/models.py:205
 msgid "One-time"
 msgstr "Engangs"
 
-#: wlhosted/payments/models.py:226
+#: wlhosted/payments/models.py:239
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Ny betaling"
 
-#: wlhosted/payments/models.py:227
+#: wlhosted/payments/models.py:240
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Afventer betaling"
 
-#: wlhosted/payments/models.py:228
+#: wlhosted/payments/models.py:241
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Betaling afvist"
 
-#: wlhosted/payments/models.py:229
+#: wlhosted/payments/models.py:242
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Betaling accepteret"
 
-#: wlhosted/payments/models.py:230
+#: wlhosted/payments/models.py:243
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Betaling behandlet"

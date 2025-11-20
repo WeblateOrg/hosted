@@ -8,11 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2025-02-21 09:56+0000\n"
+"POT-Creation-Date: 2025-11-20 14:14+0000\n"
 "PO-Revision-Date: 2025-02-21 11:52+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Tamil <https://hosted.weblate.org/projects/weblate/hosted/ta/>"
-"\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/weblate/hosted/ta/"
+">\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,32 +20,44 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.10.1-dev\n"
 
-#: wlhosted/addons.py:44 wlhosted/addons.py:45
+#: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
 msgstr "அறியப்படாத ஒரைசன்ச் காட்சித் தரவை உருவாக்கவும்"
 
-#: wlhosted/addons.py:67
+#: wlhosted/addons.py:63
 msgid "Reset repository to upstream"
 msgstr "களஞ்சியத்தை மேலோடைக்கு மீட்டமைக்கவும்"
 
-#: wlhosted/addons.py:68
+#: wlhosted/addons.py:64
 msgid "Discards all changes in the Weblate repository each night."
 msgstr ""
 "ஒவ்வொரு இரவும் வலைபெயர்ப்பு களஞ்சியத்தில் உள்ள அனைத்து மாற்றங்களையும் நிராகரிக்கிறது."
 
-#: wlhosted/integrations/forms.py:37
+#: wlhosted/integrations/forms.py:38
 msgid "Billing"
 msgstr "பட்டியலிடல்"
 
-#: wlhosted/integrations/forms.py:38
+#: wlhosted/integrations/forms.py:39
 msgid "Choose the billing plan you want to update"
 msgstr "நீங்கள் புதுப்பிக்க விரும்பும் பட்டியலிடல் திட்டத்தைத் தேர்வுசெய்க"
 
-#: wlhosted/integrations/forms.py:39
+#: wlhosted/integrations/forms.py:40
 msgid "Create new billing plan"
 msgstr "புதிய பட்டியலிடல் திட்டத்தை உருவாக்கவும்"
 
-#: wlhosted/integrations/templates/hosted/create.html:8
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
+msgid "Sign in here to access our services:"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
+msgid "Weblate customer care portal"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
+msgid "Weblate commercial services management"
+msgstr ""
+
+#: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
 msgstr "பட்டியலிடல் திட்டத்தை உருவாக்கவும்"
 
@@ -53,27 +65,27 @@ msgstr "பட்டியலிடல் திட்டத்தை உரு�
 msgid "New billing plan"
 msgstr "புதிய பட்டியலிடல் திட்டம்"
 
-#: wlhosted/integrations/templates/hosted/create.html:20
+#: wlhosted/integrations/templates/hosted/create.html:19
 msgid "Please choose a hosting plan that fits the size of your project."
 msgstr "உங்கள் திட்டத்தின் அளவிற்கு பொருந்தக்கூடிய புரவலன் திட்டத்தைத் தேர்வுசெய்க."
 
-#: wlhosted/integrations/templates/hosted/create.html:26
+#: wlhosted/integrations/templates/hosted/create.html:24
 msgid "Current billing status"
 msgstr "தற்போதைய பட்டியலிடல் நிலை"
 
-#: wlhosted/integrations/templates/hosted/create.html:47
+#: wlhosted/integrations/templates/hosted/create.html:46
 msgid "Too small for your project."
 msgstr "உங்கள் திட்டத்திற்கு மிகச் சிறியது."
 
-#: wlhosted/integrations/templates/hosted/create.html:47
+#: wlhosted/integrations/templates/hosted/create.html:46
 msgid "Too small"
 msgstr "மிக சிறிய"
 
-#: wlhosted/integrations/templates/hosted/create.html:49
+#: wlhosted/integrations/templates/hosted/create.html:48
 msgid "Selected plan"
 msgstr "தேர்ந்தெடுக்கப்பட்ட திட்டம்"
 
-#: wlhosted/integrations/templates/hosted/create.html:51
+#: wlhosted/integrations/templates/hosted/create.html:50
 msgid "Current plan"
 msgstr "தற்போதைய திட்டம்"
 
@@ -81,42 +93,42 @@ msgstr "தற்போதைய திட்டம்"
 msgid "Hosted strings limit"
 msgstr "புரவலன் சரம் வரம்பு"
 
-#: wlhosted/integrations/templates/hosted/create.html:57
-#: wlhosted/integrations/templates/hosted/create.html:60
-#: wlhosted/integrations/templates/hosted/create.html:63
-#: wlhosted/integrations/templates/hosted/create.html:66
+#: wlhosted/integrations/templates/hosted/create.html:61
+#: wlhosted/integrations/templates/hosted/create.html:71
+#: wlhosted/integrations/templates/hosted/create.html:81
+#: wlhosted/integrations/templates/hosted/create.html:91
 msgid "Unlimited"
 msgstr "வரம்பற்றது"
 
-#: wlhosted/integrations/templates/hosted/create.html:59
+#: wlhosted/integrations/templates/hosted/create.html:66
 msgid "Source strings limit"
 msgstr "மூல சரம் வரம்பு"
 
-#: wlhosted/integrations/templates/hosted/create.html:62
+#: wlhosted/integrations/templates/hosted/create.html:76
 msgid "Languages limit"
 msgstr "மொழிகளின் வரம்பு"
 
-#: wlhosted/integrations/templates/hosted/create.html:65
+#: wlhosted/integrations/templates/hosted/create.html:86
 msgid "Projects limit"
 msgstr "திட்ட வரம்பு"
 
-#: wlhosted/integrations/templates/hosted/create.html:78
+#: wlhosted/integrations/templates/hosted/create.html:107
 #, python-format
 msgid "%(price)s EUR / month"
 msgstr "%(price)s யூரோ / மாதம்"
 
-#: wlhosted/integrations/templates/hosted/create.html:79
-#: wlhosted/integrations/templates/hosted/create.html:85
+#: wlhosted/integrations/templates/hosted/create.html:109
+#: wlhosted/integrations/templates/hosted/create.html:120
 #, python-format
 msgid "%(price)s EUR including VAT"
 msgstr "மதிப்புகூடுதல்வரி உட்பட %(price)s யூரோ"
 
-#: wlhosted/integrations/templates/hosted/create.html:84
+#: wlhosted/integrations/templates/hosted/create.html:118
 #, python-format
 msgid "%(price)s EUR / year"
 msgstr "%(price)s யூரோ / ஆண்டு"
 
-#: wlhosted/integrations/templates/hosted/create.html:96
+#: wlhosted/integrations/templates/hosted/create.html:131
 msgid ""
 "Pricing is based on the number of source strings and target languages. The "
 "source string is a text unit defined in a translation format, it can be a "
@@ -126,11 +138,11 @@ msgstr ""
 "என்பது மொழிபெயர்ப்பு வடிவத்தில் வரையறுக்கப்பட்ட உரை அலகு ஆகும், இது ஒரு சொல், வாக்கியம் "
 "அல்லது பத்தி இருக்கலாம்."
 
-#: wlhosted/integrations/templates/hosted/create.html:99
+#: wlhosted/integrations/templates/hosted/create.html:134
 msgid "All listed prices exclude VAT."
 msgstr "பட்டியலிடப்பட்ட அனைத்து விலைகளும் மதிப்புகூடுதல்வரி விலக்குகின்றன."
 
-#: wlhosted/integrations/templates/hosted/create.html:100
+#: wlhosted/integrations/templates/hosted/create.html:135
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
@@ -138,7 +150,7 @@ msgstr ""
 "ஐரோப்பிய ஒன்றிய இறுதி பயனர்கள் மற்றும் செக் நிறுவனங்கள் கூடுதல் 21%% மதிப்புகூடுதல்வரி "
 "உடன் வசூலிக்கப்படும்."
 
-#: wlhosted/integrations/templates/hosted/create.html:101
+#: wlhosted/integrations/templates/hosted/create.html:136
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
@@ -153,7 +165,7 @@ msgstr "கட்டணத்திற்கு நன்றி, உங்கள
 msgid "This billing plan covers following projects:"
 msgstr "இந்த பட்டியலிடல் திட்டம் பின்வரும் திட்டங்களை உள்ளடக்கியது:"
 
-#: wlhosted/integrations/templates/mail/billing_paid.html:17
+#: wlhosted/integrations/templates/mail/billing_paid.html:19
 msgid "Check your billing status"
 msgstr "உங்கள் பட்டியலிடல் நிலையை சரிபார்க்கவும்"
 
@@ -161,15 +173,15 @@ msgstr "உங்கள் பட்டியலிடல் நிலையை 
 msgid "Your billing plan was paid"
 msgstr "உங்கள் பட்டியலிடல் திட்டம் செலுத்தப்பட்டது"
 
-#: wlhosted/integrations/views.py:67
+#: wlhosted/integrations/views.py:74
 msgid "No matching payment found."
 msgstr "பொருந்தக்கூடிய கட்டணம் எதுவும் கிடைக்கவில்லை."
 
-#: wlhosted/integrations/views.py:75
+#: wlhosted/integrations/views.py:82
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr "புரவலன் திட்டத்தை வாங்கியதற்கு நன்றி, அது இப்போது செயலில் உள்ளது."
 
-#: wlhosted/integrations/views.py:83
+#: wlhosted/integrations/views.py:90
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
@@ -177,114 +189,114 @@ msgstr ""
 "புரவலன் திட்டத்தை வாங்கியதற்கு நன்றி, அதற்கான கட்டணம் நிலுவையில் உள்ளது மற்றும் பின்னணியில் "
 "செயலாக்கப்படும்."
 
-#: wlhosted/integrations/views.py:95
+#: wlhosted/integrations/views.py:102
 msgid "The payment was rejected: {}"
 msgstr "கட்டணம் நிராகரிக்கப்பட்டது: {}"
 
-#: wlhosted/integrations/views.py:96
+#: wlhosted/integrations/views.py:103
 msgid "Unknown reason"
 msgstr "தெரியாத காரணம்"
 
-#: wlhosted/integrations/views.py:112
+#: wlhosted/integrations/views.py:119
 msgid "Payments are temporarily inactive."
 msgstr "கொடுப்பனவுகள் தற்காலிகமாக செயலற்றவை."
 
-#: wlhosted/payments/backends.py:156
+#: wlhosted/payments/backends.py:160
 msgid "IBAN bank transfer"
 msgstr "இபான் வங்கி பரிமாற்றம்"
 
-#: wlhosted/payments/backends.py:164
+#: wlhosted/payments/backends.py:168
 msgid "Payment card"
 msgstr "கட்டண அட்டை"
 
-#: wlhosted/payments/models.py:87
+#: wlhosted/payments/models.py:91
 msgid "European VAT ID"
 msgstr "ஐரோப்பிய மதிப்புகூடுதல்வரி அடையாளம்"
 
-#: wlhosted/payments/models.py:89
+#: wlhosted/payments/models.py:93
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "தயவுசெய்து ஐரோப்பிய ஒன்றிய மதிப்புகூடுதல்வரி அடையாளம்யை நிரப்பவும், பொருந்தவில்லை "
 "என்றால் காலியாக விடவும்."
 
-#: wlhosted/payments/models.py:95
+#: wlhosted/payments/models.py:99
 msgid "Tax registration"
 msgstr "வரி பதிவு"
 
-#: wlhosted/payments/models.py:97
+#: wlhosted/payments/models.py:101
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "உங்கள் வரி பதிவு விலைப்பட்டியலில் தோன்றினால் அதை நிரப்பவும்."
 
-#: wlhosted/payments/models.py:103
+#: wlhosted/payments/models.py:107
 msgid "Company or individual name"
 msgstr "நிறுவனம் அல்லது தனிப்பட்ட பெயர்"
 
-#: wlhosted/payments/models.py:108
+#: wlhosted/payments/models.py:112
 msgid "Address"
 msgstr "முகவரி"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:117
 msgid "Additional address information"
 msgstr "பட்டியலிடல் செய்தி"
 
-#: wlhosted/payments/models.py:119
+#: wlhosted/payments/models.py:123
 msgid "Postcode and city"
 msgstr "அஞ்சல் குறியீடு மற்றும் நகரம்"
 
-#: wlhosted/payments/models.py:124
+#: wlhosted/payments/models.py:128
 msgid "Postcode"
 msgstr "அஞ்சல் குறியீடு மற்றும் நகரம்"
 
-#: wlhosted/payments/models.py:128
+#: wlhosted/payments/models.py:132
 msgid "Country"
 msgstr "நாடு"
 
-#: wlhosted/payments/models.py:165
+#: wlhosted/payments/models.py:178
 msgid "The country has to match your VAT code"
 msgstr "உங்கள் மதிப்புகூடுதல்வரி குறியீட்டை நாடு பொருத்த வேண்டும்"
 
-#: wlhosted/payments/models.py:188
+#: wlhosted/payments/models.py:201
 msgid "Annual"
 msgstr "ஆண்டு"
 
-#: wlhosted/payments/models.py:189
+#: wlhosted/payments/models.py:202
 msgid "Biannual"
 msgstr "இருண்ட"
 
-#: wlhosted/payments/models.py:190
+#: wlhosted/payments/models.py:203
 msgid "Quarterly"
 msgstr "காலாண்டு"
 
-#: wlhosted/payments/models.py:191
+#: wlhosted/payments/models.py:204
 msgid "Monthly"
 msgstr "மாதாந்திர"
 
-#: wlhosted/payments/models.py:192
+#: wlhosted/payments/models.py:205
 msgid "One-time"
 msgstr "ஒரு முறை"
 
-#: wlhosted/payments/models.py:226
+#: wlhosted/payments/models.py:239
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "புதிய கட்டணம்"
 
-#: wlhosted/payments/models.py:227
+#: wlhosted/payments/models.py:240
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "கட்டணம் காத்திருக்கிறது"
 
-#: wlhosted/payments/models.py:228
+#: wlhosted/payments/models.py:241
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "கட்டணம் நிராகரிக்கப்பட்டது"
 
-#: wlhosted/payments/models.py:229
+#: wlhosted/payments/models.py:242
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "கட்டணம் ஏற்றுக்கொள்ளப்பட்டது"
 
-#: wlhosted/payments/models.py:230
+#: wlhosted/payments/models.py:243
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "கட்டண செயலாக்கப்பட்டது"

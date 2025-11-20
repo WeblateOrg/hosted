@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2025-02-21 09:56+0000\n"
+"POT-Creation-Date: 2025-11-20 14:14+0000\n"
 "PO-Revision-Date: 2025-05-02 02:39+0000\n"
 "Last-Translator: abdelbasset jabrane <ribago9317@cubene.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/weblate/hosted/ar/"
@@ -30,31 +30,43 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Weblate 5.12-dev\n"
 
-#: wlhosted/addons.py:44 wlhosted/addons.py:45
+#: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
 msgstr "إنشاء بيانات سيناريو Unknown Horizons"
 
-#: wlhosted/addons.py:67
+#: wlhosted/addons.py:63
 msgid "Reset repository to upstream"
 msgstr "إعادة تعيين المستودع إلى المنبع"
 
-#: wlhosted/addons.py:68
+#: wlhosted/addons.py:64
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "يتجاهل جميع التغييرات في مستودع Weblate كل ليلة."
 
-#: wlhosted/integrations/forms.py:37
+#: wlhosted/integrations/forms.py:38
 msgid "Billing"
 msgstr "الفَوترة"
 
-#: wlhosted/integrations/forms.py:38
+#: wlhosted/integrations/forms.py:39
 msgid "Choose the billing plan you want to update"
 msgstr "اختر خطة الفوترة التي تريد تحديثها"
 
-#: wlhosted/integrations/forms.py:39
+#: wlhosted/integrations/forms.py:40
 msgid "Create new billing plan"
 msgstr "إنشاء خطة فوترة جديدة"
 
-#: wlhosted/integrations/templates/hosted/create.html:8
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
+msgid "Sign in here to access our services:"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
+msgid "Weblate customer care portal"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
+msgid "Weblate commercial services management"
+msgstr ""
+
+#: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
 msgstr "إنشاء خطة الفوترة"
 
@@ -62,27 +74,27 @@ msgstr "إنشاء خطة الفوترة"
 msgid "New billing plan"
 msgstr "خطة فوترة جديدة"
 
-#: wlhosted/integrations/templates/hosted/create.html:20
+#: wlhosted/integrations/templates/hosted/create.html:19
 msgid "Please choose a hosting plan that fits the size of your project."
 msgstr "الرجاء اختيار خطة الاستضافة التي تناسب حجم مشروعك."
 
-#: wlhosted/integrations/templates/hosted/create.html:26
+#: wlhosted/integrations/templates/hosted/create.html:24
 msgid "Current billing status"
 msgstr "حالة الفوترة الحالية"
 
-#: wlhosted/integrations/templates/hosted/create.html:47
+#: wlhosted/integrations/templates/hosted/create.html:46
 msgid "Too small for your project."
 msgstr "صغير جدا بالنسبة لمشروعكم."
 
-#: wlhosted/integrations/templates/hosted/create.html:47
+#: wlhosted/integrations/templates/hosted/create.html:46
 msgid "Too small"
 msgstr "صغير جدا"
 
-#: wlhosted/integrations/templates/hosted/create.html:49
+#: wlhosted/integrations/templates/hosted/create.html:48
 msgid "Selected plan"
 msgstr "الخطة المختارة"
 
-#: wlhosted/integrations/templates/hosted/create.html:51
+#: wlhosted/integrations/templates/hosted/create.html:50
 msgid "Current plan"
 msgstr "الخطة الحالية"
 
@@ -90,42 +102,42 @@ msgstr "الخطة الحالية"
 msgid "Hosted strings limit"
 msgstr "حد السلاسل المُستضافة"
 
-#: wlhosted/integrations/templates/hosted/create.html:57
-#: wlhosted/integrations/templates/hosted/create.html:60
-#: wlhosted/integrations/templates/hosted/create.html:63
-#: wlhosted/integrations/templates/hosted/create.html:66
+#: wlhosted/integrations/templates/hosted/create.html:61
+#: wlhosted/integrations/templates/hosted/create.html:71
+#: wlhosted/integrations/templates/hosted/create.html:81
+#: wlhosted/integrations/templates/hosted/create.html:91
 msgid "Unlimited"
 msgstr "غير محدود"
 
-#: wlhosted/integrations/templates/hosted/create.html:59
+#: wlhosted/integrations/templates/hosted/create.html:66
 msgid "Source strings limit"
 msgstr "حد سلاسل المصدر"
 
-#: wlhosted/integrations/templates/hosted/create.html:62
+#: wlhosted/integrations/templates/hosted/create.html:76
 msgid "Languages limit"
 msgstr "حد اللغات"
 
-#: wlhosted/integrations/templates/hosted/create.html:65
+#: wlhosted/integrations/templates/hosted/create.html:86
 msgid "Projects limit"
 msgstr "حد المشاريع"
 
-#: wlhosted/integrations/templates/hosted/create.html:78
+#: wlhosted/integrations/templates/hosted/create.html:107
 #, python-format
 msgid "%(price)s EUR / month"
 msgstr "%(price)s يورو / شهر"
 
-#: wlhosted/integrations/templates/hosted/create.html:79
-#: wlhosted/integrations/templates/hosted/create.html:85
+#: wlhosted/integrations/templates/hosted/create.html:109
+#: wlhosted/integrations/templates/hosted/create.html:120
 #, python-format
 msgid "%(price)s EUR including VAT"
 msgstr "%(price)s يورو بما في ذلك ضريبة القيمة المضافة"
 
-#: wlhosted/integrations/templates/hosted/create.html:84
+#: wlhosted/integrations/templates/hosted/create.html:118
 #, python-format
 msgid "%(price)s EUR / year"
 msgstr "%(price)s يورو / سنة"
 
-#: wlhosted/integrations/templates/hosted/create.html:96
+#: wlhosted/integrations/templates/hosted/create.html:131
 msgid ""
 "Pricing is based on the number of source strings and target languages. The "
 "source string is a text unit defined in a translation format, it can be a "
@@ -134,11 +146,11 @@ msgstr ""
 "يعتمد التسعير على عدد كلمات المصدر واللغات المستهدفة. كلمات المصدر هي وحدة "
 "كتابية محددة في صيغة الترجمة، يمكن أن تكون كلمة أو جملة أو فقرة."
 
-#: wlhosted/integrations/templates/hosted/create.html:99
+#: wlhosted/integrations/templates/hosted/create.html:134
 msgid "All listed prices exclude VAT."
 msgstr "جميع الأسعار المدرجة لا تشمل ضريبة القيمة المضافة."
 
-#: wlhosted/integrations/templates/hosted/create.html:100
+#: wlhosted/integrations/templates/hosted/create.html:135
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
@@ -146,7 +158,7 @@ msgstr ""
 "سيتم فرض رسوم إضافية على ضريبة القيمة المضافة بنسبة 21%% على المستخدمين "
 "النهائيين في الاتحاد الأوروبي والشركات التشيكية."
 
-#: wlhosted/integrations/templates/hosted/create.html:101
+#: wlhosted/integrations/templates/hosted/create.html:136
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr "ينطبق الرسم العكسي على الفواتير الصادرة للشركات داخل الاتحاد الأوروبي."
@@ -159,7 +171,7 @@ msgstr "شكرا لك على الدفع ، تم دفع الفواتير الخا
 msgid "This billing plan covers following projects:"
 msgstr "تغطي خطة الفوترة هذه المشاريع التالية:"
 
-#: wlhosted/integrations/templates/mail/billing_paid.html:17
+#: wlhosted/integrations/templates/mail/billing_paid.html:19
 msgid "Check your billing status"
 msgstr "تحقق من حالة الفاتورة"
 
@@ -167,15 +179,15 @@ msgstr "تحقق من حالة الفاتورة"
 msgid "Your billing plan was paid"
 msgstr "تم دفع خطة الفوترة الخاصة بك"
 
-#: wlhosted/integrations/views.py:67
+#: wlhosted/integrations/views.py:74
 msgid "No matching payment found."
 msgstr "لم أجد دفعا مطابقا."
 
-#: wlhosted/integrations/views.py:75
+#: wlhosted/integrations/views.py:82
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr "شكرا لكم على شراء خطة الاستضافة، هي الآن نشطة."
 
-#: wlhosted/integrations/views.py:83
+#: wlhosted/integrations/views.py:90
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
@@ -183,114 +195,114 @@ msgstr ""
 "شكرا لكم على شراء خطة الاستضافة، وعملية الدفع هي قيد الانتظار وستُعالج في "
 "الخلفية."
 
-#: wlhosted/integrations/views.py:95
+#: wlhosted/integrations/views.py:102
 msgid "The payment was rejected: {}"
 msgstr "رُفض الدفع: {}"
 
-#: wlhosted/integrations/views.py:96
+#: wlhosted/integrations/views.py:103
 msgid "Unknown reason"
 msgstr "سبب مجهول"
 
-#: wlhosted/integrations/views.py:112
+#: wlhosted/integrations/views.py:119
 msgid "Payments are temporarily inactive."
 msgstr "لقد تم تعطيل الدفع مؤقتا."
 
-#: wlhosted/payments/backends.py:156
+#: wlhosted/payments/backends.py:160
 msgid "IBAN bank transfer"
 msgstr "التحويل المصرفي IBAN"
 
-#: wlhosted/payments/backends.py:164
+#: wlhosted/payments/backends.py:168
 msgid "Payment card"
 msgstr "بطاقة الدفع"
 
-#: wlhosted/payments/models.py:87
+#: wlhosted/payments/models.py:91
 msgid "European VAT ID"
 msgstr "معرف ضريبة القيمة المضافة الأوروبية"
 
-#: wlhosted/payments/models.py:89
+#: wlhosted/payments/models.py:93
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "يرجى ملء معرف ضريبة القيمة المضافة في الاتحاد الأوروبي ، واتركه فارغا إذا لم "
 "يكن قابلا للتطبيق."
 
-#: wlhosted/payments/models.py:95
+#: wlhosted/payments/models.py:99
 msgid "Tax registration"
 msgstr "التسجيل الضريبي"
 
-#: wlhosted/payments/models.py:97
+#: wlhosted/payments/models.py:101
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "يرجى ملء التسجيل الضريبي الخاص بك إذا كان يجب أن يظهر على الفاتورة."
 
-#: wlhosted/payments/models.py:103
+#: wlhosted/payments/models.py:107
 msgid "Company or individual name"
 msgstr "اسم الشركة أو اسم الفرد"
 
-#: wlhosted/payments/models.py:108
+#: wlhosted/payments/models.py:112
 msgid "Address"
 msgstr "العنوان البريدي"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:117
 msgid "Additional address information"
 msgstr "معلومات إضافية عن العنوان"
 
-#: wlhosted/payments/models.py:119
+#: wlhosted/payments/models.py:123
 msgid "Postcode and city"
 msgstr "الرمز البريدي و المدينة"
 
-#: wlhosted/payments/models.py:124
+#: wlhosted/payments/models.py:128
 msgid "Postcode"
 msgstr "الرمز البريدي"
 
-#: wlhosted/payments/models.py:128
+#: wlhosted/payments/models.py:132
 msgid "Country"
 msgstr "البلد"
 
-#: wlhosted/payments/models.py:165
+#: wlhosted/payments/models.py:178
 msgid "The country has to match your VAT code"
 msgstr "على البلد ان يطابق رمز ضريبة القيمة المضافة"
 
-#: wlhosted/payments/models.py:188
+#: wlhosted/payments/models.py:201
 msgid "Annual"
 msgstr "سنوي"
 
-#: wlhosted/payments/models.py:189
+#: wlhosted/payments/models.py:202
 msgid "Biannual"
 msgstr "نصف سنوي"
 
-#: wlhosted/payments/models.py:190
+#: wlhosted/payments/models.py:203
 msgid "Quarterly"
 msgstr "فصليا"
 
-#: wlhosted/payments/models.py:191
+#: wlhosted/payments/models.py:204
 msgid "Monthly"
 msgstr "شهرياً"
 
-#: wlhosted/payments/models.py:192
+#: wlhosted/payments/models.py:205
 msgid "One-time"
 msgstr "مرة واحدة"
 
-#: wlhosted/payments/models.py:226
+#: wlhosted/payments/models.py:239
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "دفعة جديدة"
 
-#: wlhosted/payments/models.py:227
+#: wlhosted/payments/models.py:240
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "في انتظار الدفع"
 
-#: wlhosted/payments/models.py:228
+#: wlhosted/payments/models.py:241
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "تم رفض الدفع"
 
-#: wlhosted/payments/models.py:229
+#: wlhosted/payments/models.py:242
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "الدفع مقبول"
 
-#: wlhosted/payments/models.py:230
+#: wlhosted/payments/models.py:243
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "تمت معالجة الدفع"
@@ -418,11 +430,11 @@ msgstr "{} ليس معرف ضريبة قيمة مضافة صالحا."
 #~ msgstr "%(provider)s، رقم التسجيل %(reg_no)s"
 
 #~ msgid ""
-#~ "Weblate has appointed a data protection officer who may be reached via "
-#~ "%(privacy_contact)s."
+#~ "Weblate has appointed a data protection officer who may be reached via %"
+#~ "(privacy_contact)s."
 #~ msgstr ""
-#~ "لقد قامت Weblate بتعيين ضابط حماية للبيانات ويمكنم الاتصال به عن طريق "
-#~ "%(privacy_contact)s."
+#~ "لقد قامت Weblate بتعيين ضابط حماية للبيانات ويمكنم الاتصال به عن طريق %"
+#~ "(privacy_contact)s."
 
 #~ msgid "Personal Data processed by Weblate"
 #~ msgstr "البيانات الشخصية التي تقوم بمعالجتها ويب لايت"

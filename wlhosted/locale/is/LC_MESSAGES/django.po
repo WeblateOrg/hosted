@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2025-02-21 09:56+0000\n"
+"POT-Creation-Date: 2025-11-20 14:14+0000\n"
 "PO-Revision-Date: 2025-02-21 11:52+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Icelandic <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -20,31 +20,43 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n % 10 != 1 || n % 100 == 11;\n"
 "X-Generator: Weblate 5.10.1-dev\n"
 
-#: wlhosted/addons.py:44 wlhosted/addons.py:45
+#: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
 msgstr "Búðu til sviðsetningargögn fyrir Unknown Horizons"
 
-#: wlhosted/addons.py:67
+#: wlhosted/addons.py:63
 msgid "Reset repository to upstream"
 msgstr "Frumstilla gagnageymslu til samræmis við aðalsafn"
 
-#: wlhosted/addons.py:68
+#: wlhosted/addons.py:64
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "Eyðir öllum breytingum í Weblate-gagnasafninu á hverri nóttu."
 
-#: wlhosted/integrations/forms.py:37
+#: wlhosted/integrations/forms.py:38
 msgid "Billing"
 msgstr "Greiðslur"
 
-#: wlhosted/integrations/forms.py:38
+#: wlhosted/integrations/forms.py:39
 msgid "Choose the billing plan you want to update"
 msgstr "Veldu greiðsluáætlunina sem þú vilt uppfæra"
 
-#: wlhosted/integrations/forms.py:39
+#: wlhosted/integrations/forms.py:40
 msgid "Create new billing plan"
 msgstr "Búa til nýja greiðsluáætlun"
 
-#: wlhosted/integrations/templates/hosted/create.html:8
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
+msgid "Sign in here to access our services:"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
+msgid "Weblate customer care portal"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
+msgid "Weblate commercial services management"
+msgstr ""
+
+#: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
 msgstr "Búa til greiðsluáætlun"
 
@@ -52,28 +64,28 @@ msgstr "Búa til greiðsluáætlun"
 msgid "New billing plan"
 msgstr "Ný greiðsluáætlun"
 
-#: wlhosted/integrations/templates/hosted/create.html:20
+#: wlhosted/integrations/templates/hosted/create.html:19
 msgid "Please choose a hosting plan that fits the size of your project."
 msgstr ""
 "Vinsamlegast veldu hýsingaráskriftarleið sem passar við stærð verkefnisins."
 
-#: wlhosted/integrations/templates/hosted/create.html:26
+#: wlhosted/integrations/templates/hosted/create.html:24
 msgid "Current billing status"
 msgstr "Núverandi greiðslustaða"
 
-#: wlhosted/integrations/templates/hosted/create.html:47
+#: wlhosted/integrations/templates/hosted/create.html:46
 msgid "Too small for your project."
 msgstr "Of lítið fyrir verkefnið þitt."
 
-#: wlhosted/integrations/templates/hosted/create.html:47
+#: wlhosted/integrations/templates/hosted/create.html:46
 msgid "Too small"
 msgstr "Of lítið"
 
-#: wlhosted/integrations/templates/hosted/create.html:49
+#: wlhosted/integrations/templates/hosted/create.html:48
 msgid "Selected plan"
 msgstr "Valin áskriftarleið"
 
-#: wlhosted/integrations/templates/hosted/create.html:51
+#: wlhosted/integrations/templates/hosted/create.html:50
 msgid "Current plan"
 msgstr "Núverandi áskriftarleið"
 
@@ -81,42 +93,42 @@ msgstr "Núverandi áskriftarleið"
 msgid "Hosted strings limit"
 msgstr "Takmörk á fjölda strengja í hýsingu"
 
-#: wlhosted/integrations/templates/hosted/create.html:57
-#: wlhosted/integrations/templates/hosted/create.html:60
-#: wlhosted/integrations/templates/hosted/create.html:63
-#: wlhosted/integrations/templates/hosted/create.html:66
+#: wlhosted/integrations/templates/hosted/create.html:61
+#: wlhosted/integrations/templates/hosted/create.html:71
+#: wlhosted/integrations/templates/hosted/create.html:81
+#: wlhosted/integrations/templates/hosted/create.html:91
 msgid "Unlimited"
 msgstr "Ótakmarkað"
 
-#: wlhosted/integrations/templates/hosted/create.html:59
+#: wlhosted/integrations/templates/hosted/create.html:66
 msgid "Source strings limit"
 msgstr "Takmörk á fjölda upprunastrengja"
 
-#: wlhosted/integrations/templates/hosted/create.html:62
+#: wlhosted/integrations/templates/hosted/create.html:76
 msgid "Languages limit"
 msgstr "Takmörk á fjölda tungumála"
 
-#: wlhosted/integrations/templates/hosted/create.html:65
+#: wlhosted/integrations/templates/hosted/create.html:86
 msgid "Projects limit"
 msgstr "Takmörk á fjölda verkefna"
 
-#: wlhosted/integrations/templates/hosted/create.html:78
+#: wlhosted/integrations/templates/hosted/create.html:107
 #, python-format
 msgid "%(price)s EUR / month"
 msgstr "%(price)s EUR / mánuði"
 
-#: wlhosted/integrations/templates/hosted/create.html:79
-#: wlhosted/integrations/templates/hosted/create.html:85
+#: wlhosted/integrations/templates/hosted/create.html:109
+#: wlhosted/integrations/templates/hosted/create.html:120
 #, python-format
 msgid "%(price)s EUR including VAT"
 msgstr "%(price)s EUR með VSK"
 
-#: wlhosted/integrations/templates/hosted/create.html:84
+#: wlhosted/integrations/templates/hosted/create.html:118
 #, python-format
 msgid "%(price)s EUR / year"
 msgstr "%(price)s EUR / ári"
 
-#: wlhosted/integrations/templates/hosted/create.html:96
+#: wlhosted/integrations/templates/hosted/create.html:131
 msgid ""
 "Pricing is based on the number of source strings and target languages. The "
 "source string is a text unit defined in a translation format, it can be a "
@@ -126,11 +138,11 @@ msgstr ""
 "Upprunastrengur er textaeining sem skilgreind er í þýðingarsniði. Það getur "
 "verið orð, setning eða málsgrein."
 
-#: wlhosted/integrations/templates/hosted/create.html:99
+#: wlhosted/integrations/templates/hosted/create.html:134
 msgid "All listed prices exclude VAT."
 msgstr "Öll uppgefin verð eru án virðisaukaskatts."
 
-#: wlhosted/integrations/templates/hosted/create.html:100
+#: wlhosted/integrations/templates/hosted/create.html:135
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
@@ -138,7 +150,7 @@ msgstr ""
 "Notendur í Evrópusambandinu og fyrirtæki í Tékklandi verða rukkuð um auka "
 "21%% virðisaukaskatt."
 
-#: wlhosted/integrations/templates/hosted/create.html:101
+#: wlhosted/integrations/templates/hosted/create.html:136
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
@@ -153,7 +165,7 @@ msgstr "Takk fyrir greiðsluna, reikningurinn þinn er núna greiddur."
 msgid "This billing plan covers following projects:"
 msgstr "Greiðsluáætlunin nær yfir eftirfarandi verkefni:"
 
-#: wlhosted/integrations/templates/mail/billing_paid.html:17
+#: wlhosted/integrations/templates/mail/billing_paid.html:19
 msgid "Check your billing status"
 msgstr "Athugaðu greiðslustöðu þína"
 
@@ -161,15 +173,15 @@ msgstr "Athugaðu greiðslustöðu þína"
 msgid "Your billing plan was paid"
 msgstr "Áskriftin þín var greidd"
 
-#: wlhosted/integrations/views.py:67
+#: wlhosted/integrations/views.py:74
 msgid "No matching payment found."
 msgstr "Engin samsvarandi greiðsla fannst."
 
-#: wlhosted/integrations/views.py:75
+#: wlhosted/integrations/views.py:82
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr "Þakka þér fyrir að kaupa hýsingaráskriftarleið, hún er nú virk."
 
-#: wlhosted/integrations/views.py:83
+#: wlhosted/integrations/views.py:90
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
@@ -177,114 +189,114 @@ msgstr ""
 "Þakka þér fyrir að kaupa hýsingaráskriftarleið, greiðsla fyrir hana er í bið "
 "og mun fara í vinnslu í bakgrunni kerfisins."
 
-#: wlhosted/integrations/views.py:95
+#: wlhosted/integrations/views.py:102
 msgid "The payment was rejected: {}"
 msgstr "Greiðslunni var hafnað: {}"
 
-#: wlhosted/integrations/views.py:96
+#: wlhosted/integrations/views.py:103
 msgid "Unknown reason"
 msgstr "Óþekkt ástæða"
 
-#: wlhosted/integrations/views.py:112
+#: wlhosted/integrations/views.py:119
 msgid "Payments are temporarily inactive."
 msgstr "Greiðslur eru tímabundið óvirkar."
 
-#: wlhosted/payments/backends.py:156
+#: wlhosted/payments/backends.py:160
 msgid "IBAN bank transfer"
 msgstr "IBAN bankamillifærsla"
 
-#: wlhosted/payments/backends.py:164
+#: wlhosted/payments/backends.py:168
 msgid "Payment card"
 msgstr "Greiðslukort"
 
-#: wlhosted/payments/models.py:87
+#: wlhosted/payments/models.py:91
 msgid "European VAT ID"
 msgstr "Evrópskt virðisaukaskattsnúmer"
 
-#: wlhosted/payments/models.py:89
+#: wlhosted/payments/models.py:93
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "Fylltu inn evrópskt virðisaukaskattsnúmer, skildu reitinn eftir auðan ef það "
 "á ekki við."
 
-#: wlhosted/payments/models.py:95
+#: wlhosted/payments/models.py:99
 msgid "Tax registration"
 msgstr "Skattnúmer"
 
-#: wlhosted/payments/models.py:97
+#: wlhosted/payments/models.py:101
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "Fylltu inn skattnúmer þitt ef það á að birtast á reikningnum."
 
-#: wlhosted/payments/models.py:103
+#: wlhosted/payments/models.py:107
 msgid "Company or individual name"
 msgstr "Nafn fyrirtækis eða einstaklings"
 
-#: wlhosted/payments/models.py:108
+#: wlhosted/payments/models.py:112
 msgid "Address"
 msgstr "Heimilisfang"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:117
 msgid "Additional address information"
 msgstr "Viðbótarupplýsingar um heimilisfang"
 
-#: wlhosted/payments/models.py:119
+#: wlhosted/payments/models.py:123
 msgid "Postcode and city"
 msgstr "Póstnúmer og staður"
 
-#: wlhosted/payments/models.py:124
+#: wlhosted/payments/models.py:128
 msgid "Postcode"
 msgstr "Póstnúmer"
 
-#: wlhosted/payments/models.py:128
+#: wlhosted/payments/models.py:132
 msgid "Country"
 msgstr "Land"
 
-#: wlhosted/payments/models.py:165
+#: wlhosted/payments/models.py:178
 msgid "The country has to match your VAT code"
 msgstr "Landið þarf að passa við virðisaukaskattsnúmerið"
 
-#: wlhosted/payments/models.py:188
+#: wlhosted/payments/models.py:201
 msgid "Annual"
 msgstr "Árlegt"
 
-#: wlhosted/payments/models.py:189
+#: wlhosted/payments/models.py:202
 msgid "Biannual"
 msgstr "Á tveggja ára fresti"
 
-#: wlhosted/payments/models.py:190
+#: wlhosted/payments/models.py:203
 msgid "Quarterly"
 msgstr "Ársfjórðungslega"
 
-#: wlhosted/payments/models.py:191
+#: wlhosted/payments/models.py:204
 msgid "Monthly"
 msgstr "Mánaðarlega"
 
-#: wlhosted/payments/models.py:192
+#: wlhosted/payments/models.py:205
 msgid "One-time"
 msgstr "Eitt skipti"
 
-#: wlhosted/payments/models.py:226
+#: wlhosted/payments/models.py:239
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Ný greiðsla"
 
-#: wlhosted/payments/models.py:227
+#: wlhosted/payments/models.py:240
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Bíður greiðslu"
 
-#: wlhosted/payments/models.py:228
+#: wlhosted/payments/models.py:241
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Greiðslu hafnað"
 
-#: wlhosted/payments/models.py:229
+#: wlhosted/payments/models.py:242
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Greiðsla samþykkt"
 
-#: wlhosted/payments/models.py:230
+#: wlhosted/payments/models.py:243
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Greiðsla meðhöndluð"
@@ -422,8 +434,8 @@ msgstr "{} er ekki gilt virðisaukaskattsnúmer."
 #~ msgstr "%(provider)s, skráningarnr. %(reg_no)s"
 
 #~ msgid ""
-#~ "Weblate has appointed a data protection officer who may be reached via "
-#~ "%(privacy_contact)s."
+#~ "Weblate has appointed a data protection officer who may be reached via %"
+#~ "(privacy_contact)s."
 #~ msgstr ""
 #~ "Weblate hefur skipað upplýsingavörð sem hægt er að hafa samband við í "
 #~ "gegn um %(privacy_contact)s."
@@ -491,8 +503,8 @@ msgstr "{} er ekki gilt virðisaukaskattsnúmer."
 #~ "(1) b. í GDPR</a>)"
 
 #~ msgid ""
-#~ "to analyze your use of our services and improve our services (<a "
-#~ "href=\"%(url)s\">Article 6 (1) b. and f. GDPR</a>)"
+#~ "to analyze your use of our services and improve our services (<a href=\"%"
+#~ "(url)s\">Article 6 (1) b. and f. GDPR</a>)"
 #~ msgstr ""
 #~ "til að greina notkun þína á þjónustum okkar og til að bæta þjónustur "
 #~ "okkar (<a href=\"%(url)s\">Grein 6 (1) b. og f. í GDPR</a>)"
@@ -575,8 +587,8 @@ msgstr "{} er ekki gilt virðisaukaskattsnúmer."
 #~ "even get a copy of all of it (<a href=\"%(url)s\">Article 15 GDPR</a>)"
 #~ msgstr ""
 #~ "Fá aðgang að öllum þeim persónuupplýsingum þínum sem Weblate notar eða "
-#~ "vinnur með, og jafnvel fengið afrit af þeim öllum (<a "
-#~ "href=\"%(url)s\">Grein 15 í GDPR</a>)"
+#~ "vinnur með, og jafnvel fengið afrit af þeim öllum (<a href=\"%"
+#~ "(url)s\">Grein 15 í GDPR</a>)"
 
 #~ msgid ""
 #~ "Correct the Personal Data that Weblate processes if you think that there "
@@ -679,8 +691,8 @@ msgstr "{} er ekki gilt virðisaukaskattsnúmer."
 #~ "means EU Regulation No. %(law_679_2016)s, the General Data Protection "
 #~ "Regulation"
 #~ msgstr ""
-#~ "merkir reglugerð Evrópusambandsins um almenna gagnavernd nr. "
-#~ "%(law_679_2016)s, einnig þekkt sem GDPR (general data protection "
+#~ "merkir reglugerð Evrópusambandsins um almenna gagnavernd nr. %"
+#~ "(law_679_2016)s, einnig þekkt sem GDPR (general data protection "
 #~ "regulation)"
 
 #~ msgid "License"

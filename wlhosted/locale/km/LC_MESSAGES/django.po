@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2025-02-21 09:56+0000\n"
+"POT-Creation-Date: 2025-11-20 14:14+0000\n"
 "PO-Revision-Date: 2025-03-30 18:05+0000\n"
 "Last-Translator: ប៉ុកណូ រ៉ូយ៉ាល់ <royalpokno68@gmail.com>\n"
 "Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/weblate/"
@@ -23,31 +23,43 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.11-dev\n"
 
-#: wlhosted/addons.py:44 wlhosted/addons.py:45
+#: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
 msgstr "បង្កើតព្រំដែនទិន្នន័យសេណារីយ៉ូដែលមិនស្គាល់"
 
-#: wlhosted/addons.py:67
+#: wlhosted/addons.py:63
 msgid "Reset repository to upstream"
 msgstr "កំណត់ឃ្លាំងឡើងវិញទៅកាន់ Upstream"
 
-#: wlhosted/addons.py:68
+#: wlhosted/addons.py:64
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "បោះបង់ការផ្លាស់ប្តូរទាំងអស់នៅក្នុងឃ្លាំង Weblate រៀងរាល់យប់។"
 
-#: wlhosted/integrations/forms.py:37
+#: wlhosted/integrations/forms.py:38
 msgid "Billing"
 msgstr "វិក័យប័ត្រ"
 
-#: wlhosted/integrations/forms.py:38
+#: wlhosted/integrations/forms.py:39
 msgid "Choose the billing plan you want to update"
 msgstr "ជ្រើសរើសគំរោងបង់ប្រាក់ដែលអ្នកចង់ធ្វើបច្ចុប្បន្នភាព"
 
-#: wlhosted/integrations/forms.py:39
+#: wlhosted/integrations/forms.py:40
 msgid "Create new billing plan"
 msgstr "បង្កើតគម្រោងបង់ប្រាក់ថ្មី"
 
-#: wlhosted/integrations/templates/hosted/create.html:8
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
+msgid "Sign in here to access our services:"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
+msgid "Weblate customer care portal"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
+msgid "Weblate commercial services management"
+msgstr ""
+
+#: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
 msgstr "បង្កើតគម្រោងបង់ប្រាក់"
 
@@ -55,27 +67,27 @@ msgstr "បង្កើតគម្រោងបង់ប្រាក់"
 msgid "New billing plan"
 msgstr "គម្រោងបង់ប្រាក់ថ្មី"
 
-#: wlhosted/integrations/templates/hosted/create.html:20
+#: wlhosted/integrations/templates/hosted/create.html:19
 msgid "Please choose a hosting plan that fits the size of your project."
 msgstr "សូមជ្រើសគម្រោងបង្ហោះ ដែលសាកសមជាមួយគម្រោងរបស់អ្នក។"
 
-#: wlhosted/integrations/templates/hosted/create.html:26
+#: wlhosted/integrations/templates/hosted/create.html:24
 msgid "Current billing status"
 msgstr "ស្ថានភាពបង់ប្រាក់បច្ចុប្បន្ន"
 
-#: wlhosted/integrations/templates/hosted/create.html:47
+#: wlhosted/integrations/templates/hosted/create.html:46
 msgid "Too small for your project."
 msgstr "ពិតជាតូចខ្លាំងណាស់សម្រាប់គម្រោងរបស់អ្នក។"
 
-#: wlhosted/integrations/templates/hosted/create.html:47
+#: wlhosted/integrations/templates/hosted/create.html:46
 msgid "Too small"
 msgstr "ពិតជាតូចណាស់"
 
-#: wlhosted/integrations/templates/hosted/create.html:49
+#: wlhosted/integrations/templates/hosted/create.html:48
 msgid "Selected plan"
 msgstr "គម្រោងដែលបានជ្រើស"
 
-#: wlhosted/integrations/templates/hosted/create.html:51
+#: wlhosted/integrations/templates/hosted/create.html:50
 msgid "Current plan"
 msgstr "គម្រោង​បច្ចុប្បន្ន​"
 
@@ -83,42 +95,42 @@ msgstr "គម្រោង​បច្ចុប្បន្ន​"
 msgid "Hosted strings limit"
 msgstr "កំហិតស្ទ្រុិងដែលហូស្ទ៍"
 
-#: wlhosted/integrations/templates/hosted/create.html:57
-#: wlhosted/integrations/templates/hosted/create.html:60
-#: wlhosted/integrations/templates/hosted/create.html:63
-#: wlhosted/integrations/templates/hosted/create.html:66
+#: wlhosted/integrations/templates/hosted/create.html:61
+#: wlhosted/integrations/templates/hosted/create.html:71
+#: wlhosted/integrations/templates/hosted/create.html:81
+#: wlhosted/integrations/templates/hosted/create.html:91
 msgid "Unlimited"
 msgstr "ឥតដែនកំណត់"
 
-#: wlhosted/integrations/templates/hosted/create.html:59
+#: wlhosted/integrations/templates/hosted/create.html:66
 msgid "Source strings limit"
 msgstr "កំហិតស្ទ្រុិងដើម"
 
-#: wlhosted/integrations/templates/hosted/create.html:62
+#: wlhosted/integrations/templates/hosted/create.html:76
 msgid "Languages limit"
 msgstr "​កំហិត​ភាសា"
 
-#: wlhosted/integrations/templates/hosted/create.html:65
+#: wlhosted/integrations/templates/hosted/create.html:86
 msgid "Projects limit"
 msgstr "កំហិតគម្រោង"
 
-#: wlhosted/integrations/templates/hosted/create.html:78
+#: wlhosted/integrations/templates/hosted/create.html:107
 #, python-format
 msgid "%(price)s EUR / month"
 msgstr "%(price)s អឺ​រ៉ូ /ខែ"
 
-#: wlhosted/integrations/templates/hosted/create.html:79
-#: wlhosted/integrations/templates/hosted/create.html:85
+#: wlhosted/integrations/templates/hosted/create.html:109
+#: wlhosted/integrations/templates/hosted/create.html:120
 #, python-format
 msgid "%(price)s EUR including VAT"
 msgstr "%(price)s អឺ​រ៉ូ រួមបញ្ចូលពន្ធអាករ"
 
-#: wlhosted/integrations/templates/hosted/create.html:84
+#: wlhosted/integrations/templates/hosted/create.html:118
 #, python-format
 msgid "%(price)s EUR / year"
 msgstr "%(price)s អឺរូ/ ឆ្នាំ"
 
-#: wlhosted/integrations/templates/hosted/create.html:96
+#: wlhosted/integrations/templates/hosted/create.html:131
 msgid ""
 "Pricing is based on the number of source strings and target languages. The "
 "source string is a text unit defined in a translation format, it can be a "
@@ -127,18 +139,18 @@ msgstr ""
 "ការកំណត់តម្លៃ គឺផ្អែកលើចំនួនស្ទ្រុិង និងភាសាគោលដៅ។ ប្រភពស្ទ្រុិង "
 "គឺជាឯកតាអត្ថបទដែលបានកំណត់ជាទម្រង់នៃការបកប្រែ វាអាចជាពាក្យ ប្រយោគឬកថាខណ្ឌ។"
 
-#: wlhosted/integrations/templates/hosted/create.html:99
+#: wlhosted/integrations/templates/hosted/create.html:134
 msgid "All listed prices exclude VAT."
 msgstr "រាល់តម្លៃដែលបានចុះបញ្ជីមិនរាប់បញ្ចូលអាករបន្ថែមឡើយ។"
 
-#: wlhosted/integrations/templates/hosted/create.html:100
+#: wlhosted/integrations/templates/hosted/create.html:135
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
 "អ្នកប្រើប្រាស់ចុងក្រោយរបស់សហភាពអឺរ៉ុប និងក្រុមហ៊ុនប្រទេសឆែក នឹងត្រូវបានគិតប្រាក់បន្ថែមជាមួយ VAT21%%។"
 
-#: wlhosted/integrations/templates/hosted/create.html:101
+#: wlhosted/integrations/templates/hosted/create.html:136
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr "ការគិតប្រាក់បញ្ច្រាសអនុវត្តចំពោះវិក្កយបត្រដែលចេញឱ្យអាជីវកម្មនៅក្នុងសហភាពអឺរ៉ុប។"
@@ -151,7 +163,7 @@ msgstr "សូមអរគុណ សម្រាប់ការទូទាត�
 msgid "This billing plan covers following projects:"
 msgstr "គម្រោងបង់ប្រាក់នេះ គ្រប់ដណ្ដប់លើគម្រោងខាងក្រោម៖"
 
-#: wlhosted/integrations/templates/mail/billing_paid.html:17
+#: wlhosted/integrations/templates/mail/billing_paid.html:19
 msgid "Check your billing status"
 msgstr "ពិនិត្យស្ថានភាពបង់ប្រាក់របស់អ្នក"
 
@@ -159,15 +171,15 @@ msgstr "ពិនិត្យស្ថានភាពបង់ប្រាក់
 msgid "Your billing plan was paid"
 msgstr "គម្រោងបង់ប្រាក់របស់អ្នកត្រូវបានបង់"
 
-#: wlhosted/integrations/views.py:67
+#: wlhosted/integrations/views.py:74
 msgid "No matching payment found."
 msgstr "រកមិនឃើញការទូទាត់ដែលត្រូវគ្នា។"
 
-#: wlhosted/integrations/views.py:75
+#: wlhosted/integrations/views.py:82
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr "សូមអរគុណសម្រាប់ការទិញគម្រោងបង្ហោះ ឥឡូវនេះវាសកម្មហើយ។"
 
-#: wlhosted/integrations/views.py:83
+#: wlhosted/integrations/views.py:90
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
@@ -175,112 +187,112 @@ msgstr ""
 "សូមអរគុណ សម្រាប់ការទិញគម្រោងបង្ហោះ ការទូទាត់សម្រាប់វាគឺកំពុងរង់ចាំ "
 "ហើយនឹងត្រូវដំណើរការនៅផ្ទៃខាងក្រោយ។"
 
-#: wlhosted/integrations/views.py:95
+#: wlhosted/integrations/views.py:102
 msgid "The payment was rejected: {}"
 msgstr "ការទូទាត់ប្រាក់ត្រូវបានច្រានចោល៖ {}"
 
-#: wlhosted/integrations/views.py:96
+#: wlhosted/integrations/views.py:103
 msgid "Unknown reason"
 msgstr "មូលហេតុមិនស្គាល់"
 
-#: wlhosted/integrations/views.py:112
+#: wlhosted/integrations/views.py:119
 msgid "Payments are temporarily inactive."
 msgstr "ការទូទាត់ប្រាក់ ត្រូវបានផ្អាកបណ្ដោះអាសន្ន។"
 
-#: wlhosted/payments/backends.py:156
+#: wlhosted/payments/backends.py:160
 msgid "IBAN bank transfer"
 msgstr "ការផ្ទេរប្រាក់តាមធនាគារ IBAN"
 
-#: wlhosted/payments/backends.py:164
+#: wlhosted/payments/backends.py:168
 msgid "Payment card"
 msgstr "កាតបង់ប្រាក់"
 
-#: wlhosted/payments/models.py:87
+#: wlhosted/payments/models.py:91
 msgid "European VAT ID"
 msgstr "លេខសម្គាល់ពន្ធអាករអ៊ឺរ៉ុប"
 
-#: wlhosted/payments/models.py:89
+#: wlhosted/payments/models.py:93
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr "សូមបំពេញលេខសម្គាល់ពន្ធអាករលើតម្លៃបន្ថែមរបស់សហគមន៍អ៊ឺរ៉ុប ឫទុកវាឱ្យនៅទំនេរ បើមិនមាន។"
 
-#: wlhosted/payments/models.py:95
+#: wlhosted/payments/models.py:99
 msgid "Tax registration"
 msgstr "ការចុះឈ្មោះពន្ធ"
 
-#: wlhosted/payments/models.py:97
+#: wlhosted/payments/models.py:101
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "សូមបំពេញការចុះឈ្មោះបង់ពន្ធរបស់អ្នក ប្រសិនបើវាមានបង្ហាញនៅលើវិក្កយបត្រ។"
 
-#: wlhosted/payments/models.py:103
+#: wlhosted/payments/models.py:107
 msgid "Company or individual name"
 msgstr "ឈ្មោះក្រុមហ៊ុន ឬឯកត្ដជន"
 
-#: wlhosted/payments/models.py:108
+#: wlhosted/payments/models.py:112
 msgid "Address"
 msgstr "អាសយដ្ឋាន"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:117
 msgid "Additional address information"
 msgstr "ព័ត៌មានអាសយដ្ឋានលម្អិតបន្ថែម"
 
-#: wlhosted/payments/models.py:119
+#: wlhosted/payments/models.py:123
 msgid "Postcode and city"
 msgstr "កូដប្រៃសណីយ៍ និងទីក្រុង"
 
-#: wlhosted/payments/models.py:124
+#: wlhosted/payments/models.py:128
 msgid "Postcode"
 msgstr "កូដប្រៃសណីយ៍"
 
-#: wlhosted/payments/models.py:128
+#: wlhosted/payments/models.py:132
 msgid "Country"
 msgstr "ប្រទេស"
 
-#: wlhosted/payments/models.py:165
+#: wlhosted/payments/models.py:178
 msgid "The country has to match your VAT code"
 msgstr "ប្រទេសនោះត្រូវតែស៊ីគ្នានឹងកូដ VAT របស់អ្នក"
 
-#: wlhosted/payments/models.py:188
+#: wlhosted/payments/models.py:201
 msgid "Annual"
 msgstr "ប្រចាំឆ្នាំ"
 
-#: wlhosted/payments/models.py:189
+#: wlhosted/payments/models.py:202
 msgid "Biannual"
 msgstr "ប្រចាំឆមាស"
 
-#: wlhosted/payments/models.py:190
+#: wlhosted/payments/models.py:203
 msgid "Quarterly"
 msgstr "ប្រចាំត្រីមាស"
 
-#: wlhosted/payments/models.py:191
+#: wlhosted/payments/models.py:204
 msgid "Monthly"
 msgstr "ប្រចាំខែ"
 
-#: wlhosted/payments/models.py:192
+#: wlhosted/payments/models.py:205
 msgid "One-time"
 msgstr "១ដង"
 
-#: wlhosted/payments/models.py:226
+#: wlhosted/payments/models.py:239
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "ការបង់ប្រាក់ថ្មី"
 
-#: wlhosted/payments/models.py:227
+#: wlhosted/payments/models.py:240
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "កំពុងរង់ចាំការបង់ប្រាក់"
 
-#: wlhosted/payments/models.py:228
+#: wlhosted/payments/models.py:241
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "ការបង់ប្រាក់ត្រូវបានច្រានចោល"
 
-#: wlhosted/payments/models.py:229
+#: wlhosted/payments/models.py:242
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "ការបង់ប្រាក់ បានទទួល"
 
-#: wlhosted/payments/models.py:230
+#: wlhosted/payments/models.py:243
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "ការបង់ប្រាក់ បានបន្តដំណើរការ"
@@ -415,11 +427,11 @@ msgstr "{} គឺពុំមែនជា VAT ID ត្រឹមត្រូវ�
 #~ msgstr "%(provider)s លេខចុះបញ្ជាការ %(reg_no)s"
 
 #~ msgid ""
-#~ "Weblate has appointed a data protection officer who may be reached via "
-#~ "%(privacy_contact)s."
+#~ "Weblate has appointed a data protection officer who may be reached via %"
+#~ "(privacy_contact)s."
 #~ msgstr ""
-#~ "Weblate បានតែងតាំងភ្នាក់ងារការពារទិន្នន័យ អ្នកដែលអាចទាក់ទងបានតាមរយៈ "
-#~ "%(privacy_contact)s ។"
+#~ "Weblate បានតែងតាំងភ្នាក់ងារការពារទិន្នន័យ អ្នកដែលអាចទាក់ទងបានតាមរយៈ %"
+#~ "(privacy_contact)s ។"
 
 #~ msgid "Personal Data processed by Weblate"
 #~ msgstr "ទិន្នន័យផ្ទាល់ខ្លួនត្រូវបានដំណើរការដោយ Weblate"

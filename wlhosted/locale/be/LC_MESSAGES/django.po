@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2025-02-21 09:56+0000\n"
+"POT-Creation-Date: 2025-11-20 14:14+0000\n"
 "PO-Revision-Date: 2025-05-04 10:01+0000\n"
 "Last-Translator: Yauhen <bugomol@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Belarusian <https://hosted.weblate.org/projects/weblate/"
@@ -26,31 +26,43 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12-dev\n"
 
-#: wlhosted/addons.py:44 wlhosted/addons.py:45
+#: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
 msgstr "Генераваць даныя для сцэнарыю Unknown Horizons"
 
-#: wlhosted/addons.py:67
+#: wlhosted/addons.py:63
 msgid "Reset repository to upstream"
 msgstr "Скінуць рэпазіторый да верхняга"
 
-#: wlhosted/addons.py:68
+#: wlhosted/addons.py:64
 msgid "Discards all changes in the Weblate repository each night."
 msgstr "Штоноч адкідвае ўсе змены ў рэпазіторыі Weblate."
 
-#: wlhosted/integrations/forms.py:37
+#: wlhosted/integrations/forms.py:38
 msgid "Billing"
 msgstr "Аплата"
 
-#: wlhosted/integrations/forms.py:38
+#: wlhosted/integrations/forms.py:39
 msgid "Choose the billing plan you want to update"
 msgstr "Абярыце тарыфны план для абнаўлення"
 
-#: wlhosted/integrations/forms.py:39
+#: wlhosted/integrations/forms.py:40
 msgid "Create new billing plan"
 msgstr "Стварыць новы тарыфны план"
 
-#: wlhosted/integrations/templates/hosted/create.html:8
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
+msgid "Sign in here to access our services:"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
+msgid "Weblate customer care portal"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
+msgid "Weblate commercial services management"
+msgstr ""
+
+#: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
 msgstr "Стварыць тарыфны план"
 
@@ -58,27 +70,27 @@ msgstr "Стварыць тарыфны план"
 msgid "New billing plan"
 msgstr "Новы тарыфны план"
 
-#: wlhosted/integrations/templates/hosted/create.html:20
+#: wlhosted/integrations/templates/hosted/create.html:19
 msgid "Please choose a hosting plan that fits the size of your project."
 msgstr "Калі ласка, абярыце план хостынгу, які падыходзіць вашаму праекту."
 
-#: wlhosted/integrations/templates/hosted/create.html:26
+#: wlhosted/integrations/templates/hosted/create.html:24
 msgid "Current billing status"
 msgstr "Актуальны стан разлікаў"
 
-#: wlhosted/integrations/templates/hosted/create.html:47
+#: wlhosted/integrations/templates/hosted/create.html:46
 msgid "Too small for your project."
 msgstr "Замалы для вашага праекта."
 
-#: wlhosted/integrations/templates/hosted/create.html:47
+#: wlhosted/integrations/templates/hosted/create.html:46
 msgid "Too small"
 msgstr "Замалы"
 
-#: wlhosted/integrations/templates/hosted/create.html:49
+#: wlhosted/integrations/templates/hosted/create.html:48
 msgid "Selected plan"
 msgstr "Абраны план"
 
-#: wlhosted/integrations/templates/hosted/create.html:51
+#: wlhosted/integrations/templates/hosted/create.html:50
 msgid "Current plan"
 msgstr "Бягучы план"
 
@@ -86,42 +98,42 @@ msgstr "Бягучы план"
 msgid "Hosted strings limit"
 msgstr "Абмежаванне на размешчаныя радкі"
 
-#: wlhosted/integrations/templates/hosted/create.html:57
-#: wlhosted/integrations/templates/hosted/create.html:60
-#: wlhosted/integrations/templates/hosted/create.html:63
-#: wlhosted/integrations/templates/hosted/create.html:66
+#: wlhosted/integrations/templates/hosted/create.html:61
+#: wlhosted/integrations/templates/hosted/create.html:71
+#: wlhosted/integrations/templates/hosted/create.html:81
+#: wlhosted/integrations/templates/hosted/create.html:91
 msgid "Unlimited"
 msgstr "Неабмежавана"
 
-#: wlhosted/integrations/templates/hosted/create.html:59
+#: wlhosted/integrations/templates/hosted/create.html:66
 msgid "Source strings limit"
 msgstr "Абмежаванне зыходных радкоў"
 
-#: wlhosted/integrations/templates/hosted/create.html:62
+#: wlhosted/integrations/templates/hosted/create.html:76
 msgid "Languages limit"
 msgstr "Колькасць моў"
 
-#: wlhosted/integrations/templates/hosted/create.html:65
+#: wlhosted/integrations/templates/hosted/create.html:86
 msgid "Projects limit"
 msgstr "Колькасць праектаў"
 
-#: wlhosted/integrations/templates/hosted/create.html:78
+#: wlhosted/integrations/templates/hosted/create.html:107
 #, python-format
 msgid "%(price)s EUR / month"
 msgstr "%(price)s EUR / месяц"
 
-#: wlhosted/integrations/templates/hosted/create.html:79
-#: wlhosted/integrations/templates/hosted/create.html:85
+#: wlhosted/integrations/templates/hosted/create.html:109
+#: wlhosted/integrations/templates/hosted/create.html:120
 #, python-format
 msgid "%(price)s EUR including VAT"
 msgstr "%(price)s еўра ўключаючы ПДВ"
 
-#: wlhosted/integrations/templates/hosted/create.html:84
+#: wlhosted/integrations/templates/hosted/create.html:118
 #, python-format
 msgid "%(price)s EUR / year"
 msgstr "%(price)s EUR / год"
 
-#: wlhosted/integrations/templates/hosted/create.html:96
+#: wlhosted/integrations/templates/hosted/create.html:131
 msgid ""
 "Pricing is based on the number of source strings and target languages. The "
 "source string is a text unit defined in a translation format, it can be a "
@@ -131,17 +143,17 @@ msgstr ""
 "тэкставая адзінка, якая выкарыстоўваецца ў перакладзе, гэта можа быць слова, "
 "сказ альбо абзац."
 
-#: wlhosted/integrations/templates/hosted/create.html:99
+#: wlhosted/integrations/templates/hosted/create.html:134
 msgid "All listed prices exclude VAT."
 msgstr "Усе цэны без ПДВ."
 
-#: wlhosted/integrations/templates/hosted/create.html:100
+#: wlhosted/integrations/templates/hosted/create.html:135
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr "Са спажыўцоў ЕС і чэшскіх кампаній дадаткова спаганяецца 21 %% ПДВ."
 
-#: wlhosted/integrations/templates/hosted/create.html:101
+#: wlhosted/integrations/templates/hosted/create.html:136
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr "Зваротная аплата ўжываецца да рахункаў, выдадзеных прадпрыемствам ЕС."
@@ -154,7 +166,7 @@ msgstr "Дзякуем за аплату."
 msgid "This billing plan covers following projects:"
 msgstr "Гэты тарыфны план ахоплівае наступныя праекты:"
 
-#: wlhosted/integrations/templates/mail/billing_paid.html:17
+#: wlhosted/integrations/templates/mail/billing_paid.html:19
 msgid "Check your billing status"
 msgstr "Праверце статус тарыфнага плана"
 
@@ -162,15 +174,15 @@ msgstr "Праверце статус тарыфнага плана"
 msgid "Your billing plan was paid"
 msgstr "Ваш тарыфны план аплачаны"
 
-#: wlhosted/integrations/views.py:67
+#: wlhosted/integrations/views.py:74
 msgid "No matching payment found."
 msgstr "Няма адпаведнай аплаты."
 
-#: wlhosted/integrations/views.py:75
+#: wlhosted/integrations/views.py:82
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr "Дзякуем за набыццё плана хостынгу. Ён ужо дзейнічае."
 
-#: wlhosted/integrations/views.py:83
+#: wlhosted/integrations/views.py:90
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
@@ -178,114 +190,114 @@ msgstr ""
 "Дзякуем за набыццё плана хостынгу. Аплата яшчэ апрацоўваецца ў фонавым "
 "рэжыме."
 
-#: wlhosted/integrations/views.py:95
+#: wlhosted/integrations/views.py:102
 msgid "The payment was rejected: {}"
 msgstr "Плацеж адхілены: {}"
 
-#: wlhosted/integrations/views.py:96
+#: wlhosted/integrations/views.py:103
 msgid "Unknown reason"
 msgstr "Невядомая прычына"
 
-#: wlhosted/integrations/views.py:112
+#: wlhosted/integrations/views.py:119
 msgid "Payments are temporarily inactive."
 msgstr "Плацяжы часова неактыўныя."
 
-#: wlhosted/payments/backends.py:156
+#: wlhosted/payments/backends.py:160
 msgid "IBAN bank transfer"
 msgstr "Банкаўскі перавод IBAN"
 
-#: wlhosted/payments/backends.py:164
+#: wlhosted/payments/backends.py:168
 msgid "Payment card"
 msgstr "Плацежная картка"
 
-#: wlhosted/payments/models.py:87
+#: wlhosted/payments/models.py:91
 msgid "European VAT ID"
 msgstr "Еўрапейскі ідэнтыфікатар ПДВ"
 
-#: wlhosted/payments/models.py:89
+#: wlhosted/payments/models.py:93
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr "Калі ласка, запоўніце ідэнтыфікатар ПДВ ЕЗ. Калі няма, пакінце пустым."
 
-#: wlhosted/payments/models.py:95
+#: wlhosted/payments/models.py:99
 msgid "Tax registration"
 msgstr "Падатковая рэгістрацыя"
 
-#: wlhosted/payments/models.py:97
+#: wlhosted/payments/models.py:101
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
 "Калі ласка, запоўніце падатковую рэгістрацыю, калі яна будзе размяшчацца на "
 "рахунку."
 
-#: wlhosted/payments/models.py:103
+#: wlhosted/payments/models.py:107
 msgid "Company or individual name"
 msgstr "Назва кампаніі або імя прыватнай асобы"
 
-#: wlhosted/payments/models.py:108
+#: wlhosted/payments/models.py:112
 msgid "Address"
 msgstr "Адрас"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:117
 msgid "Additional address information"
 msgstr "Дадатковыя звесткі пра адрас"
 
-#: wlhosted/payments/models.py:119
+#: wlhosted/payments/models.py:123
 msgid "Postcode and city"
 msgstr "Паштовы індэкс і горад"
 
-#: wlhosted/payments/models.py:124
+#: wlhosted/payments/models.py:128
 msgid "Postcode"
 msgstr "Паштовы індэкс"
 
-#: wlhosted/payments/models.py:128
+#: wlhosted/payments/models.py:132
 msgid "Country"
 msgstr "Краіна"
 
-#: wlhosted/payments/models.py:165
+#: wlhosted/payments/models.py:178
 msgid "The country has to match your VAT code"
 msgstr "Краіна мусіць адпавядаць вашаму коду ПДВ"
 
-#: wlhosted/payments/models.py:188
+#: wlhosted/payments/models.py:201
 msgid "Annual"
 msgstr "Штогод"
 
-#: wlhosted/payments/models.py:189
+#: wlhosted/payments/models.py:202
 msgid "Biannual"
 msgstr "Два разы на год"
 
-#: wlhosted/payments/models.py:190
+#: wlhosted/payments/models.py:203
 msgid "Quarterly"
 msgstr "Штоквартальна"
 
-#: wlhosted/payments/models.py:191
+#: wlhosted/payments/models.py:204
 msgid "Monthly"
 msgstr "Штомесяц"
 
-#: wlhosted/payments/models.py:192
+#: wlhosted/payments/models.py:205
 msgid "One-time"
 msgstr "Аднаразова"
 
-#: wlhosted/payments/models.py:226
+#: wlhosted/payments/models.py:239
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Новы плацеж"
 
-#: wlhosted/payments/models.py:227
+#: wlhosted/payments/models.py:240
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Плацеж у чаканні"
 
-#: wlhosted/payments/models.py:228
+#: wlhosted/payments/models.py:241
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Плацеж адхілены"
 
-#: wlhosted/payments/models.py:229
+#: wlhosted/payments/models.py:242
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Плацеж прыняты"
 
-#: wlhosted/payments/models.py:230
+#: wlhosted/payments/models.py:243
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Плацеж апрацаваны"
@@ -423,8 +435,8 @@ msgstr "{} не ёсць сапраўдным ідэнтыфікатарам П�
 #~ msgstr "%(provider)s, Рэг. нум. %(reg_no)s"
 
 #~ msgid ""
-#~ "Weblate has appointed a data protection officer who may be reached via "
-#~ "%(privacy_contact)s."
+#~ "Weblate has appointed a data protection officer who may be reached via %"
+#~ "(privacy_contact)s."
 #~ msgstr ""
 #~ "Weblate прызначыў супрацоўніка па абароне даных, з якім можна звязацца па "
 #~ "%(privacy_contact)s."
@@ -487,8 +499,8 @@ msgstr "{} не ёсць сапраўдным ідэнтыфікатарам П�
 #~ "пераддамоўных абавязкаў (<a href=\"%(url)s\">Article 6 (1) b. GDPR</a>)"
 
 #~ msgid ""
-#~ "to analyze your use of our services and improve our services (<a "
-#~ "href=\"%(url)s\">Article 6 (1) b. and f. GDPR</a>)"
+#~ "to analyze your use of our services and improve our services (<a href=\"%"
+#~ "(url)s\">Article 6 (1) b. and f. GDPR</a>)"
 #~ msgstr ""
 #~ "для аналізу выкарыстання вамі нашых сэрвісаў і для іх паляпшэння (<a "
 #~ "href=\"%(url)s\">Article 6 (1) b. and f. GDPR</a>)"
@@ -725,8 +737,8 @@ msgstr "{} не ёсць сапраўдным ідэнтыфікатарам П�
 #~ msgstr "Асабістыя даныя"
 
 #~ msgid ""
-#~ "means personal data within the meaning of EU Regulation No. "
-#~ "%(law_679_2016)s inserted by the User into the Service and/or Cookies"
+#~ "means personal data within the meaning of EU Regulation No. %"
+#~ "(law_679_2016)s inserted by the User into the Service and/or Cookies"
 #~ msgstr ""
 #~ "азначае асабістыя даныя па значэнні рэгламенту EU No %(law_679_2016)s, "
 #~ "пададзеныя Карыстальнікам у Службу ці / або ўключаныя ў cookies"
@@ -909,14 +921,14 @@ msgstr "{} не ёсць сапраўдным ідэнтыфікатарам П�
 #~ "мусіць ўстрымацца ад адпраўкі незамоўленых паведамленняў."
 
 #~ msgid ""
-#~ "The User declares awareness of own rights under <a "
-#~ "href=\"%(url_15)s\">Article 15</a> and <a href=\"%(url_17)s\">Article 17</"
-#~ "a> of the GDPR and declares that all the Personal Data is accurate and "
-#~ "true and has been provided voluntarily."
+#~ "The User declares awareness of own rights under <a href=\"%"
+#~ "(url_15)s\">Article 15</a> and <a href=\"%(url_17)s\">Article 17</a> of "
+#~ "the GDPR and declares that all the Personal Data is accurate and true and "
+#~ "has been provided voluntarily."
 #~ msgstr ""
 #~ "Карыстальнік заяўляе пра ўласную дасведчанасць пра свае правы, "
-#~ "прадугледжаныя <a href=\"%(url_15)s\">Артыкулам 15</a> і <a "
-#~ "href=\"%(url_17)s\">Артыкулам 17</a> GDPR, а таксама заяўляе, што ўсе "
+#~ "прадугледжаныя <a href=\"%(url_15)s\">Артыкулам 15</a> і <a href=\"%"
+#~ "(url_17)s\">Артыкулам 17</a> GDPR, а таксама заяўляе, што ўсе "
 #~ "персанальныя даныя з'яўляюцца дакладнымі і былі пададзеныя добраахвотна."
 
 #~ msgid ""
