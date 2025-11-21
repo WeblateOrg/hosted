@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2025-04-14 09:51+0000\n"
+"PO-Revision-Date: 2025-11-22 20:00+0000\n"
 "Last-Translator: VfBFan <drop0815@posteo.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/weblate/hosted/de/"
 ">\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -53,23 +53,23 @@ msgstr "Wählen Sie das Abrechnungsmodell aus, das Sie aktualisieren möchten"
 
 #: wlhosted/integrations/forms.py:40
 msgid "Create new billing plan"
-msgstr "Neues Abrechnungsmodell anlegen"
+msgstr "Neues Abrechnungsmodell erstellen"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
 msgid "Sign in here to access our services:"
-msgstr ""
+msgstr "Hier anmelden, um auf unsere Dienste zuzugreifen:"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
 msgid "Weblate customer care portal"
-msgstr ""
+msgstr "Weblate-Kundenbetreuungsportal"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
 msgid "Weblate commercial services management"
-msgstr ""
+msgstr "Verwaltung kommerzieller Weblate-Dienstleistungen"
 
 #: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
-msgstr "Abrechnungsmodell anlegen"
+msgstr "Abrechnungsmodell erstellen"
 
 #: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
