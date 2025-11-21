@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2025-02-22 10:26+0000\n"
+"PO-Revision-Date: 2025-11-21 15:51+0000\n"
 "Last-Translator: \"Miguel A. Bouzada\" <mbouzada@gmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/weblate/hosted/"
 "gl/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.1-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -48,15 +48,15 @@ msgstr "Crear un novo plan de facturación"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
 msgid "Sign in here to access our services:"
-msgstr ""
+msgstr "Inicie sesión aquí para acceder aos nosos servizos:"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
 msgid "Weblate customer care portal"
-msgstr ""
+msgstr "Portal de atención ao cliente de Weblate"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
 msgid "Weblate commercial services management"
-msgstr ""
+msgstr "Xestión de servizos comerciais de Weblate"
 
 #: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
