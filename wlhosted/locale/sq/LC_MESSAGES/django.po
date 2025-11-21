@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2025-02-21 21:20+0000\n"
+"PO-Revision-Date: 2025-11-21 15:51+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: Albanian <https://hosted.weblate.org/projects/weblate/hosted/"
 "sq/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.1-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -26,7 +26,7 @@ msgstr "Prodho të dhëna skenari Horizonte të Panjohura"
 
 #: wlhosted/addons.py:63
 msgid "Reset repository to upstream"
-msgstr "Ktheje projektin te gjendja e burimit"
+msgstr "Ktheje depon te gjendja e burimit"
 
 #: wlhosted/addons.py:64
 msgid "Discards all changes in the Weblate repository each night."
@@ -46,15 +46,15 @@ msgstr "Krijoni plan të ri faturimi"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
 msgid "Sign in here to access our services:"
-msgstr ""
+msgstr "Që të përdorni shërbimet tona, bëni hyrjen këtu:"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
 msgid "Weblate customer care portal"
-msgstr ""
+msgstr "Portal kujdesi për klientë i Weblate-it"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
 msgid "Weblate commercial services management"
-msgstr ""
+msgstr "Administrim shërbimesh komerciale Weblate"
 
 #: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
