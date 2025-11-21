@@ -17,7 +17,7 @@
 # JY3 <GeeyunJY3@gmail.com>, 2021, 2022.
 # yangyangdaji <1504305527@qq.com>, 2022.
 # Xu ZhuoHan <yylteam@hotmail.com>, 2022.
-# 大王叫我来巡山 <hamburger2048@users.noreply.hosted.weblate.org>, 2024.
+# 大王叫我来巡山 <hamburger2048@users.noreply.hosted.weblate.org>, 2024, 2025.
 # eddie <eddieyg233@gmail.com>, 2024.
 # Sketch6580 <sketch6580@users.noreply.hosted.weblate.org>, 2025.
 msgid ""
@@ -25,8 +25,9 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2025-10-21 08:28+0000\n"
-"Last-Translator: Sketch6580 <sketch6580@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2025-11-21 15:51+0000\n"
+"Last-Translator: 大王叫我来巡山 "
+"<hamburger2048@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/weblate/hosted/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -34,7 +35,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -62,15 +63,15 @@ msgstr "使用新的付费套餐"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
 msgid "Sign in here to access our services:"
-msgstr ""
+msgstr "在此登录访问我们的服务："
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
 msgid "Weblate customer care portal"
-msgstr ""
+msgstr "Weblate 客户服务门户"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
 msgid "Weblate commercial services management"
-msgstr ""
+msgstr "Weblate 商业服务管理"
 
 #: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
