@@ -12,16 +12,16 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2025-07-16 07:01+0000\n"
-"Last-Translator: Michal Čihař <michal@weblate.org>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/weblate/hosted/cs/"
-">\n"
+"PO-Revision-Date: 2025-11-22 20:00+0000\n"
+"Last-Translator: Fjuro <fjuro@alius.cz>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/weblate/hosted/cs/>"
+"\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -49,15 +49,15 @@ msgstr "Vytvořit nové předplatné"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
 msgid "Sign in here to access our services:"
-msgstr ""
+msgstr "Přihlaste se zde pro přístup k našim službám:"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
 msgid "Weblate customer care portal"
-msgstr ""
+msgstr "Portál péče o zákazníky Weblate"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
 msgid "Weblate commercial services management"
-msgstr ""
+msgstr "Správa komerčních služeb Weblate"
 
 #: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
