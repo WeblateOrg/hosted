@@ -11,15 +11,15 @@
 # Meno25 <meno25mail@gmail.com>, 2023.
 # سيف الباش <syfa3528@gmail.com>, 2023.
 # "Mr.k" <mineshtine28546271@gmail.com>, 2023.
-# jonnysemon <jonnysemon@users.noreply.hosted.weblate.org>, 2024.
+# jonnysemon <jonnysemon@users.noreply.hosted.weblate.org>, 2024, 2025.
 # abdelbasset jabrane <ribago9317@cubene.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2025-05-02 02:39+0000\n"
-"Last-Translator: abdelbasset jabrane <ribago9317@cubene.com>\n"
+"PO-Revision-Date: 2025-11-24 16:51+0000\n"
+"Last-Translator: jonnysemon <jonnysemon@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/weblate/hosted/ar/"
 ">\n"
 "Language: ar\n"
@@ -28,7 +28,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -56,15 +56,15 @@ msgstr "إنشاء خطة فوترة جديدة"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
 msgid "Sign in here to access our services:"
-msgstr ""
+msgstr "سجّل الدخول هنا للوصول إلى خدماتنا:"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
 msgid "Weblate customer care portal"
-msgstr ""
+msgstr "بوابة خدمة عملاء Weblate"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
 msgid "Weblate commercial services management"
-msgstr ""
+msgstr "إدارة خدمات Weblate التجارية"
 
 #: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
