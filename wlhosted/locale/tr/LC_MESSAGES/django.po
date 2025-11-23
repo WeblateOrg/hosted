@@ -10,13 +10,14 @@
 # Oğuz Ersen <oguzersen@protonmail.com>, 2020.
 # Kaya Zeren <kayazeren@gmail.com>, 2022, 2024.
 # Oğuz Ersen <oguz@ersen.moe>, 2024.
+# Turkish Language Team 🇹🇷 <turkishmark@yandex.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2025-02-21 11:52+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2025-11-24 16:51+0000\n"
+"Last-Translator: Turkish Language Team 🇹🇷 <turkishmark@yandex.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/weblate/hosted/"
 "tr/>\n"
 "Language: tr\n"
@@ -24,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.1-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -52,15 +53,15 @@ msgstr "Yeni fatura tarifesi oluştur"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
 msgid "Sign in here to access our services:"
-msgstr ""
+msgstr "Hizmetlerimize erişmek için buradan giriş yapın:"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
 msgid "Weblate customer care portal"
-msgstr ""
+msgstr "Weblate müşteri hizmetleri portalı"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
 msgid "Weblate commercial services management"
-msgstr ""
+msgstr "Weblate ticari hizmetler yönetimi"
 
 #: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
