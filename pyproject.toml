@@ -45,16 +45,16 @@ classifiers = [
   "Programming Language :: Python",
   "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3 :: Only",
-  "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
   "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
   "Topic :: Software Development :: Internationalization",
   "Topic :: Software Development :: Localization",
   "Topic :: Internet :: WWW/HTTP",
   "Topic :: Internet :: WWW/HTTP :: Dynamic Content"
 ]
 dependencies = [
-  "Django>=5.2,<5.3",
+  "Django>=5.2,<6.1",
   "django-appconf>=1.0",
   "django-countries==8.1.1",
   "django-vies==6.2.1",
@@ -76,7 +76,7 @@ keywords = [
 license = "GPL-3.0-or-later"
 license-files = ["LICENSE"]
 name = "wlhosted"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 version = "2025.1"
 
 [[project.authors]]
