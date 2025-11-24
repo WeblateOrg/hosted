@@ -53,7 +53,7 @@ class UnknownHorizonsTemplateAddon(BaseScriptAddon):
         project: Project | None = None,
     ) -> bool:
         """Only useful for Unknown Horizons project."""
-        if not component or component.project.slug != "uh":
+        if component is None or component.project.slug != "uh":
             return False
         return super().can_install(component=component, project=project)
 
@@ -76,7 +76,7 @@ class ResetAddon(BaseAddon):
         project: Project | None = None,
     ) -> bool:
         # Only instalable on the sandbox project
-        return component and component.project.slug == "sandbox"
+        return component is not None and component.project.slug == "sandbox"
 
     def daily(self, component: Component, activity_log_id: int | None = None) -> None:
         component.do_reset()
