@@ -27,8 +27,7 @@ from weblate.addons.events import AddonEvent
 from weblate.addons.scripts import BaseAddon, BaseScriptAddon
 
 if TYPE_CHECKING:
-    from weblate.auth.models import User
-    from weblate.trans.models import Component
+    from weblate.trans.models import Component, Project
 
 
 class UnknownHorizonsTemplateAddon(BaseScriptAddon):
@@ -47,11 +46,16 @@ class UnknownHorizonsTemplateAddon(BaseScriptAddon):
     add_file = "content/scenarios/*_{{ language_code }}.yaml"
 
     @classmethod
-    def can_install(cls, component: Component, user: User | None) -> bool:
+    def can_install(
+        cls,
+        *,
+        component: Component | None = None,
+        project: Project | None = None,
+    ) -> bool:
         """Only useful for Unknown Horizons project."""
-        if component.project.slug != "uh":
+        if not component or component.project.slug != "uh":
             return False
-        return super().can_install(component, user)
+        return super().can_install(component=component, project=project)
 
 
 class ResetAddon(BaseAddon):
@@ -65,9 +69,14 @@ class ResetAddon(BaseAddon):
     repo_scope = True
 
     @classmethod
-    def can_install(cls, component: Component, user: User | None) -> bool:
+    def can_install(
+        cls,
+        *,
+        component: Component | None = None,
+        project: Project | None = None,
+    ) -> bool:
         # Only instalable on the sandbox project
-        return component.project.slug == "sandbox"
+        return component and component.project.slug == "sandbox"
 
     def daily(self, component: Component, activity_log_id: int | None = None) -> None:
         component.do_reset()
