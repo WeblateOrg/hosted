@@ -21,7 +21,6 @@ from __future__ import annotations
 import uuid
 from typing import TYPE_CHECKING, Literal
 
-import requests
 from appconf import AppConf
 from dateutil.relativedelta import relativedelta
 from django.conf import settings
@@ -31,6 +30,7 @@ from django.db import models, transaction
 from django.utils.translation import get_language, gettext_lazy, pgettext_lazy
 from django_countries.fields import CountryField
 from vies.models import VATINField
+from weblate.utils.requests import http_request
 from weblate.utils.validators import validate_email
 
 from wlhosted.data import SUPPORTED_LANGUAGES
@@ -336,7 +336,8 @@ class Payment(models.Model):
 
     def trigger_remotely(self) -> None:
         # Trigger payment processing remotely
-        requests.post(
+        http_request(
+            "POST",
             self.get_payment_url(),
             allow_redirects=False,
             data={"method": self.backend, "secret": settings.PAYMENT_SECRET},
