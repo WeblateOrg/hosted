@@ -62,53 +62,58 @@ def notify_paid_removal(billing_id: int) -> None:
 
 @app.task
 @transaction.atomic
-@transaction.atomic(using="payments_db")
 def recurring_payments() -> None:
-    cutoff = timezone.now().date() + timedelta(days=1)
-    for billing in (
-        Billing.objects.filter(state=Billing.STATE_ACTIVE)
-        .select_for_update()
-        .prefetch()
-    ):
-        if "recurring" not in billing.payment:
-            # No recurring payment
-            continue
-        last_invoice = billing.invoice_set.order_by("-start")[0]
-        if last_invoice.end > cutoff:
-            # Billing is still paid
-            continue
-        if not billing.ordered_projects:
-            # There are no projects associated
-            continue
-        # Skip projects without admins
-        if not any(project.all_admins for project in billing.ordered_projects):
-            continue
+    to_repeat: list[Payment] = []
+    with transaction.atomic(using="payments_db"):
+        cutoff = timezone.now().date() + timedelta(days=1)
+        for billing in (
+            Billing.objects.filter(state=Billing.STATE_ACTIVE)
+            .select_for_update()
+            .prefetch()
+        ):
+            if "recurring" not in billing.payment:
+                # No recurring payment
+                continue
+            last_invoice = billing.invoice_set.order_by("-start")[0]
+            if last_invoice.end > cutoff:
+                # Billing is still paid
+                continue
+            if not billing.ordered_projects:
+                # There are no projects associated
+                continue
+            # Skip projects without admins
+            if not any(project.all_admins for project in billing.ordered_projects):
+                continue
 
-        original = Payment.objects.get(pk=billing.payment["recurring"])
+            original = Payment.objects.get(pk=billing.payment["recurring"])
 
-        start_date = last_invoice.end + timedelta(days=1)
-        end_date = start_date + get_period_delta(original.extra["period"])
+            start_date = last_invoice.end + timedelta(days=1)
+            end_date = start_date + get_period_delta(original.extra["period"])
 
-        description = f"Weblate hosting ({billing.plan.name}) [{date_format(start_date)} - {date_format(end_date)}]"
+            description = f"Weblate hosting ({billing.plan.name}) [{date_format(start_date)} - {date_format(end_date)}]"
 
-        repeated = original.repeat_payment(
-            amount=billing.plan.price
-            if original.extra["period"] == "m"
-            else billing.plan.yearly_price,
-            description=description,
-            billing=billing.pk,
-            plan=None,
-        )
-        if not repeated:
-            # Remove recurring flag
-            del billing.payment["recurring"]
-            billing.save()
-            billing.billinglog_set.create(
-                event=BillingEvent.DISABLED_RECURRING,
-                summary=f"Payment {original.pk} could not be repeated",
+            repeated = original.repeat_payment(
+                amount=billing.plan.price
+                if original.extra["period"] == "m"
+                else billing.plan.yearly_price,
+                description=description,
+                billing=billing.pk,
+                plan=None,
             )
-        else:
-            repeated.trigger_remotely()
+            if not repeated:
+                # Remove recurring flag
+                del billing.payment["recurring"]
+                billing.save()
+                billing.billinglog_set.create(
+                    event=BillingEvent.DISABLED_RECURRING,
+                    summary=f"Payment {original.pk} could not be repeated",
+                )
+            else:
+                to_repeat.append(repeated)
+
+    # Trigger remotely
+    for repeated in to_repeat:
+        repeated.trigger_remotely()
 
     # We have created bunch of pending payments, process them now
     pending_payments()
