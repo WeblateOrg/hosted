@@ -7,13 +7,14 @@
 # Jose Delvani <delvani.eletricista@gmail.com>, 2024.
 # dedakir923 <dedakir923@exoular.com>, 2025.
 # Jose Delvani <dedakir923@exoular.com>, 2025.
+# Juno Takano <weblate@jutty.dev>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2025-05-10 16:02+0000\n"
-"Last-Translator: Jose Delvani <dedakir923@exoular.com>\n"
+"PO-Revision-Date: 2025-11-28 19:25+0000\n"
+"Last-Translator: Juno Takano <weblate@jutty.dev>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "weblate/hosted/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -51,15 +52,15 @@ msgstr "Criar novo plano de cobrança"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
 msgid "Sign in here to access our services:"
-msgstr ""
+msgstr "Entre aqui para acessar nossos serviços:"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
 msgid "Weblate customer care portal"
-msgstr ""
+msgstr "Portal de assistência ao cliente do Weblate"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
 msgid "Weblate commercial services management"
-msgstr ""
+msgstr "Gestão de serviços comerciais do Weblate"
 
 #: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
