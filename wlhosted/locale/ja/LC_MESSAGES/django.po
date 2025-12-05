@@ -12,13 +12,14 @@
 # 日陰のコスモス <baffclan@yahoo.co.jp>, 2021.
 # ht1722 <taichi_19990611@yahoo.co.jp>, 2022.
 # amano <amano@users.noreply.hosted.weblate.org>, 2022, 2023, 2024.
+# Mikenu Takeru <mikenu-jp@users.noreply.hosted.weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2025-02-21 11:52+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2025-12-06 10:00+0000\n"
+"Last-Translator: Mikenu Takeru <mikenu-jp@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/weblate/hosted/"
 "ja/>\n"
 "Language: ja\n"
@@ -26,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.10.1-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -54,15 +55,15 @@ msgstr "料金プランの新規作成"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
 msgid "Sign in here to access our services:"
-msgstr ""
+msgstr "ここからサインインしてサービスをご利用ください:"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
 msgid "Weblate customer care portal"
-msgstr ""
+msgstr "Weblate カスタマーケアポータル"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
 msgid "Weblate commercial services management"
-msgstr ""
+msgstr "eblate 商用サービス管理"
 
 #: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
