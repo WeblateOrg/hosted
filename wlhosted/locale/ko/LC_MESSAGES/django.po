@@ -15,10 +15,10 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2025-11-17 05:51+0000\n"
+"PO-Revision-Date: 2025-12-08 06:00+0000\n"
 "Last-Translator: 이정희 <daemul72@gmail.com>\n"
-"Language-Team: Korean <https://hosted.weblate.org/projects/weblate/hosted/ko/"
-">\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/weblate/hosted/"
+"ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,7 +40,7 @@ msgstr "매일 밤 Weblate 리포지터리의 모든 변경 사항을 버립니�
 
 #: wlhosted/integrations/forms.py:38
 msgid "Billing"
-msgstr "청구"
+msgstr "결제"
 
 #: wlhosted/integrations/forms.py:39
 msgid "Choose the billing plan you want to update"
@@ -52,15 +52,15 @@ msgstr "새 청구 요금제 만들기"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
 msgid "Sign in here to access our services:"
-msgstr ""
+msgstr "여기에 로그인하여 서비스에 액세스하세요:"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
 msgid "Weblate customer care portal"
-msgstr ""
+msgstr "Weblate 고객 관리 포털"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
 msgid "Weblate commercial services management"
-msgstr ""
+msgstr "Weblate 상업 서비스 관리"
 
 #: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
@@ -139,8 +139,8 @@ msgid ""
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
-"요금은 원본 문자열 및 대상 언어의 수에 의해 결정됩니다. 원본 문자열은 번역 형"
-"식으로 정의된 문자 단위이며, 이는 단어, 문장, 문단일 수 있습니다."
+"요금은 원문 문자열 및 대상 언어의 수에 의해 결정됩니다. 원문 문자열은 번역 "
+"형식으로 정의된 문자 단위이며, 이는 단어, 문장, 문단일 수 있습니다."
 
 #: wlhosted/integrations/templates/hosted/create.html:134
 msgid "All listed prices exclude VAT."
