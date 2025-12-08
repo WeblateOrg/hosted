@@ -3,7 +3,7 @@
 {% load crispy_forms_tags humanize i18n translations %}
 
 {% block breadcrumbs %}
-  <li>
+  <li class="breadcrumb-item">
     <a href="{% url 'create-billing' %}">{% translate "Create billing plan" %}</a>
   </li>
 {% endblock breadcrumbs %}
@@ -12,19 +12,19 @@
   <div class="container-fluid">
 
     {% if not choose_billing and not billing %}
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3 class="panel-title">{% translate "New billing plan" %}</h3>
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title">{% translate "New billing plan" %}</h3>
         </div>
-        <div class="panel-body">{% translate "Please choose a hosting plan that fits the size of your project." %}</div>
+        <div class="card-body">{% translate "Please choose a hosting plan that fits the size of your project." %}</div>
       </div>
     {% else %}
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3 class="panel-title">{% translate "Current billing status" %}</h3>
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title">{% translate "Current billing status" %}</h3>
         </div>
         {% if choose_billing %}
-          <div class="panel-body">
+          <div class="card-body">
             <form class="autosubmit">
               {{ choose_billing|crispy }}
             </form>
@@ -39,17 +39,17 @@
     <div class="row">
       {% for plan in plans %}
         <div class="col-md-3">
-          <div class="panel panel-default">
-            <div class="panel-heading">
+          <div class="card">
+            <div class="card-header">
               {% if billing and not plan.would_fit %}
-                <span class="badge pull-right flip"
+                <span class="badge text-bg-secondary float-end"
                       title="{% translate "Too small for your project." %}">{% translate "Too small" %}</span>
               {% elif plan == selected_plan %}
-                <span class="badge pull-right flip">{% translate "Selected plan" %}</span>
+                <span class="badge text-bg-secondary float-end">{% translate "Selected plan" %}</span>
               {% elif billing.plan == plan %}
-                <span class="badge pull-right flip">{% translate "Current plan" %}</span>
+                <span class="badge text-bg-secondary float-end">{% translate "Current plan" %}</span>
               {% endif %}
-              <h3 class="panel-title">{{ plan.name }}</h3>
+              <h3 class="card-title">{{ plan.name }}</h3>
             </div>
             <table class="table table-striped">
               <tr>
@@ -93,7 +93,7 @@
                 </td>
               </tr>
             </table>
-            <div class="panel-footer billing-buttons">
+            <div class="card-footer billing-buttons">
               <form action="{% url 'create-billing' %}" method="post" class="form-inline">
                 {% csrf_token %}
                 <input type="hidden" name="plan" value="{{ plan.pk }}">
