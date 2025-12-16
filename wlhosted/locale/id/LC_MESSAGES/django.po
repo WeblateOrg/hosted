@@ -10,13 +10,14 @@
 # Taufik A. Wicaksono <taufikadi.wicaksono@tutamail.com>, 2022.
 # Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>, 2022.
 # Linerly <linerly@proton.me>, 2024.
+# Zahid Rizky Fakhri <zahidrizkyfakhri@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2025-12-03 18:00+0000\n"
-"Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
+"PO-Revision-Date: 2025-12-17 01:00+0000\n"
+"Last-Translator: Zahid Rizky Fakhri <zahidrizkyfakhri@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/weblate/"
 "hosted/id/>\n"
 "Language: id\n"
@@ -24,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.15.1-dev\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -32,7 +33,7 @@ msgstr "Hasilkan data skenario Unknown Horizons"
 
 #: wlhosted/addons.py:63
 msgid "Reset repository to upstream"
-msgstr "Reset repositori ke upstream"
+msgstr "Atur ulang repositori ke hulu"
 
 #: wlhosted/addons.py:64
 msgid "Discards all changes in the Weblate repository each night."
