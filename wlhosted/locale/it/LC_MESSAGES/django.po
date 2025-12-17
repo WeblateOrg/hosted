@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2025-12-09 09:00+0000\n"
+"PO-Revision-Date: 2025-12-18 10:13+0000\n"
 "Last-Translator: Pierfrancesco Passerini <p.passerini@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/weblate/hosted/"
 "it/>\n"
@@ -30,7 +30,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.15.1-dev\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
@@ -171,7 +171,7 @@ msgstr ""
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
-msgstr "Grazie per il pagamento, la fatturazione ora è saldata."
+msgstr "Grazie per il pagamento, la fattura è stata saldata."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
@@ -187,7 +187,7 @@ msgstr "Il tuo piano di fatturazione è stato pagato"
 
 #: wlhosted/integrations/views.py:74
 msgid "No matching payment found."
-msgstr "Nessun pagamento corrispondente trovato."
+msgstr "Nessun risultano pagamenti."
 
 #: wlhosted/integrations/views.py:82
 msgid "Thank you for purchasing a hosting plan, it is now active."
@@ -203,7 +203,7 @@ msgstr ""
 
 #: wlhosted/integrations/views.py:102
 msgid "The payment was rejected: {}"
-msgstr "Il pagamento è stato rifiutato. {}"
+msgstr "Il pagamento è stato rifiutato: {}"
 
 #: wlhosted/integrations/views.py:103
 msgid "Unknown reason"
@@ -219,7 +219,7 @@ msgstr "Bonifico bancario con IBAN"
 
 #: wlhosted/payments/backends.py:168
 msgid "Payment card"
-msgstr "Carta pagamento"
+msgstr "Carta di pagamento"
 
 #: wlhosted/payments/models.py:91
 msgid "European VAT ID"
