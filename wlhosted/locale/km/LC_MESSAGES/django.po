@@ -7,13 +7,14 @@
 # ប៉ុកណូ រ៉ូយ៉ាល់ <royalpokno68@gmail.com>, 2020, 2022, 2025.
 # កុសិនារា <kursinarapok@gmail.com>, 2023.
 # សិទ្ធិការ្យ <setthikarpok@gmail.com>, 2024.
+# មនុញ្ញ - MᴇᴀнNսɴн <meahnunh@outlook.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2025-03-30 18:05+0000\n"
-"Last-Translator: ប៉ុកណូ រ៉ូយ៉ាល់ <royalpokno68@gmail.com>\n"
+"PO-Revision-Date: 2025-12-18 10:13+0000\n"
+"Last-Translator: មនុញ្ញ - MᴇᴀнNսɴн <meahnunh@outlook.com>\n"
 "Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/weblate/"
 "hosted/km/>\n"
 "Language: km\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.11-dev\n"
+"X-Generator: Weblate 5.15.1-dev\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -37,7 +38,7 @@ msgstr "បោះបង់ការផ្លាស់ប្តូរទាំង
 
 #: wlhosted/integrations/forms.py:38
 msgid "Billing"
-msgstr "វិក័យប័ត្រ"
+msgstr "វិក្កយបត្រ"
 
 #: wlhosted/integrations/forms.py:39
 msgid "Choose the billing plan you want to update"
@@ -49,15 +50,15 @@ msgstr "បង្កើតគម្រោងបង់ប្រាក់ថ្ម
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
 msgid "Sign in here to access our services:"
-msgstr ""
+msgstr "បញ្ជាប់ចូលទីនេះ ដើម្បីអាក់សេសសេវាកម្មរបស់យើង៖"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
 msgid "Weblate customer care portal"
-msgstr ""
+msgstr "ផតថលថែទាំអតិថិជនរបស់ Weblate"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
 msgid "Weblate commercial services management"
-msgstr ""
+msgstr "ការគ្រប់គ្រងសេវាកម្មពាណិជ្ជកម្មរបស់ Weblate"
 
 #: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
