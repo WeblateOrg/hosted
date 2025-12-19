@@ -148,7 +148,7 @@ class DebugPending(DebugPay):
     recurring = False
 
     def perform(self, request, back_url, complete_url):
-        return redirect("https://cihar.com/?url=" + complete_url)
+        return redirect(f"https://cihar.com/?url={complete_url}")
 
     def collect(self, request) -> bool:
         return True
