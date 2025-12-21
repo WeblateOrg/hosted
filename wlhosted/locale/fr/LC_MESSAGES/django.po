@@ -7,13 +7,14 @@
 # Julien Humbert <julroy67@gmail.com>, 2020, 2023, 2024.
 # Localisation Lab <ao@localizationlab.org>, 2020.
 # "S-G." <grimaitres@gmail.com>, 2025.
+# Mickaël Binos <mickaelbinos@outlook.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2025-12-03 18:00+0000\n"
-"Last-Translator: Ldm Public <ldmpub@gmail.com>\n"
+"PO-Revision-Date: 2025-12-22 15:00+0000\n"
+"Last-Translator: Mickaël Binos <mickaelbinos@outlook.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/weblate/hosted/"
 "fr/>\n"
 "Language: fr\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -57,7 +58,6 @@ msgid "Weblate customer care portal"
 msgstr "Portail du service client Weblate"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
-#, fuzzy
 msgid "Weblate commercial services management"
 msgstr "Gestion des services commerciaux Weblate"
 
