@@ -25,7 +25,7 @@ test = [
   "responses==0.25.8"
 ]
 types = [
-  "celery-types==0.23.0",
+  "celery-types==0.24.0",
   "django-stubs-ext==5.2.8",
   "django-stubs[compatible-mypy]==5.2.8",
   "mypy==1.19.1",
