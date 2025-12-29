@@ -4,21 +4,22 @@
 # Aswin Kumar <aswin464@gmail.com>, 2020.
 # Michael Timothy Notopuro 12A1-23 MT BreakThrough <mt310804@gmail.com>, 2022.
 # தமிழ்நேரம் <anishprabu.t@gmail.com>, 2024.
+# தமிழ்நேரம் <tamilneram247@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2025-02-21 11:52+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Tamil <https://hosted.weblate.org/projects/weblate/hosted/ta/"
-">\n"
+"PO-Revision-Date: 2025-12-30 01:00+0000\n"
+"Last-Translator: தமிழ்நேரம் <tamilneram247@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/weblate/hosted/ta/>"
+"\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.1-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -47,15 +48,15 @@ msgstr "புதிய பட்டியலிடல் திட்டத்�
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
 msgid "Sign in here to access our services:"
-msgstr ""
+msgstr "எங்கள் சேவைகளை அணுக இங்கே உள்நுழையவும்:"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
 msgid "Weblate customer care portal"
-msgstr ""
+msgstr "வலைபெயர்ப்பு வாடிக்கையாளர் பராமரிப்பு முன்வாயில்"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
 msgid "Weblate commercial services management"
-msgstr ""
+msgstr "வணிக சேவைகள் மேலாண்மை வலைபெயர்ப்பு"
 
 #: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
