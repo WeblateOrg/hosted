@@ -4,13 +4,14 @@
 # Weblate <noreply@weblate.org>, 2019.
 # Fabio Tomat <f.t.public@gmail.com>, 2019, 2020.
 # anonymous <noreply@weblate.org>, 2019.
+# adecorte <adecorte@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2020-08-31 18:39+0000\n"
-"Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
+"PO-Revision-Date: 2026-01-01 20:01+0000\n"
+"Last-Translator: adecorte <adecorte@gmail.com>\n"
 "Language-Team: Friulian <https://hosted.weblate.org/projects/weblate/hosted/"
 "fur/>\n"
 "Language: fur\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.2.1-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -231,10 +232,8 @@ msgid "Address"
 msgstr "Direzion"
 
 #: wlhosted/payments/models.py:117
-#, fuzzy
-#| msgid "Billing information"
 msgid "Additional address information"
-msgstr "Dâts pe fature"
+msgstr "Informazions in plui pe direzion"
 
 #: wlhosted/payments/models.py:123
 msgid "Postcode and city"
