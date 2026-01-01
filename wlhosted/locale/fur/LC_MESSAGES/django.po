@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2026-01-01 20:01+0000\n"
+"PO-Revision-Date: 2026-01-02 21:01+0000\n"
 "Last-Translator: adecorte <adecorte@gmail.com>\n"
 "Language-Team: Friulian <https://hosted.weblate.org/projects/weblate/hosted/"
 "fur/>\n"
@@ -237,13 +237,11 @@ msgstr "Informazions in plui pe direzion"
 
 #: wlhosted/payments/models.py:123
 msgid "Postcode and city"
-msgstr "CAP e citât"
+msgstr "Codiç puestâl e citât"
 
 #: wlhosted/payments/models.py:128
-#, fuzzy
-#| msgid "Postcode and city"
 msgid "Postcode"
-msgstr "CAP e citât"
+msgstr "Codiç puestâl"
 
 #: wlhosted/payments/models.py:132
 msgid "Country"
@@ -251,15 +249,15 @@ msgstr "Nazion"
 
 #: wlhosted/payments/models.py:178
 msgid "The country has to match your VAT code"
-msgstr "La nazion e scugni corispuindi al to codiç IVA"
+msgstr "La nazion e scuen corispuindi al to codiç IVA"
 
 #: wlhosted/payments/models.py:201
 msgid "Annual"
-msgstr ""
+msgstr "Anuâl"
 
 #: wlhosted/payments/models.py:202
 msgid "Biannual"
-msgstr ""
+msgstr "Bianuâl"
 
 #: wlhosted/payments/models.py:203
 msgid "Quarterly"
@@ -270,10 +268,8 @@ msgid "Monthly"
 msgstr "Mensîl"
 
 #: wlhosted/payments/models.py:205
-#, fuzzy
-#| msgid "Onetime"
 msgid "One-time"
-msgstr "Une volte"
+msgstr "Dome une volte"
 
 #: wlhosted/payments/models.py:239
 msgctxt "Payment state"
