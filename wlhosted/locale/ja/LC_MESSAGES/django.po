@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2026-01-01 20:01+0000\n"
+"PO-Revision-Date: 2026-01-02 21:01+0000\n"
 "Last-Translator: Kyotaro Iijima <kyotaro.eyes@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/weblate/hosted/"
 "ja/>\n"
@@ -55,15 +55,15 @@ msgstr "料金プランの新規作成"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
 msgid "Sign in here to access our services:"
-msgstr "ここからサインインしてサービスをご利用ください:"
+msgstr "サインインが必要な当社のサービス："
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
 msgid "Weblate customer care portal"
-msgstr "Weblate カスタマーケアポータル"
+msgstr "Weblate お客様サポート窓口"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
 msgid "Weblate commercial services management"
-msgstr "eblate 商用サービス管理"
+msgstr "Weblate 商用サービスの管理"
 
 #: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
