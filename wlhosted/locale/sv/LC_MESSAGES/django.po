@@ -5,13 +5,13 @@
 # Mattias Münster <mattiasmun@gmail.com>, 2019.
 # Michal Čihař <michal@cihar.com>, 2020.
 # tygyh <jonis9898@hotmail.com>, 2024.
-# Daniel Nylander <daniel@danielnylander.se>, 2025.
+# Daniel Nylander <daniel@danielnylander.se>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2025-11-24 16:51+0000\n"
+"PO-Revision-Date: 2026-01-06 08:01+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/weblate/hosted/"
 "sv/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -52,11 +52,11 @@ msgstr "Logga in här för att komma åt våra tjänster:"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
 msgid "Weblate customer care portal"
-msgstr ""
+msgstr "Weblate kundtjänstportal"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
 msgid "Weblate commercial services management"
-msgstr ""
+msgstr "Weblate kommersiella tjänstehantering"
 
 #: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
