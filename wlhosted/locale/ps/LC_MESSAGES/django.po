@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2026-01-04 13:01+0000\n"
+"PO-Revision-Date: 2026-01-07 10:01+0000\n"
 "Last-Translator: Shah Zaman Pathan <pafghan043@gmail.com>\n"
 "Language-Team: Pashto <https://hosted.weblate.org/projects/weblate/hosted/"
 "ps/>\n"
@@ -78,43 +78,43 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:46
 msgid "Too small"
-msgstr ""
+msgstr "ډېر کوچنی"
 
 #: wlhosted/integrations/templates/hosted/create.html:48
 msgid "Selected plan"
-msgstr ""
+msgstr "غوره شوی پلان"
 
 #: wlhosted/integrations/templates/hosted/create.html:50
 msgid "Current plan"
-msgstr ""
+msgstr "اوسنی پلان"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Hosted strings limit"
-msgstr ""
+msgstr "کوربه شوې لړۍ بريد"
 
 #: wlhosted/integrations/templates/hosted/create.html:61
 #: wlhosted/integrations/templates/hosted/create.html:71
 #: wlhosted/integrations/templates/hosted/create.html:81
 #: wlhosted/integrations/templates/hosted/create.html:91
 msgid "Unlimited"
-msgstr ""
+msgstr "بې پايه"
 
 #: wlhosted/integrations/templates/hosted/create.html:66
 msgid "Source strings limit"
-msgstr ""
+msgstr "سرچينې لړۍ بريد"
 
 #: wlhosted/integrations/templates/hosted/create.html:76
 msgid "Languages limit"
-msgstr ""
+msgstr "ژبو بريد"
 
 #: wlhosted/integrations/templates/hosted/create.html:86
 msgid "Projects limit"
-msgstr ""
+msgstr "پروژو بريد"
 
 #: wlhosted/integrations/templates/hosted/create.html:107
 #, python-format
 msgid "%(price)s EUR / month"
-msgstr ""
+msgstr "%(price)s يورو/مياشت"
 
 #: wlhosted/integrations/templates/hosted/create.html:109
 #: wlhosted/integrations/templates/hosted/create.html:120
