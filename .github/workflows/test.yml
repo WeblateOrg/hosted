@@ -46,7 +46,7 @@ jobs:
     - uses: astral-sh/setup-uv@681c641aba71e4a1c380be3ab5e12ad51f415867 # v7.1.6
       with:
         cache-suffix: test-${{ matrix.python-version }}
-        version: 0.9.21
+        version: 0.9.22
     - name: Install pip dependencies
       run: |
         uv sync --dev
