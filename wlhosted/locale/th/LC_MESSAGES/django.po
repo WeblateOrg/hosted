@@ -6,21 +6,22 @@
 # Kys Fid <kysfid830@gmail.com>, 2022.
 # 11-5 ธนพนธ์ ลําเจียก <thelazy003@gmail.com>, 2022.
 # Chaowalit Phochan <siamese.cf@gmail.com>, 2023.
+# Anusuk Sangubon <jaideejung007@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2024-05-06 11:51+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Thai <https://hosted.weblate.org/projects/weblate/hosted/th/"
-">\n"
+"PO-Revision-Date: 2026-01-13 07:20+0000\n"
+"Last-Translator: Anusuk Sangubon <jaideejung007@gmail.com>\n"
+"Language-Team: Thai <https://hosted.weblate.org/projects/weblate/hosted/th/>"
+"\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5.3\n"
+"X-Generator: Weblate 5.15.2-dev\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -199,7 +200,7 @@ msgstr ""
 
 #: wlhosted/payments/backends.py:160
 msgid "IBAN bank transfer"
-msgstr "การโอนเงินผ่านธนาคาร IBAN"
+msgstr "การโอนเงินผ่านธนาคาร (IBAN)"
 
 #: wlhosted/payments/backends.py:168
 msgid "Payment card"
@@ -207,11 +208,12 @@ msgstr "บัตรชำระเงิน"
 
 #: wlhosted/payments/models.py:91
 msgid "European VAT ID"
-msgstr "รหัส VAT ยุโรป"
+msgstr "เลขประจำตัวผู้เสียภาษี (VAT) ยุโรป"
 
 #: wlhosted/payments/models.py:93
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
-msgstr "โปรดระบุรหัส VAT ของสหภาพยุโรป ถ้าไม่มี ให้เว้นว่างไว้"
+msgstr ""
+"โปรดกรอกเลขประจำตัวผู้เสียภาษี (VAT) ของสหภาพยุโรป หรือเว้นว่างไว้หากไม่มี"
 
 #: wlhosted/payments/models.py:99
 msgid "Tax registration"
@@ -232,17 +234,15 @@ msgstr "ที่อยู่"
 
 #: wlhosted/payments/models.py:117
 msgid "Additional address information"
-msgstr ""
+msgstr "ข้อมูลที่อยู่เพิ่มเติม"
 
 #: wlhosted/payments/models.py:123
 msgid "Postcode and city"
 msgstr "รหัสไปรษณีย์และเมือง"
 
 #: wlhosted/payments/models.py:128
-#, fuzzy
-#| msgid "Postcode and city"
 msgid "Postcode"
-msgstr "รหัสไปรษณีย์และเมือง"
+msgstr "รหัสไปรษณีย์"
 
 #: wlhosted/payments/models.py:132
 msgid "Country"
@@ -250,7 +250,7 @@ msgstr "ประเทศ"
 
 #: wlhosted/payments/models.py:178
 msgid "The country has to match your VAT code"
-msgstr "ประเทศต้องตรงกับรหัส VAT ของคุณ"
+msgstr "ประเทศต้องตรงกับเลขประจำตัวผู้เสียภาษี (VAT)"
 
 #: wlhosted/payments/models.py:201
 msgid "Annual"
@@ -275,7 +275,7 @@ msgstr "ครั้งเดียว"
 #: wlhosted/payments/models.py:239
 msgctxt "Payment state"
 msgid "New payment"
-msgstr "การชำระเงินใหม่"
+msgstr "การชำระเงินรายการใหม่"
 
 #: wlhosted/payments/models.py:240
 msgctxt "Payment state"
@@ -290,20 +290,20 @@ msgstr "การชำระเงินถูกปฏิเสธ"
 #: wlhosted/payments/models.py:242
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "การชำระเงินถูกยอมรับแล้ว"
+msgstr "การชำระเงินได้รับการยอมรับ"
 
 #: wlhosted/payments/models.py:243
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "การชำระเงินถูกประมวลผลแล้ว"
+msgstr "ดำเนินการชำระเงินแล้ว"
 
 #: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
-msgstr "{} ไม่ใช่รหัสประเทศที่ถูกต้องสำหรับสมาชิกสหภาพยุโรปใด ๆ"
+msgstr "{} ไม่ใช่รหัสประเทศที่ถูกต้องสำหรับสมาชิกสหภาพยุโรป"
 
 #: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
-msgstr "{} ไม่ตรงกับคุณสมบัติรหัส VAT ของประเทศ"
+msgstr "{} ไม่ตรงตามรูปแบบเลขประจำตัวผู้เสียภาษี (VAT) ของประเทศ"
 
 #: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
@@ -311,7 +311,7 @@ msgstr "บริการตรวจสอบรหัส VAT ไม่สา�
 
 #: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
-msgstr "{} ไม่ใช่รหัส VAT ที่ถูกต้อง"
+msgstr "{} ไม่ใช่เลขประจำตัวผู้เสียภาษี (VAT) ที่ถูกต้อง"
 
 #~ msgid "Your pending payment on weblate.org"
 #~ msgstr "การชำระเงินของคุณที่ค้างอยู่บน weblate.org"
