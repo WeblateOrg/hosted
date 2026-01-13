@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2026-01-13 07:56+0000\n"
+"PO-Revision-Date: 2026-01-13 08:23+0000\n"
 "Last-Translator: Fulup Jakez <fulup.jakez@gmail.com>\n"
 "Language-Team: Breton <https://hosted.weblate.org/projects/weblate/hosted/"
 "br/>\n"
@@ -47,15 +47,15 @@ msgstr "Diuzit ar steuñv fakturenniñ da vezañ kemmet"
 
 #: wlhosted/integrations/forms.py:40
 msgid "Create new billing plan"
-msgstr ""
+msgstr "Krouiñ ur steuñv fakturenniñ nevez"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
 msgid "Sign in here to access our services:"
-msgstr ""
+msgstr "Kevreit evit gallout implijout hor servijoù :"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
 msgid "Weblate customer care portal"
-msgstr ""
+msgstr "Porched servij arvalien Weblate"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
 msgid "Weblate commercial services management"
