@@ -4,15 +4,16 @@
 # Florent <florent.grouin+osmand@gmail.com>, 2020.
 # Dren Frañchto <hadrienlouque@gmail.com>, 2022.
 # Divarrek <a.guechoum@proton.me>, 2025.
+# Fulup Jakez <fulup.jakez@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2025-09-06 17:03+0000\n"
-"Last-Translator: Divarrek <a.guechoum@proton.me>\n"
-"Language-Team: Breton <https://hosted.weblate.org/projects/weblate/hosted/br/"
-">\n"
+"PO-Revision-Date: 2026-01-13 07:56+0000\n"
+"Last-Translator: Fulup Jakez <fulup.jakez@gmail.com>\n"
+"Language-Team: Breton <https://hosted.weblate.org/projects/weblate/hosted/"
+"br/>\n"
 "Language: br\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +23,7 @@ msgstr ""
 "&& n % 100 != 92) ? 1 : ((((n % 10 == 3 || n % 10 == 4) || n % 10 == 9) && "
 "(n % 100 < 10 || n % 100 > 19) && (n % 100 < 70 || n % 100 > 79) && (n % 100 "
 "< 90 || n % 100 > 99)) ? 2 : ((n != 0 && n % 1000000 == 0) ? 3 : 4)));\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.15.2-dev\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -30,11 +31,11 @@ msgstr ""
 
 #: wlhosted/addons.py:63
 msgid "Reset repository to upstream"
-msgstr ""
+msgstr "Adweredekaat ar c'havlec'h orin"
 
 #: wlhosted/addons.py:64
 msgid "Discards all changes in the Weblate repository each night."
-msgstr ""
+msgstr "Bemnoz, disteurel an holl gemmoù graet e kavlec'h Weblate."
 
 #: wlhosted/integrations/forms.py:38
 msgid "Billing"
@@ -42,7 +43,7 @@ msgstr "Fakturenniñ"
 
 #: wlhosted/integrations/forms.py:39
 msgid "Choose the billing plan you want to update"
-msgstr ""
+msgstr "Diuzit ar steuñv fakturenniñ da vezañ kemmet"
 
 #: wlhosted/integrations/forms.py:40
 msgid "Create new billing plan"
