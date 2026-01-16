@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2026-01-02 21:01+0000\n"
+"PO-Revision-Date: 2026-01-17 16:01+0000\n"
 "Last-Translator: Kyotaro Iijima <kyotaro.eyes@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/weblate/hosted/"
 "ja/>\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.15.1\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -99,7 +99,7 @@ msgstr "現在のプラン"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Hosted strings limit"
-msgstr "ホストする文字列数の上限"
+msgstr "保存する文章数の上限"
 
 #: wlhosted/integrations/templates/hosted/create.html:61
 #: wlhosted/integrations/templates/hosted/create.html:71
@@ -123,7 +123,7 @@ msgstr "プロジェクト数の上限"
 #: wlhosted/integrations/templates/hosted/create.html:107
 #, python-format
 msgid "%(price)s EUR / month"
-msgstr "%(price)s ユーロ／月"
+msgstr "%(price)s ユーロ / 月"
 
 #: wlhosted/integrations/templates/hosted/create.html:109
 #: wlhosted/integrations/templates/hosted/create.html:120
@@ -134,7 +134,7 @@ msgstr "%(price)s ユーロ（VAT 込み）"
 #: wlhosted/integrations/templates/hosted/create.html:118
 #, python-format
 msgid "%(price)s EUR / year"
-msgstr "%(price)s ユーロ／年"
+msgstr "%(price)s ユーロ / 年"
 
 #: wlhosted/integrations/templates/hosted/create.html:131
 msgid ""
