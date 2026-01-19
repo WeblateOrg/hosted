@@ -13,7 +13,7 @@
 # Mingun <Alexander_Sergey@mail.ru>, 2020.
 # Edward Smirnov <ed@microolap.com>, 2021.
 # Ivan <goz9ae93qun@temp.mailbox.org>, 2021.
-# Blueberry <igory.ygr200@gmail.com>, 2021, 2022, 2024, 2025.
+# Blueberry <igory.ygr200@gmail.com>, 2021, 2022, 2024, 2025, 2026.
 # Темак <artemkotlubai@yandex.ru>, 2022.
 # Artemka <anonymous58630@gmail.com>, 2024.
 msgid ""
@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2025-11-21 15:51+0000\n"
+"PO-Revision-Date: 2026-01-20 08:01+0000\n"
 "Last-Translator: Blueberry <igory.ygr200@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/weblate/hosted/"
 "ru/>\n"
@@ -29,10 +29,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural="
-"(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? "
-"1 : 2);\n"
-"X-Generator: Weblate 5.15-dev\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -64,7 +63,7 @@ msgstr "Войдите здесь, чтобы получить доступ к �
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
 msgid "Weblate customer care portal"
-msgstr "Портал обслуживания клиентов Weblate"
+msgstr "Портал поддержки клиентов Weblate"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
 msgid "Weblate commercial services management"
