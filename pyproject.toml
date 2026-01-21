@@ -30,7 +30,7 @@ test = [
 types = [
   "celery-types==0.24.0",
   "django-stubs-ext==5.2.9",
-  "django-stubs[compatible-mypy]==5.2.8",
+  "django-stubs[compatible-mypy]==5.2.9",
   "mypy==1.19.1",
   "types-dateparser==1.2.2.20250809",
   "types-python-dateutil==2.9.0.20251115",
