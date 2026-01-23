@@ -5,13 +5,14 @@
 # thunhan <thunhan@gmail.com>, 2020.
 # bruh <quangtrung02hn16@gmail.com>, 2021.
 # Vũ Minh Nguyên <PiscesKaze@gmail.com>, 2025.
+# AlaxLima <thanhkhoidangngoc@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2025-04-10 07:31+0000\n"
-"Last-Translator: Vũ Minh Nguyên <PiscesKaze@gmail.com>\n"
+"PO-Revision-Date: 2026-01-23 09:30+0000\n"
+"Last-Translator: AlaxLima <thanhkhoidangngoc@gmail.com>\n"
 "Language-Team: Vietnamese <https://hosted.weblate.org/projects/weblate/"
 "hosted/vi/>\n"
 "Language: vi\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.11-dev\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -27,11 +28,11 @@ msgstr "Tạo dữ liệu ngữ cảnh của Unknown Horizons"
 
 #: wlhosted/addons.py:63
 msgid "Reset repository to upstream"
-msgstr "Đặt lại kho về thượng nguồn"
+msgstr "Đặt lại repository về thượng nguồn"
 
 #: wlhosted/addons.py:64
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Bỏ đi tất cả thay đổi trong kho Weblate vào mỗi đêm."
+msgstr "Bỏ tất cả thay đổi trong Weblate repository vào mỗi đêm."
 
 #: wlhosted/integrations/forms.py:38
 msgid "Billing"
@@ -47,15 +48,15 @@ msgstr "Tạo kế hoạch thanh toán mới"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
 msgid "Sign in here to access our services:"
-msgstr ""
+msgstr "Đăng nhập tại đây để truy cập dịch vụ của chúng tôi:"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
 msgid "Weblate customer care portal"
-msgstr ""
+msgstr "Cổng chăm sóc khách hàng Weblate"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
 msgid "Weblate commercial services management"
-msgstr ""
+msgstr "Quản lý dịch vụ thương mại Weblate"
 
 #: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
@@ -90,8 +91,6 @@ msgid "Current plan"
 msgstr "Kế hoạch hiện tại"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Hosted strings limit"
 msgstr "Giới hạn xâu"
 
@@ -103,8 +102,6 @@ msgid "Unlimited"
 msgstr "Không giới hạn"
 
 #: wlhosted/integrations/templates/hosted/create.html:66
-#, fuzzy
-#| msgid "Strings limit"
 msgid "Source strings limit"
 msgstr "Giới hạn xâu"
 
