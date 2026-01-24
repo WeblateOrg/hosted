@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2026-01-13 07:20+0000\n"
+"PO-Revision-Date: 2026-01-25 06:42+0000\n"
 "Last-Translator: Anusuk Sangubon <jaideejung007@gmail.com>\n"
 "Language-Team: Thai <https://hosted.weblate.org/projects/weblate/hosted/th/>"
 "\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.15.2-dev\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -102,7 +102,7 @@ msgstr "ขีดจำกัดสตริง"
 #: wlhosted/integrations/templates/hosted/create.html:81
 #: wlhosted/integrations/templates/hosted/create.html:91
 msgid "Unlimited"
-msgstr "ไม่มีขีดจำกัด"
+msgstr "ไม่จำกัด"
 
 #: wlhosted/integrations/templates/hosted/create.html:66
 #, fuzzy
@@ -143,18 +143,20 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:134
 msgid "All listed prices exclude VAT."
-msgstr ""
+msgstr "ราคาที่แสดงทั้งหมดยังไม่รวมภาษีมูลค่าเพิ่ม (VAT)"
 
 #: wlhosted/integrations/templates/hosted/create.html:135
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
+"ผู้ใช้ทั่วไปใน EU และบริษัทในสาธารณรัฐเช็กจะต้องเสียภาษีมูลค่าเพิ่ม (VAT) เพิ่มเติม 21%%"
 
 #: wlhosted/integrations/templates/hosted/create.html:136
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
+"ใบแจ้งหนี้ที่ออกให้กับธุรกิจภายใน EU จะใช้เกณฑ์การคิดภาษีย้อนกลับ (Reverse Charge)"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
@@ -188,11 +190,11 @@ msgstr ""
 
 #: wlhosted/integrations/views.py:102
 msgid "The payment was rejected: {}"
-msgstr ""
+msgstr "การชำระเงินถูกปฏิเสธ: {}"
 
 #: wlhosted/integrations/views.py:103
 msgid "Unknown reason"
-msgstr ""
+msgstr "ไม่ทราบสาเหตุ"
 
 #: wlhosted/integrations/views.py:119
 msgid "Payments are temporarily inactive."
