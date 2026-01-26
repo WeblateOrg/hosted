@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2026-01-23 09:30+0000\n"
+"PO-Revision-Date: 2026-01-27 04:08+0000\n"
 "Last-Translator: AlaxLima <thanhkhoidangngoc@gmail.com>\n"
 "Language-Team: Vietnamese <https://hosted.weblate.org/projects/weblate/"
 "hosted/vi/>\n"
@@ -243,10 +243,8 @@ msgid "Postcode and city"
 msgstr "Mã bưu chính và thành phố"
 
 #: wlhosted/payments/models.py:128
-#, fuzzy
-#| msgid "Postcode and city"
 msgid "Postcode"
-msgstr "Mã bưu chính và thành phố"
+msgstr "Mã bưu chính"
 
 #: wlhosted/payments/models.py:132
 msgid "Country"
