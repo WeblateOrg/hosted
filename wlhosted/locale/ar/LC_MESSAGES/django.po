@@ -11,24 +11,24 @@
 # Meno25 <meno25mail@gmail.com>, 2023.
 # سيف الباش <syfa3528@gmail.com>, 2023.
 # "Mr.k" <mineshtine28546271@gmail.com>, 2023.
-# jonnysemon <jonnysemon@users.noreply.hosted.weblate.org>, 2024, 2025.
+# jonnysemon <jonnysemon@users.noreply.hosted.weblate.org>, 2024, 2025, 2026.
 # abdelbasset jabrane <ribago9317@cubene.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2025-11-24 16:51+0000\n"
+"PO-Revision-Date: 2026-02-03 22:02+0000\n"
 "Last-Translator: jonnysemon <jonnysemon@users.noreply.hosted.weblate.org>\n"
-"Language-Team: Arabic <https://hosted.weblate.org/projects/weblate/hosted/ar/"
-">\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/weblate/hosted/"
+"ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -165,7 +165,7 @@ msgstr "ينطبق الرسم العكسي على الفواتير الصادر�
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
-msgstr "شكرا لك على الدفع ، تم دفع الفواتير الخاصة بك الآن."
+msgstr "شكرًا لك على الدفع، تم دفع فواتيرك الآن."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
@@ -177,7 +177,7 @@ msgstr "تحقق من حالة الفاتورة"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
-msgstr "تم دفع خطة الفوترة الخاصة بك"
+msgstr "تم دفع خطة فتورتك"
 
 #: wlhosted/integrations/views.py:74
 msgid "No matching payment found."
@@ -205,7 +205,7 @@ msgstr "سبب مجهول"
 
 #: wlhosted/integrations/views.py:119
 msgid "Payments are temporarily inactive."
-msgstr "لقد تم تعطيل الدفع مؤقتا."
+msgstr "لقد تم تعطيل الدفع مؤقتًا."
 
 #: wlhosted/payments/backends.py:160
 msgid "IBAN bank transfer"
