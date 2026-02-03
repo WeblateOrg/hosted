@@ -93,4 +93,5 @@ repos:
     args: [--write]
 ci:
   autoupdate_schedule: quarterly
-  skip: []
+  skip:
+  - kingfisher-auto
