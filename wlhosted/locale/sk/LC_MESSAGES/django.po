@@ -7,7 +7,7 @@
 # anonymous <noreply@weblate.org>, 2019.
 # Ivan Pleva <ivan.pleva@tutanota.com>, 2019, 2020.
 # Milan <mobrcian@hotmail.com>, 2021.
-# Peter Vančo <petervanco347@gmail.com>, 2023, 2024, 2025.
+# Peter Vančo <petervanco347@gmail.com>, 2023, 2024, 2025, 2026.
 # Michal Čihař <michal@weblate.org>, 2024.
 # Pexauteau Santander <pexauteau@gmail.com>, 2025.
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2025-12-02 14:33+0000\n"
+"PO-Revision-Date: 2026-02-07 04:01+0000\n"
 "Last-Translator: Peter Vančo <petervanco347@gmail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/weblate/hosted/"
 "sk/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -230,7 +230,9 @@ msgstr "Daňová registrácia"
 #: wlhosted/payments/models.py:101
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
-msgstr "Posím, zadajte svoje DIČ, pokiaľ ho chcete mať uvedené na faktúre."
+msgstr ""
+"Vyplňte, prosím, svoje daňové identifikačné údaje, ak sa majú zobraziť na "
+"faktúre."
 
 #: wlhosted/payments/models.py:107
 msgid "Company or individual name"
