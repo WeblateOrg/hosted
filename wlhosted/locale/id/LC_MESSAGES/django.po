@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2026-02-09 13:09+0000\n"
+"PO-Revision-Date: 2026-02-12 00:09+0000\n"
 "Last-Translator: Zahid Rizky Fakhri <zahidrizkyfakhri@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/weblate/"
 "hosted/id/>\n"
@@ -222,7 +222,7 @@ msgstr "ID PPN Eropa"
 
 #: wlhosted/payments/models.py:93
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
-msgstr "Silakan mengisi ID PPN Uni Eropa, kosongkan jika tidak berlaku."
+msgstr "Silakan isi ID PPN Uni Eropa, kosongkan jika tidak berlaku."
 
 #: wlhosted/payments/models.py:99
 msgid "Tax registration"
