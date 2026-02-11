@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2026-01-13 08:23+0000\n"
+"PO-Revision-Date: 2026-02-12 00:09+0000\n"
 "Last-Translator: Fulup Jakez <fulup.jakez@gmail.com>\n"
 "Language-Team: Breton <https://hosted.weblate.org/projects/weblate/hosted/"
 "br/>\n"
@@ -23,11 +23,11 @@ msgstr ""
 "&& n % 100 != 92) ? 1 : ((((n % 10 == 3 || n % 10 == 4) || n % 10 == 9) && "
 "(n % 100 < 10 || n % 100 > 19) && (n % 100 < 70 || n % 100 > 79) && (n % 100 "
 "< 90 || n % 100 > 99)) ? 2 : ((n != 0 && n % 1000000 == 0) ? 3 : 4)));\n"
-"X-Generator: Weblate 5.15.2-dev\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
-msgstr ""
+msgstr "Genel roadennoù senario evit dremwelioù dianav"
 
 #: wlhosted/addons.py:63
 msgid "Reset repository to upstream"
@@ -43,7 +43,7 @@ msgstr "Fakturenniñ"
 
 #: wlhosted/integrations/forms.py:39
 msgid "Choose the billing plan you want to update"
-msgstr "Diuzit ar steuñv fakturenniñ da vezañ kemmet"
+msgstr "Diuzit ar steuñv fakturenniñ da vezañ hizivaet"
 
 #: wlhosted/integrations/forms.py:40
 msgid "Create new billing plan"
@@ -51,7 +51,7 @@ msgstr "Krouiñ ur steuñv fakturenniñ nevez"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
 msgid "Sign in here to access our services:"
-msgstr "Kevreit evit gallout implijout hor servijoù :"
+msgstr "Kevreit amañ evit gallout implijout hor servijoù :"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
 msgid "Weblate customer care portal"
@@ -59,27 +59,27 @@ msgstr "Porched servij arvalien Weblate"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
 msgid "Weblate commercial services management"
-msgstr ""
+msgstr "Merañ serijoù kenwerzhel Weblate"
 
 #: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
-msgstr ""
+msgstr "Krouiñ ar steuñv fakturenniñ"
 
 #: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
-msgstr ""
+msgstr "Steuñv fakturenniñ nevez"
 
 #: wlhosted/integrations/templates/hosted/create.html:19
 msgid "Please choose a hosting plan that fits the size of your project."
-msgstr ""
+msgstr "Dibabit ur c'hinnig herberc'hiañ a glot gant ment ho raktres."
 
 #: wlhosted/integrations/templates/hosted/create.html:24
 msgid "Current billing status"
-msgstr ""
+msgstr "Statud a-vremañ ar fakturenniñ"
 
 #: wlhosted/integrations/templates/hosted/create.html:46
 msgid "Too small for your project."
-msgstr ""
+msgstr "Re vihan evit ho raktres."
 
 #: wlhosted/integrations/templates/hosted/create.html:46
 msgid "Too small"
@@ -87,44 +87,34 @@ msgstr "Re vihan"
 
 #: wlhosted/integrations/templates/hosted/create.html:48
 msgid "Selected plan"
-msgstr ""
+msgstr "Kinnig dibabet"
 
 #: wlhosted/integrations/templates/hosted/create.html:50
-#, fuzzy
-#| msgid "Current password"
 msgid "Current plan"
-msgstr "Ger-tremen en implij"
+msgstr "Kinnig a-vremañ"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
-#, fuzzy
-#| msgid "Strings to review"
 msgid "Hosted strings limit"
-msgstr "Kemennadennoù da adwelet"
+msgstr "Bevenn an niver a neudennadoù herberc'hiet"
 
 #: wlhosted/integrations/templates/hosted/create.html:61
 #: wlhosted/integrations/templates/hosted/create.html:71
 #: wlhosted/integrations/templates/hosted/create.html:81
 #: wlhosted/integrations/templates/hosted/create.html:91
 msgid "Unlimited"
-msgstr ""
+msgstr "Hep bevenn"
 
 #: wlhosted/integrations/templates/hosted/create.html:66
-#, fuzzy
-#| msgid "Strings to review"
 msgid "Source strings limit"
-msgstr "Kemennadennoù da adwelet"
+msgstr "Bevenn an niver a neudennadoù orin"
 
 #: wlhosted/integrations/templates/hosted/create.html:76
-#, fuzzy
-#| msgid "Languages"
 msgid "Languages limit"
-msgstr "Yezhoù"
+msgstr "Bevenn war ar yezhoù"
 
 #: wlhosted/integrations/templates/hosted/create.html:86
-#, fuzzy
-#| msgid "Project"
 msgid "Projects limit"
-msgstr "Raktres"
+msgstr "Bevenn war ar raktresoù"
 
 #: wlhosted/integrations/templates/hosted/create.html:107
 #, python-format
@@ -135,7 +125,7 @@ msgstr "%(price)s EUR / miz"
 #: wlhosted/integrations/templates/hosted/create.html:120
 #, python-format
 msgid "%(price)s EUR including VAT"
-msgstr ""
+msgstr "%(price)s EUR (TGO e-barzh)"
 
 #: wlhosted/integrations/templates/hosted/create.html:118
 #, python-format
@@ -148,55 +138,65 @@ msgid ""
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
+"Diazezet eo ar priz war an niver a neudennadoù orin hag a yezhoù tal. Un "
+"unvez testenn termenet en ur furmad treiñ eo a ya d'ober an neudennad orin. "
+"Gallout a ra bezañ ur ger, ur frazenn pe ur rannbennad."
 
 #: wlhosted/integrations/templates/hosted/create.html:134
 msgid "All listed prices exclude VAT."
-msgstr ""
+msgstr "Er-maez TGO emañ an holl brizioù war wel."
 
 #: wlhosted/integrations/templates/hosted/create.html:135
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
+"Fakturennet e vo holl implijerien an UE hag an embregerezhioù tchek gant un "
+"TGO ouzhpenn a sav da 21 %%."
 
 #: wlhosted/integrations/templates/hosted/create.html:136
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
+"Adpaeamant an TGO a dalvez evit ar fakturenniñ kaset da embregerezhioù an UE."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
-msgstr ""
+msgstr "Ho trugarekaat evit ar paeamant, paeet eo bet ho fakturenn."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "Sellet a ra ar steuñv fakturenniñ-mañ evit ar raktresoù da-heul :"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:19
 msgid "Check your billing status"
-msgstr ""
+msgstr "Gwiriit statud ho fakturenniñ"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
-msgstr ""
+msgstr "Paeet eo bet ho steuñv fakturenniñ"
 
 #: wlhosted/integrations/views.py:74
 msgid "No matching payment found."
-msgstr ""
+msgstr "N'eus bet kavet paeamant ebet evit se."
 
 #: wlhosted/integrations/views.py:82
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr ""
+"Ho trugarekaat evit bezañ prenet ur c'hinnig herberc'hiañ. Gweredekaet eo "
+"bet."
 
 #: wlhosted/integrations/views.py:90
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
+"Ho trugarekaat evit bezañ prenet ur c'hinnig herberc'hiañ. O c'hortoz bezañ "
+"paeet emañ ha pledet e vo gantañ en drekleur."
 
 #: wlhosted/integrations/views.py:102
 msgid "The payment was rejected: {}"
-msgstr ""
+msgstr "Distaolet eo bet ar paeamant : {}"
 
 #: wlhosted/integrations/views.py:103
 msgid "Unknown reason"
@@ -204,11 +204,11 @@ msgstr "Abeg dianav"
 
 #: wlhosted/integrations/views.py:119
 msgid "Payments are temporarily inactive."
-msgstr ""
+msgstr "Diweredekaet eo bet ar paeañ evit poent."
 
 #: wlhosted/payments/backends.py:160
 msgid "IBAN bank transfer"
-msgstr "Treuzkasadenn-vank"
+msgstr "Treuzkasadenn-vank IBAN"
 
 #: wlhosted/payments/backends.py:168
 msgid "Payment card"
@@ -216,24 +216,25 @@ msgstr "Kartenn-baeañ"
 
 #: wlhosted/payments/models.py:91
 msgid "European VAT ID"
-msgstr ""
+msgstr "ID TGO europat"
 
 #: wlhosted/payments/models.py:93
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
-msgstr ""
+msgstr "Merkit un ID TGO europat, lezit goullo ma ne zegouezh ket."
 
 #: wlhosted/payments/models.py:99
 msgid "Tax registration"
-msgstr ""
+msgstr "Niverenn delloù"
 
 #: wlhosted/payments/models.py:101
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
+"Merkit ho nivenn delloù ma fell deoc'h e teufe war wel war ar fakturennoù."
 
 #: wlhosted/payments/models.py:107
 msgid "Company or individual name"
-msgstr ""
+msgstr "Anv an hinienn pe an embregerezh"
 
 #: wlhosted/payments/models.py:112
 msgid "Address"
@@ -241,7 +242,7 @@ msgstr "Chomlec'h"
 
 #: wlhosted/payments/models.py:117
 msgid "Additional address information"
-msgstr ""
+msgstr "Titouroù chomlech ouzhpenn"
 
 #: wlhosted/payments/models.py:123
 msgid "Postcode and city"
@@ -257,74 +258,70 @@ msgstr "Bro"
 
 #: wlhosted/payments/models.py:178
 msgid "The country has to match your VAT code"
-msgstr ""
+msgstr "Ret eo d'ho kod TGO klotañ gant ar vro lakaet"
 
 #: wlhosted/payments/models.py:201
 msgid "Annual"
-msgstr ""
+msgstr "Bloaziek"
 
 #: wlhosted/payments/models.py:202
 msgid "Biannual"
-msgstr ""
+msgstr "Bep daou vloaz"
 
 #: wlhosted/payments/models.py:203
 msgid "Quarterly"
-msgstr ""
+msgstr "Bep trimiziad"
 
 #: wlhosted/payments/models.py:204
 msgid "Monthly"
-msgstr ""
+msgstr "Miziek"
 
 #: wlhosted/payments/models.py:205
 msgid "One-time"
-msgstr ""
+msgstr "Ur wech hepken"
 
 #: wlhosted/payments/models.py:239
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "Paeamant nevez"
 
 #: wlhosted/payments/models.py:240
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr ""
+msgstr "Paeamant war c'hortoz"
 
 #: wlhosted/payments/models.py:241
-#, fuzzy
-#| msgid "Payment card"
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr "Kartenn-baeañ"
+msgstr "Paeamant distaolet"
 
 #: wlhosted/payments/models.py:242
-#, fuzzy
-#| msgid "Payment card"
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr "Kartenn-baeañ"
+msgstr "Paeamant degemeret"
 
 #: wlhosted/payments/models.py:243
-#, fuzzy
-#| msgid "Payment card"
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr "Kartenn-baeañ"
+msgstr "Paeamant sevenet"
 
 #: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
-msgstr ""
+msgstr "Ne glot ar c'hod bro {} gant bro ebet eus Unaniezh Europa."
 
 #: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
-msgstr ""
+msgstr "Ne glot ket an ID TGO {} gant kod ar vro."
 
 #: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
+"Ne'z a ket en-dro servij kadarnaat an ID TGO evit {}. Klaskit en-dro "
+"diwezhatoc'hik."
 
 #: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
-msgstr ""
+msgstr "N'eo ket {} un ID TGO reizh."
 
 #, fuzzy
 #~| msgid "Project"
