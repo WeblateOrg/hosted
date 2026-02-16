@@ -76,7 +76,7 @@ repos:
   - id: shellcheck
     require_serial: true
 - repo: https://github.com/mongodb/kingfisher
-  rev: v1.82.0
+  rev: v1.83.0
   hooks:
   - id: kingfisher-auto
 - repo: https://github.com/crate-ci/typos
