@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Coool (github.com/Coool) <coool@mail.lv>, 2022.
 # "Coool (github.com/Coool)" <coool@mail.lv>, 2024.
-# "ℂ𝕠𝕠𝕠𝕝 (𝕘𝕚𝕥𝕙𝕦𝕓.𝕔𝕠𝕞/ℂ𝕠𝕠𝕠𝕝)" <coool@mail.lv>, 2025.
+# "ℂ𝕠𝕠𝕠𝕝 (𝕘𝕚𝕥𝕙𝕦𝕓.𝕔𝕠𝕞/ℂ𝕠𝕠𝕠𝕝)" <coool@mail.lv>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2025-06-07 16:48+0000\n"
+"PO-Revision-Date: 2026-02-17 18:12+0000\n"
 "Last-Translator: \"ℂ𝕠𝕠𝕠𝕝 (𝕘𝕚𝕥𝕙𝕦𝕓.𝕔𝕠𝕞/ℂ𝕠𝕠𝕠𝕝)\" <coool@mail.lv>\n"
 "Language-Team: Latvian <https://hosted.weblate.org/projects/weblate/hosted/"
 "lv/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= "
 "19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -28,7 +28,7 @@ msgstr "Ģenerēt scenāriju datus nezināmiem laika periodiem"
 #: wlhosted/addons.py:63
 msgid "Reset repository to upstream"
 msgstr ""
-"Atiestatīt repozitoriju tā sākotnējā stāvoklī, pa pamatu ņemot izejas koda "
+"Atiestatīt repozitoriju tā sākotnējā stāvoklī, pa pamatu ņemot pirmkoda "
 "repozitoriju"
 
 #: wlhosted/addons.py:64
@@ -49,15 +49,15 @@ msgstr "Izveidot jaunu rēķina plānu"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
 msgid "Sign in here to access our services:"
-msgstr ""
+msgstr "Piesakieties šeit, lai piekļūtu mūsu pakalpojumiem:"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
 msgid "Weblate customer care portal"
-msgstr ""
+msgstr "Weblate klientu atbalsta portāls"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
 msgid "Weblate commercial services management"
-msgstr ""
+msgstr "Weblate komercpakalpojumu pārvaldība"
 
 #: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
@@ -304,7 +304,9 @@ msgstr "Maksājums apstrādāts"
 
 #: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
-msgstr "{} nav derīgs ES dalībvalsts kods."
+msgstr ""
+"{} nederīgs valsts kods, jo neatbilst nevienai Eiropas Savienības "
+"dalībvalstij."
 
 #: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
