@@ -71,7 +71,7 @@ def recurring_payments() -> None:
             .select_for_update()
             .prefetch()
         ):
-            if "recurring" not in billing.payment:
+            if "recurring" not in billing.payment or not billing.plan.price:
                 # No recurring payment
                 continue
             last_invoice = billing.invoice_set.order_by("-start")[0]
