@@ -18,13 +18,13 @@ pre-commit = [
   "prek==0.3.3"
 ]
 test = [
+  "coverage==7.13.4",
   "pytest-cov==7.0.0",
   "pytest-django==4.12.0",
   "pytest-github-actions-annotate-failures==0.3.0",
   "pytest-profiling==1.8.1",
   "pytest-xdist==3.8.0",
   "pytest==9.0.2",
-  "coverage==7.13.4",
   "responses==0.26.0"
 ]
 types = [
@@ -45,24 +45,24 @@ classifiers = [
   "Intended Audience :: Developers",
   "Intended Audience :: System Administrators",
   "Operating System :: OS Independent",
-  "Programming Language :: Python",
-  "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3.12",
   "Programming Language :: Python :: 3.13",
   "Programming Language :: Python :: 3.14",
-  "Topic :: Software Development :: Internationalization",
-  "Topic :: Software Development :: Localization",
+  "Programming Language :: Python",
+  "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
   "Topic :: Internet :: WWW/HTTP",
-  "Topic :: Internet :: WWW/HTTP :: Dynamic Content"
+  "Topic :: Software Development :: Internationalization",
+  "Topic :: Software Development :: Localization"
 ]
 dependencies = [
-  "Django>=5.2,<6.1",
-  "mysqlclient>=2.1.1,<3",
   "django-appconf>=1.0",
   "django-countries==8.2.0",
   "django-vies==6.3.0",
+  "Django>=5.2,<6.1",
   "fakturace==0.7.2",
+  "mysqlclient>=2.1.1,<3",
   "psycopg[binary]",
   "python-dateutil",
   "requests",
@@ -70,10 +70,10 @@ dependencies = [
 ]
 description = "Hosted Weblate Customization"
 keywords = [
-  "i18n",
-  "l10n",
   "gettext",
   "git",
+  "i18n",
+  "l10n",
   "mercurial",
   "translate"
 ]
@@ -101,16 +101,16 @@ Twitter = "https://twitter.com/WeblateOrg"
 
 [tool.check-manifest]
 ignore = [
-  "LICENSES/*",
-  "json/*",
-  ".reuse/dep5",
-  "scripts/*",
-  "*.toml",
-  "*.yml",
-  "*.yaml",
   "*.json",
+  "*.toml",
+  "*.yaml",
+  "*.yml",
   ".editorconfig",
-  ".weblate"
+  ".reuse/dep5",
+  ".weblate",
+  "json/*",
+  "LICENSES/*",
+  "scripts/*"
 ]
 
 [tool.check-wheel-contents]
@@ -126,24 +126,24 @@ source = [
 [tool.coverage.report]
 exclude_also = [
   "@(abc\\.)?abstractmethod",
-  # Have to re-enable the standard pragma
-  "pragma: no cover",
   # Don't complain about missing debug-only code:
   "def __repr__",
-  "if self\\.debug",
-  # Don't complain if tests don't hit defensive assertion code:
-  "raise AssertionError",
-  "raise NotImplementedError",
   # Don't complain if non-runnable code isn't run:
   "if 0:",
   "if __name__ == .__main__.:",
+  "if self\\.debug",
   # Type checking
-  "if TYPE_CHECKING:"
+  "if TYPE_CHECKING:",
+  # Have to re-enable the standard pragma
+  "pragma: no cover",
+  # Don't complain if tests don't hit defensive assertion code:
+  "raise AssertionError",
+  "raise NotImplementedError"
 ]
 
 [tool.coverage.run]
 branch = true
-concurrency = ["thread", "multiprocessing"]
+concurrency = ["multiprocessing", "thread"]
 omit = [
   ".venv*/*"
 ]
@@ -181,14 +181,14 @@ plugins = [
 disallow_untyped_defs = true
 ignore_missing_imports = true
 module = [
-  "vies.*",
-  "appconf.*"
+  "appconf.*",
+  "vies.*"
 ]
 
 [tool.pytest.ini_options]
+addopts = "--reuse-db --cov=wlhosted --cov-report= --durations=20 --durations-min=2 --ignore=data --ignore=data-test --ignore=dev-docker --ignore=scripts"
 DJANGO_SETTINGS_MODULE = "wlhosted.settings_test"
 FAIL_INVALID_TEMPLATE_VARS = true
-addopts = "--reuse-db --cov=wlhosted --cov-report= --durations=20 --durations-min=2 --ignore=data --ignore=data-test --ignore=dev-docker --ignore=scripts"
 python_files = ["test_*.py", "tests.py"]
 
 [tool.ruff]
@@ -210,31 +210,6 @@ extend-safe-fixes = [
 ]
 future-annotations = true
 ignore = [
-  "D10",  # TODO: we are missing many docstrings
-  "D203",  # CONFIG: incompatible with D211
-  "D212",  # CONFIG: incompatible with D213
-  "ISC001",  # CONFIG: formatter
-  "D401",  # TODO: many strings need rephrasing
-  "DJ001",  # TODO: Avoid using `null=True` on string-based fields such as CharField (maybe add noqa)
-  "E501",  # WONTFIX: we accept long strings (rest is formatted by black)
-  "T201",  # WONTFIX: using print() (maybe add noqa)
-  "TRY003",  # WONTFIX: Avoid specifying long messages outside the exception class
-  "PLR2004",  # TODO: Magic value used in comparison, consider replacing 201 with a constant variable
-  "PLW2901",  # TODO: overwriting variables inside loop
-  "N818",  # TODO: exception naming
-  "COM",  # CONFIG: No trailing commas
-  "PTH",  # TODO: Not using pathlib
-  "FBT",  # TODO: Boolean in function definition
-  "TD002",  # CONFIG: no detailed TODO documentation is required
-  "TD003",  # CONFIG: no detailed TODO documentation is required
-  "PT",  # CONFIG: Not using pytest
-  "EM101",  # TODO: Exception must not use a string literal, assign to variable first
-  "EM102",  # TODO: Exception must not use an f-string literal, assign to variable first
-  "ARG001",  # TODO: Unused function argument (mostly for API compatibility)
-  "ARG002",  # TODO: Unused method argument (mostly for API compatibility)
-  "ARG003",  # TODO: Unused class method argument (mostly for API compatibility)
-  "FIX002",  # CONFIG: we use TODO
-  "RUF012",  # TODO: Mutable class attributes should be annotated with `typing.ClassVar`
   "ANN001",  # TODO: Missing type annotation for function argument
   "ANN002",  # TODO: Missing type annotation for `*args`
   "ANN003",  # TODO: Missing type annotation for `**kwargs`
@@ -243,7 +218,32 @@ ignore = [
   "ANN204",  # TODO: Missing return type annotation for special method
   "ANN205",  # TODO: Missing return type annotation for staticmethod
   "ANN206",  # TODO: Missing return type annotation for classmethod
-  "SLF001"  # TODO: Private member accessed (might need noqa tags)
+  "ARG001",  # TODO: Unused function argument (mostly for API compatibility)
+  "ARG002",  # TODO: Unused method argument (mostly for API compatibility)
+  "ARG003",  # TODO: Unused class method argument (mostly for API compatibility)
+  "COM",  # CONFIG: No trailing commas
+  "D10",  # TODO: we are missing many docstrings
+  "D203",  # CONFIG: incompatible with D211
+  "D212",  # CONFIG: incompatible with D213
+  "D401",  # TODO: many strings need rephrasing
+  "DJ001",  # TODO: Avoid using `null=True` on string-based fields such as CharField (maybe add noqa)
+  "E501",  # WONTFIX: we accept long strings (rest is formatted by black)
+  "EM101",  # TODO: Exception must not use a string literal, assign to variable first
+  "EM102",  # TODO: Exception must not use an f-string literal, assign to variable first
+  "FBT",  # TODO: Boolean in function definition
+  "FIX002",  # CONFIG: we use TODO
+  "ISC001",  # CONFIG: formatter
+  "N818",  # TODO: exception naming
+  "PLR2004",  # TODO: Magic value used in comparison, consider replacing 201 with a constant variable
+  "PLW2901",  # TODO: overwriting variables inside loop
+  "PT",  # CONFIG: Not using pytest
+  "PTH",  # TODO: Not using pathlib
+  "RUF012",  # TODO: Mutable class attributes should be annotated with `typing.ClassVar`
+  "SLF001",  # TODO: Private member accessed (might need noqa tags)
+  "T201",  # WONTFIX: using print() (maybe add noqa)
+  "TD002",  # CONFIG: no detailed TODO documentation is required
+  "TD003",  # CONFIG: no detailed TODO documentation is required
+  "TRY003"  # WONTFIX: Avoid specifying long messages outside the exception class
 ]
 select = ["ALL"]
 
@@ -262,6 +262,13 @@ hosted = "hosted"
 
 [tool.setuptools.packages.find]
 namespaces = true
+
+[tool.tomlsort]
+ignore_case = true
+sort_inline_arrays = true
+sort_inline_tables = true
+sort_table_keys = true
+spaces_before_inline_comment = 2
 
 [tool.typos.files]
 extend-exclude = [
