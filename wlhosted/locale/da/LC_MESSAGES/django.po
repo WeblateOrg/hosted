@@ -12,21 +12,22 @@
 # cat <158170307+cultcats@users.noreply.github.com>, 2024.
 # Luna <social.pvxuu@slmail.me>, 2024.
 # cat <catsnote@proton.me>, 2025.
+# symegac <97731141+symegac@users.noreply.github.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2025-06-03 00:03+0000\n"
-"Last-Translator: cat <catsnote@proton.me>\n"
-"Language-Team: Danish <https://hosted.weblate.org/projects/weblate/hosted/da/"
-">\n"
+"PO-Revision-Date: 2026-03-01 10:09+0000\n"
+"Last-Translator: symegac <97731141+symegac@users.noreply.github.com>\n"
+"Language-Team: Danish <https://hosted.weblate.org/projects/weblate/hosted/"
+"da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -54,11 +55,11 @@ msgstr "Opret ny betalingsplan"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
 msgid "Sign in here to access our services:"
-msgstr ""
+msgstr "Log ind her for at tilgå vores tjenester:"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
 msgid "Weblate customer care portal"
-msgstr ""
+msgstr "Weblate kundeserviceportal"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
 msgid "Weblate commercial services management"
