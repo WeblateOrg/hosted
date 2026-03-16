@@ -15,7 +15,7 @@ lint = [
   {include-group = "pre-commit"}
 ]
 pre-commit = [
-  "prek==0.3.5"
+  "prek==0.3.6"
 ]
 test = [
   "coverage==7.13.4",
