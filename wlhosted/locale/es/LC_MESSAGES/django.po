@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2026-03-05 21:09+0000\n"
+"PO-Revision-Date: 2026-03-28 10:09+0000\n"
 "Last-Translator: Francisco Serrador <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/weblate/hosted/"
 "es/>\n"
@@ -118,7 +118,7 @@ msgstr "Límite de proyectos"
 #: wlhosted/integrations/templates/hosted/create.html:107
 #, python-format
 msgid "%(price)s EUR / month"
-msgstr "%(price)s euros / mes"
+msgstr "%(price)s EUR / mes"
 
 #: wlhosted/integrations/templates/hosted/create.html:109
 #: wlhosted/integrations/templates/hosted/create.html:120
@@ -214,12 +214,12 @@ msgstr "Tarjeta de pago"
 
 #: wlhosted/payments/models.py:91
 msgid "European VAT ID"
-msgstr "Id. de IVA europeo"
+msgstr "ID IVA europeo"
 
 #: wlhosted/payments/models.py:93
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
-"Rellene con el número de IVA de la Unión Europea; déjelo en blanco si no es "
+"Rellene con el ID de IVA de la Unión Europea; déjelo en blanco si no es "
 "aplicable."
 
 #: wlhosted/payments/models.py:99
