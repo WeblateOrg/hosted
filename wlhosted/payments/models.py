@@ -136,6 +136,7 @@ class Customer(models.Model):
         max_length=190,
         validators=[validate_email],
     )
+    upcoming_payment_notification_days = models.PositiveIntegerField(default=0)
     origin = models.URLField(max_length=300)
     user_id = models.IntegerField()
     end_client = models.CharField(
