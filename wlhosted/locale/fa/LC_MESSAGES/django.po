@@ -9,13 +9,14 @@
 # Mohammad <ma99993711@gmail.com>, 2022.
 # *Sociologist Abedi* <sociologist.abedi@gmail.com>, 2022.
 # Danial Behzadi <dani.behzi@ubuntu.com>, 2023.
+# Soheil Khanalipur <soheil@disroot.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
 "PO-Revision-Date: 2026-04-02 15:09+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Last-Translator: Soheil Khanalipur <soheil@disroot.org>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/weblate/hosted/"
 "fa/>\n"
 "Language: fa\n"
@@ -299,7 +300,7 @@ msgstr "پرداخت پذیرفته شد"
 #: wlhosted/payments/models.py:243
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr ""
+msgstr "پرداخت پردازش شد"
 
 #: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
