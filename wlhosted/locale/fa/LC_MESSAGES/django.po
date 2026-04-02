@@ -14,8 +14,8 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2023-11-27 21:02+0000\n"
-"Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
+"PO-Revision-Date: 2026-04-02 15:09+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/weblate/hosted/"
 "fa/>\n"
 "Language: fa\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -213,7 +213,7 @@ msgstr "کارت پرداخت"
 
 #: wlhosted/payments/models.py:91
 msgid "European VAT ID"
-msgstr ""
+msgstr "اروپایی VAT ID"
 
 #: wlhosted/payments/models.py:93
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
@@ -230,7 +230,7 @@ msgstr ""
 
 #: wlhosted/payments/models.py:107
 msgid "Company or individual name"
-msgstr ""
+msgstr "نام شرکت یا شخص"
 
 #: wlhosted/payments/models.py:112
 msgid "Address"
@@ -254,19 +254,19 @@ msgstr "کشور"
 
 #: wlhosted/payments/models.py:178
 msgid "The country has to match your VAT code"
-msgstr ""
+msgstr "کشور باید با کد VAT تطابق داشته باشد"
 
 #: wlhosted/payments/models.py:201
 msgid "Annual"
-msgstr ""
+msgstr "سالانه"
 
 #: wlhosted/payments/models.py:202
 msgid "Biannual"
-msgstr ""
+msgstr "دوساله"
 
 #: wlhosted/payments/models.py:203
 msgid "Quarterly"
-msgstr ""
+msgstr "فصلی"
 
 #: wlhosted/payments/models.py:204
 msgid "Monthly"
@@ -274,17 +274,17 @@ msgstr "ماهانه"
 
 #: wlhosted/payments/models.py:205
 msgid "One-time"
-msgstr ""
+msgstr "یک بار"
 
 #: wlhosted/payments/models.py:239
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "پرداخت جدید"
 
 #: wlhosted/payments/models.py:240
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr ""
+msgstr "منتظر پرداخت"
 
 #: wlhosted/payments/models.py:241
 msgctxt "Payment state"
