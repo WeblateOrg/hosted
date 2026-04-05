@@ -9,13 +9,14 @@
 # hugoalh <hugoalh@users.noreply.hosted.weblate.org>, 2024.
 # Supaplex <bejokeup@gmail.com>, 2024.
 # EESF-2 <eesf-2@users.noreply.hosted.weblate.org>, 2026.
+# UDP <udp@users.noreply.hosted.weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2026-03-30 10:09+0000\n"
-"Last-Translator: EESF-2 <eesf-2@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2026-04-05 06:50+0000\n"
+"Last-Translator: UDP <udp@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/weblate/hosted/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -204,7 +205,7 @@ msgstr "IBAN 銀行電匯"
 
 #: wlhosted/payments/backends.py:168
 msgid "Payment card"
-msgstr "付帳卡"
+msgstr "付款卡"
 
 #: wlhosted/payments/models.py:91
 msgid "European VAT ID"
