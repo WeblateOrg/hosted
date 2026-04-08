@@ -7,13 +7,15 @@
 # 11-5 ธนพนธ์ ลําเจียก <thelazy003@gmail.com>, 2022.
 # Chaowalit Phochan <siamese.cf@gmail.com>, 2023.
 # Anusuk Sangubon <jaideejung007@gmail.com>, 2026.
+# Ball Ball <balloon_spongebob@users.noreply.hosted.weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2026-01-25 06:42+0000\n"
-"Last-Translator: Anusuk Sangubon <jaideejung007@gmail.com>\n"
+"PO-Revision-Date: 2026-04-09 04:09+0000\n"
+"Last-Translator: Ball Ball "
+"<balloon_spongebob@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Thai <https://hosted.weblate.org/projects/weblate/hosted/th/>"
 "\n"
 "Language: th\n"
@@ -21,11 +23,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
-msgstr "สร้างข้อมูลเหตุการณ์ขอบฟ้าที่ไม่รู้จัก"
+msgstr "สร้างข้อมูลเหตุการณ์ขอบเขตที่ไม่รู้จัก"
 
 #: wlhosted/addons.py:63
 msgid "Reset repository to upstream"
