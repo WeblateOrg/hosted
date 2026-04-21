@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Pêşeroja paşerojê <cyax1@protonmail.com>, 2022.
+# CYAXXX <85353920+CYAXXX@users.noreply.github.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2022-01-15 12:55+0000\n"
-"Last-Translator: Pêşeroja paşerojê <cyax1@protonmail.com>\n"
+"PO-Revision-Date: 2026-04-22 22:09+0000\n"
+"Last-Translator: CYAXXX <85353920+CYAXXX@users.noreply.github.com>\n"
 "Language-Team: Kurdish (Northern) <https://hosted.weblate.org/projects/"
 "weblate/hosted/kmr/>\n"
 "Language: kmr\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -244,7 +245,7 @@ msgstr ""
 
 #: wlhosted/payments/models.py:201
 msgid "Annual"
-msgstr ""
+msgstr "Salane"
 
 #: wlhosted/payments/models.py:202
 msgid "Biannual"
@@ -256,7 +257,7 @@ msgstr ""
 
 #: wlhosted/payments/models.py:204
 msgid "Monthly"
-msgstr ""
+msgstr "Mehane"
 
 #: wlhosted/payments/models.py:205
 msgid "One-time"
