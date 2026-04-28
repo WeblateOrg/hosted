@@ -7,13 +7,14 @@
 # ButterflyOfFire <ButterflyOfFire@protonmail.com>, 2018.
 # Kurt Eilertsen <kurt@kheds.com>, 2018.
 # Michal Čihař <michal@cihar.com>, 2019.
+# Frank Paul Silye <frankps@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2024-07-29 16:09+0000\n"
-"Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
+"PO-Revision-Date: 2026-04-28 18:09+0000\n"
+"Last-Translator: Frank Paul Silye <frankps@gmail.com>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/weblate/"
 "hosted/nb_NO/>\n"
 "Language: nb\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -49,15 +50,15 @@ msgstr "Opprett ny betalingsplan"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
 msgid "Sign in here to access our services:"
-msgstr ""
+msgstr "\"Logg inn her for å få tilgang til tjenestene våre:"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
 msgid "Weblate customer care portal"
-msgstr ""
+msgstr "Weblate portal for kundestøtte"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
 msgid "Weblate commercial services management"
-msgstr ""
+msgstr "Weblate kommersiell tjenesteforvaltning"
 
 #: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
@@ -236,20 +237,16 @@ msgid "Address"
 msgstr "Adresse"
 
 #: wlhosted/payments/models.py:117
-#, fuzzy
-#| msgid "Billing information"
 msgid "Additional address information"
-msgstr "Faktureringsinformasjon"
+msgstr "Ekstra adresseinformasjon"
 
 #: wlhosted/payments/models.py:123
 msgid "Postcode and city"
 msgstr "Postnummer og sted"
 
 #: wlhosted/payments/models.py:128
-#, fuzzy
-#| msgid "Postcode and city"
 msgid "Postcode"
-msgstr "Postnummer og sted"
+msgstr "Postnummer"
 
 #: wlhosted/payments/models.py:132
 msgid "Country"
@@ -306,7 +303,7 @@ msgstr "Betaling behandlet"
 
 #: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
-msgstr "{} er ikke en gyldig landskode for noe EU-medlemsland."
+msgstr "{} er ikke en gyldig landskode for noe EU-land."
 
 #: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
