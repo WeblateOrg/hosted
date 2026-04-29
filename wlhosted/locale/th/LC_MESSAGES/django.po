@@ -8,14 +8,14 @@
 # Chaowalit Phochan <siamese.cf@gmail.com>, 2023.
 # Anusuk Sangubon <jaideejung007@gmail.com>, 2026.
 # Ball Ball <balloon_spongebob@users.noreply.hosted.weblate.org>, 2026.
+# Anucha Hlownonkor <anucha.initdz@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2026-04-09 04:09+0000\n"
-"Last-Translator: Ball Ball "
-"<balloon_spongebob@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2026-04-30 08:25+0000\n"
+"Last-Translator: Anucha Hlownonkor <anucha.initdz@gmail.com>\n"
 "Language-Team: Thai <https://hosted.weblate.org/projects/weblate/hosted/th/>"
 "\n"
 "Language: th\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17-dev\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -51,15 +51,15 @@ msgstr "สร้างแผนการเรียกเก็บเงิน
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
 msgid "Sign in here to access our services:"
-msgstr ""
+msgstr "ลงชื่อเข้าใช้ที่นี่เพื่อเข้าใช้บริการของเรา:"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
 msgid "Weblate customer care portal"
-msgstr ""
+msgstr "พอร์ทัลบริการลูกค้าของ Weblate"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
 msgid "Weblate commercial services management"
-msgstr ""
+msgstr "การจัดการบริการเชิงพาณิชย์ของ Weblate"
 
 #: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
