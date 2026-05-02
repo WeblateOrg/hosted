@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2026-02-07 04:01+0000\n"
+"PO-Revision-Date: 2026-05-02 10:09+0000\n"
 "Last-Translator: Peter Vančo <petervanco347@gmail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/weblate/hosted/"
 "sk/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.16-dev\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -32,11 +32,11 @@ msgstr "Generovať scenárové údaje pre hru Unknown Horizons"
 
 #: wlhosted/addons.py:63
 msgid "Reset repository to upstream"
-msgstr "Resetovať odkladací priestor na upstream"
+msgstr "Obnoviť repozitár na upstream"
 
 #: wlhosted/addons.py:64
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Každú noc odstráni všetky zmeny v úložisku Weblate."
+msgstr "Zahodí všetky zmeny v repozitári Weblate každú noc."
 
 #: wlhosted/integrations/forms.py:38
 msgid "Billing"
@@ -92,7 +92,7 @@ msgstr "Vybraný balík"
 
 #: wlhosted/integrations/templates/hosted/create.html:50
 msgid "Current plan"
-msgstr "Súčasný balíček"
+msgstr "Aktuálny plán"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Hosted strings limit"
@@ -111,7 +111,7 @@ msgstr "Limit zdrojových reťazcov"
 
 #: wlhosted/integrations/templates/hosted/create.html:76
 msgid "Languages limit"
-msgstr "Počet jazykov"
+msgstr "Limit jazykov"
 
 #: wlhosted/integrations/templates/hosted/create.html:86
 msgid "Projects limit"
@@ -172,7 +172,7 @@ msgstr "Toto predplatné zahŕňa nasledujúce projekty:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:19
 msgid "Check your billing status"
-msgstr "Skontrolujte si stav fakturácie"
+msgstr "Skontrolujte svoj stav fakturácie"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
@@ -280,7 +280,7 @@ msgstr "Mesačne"
 
 #: wlhosted/payments/models.py:205
 msgid "One-time"
-msgstr "Jednorazovo"
+msgstr "Jednorazové"
 
 #: wlhosted/payments/models.py:239
 msgctxt "Payment state"
