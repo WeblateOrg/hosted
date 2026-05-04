@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2026-05-03 20:09+0000\n"
+"PO-Revision-Date: 2026-05-05 15:11+0000\n"
 "Last-Translator: Peter Vančo <petervanco347@gmail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/weblate/hosted/"
 "sk/>\n"
@@ -36,7 +36,7 @@ msgstr "Obnoviť repozitár na upstream"
 
 #: wlhosted/addons.py:64
 msgid "Discards all changes in the Weblate repository each night."
-msgstr "Zahodí všetky zmeny v repozitári Weblate každú noc."
+msgstr "Každú noc zahodí všetky zmeny v repozitári Weblate."
 
 #: wlhosted/integrations/forms.py:38
 msgid "Billing"
