@@ -15,13 +15,14 @@
 # Christian Eichert <c@zp1.net>, 2021.
 # VfBFan <drop0815@posteo.de>, 2023, 2025.
 # VfBFan <VfBFan@users.noreply.hosted.weblate.org>, 2023, 2024.
+# VfBFan <vfbfan@users.noreply.hosted.weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2025-12-21 11:00+0000\n"
-"Last-Translator: VfBFan <drop0815@posteo.de>\n"
+"PO-Revision-Date: 2026-05-08 09:11+0000\n"
+"Last-Translator: VfBFan <vfbfan@users.noreply.hosted.weblate.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/weblate/hosted/"
 "de/>\n"
 "Language: de\n"
@@ -29,7 +30,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.1\n"
+"X-Generator: Weblate 2026.5-dev\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -160,7 +161,7 @@ msgstr ""
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
-"EU-Endverbrauchern und tschechischen Unternehmen werden zusätzlich 21%% "
+"EU-Endverbrauchern und tschechischen Unternehmen werden zusätzlich 21 %% "
 "Mehrwertsteuer berechnet."
 
 #: wlhosted/integrations/templates/hosted/create.html:136
