@@ -39,6 +39,8 @@ from wlhosted.payments.validators import validate_vatin
 if TYPE_CHECKING:
     from datetime import datetime
 
+    from django_countries.fields import Country
+
 EU_VAT_RATES = {
     "BE": 21,
     "BG": 20,
@@ -127,7 +129,7 @@ class Customer(models.Model):
         default="",
         verbose_name=gettext_lazy("Postcode"),
     )
-    country = CountryField(
+    country: Country = CountryField(
         default="",
         verbose_name=gettext_lazy("Country"),
     )
