@@ -19,7 +19,7 @@
 from __future__ import annotations
 
 import uuid
-from typing import TYPE_CHECKING, Literal
+from typing import TYPE_CHECKING, Literal, cast
 
 from appconf import AppConf
 from dateutil.relativedelta import relativedelta
@@ -40,6 +40,7 @@ if TYPE_CHECKING:
     from datetime import datetime
 
     from django_countries.fields import Country
+
 
 EU_VAT_RATES = {
     "BE": 21,
@@ -129,7 +130,7 @@ class Customer(models.Model):
         default="",
         verbose_name=gettext_lazy("Postcode"),
     )
-    country: Country = CountryField(
+    country = CountryField(
         default="",
         verbose_name=gettext_lazy("Country"),
     )
@@ -163,8 +164,9 @@ class Customer(models.Model):
 
     @property
     def country_code(self):
-        if self.country:
-            return self.country.code.upper()
+        country = cast("Country", self.country)
+        if country and country.code:
+            return country.code.upper()
         return None
 
     @property
