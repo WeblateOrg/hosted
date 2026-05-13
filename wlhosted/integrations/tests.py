@@ -21,18 +21,30 @@ from time import sleep
 
 import responses
 from dateutil.relativedelta import relativedelta
+from django.contrib.auth.hashers import make_password
 from django.core import mail
 from django.test import TestCase
 from django.test.utils import override_settings
 from django.urls import reverse
 from django.utils import timezone
+from weblate.auth.models import User
 from weblate.billing.models import Billing, Invoice, Plan
 from weblate.trans.models import Project
-from weblate.trans.tests.utils import create_test_user
 
 from wlhosted.integrations.tasks import pending_payments, recurring_payments
 from wlhosted.payments.backends import get_backend
 from wlhosted.payments.models import Customer, Payment
+
+TESTPASSWORD = make_password("testpassword")
+
+
+def create_test_user() -> User:
+    return User.objects.create(
+        username="testuser",
+        email="weblate@example.org",
+        password=TESTPASSWORD,
+        full_name="Weblate Test",
+    )
 
 
 class PaymentTest(TestCase):
