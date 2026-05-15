@@ -32,11 +32,11 @@ jobs:
     - name: pydistcheck
       run: uvx pydistcheck --inspect dist/*
     - name: pyroma
-      run: uvx --with pip pyroma dist/*.tar.gz
+      run: uvx pyroma dist/*.tar.gz
     - name: check-wheel-contents
       run: uvx check-wheel-contents dist/*.whl
     - name: check-manifest
-      run: uvx --with pip check-manifest -v
+      run: uvx check-manifest -v
     - name: Publish package
       if: github.event_name == 'push' && startsWith(github.event.ref, 'refs/tags')
       run: uv publish --trusted-publishing always
