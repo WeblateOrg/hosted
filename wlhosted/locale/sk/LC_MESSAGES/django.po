@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2026-05-05 15:11+0000\n"
+"PO-Revision-Date: 2026-05-20 01:11+0000\n"
 "Last-Translator: Peter Vančo <petervanco347@gmail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/weblate/hosted/"
 "sk/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.17.1\n"
+"X-Generator: Weblate 2026.6.dev0\n"
 
 #: wlhosted/addons.py:40 wlhosted/addons.py:41
 msgid "Generate Unknown Horizons scenario data"
@@ -32,7 +32,7 @@ msgstr "Generovať scenárové údaje pre hru Unknown Horizons"
 
 #: wlhosted/addons.py:63
 msgid "Reset repository to upstream"
-msgstr "Obnoviť repozitár na upstream"
+msgstr "Obnoviť na hlavný repozitár"
 
 #: wlhosted/addons.py:64
 msgid "Discards all changes in the Weblate repository each night."
