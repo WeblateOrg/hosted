@@ -100,6 +100,7 @@ class Customer(models.Model):
     vat_validated = models.DateTimeField(blank=True, null=True, db_index=True)
     vat_validation_state = models.PositiveSmallIntegerField(
         db_index=True,
+        default=0,
     )
     vat_validation_error = models.JSONField(
         default=dict, blank=True, encoder=DjangoJSONEncoder
