@@ -90,11 +90,19 @@ class Customer(models.Model):
     vat = VATINField(
         validators=[validate_vatin],
         blank=True,
+        null=True,
         default="",
         verbose_name=gettext_lazy("European VAT ID"),
         help_text=gettext_lazy(
             "Please fill in European Union VAT ID, leave blank if not applicable."
         ),
+    )
+    vat_validated = models.DateTimeField(blank=True, null=True, db_index=True)
+    vat_validation_state = models.PositiveSmallIntegerField(
+        db_index=True,
+    )
+    vat_validation_error = models.JSONField(
+        default=dict, blank=True, encoder=DjangoJSONEncoder
     )
     tax = models.CharField(
         max_length=200,
@@ -222,6 +230,7 @@ class Payment(models.Model):
     CURRENCY_BTC = 1
     CURRENCY_USD = 2
     CURRENCY_CZK = 3
+    CURRENCY_GBP = 4
 
     uuid = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     amount = models.IntegerField()
@@ -231,6 +240,7 @@ class Payment(models.Model):
             (CURRENCY_BTC, "BTC"),
             (CURRENCY_USD, "USD"),
             (CURRENCY_CZK, "CZK"),
+            (CURRENCY_GBP, "GBP"),
         ),
         default=CURRENCY_EUR,
     )
@@ -255,14 +265,15 @@ class Payment(models.Model):
     details = models.JSONField(default=dict, blank=True, encoder=DjangoJSONEncoder)
     # Payment extra information from the origin
     extra = models.JSONField(default=dict, blank=True, encoder=DjangoJSONEncoder)
-    customer = models.ForeignKey(Customer, on_delete=models.deletion.CASCADE)
+    customer = models.ForeignKey(Customer, on_delete=models.deletion.PROTECT)
     repeat = models.ForeignKey(
-        "Payment", on_delete=models.deletion.CASCADE, null=True, blank=True
+        "Payment", on_delete=models.deletion.PROTECT, null=True, blank=True
     )
     invoice = models.CharField(max_length=20, blank=True, default="")
     amount_fixed = models.BooleanField(blank=True, default=False)
     start = models.DateField(blank=True, null=True)
     end = models.DateField(blank=True, null=True)
+    card_info = models.JSONField(default=dict, blank=True)
 
     class Meta:
         ordering = ["-created"]
