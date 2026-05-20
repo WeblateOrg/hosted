@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
 "POT-Creation-Date: 2025-11-20 14:14+0000\n"
-"PO-Revision-Date: 2026-05-20 01:11+0000\n"
+"PO-Revision-Date: 2026-05-21 16:27+0000\n"
 "Last-Translator: CYAXXX <85353920+CYAXXX@users.noreply.github.com>\n"
 "Language-Team: Kurdish (Kurmanji) <https://hosted.weblate.org/projects/"
 "weblate/hosted/kmr/>\n"
@@ -113,18 +113,18 @@ msgstr "Sînorê projeyan"
 #: wlhosted/integrations/templates/hosted/create.html:107
 #, python-format
 msgid "%(price)s EUR / month"
-msgstr ""
+msgstr "%(price)s EUR / meh"
 
 #: wlhosted/integrations/templates/hosted/create.html:109
 #: wlhosted/integrations/templates/hosted/create.html:120
 #, python-format
 msgid "%(price)s EUR including VAT"
-msgstr ""
+msgstr "%(price)s EUR tevlî bacê"
 
 #: wlhosted/integrations/templates/hosted/create.html:118
 #, python-format
 msgid "%(price)s EUR / year"
-msgstr ""
+msgstr "%(price)s EUR / sal"
 
 #: wlhosted/integrations/templates/hosted/create.html:131
 msgid ""
@@ -225,11 +225,11 @@ msgstr "Navnîşan"
 
 #: wlhosted/payments/models.py:117
 msgid "Additional address information"
-msgstr ""
+msgstr "Zanyariyên navnîşanê yên vebijêrkî"
 
 #: wlhosted/payments/models.py:123
 msgid "Postcode and city"
-msgstr ""
+msgstr "Koda postê û bajar"
 
 #: wlhosted/payments/models.py:128
 msgid "Postcode"
