@@ -9,13 +9,15 @@
 # Jadran Rudec <jrudec@gmail.com>, 2023.
 # Damjan Gerl <damjan@damjan.net>, 2023.
 # Gašper Pintar <pintargasper1@gmail.com>, 2025.
+# Automatic translation add-on <noreply-addon-autotranslate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-05-22 13:28-0500\n"
-"PO-Revision-Date: 2025-12-06 10:00+0000\n"
-"Last-Translator: Gašper Pintar <pintargasper1@gmail.com>\n"
+"PO-Revision-Date: 2026-05-23 19:11+0000\n"
+"Last-Translator: Automatic translation add-on <noreply-addon-"
+"autotranslate@weblate.org>\n"
 "Language-Team: Slovenian <https://hosted.weblate.org/projects/weblate/hosted/"
 "sl/>\n"
 "Language: sl\n"
@@ -24,7 +26,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 2026.6.dev0\n"
 
 #: wlhosted/integrations/forms.py:38
 msgid "Billing"
@@ -40,7 +42,7 @@ msgstr "Ustvari nov obračunski načrt"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:4
 msgid "Web-based <strong>continuous</strong> localization"
-msgstr ""
+msgstr "<strong>Neprekinjena</strong> spletna lokalizacija"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:7
 msgid "Sign in here to access our services:"
