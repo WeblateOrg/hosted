@@ -7,13 +7,15 @@
 # Manuela Silva <mmsrs@sky.com>, 2019, 2020, 2025, 2026.
 # Michal Čihař <michal@cihar.com>, 2020.
 # Horus68 <horus68@users.noreply.hosted.weblate.org>, 2024, 2025.
+# Automatic translation add-on <noreply-addon-autotranslate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-05-22 13:28-0500\n"
-"PO-Revision-Date: 2026-05-10 14:28+0000\n"
-"Last-Translator: Manuela Silva <mmsrs@sky.com>\n"
+"PO-Revision-Date: 2026-05-23 19:11+0000\n"
+"Last-Translator: Automatic translation add-on <noreply-addon-"
+"autotranslate@weblate.org>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/weblate/"
 "hosted/pt/>\n"
 "Language: pt\n"
@@ -21,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.5-dev\n"
+"X-Generator: Weblate 2026.6.dev0\n"
 
 #: wlhosted/integrations/forms.py:38
 msgid "Billing"
@@ -37,7 +39,7 @@ msgstr "Criar novo plano de faturação"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:4
 msgid "Web-based <strong>continuous</strong> localization"
-msgstr ""
+msgstr "Tradução <strong>contínua</strong> baseada na Web"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:7
 msgid "Sign in here to access our services:"
