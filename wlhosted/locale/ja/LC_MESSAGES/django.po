@@ -16,8 +16,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
-"Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2025-11-20 14:14+0000\n"
+"Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
+"POT-Creation-Date: 2026-05-22 13:28-0500\n"
 "PO-Revision-Date: 2026-01-27 04:08+0000\n"
 "Last-Translator: amano <amano@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -28,18 +28,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.16-dev\n"
-
-#: wlhosted/addons.py:40 wlhosted/addons.py:41
-msgid "Generate Unknown Horizons scenario data"
-msgstr "Unknown Horizons シナリオデータを生成する"
-
-#: wlhosted/addons.py:63
-msgid "Reset repository to upstream"
-msgstr "リポジトリを上流にリセット"
-
-#: wlhosted/addons.py:64
-msgid "Discards all changes in the Weblate repository each night."
-msgstr "毎晩、Weblate リポジトリ内のすべての変更を破棄します。"
 
 #: wlhosted/integrations/forms.py:38
 msgid "Billing"
@@ -53,15 +41,19 @@ msgstr "更新する料金プランの選択"
 msgid "Create new billing plan"
 msgstr "料金プランの新規作成"
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:4
+msgid "Web-based <strong>continuous</strong> localization"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:7
 msgid "Sign in here to access our services:"
 msgstr "サインインが必要な当社のサービス："
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:14
 msgid "Weblate customer care portal"
 msgstr "Weblate お客様サポート窓口"
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:17
 msgid "Weblate commercial services management"
 msgstr "Weblate 商用サービスの管理"
 
@@ -215,94 +207,94 @@ msgstr "IBAN 銀行振込"
 msgid "Payment card"
 msgstr "カード払い"
 
-#: wlhosted/payments/models.py:91
+#: wlhosted/payments/models.py:95
 msgid "European VAT ID"
 msgstr "欧州 VAT ID"
 
-#: wlhosted/payments/models.py:93
+#: wlhosted/payments/models.py:97
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "欧州連合（EU）の VAT ID を記入してください。適用外の場合は空欄にしてくださ"
 "い。"
 
-#: wlhosted/payments/models.py:99
+#: wlhosted/payments/models.py:111
 msgid "Tax registration"
 msgstr "税務登録"
 
-#: wlhosted/payments/models.py:101
+#: wlhosted/payments/models.py:113
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "請求書に記載する場合は税務登録を記入してください。"
 
-#: wlhosted/payments/models.py:107
+#: wlhosted/payments/models.py:119
 msgid "Company or individual name"
 msgstr "会社名または個人名"
 
-#: wlhosted/payments/models.py:112
+#: wlhosted/payments/models.py:124
 msgid "Address"
 msgstr "番地"
 
-#: wlhosted/payments/models.py:117
+#: wlhosted/payments/models.py:129
 msgid "Additional address information"
 msgstr "追加の住所の情報"
 
-#: wlhosted/payments/models.py:123
+#: wlhosted/payments/models.py:135
 msgid "Postcode and city"
 msgstr "郵便番号と市区町村"
 
-#: wlhosted/payments/models.py:128
+#: wlhosted/payments/models.py:140
 msgid "Postcode"
 msgstr "郵便番号"
 
-#: wlhosted/payments/models.py:132
+#: wlhosted/payments/models.py:144
 msgid "Country"
 msgstr "国"
 
-#: wlhosted/payments/models.py:178
+#: wlhosted/payments/models.py:192
 msgid "The country has to match your VAT code"
 msgstr "国の VAT コードと一致することが必要です"
 
-#: wlhosted/payments/models.py:201
+#: wlhosted/payments/models.py:215
 msgid "Annual"
 msgstr "年間"
 
-#: wlhosted/payments/models.py:202
+#: wlhosted/payments/models.py:216
 msgid "Biannual"
 msgstr "半年間"
 
-#: wlhosted/payments/models.py:203
+#: wlhosted/payments/models.py:217
 msgid "Quarterly"
 msgstr "四半期ごと"
 
-#: wlhosted/payments/models.py:204
+#: wlhosted/payments/models.py:218
 msgid "Monthly"
 msgstr "月払い"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:219
 msgid "One-time"
 msgstr "１回限り"
 
-#: wlhosted/payments/models.py:239
+#: wlhosted/payments/models.py:255
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "新規支払い"
 
-#: wlhosted/payments/models.py:240
+#: wlhosted/payments/models.py:256
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "入金待ち"
 
-#: wlhosted/payments/models.py:241
+#: wlhosted/payments/models.py:257
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "支払い拒否"
 
-#: wlhosted/payments/models.py:242
+#: wlhosted/payments/models.py:258
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "支払い承認"
 
-#: wlhosted/payments/models.py:243
+#: wlhosted/payments/models.py:259
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "支払処理完了"
@@ -323,6 +315,15 @@ msgstr ""
 #: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "{} は、有効な VAT ID ではありません。"
+
+#~ msgid "Generate Unknown Horizons scenario data"
+#~ msgstr "Unknown Horizons シナリオデータを生成する"
+
+#~ msgid "Reset repository to upstream"
+#~ msgstr "リポジトリを上流にリセット"
+
+#~ msgid "Discards all changes in the Weblate repository each night."
+#~ msgstr "毎晩、Weblate リポジトリ内のすべての変更を破棄します。"
 
 #~ msgid "Your payment on weblate.org"
 #~ msgstr "weblate.org への支払い"

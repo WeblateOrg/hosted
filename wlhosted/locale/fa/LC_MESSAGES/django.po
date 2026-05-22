@@ -13,8 +13,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
-"Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2025-11-20 14:14+0000\n"
+"Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
+"POT-Creation-Date: 2026-05-22 13:28-0500\n"
 "PO-Revision-Date: 2026-04-02 15:09+0000\n"
 "Last-Translator: Soheil Khanalipur <soheil@disroot.org>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -25,18 +25,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.17-dev\n"
-
-#: wlhosted/addons.py:40 wlhosted/addons.py:41
-msgid "Generate Unknown Horizons scenario data"
-msgstr "تولید داده های سناریوی افق های ناشناخته"
-
-#: wlhosted/addons.py:63
-msgid "Reset repository to upstream"
-msgstr "بازگرداندن مخزن به بالادست"
-
-#: wlhosted/addons.py:64
-msgid "Discards all changes in the Weblate repository each night."
-msgstr "تمام تغییرات موجود در مخزن Weblate را هر شب نادیده می گیرد."
 
 #: wlhosted/integrations/forms.py:38
 msgid "Billing"
@@ -50,15 +38,19 @@ msgstr "طرح صورت‌حساب موردنظر برای به‌روزرسان
 msgid "Create new billing plan"
 msgstr "طرح صورتحساب جدید را ایجاد کنید"
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:4
+msgid "Web-based <strong>continuous</strong> localization"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:7
 msgid "Sign in here to access our services:"
 msgstr ""
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:14
 msgid "Weblate customer care portal"
 msgstr ""
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:17
 msgid "Weblate commercial services management"
 msgstr ""
 
@@ -212,92 +204,92 @@ msgstr "انتقال شِبا (IBAN)"
 msgid "Payment card"
 msgstr "کارت پرداخت"
 
-#: wlhosted/payments/models.py:91
+#: wlhosted/payments/models.py:95
 msgid "European VAT ID"
 msgstr "اروپایی VAT ID"
 
-#: wlhosted/payments/models.py:93
+#: wlhosted/payments/models.py:97
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 
-#: wlhosted/payments/models.py:99
+#: wlhosted/payments/models.py:111
 msgid "Tax registration"
 msgstr ""
 
-#: wlhosted/payments/models.py:101
+#: wlhosted/payments/models.py:113
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
 
-#: wlhosted/payments/models.py:107
+#: wlhosted/payments/models.py:119
 msgid "Company or individual name"
 msgstr "نام شرکت یا شخص"
 
-#: wlhosted/payments/models.py:112
+#: wlhosted/payments/models.py:124
 msgid "Address"
 msgstr "نشانی"
 
-#: wlhosted/payments/models.py:117
+#: wlhosted/payments/models.py:129
 msgid "Additional address information"
 msgstr ""
 
-#: wlhosted/payments/models.py:123
+#: wlhosted/payments/models.py:135
 msgid "Postcode and city"
 msgstr ""
 
-#: wlhosted/payments/models.py:128
+#: wlhosted/payments/models.py:140
 msgid "Postcode"
 msgstr ""
 
-#: wlhosted/payments/models.py:132
+#: wlhosted/payments/models.py:144
 msgid "Country"
 msgstr "کشور"
 
-#: wlhosted/payments/models.py:178
+#: wlhosted/payments/models.py:192
 msgid "The country has to match your VAT code"
 msgstr "کشور باید با کد VAT تطابق داشته باشد"
 
-#: wlhosted/payments/models.py:201
+#: wlhosted/payments/models.py:215
 msgid "Annual"
 msgstr "سالانه"
 
-#: wlhosted/payments/models.py:202
+#: wlhosted/payments/models.py:216
 msgid "Biannual"
 msgstr "دوساله"
 
-#: wlhosted/payments/models.py:203
+#: wlhosted/payments/models.py:217
 msgid "Quarterly"
 msgstr "فصلی"
 
-#: wlhosted/payments/models.py:204
+#: wlhosted/payments/models.py:218
 msgid "Monthly"
 msgstr "ماهانه"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:219
 msgid "One-time"
 msgstr "یک بار"
 
-#: wlhosted/payments/models.py:239
+#: wlhosted/payments/models.py:255
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "پرداخت جدید"
 
-#: wlhosted/payments/models.py:240
+#: wlhosted/payments/models.py:256
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "منتظر پرداخت"
 
-#: wlhosted/payments/models.py:241
+#: wlhosted/payments/models.py:257
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "پرداخت رد شد"
 
-#: wlhosted/payments/models.py:242
+#: wlhosted/payments/models.py:258
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "پرداخت پذیرفته شد"
 
-#: wlhosted/payments/models.py:243
+#: wlhosted/payments/models.py:259
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "پرداخت پردازش شد"
@@ -317,6 +309,15 @@ msgstr ""
 #: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr ""
+
+#~ msgid "Generate Unknown Horizons scenario data"
+#~ msgstr "تولید داده های سناریوی افق های ناشناخته"
+
+#~ msgid "Reset repository to upstream"
+#~ msgstr "بازگرداندن مخزن به بالادست"
+
+#~ msgid "Discards all changes in the Weblate repository each night."
+#~ msgstr "تمام تغییرات موجود در مخزن Weblate را هر شب نادیده می گیرد."
 
 #~ msgid "Payment cancelled"
 #~ msgstr "پرداخت لغو شده"

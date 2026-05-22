@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
-"Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2025-11-20 14:14+0000\n"
+"Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
+"POT-Creation-Date: 2026-05-22 13:28-0500\n"
 "PO-Revision-Date: 2025-02-21 11:52+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Filipino <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -19,18 +19,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1 && n != 2 && n != 3 && (n % 10 == 4 "
 "|| n % 10 == 6 || n % 10 == 9);\n"
 "X-Generator: Weblate 5.10.1-dev\n"
-
-#: wlhosted/addons.py:40 wlhosted/addons.py:41
-msgid "Generate Unknown Horizons scenario data"
-msgstr "Gumawa ng Unknown Horizons scenario data"
-
-#: wlhosted/addons.py:63
-msgid "Reset repository to upstream"
-msgstr "I-reset ang repository sa upstream"
-
-#: wlhosted/addons.py:64
-msgid "Discards all changes in the Weblate repository each night."
-msgstr "Balewalain lahat ng pagbabago sa Weblate repository kada gabi."
 
 #: wlhosted/integrations/forms.py:38
 msgid "Billing"
@@ -44,15 +32,19 @@ msgstr "Pumili po ng billing plan na gusto niyong i-update"
 msgid "Create new billing plan"
 msgstr "Gumawa ng bagong billing plan"
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:4
+msgid "Web-based <strong>continuous</strong> localization"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:7
 msgid "Sign in here to access our services:"
 msgstr ""
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:14
 msgid "Weblate customer care portal"
 msgstr ""
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:17
 msgid "Weblate commercial services management"
 msgstr ""
 
@@ -215,96 +207,96 @@ msgstr "IBAN bank transfer"
 msgid "Payment card"
 msgstr "Card pambayad"
 
-#: wlhosted/payments/models.py:91
+#: wlhosted/payments/models.py:95
 msgid "European VAT ID"
 msgstr "VAT ID ng Europa"
 
-#: wlhosted/payments/models.py:93
+#: wlhosted/payments/models.py:97
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "Mangyaring punan po ang VAT ID ng Europa, iwanang bakante kung hindi "
 "applicable."
 
-#: wlhosted/payments/models.py:99
+#: wlhosted/payments/models.py:111
 msgid "Tax registration"
 msgstr "Rehistro ng buwis"
 
-#: wlhosted/payments/models.py:101
+#: wlhosted/payments/models.py:113
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
 "Mangyaring punan ang rehistro ng buwis niyo kung dapat po itong magpakita sa "
 "invoice."
 
-#: wlhosted/payments/models.py:107
+#: wlhosted/payments/models.py:119
 msgid "Company or individual name"
 msgstr "Pangalan ng kumpanya o indibidwal"
 
-#: wlhosted/payments/models.py:112
+#: wlhosted/payments/models.py:124
 msgid "Address"
 msgstr "Address"
 
-#: wlhosted/payments/models.py:117
+#: wlhosted/payments/models.py:129
 msgid "Additional address information"
 msgstr "Karagdagang impormasyon sa address"
 
-#: wlhosted/payments/models.py:123
+#: wlhosted/payments/models.py:135
 msgid "Postcode and city"
 msgstr "Postcode at lungsod"
 
-#: wlhosted/payments/models.py:128
+#: wlhosted/payments/models.py:140
 msgid "Postcode"
 msgstr "Postcode"
 
-#: wlhosted/payments/models.py:132
+#: wlhosted/payments/models.py:144
 msgid "Country"
 msgstr "Bansa"
 
-#: wlhosted/payments/models.py:178
+#: wlhosted/payments/models.py:192
 msgid "The country has to match your VAT code"
 msgstr "Kailangang tumugma ang bansa sa VAT code niyo"
 
-#: wlhosted/payments/models.py:201
+#: wlhosted/payments/models.py:215
 msgid "Annual"
 msgstr "Kada taon"
 
-#: wlhosted/payments/models.py:202
+#: wlhosted/payments/models.py:216
 msgid "Biannual"
 msgstr "Kada 6 na buwan"
 
-#: wlhosted/payments/models.py:203
+#: wlhosted/payments/models.py:217
 msgid "Quarterly"
 msgstr "Kada 3 buwan"
 
-#: wlhosted/payments/models.py:204
+#: wlhosted/payments/models.py:218
 msgid "Monthly"
 msgstr "Kada buwan"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:219
 msgid "One-time"
 msgstr "Isang beses lamang"
 
-#: wlhosted/payments/models.py:239
+#: wlhosted/payments/models.py:255
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Bagong bayad"
 
-#: wlhosted/payments/models.py:240
+#: wlhosted/payments/models.py:256
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Naghihintay ng bayad"
 
-#: wlhosted/payments/models.py:241
+#: wlhosted/payments/models.py:257
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Tinanggihan ang bayad"
 
-#: wlhosted/payments/models.py:242
+#: wlhosted/payments/models.py:258
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Tinanggap ang bayad"
 
-#: wlhosted/payments/models.py:243
+#: wlhosted/payments/models.py:259
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Prinoseso ang bayad"
@@ -327,6 +319,15 @@ msgstr ""
 #: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "Di valid na VAT ID ang {}."
+
+#~ msgid "Generate Unknown Horizons scenario data"
+#~ msgstr "Gumawa ng Unknown Horizons scenario data"
+
+#~ msgid "Reset repository to upstream"
+#~ msgstr "I-reset ang repository sa upstream"
+
+#~ msgid "Discards all changes in the Weblate repository each night."
+#~ msgstr "Balewalain lahat ng pagbabago sa Weblate repository kada gabi."
 
 #~ msgid "Your payment on weblate.org"
 #~ msgstr "Bayad niyo sa weblate.org"

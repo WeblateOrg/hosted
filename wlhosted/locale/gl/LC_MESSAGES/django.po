@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
-"Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2025-11-20 14:14+0000\n"
+"Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
+"POT-Creation-Date: 2026-05-22 13:28-0500\n"
 "PO-Revision-Date: 2025-11-21 15:51+0000\n"
 "Last-Translator: \"Miguel A. Bouzada\" <mbouzada@gmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -21,18 +21,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.15-dev\n"
-
-#: wlhosted/addons.py:40 wlhosted/addons.py:41
-msgid "Generate Unknown Horizons scenario data"
-msgstr "Xera datos de escenario de «Horizontes descoñecidos»"
-
-#: wlhosted/addons.py:63
-msgid "Reset repository to upstream"
-msgstr "Restabelecer o repositorio á orixe"
-
-#: wlhosted/addons.py:64
-msgid "Discards all changes in the Weblate repository each night."
-msgstr "Desbota todos os cambios no repositorio de Weblate cada noite."
 
 #: wlhosted/integrations/forms.py:38
 msgid "Billing"
@@ -46,15 +34,19 @@ msgstr "Escolla o plan de facturación que quere actualizar"
 msgid "Create new billing plan"
 msgstr "Crear un novo plan de facturación"
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:4
+msgid "Web-based <strong>continuous</strong> localization"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:7
 msgid "Sign in here to access our services:"
 msgstr "Inicie sesión aquí para acceder aos nosos servizos:"
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:14
 msgid "Weblate customer care portal"
 msgstr "Portal de atención ao cliente de Weblate"
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:17
 msgid "Weblate commercial services management"
 msgstr "Xestión de servizos comerciais de Weblate"
 
@@ -210,94 +202,94 @@ msgstr "Transferencia bancaria IBAN"
 msgid "Payment card"
 msgstr "Tarxeta de pagamento"
 
-#: wlhosted/payments/models.py:91
+#: wlhosted/payments/models.py:95
 msgid "European VAT ID"
 msgstr "ID. do IVE europeo"
 
-#: wlhosted/payments/models.py:93
+#: wlhosted/payments/models.py:97
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "Encha co número do ID. do IVE da Unión Europea, déixeo baleiro se non é "
 "aplicábel."
 
-#: wlhosted/payments/models.py:99
+#: wlhosted/payments/models.py:111
 msgid "Tax registration"
 msgstr "Rexistro fiscal"
 
-#: wlhosted/payments/models.py:101
+#: wlhosted/payments/models.py:113
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "Encha o rexistro fiscal se ten que aparecer na factura."
 
-#: wlhosted/payments/models.py:107
+#: wlhosted/payments/models.py:119
 msgid "Company or individual name"
 msgstr "Nome da empresa ou autónomo"
 
-#: wlhosted/payments/models.py:112
+#: wlhosted/payments/models.py:124
 msgid "Address"
 msgstr "Enderezo"
 
-#: wlhosted/payments/models.py:117
+#: wlhosted/payments/models.py:129
 msgid "Additional address information"
 msgstr "Información adicional do enderezo"
 
-#: wlhosted/payments/models.py:123
+#: wlhosted/payments/models.py:135
 msgid "Postcode and city"
 msgstr "Código postal e cidade"
 
-#: wlhosted/payments/models.py:128
+#: wlhosted/payments/models.py:140
 msgid "Postcode"
 msgstr "Código postal"
 
-#: wlhosted/payments/models.py:132
+#: wlhosted/payments/models.py:144
 msgid "Country"
 msgstr "País"
 
-#: wlhosted/payments/models.py:178
+#: wlhosted/payments/models.py:192
 msgid "The country has to match your VAT code"
 msgstr "O país ten que concordar co seu código do IVE"
 
-#: wlhosted/payments/models.py:201
+#: wlhosted/payments/models.py:215
 msgid "Annual"
 msgstr "Anual"
 
-#: wlhosted/payments/models.py:202
+#: wlhosted/payments/models.py:216
 msgid "Biannual"
 msgstr "Semestral"
 
-#: wlhosted/payments/models.py:203
+#: wlhosted/payments/models.py:217
 msgid "Quarterly"
 msgstr "Trimestral"
 
-#: wlhosted/payments/models.py:204
+#: wlhosted/payments/models.py:218
 msgid "Monthly"
 msgstr "Mensual"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:219
 msgid "One-time"
 msgstr "Unha vez"
 
-#: wlhosted/payments/models.py:239
+#: wlhosted/payments/models.py:255
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Novo pagamento"
 
-#: wlhosted/payments/models.py:240
+#: wlhosted/payments/models.py:256
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Agardando polo pagamento"
 
-#: wlhosted/payments/models.py:241
+#: wlhosted/payments/models.py:257
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "O pagamento foi rexeitado"
 
-#: wlhosted/payments/models.py:242
+#: wlhosted/payments/models.py:258
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "O pagamento foi aceptado"
 
-#: wlhosted/payments/models.py:243
+#: wlhosted/payments/models.py:259
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "O pagamento foi procesado"
@@ -319,6 +311,15 @@ msgstr ""
 #: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "{} non é un número ID. do IVE válido."
+
+#~ msgid "Generate Unknown Horizons scenario data"
+#~ msgstr "Xera datos de escenario de «Horizontes descoñecidos»"
+
+#~ msgid "Reset repository to upstream"
+#~ msgstr "Restabelecer o repositorio á orixe"
+
+#~ msgid "Discards all changes in the Weblate repository each night."
+#~ msgstr "Desbota todos os cambios no repositorio de Weblate cada noite."
 
 #~ msgid "Your payment on weblate.org"
 #~ msgstr "O seu pagamento en weblate.org"

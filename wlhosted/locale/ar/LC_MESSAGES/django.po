@@ -16,12 +16,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
-"Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2025-11-20 14:14+0000\n"
+"Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
+"POT-Creation-Date: 2026-05-22 13:28-0500\n"
 "PO-Revision-Date: 2026-02-03 22:02+0000\n"
 "Last-Translator: jonnysemon <jonnysemon@users.noreply.hosted.weblate.org>\n"
-"Language-Team: Arabic <https://hosted.weblate.org/projects/weblate/hosted/"
-"ar/>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/weblate/hosted/ar/"
+">\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,18 +29,6 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Weblate 5.16-dev\n"
-
-#: wlhosted/addons.py:40 wlhosted/addons.py:41
-msgid "Generate Unknown Horizons scenario data"
-msgstr "إنشاء بيانات سيناريو Unknown Horizons"
-
-#: wlhosted/addons.py:63
-msgid "Reset repository to upstream"
-msgstr "إعادة تعيين المستودع إلى المنبع"
-
-#: wlhosted/addons.py:64
-msgid "Discards all changes in the Weblate repository each night."
-msgstr "يتجاهل جميع التغييرات في مستودع Weblate كل ليلة."
 
 #: wlhosted/integrations/forms.py:38
 msgid "Billing"
@@ -54,15 +42,19 @@ msgstr "اختر خطة الفوترة التي تريد تحديثها"
 msgid "Create new billing plan"
 msgstr "إنشاء خطة فوترة جديدة"
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:4
+msgid "Web-based <strong>continuous</strong> localization"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:7
 msgid "Sign in here to access our services:"
 msgstr "سجّل الدخول هنا للوصول إلى خدماتنا:"
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:14
 msgid "Weblate customer care portal"
 msgstr "بوابة خدمة عملاء Weblate"
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:17
 msgid "Weblate commercial services management"
 msgstr "إدارة خدمات Weblate التجارية"
 
@@ -215,94 +207,94 @@ msgstr "التحويل المصرفي IBAN"
 msgid "Payment card"
 msgstr "بطاقة الدفع"
 
-#: wlhosted/payments/models.py:91
+#: wlhosted/payments/models.py:95
 msgid "European VAT ID"
 msgstr "معرف ضريبة القيمة المضافة الأوروبية"
 
-#: wlhosted/payments/models.py:93
+#: wlhosted/payments/models.py:97
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "يرجى ملء معرف ضريبة القيمة المضافة في الاتحاد الأوروبي ، واتركه فارغا إذا لم "
 "يكن قابلا للتطبيق."
 
-#: wlhosted/payments/models.py:99
+#: wlhosted/payments/models.py:111
 msgid "Tax registration"
 msgstr "التسجيل الضريبي"
 
-#: wlhosted/payments/models.py:101
+#: wlhosted/payments/models.py:113
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "يرجى ملء التسجيل الضريبي الخاص بك إذا كان يجب أن يظهر على الفاتورة."
 
-#: wlhosted/payments/models.py:107
+#: wlhosted/payments/models.py:119
 msgid "Company or individual name"
 msgstr "اسم الشركة أو اسم الفرد"
 
-#: wlhosted/payments/models.py:112
+#: wlhosted/payments/models.py:124
 msgid "Address"
 msgstr "العنوان البريدي"
 
-#: wlhosted/payments/models.py:117
+#: wlhosted/payments/models.py:129
 msgid "Additional address information"
 msgstr "معلومات إضافية عن العنوان"
 
-#: wlhosted/payments/models.py:123
+#: wlhosted/payments/models.py:135
 msgid "Postcode and city"
 msgstr "الرمز البريدي و المدينة"
 
-#: wlhosted/payments/models.py:128
+#: wlhosted/payments/models.py:140
 msgid "Postcode"
 msgstr "الرمز البريدي"
 
-#: wlhosted/payments/models.py:132
+#: wlhosted/payments/models.py:144
 msgid "Country"
 msgstr "البلد"
 
-#: wlhosted/payments/models.py:178
+#: wlhosted/payments/models.py:192
 msgid "The country has to match your VAT code"
 msgstr "على البلد ان يطابق رمز ضريبة القيمة المضافة"
 
-#: wlhosted/payments/models.py:201
+#: wlhosted/payments/models.py:215
 msgid "Annual"
 msgstr "سنوي"
 
-#: wlhosted/payments/models.py:202
+#: wlhosted/payments/models.py:216
 msgid "Biannual"
 msgstr "نصف سنوي"
 
-#: wlhosted/payments/models.py:203
+#: wlhosted/payments/models.py:217
 msgid "Quarterly"
 msgstr "فصليا"
 
-#: wlhosted/payments/models.py:204
+#: wlhosted/payments/models.py:218
 msgid "Monthly"
 msgstr "شهرياً"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:219
 msgid "One-time"
 msgstr "مرة واحدة"
 
-#: wlhosted/payments/models.py:239
+#: wlhosted/payments/models.py:255
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "دفعة جديدة"
 
-#: wlhosted/payments/models.py:240
+#: wlhosted/payments/models.py:256
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "في انتظار الدفع"
 
-#: wlhosted/payments/models.py:241
+#: wlhosted/payments/models.py:257
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "تم رفض الدفع"
 
-#: wlhosted/payments/models.py:242
+#: wlhosted/payments/models.py:258
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "الدفع مقبول"
 
-#: wlhosted/payments/models.py:243
+#: wlhosted/payments/models.py:259
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "تمت معالجة الدفع"
@@ -324,6 +316,15 @@ msgstr ""
 #: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "{} ليس معرف ضريبة قيمة مضافة صالحا."
+
+#~ msgid "Generate Unknown Horizons scenario data"
+#~ msgstr "إنشاء بيانات سيناريو Unknown Horizons"
+
+#~ msgid "Reset repository to upstream"
+#~ msgstr "إعادة تعيين المستودع إلى المنبع"
+
+#~ msgid "Discards all changes in the Weblate repository each night."
+#~ msgstr "يتجاهل جميع التغييرات في مستودع Weblate كل ليلة."
 
 #~ msgid "Your payment on weblate.org"
 #~ msgstr "دفعتك على weblate.org"

@@ -12,30 +12,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
-"Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2025-11-20 14:14+0000\n"
+"Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
+"POT-Creation-Date: 2026-05-22 13:28-0500\n"
 "PO-Revision-Date: 2025-11-21 15:51+0000\n"
 "Last-Translator: Jim Kats <jim-kats@hotmail.com>\n"
-"Language-Team: Greek <https://hosted.weblate.org/projects/weblate/hosted/el/>"
-"\n"
+"Language-Team: Greek <https://hosted.weblate.org/projects/weblate/hosted/el/"
+">\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.15-dev\n"
-
-#: wlhosted/addons.py:40 wlhosted/addons.py:41
-msgid "Generate Unknown Horizons scenario data"
-msgstr "Δημιουργία δεδομένων σεναρίου του Unknown Horizons"
-
-#: wlhosted/addons.py:63
-msgid "Reset repository to upstream"
-msgstr "Επαναφορά αποθετηρίου στο ανάντη"
-
-#: wlhosted/addons.py:64
-msgid "Discards all changes in the Weblate repository each night."
-msgstr "Απορρίπτει όλες τις αλλαγές στο αποθετήριο Weblate κάθε βράδυ."
 
 #: wlhosted/integrations/forms.py:38
 msgid "Billing"
@@ -49,15 +37,19 @@ msgstr "Επιλέξτε το σχέδιο χρέωσης που θέλετε ν
 msgid "Create new billing plan"
 msgstr "Δημιουργία νέου σχεδίου χρέωσης"
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:4
+msgid "Web-based <strong>continuous</strong> localization"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:7
 msgid "Sign in here to access our services:"
 msgstr "Συνδεθείτε εδώ για πρόσβαση στις υπηρεσίες μας:"
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:14
 msgid "Weblate customer care portal"
 msgstr "Πύλη φροντίδας πελατών Weblate"
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:17
 msgid "Weblate commercial services management"
 msgstr "Διαχείριση εμπορικών υπηρεσιών Weblate"
 
@@ -215,95 +207,95 @@ msgstr "Τραπεζική μεταφορά με IBAN"
 msgid "Payment card"
 msgstr "Πληρωμή με κάρτα"
 
-#: wlhosted/payments/models.py:91
+#: wlhosted/payments/models.py:95
 msgid "European VAT ID"
 msgstr "Ευρωπαϊκός ΑΦΜ"
 
-#: wlhosted/payments/models.py:93
+#: wlhosted/payments/models.py:97
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "Παρακαλούμε συμπληρώστε τον ΑΦΜ Ευρωπαϊκής Ένωσης, αφήστε το κενό εάν δεν "
 "ισχύει."
 
-#: wlhosted/payments/models.py:99
+#: wlhosted/payments/models.py:111
 msgid "Tax registration"
 msgstr "Φορολογική εγγραφή"
 
-#: wlhosted/payments/models.py:101
+#: wlhosted/payments/models.py:113
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
 "Παρακαλούμε συμπληρώστε το φορολογικό αριθμό σας, για αναγραφή στην απόδειξη."
 
-#: wlhosted/payments/models.py:107
+#: wlhosted/payments/models.py:119
 msgid "Company or individual name"
 msgstr "Εταιρική ή ατομική επωνυμία"
 
-#: wlhosted/payments/models.py:112
+#: wlhosted/payments/models.py:124
 msgid "Address"
 msgstr "Διεύθυνση"
 
-#: wlhosted/payments/models.py:117
+#: wlhosted/payments/models.py:129
 msgid "Additional address information"
 msgstr "Πρόσθετες πληροφορίες διεύθυνσης"
 
-#: wlhosted/payments/models.py:123
+#: wlhosted/payments/models.py:135
 msgid "Postcode and city"
 msgstr "Ταχυδρομικός κώδικας και πόλη"
 
-#: wlhosted/payments/models.py:128
+#: wlhosted/payments/models.py:140
 msgid "Postcode"
 msgstr "Ταχυδρομικός κώδικας"
 
-#: wlhosted/payments/models.py:132
+#: wlhosted/payments/models.py:144
 msgid "Country"
 msgstr "Χώρα"
 
-#: wlhosted/payments/models.py:178
+#: wlhosted/payments/models.py:192
 msgid "The country has to match your VAT code"
 msgstr "Η χώρα πρέπει να συμφωνεί με τον κωδικό ΦΠΑ"
 
-#: wlhosted/payments/models.py:201
+#: wlhosted/payments/models.py:215
 msgid "Annual"
 msgstr "Ετήσια"
 
-#: wlhosted/payments/models.py:202
+#: wlhosted/payments/models.py:216
 msgid "Biannual"
 msgstr "Εξαμηνιαία"
 
-#: wlhosted/payments/models.py:203
+#: wlhosted/payments/models.py:217
 msgid "Quarterly"
 msgstr "Τριμηνιαία"
 
-#: wlhosted/payments/models.py:204
+#: wlhosted/payments/models.py:218
 msgid "Monthly"
 msgstr "Μηνιαία"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:219
 msgid "One-time"
 msgstr "Εφάπαξ"
 
-#: wlhosted/payments/models.py:239
+#: wlhosted/payments/models.py:255
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Νέα πληρωμή"
 
-#: wlhosted/payments/models.py:240
+#: wlhosted/payments/models.py:256
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Εν αναμονή πληρωμής"
 
-#: wlhosted/payments/models.py:241
+#: wlhosted/payments/models.py:257
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Η πληρωμή απορρίφθηκε"
 
-#: wlhosted/payments/models.py:242
+#: wlhosted/payments/models.py:258
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Η πληρωμή έγινε αποδεκτή"
 
-#: wlhosted/payments/models.py:243
+#: wlhosted/payments/models.py:259
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Η πληρωμή διεκπεραιώθηκε"
@@ -326,6 +318,15 @@ msgstr ""
 #: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "Το {} δεν είναι έγκυρος ΑΦΜ."
+
+#~ msgid "Generate Unknown Horizons scenario data"
+#~ msgstr "Δημιουργία δεδομένων σεναρίου του Unknown Horizons"
+
+#~ msgid "Reset repository to upstream"
+#~ msgstr "Επαναφορά αποθετηρίου στο ανάντη"
+
+#~ msgid "Discards all changes in the Weblate repository each night."
+#~ msgstr "Απορρίπτει όλες τις αλλαγές στο αποθετήριο Weblate κάθε βράδυ."
 
 #~ msgid "Your payment on weblate.org"
 #~ msgstr "Η πληρωμή σας στο weblate.org"

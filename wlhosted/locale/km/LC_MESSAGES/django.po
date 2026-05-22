@@ -11,8 +11,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
-"Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2025-11-20 14:14+0000\n"
+"Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
+"POT-Creation-Date: 2026-05-22 13:28-0500\n"
 "PO-Revision-Date: 2025-12-18 10:13+0000\n"
 "Last-Translator: មនុញ្ញ - MᴇᴀнNսɴн <meahnunh@outlook.com>\n"
 "Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/weblate/"
@@ -23,18 +23,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.15.1-dev\n"
-
-#: wlhosted/addons.py:40 wlhosted/addons.py:41
-msgid "Generate Unknown Horizons scenario data"
-msgstr "បង្កើតព្រំដែនទិន្នន័យសេណារីយ៉ូដែលមិនស្គាល់"
-
-#: wlhosted/addons.py:63
-msgid "Reset repository to upstream"
-msgstr "កំណត់ឃ្លាំងឡើងវិញទៅកាន់ Upstream"
-
-#: wlhosted/addons.py:64
-msgid "Discards all changes in the Weblate repository each night."
-msgstr "បោះបង់ការផ្លាស់ប្តូរទាំងអស់នៅក្នុងឃ្លាំង Weblate រៀងរាល់យប់។"
 
 #: wlhosted/integrations/forms.py:38
 msgid "Billing"
@@ -48,15 +36,19 @@ msgstr "ជ្រើសរើសគំរោងបង់ប្រាក់ដែ
 msgid "Create new billing plan"
 msgstr "បង្កើតគម្រោងបង់ប្រាក់ថ្មី"
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:4
+msgid "Web-based <strong>continuous</strong> localization"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:7
 msgid "Sign in here to access our services:"
 msgstr "បញ្ជាប់ចូលទីនេះ ដើម្បីអាក់សេសសេវាកម្មរបស់យើង៖"
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:14
 msgid "Weblate customer care portal"
 msgstr "ផតថលថែទាំអតិថិជនរបស់ Weblate"
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:17
 msgid "Weblate commercial services management"
 msgstr "ការគ្រប់គ្រងសេវាកម្មពាណិជ្ជកម្មរបស់ Weblate"
 
@@ -208,92 +200,92 @@ msgstr "ការផ្ទេរប្រាក់តាមធនាគារ IB
 msgid "Payment card"
 msgstr "កាតបង់ប្រាក់"
 
-#: wlhosted/payments/models.py:91
+#: wlhosted/payments/models.py:95
 msgid "European VAT ID"
 msgstr "លេខសម្គាល់ពន្ធអាករអ៊ឺរ៉ុប"
 
-#: wlhosted/payments/models.py:93
+#: wlhosted/payments/models.py:97
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr "សូមបំពេញលេខសម្គាល់ពន្ធអាករលើតម្លៃបន្ថែមរបស់សហគមន៍អ៊ឺរ៉ុប ឫទុកវាឱ្យនៅទំនេរ បើមិនមាន។"
 
-#: wlhosted/payments/models.py:99
+#: wlhosted/payments/models.py:111
 msgid "Tax registration"
 msgstr "ការចុះឈ្មោះពន្ធ"
 
-#: wlhosted/payments/models.py:101
+#: wlhosted/payments/models.py:113
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "សូមបំពេញការចុះឈ្មោះបង់ពន្ធរបស់អ្នក ប្រសិនបើវាមានបង្ហាញនៅលើវិក្កយបត្រ។"
 
-#: wlhosted/payments/models.py:107
+#: wlhosted/payments/models.py:119
 msgid "Company or individual name"
 msgstr "ឈ្មោះក្រុមហ៊ុន ឬឯកត្ដជន"
 
-#: wlhosted/payments/models.py:112
+#: wlhosted/payments/models.py:124
 msgid "Address"
 msgstr "អាសយដ្ឋាន"
 
-#: wlhosted/payments/models.py:117
+#: wlhosted/payments/models.py:129
 msgid "Additional address information"
 msgstr "ព័ត៌មានអាសយដ្ឋានលម្អិតបន្ថែម"
 
-#: wlhosted/payments/models.py:123
+#: wlhosted/payments/models.py:135
 msgid "Postcode and city"
 msgstr "កូដប្រៃសណីយ៍ និងទីក្រុង"
 
-#: wlhosted/payments/models.py:128
+#: wlhosted/payments/models.py:140
 msgid "Postcode"
 msgstr "កូដប្រៃសណីយ៍"
 
-#: wlhosted/payments/models.py:132
+#: wlhosted/payments/models.py:144
 msgid "Country"
 msgstr "ប្រទេស"
 
-#: wlhosted/payments/models.py:178
+#: wlhosted/payments/models.py:192
 msgid "The country has to match your VAT code"
 msgstr "ប្រទេសនោះត្រូវតែស៊ីគ្នានឹងកូដ VAT របស់អ្នក"
 
-#: wlhosted/payments/models.py:201
+#: wlhosted/payments/models.py:215
 msgid "Annual"
 msgstr "ប្រចាំឆ្នាំ"
 
-#: wlhosted/payments/models.py:202
+#: wlhosted/payments/models.py:216
 msgid "Biannual"
 msgstr "ប្រចាំឆមាស"
 
-#: wlhosted/payments/models.py:203
+#: wlhosted/payments/models.py:217
 msgid "Quarterly"
 msgstr "ប្រចាំត្រីមាស"
 
-#: wlhosted/payments/models.py:204
+#: wlhosted/payments/models.py:218
 msgid "Monthly"
 msgstr "ប្រចាំខែ"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:219
 msgid "One-time"
 msgstr "១ដង"
 
-#: wlhosted/payments/models.py:239
+#: wlhosted/payments/models.py:255
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "ការបង់ប្រាក់ថ្មី"
 
-#: wlhosted/payments/models.py:240
+#: wlhosted/payments/models.py:256
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "កំពុងរង់ចាំការបង់ប្រាក់"
 
-#: wlhosted/payments/models.py:241
+#: wlhosted/payments/models.py:257
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "ការបង់ប្រាក់ត្រូវបានច្រានចោល"
 
-#: wlhosted/payments/models.py:242
+#: wlhosted/payments/models.py:258
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "ការបង់ប្រាក់ បានទទួល"
 
-#: wlhosted/payments/models.py:243
+#: wlhosted/payments/models.py:259
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "ការបង់ប្រាក់ បានបន្តដំណើរការ"
@@ -313,6 +305,15 @@ msgstr "សេវាបញ្ជាក់ VAT ID សម្រាប់ {} មិ
 #: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "{} គឺពុំមែនជា VAT ID ត្រឹមត្រូវឡើយ។"
+
+#~ msgid "Generate Unknown Horizons scenario data"
+#~ msgstr "បង្កើតព្រំដែនទិន្នន័យសេណារីយ៉ូដែលមិនស្គាល់"
+
+#~ msgid "Reset repository to upstream"
+#~ msgstr "កំណត់ឃ្លាំងឡើងវិញទៅកាន់ Upstream"
+
+#~ msgid "Discards all changes in the Weblate repository each night."
+#~ msgstr "បោះបង់ការផ្លាស់ប្តូរទាំងអស់នៅក្នុងឃ្លាំង Weblate រៀងរាល់យប់។"
 
 #~ msgid "Your payment on weblate.org"
 #~ msgstr "ការបង់ប្រាក់របស់អ្នកនៅលើ weblate.org"

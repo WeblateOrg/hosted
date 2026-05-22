@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
-"Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2025-11-20 14:14+0000\n"
+"Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
+"POT-Creation-Date: 2026-05-22 13:28-0500\n"
 "PO-Revision-Date: 2025-05-14 12:08+0000\n"
 "Last-Translator: ButterflyOfFire <boffire@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Kabyle <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -18,18 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 5.12-dev\n"
-
-#: wlhosted/addons.py:40 wlhosted/addons.py:41
-msgid "Generate Unknown Horizons scenario data"
-msgstr "Sirew isefka n isinaṛyuten n tamiwin ur nettwassen ara"
-
-#: wlhosted/addons.py:63
-msgid "Reset repository to upstream"
-msgstr "Ales awennez n ukufi s ufella"
-
-#: wlhosted/addons.py:64
-msgid "Discards all changes in the Weblate repository each night."
-msgstr "Sefsex ibeddilen meṛṛa deg ukufi Weblate yal iḍ."
 
 #: wlhosted/integrations/forms.py:38
 msgid "Billing"
@@ -43,15 +31,19 @@ msgstr "Fren leblan n tfaṭurt i tesriḍ ad tleqmeḍ"
 msgid "Create new billing plan"
 msgstr "Snulfu-d leblan n tfaṭurt amaynut"
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:4
+msgid "Web-based <strong>continuous</strong> localization"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:7
 msgid "Sign in here to access our services:"
 msgstr ""
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:14
 msgid "Weblate customer care portal"
 msgstr ""
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:17
 msgid "Weblate commercial services management"
 msgstr ""
 
@@ -207,94 +199,94 @@ msgstr "Asiweḍ n tbankat IBAN"
 msgid "Payment card"
 msgstr "Takarḍa n lexlaṣ"
 
-#: wlhosted/payments/models.py:91
+#: wlhosted/payments/models.py:95
 msgid "European VAT ID"
 msgstr "Asulay VAT n Turuft"
 
-#: wlhosted/payments/models.py:93
+#: wlhosted/payments/models.py:97
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "Ttxil-k mudd-d asulay VAT n turuft, eǧǧ-it d ilem ma yella ur yettwasemras "
 "ara."
 
-#: wlhosted/payments/models.py:99
+#: wlhosted/payments/models.py:111
 msgid "Tax registration"
 msgstr "Uṭṭun n tebzert"
 
-#: wlhosted/payments/models.py:101
+#: wlhosted/payments/models.py:113
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "Ttxil-k mudd-d asekles n tebzert ma yella ilaq ad tban deg tfaturt."
 
-#: wlhosted/payments/models.py:107
+#: wlhosted/payments/models.py:119
 msgid "Company or individual name"
 msgstr "Isem n tkebbanit neɣ isem-ik"
 
-#: wlhosted/payments/models.py:112
+#: wlhosted/payments/models.py:124
 msgid "Address"
 msgstr "Tansa"
 
-#: wlhosted/payments/models.py:117
+#: wlhosted/payments/models.py:129
 msgid "Additional address information"
 msgstr "Ugar n yisallen ɣef tansa"
 
-#: wlhosted/payments/models.py:123
+#: wlhosted/payments/models.py:135
 msgid "Postcode and city"
 msgstr "Tangalt n tnazant neɣ aɣrem"
 
-#: wlhosted/payments/models.py:128
+#: wlhosted/payments/models.py:140
 msgid "Postcode"
 msgstr "Tangalt n tnazant"
 
-#: wlhosted/payments/models.py:132
+#: wlhosted/payments/models.py:144
 msgid "Country"
 msgstr "Tamurt"
 
-#: wlhosted/payments/models.py:178
+#: wlhosted/payments/models.py:192
 msgid "The country has to match your VAT code"
 msgstr "Tamurt ur temṣada ara akked tengalt-ik VAT"
 
-#: wlhosted/payments/models.py:201
+#: wlhosted/payments/models.py:215
 msgid "Annual"
 msgstr "S useggas"
 
-#: wlhosted/payments/models.py:202
+#: wlhosted/payments/models.py:216
 msgid "Biannual"
 msgstr "S sin n yiseggasen"
 
-#: wlhosted/payments/models.py:203
+#: wlhosted/payments/models.py:217
 msgid "Quarterly"
 msgstr "Yal tlata n wagguren"
 
-#: wlhosted/payments/models.py:204
+#: wlhosted/payments/models.py:218
 msgid "Monthly"
 msgstr "Yal aggur"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:219
 msgid "One-time"
 msgstr "Tikkelt"
 
-#: wlhosted/payments/models.py:239
+#: wlhosted/payments/models.py:255
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Lexlaṣ amaynut"
 
-#: wlhosted/payments/models.py:240
+#: wlhosted/payments/models.py:256
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Lexlaṣ yettraǧun"
 
-#: wlhosted/payments/models.py:241
+#: wlhosted/payments/models.py:257
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Lexlaṣ ur iɛeddan ara"
 
-#: wlhosted/payments/models.py:242
+#: wlhosted/payments/models.py:258
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Lexlaṣ yettwaqeblen"
 
-#: wlhosted/payments/models.py:243
+#: wlhosted/payments/models.py:259
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Lexlaṣ iɛeddan"
@@ -314,6 +306,15 @@ msgstr "Ameẓlu n usenqed n usulay n VAT ulac-it i {}, ttxil-k ɛreḍ ticki."
 #: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "{} mačči d asulay n tebzert VAT ameɣtu."
+
+#~ msgid "Generate Unknown Horizons scenario data"
+#~ msgstr "Sirew isefka n isinaṛyuten n tamiwin ur nettwassen ara"
+
+#~ msgid "Reset repository to upstream"
+#~ msgstr "Ales awennez n ukufi s ufella"
+
+#~ msgid "Discards all changes in the Weblate repository each night."
+#~ msgstr "Sefsex ibeddilen meṛṛa deg ukufi Weblate yal iḍ."
 
 #~ msgid "Your payment on weblate.org"
 #~ msgstr "Lexlaṣ-ik deg weblate.org"

@@ -10,8 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
-"Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2025-11-20 14:14+0000\n"
+"Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
+"POT-Creation-Date: 2026-05-22 13:28-0500\n"
 "PO-Revision-Date: 2023-02-20 16:35+0000\n"
 "Last-Translator: Abu Huraira <abuhuraira@tutamail.com>\n"
 "Language-Team: Bengali (Bangladesh) <https://hosted.weblate.org/projects/"
@@ -22,19 +22,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16-dev\n"
-
-#: wlhosted/addons.py:40 wlhosted/addons.py:41
-#, fuzzy
-msgid "Generate Unknown Horizons scenario data"
-msgstr "Generate Unknown Horizons scenario data"
-
-#: wlhosted/addons.py:63
-msgid "Reset repository to upstream"
-msgstr "উজানে ভাণ্ডার পুনঃশুরু করো"
-
-#: wlhosted/addons.py:64
-msgid "Discards all changes in the Weblate repository each night."
-msgstr ""
 
 #: wlhosted/integrations/forms.py:38
 msgid "Billing"
@@ -48,15 +35,19 @@ msgstr ""
 msgid "Create new billing plan"
 msgstr "নতুন বিলিং পরিকল্পনা তৈরি করুন"
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:4
+msgid "Web-based <strong>continuous</strong> localization"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:7
 msgid "Sign in here to access our services:"
 msgstr ""
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:14
 msgid "Weblate customer care portal"
 msgstr ""
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:17
 msgid "Weblate commercial services management"
 msgstr ""
 
@@ -208,96 +199,96 @@ msgstr "IBAN ব্যাংক লেনদেন"
 msgid "Payment card"
 msgstr "প্রাথমিক কার্ড"
 
-#: wlhosted/payments/models.py:91
+#: wlhosted/payments/models.py:95
 msgid "European VAT ID"
 msgstr "ইউরোপীয়ান VAT ID"
 
-#: wlhosted/payments/models.py:93
+#: wlhosted/payments/models.py:97
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr "দয়া করে ইউরোপীয় ভ্যাট আইডি পূরণ করুন, প্রযোজ্য না হলে খালি রেখে দিন৷"
 
-#: wlhosted/payments/models.py:99
+#: wlhosted/payments/models.py:111
 msgid "Tax registration"
 msgstr "কর নিবন্ধন"
 
-#: wlhosted/payments/models.py:101
+#: wlhosted/payments/models.py:113
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "আপনার ট্যাক্স নিবন্ধন পূরণ করুন যদি এটি চালানে প্রদর্শিত হওয়া উচিত।"
 
-#: wlhosted/payments/models.py:107
+#: wlhosted/payments/models.py:119
 msgid "Company or individual name"
 msgstr ""
 
-#: wlhosted/payments/models.py:112
+#: wlhosted/payments/models.py:124
 msgid "Address"
 msgstr "ঠিকানা"
 
-#: wlhosted/payments/models.py:117
+#: wlhosted/payments/models.py:129
 msgid "Additional address information"
 msgstr ""
 
-#: wlhosted/payments/models.py:123
+#: wlhosted/payments/models.py:135
 msgid "Postcode and city"
 msgstr "পোস্টকোড এবং শহর"
 
-#: wlhosted/payments/models.py:128
+#: wlhosted/payments/models.py:140
 #, fuzzy
 #| msgid "Postcode and city"
 msgid "Postcode"
 msgstr "পোস্টকোড এবং শহর"
 
-#: wlhosted/payments/models.py:132
+#: wlhosted/payments/models.py:144
 msgid "Country"
 msgstr "দেশ"
 
-#: wlhosted/payments/models.py:178
+#: wlhosted/payments/models.py:192
 msgid "The country has to match your VAT code"
 msgstr ""
 
-#: wlhosted/payments/models.py:201
+#: wlhosted/payments/models.py:215
 msgid "Annual"
 msgstr "বার্ষিক"
 
-#: wlhosted/payments/models.py:202
+#: wlhosted/payments/models.py:216
 msgid "Biannual"
 msgstr "দ্বিবার্ষিক"
 
-#: wlhosted/payments/models.py:203
+#: wlhosted/payments/models.py:217
 msgid "Quarterly"
 msgstr "ত্রৈমাসিক"
 
-#: wlhosted/payments/models.py:204
+#: wlhosted/payments/models.py:218
 msgid "Monthly"
 msgstr "মাসিক"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:219
 #, fuzzy
 #| msgid "Onetime"
 msgid "One-time"
 msgstr "এককালীন"
 
-#: wlhosted/payments/models.py:239
+#: wlhosted/payments/models.py:255
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "নতুন পেমেন্ট"
 
-#: wlhosted/payments/models.py:240
+#: wlhosted/payments/models.py:256
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "অপেক্ষমান পেমেন্ট"
 
-#: wlhosted/payments/models.py:241
+#: wlhosted/payments/models.py:257
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "পেমেন্ট প্রত্যাখ্যান করা হয়েছে"
 
-#: wlhosted/payments/models.py:242
+#: wlhosted/payments/models.py:258
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "পেমেন্ট গ্রহণ করা হয়েছে"
 
-#: wlhosted/payments/models.py:243
+#: wlhosted/payments/models.py:259
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "পেমেন্ট প্রক্রিয়া করা হয়েছে"
@@ -317,6 +308,13 @@ msgstr ""
 #: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr ""
+
+#, fuzzy
+#~ msgid "Generate Unknown Horizons scenario data"
+#~ msgstr "Generate Unknown Horizons scenario data"
+
+#~ msgid "Reset repository to upstream"
+#~ msgstr "উজানে ভাণ্ডার পুনঃশুরু করো"
 
 #~ msgid "Your payment on weblate.org"
 #~ msgstr "weblate.org-এ আপনার পেমেন্ট"
