@@ -8,22 +8,24 @@
 # Džiugas J <dziugas1959@hotmail.com>, 2024.
 # Vaclovas Intas <Gateway_31@protonmail.com>, 2024.
 # Marija Grineviciute <marijagrine@protonmail.com>, 2025.
+# Automatic translation add-on <noreply-addon-autotranslate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-05-22 13:28-0500\n"
-"PO-Revision-Date: 2025-09-03 10:01+0000\n"
-"Last-Translator: Marija Grineviciute <marijagrine@protonmail.com>\n"
+"PO-Revision-Date: 2026-05-23 19:11+0000\n"
+"Last-Translator: Automatic translation add-on <noreply-addon-"
+"autotranslate@weblate.org>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/weblate/"
 "hosted/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || "
-"n%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
-"X-Generator: Weblate 5.13.1-dev\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || n%100>"
+"=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
+"X-Generator: Weblate 2026.6.dev0\n"
 
 #: wlhosted/integrations/forms.py:38
 msgid "Billing"
@@ -39,7 +41,7 @@ msgstr "Kurti naują mokėjimo planą"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:4
 msgid "Web-based <strong>continuous</strong> localization"
-msgstr ""
+msgstr "Internetinis <strong>nepertraukiamas</strong> lokalizavimas"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:7
 msgid "Sign in here to access our services:"
