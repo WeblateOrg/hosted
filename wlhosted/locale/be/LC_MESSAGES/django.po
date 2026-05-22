@@ -9,13 +9,15 @@
 # Michal Čihař <michal@cihar.com>, 2020.
 # CyrTranslit <noreply-mt-cyrtranslit@weblate.org>, 2025.
 # Yauhen <bugomol@users.noreply.hosted.weblate.org>, 2025.
+# Automatic translation add-on <noreply-addon-autotranslate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-05-22 13:28-0500\n"
-"PO-Revision-Date: 2025-05-04 10:01+0000\n"
-"Last-Translator: Yauhen <bugomol@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2026-05-23 19:11+0000\n"
+"Last-Translator: Automatic translation add-on <noreply-addon-"
+"autotranslate@weblate.org>\n"
 "Language-Team: Belarusian <https://hosted.weblate.org/projects/weblate/"
 "hosted/be/>\n"
 "Language: be\n"
@@ -24,7 +26,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 2026.6.dev0\n"
 
 #: wlhosted/integrations/forms.py:38
 msgid "Billing"
@@ -40,7 +42,7 @@ msgstr "Стварыць новы тарыфны план"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:4
 msgid "Web-based <strong>continuous</strong> localization"
-msgstr ""
+msgstr "Сеціўная <strong>бесперапынная</strong> лакалізацыя"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:7
 msgid "Sign in here to access our services:"
