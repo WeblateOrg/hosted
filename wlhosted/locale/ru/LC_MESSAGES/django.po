@@ -16,13 +16,15 @@
 # Blueberry <igory.ygr200@gmail.com>, 2021, 2022, 2024, 2025, 2026.
 # Темак <artemkotlubai@yandex.ru>, 2022.
 # Artemka <anonymous58630@gmail.com>, 2024.
+# Automatic translation add-on <noreply-addon-autotranslate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-05-22 13:28-0500\n"
-"PO-Revision-Date: 2026-01-20 08:01+0000\n"
-"Last-Translator: Blueberry <igory.ygr200@gmail.com>\n"
+"PO-Revision-Date: 2026-05-23 19:11+0000\n"
+"Last-Translator: Automatic translation add-on <noreply-addon-"
+"autotranslate@weblate.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/weblate/hosted/"
 "ru/>\n"
 "Language: ru\n"
@@ -31,7 +33,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.16-dev\n"
+"X-Generator: Weblate 2026.6.dev0\n"
 
 #: wlhosted/integrations/forms.py:38
 msgid "Billing"
@@ -47,7 +49,7 @@ msgstr "Создать новый тарифный план"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:4
 msgid "Web-based <strong>continuous</strong> localization"
-msgstr ""
+msgstr "<strong>Непрерывный</strong> сетевой перевод"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:7
 msgid "Sign in here to access our services:"
