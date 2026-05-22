@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
-"Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2025-11-20 14:14+0000\n"
+"Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
+"POT-Creation-Date: 2026-05-22 13:28-0500\n"
 "PO-Revision-Date: 2026-02-17 18:12+0000\n"
 "Last-Translator: \"ℂ𝕠𝕠𝕠𝕝 (𝕘𝕚𝕥𝕙𝕦𝕓.𝕔𝕠𝕞/ℂ𝕠𝕠𝕠𝕝)\" <coool@mail.lv>\n"
 "Language-Team: Latvian <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -20,20 +20,6 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= "
 "19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);\n"
 "X-Generator: Weblate 5.16.1-dev\n"
-
-#: wlhosted/addons.py:40 wlhosted/addons.py:41
-msgid "Generate Unknown Horizons scenario data"
-msgstr "Ģenerēt scenāriju datus nezināmiem laika periodiem"
-
-#: wlhosted/addons.py:63
-msgid "Reset repository to upstream"
-msgstr ""
-"Atiestatīt repozitoriju tā sākotnējā stāvoklī, pa pamatu ņemot pirmkoda "
-"repozitoriju"
-
-#: wlhosted/addons.py:64
-msgid "Discards all changes in the Weblate repository each night."
-msgstr "Katru nakti atmet visas Weblate repozitorijā veiktās izmaiņas."
 
 #: wlhosted/integrations/forms.py:38
 msgid "Billing"
@@ -47,15 +33,19 @@ msgstr "Atlasiet rēķina plānu, kuru vēlaties atjaunināt"
 msgid "Create new billing plan"
 msgstr "Izveidot jaunu rēķina plānu"
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:4
+msgid "Web-based <strong>continuous</strong> localization"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:7
 msgid "Sign in here to access our services:"
 msgstr "Piesakieties šeit, lai piekļūtu mūsu pakalpojumiem:"
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:14
 msgid "Weblate customer care portal"
 msgstr "Weblate klientu atbalsta portāls"
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:17
 msgid "Weblate commercial services management"
 msgstr "Weblate komercpakalpojumu pārvaldība"
 
@@ -208,96 +198,96 @@ msgstr "IBAN bankas pārskaitījums"
 msgid "Payment card"
 msgstr "Maksājumu karte"
 
-#: wlhosted/payments/models.py:91
+#: wlhosted/payments/models.py:95
 msgid "European VAT ID"
 msgstr "Eiropas PVN maksātāja numurs"
 
-#: wlhosted/payments/models.py:93
+#: wlhosted/payments/models.py:97
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "Lūdzu, aizpildiet Eiropas Savienības PVN maksātāja numuru, atstājiet tukšu, "
 "ja tas nav piemērojams."
 
-#: wlhosted/payments/models.py:99
+#: wlhosted/payments/models.py:111
 msgid "Tax registration"
 msgstr "Nodokļu reģistrācija"
 
-#: wlhosted/payments/models.py:101
+#: wlhosted/payments/models.py:113
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
 "Lūdzu, ievadiet savu nodokļu maksātāja numuru, ja vēlaties, lai tas parādās "
 "rēķinā."
 
-#: wlhosted/payments/models.py:107
+#: wlhosted/payments/models.py:119
 msgid "Company or individual name"
 msgstr "Uzņēmuma vai personas vārds"
 
-#: wlhosted/payments/models.py:112
+#: wlhosted/payments/models.py:124
 msgid "Address"
 msgstr "Adrese"
 
-#: wlhosted/payments/models.py:117
+#: wlhosted/payments/models.py:129
 msgid "Additional address information"
 msgstr "Papildu adreses informācija"
 
-#: wlhosted/payments/models.py:123
+#: wlhosted/payments/models.py:135
 msgid "Postcode and city"
 msgstr "Pasta indekss un pilsēta"
 
-#: wlhosted/payments/models.py:128
+#: wlhosted/payments/models.py:140
 msgid "Postcode"
 msgstr "Pasta indekss"
 
-#: wlhosted/payments/models.py:132
+#: wlhosted/payments/models.py:144
 msgid "Country"
 msgstr "Valsts"
 
-#: wlhosted/payments/models.py:178
+#: wlhosted/payments/models.py:192
 msgid "The country has to match your VAT code"
 msgstr "Valstij jāsakrīt ar jūsu PVN maksātāja numuru"
 
-#: wlhosted/payments/models.py:201
+#: wlhosted/payments/models.py:215
 msgid "Annual"
 msgstr "Ik gadu"
 
-#: wlhosted/payments/models.py:202
+#: wlhosted/payments/models.py:216
 msgid "Biannual"
 msgstr "Reizi pusgadā"
 
-#: wlhosted/payments/models.py:203
+#: wlhosted/payments/models.py:217
 msgid "Quarterly"
 msgstr "Reizi ceturksnī"
 
-#: wlhosted/payments/models.py:204
+#: wlhosted/payments/models.py:218
 msgid "Monthly"
 msgstr "Ikmēnesi"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:219
 msgid "One-time"
 msgstr "Vienreizējs"
 
-#: wlhosted/payments/models.py:239
+#: wlhosted/payments/models.py:255
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Jauns maksājums"
 
-#: wlhosted/payments/models.py:240
+#: wlhosted/payments/models.py:256
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Gaida apmaksu"
 
-#: wlhosted/payments/models.py:241
+#: wlhosted/payments/models.py:257
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Maksājums noraidīts"
 
-#: wlhosted/payments/models.py:242
+#: wlhosted/payments/models.py:258
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Maksājums pieņemts"
 
-#: wlhosted/payments/models.py:243
+#: wlhosted/payments/models.py:259
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Maksājums apstrādāts"
@@ -321,6 +311,17 @@ msgstr ""
 #: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "{} nav derīgs PVN maksātāja numurs."
+
+#~ msgid "Generate Unknown Horizons scenario data"
+#~ msgstr "Ģenerēt scenāriju datus nezināmiem laika periodiem"
+
+#~ msgid "Reset repository to upstream"
+#~ msgstr ""
+#~ "Atiestatīt repozitoriju tā sākotnējā stāvoklī, pa pamatu ņemot pirmkoda "
+#~ "repozitoriju"
+
+#~ msgid "Discards all changes in the Weblate repository each night."
+#~ msgstr "Katru nakti atmet visas Weblate repozitorijā veiktās izmaiņas."
 
 #~ msgid "Your payment on weblate.org"
 #~ msgstr "Jūsu maksājums weblate.org vietnē"

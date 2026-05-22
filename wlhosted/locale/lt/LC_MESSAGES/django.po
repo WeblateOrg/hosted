@@ -11,8 +11,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
-"Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2025-11-20 14:14+0000\n"
+"Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
+"POT-Creation-Date: 2026-05-22 13:28-0500\n"
 "PO-Revision-Date: 2025-09-03 10:01+0000\n"
 "Last-Translator: Marija Grineviciute <marijagrine@protonmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/weblate/"
@@ -24,18 +24,6 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || "
 "n%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
 "X-Generator: Weblate 5.13.1-dev\n"
-
-#: wlhosted/addons.py:40 wlhosted/addons.py:41
-msgid "Generate Unknown Horizons scenario data"
-msgstr "Generuoti Nežinomų horizontų scenarijaus duomenis"
-
-#: wlhosted/addons.py:63
-msgid "Reset repository to upstream"
-msgstr "Atstatyti saugyklą į pradinę būseną"
-
-#: wlhosted/addons.py:64
-msgid "Discards all changes in the Weblate repository each night."
-msgstr "Kasnakt panaikina visus pakeitimus „Weblate“ saugykloje."
 
 #: wlhosted/integrations/forms.py:38
 msgid "Billing"
@@ -49,15 +37,19 @@ msgstr "Pasirinkite mokėjimo planą, kurį norite atnaujinti"
 msgid "Create new billing plan"
 msgstr "Kurti naują mokėjimo planą"
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:4
+msgid "Web-based <strong>continuous</strong> localization"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:7
 msgid "Sign in here to access our services:"
 msgstr ""
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:14
 msgid "Weblate customer care portal"
 msgstr ""
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:17
 msgid "Weblate commercial services management"
 msgstr ""
 
@@ -212,96 +204,96 @@ msgstr "IBAN banko pervedimas"
 msgid "Payment card"
 msgstr "Mokėjimo kortelė"
 
-#: wlhosted/payments/models.py:91
+#: wlhosted/payments/models.py:95
 msgid "European VAT ID"
 msgstr "Europos PVM mokėtojo kodas"
 
-#: wlhosted/payments/models.py:93
+#: wlhosted/payments/models.py:97
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "Užpildykite Europos Sąjungos PVM mokėtojo kodą. Palikite tuščią, jei "
 "netaikoma."
 
-#: wlhosted/payments/models.py:99
+#: wlhosted/payments/models.py:111
 msgid "Tax registration"
 msgstr "Mokesčių registracija"
 
-#: wlhosted/payments/models.py:101
+#: wlhosted/payments/models.py:113
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
 "Užpildykite savo mokesčių mokėtojo registraciją, jei ji turėtų būti nurodoma "
 "sąskaitoje faktūroje."
 
-#: wlhosted/payments/models.py:107
+#: wlhosted/payments/models.py:119
 msgid "Company or individual name"
 msgstr "Bendrovės arba fizinio asmens vardas"
 
-#: wlhosted/payments/models.py:112
+#: wlhosted/payments/models.py:124
 msgid "Address"
 msgstr "Adresas"
 
-#: wlhosted/payments/models.py:117
+#: wlhosted/payments/models.py:129
 msgid "Additional address information"
 msgstr "Papildoma adreso informacija"
 
-#: wlhosted/payments/models.py:123
+#: wlhosted/payments/models.py:135
 msgid "Postcode and city"
 msgstr "Pašto kodas ir miestas"
 
-#: wlhosted/payments/models.py:128
+#: wlhosted/payments/models.py:140
 msgid "Postcode"
 msgstr "Pašto kodas"
 
-#: wlhosted/payments/models.py:132
+#: wlhosted/payments/models.py:144
 msgid "Country"
 msgstr "Šalis"
 
-#: wlhosted/payments/models.py:178
+#: wlhosted/payments/models.py:192
 msgid "The country has to match your VAT code"
 msgstr "Šalis turi sutapti su jūsų PVM kodu"
 
-#: wlhosted/payments/models.py:201
+#: wlhosted/payments/models.py:215
 msgid "Annual"
 msgstr "Kasmet"
 
-#: wlhosted/payments/models.py:202
+#: wlhosted/payments/models.py:216
 msgid "Biannual"
 msgstr "Kas dvejus metus"
 
-#: wlhosted/payments/models.py:203
+#: wlhosted/payments/models.py:217
 msgid "Quarterly"
 msgstr "Kas ketvirtį"
 
-#: wlhosted/payments/models.py:204
+#: wlhosted/payments/models.py:218
 msgid "Monthly"
 msgstr "Kas mėnesį"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:219
 msgid "One-time"
 msgstr "Vienkartinis"
 
-#: wlhosted/payments/models.py:239
+#: wlhosted/payments/models.py:255
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Naujas mokėjimas"
 
-#: wlhosted/payments/models.py:240
+#: wlhosted/payments/models.py:256
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Laukiama mokėjimo"
 
-#: wlhosted/payments/models.py:241
+#: wlhosted/payments/models.py:257
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Mokėjimas atmestas"
 
-#: wlhosted/payments/models.py:242
+#: wlhosted/payments/models.py:258
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Mokėjimas priimtas"
 
-#: wlhosted/payments/models.py:243
+#: wlhosted/payments/models.py:259
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Mokėjimas apdorotas"
@@ -323,6 +315,15 @@ msgstr ""
 #: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "{} negaliojantis PVM mokėtojo kodas."
+
+#~ msgid "Generate Unknown Horizons scenario data"
+#~ msgstr "Generuoti Nežinomų horizontų scenarijaus duomenis"
+
+#~ msgid "Reset repository to upstream"
+#~ msgstr "Atstatyti saugyklą į pradinę būseną"
+
+#~ msgid "Discards all changes in the Weblate repository each night."
+#~ msgstr "Kasnakt panaikina visus pakeitimus „Weblate“ saugykloje."
 
 #~ msgid "Payment cancelled"
 #~ msgstr "Mokėjimas atšauktas"

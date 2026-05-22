@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
-"Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2025-11-20 14:14+0000\n"
+"Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
+"POT-Creation-Date: 2026-05-22 13:28-0500\n"
 "PO-Revision-Date: 2026-01-27 04:08+0000\n"
 "Last-Translator: AlaxLima <thanhkhoidangngoc@gmail.com>\n"
 "Language-Team: Vietnamese <https://hosted.weblate.org/projects/weblate/"
@@ -21,18 +21,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.16-dev\n"
-
-#: wlhosted/addons.py:40 wlhosted/addons.py:41
-msgid "Generate Unknown Horizons scenario data"
-msgstr "Tạo dữ liệu ngữ cảnh của Unknown Horizons"
-
-#: wlhosted/addons.py:63
-msgid "Reset repository to upstream"
-msgstr "Đặt lại repository về thượng nguồn"
-
-#: wlhosted/addons.py:64
-msgid "Discards all changes in the Weblate repository each night."
-msgstr "Bỏ tất cả thay đổi trong Weblate repository vào mỗi đêm."
 
 #: wlhosted/integrations/forms.py:38
 msgid "Billing"
@@ -46,15 +34,19 @@ msgstr "Chọn kế hoạch thanh toán bạn muốn cập nhật"
 msgid "Create new billing plan"
 msgstr "Tạo kế hoạch thanh toán mới"
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:4
+msgid "Web-based <strong>continuous</strong> localization"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:7
 msgid "Sign in here to access our services:"
 msgstr "Đăng nhập tại đây để truy cập dịch vụ của chúng tôi:"
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:14
 msgid "Weblate customer care portal"
 msgstr "Cổng chăm sóc khách hàng Weblate"
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:17
 msgid "Weblate commercial services management"
 msgstr "Quản lý dịch vụ thương mại Weblate"
 
@@ -209,92 +201,92 @@ msgstr "Chuyển khoản ngân hàng IBAN"
 msgid "Payment card"
 msgstr "Thẻ thanh toán"
 
-#: wlhosted/payments/models.py:91
+#: wlhosted/payments/models.py:95
 msgid "European VAT ID"
 msgstr "ID VAT châu Âu"
 
-#: wlhosted/payments/models.py:93
+#: wlhosted/payments/models.py:97
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr "Vui lòng điền ID VAT của Liên minh châu Âu, để trống nếu không có."
 
-#: wlhosted/payments/models.py:99
+#: wlhosted/payments/models.py:111
 msgid "Tax registration"
 msgstr "Đăng ký thuế"
 
-#: wlhosted/payments/models.py:101
+#: wlhosted/payments/models.py:113
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "Vui lòng điền thông tin đăng ký thuế (nếu có) vào hóa đơn."
 
-#: wlhosted/payments/models.py:107
+#: wlhosted/payments/models.py:119
 msgid "Company or individual name"
 msgstr "Tên cá nhân hoặc công ty"
 
-#: wlhosted/payments/models.py:112
+#: wlhosted/payments/models.py:124
 msgid "Address"
 msgstr "Địa chỉ"
 
-#: wlhosted/payments/models.py:117
+#: wlhosted/payments/models.py:129
 msgid "Additional address information"
 msgstr "Thông tin địa chỉ bổ sung"
 
-#: wlhosted/payments/models.py:123
+#: wlhosted/payments/models.py:135
 msgid "Postcode and city"
 msgstr "Mã bưu chính và thành phố"
 
-#: wlhosted/payments/models.py:128
+#: wlhosted/payments/models.py:140
 msgid "Postcode"
 msgstr "Mã bưu chính"
 
-#: wlhosted/payments/models.py:132
+#: wlhosted/payments/models.py:144
 msgid "Country"
 msgstr "Quốc gia"
 
-#: wlhosted/payments/models.py:178
+#: wlhosted/payments/models.py:192
 msgid "The country has to match your VAT code"
 msgstr "Quốc gia phải phù hợp với mã VAT"
 
-#: wlhosted/payments/models.py:201
+#: wlhosted/payments/models.py:215
 msgid "Annual"
 msgstr "Hàng năm"
 
-#: wlhosted/payments/models.py:202
+#: wlhosted/payments/models.py:216
 msgid "Biannual"
 msgstr "Hai lần một năm"
 
-#: wlhosted/payments/models.py:203
+#: wlhosted/payments/models.py:217
 msgid "Quarterly"
 msgstr "Hàng quý"
 
-#: wlhosted/payments/models.py:204
+#: wlhosted/payments/models.py:218
 msgid "Monthly"
 msgstr "Hàng tháng"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:219
 msgid "One-time"
 msgstr "Một lần"
 
-#: wlhosted/payments/models.py:239
+#: wlhosted/payments/models.py:255
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Thanh toán mới"
 
-#: wlhosted/payments/models.py:240
+#: wlhosted/payments/models.py:256
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Thanh toán đang chờ"
 
-#: wlhosted/payments/models.py:241
+#: wlhosted/payments/models.py:257
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Thanh toán bị từ chối"
 
-#: wlhosted/payments/models.py:242
+#: wlhosted/payments/models.py:258
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Đã nhận thanh toán"
 
-#: wlhosted/payments/models.py:243
+#: wlhosted/payments/models.py:259
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Đang xử lý thanh toán"
@@ -316,6 +308,15 @@ msgstr "Dịch vụ xác thực ID VAT không có sẵn cho {}, vui lòng thử 
 #: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "{} không phải là ID VAT hợp lệ."
+
+#~ msgid "Generate Unknown Horizons scenario data"
+#~ msgstr "Tạo dữ liệu ngữ cảnh của Unknown Horizons"
+
+#~ msgid "Reset repository to upstream"
+#~ msgstr "Đặt lại repository về thượng nguồn"
+
+#~ msgid "Discards all changes in the Weblate repository each night."
+#~ msgstr "Bỏ tất cả thay đổi trong Weblate repository vào mỗi đêm."
 
 #~ msgid "Your payment on weblate.org"
 #~ msgstr "Thanh toán của bạn trên weblate.org"

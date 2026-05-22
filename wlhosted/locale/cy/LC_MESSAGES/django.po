@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
-"Report-Msgid-Bugs-To: https://github.com/WeblateOrg/hosted/issues\n"
-"POT-Creation-Date: 2025-11-20 14:14+0000\n"
+"Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
+"POT-Creation-Date: 2026-05-22 13:28-0500\n"
 "PO-Revision-Date: 2024-10-17 16:19+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: Welsh <https://hosted.weblate.org/projects/weblate/hosted/cy/"
@@ -21,18 +21,6 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=(n==0) ? 0 : (n==1) ? 1 : (n==2) ? 2 : "
 "(n==3) ? 3 :(n==6) ? 4 : 5;\n"
 "X-Generator: Weblate 5.8-rc\n"
-
-#: wlhosted/addons.py:40 wlhosted/addons.py:41
-msgid "Generate Unknown Horizons scenario data"
-msgstr "Cynhyrchu data senario Horizons anhysbys"
-
-#: wlhosted/addons.py:63
-msgid "Reset repository to upstream"
-msgstr "Ailosod y storfa i fyny'r afon"
-
-#: wlhosted/addons.py:64
-msgid "Discards all changes in the Weblate repository each night."
-msgstr "Mae'n gwaredu pob newid yn ystorfa Weblate bob nos."
 
 #: wlhosted/integrations/forms.py:38
 msgid "Billing"
@@ -46,15 +34,19 @@ msgstr "Dewiswch y cynllun bilio yr hoffech ei ddiweddaru"
 msgid "Create new billing plan"
 msgstr "Crëwch gynllun bilio newydd"
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:3
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:4
+msgid "Web-based <strong>continuous</strong> localization"
+msgstr ""
+
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:7
 msgid "Sign in here to access our services:"
 msgstr ""
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:10
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:14
 msgid "Weblate customer care portal"
 msgstr ""
 
-#: wlhosted/integrations/templates/accounts/snippets/login-about.html:13
+#: wlhosted/integrations/templates/accounts/snippets/login-about.html:17
 msgid "Weblate commercial services management"
 msgstr ""
 
@@ -210,95 +202,95 @@ msgstr "Trosglwyddiad banc IBAN"
 msgid "Payment card"
 msgstr "Cerdyn talu"
 
-#: wlhosted/payments/models.py:91
+#: wlhosted/payments/models.py:95
 msgid "European VAT ID"
 msgstr "ID TAW Ewropeaidd"
 
-#: wlhosted/payments/models.py:93
+#: wlhosted/payments/models.py:97
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "Llenwch ID TAW yr Undeb Ewropeaidd, gadewch yn wag os nad yw'n berthnasol."
 
-#: wlhosted/payments/models.py:99
+#: wlhosted/payments/models.py:111
 msgid "Tax registration"
 msgstr "Cofrestriad treth"
 
-#: wlhosted/payments/models.py:101
+#: wlhosted/payments/models.py:113
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "Llenwch eich cofrestriad treth os y ddylai ymddangos ar yr anfoneb."
 
-#: wlhosted/payments/models.py:107
+#: wlhosted/payments/models.py:119
 msgid "Company or individual name"
 msgstr "Enw cwmni neu unigolyn"
 
-#: wlhosted/payments/models.py:112
+#: wlhosted/payments/models.py:124
 msgid "Address"
 msgstr "Cyfeiriad"
 
-#: wlhosted/payments/models.py:117
+#: wlhosted/payments/models.py:129
 msgid "Additional address information"
 msgstr ""
 
-#: wlhosted/payments/models.py:123
+#: wlhosted/payments/models.py:135
 msgid "Postcode and city"
 msgstr "Cod post a dinas"
 
-#: wlhosted/payments/models.py:128
+#: wlhosted/payments/models.py:140
 #, fuzzy
 #| msgid "Postcode and city"
 msgid "Postcode"
 msgstr "Cod post a dinas"
 
-#: wlhosted/payments/models.py:132
+#: wlhosted/payments/models.py:144
 msgid "Country"
 msgstr "Gwlad"
 
-#: wlhosted/payments/models.py:178
+#: wlhosted/payments/models.py:192
 msgid "The country has to match your VAT code"
 msgstr "Rhaid i'r wlad gyd-fynd â'ch cod TAW"
 
-#: wlhosted/payments/models.py:201
+#: wlhosted/payments/models.py:215
 msgid "Annual"
 msgstr "Blynyddol"
 
-#: wlhosted/payments/models.py:202
+#: wlhosted/payments/models.py:216
 msgid "Biannual"
 msgstr "Dwywaith y flwyddyn"
 
-#: wlhosted/payments/models.py:203
+#: wlhosted/payments/models.py:217
 msgid "Quarterly"
 msgstr "Chwarterol"
 
-#: wlhosted/payments/models.py:204
+#: wlhosted/payments/models.py:218
 msgid "Monthly"
 msgstr "Misol"
 
-#: wlhosted/payments/models.py:205
+#: wlhosted/payments/models.py:219
 msgid "One-time"
 msgstr "Un tro"
 
-#: wlhosted/payments/models.py:239
+#: wlhosted/payments/models.py:255
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Taliad newydd"
 
-#: wlhosted/payments/models.py:240
+#: wlhosted/payments/models.py:256
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Yn aros am daliad"
 
-#: wlhosted/payments/models.py:241
+#: wlhosted/payments/models.py:257
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Taliad wedi'i wrthod"
 
-#: wlhosted/payments/models.py:242
+#: wlhosted/payments/models.py:258
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Taliad wedi'i dderbyn"
 
-#: wlhosted/payments/models.py:243
+#: wlhosted/payments/models.py:259
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Taliad wedi'i brosesu"
@@ -321,6 +313,15 @@ msgstr ""
 #: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
 msgstr "Nid yw {} yn ID TAW dilys."
+
+#~ msgid "Generate Unknown Horizons scenario data"
+#~ msgstr "Cynhyrchu data senario Horizons anhysbys"
+
+#~ msgid "Reset repository to upstream"
+#~ msgstr "Ailosod y storfa i fyny'r afon"
+
+#~ msgid "Discards all changes in the Weblate repository each night."
+#~ msgstr "Mae'n gwaredu pob newid yn ystorfa Weblate bob nos."
 
 #~ msgid "Your payment on weblate.org"
 #~ msgstr "Eich taliad ar weblate.org"
