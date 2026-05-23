@@ -6,13 +6,14 @@
 # bruh <quangtrung02hn16@gmail.com>, 2021.
 # Vũ Minh Nguyên <PiscesKaze@gmail.com>, 2025.
 # AlaxLima <thanhkhoidangngoc@gmail.com>, 2026.
+# hoanghuy309 <hoanghuy309@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-05-22 13:28-0500\n"
-"PO-Revision-Date: 2026-01-27 04:08+0000\n"
-"Last-Translator: AlaxLima <thanhkhoidangngoc@gmail.com>\n"
+"PO-Revision-Date: 2026-05-23 19:11+0000\n"
+"Last-Translator: hoanghuy309 <hoanghuy309@gmail.com>\n"
 "Language-Team: Vietnamese <https://hosted.weblate.org/projects/weblate/"
 "hosted/vi/>\n"
 "Language: vi\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16-dev\n"
+"X-Generator: Weblate 2026.6.dev0\n"
 
 #: wlhosted/integrations/forms.py:38
 msgid "Billing"
@@ -84,7 +85,7 @@ msgstr "Kế hoạch hiện tại"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Hosted strings limit"
-msgstr "Giới hạn xâu"
+msgstr "Giới hạn chuỗi được lưu trữ"
 
 #: wlhosted/integrations/templates/hosted/create.html:61
 #: wlhosted/integrations/templates/hosted/create.html:71
