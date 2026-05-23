@@ -4,7 +4,7 @@
 # Yasuhiko Kamata <belphegor@belbel.or.jp>, 2015, 2018.
 # Kyotaro Iijima <kyotaro.eyes@gmail.com>, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2026.
 # Tetsuro Shimazaki <shimazaki@shima-office.com>, 2018, 2019, 2020.
-# Ryo Nakano <ryonakaknock3@gmail.com>, 2018, 2019.
+# Ryo Nakano <ryonakaknock3@gmail.com>, 2018, 2019, 2026.
 # Scott Anecito <scott.anecito@protonmail.com>, 2019.
 # amano <amano.hajime@gmail.com>, 2020.
 # Michal Čihař <michal@cihar.com>, 2020.
@@ -20,8 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-05-22 13:28-0500\n"
 "PO-Revision-Date: 2026-05-23 19:11+0000\n"
-"Last-Translator: Automatic translation add-on <noreply-addon-"
-"autotranslate@weblate.org>\n"
+"Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/weblate/hosted/"
 "ja/>\n"
 "Language: ja\n"
@@ -270,7 +269,7 @@ msgstr "四半期ごと"
 
 #: wlhosted/payments/models.py:218
 msgid "Monthly"
-msgstr "月払い"
+msgstr "毎月"
 
 #: wlhosted/payments/models.py:219
 msgid "One-time"
