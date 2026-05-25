@@ -44,7 +44,7 @@ def end_interval(payment: Payment, start: datetime) -> datetime:
 
 @transaction.atomic
 @transaction.atomic(using="payments_db")
-def handle_received_payment(payment: Payment) -> Billing | None:
+def handle_received_payment(payment: Payment) -> Billing | None:  # noqa: PLR0912
     plan: Plan | None = None
     if plan_id := payment.extra.get("plan"):
         # Needed for new payments only
