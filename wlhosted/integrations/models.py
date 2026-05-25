@@ -23,9 +23,10 @@ from typing import TYPE_CHECKING
 
 from appconf import AppConf
 from dateutil.relativedelta import relativedelta
-from django.db import transaction
+from django.conf import settings
+from django.db import models, transaction
 from django.db.models.aggregates import Max
-from django.db.models.signals import pre_save
+from django.db.models.signals import post_save, pre_save
 from django.dispatch.dispatcher import receiver
 from django.utils import timezone
 from weblate.auth.models import User
@@ -118,25 +119,88 @@ class HostedConf(AppConf):
         prefix = "PAYMENT"
 
 
-@receiver(pre_save, sender=User)
-@disable_for_loaddata
-def propagate_user_changes(sender, instance, **kwargs) -> None:
+class UserSyncState(models.Model):
+    user = models.OneToOneField(
+        User, on_delete=models.CASCADE, related_name="hosted_sync_state"
+    )
+    updated = models.DateTimeField(auto_now=True, db_index=True)
+
+    class Meta:
+        verbose_name = "User sync state"
+        verbose_name_plural = "User sync states"
+
+    def __str__(self) -> str:
+        return self.user.username
+
+
+def get_user_sync_profile(user: User) -> dict[str, object]:
+    return {
+        "username": user.username,
+        "last_name": user.last_name,
+        "email": user.email,
+        "active": user.is_active,
+        "is_active": user.is_active,
+    }
+
+
+def normalize_user_sync_changes(changes: dict[str, object]) -> dict[str, object]:
+    result = changes.copy()
+    if "is_active" in result:
+        result["active"] = result["is_active"]
+    elif "active" in result:
+        result["is_active"] = result["active"]
+    return result
+
+
+def get_user_sync_payload(
+    user: User, changes: dict[str, object] | None = None
+) -> dict[str, object]:
+    profile = get_user_sync_profile(user)
+    return {
+        "provider": "https://hosted.weblate.org/idp/metadata",
+        "external_id": str(user.pk),
+        "profile": profile,
+        "changes": normalize_user_sync_changes(changes) if changes else profile,
+    }
+
+
+def queue_user_sync(user: User, changes: dict[str, object] | None = None) -> None:
     from wlhosted.integrations.tasks import notify_user_change  # noqa: PLC0415
 
+    if user.is_anonymous or not settings.PAYMENT_SECRET:
+        return
+    UserSyncState.objects.update_or_create(
+        user=user, defaults={"updated": timezone.now()}
+    )
+    notify_user_change.delay(get_user_sync_payload(user, changes))
+
+
+@receiver(pre_save, sender=User)
+@disable_for_loaddata
+def prepare_user_changes(sender, instance, **kwargs) -> None:
     if instance.is_anonymous:
         return
-    fields = ("username", "last_name", "email")
-    create = {}
+    fields = ("username", "last_name", "email", "is_active")
     changed = {}
-    username = instance.username
-    for field in fields:
-        create[field] = getattr(instance, field)
 
     if instance.pk:
-        old = User.objects.get(pk=instance.pk)
-        username = old.username
-        for field in ("username", "last_name", "email"):
+        try:
+            old = User.objects.get(pk=instance.pk)
+        except User.DoesNotExist:
+            instance._wlhosted_sync_changes = None
+            return
+        for field in fields:
             if getattr(old, field) != getattr(instance, field):
                 changed[field] = getattr(instance, field)
+    instance._wlhosted_sync_changes = changed or None
 
-    notify_user_change.delay(username, changed, create)
+
+@receiver(post_save, sender=User)
+@disable_for_loaddata
+def propagate_user_changes(sender, instance, created=False, **kwargs) -> None:
+    if created:
+        queue_user_sync(instance)
+        return
+    changes = getattr(instance, "_wlhosted_sync_changes", None)
+    if changes:
+        queue_user_sync(instance, changes)
