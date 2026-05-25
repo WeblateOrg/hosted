@@ -17,9 +17,8 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-05-22 13:28-0500\n"
-"PO-Revision-Date: 2026-05-23 19:11+0000\n"
-"Last-Translator: Automatic translation add-on <noreply-addon-"
-"autotranslate@weblate.org>\n"
+"PO-Revision-Date: 2026-05-25 10:02+0000\n"
+"Last-Translator: 為什麼不加空格 <c++23@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/weblate/hosted/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -91,7 +90,7 @@ msgstr "目前方案"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Hosted strings limit"
-msgstr "代管字串數上限"
+msgstr "託管字串數限制"
 
 #: wlhosted/integrations/templates/hosted/create.html:61
 #: wlhosted/integrations/templates/hosted/create.html:71
@@ -229,7 +228,7 @@ msgstr "地址"
 
 #: wlhosted/payments/models.py:129
 msgid "Additional address information"
-msgstr "額外的地址資訊"
+msgstr "額外地址資訊"
 
 #: wlhosted/payments/models.py:135
 msgid "Postcode and city"
