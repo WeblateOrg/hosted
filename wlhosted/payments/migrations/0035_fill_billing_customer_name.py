@@ -7,10 +7,6 @@ class Migration(migrations.Migration):
             "payments",
             "0034_customer_vat_validated_customer_vat_validation_error_and_more",
         ),
-        (
-            "integrations",
-            "0001_fill_billing_customer_name",
-        ),
     ]
 
     operations = [
