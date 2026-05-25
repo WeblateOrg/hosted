@@ -22,19 +22,30 @@ from typing import TYPE_CHECKING
 
 from django.conf import settings
 from django.contrib.auth.decorators import login_required
-from django.core.exceptions import ValidationError
+from django.core.exceptions import BadRequest, ValidationError
+from django.core.signing import BadSignature, SignatureExpired, dumps, loads
 from django.db import transaction
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect, JsonResponse
 from django.shortcuts import redirect
+from django.utils import timezone
+from django.utils.dateparse import parse_datetime
 from django.utils.decorators import method_decorator
 from django.utils.translation import gettext as _
+from django.views.decorators.cache import never_cache
+from django.views.decorators.csrf import csrf_exempt
+from django.views.decorators.http import require_POST
 from django.views.generic.edit import FormView
+from weblate.auth.models import User
 from weblate.billing.models import Billing, Plan
 from weblate.utils import messages
 from weblate.utils.views import show_form_errors
 
 from wlhosted.integrations.forms import BillingForm, ChooseBillingForm
-from wlhosted.integrations.models import handle_received_payment
+from wlhosted.integrations.models import (
+    UserSyncState,
+    get_user_sync_payload,
+    handle_received_payment,
+)
 from wlhosted.integrations.utils import get_origin
 from wlhosted.payments.models import Payment
 
@@ -48,6 +59,62 @@ def get_default_billing(user):
     if billings.count() == 1:
         return billings[0]
     return None
+
+
+@csrf_exempt
+@require_POST
+@never_cache
+def api_users(request):
+    if not settings.PAYMENT_SECRET:
+        raise BadRequest("User sync is disabled")
+
+    try:
+        payload = loads(
+            request.POST.get("payload", ""),
+            key=settings.PAYMENT_SECRET,
+            max_age=300,
+            salt="weblate.user-sync",
+        )
+    except (BadSignature, SignatureExpired) as error:
+        raise BadRequest("Invalid signature") from error
+
+    since = payload.get("since")
+    if since not in (None, ""):
+        if not isinstance(since, str):
+            raise BadRequest("Invalid cursor")
+        since_dt = parse_datetime(since)
+        if since_dt is None or timezone.is_naive(since_dt):
+            raise BadRequest("Invalid cursor")
+        now = timezone.now()
+        if since_dt > now:
+            raise BadRequest("Invalid cursor")
+        sync_states = list(
+            UserSyncState.objects.filter(updated__gt=since_dt)
+            .select_related("user")
+            .order_by("user_id")
+        )
+        users = [sync_state.user for sync_state in sync_states]
+        cursor = max(
+            (sync_state.updated for sync_state in sync_states),
+            default=since_dt,
+        )
+    else:
+        cursor = timezone.now()
+        users = list(User.objects.order_by("pk"))
+
+    response_payload = {
+        "cursor": cursor.isoformat(),
+        "users": [get_user_sync_payload(user) for user in users],
+    }
+    return JsonResponse(
+        {
+            "payload": dumps(
+                response_payload,
+                key=settings.PAYMENT_SECRET,
+                salt="weblate.user-sync-response",
+            )
+        }
+    )
 
 
 @method_decorator(login_required, name="dispatch")

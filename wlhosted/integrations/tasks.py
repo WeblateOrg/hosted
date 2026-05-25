@@ -120,14 +120,20 @@ def recurring_payments() -> None:
 
 
 @app.task
-def notify_user_change(username, changes, create) -> None:
+def notify_user_change(payload, changes=None, create=None) -> None:
     if not settings.PAYMENT_SECRET:
         return
+    if not isinstance(payload, dict):
+        payload = {
+            "username": payload,
+            "create": create or {},
+            "changes": changes or {},
+        }
     response = requests.post(
         "https://weblate.org/api/user/",
         data={
             "payload": dumps(
-                {"username": username, "create": create, "changes": changes},
+                payload,
                 key=settings.PAYMENT_SECRET,
                 salt="weblate.user",
             )

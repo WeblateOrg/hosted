@@ -17,15 +17,12 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
 
-from django.core.management.base import BaseCommand
-from weblate.auth.models import User
+from __future__ import annotations
 
-from wlhosted.integrations.models import queue_user_sync
+from django.urls import path
 
+from wlhosted.integrations.views import api_users
 
-class Command(BaseCommand):
-    help = "pushes user data to weblate.org"
-
-    def handle(self, *args, **options) -> None:
-        for user in User.objects.filter(is_active=True).iterator():
-            queue_user_sync(user)
+urlpatterns = [
+    path("users/", api_users, name="hosted-api-users"),
+]
