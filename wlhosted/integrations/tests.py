@@ -195,9 +195,11 @@ class PaymentTest(TestCase):
         payment.delete()
         self.assertRedirects(self.client.get(create_url, pay_params), create_url)
 
-    def do_complete(self, **kwargs):
+    def do_complete(self, customer_name: str = "", **kwargs):
         self.create_payment(**kwargs)
         payment = Payment.objects.all()[0]
+        if customer_name:
+            Customer.objects.update(name=customer_name)
         payment.state = Payment.ACCEPTED
         payment.save()
         response = self.client.get(
@@ -215,6 +217,10 @@ class PaymentTest(TestCase):
         self.assertEqual(bill.state, Billing.STATE_ACTIVE)
         self.assertEqual(bill.plan, self.plan_a)
 
+    def test_complete_customer_name(self) -> None:
+        bill = self.do_complete(customer_name="Acme Billing LLC")
+        self.assertEqual(bill.customer_name, "Acme Billing LLC")
+
     def test_complete_monthly(self) -> None:
         self.do_complete(period="m")
         bill = Billing.objects.all()[0]
@@ -226,6 +232,11 @@ class PaymentTest(TestCase):
         bill = self.do_complete(billing=bill.pk)
         self.assertEqual(bill.state, Billing.STATE_ACTIVE)
         self.assertEqual(bill.plan, self.plan_a)
+
+    def test_complete_updates_customer_name(self) -> None:
+        bill = self.create_trial()
+        bill = self.do_complete(billing=bill.pk, customer_name="Updated Customer")
+        self.assertEqual(bill.customer_name, "Updated Customer")
 
     def test_complete_second(self) -> None:
         bill = self.create_trial()
@@ -294,6 +305,7 @@ class PaymentTest(TestCase):
         """Test recurring payments."""
         payment, bill, invoices = self.prepare_recurring("pay")
         self.assertEqual(bill.payment["recurring"], str(payment.pk))
+        self.assertEqual(bill.customer_name, "Michal Čihař")
 
         self.run_recurring()
 
@@ -308,6 +320,26 @@ class PaymentTest(TestCase):
 
         # There should be additional invoice on the billing
         self.assertEqual(invoices + 1, bill.invoice_set.count())
+
+    @override_settings(
+        PAYMENT_DEBUG=True, PAYMENT_REDIRECT_URL="http://example.com/payment"
+    )
+    @responses.activate
+    def test_recurring_updates_customer_name(self) -> None:
+        """Test recurring payments update customer name."""
+        payment, bill, _invoices = self.prepare_recurring("pay")
+        Customer.objects.update(name="Updated Recurring Customer")
+
+        self.run_recurring()
+
+        recure_payment = Payment.objects.exclude(pk=payment.pk)[0]
+        backend = get_backend("pay")(recure_payment)
+        backend.initiate(None, "", "")
+        backend.complete(None)
+        pending_payments()
+
+        bill.refresh_from_db()
+        self.assertEqual(bill.customer_name, "Updated Recurring Customer")
 
     @override_settings(PAYMENT_DEBUG=True)
     def test_recurring_none(self) -> None:
