@@ -27,9 +27,20 @@ from django.core.exceptions import ValidationError
 from django.utils import timezone
 from django.utils.translation import gettext_lazy as _
 from weblate.billing.models import Billing, Plan
+from weblate.trans.defines import FULLNAME_LENGTH
+from weblate.utils.validators import validate_fullname
 
 from wlhosted.integrations.utils import get_origin
 from wlhosted.payments.models import Customer, Payment, date_format, get_period_delta
+
+
+class EnsureHostedUserForm(forms.Form):
+    email = forms.EmailField(label=_("E-mail"))
+    full_name = forms.CharField(
+        label=_("Full name"),
+        max_length=FULLNAME_LENGTH,
+        validators=[validate_fullname],
+    )
 
 
 class ChooseBillingForm(forms.Form):

@@ -31,7 +31,7 @@
           </div>
         {% endif %}
         {% if billing %}
-          {% include "billing/status.html" with projects=billing.projects.all hide_buttons=True %}
+          {% include "billing/status.html" with projects=billing.all_projects hide_buttons=True %}
         {% endif %}
       </div>
     {% endif %}
