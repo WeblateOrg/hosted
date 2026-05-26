@@ -18,13 +18,15 @@
 #
 from __future__ import annotations
 
+import re
+from functools import partial
 from typing import TYPE_CHECKING
 
 from django.conf import settings
 from django.contrib.auth.decorators import login_required
 from django.core.exceptions import BadRequest, ValidationError
 from django.core.signing import BadSignature, SignatureExpired, dumps, loads
-from django.db import transaction
+from django.db import IntegrityError, transaction
 from django.http import HttpResponseRedirect, JsonResponse
 from django.shortcuts import redirect
 from django.utils import timezone
@@ -35,12 +37,19 @@ from django.views.decorators.cache import never_cache
 from django.views.decorators.csrf import csrf_exempt
 from django.views.decorators.http import require_POST
 from django.views.generic.edit import FormView
+from weblate.accounts.flows import PASSWORD_RESET_SCOPE_WEBLATE_SERVICES
+from weblate.accounts.models import EXTERNAL_CREATE_ACTIVITY, AuditLog
+from weblate.accounts.views import send_password_reset_email
 from weblate.auth.models import User
 from weblate.billing.models import Billing, Plan
 from weblate.utils import messages
 from weblate.utils.views import show_form_errors
 
-from wlhosted.integrations.forms import BillingForm, ChooseBillingForm
+from wlhosted.integrations.forms import (
+    BillingForm,
+    ChooseBillingForm,
+    EnsureHostedUserForm,
+)
 from wlhosted.integrations.models import (
     UserSyncState,
     get_user_sync_payload,
@@ -53,6 +62,13 @@ if TYPE_CHECKING:
     from weblate.auth.models import AuthenticatedHttpRequest
 
 
+USER_SYNC_SALT = "weblate.user-sync"
+USER_SYNC_RESPONSE_SALT = "weblate.user-sync-response"
+USER_ENSURE_SALT = "weblate.user-ensure"
+USER_ENSURE_RESPONSE_SALT = "weblate.user-ensure-response"
+USERNAME_ALLOWED_RE = re.compile(r"[^\w.@+-]+")
+
+
 def get_default_billing(user):
     """Get trial billing for user to be upgraded."""
     billings = Billing.objects.for_user(user).filter(state=Billing.STATE_TRIAL)
@@ -61,22 +77,99 @@ def get_default_billing(user):
     return None
 
 
-@csrf_exempt
-@require_POST
-@never_cache
-def api_users(request):
+def get_username_max_length() -> int:
+    max_length = User._meta.get_field("username").max_length  # pylint: disable=protected-access
+    return int(max_length or 150)
+
+
+def normalize_username(username: str) -> str:
+    result = USERNAME_ALLOWED_RE.sub("-", username.strip())
+    return (result or "weblate-user")[: get_username_max_length()]
+
+
+def make_unique_username(email: str) -> str:
+    username = normalize_username(email.strip().casefold().rsplit("@", 1)[0])
+    if not User.objects.filter(username__iexact=username).exists():
+        return username
+    max_length = get_username_max_length()
+    counter = 1
+    while True:
+        suffix = f"-{counter}"
+        candidate = f"{username[: max_length - len(suffix)]}{suffix}"
+        if not User.objects.filter(username__iexact=candidate).exists():
+            return candidate
+        counter += 1
+
+
+def get_hosted_user_by_email(email: str) -> User | None:
+    users = list(User.objects.filter(email__iexact=email).order_by("pk")[:2])
+    if len(users) > 1:
+        raise BadRequest("Multiple hosted users use this e-mail address")
+    if users:
+        return users[0]
+    return None
+
+
+def ensure_hosted_user(request, email: str, full_name: str) -> tuple[User, bool]:
+    if user := get_hosted_user_by_email(email):
+        return user, False
+
+    for attempt in range(2):
+        try:
+            with transaction.atomic():
+                if user := get_hosted_user_by_email(email):
+                    return user, False
+                username = make_unique_username(email)
+                if user := get_hosted_user_by_email(email):
+                    return user, False
+                user = User.objects.create_user(
+                    username=username,
+                    email=email,
+                    full_name=full_name,
+                )
+                AuditLog.objects.create(user, None, EXTERNAL_CREATE_ACTIVITY)
+                transaction.on_commit(
+                    partial(
+                        send_password_reset_email,
+                        request,
+                        user,
+                        email=email,
+                        scope=PASSWORD_RESET_SCOPE_WEBLATE_SERVICES,
+                    )
+                )
+                return user, True
+        except IntegrityError:
+            if user := get_hosted_user_by_email(email):
+                return user, False
+            if attempt:
+                raise
+
+    raise BadRequest("Could not create hosted user")
+
+
+def get_signed_payload(request, salt: str) -> dict:
     if not settings.PAYMENT_SECRET:
-        raise BadRequest("User sync is disabled")
+        raise BadRequest("Integrations API is disabled")
 
     try:
         payload = loads(
             request.POST.get("payload", ""),
             key=settings.PAYMENT_SECRET,
             max_age=300,
-            salt="weblate.user-sync",
+            salt=salt,
         )
     except (BadSignature, SignatureExpired) as error:
         raise BadRequest("Invalid signature") from error
+    if not isinstance(payload, dict):
+        raise BadRequest("Invalid payload")
+    return payload
+
+
+@csrf_exempt
+@require_POST
+@never_cache
+def api_users(request):
+    payload = get_signed_payload(request, USER_SYNC_SALT)
 
     since = payload.get("since")
     if since not in (None, ""):
@@ -111,7 +204,36 @@ def api_users(request):
             "payload": dumps(
                 response_payload,
                 key=settings.PAYMENT_SECRET,
-                salt="weblate.user-sync-response",
+                salt=USER_SYNC_RESPONSE_SALT,
+            )
+        }
+    )
+
+
+@csrf_exempt
+@require_POST
+@never_cache
+def api_user_ensure(request):
+    payload = get_signed_payload(request, USER_ENSURE_SALT)
+    form = EnsureHostedUserForm(payload)
+    if not form.is_valid():
+        raise BadRequest("Invalid user payload")
+
+    user, created = ensure_hosted_user(
+        request,
+        form.cleaned_data["email"],
+        form.cleaned_data["full_name"],
+    )
+    response_payload = {
+        "created": created,
+        "user": get_user_sync_payload(user),
+    }
+    return JsonResponse(
+        {
+            "payload": dumps(
+                response_payload,
+                key=settings.PAYMENT_SECRET,
+                salt=USER_ENSURE_RESPONSE_SALT,
             )
         }
     )

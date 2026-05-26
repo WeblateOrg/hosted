@@ -30,6 +30,7 @@ from django.test import TestCase
 from django.test.utils import override_settings
 from django.urls import reverse
 from django.utils import timezone
+from weblate.accounts.models import AuditLog
 from weblate.auth.models import User
 from weblate.billing.models import Billing, Invoice, Plan
 from weblate.trans.models import Project
@@ -43,6 +44,13 @@ from wlhosted.integrations.tasks import (
     notify_user_change,
     pending_payments,
     recurring_payments,
+)
+from wlhosted.integrations.views import (
+    USER_ENSURE_RESPONSE_SALT,
+    USER_ENSURE_SALT,
+    USER_SYNC_RESPONSE_SALT,
+    USER_SYNC_SALT,
+    make_unique_username,
 )
 from wlhosted.payments.backends import get_backend
 from wlhosted.payments.models import Customer, Payment
@@ -97,7 +105,7 @@ class PaymentTest(TestCase):
         bill = Billing.objects.create(state=Billing.STATE_TRIAL, plan=self.plan_b)
         bill.owners.add(self.user)
         project = Project.objects.create(name="Project", slug="project")
-        bill.projects.add(project)
+        bill.add_project(project)
         project.add_user(self.user)
         return bill
 
@@ -152,12 +160,27 @@ class PaymentTest(TestCase):
         old_updated = timezone.now() - relativedelta(hours=1)
         UserSyncState.objects.filter(pk=sync_state.pk).update(updated=old_updated)
 
-        with patch("wlhosted.integrations.tasks.notify_user_change.delay") as delay:
+        with (
+            patch("wlhosted.integrations.tasks.notify_user_change.delay") as delay,
+            self.captureOnCommitCallbacks(execute=True),
+        ):
             queue_user_sync(self.user)
 
         sync_state.refresh_from_db()
         self.assertGreater(sync_state.updated, old_updated)
         delay.assert_called_once()
+
+    @override_settings(PAYMENT_SECRET=TEST_PAYMENT_SECRET)
+    def test_queue_user_sync_notifies_after_commit(self) -> None:
+        with (
+            patch("wlhosted.integrations.tasks.notify_user_change.delay") as delay,
+            self.captureOnCommitCallbacks(execute=False) as callbacks,
+        ):
+            queue_user_sync(self.user)
+            delay.assert_not_called()
+
+        self.assertEqual(len(callbacks), 1)
+        delay.assert_not_called()
 
     @override_settings(PAYMENT_SECRET="")
     def test_queue_user_sync_no_payment_secret(self) -> None:
@@ -197,7 +220,7 @@ class PaymentTest(TestCase):
                 "payload": dumps(
                     {"since": ""},
                     key=TEST_PAYMENT_SECRET,
-                    salt="weblate.user-sync",
+                    salt=USER_SYNC_SALT,
                 )
             },
         )
@@ -207,7 +230,7 @@ class PaymentTest(TestCase):
         payload = loads(
             response.json()["payload"],
             key=TEST_PAYMENT_SECRET,
-            salt="weblate.user-sync-response",
+            salt=USER_SYNC_RESPONSE_SALT,
         )
         self.assertIn(
             str(self.user.pk), {user["external_id"] for user in payload["users"]}
@@ -221,7 +244,7 @@ class PaymentTest(TestCase):
                 "payload": dumps(
                     {"since": ""},
                     key=TEST_PAYMENT_SECRET,
-                    salt="weblate.user-sync",
+                    salt=USER_SYNC_SALT,
                 )
             },
         )
@@ -252,7 +275,7 @@ class PaymentTest(TestCase):
                 "payload": dumps(
                     {"since": since.isoformat()},
                     key=TEST_PAYMENT_SECRET,
-                    salt="weblate.user-sync",
+                    salt=USER_SYNC_SALT,
                 )
             },
         )
@@ -261,7 +284,7 @@ class PaymentTest(TestCase):
         payload = loads(
             response.json()["payload"],
             key=TEST_PAYMENT_SECRET,
-            salt="weblate.user-sync-response",
+            salt=USER_SYNC_RESPONSE_SALT,
         )
         self.assertEqual(
             [user["external_id"] for user in payload["users"]],
@@ -279,7 +302,7 @@ class PaymentTest(TestCase):
                         "payload": dumps(
                             {"since": since},
                             key=TEST_PAYMENT_SECRET,
-                            salt="weblate.user-sync",
+                            salt=USER_SYNC_SALT,
                         )
                     },
                 )
@@ -290,8 +313,177 @@ class PaymentTest(TestCase):
     def test_api_users_no_payment_secret(self) -> None:
         response = self.client.post(
             reverse("hosted-api-users"),
-            {"payload": dumps({"since": ""}, key="", salt="weblate.user-sync")},
+            {"payload": dumps({"since": ""}, key="", salt=USER_SYNC_SALT)},
         )
+
+        self.assertEqual(response.status_code, 400)
+
+    @override_settings(
+        ENABLE_HTTPS=True,
+        PAYMENT_SECRET=TEST_PAYMENT_SECRET,
+        SITE_DOMAIN="hosted.example.org",
+    )
+    def test_api_user_ensure_creates_user(self) -> None:
+        mail.outbox.clear()
+        with (
+            patch("wlhosted.integrations.tasks.notify_user_change.delay"),
+            self.captureOnCommitCallbacks(execute=True),
+        ):
+            response = self.client.post(
+                reverse("hosted-api-user-ensure"),
+                {
+                    "payload": dumps(
+                        {
+                            "email": "created@example.org",
+                            "full_name": "Created User",
+                        },
+                        key=TEST_PAYMENT_SECRET,
+                        salt=USER_ENSURE_SALT,
+                    )
+                },
+            )
+
+        self.assertEqual(response.status_code, 200)
+        user = User.objects.get(email="created@example.org")
+        self.assertEqual(user.username, "created")
+        self.assertEqual(user.full_name, "Created User")
+        self.assertFalse(user.has_usable_password())
+        payload = loads(
+            response.json()["payload"],
+            key=TEST_PAYMENT_SECRET,
+            salt=USER_ENSURE_RESPONSE_SALT,
+        )
+        self.assertTrue(payload["created"])
+        self.assertEqual(payload["user"]["external_id"], str(user.pk))
+
+        audit = AuditLog.objects.get(user=user, activity="external-create")
+        self.assertIn("created externally from weblate.org", audit.get_message())
+        self.assertEqual(len(mail.outbox), 1)
+        self.assertIn(
+            "Weblate.org has created this Hosted Weblate sign-in account",
+            mail.outbox[0].body,
+        )
+        self.assertIn("purchased Weblate services", mail.outbox[0].body)
+        self.assertIn("Set account password", " ".join(mail.outbox[0].body.split()))
+        self.assertIn("verification_code=", mail.outbox[0].body)
+        self.assertIn(
+            f"https://hosted.example.org{reverse('social:complete', args=('email',))}",
+            mail.outbox[0].body,
+        )
+
+    @override_settings(
+        ENABLE_HTTPS=True,
+        PAYMENT_SECRET=TEST_PAYMENT_SECRET,
+        SITE_DOMAIN="hosted.example.org",
+    )
+    def test_api_user_ensure_uses_concurrently_created_user(self) -> None:
+        def create_concurrent_user(email: str) -> str:
+            User.objects.create_user(
+                username="created",
+                email=email,
+                password=TESTPASSWORD,
+                full_name="Created Elsewhere",
+            )
+            return "created-1"
+
+        mail.outbox.clear()
+        with (
+            patch("wlhosted.integrations.tasks.notify_user_change.delay"),
+            patch(
+                "wlhosted.integrations.views.make_unique_username",
+                side_effect=create_concurrent_user,
+            ),
+        ):
+            response = self.client.post(
+                reverse("hosted-api-user-ensure"),
+                {
+                    "payload": dumps(
+                        {
+                            "email": "created@example.org",
+                            "full_name": "Created User",
+                        },
+                        key=TEST_PAYMENT_SECRET,
+                        salt=USER_ENSURE_SALT,
+                    )
+                },
+            )
+
+        self.assertEqual(response.status_code, 200)
+        user = User.objects.get(email="created@example.org")
+        payload = loads(
+            response.json()["payload"],
+            key=TEST_PAYMENT_SECRET,
+            salt=USER_ENSURE_RESPONSE_SALT,
+        )
+        self.assertFalse(payload["created"])
+        self.assertEqual(payload["user"]["external_id"], str(user.pk))
+        self.assertEqual(user.full_name, "Created Elsewhere")
+        self.assertEqual(len(mail.outbox), 0)
+
+    @override_settings(
+        PAYMENT_SECRET=TEST_PAYMENT_SECRET,
+        SITE_DOMAIN="hosted.example.org",
+    )
+    def test_api_user_ensure_uses_existing_user(self) -> None:
+        with patch("wlhosted.integrations.tasks.notify_user_change.delay"):
+            existing = User.objects.create_user(
+                username="existing",
+                email="existing@example.org",
+                password=TESTPASSWORD,
+                full_name="Existing User",
+            )
+        mail.outbox.clear()
+
+        response = self.client.post(
+            reverse("hosted-api-user-ensure"),
+            {
+                "payload": dumps(
+                    {
+                        "email": "existing@example.org",
+                        "full_name": "Changed User",
+                    },
+                    key=TEST_PAYMENT_SECRET,
+                    salt=USER_ENSURE_SALT,
+                )
+            },
+        )
+
+        self.assertEqual(response.status_code, 200)
+        existing.refresh_from_db()
+        self.assertEqual(existing.full_name, "Existing User")
+        payload = loads(
+            response.json()["payload"],
+            key=TEST_PAYMENT_SECRET,
+            salt=USER_ENSURE_RESPONSE_SALT,
+        )
+        self.assertFalse(payload["created"])
+        self.assertEqual(payload["user"]["external_id"], str(existing.pk))
+        self.assertEqual(len(mail.outbox), 0)
+        self.assertFalse(
+            AuditLog.objects.filter(user=existing, activity="external-create").exists()
+        )
+
+    def test_make_unique_username_canonicalizes_email_case(self) -> None:
+        self.assertEqual(make_unique_username("Created@Example.ORG"), "created")
+
+    @override_settings(PAYMENT_SECRET=TEST_PAYMENT_SECRET)
+    def test_api_user_ensure_rejects_invalid_payload(self) -> None:
+        response = self.client.post(
+            reverse("hosted-api-user-ensure"),
+            {
+                "payload": dumps(
+                    {"email": "not-an-email", "full_name": "Invalid"},
+                    key=TEST_PAYMENT_SECRET,
+                    salt=USER_ENSURE_SALT,
+                )
+            },
+        )
+
+        self.assertEqual(response.status_code, 400)
+
+    @override_settings(PAYMENT_SECRET="")
+    def test_api_user_ensure_no_payment_secret(self) -> None:
+        response = self.client.post(reverse("hosted-api-user-ensure"))
 
         self.assertEqual(response.status_code, 400)
 
@@ -479,7 +671,7 @@ class PaymentTest(TestCase):
         bill = Billing.objects.get()
         project = Project.objects.create(name="Project", slug="project")
         if add_project:
-            bill.projects.add(project)
+            bill.add_project(project)
         if add_user:
             project.add_user(self.user)
         # Invoke recurring payment

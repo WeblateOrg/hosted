@@ -8,7 +8,7 @@
   <p>{% translate "This billing plan covers following projects:" %}</p>
 
   <ul>
-    {% for project in billing.projects.all %}
+    {% for project in billing.all_projects %}
       <li>
         <a href="{{ project.get_absolute_url }}">{{ project }}</a>
       </li>

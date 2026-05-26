@@ -172,7 +172,8 @@ def queue_user_sync(user: User, changes: dict[str, object] | None = None) -> Non
     UserSyncState.objects.update_or_create(
         user=user, defaults={"updated": timezone.now()}
     )
-    notify_user_change.delay(get_user_sync_payload(user, changes))
+    payload = get_user_sync_payload(user, changes)
+    transaction.on_commit(lambda: notify_user_change.delay(payload))
 
 
 @receiver(pre_save, sender=User)

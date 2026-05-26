@@ -21,8 +21,9 @@ from __future__ import annotations
 
 from django.urls import path
 
-from wlhosted.integrations.views import api_users
+from wlhosted.integrations.views import api_user_ensure, api_users
 
 urlpatterns = [
     path("users/", api_users, name="hosted-api-users"),
+    path("users/ensure/", api_user_ensure, name="hosted-api-user-ensure"),
 ]
