@@ -36,11 +36,20 @@ from weblate.utils.decorators import disable_for_loaddata
 from wlhosted.payments.models import Payment, get_period_delta
 
 if TYPE_CHECKING:
+    from collections.abc import Iterable
     from datetime import datetime
 
 
 def end_interval(payment: Payment, start: datetime) -> datetime:
     return start + get_period_delta(payment.extra["period"])
+
+
+def add_billing_owner(billing: Billing, user: User) -> None:
+    billing.workspace.add_owner(user)
+
+
+def get_billing_owners(billing: Billing) -> Iterable[User]:
+    return billing.workspace.users_with_permission("workspace.edit_members")
 
 
 @transaction.atomic
@@ -68,7 +77,7 @@ def handle_received_payment(payment: Payment) -> Billing | None:  # noqa: PLR091
             plan=plan,
             customer_name=payment.customer.name,
         )
-        billing.owners.add(User.objects.get(pk=payment.customer.user_id))
+        add_billing_owner(billing, User.objects.get(pk=payment.customer.user_id))
     else:
         return None
 

@@ -21,24 +21,26 @@ from django.core.management.base import BaseCommand
 from weblate.auth.models import User
 from weblate.billing.models import Billing
 
+from wlhosted.integrations.models import get_billing_owners
+
 
 class Command(BaseCommand):
     help = "lists payments using obsolete payment method"
 
     def handle(self, *args, **options) -> None:
-        emails = set()
+        emails: set[str] = set()
         for billing in (
             Billing.objects.filter(state=Billing.STATE_ACTIVE)
             .exclude(plan__price=0)
             .prefetch()
         ):
-            for user in billing.owners.all():
-                emails.add(user.email)
+            for user in get_billing_owners(billing):
+                if user.email:
+                    emails.add(user.email)
             for project in billing.ordered_projects:
                 for user in User.objects.having_perm("billing.manage", project):
-                    emails.add(user.email)
-
-        emails.discard("")
+                    if user.email:
+                        emails.add(user.email)
 
         for email in sorted(emails):
             self.stdout.write(email)

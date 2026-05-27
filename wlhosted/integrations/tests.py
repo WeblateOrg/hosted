@@ -37,6 +37,7 @@ from weblate.trans.models import Project
 
 from wlhosted.integrations.models import (
     UserSyncState,
+    add_billing_owner,
     get_user_sync_payload,
     queue_user_sync,
 )
@@ -103,7 +104,7 @@ class PaymentTest(TestCase):
 
     def create_trial(self):
         bill = Billing.objects.create(state=Billing.STATE_TRIAL, plan=self.plan_b)
-        bill.owners.add(self.user)
+        add_billing_owner(bill, self.user)
         project = Project.objects.create(name="Project", slug="project")
         bill.add_project(project)
         project.add_user(self.user)
