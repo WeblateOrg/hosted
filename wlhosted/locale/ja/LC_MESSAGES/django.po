@@ -19,8 +19,8 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-05-22 13:28-0500\n"
-"PO-Revision-Date: 2026-05-23 19:11+0000\n"
-"Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
+"PO-Revision-Date: 2026-05-27 07:52+0000\n"
+"Last-Translator: Kyotaro Iijima <kyotaro.eyes@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/weblate/hosted/"
 "ja/>\n"
 "Language: ja\n"
@@ -44,7 +44,7 @@ msgstr "料金プランの新規作成"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:4
 msgid "Web-based <strong>continuous</strong> localization"
-msgstr "Web で使える <strong>継続的な</strong> 翻訳システム"
+msgstr "Web ベースの <strong>開発に合わせて翻訳を最新に保つ</strong> 翻訳システム"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:7
 msgid "Sign in here to access our services:"
