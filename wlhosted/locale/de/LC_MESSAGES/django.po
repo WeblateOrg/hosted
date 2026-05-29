@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-05-22 13:28-0500\n"
-"PO-Revision-Date: 2026-05-23 19:11+0000\n"
+"PO-Revision-Date: 2026-05-30 00:27+0000\n"
 "Last-Translator: VfBFan <vfbfan@users.noreply.hosted.weblate.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/weblate/hosted/"
 "de/>\n"
@@ -72,7 +72,7 @@ msgstr "Neues Abrechnungsmodell"
 #: wlhosted/integrations/templates/hosted/create.html:19
 msgid "Please choose a hosting plan that fits the size of your project."
 msgstr ""
-"Bitte wählen Sie ein Hosting-Angebot, das zu der Größe Ihres Projekts passt."
+"Bitte wählen Sie ein Hosting-Paket aus, das zur Größe Ihres Projekts passt."
 
 #: wlhosted/integrations/templates/hosted/create.html:24
 msgid "Current billing status"
@@ -88,11 +88,11 @@ msgstr "Zu klein"
 
 #: wlhosted/integrations/templates/hosted/create.html:48
 msgid "Selected plan"
-msgstr "Ausgewählter Plan"
+msgstr "Ausgewähltes Paket"
 
 #: wlhosted/integrations/templates/hosted/create.html:50
 msgid "Current plan"
-msgstr "Aktueller Plan"
+msgstr "Aktuelles Paket"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Hosted strings limit"
@@ -186,15 +186,15 @@ msgstr "Keine passende Zahlung gefunden."
 
 #: wlhosted/integrations/views.py:82
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr "Vielen Dank für den Kauf eines Hosting-Plans, es ist jetzt aktiv."
+msgstr "Vielen Dank für den Kauf eines Hosting-Pakets, es ist nun aktiv."
 
 #: wlhosted/integrations/views.py:90
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
-"Vielen Dank für den Kauf eines Hosting-Plans, die Zahlung dafür ist noch "
-"ausstehend und wird im Hintergrund verarbeitet."
+"Vielen Dank für den Kauf eines Hosting-Pakets, die Zahlung dafür steht noch "
+"aus und wird im Hintergrund verarbeitet."
 
 #: wlhosted/integrations/views.py:102
 msgid "The payment was rejected: {}"
