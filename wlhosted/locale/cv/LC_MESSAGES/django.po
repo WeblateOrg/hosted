@@ -3,13 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Weblate <noreply@weblate.org>, 2020.
 # İlle <derasetad@gmail.com>, 2020.
+# Automatic translation add-on <noreply-addon-autotranslate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-05-29 19:31-0500\n"
-"PO-Revision-Date: 2020-07-08 11:41+0000\n"
-"Last-Translator: İlle <derasetad@gmail.com>\n"
+"PO-Revision-Date: 2026-05-30 00:36+0000\n"
+"Last-Translator: Automatic translation add-on <noreply-addon-"
+"autotranslate@weblate.org>\n"
 "Language-Team: Chuvash <https://hosted.weblate.org/projects/weblate/hosted/"
 "cv/>\n"
 "Language: cv\n"
@@ -17,15 +19,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.2-dev\n"
+"X-Generator: Weblate 2026.6.dev0\n"
 
 #: wlhosted/integrations/forms.py:38
 msgid "E-mail"
-msgstr ""
+msgstr "Электрон пуштӑ"
 
 #: wlhosted/integrations/forms.py:40
 msgid "Full name"
-msgstr ""
+msgstr "Тулли ят"
 
 #: wlhosted/integrations/forms.py:49
 msgid "Billing"
