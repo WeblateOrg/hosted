@@ -7,13 +7,15 @@
 # Vũ Minh Nguyên <PiscesKaze@gmail.com>, 2025.
 # AlaxLima <thanhkhoidangngoc@gmail.com>, 2026.
 # hoanghuy309 <hoanghuy309@gmail.com>, 2026.
+# Automatic translation add-on <noreply-addon-autotranslate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-05-29 19:31-0500\n"
-"PO-Revision-Date: 2026-05-23 19:11+0000\n"
-"Last-Translator: hoanghuy309 <hoanghuy309@gmail.com>\n"
+"PO-Revision-Date: 2026-05-30 00:36+0000\n"
+"Last-Translator: Automatic translation add-on <noreply-addon-"
+"autotranslate@weblate.org>\n"
 "Language-Team: Vietnamese <https://hosted.weblate.org/projects/weblate/"
 "hosted/vi/>\n"
 "Language: vi\n"
@@ -25,11 +27,11 @@ msgstr ""
 
 #: wlhosted/integrations/forms.py:38
 msgid "E-mail"
-msgstr ""
+msgstr "E-mail"
 
 #: wlhosted/integrations/forms.py:40
 msgid "Full name"
-msgstr ""
+msgstr "Họ và tên"
 
 #: wlhosted/integrations/forms.py:49
 msgid "Billing"
