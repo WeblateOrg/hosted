@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-05-22 13:28-0500\n"
+"POT-Creation-Date: 2026-05-29 19:31-0500\n"
 "PO-Revision-Date: 2026-05-23 19:11+0000\n"
 "Last-Translator: Automatic translation add-on <noreply-addon-"
 "autotranslate@weblate.org>\n"
@@ -36,14 +36,22 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: wlhosted/integrations/forms.py:38
+msgid "E-mail"
+msgstr ""
+
+#: wlhosted/integrations/forms.py:40
+msgid "Full name"
+msgstr ""
+
+#: wlhosted/integrations/forms.py:49
 msgid "Billing"
 msgstr "Fatturazione"
 
-#: wlhosted/integrations/forms.py:39
+#: wlhosted/integrations/forms.py:50
 msgid "Choose the billing plan you want to update"
 msgstr "Scegli il piano di fatturazione che vuoi aggiornare"
 
-#: wlhosted/integrations/forms.py:40
+#: wlhosted/integrations/forms.py:51
 msgid "Create new billing plan"
 msgstr "Crea un nuovo piano di fatturazione"
 
@@ -179,15 +187,15 @@ msgstr "Verifica lo stato della fatturazione"
 msgid "Your billing plan was paid"
 msgstr "Il tuo piano di fatturazione è stato pagato"
 
-#: wlhosted/integrations/views.py:74
+#: wlhosted/integrations/views.py:263
 msgid "No matching payment found."
 msgstr "Nessun risultano pagamenti."
 
-#: wlhosted/integrations/views.py:82
+#: wlhosted/integrations/views.py:271
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr "Grazie per aver acquistato un piano hosting. Ora è attivo."
 
-#: wlhosted/integrations/views.py:90
+#: wlhosted/integrations/views.py:279
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
@@ -195,15 +203,15 @@ msgstr ""
 "Grazie per aver acquistato un piano hosting. Il pagamento è in sospeso e "
 "verrà elaborato in background."
 
-#: wlhosted/integrations/views.py:102
+#: wlhosted/integrations/views.py:291
 msgid "The payment was rejected: {}"
 msgstr "Il pagamento è stato rifiutato: {}"
 
-#: wlhosted/integrations/views.py:103
+#: wlhosted/integrations/views.py:292
 msgid "Unknown reason"
 msgstr "Ragione sconosciuta"
 
-#: wlhosted/integrations/views.py:119
+#: wlhosted/integrations/views.py:308
 msgid "Payments are temporarily inactive."
 msgstr "I pagamenti sono temporaneamente disabilitati."
 

@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-05-22 13:28-0500\n"
+"POT-Creation-Date: 2026-05-29 19:31-0500\n"
 "PO-Revision-Date: 2026-05-27 07:52+0000\n"
 "Last-Translator: Kyotaro Iijima <kyotaro.eyes@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -31,20 +31,29 @@ msgstr ""
 "X-Generator: Weblate 2026.6.dev0\n"
 
 #: wlhosted/integrations/forms.py:38
+msgid "E-mail"
+msgstr ""
+
+#: wlhosted/integrations/forms.py:40
+msgid "Full name"
+msgstr ""
+
+#: wlhosted/integrations/forms.py:49
 msgid "Billing"
 msgstr "課金"
 
-#: wlhosted/integrations/forms.py:39
+#: wlhosted/integrations/forms.py:50
 msgid "Choose the billing plan you want to update"
 msgstr "更新する料金プランの選択"
 
-#: wlhosted/integrations/forms.py:40
+#: wlhosted/integrations/forms.py:51
 msgid "Create new billing plan"
 msgstr "料金プランの新規作成"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:4
 msgid "Web-based <strong>continuous</strong> localization"
-msgstr "Web ベースの <strong>開発に合わせて翻訳を最新に保つ</strong> 翻訳システム"
+msgstr ""
+"Web ベースの <strong>開発に合わせて翻訳を最新に保つ</strong> 翻訳システム"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:7
 msgid "Sign in here to access our services:"
@@ -172,15 +181,15 @@ msgstr "請求状況の確認"
 msgid "Your billing plan was paid"
 msgstr "請求書の支払い"
 
-#: wlhosted/integrations/views.py:74
+#: wlhosted/integrations/views.py:263
 msgid "No matching payment found."
 msgstr "一致する支払いが見つかりませんでした。"
 
-#: wlhosted/integrations/views.py:82
+#: wlhosted/integrations/views.py:271
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr "ホスティング プランのご購入ありがとうございます。現在、有効です。"
 
-#: wlhosted/integrations/views.py:90
+#: wlhosted/integrations/views.py:279
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
@@ -188,15 +197,15 @@ msgstr ""
 "ホスティング プランのご購入ありがとうございます。バックグラウンドで行うプラン"
 "の支払いは、保留中です。"
 
-#: wlhosted/integrations/views.py:102
+#: wlhosted/integrations/views.py:291
 msgid "The payment was rejected: {}"
 msgstr "拒否された支払い: {}"
 
-#: wlhosted/integrations/views.py:103
+#: wlhosted/integrations/views.py:292
 msgid "Unknown reason"
 msgstr "理由不明"
 
-#: wlhosted/integrations/views.py:119
+#: wlhosted/integrations/views.py:308
 msgid "Payments are temporarily inactive."
 msgstr "支払いは一時的に無効です。"
 

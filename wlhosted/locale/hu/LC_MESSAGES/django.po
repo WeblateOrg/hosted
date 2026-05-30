@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-05-22 13:28-0500\n"
+"POT-Creation-Date: 2026-05-29 19:31-0500\n"
 "PO-Revision-Date: 2026-05-23 19:11+0000\n"
 "Last-Translator: Automatic translation add-on <noreply-addon-"
 "autotranslate@weblate.org>\n"
@@ -33,14 +33,22 @@ msgstr ""
 "X-Generator: Weblate 2026.6.dev0\n"
 
 #: wlhosted/integrations/forms.py:38
+msgid "E-mail"
+msgstr ""
+
+#: wlhosted/integrations/forms.py:40
+msgid "Full name"
+msgstr ""
+
+#: wlhosted/integrations/forms.py:49
 msgid "Billing"
 msgstr "Számlázás"
 
-#: wlhosted/integrations/forms.py:39
+#: wlhosted/integrations/forms.py:50
 msgid "Choose the billing plan you want to update"
 msgstr "Válassza ki a frissíteni kívánt számlázási csomagot"
 
-#: wlhosted/integrations/forms.py:40
+#: wlhosted/integrations/forms.py:51
 msgid "Create new billing plan"
 msgstr "Új számlázási csomag létrehozása"
 
@@ -177,16 +185,16 @@ msgstr "Számlázási állapot ellenőrzése"
 msgid "Your billing plan was paid"
 msgstr "A számlázási csomagja fizetve lett"
 
-#: wlhosted/integrations/views.py:74
+#: wlhosted/integrations/views.py:263
 msgid "No matching payment found."
 msgstr "Nem található megfelelő fizetés."
 
-#: wlhosted/integrations/views.py:82
+#: wlhosted/integrations/views.py:271
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr ""
 "Köszönjük, hogy tárhelyszolgáltatási csomagot vásárolt – ez mostantól aktív."
 
-#: wlhosted/integrations/views.py:90
+#: wlhosted/integrations/views.py:279
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
@@ -194,15 +202,15 @@ msgstr ""
 "Köszönjük, hogy egy tárhelyszolgáltatási csomagot vásárolt – a fizetés "
 "folyamatban van és a háttérben kerül feldolgozásra."
 
-#: wlhosted/integrations/views.py:102
+#: wlhosted/integrations/views.py:291
 msgid "The payment was rejected: {}"
 msgstr "A fizetés el lett utasítva: {}"
 
-#: wlhosted/integrations/views.py:103
+#: wlhosted/integrations/views.py:292
 msgid "Unknown reason"
 msgstr "Ismeretlen ok"
 
-#: wlhosted/integrations/views.py:119
+#: wlhosted/integrations/views.py:308
 msgid "Payments are temporarily inactive."
 msgstr "A fizetések átmenetileg nem elérhetők."
 

@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-05-22 13:28-0500\n"
+"POT-Creation-Date: 2026-05-29 19:31-0500\n"
 "PO-Revision-Date: 2026-05-23 19:11+0000\n"
 "Last-Translator: Automatic translation add-on <noreply-addon-"
 "autotranslate@weblate.org>\n"
@@ -30,14 +30,22 @@ msgstr ""
 "X-Generator: Weblate 2026.6.dev0\n"
 
 #: wlhosted/integrations/forms.py:38
+msgid "E-mail"
+msgstr ""
+
+#: wlhosted/integrations/forms.py:40
+msgid "Full name"
+msgstr ""
+
+#: wlhosted/integrations/forms.py:49
 msgid "Billing"
 msgstr "Наплата"
 
-#: wlhosted/integrations/forms.py:39
+#: wlhosted/integrations/forms.py:50
 msgid "Choose the billing plan you want to update"
 msgstr "Изаберите план наплате који желите да ажурирате"
 
-#: wlhosted/integrations/forms.py:40
+#: wlhosted/integrations/forms.py:51
 msgid "Create new billing plan"
 msgstr "Направи нови план наплате"
 
@@ -170,15 +178,15 @@ msgstr "Проверите стање плаћања"
 msgid "Your billing plan was paid"
 msgstr "Ваш износ рачуна је уплаћен"
 
-#: wlhosted/integrations/views.py:74
+#: wlhosted/integrations/views.py:263
 msgid "No matching payment found."
 msgstr "Нема одговарајућег плаћања."
 
-#: wlhosted/integrations/views.py:82
+#: wlhosted/integrations/views.py:271
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr "Хвала вам на куповини плана удомљавања. Сада је активиран."
 
-#: wlhosted/integrations/views.py:90
+#: wlhosted/integrations/views.py:279
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
@@ -186,15 +194,15 @@ msgstr ""
 "Хвала вам на куповини плана удомљавања. Плаћање је у току и биће обрађено у "
 "позадини."
 
-#: wlhosted/integrations/views.py:102
+#: wlhosted/integrations/views.py:291
 msgid "The payment was rejected: {}"
 msgstr "Плаћање је одбијено: {}"
 
-#: wlhosted/integrations/views.py:103
+#: wlhosted/integrations/views.py:292
 msgid "Unknown reason"
 msgstr "Непознат разлог"
 
-#: wlhosted/integrations/views.py:119
+#: wlhosted/integrations/views.py:308
 msgid "Payments are temporarily inactive."
 msgstr "Плаћања су привремено недоступна."
 

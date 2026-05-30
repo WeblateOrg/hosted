@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-05-22 13:28-0500\n"
+"POT-Creation-Date: 2026-05-29 19:31-0500\n"
 "PO-Revision-Date: 2022-10-24 08:38+0000\n"
 "Last-Translator: bgo-eiu <huyaqoob+toolforge@gmail.com>\n"
 "Language-Team: Punjabi (Pakistan) <https://hosted.weblate.org/projects/"
@@ -19,14 +19,22 @@ msgstr ""
 "X-Generator: Weblate 4.14.2-dev\n"
 
 #: wlhosted/integrations/forms.py:38
-msgid "Billing"
-msgstr ""
-
-#: wlhosted/integrations/forms.py:39
-msgid "Choose the billing plan you want to update"
+msgid "E-mail"
 msgstr ""
 
 #: wlhosted/integrations/forms.py:40
+msgid "Full name"
+msgstr ""
+
+#: wlhosted/integrations/forms.py:49
+msgid "Billing"
+msgstr ""
+
+#: wlhosted/integrations/forms.py:50
+msgid "Choose the billing plan you want to update"
+msgstr ""
+
+#: wlhosted/integrations/forms.py:51
 msgid "Create new billing plan"
 msgstr ""
 
@@ -159,29 +167,29 @@ msgstr ""
 msgid "Your billing plan was paid"
 msgstr ""
 
-#: wlhosted/integrations/views.py:74
+#: wlhosted/integrations/views.py:263
 msgid "No matching payment found."
 msgstr ""
 
-#: wlhosted/integrations/views.py:82
+#: wlhosted/integrations/views.py:271
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr ""
 
-#: wlhosted/integrations/views.py:90
+#: wlhosted/integrations/views.py:279
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
 
-#: wlhosted/integrations/views.py:102
+#: wlhosted/integrations/views.py:291
 msgid "The payment was rejected: {}"
 msgstr ""
 
-#: wlhosted/integrations/views.py:103
+#: wlhosted/integrations/views.py:292
 msgid "Unknown reason"
 msgstr "کارن نامعلوم"
 
-#: wlhosted/integrations/views.py:119
+#: wlhosted/integrations/views.py:308
 msgid "Payments are temporarily inactive."
 msgstr ""
 

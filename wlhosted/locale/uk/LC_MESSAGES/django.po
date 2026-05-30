@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-05-22 13:28-0500\n"
+"POT-Creation-Date: 2026-05-29 19:31-0500\n"
 "PO-Revision-Date: 2026-05-23 19:11+0000\n"
 "Last-Translator: Automatic translation add-on <noreply-addon-"
 "autotranslate@weblate.org>\n"
@@ -36,14 +36,22 @@ msgstr ""
 "X-Generator: Weblate 2026.6.dev0\n"
 
 #: wlhosted/integrations/forms.py:38
+msgid "E-mail"
+msgstr ""
+
+#: wlhosted/integrations/forms.py:40
+msgid "Full name"
+msgstr ""
+
+#: wlhosted/integrations/forms.py:49
 msgid "Billing"
 msgstr "Оплата"
 
-#: wlhosted/integrations/forms.py:39
+#: wlhosted/integrations/forms.py:50
 msgid "Choose the billing plan you want to update"
 msgstr "Виберіть тарифний план для оновлення"
 
-#: wlhosted/integrations/forms.py:40
+#: wlhosted/integrations/forms.py:51
 msgid "Create new billing plan"
 msgstr "Створити новий тарифний план"
 
@@ -180,15 +188,15 @@ msgstr "Перевірте стан платежів"
 msgid "Your billing plan was paid"
 msgstr "Рахунок за вашим тарифним планом сплачено"
 
-#: wlhosted/integrations/views.py:74
+#: wlhosted/integrations/views.py:263
 msgid "No matching payment found."
 msgstr "Відповідний платіж не знайдений."
 
-#: wlhosted/integrations/views.py:82
+#: wlhosted/integrations/views.py:271
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr "Дякуємо вам за купівлю плану хостингу. Він вже діє."
 
-#: wlhosted/integrations/views.py:90
+#: wlhosted/integrations/views.py:279
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
@@ -196,15 +204,15 @@ msgstr ""
 "Дякуємо вам за купівлю плану хостингу. Платіж перебуває в опрацюванні у "
 "фоновому режимі."
 
-#: wlhosted/integrations/views.py:102
+#: wlhosted/integrations/views.py:291
 msgid "The payment was rejected: {}"
 msgstr "Платіж відхилили: {}"
 
-#: wlhosted/integrations/views.py:103
+#: wlhosted/integrations/views.py:292
 msgid "Unknown reason"
 msgstr "Невідома причина"
 
-#: wlhosted/integrations/views.py:119
+#: wlhosted/integrations/views.py:308
 msgid "Payments are temporarily inactive."
 msgstr "Платежі тимчасово недійсні."
 

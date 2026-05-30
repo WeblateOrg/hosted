@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-05-22 13:28-0500\n"
+"POT-Creation-Date: 2026-05-29 19:31-0500\n"
 "PO-Revision-Date: 2025-11-24 16:51+0000\n"
 "Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur <https://hosted.weblate.org/projects/weblate/hosted/ug/"
@@ -21,14 +21,22 @@ msgstr ""
 "X-Generator: Weblate 5.15-dev\n"
 
 #: wlhosted/integrations/forms.py:38
+msgid "E-mail"
+msgstr ""
+
+#: wlhosted/integrations/forms.py:40
+msgid "Full name"
+msgstr ""
+
+#: wlhosted/integrations/forms.py:49
 msgid "Billing"
 msgstr "ھېساب بوغۇش"
 
-#: wlhosted/integrations/forms.py:39
+#: wlhosted/integrations/forms.py:50
 msgid "Choose the billing plan you want to update"
 msgstr "يېڭىلاشنى خالايدىغان تالون پىلانىنى تاللاڭ"
 
-#: wlhosted/integrations/forms.py:40
+#: wlhosted/integrations/forms.py:51
 msgid "Create new billing plan"
 msgstr "يېڭى ھېسابات پىلانى تۈزۈڭ"
 
@@ -164,17 +172,17 @@ msgstr "ھېساباتىڭىزنىڭ ھالىتىنى تەكشۈرىدۇ"
 msgid "Your billing plan was paid"
 msgstr "ھېسابات پىلانىڭىز تۆلەنگەن"
 
-#: wlhosted/integrations/views.py:74
+#: wlhosted/integrations/views.py:263
 msgid "No matching payment found."
 msgstr "ھېچقانداق ماس كېلىدىغان چىقىم تېپىلمىدى."
 
-#: wlhosted/integrations/views.py:82
+#: wlhosted/integrations/views.py:271
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr ""
 "ۋاكالىتەن باشقۇرۇش پىلانىنى سېتىۋالغانلىقىڭىزغا كۆپ رەھمەت، ھازىر ئۇ "
 "ئاكتىپلاندى."
 
-#: wlhosted/integrations/views.py:90
+#: wlhosted/integrations/views.py:279
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
@@ -182,15 +190,15 @@ msgstr ""
 "ۋاكالىتەن باشقۇرۇش پىلانىنى سېتىۋالغانلىقىڭىزغا كۆپ رەھمەت، چىقىم قىلىش بىر "
 "تەرەپ قىلىشنى كۈتۈۋاتىدۇ، ئارقا سۇپىدا بىجىرىلىدۇ."
 
-#: wlhosted/integrations/views.py:102
+#: wlhosted/integrations/views.py:291
 msgid "The payment was rejected: {}"
 msgstr "پۇل تۆلەش رەت قىلىندى: {}"
 
-#: wlhosted/integrations/views.py:103
+#: wlhosted/integrations/views.py:292
 msgid "Unknown reason"
 msgstr "نامەلۇم سەۋەب"
 
-#: wlhosted/integrations/views.py:119
+#: wlhosted/integrations/views.py:308
 msgid "Payments are temporarily inactive."
 msgstr "چىقىم قىلىشنى ۋاقتىنچە ئىشلەتكىلى بولمايدۇ."
 
