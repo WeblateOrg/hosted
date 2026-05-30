@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-05-22 13:28-0500\n"
+"POT-Creation-Date: 2026-05-29 19:31-0500\n"
 "PO-Revision-Date: 2021-04-04 13:26+0000\n"
 "Last-Translator: Rener kaka <Rabarajax51@gmail.com>\n"
 "Language-Team: Kurdish (Central) <https://hosted.weblate.org/projects/"
@@ -22,14 +22,22 @@ msgstr ""
 "X-Generator: Weblate 4.6-dev\n"
 
 #: wlhosted/integrations/forms.py:38
+msgid "E-mail"
+msgstr ""
+
+#: wlhosted/integrations/forms.py:40
+msgid "Full name"
+msgstr ""
+
+#: wlhosted/integrations/forms.py:49
 msgid "Billing"
 msgstr "لیست"
 
-#: wlhosted/integrations/forms.py:39
+#: wlhosted/integrations/forms.py:50
 msgid "Choose the billing plan you want to update"
 msgstr "هەڵبژاردنی پلانی پسوڵەکە کە دەتەوێت نوێکاری بکەیت"
 
-#: wlhosted/integrations/forms.py:40
+#: wlhosted/integrations/forms.py:51
 msgid "Create new billing plan"
 msgstr "دروستکردنی پلانی نوێی پڕۆژە یاساکە"
 
@@ -168,15 +176,15 @@ msgstr "پشکنینی باری پسوڵە"
 msgid "Your billing plan was paid"
 msgstr "پلانی پسوڵەی تۆ درا"
 
-#: wlhosted/integrations/views.py:74
+#: wlhosted/integrations/views.py:263
 msgid "No matching payment found."
 msgstr "هیچ پارەدانێکی هاوتا نەدۆزرایەوە."
 
-#: wlhosted/integrations/views.py:82
+#: wlhosted/integrations/views.py:271
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr "سوپاس بۆ کڕینی پلانی میوانداریکردن، ئێستا چالاکە."
 
-#: wlhosted/integrations/views.py:90
+#: wlhosted/integrations/views.py:279
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
@@ -184,15 +192,15 @@ msgstr ""
 "سوپاس بۆ کڕینی پلانی میوانداریکردن، پارەدانەکەی لە چاوەڕوانیدایە و لە "
 "باکگراوند ئەنجام دەدریت."
 
-#: wlhosted/integrations/views.py:102
+#: wlhosted/integrations/views.py:291
 msgid "The payment was rejected: {}"
 msgstr "پارەدان ڕەتکرایەوە: {}"
 
-#: wlhosted/integrations/views.py:103
+#: wlhosted/integrations/views.py:292
 msgid "Unknown reason"
 msgstr "هۆکاری نەزانراو"
 
-#: wlhosted/integrations/views.py:119
+#: wlhosted/integrations/views.py:308
 msgid "Payments are temporarily inactive."
 msgstr "پارەدانەکان بە شێوەیەکی کاتی ناچالاکن."
 
