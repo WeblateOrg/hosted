@@ -10,13 +10,15 @@
 # *Sociologist Abedi* <sociologist.abedi@gmail.com>, 2022.
 # Danial Behzadi <dani.behzi@ubuntu.com>, 2023.
 # Soheil Khanalipur <soheil@disroot.org>, 2026.
+# Automatic translation add-on <noreply-addon-autotranslate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-05-29 19:31-0500\n"
-"PO-Revision-Date: 2026-04-02 15:09+0000\n"
-"Last-Translator: Soheil Khanalipur <soheil@disroot.org>\n"
+"PO-Revision-Date: 2026-05-30 00:36+0000\n"
+"Last-Translator: Automatic translation add-on <noreply-addon-"
+"autotranslate@weblate.org>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/weblate/hosted/"
 "fa/>\n"
 "Language: fa\n"
@@ -24,15 +26,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17-dev\n"
+"X-Generator: Weblate 2026.6.dev0\n"
 
 #: wlhosted/integrations/forms.py:38
 msgid "E-mail"
-msgstr ""
+msgstr "ایمیل"
 
 #: wlhosted/integrations/forms.py:40
 msgid "Full name"
-msgstr ""
+msgstr "نام کامل"
 
 #: wlhosted/integrations/forms.py:49
 msgid "Billing"
