@@ -4,13 +4,15 @@
 # Weblate <noreply@weblate.org>, 2020.
 # Tymofij Lytvynenko <till.svit@gmail.com>, 2021.
 # Tymofii Lytvynenko <till.svit@gmail.com>, 2024.
+# Automatic translation add-on <noreply-addon-autotranslate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-05-29 19:31-0500\n"
-"PO-Revision-Date: 2025-02-21 11:52+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-05-30 00:36+0000\n"
+"Last-Translator: Automatic translation add-on <noreply-addon-"
+"autotranslate@weblate.org>\n"
 "Language-Team: Crimean Tatar <https://hosted.weblate.org/projects/weblate/"
 "hosted/crh/>\n"
 "Language: crh\n"
@@ -18,11 +20,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.10.1-dev\n"
+"X-Generator: Weblate 2026.6.dev0\n"
 
 #: wlhosted/integrations/forms.py:38
 msgid "E-mail"
-msgstr ""
+msgstr "E-mail"
 
 #: wlhosted/integrations/forms.py:40
 msgid "Full name"
