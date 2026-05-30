@@ -7,13 +7,15 @@
 # Samiul Joy <samiuljoy46@yahoo.com>, 2020.
 # Oymate <dhruboadittya96@gmail.com>, 2022.
 # Abu Huraira <abuhuraira@tutamail.com>, 2023.
+# Automatic translation add-on <noreply-addon-autotranslate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-05-29 19:31-0500\n"
-"PO-Revision-Date: 2023-02-20 16:35+0000\n"
-"Last-Translator: Abu Huraira <abuhuraira@tutamail.com>\n"
+"PO-Revision-Date: 2026-05-30 00:36+0000\n"
+"Last-Translator: Automatic translation add-on <noreply-addon-"
+"autotranslate@weblate.org>\n"
 "Language-Team: Bengali (Bangladesh) <https://hosted.weblate.org/projects/"
 "weblate/hosted/bn_BD/>\n"
 "Language: bn_BD\n"
@@ -21,15 +23,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 2026.6.dev0\n"
 
 #: wlhosted/integrations/forms.py:38
 msgid "E-mail"
-msgstr ""
+msgstr "ই-মেইল"
 
 #: wlhosted/integrations/forms.py:40
 msgid "Full name"
-msgstr ""
+msgstr "পুরো নাম"
 
 #: wlhosted/integrations/forms.py:49
 msgid "Billing"
