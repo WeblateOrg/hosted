@@ -10,9 +10,8 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-05-29 19:31-0500\n"
-"PO-Revision-Date: 2026-05-30 00:35+0000\n"
-"Last-Translator: Automatic translation add-on <noreply-addon-"
-"autotranslate@weblate.org>\n"
+"PO-Revision-Date: 2026-06-01 05:01+0000\n"
+"Last-Translator: \"ℂ𝕠𝕠𝕠𝕝 (𝕘𝕚𝕥𝕙𝕦𝕓.𝕔𝕠𝕞/ℂ𝕠𝕠𝕠𝕝)\" <coool@mail.lv>\n"
 "Language-Team: Latvian <https://hosted.weblate.org/projects/weblate/hosted/"
 "lv/>\n"
 "Language: lv\n"
@@ -44,8 +43,9 @@ msgid "Create new billing plan"
 msgstr "Izveidot jaunu rēķina plānu"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:4
+#, fuzzy
 msgid "Web-based <strong>continuous</strong> localization"
-msgstr ""
+msgstr "Tīmekļa <strong>nepārtrauktā</strong> lokalizācija"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:7
 msgid "Sign in here to access our services:"
@@ -69,7 +69,7 @@ msgstr "Jauns rēķinu plāns"
 
 #: wlhosted/integrations/templates/hosted/create.html:19
 msgid "Please choose a hosting plan that fits the size of your project."
-msgstr "Lūdzu, izvēlieties savam projektam atbilstošu hostinga plānu."
+msgstr "Lūdzu, atlasiet sava projekta apjomam atbilstošu izmitināšanas plānu."
 
 #: wlhosted/integrations/templates/hosted/create.html:24
 msgid "Current billing status"
@@ -137,12 +137,12 @@ msgid ""
 "word, sentence or paragraph."
 msgstr ""
 "Cenas ir atkarīgas no tulkojamo avota virkņu skaita un mērķa valodām. "
-"Tulkojuma avota virkne ir teksta vienība, kas atrodas tulkojuma failā. Tas "
+"Tulkojuma avota virkne ir teksta vienība, kas atrodas tulkojuma datnē. Tas "
 "var būt vārds, teikums vai rindkopa."
 
 #: wlhosted/integrations/templates/hosted/create.html:134
 msgid "All listed prices exclude VAT."
-msgstr "Visas norādītās cenas neiekļauj PVN."
+msgstr "Visas norādītās cenas ir bez PVN."
 
 #: wlhosted/integrations/templates/hosted/create.html:135
 #, python-format
@@ -166,7 +166,7 @@ msgstr "Šis rēķinu plāns attiecas uz šādiem projektiem:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:19
 msgid "Check your billing status"
-msgstr "Pārbaudiet sava rēķina plāna stāvokli"
+msgstr "Pārbaudiet sava rēķina plāna statusu"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
@@ -178,15 +178,15 @@ msgstr "Atbilstošs maksājums netika atrasts."
 
 #: wlhosted/integrations/views.py:271
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr "Paldies, ka iegādājāties hostinga plānu, tagad tas ir aktīvs."
+msgstr "Paldies, ka iegādājāties izmitināšanas plānu, tas tagad ir aktīvs."
 
 #: wlhosted/integrations/views.py:279
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
-"Paldies, ka iegādājāties hostinga plānu, maksājums tiek gaidīts un "
-"apstrādāts fonā."
+"Paldies, ka iegādājāties izmitināšanas plānu, maksājums par to tiek gaidīts "
+"un tiks apstrādāts fonā."
 
 #: wlhosted/integrations/views.py:291
 msgid "The payment was rejected: {}"
@@ -231,7 +231,7 @@ msgstr ""
 
 #: wlhosted/payments/models.py:119
 msgid "Company or individual name"
-msgstr "Uzņēmuma vai personas vārds"
+msgstr "Uzņēmuma nosaukums vai privātpersonas vārds, uzvārds"
 
 #: wlhosted/payments/models.py:124
 msgid "Address"
@@ -315,7 +315,7 @@ msgstr "{} neatbilst PVN maksātāja numura specifikācijām."
 #: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
-"PVN maksātāja numura verifikācijas pakalpojums nav pieejams vietnei {}. "
+"PVN maksātāja numura verifikācijas pakalpojums nav pieejams {} vietnei. "
 "Lūdzu, mēģiniet vēlreiz vēlāk."
 
 #: wlhosted/payments/validators.py:47
