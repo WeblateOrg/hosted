@@ -11,14 +11,14 @@
 # Michal Čihař <michal@weblate.org>, 2024.
 # Pexauteau Santander <pexauteau@gmail.com>, 2025.
 # Automatic translation add-on <noreply-addon-autotranslate@weblate.org>, 2026.
+# Oliver <olivergalad2236@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-05-29 19:31-0500\n"
-"PO-Revision-Date: 2026-05-30 00:36+0000\n"
-"Last-Translator: Automatic translation add-on <noreply-addon-"
-"autotranslate@weblate.org>\n"
+"PO-Revision-Date: 2026-06-01 06:48+0000\n"
+"Last-Translator: Oliver <olivergalad2236@gmail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/weblate/hosted/"
 "sk/>\n"
 "Language: sk\n"
