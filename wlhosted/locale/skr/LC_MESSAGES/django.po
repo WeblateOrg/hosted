@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# پرویز قادر <mpqadir@gmail.com>, 2023, 2024, 2025.
+# پرویز قادر <mpqadir@gmail.com>, 2023, 2024, 2025, 2026.
 # Michal Čihař <michal@weblate.org>, 2025.
 # Automatic translation add-on <noreply-addon-autotranslate@weblate.org>, 2026.
 msgid ""
@@ -9,9 +9,8 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-06-05 20:47-0500\n"
-"PO-Revision-Date: 2026-05-30 00:36+0000\n"
-"Last-Translator: Automatic translation add-on <noreply-addon-"
-"autotranslate@weblate.org>\n"
+"PO-Revision-Date: 2026-06-10 02:01+0000\n"
+"Last-Translator: پرویز قادر <mpqadir@gmail.com>\n"
 "Language-Team: Saraiki <https://hosted.weblate.org/projects/weblate/hosted/"
 "skr/>\n"
 "Language: skr\n"
@@ -19,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.6.dev0\n"
+"X-Generator: Weblate 2026.6\n"
 
 #: wlhosted/integrations/forms.py:38
 msgid "E-mail"
@@ -43,7 +42,7 @@ msgstr "نواں ٻلنگ منصوبہ بݨاؤ"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:4
 msgid "Web-based <strong>continuous</strong> localization"
-msgstr ""
+msgstr "ویب تے مبنی<strong>جاری</strong> مقامیت سازی"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:7
 msgid "Sign in here to access our services:"
