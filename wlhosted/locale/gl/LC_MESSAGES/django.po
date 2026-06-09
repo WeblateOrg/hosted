@@ -5,16 +5,15 @@
 # Iván Seoane <ivanrsm1997@gmail.com>, 2018, 2019.
 # Iváns <ivanrsm1997@gmail.com>, 2019.
 # gallegonovato <fran-carro@hotmail.es>, 2022.
-# "Miguel A. Bouzada" <mbouzada@gmail.com>, 2024, 2025.
+# "Miguel A. Bouzada" <mbouzada@gmail.com>, 2024, 2025, 2026.
 # Automatic translation add-on <noreply-addon-autotranslate@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-06-05 20:47-0500\n"
-"PO-Revision-Date: 2026-05-30 00:36+0000\n"
-"Last-Translator: Automatic translation add-on <noreply-addon-"
-"autotranslate@weblate.org>\n"
+"PO-Revision-Date: 2026-06-10 02:01+0000\n"
+"Last-Translator: \"Miguel A. Bouzada\" <mbouzada@gmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/weblate/hosted/"
 "gl/>\n"
 "Language: gl\n"
@@ -22,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.6.dev0\n"
+"X-Generator: Weblate 2026.6\n"
 
 #: wlhosted/integrations/forms.py:38
 msgid "E-mail"
@@ -277,7 +276,7 @@ msgstr "Mensual"
 
 #: wlhosted/payments/models.py:219
 msgid "One-time"
-msgstr "Unha vez"
+msgstr "Só unha vez"
 
 #: wlhosted/payments/models.py:255
 msgctxt "Payment state"
