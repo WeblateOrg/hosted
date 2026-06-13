@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-06-05 20:47-0500\n"
+"POT-Creation-Date: 2026-06-12 20:11-0500\n"
 "PO-Revision-Date: 2026-01-07 10:01+0000\n"
 "Last-Translator: Shah Zaman Pathan <pafghan043@gmail.com>\n"
 "Language-Team: Pashto <https://hosted.weblate.org/projects/weblate/hosted/ps/"
@@ -111,40 +111,40 @@ msgstr "ژبو بريد"
 msgid "Projects limit"
 msgstr "پروژو بريد"
 
-#: wlhosted/integrations/templates/hosted/create.html:107
+#: wlhosted/integrations/templates/hosted/create.html:109
 #, python-format
 msgid "%(price)s EUR / month"
 msgstr "%(price)s يورو/مياشت"
 
-#: wlhosted/integrations/templates/hosted/create.html:109
-#: wlhosted/integrations/templates/hosted/create.html:120
+#: wlhosted/integrations/templates/hosted/create.html:111
+#: wlhosted/integrations/templates/hosted/create.html:122
 #, python-format
 msgid "%(price)s EUR including VAT"
 msgstr ""
 
-#: wlhosted/integrations/templates/hosted/create.html:118
+#: wlhosted/integrations/templates/hosted/create.html:120
 #, python-format
 msgid "%(price)s EUR / year"
 msgstr ""
 
-#: wlhosted/integrations/templates/hosted/create.html:131
+#: wlhosted/integrations/templates/hosted/create.html:133
 msgid ""
 "Pricing is based on the number of source strings and target languages. The "
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
 
-#: wlhosted/integrations/templates/hosted/create.html:134
+#: wlhosted/integrations/templates/hosted/create.html:136
 msgid "All listed prices exclude VAT."
 msgstr ""
 
-#: wlhosted/integrations/templates/hosted/create.html:135
+#: wlhosted/integrations/templates/hosted/create.html:137
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
 
-#: wlhosted/integrations/templates/hosted/create.html:136
+#: wlhosted/integrations/templates/hosted/create.html:138
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
