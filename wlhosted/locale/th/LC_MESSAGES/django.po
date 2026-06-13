@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-06-05 20:47-0500\n"
+"POT-Creation-Date: 2026-06-12 20:11-0500\n"
 "PO-Revision-Date: 2026-05-30 00:36+0000\n"
 "Last-Translator: Automatic translation add-on <noreply-addon-"
 "autotranslate@weblate.org>\n"
@@ -118,23 +118,23 @@ msgstr "ขีดจำกัดภาษา"
 msgid "Projects limit"
 msgstr "ขีดจำกัดโครงการ"
 
-#: wlhosted/integrations/templates/hosted/create.html:107
+#: wlhosted/integrations/templates/hosted/create.html:109
 #, python-format
 msgid "%(price)s EUR / month"
 msgstr "%(price)s ยูโร/เดือน"
 
-#: wlhosted/integrations/templates/hosted/create.html:109
-#: wlhosted/integrations/templates/hosted/create.html:120
+#: wlhosted/integrations/templates/hosted/create.html:111
+#: wlhosted/integrations/templates/hosted/create.html:122
 #, python-format
 msgid "%(price)s EUR including VAT"
 msgstr "%(price)s ยูโร รวมภาษีมูลค่าเพิ่มแล้ว"
 
-#: wlhosted/integrations/templates/hosted/create.html:118
+#: wlhosted/integrations/templates/hosted/create.html:120
 #, python-format
 msgid "%(price)s EUR / year"
 msgstr "%(price)s ยูโร/ปี"
 
-#: wlhosted/integrations/templates/hosted/create.html:131
+#: wlhosted/integrations/templates/hosted/create.html:133
 msgid ""
 "Pricing is based on the number of source strings and target languages. The "
 "source string is a text unit defined in a translation format, it can be a "
@@ -143,17 +143,17 @@ msgstr ""
 "ราคาจะขึ้นอยู่กับจำนวนข้อความต้นฉบับและภาษาเป้าหมาย "
 "ข้อความต้นฉบับคือหน่วยข้อความที่กำหนดไว้ในรูปแบบการแปล ซึ่งอาจเป็นคำ ประโยค หรือย่อหน้า"
 
-#: wlhosted/integrations/templates/hosted/create.html:134
+#: wlhosted/integrations/templates/hosted/create.html:136
 msgid "All listed prices exclude VAT."
 msgstr "ราคาที่แสดงทั้งหมดยังไม่รวมภาษีมูลค่าเพิ่ม (VAT)"
 
-#: wlhosted/integrations/templates/hosted/create.html:135
+#: wlhosted/integrations/templates/hosted/create.html:137
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr "ผู้ใช้ทั่วไปใน EU และบริษัทในสาธารณรัฐเช็กจะต้องเสียภาษีมูลค่าเพิ่ม (VAT) เพิ่มเติม 21%%"
 
-#: wlhosted/integrations/templates/hosted/create.html:136
+#: wlhosted/integrations/templates/hosted/create.html:138
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr "ใบแจ้งหนี้ที่ออกให้กับธุรกิจภายใน EU จะใช้เกณฑ์การคิดภาษีย้อนกลับ (Reverse Charge)"
