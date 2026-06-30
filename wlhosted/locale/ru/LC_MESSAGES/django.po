@@ -4,7 +4,7 @@
 # Igor <f2404@yandex.ru>, 2018, 2019.
 # mesnevi <shams@airpost.net>, 2018.
 # Andrey <andrey@mailbox.org>, 2018, 2019.
-# Victor K <ktrace@yandex.ru>, 2019, 2024.
+# Victor K <ktrace@yandex.ru>, 2019, 2024, 2026.
 # WWWesten <wwwesten@gmail.com>, 2019.
 # solokot <solokot@gmail.com>, 2019.
 # Andrei Stepanov <adem4ik@gmail.com>, 2019, 2024.
@@ -22,9 +22,8 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-06-27 00:10-0500\n"
-"PO-Revision-Date: 2026-05-30 00:36+0000\n"
-"Last-Translator: Automatic translation add-on <noreply-addon-"
-"autotranslate@weblate.org>\n"
+"PO-Revision-Date: 2026-07-01 12:12+0000\n"
+"Last-Translator: Victor K <ktrace@yandex.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/weblate/hosted/"
 "ru/>\n"
 "Language: ru\n"
@@ -33,7 +32,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 2026.6.dev0\n"
+"X-Generator: Weblate 2026.7.dev0\n"
 
 #: wlhosted/integrations/forms.py:38
 msgid "E-mail"
@@ -97,7 +96,7 @@ msgstr "Слишком маленький"
 
 #: wlhosted/integrations/templates/hosted/create.html:48
 msgid "Selected plan"
-msgstr "Выбранный план"
+msgstr "Выбранный тариф"
 
 #: wlhosted/integrations/templates/hosted/create.html:50
 msgid "Current plan"
@@ -116,15 +115,15 @@ msgstr "Неограниченно"
 
 #: wlhosted/integrations/templates/hosted/create.html:66
 msgid "Source strings limit"
-msgstr "Ограничение исходных строк"
+msgstr "Максимальное число исходных строк"
 
 #: wlhosted/integrations/templates/hosted/create.html:76
 msgid "Languages limit"
-msgstr "Предел языков"
+msgstr "Максимальное число языков"
 
 #: wlhosted/integrations/templates/hosted/create.html:86
 msgid "Projects limit"
-msgstr "Предел проектов"
+msgstr "Максимальное число проектов"
 
 #: wlhosted/integrations/templates/hosted/create.html:109
 #, python-format
