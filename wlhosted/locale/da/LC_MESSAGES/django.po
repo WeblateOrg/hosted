@@ -14,26 +14,26 @@
 # cat <catsnote@proton.me>, 2025.
 # symegac <97731141+symegac@users.noreply.github.com>, 2026.
 # Automatic translation add-on <noreply-addon-autotranslate@weblate.org>, 2026.
+# Ulrik <ulrik.johansen@me.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-07-03 19:39-0500\n"
-"PO-Revision-Date: 2026-05-30 00:35+0000\n"
-"Last-Translator: Automatic translation add-on <noreply-addon-"
-"autotranslate@weblate.org>\n"
-"Language-Team: Danish <https://hosted.weblate.org/projects/weblate/hosted/da/"
-">\n"
+"PO-Revision-Date: 2026-07-08 19:01+0000\n"
+"Last-Translator: Ulrik <ulrik.johansen@me.com>\n"
+"Language-Team: Danish <https://hosted.weblate.org/projects/weblate/hosted/"
+"da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.6.dev0\n"
+"X-Generator: Weblate 2026.7.1.dev0\n"
 
 #: wlhosted/integrations/forms.py:38
 msgid "E-mail"
-msgstr "E-mail"
+msgstr "Email"
 
 #: wlhosted/integrations/forms.py:40
 msgid "Full name"
@@ -61,11 +61,11 @@ msgstr "Log ind her for at tilgå vores tjenester:"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:14
 msgid "Weblate customer care portal"
-msgstr "Weblate kundeserviceportal"
+msgstr "Weblate-kundeserviceportal"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:17
 msgid "Weblate commercial services management"
-msgstr ""
+msgstr "Administration af Weblates kommercielle tjenester"
 
 #: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
