@@ -59,6 +59,7 @@ def handle_received_payment(payment: Payment) -> Billing | None:  # noqa: PLR091
     if plan_id := payment.extra.get("plan"):
         # Needed for new payments only
         plan = Plan.objects.get(pk=plan_id)
+    plan_change_details = {}
     if "billing" in payment.extra:
         billing = Billing.objects.select_for_update().get(pk=payment.extra["billing"])
         if billing.removal:
@@ -68,6 +69,12 @@ def handle_received_payment(payment: Payment) -> Billing | None:  # noqa: PLR091
         billing.removal = None
         billing.state = Billing.STATE_ACTIVE
         if plan is not None:
+            old_plan = billing.plan
+            if (old_plan_id := billing.plan_id) and old_plan_id != plan.pk:
+                plan_change_details = {
+                    "old_plan": {"id": old_plan_id, "name": old_plan.name},
+                    "new_plan": {"id": plan.pk, "name": plan.name},
+                }
             billing.plan = plan
         if payment.customer.name and billing.customer_name != payment.customer.name:
             billing.customer_name = payment.customer.name
@@ -95,7 +102,9 @@ def handle_received_payment(payment: Payment) -> Billing | None:  # noqa: PLR091
 
     billing.save()
     billing.billinglog_set.create(
-        event=BillingEvent.PAYMENT, summary=f"Billing paid via {payment.pk}"
+        event=BillingEvent.PAYMENT,
+        summary=f"Billing paid via {payment.pk}",
+        details=plan_change_details,
     )
 
     start = billing.invoice_set.aggregate(Max("end"))["end__max"]

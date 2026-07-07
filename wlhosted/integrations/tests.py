@@ -32,7 +32,7 @@ from django.urls import reverse
 from django.utils import timezone
 from weblate.accounts.models import AuditLog
 from weblate.auth.models import User
-from weblate.billing.models import Billing, Invoice, Plan
+from weblate.billing.models import Billing, BillingEvent, Invoice, Plan
 from weblate.trans.models import Project
 
 from wlhosted.integrations.models import (
@@ -614,6 +614,33 @@ class PaymentTest(TestCase):
         bill = self.do_complete(billing=bill.pk)
         self.assertEqual(bill.state, Billing.STATE_ACTIVE)
         self.assertEqual(bill.plan, self.plan_a)
+
+    def test_complete_trial_logs_plan_change_details(self) -> None:
+        bill = self.create_trial()
+        old_plan = bill.plan
+        bill = self.do_complete(billing=bill.pk)
+
+        log = bill.billinglog_set.get(event=BillingEvent.PAYMENT)
+        self.assertEqual(
+            log.details,
+            {
+                "old_plan": {"id": old_plan.pk, "name": old_plan.name},
+                "new_plan": {"id": self.plan_a.pk, "name": self.plan_a.name},
+            },
+        )
+        self.assertEqual(
+            log.get_details_display(),
+            f'Changed from "{old_plan}" to "{self.plan_a}".',
+        )
+
+    def test_complete_trial_same_plan_logs_payment_details(self) -> None:
+        bill = Billing.objects.create(state=Billing.STATE_TRIAL, plan=self.plan_a)
+        add_billing_owner(bill, self.user)
+        bill = self.do_complete(billing=bill.pk)
+
+        log = bill.billinglog_set.get(event=BillingEvent.PAYMENT)
+        self.assertEqual(log.details, {})
+        self.assertEqual(log.get_details_display(), log.summary)
 
     def test_complete_updates_customer_name(self) -> None:
         bill = self.create_trial()
