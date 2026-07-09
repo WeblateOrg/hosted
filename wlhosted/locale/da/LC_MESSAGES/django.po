@@ -15,13 +15,14 @@
 # symegac <97731141+symegac@users.noreply.github.com>, 2026.
 # Automatic translation add-on <noreply-addon-autotranslate@weblate.org>, 2026.
 # Ulrik <ulrik.johansen@me.com>, 2026.
+# Ulrik <ulrik@users.noreply.hosted.weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-07-03 19:39-0500\n"
-"PO-Revision-Date: 2026-07-08 19:01+0000\n"
-"Last-Translator: Ulrik <ulrik.johansen@me.com>\n"
+"PO-Revision-Date: 2026-07-10 12:45+0000\n"
+"Last-Translator: Ulrik <ulrik@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/weblate/hosted/"
 "da/>\n"
 "Language: da\n"
@@ -269,11 +270,11 @@ msgstr "Landet skal matche din momskode"
 
 #: wlhosted/payments/models.py:215
 msgid "Annual"
-msgstr "Årlig"
+msgstr "Årligt"
 
 #: wlhosted/payments/models.py:216
 msgid "Biannual"
-msgstr "Halvårlig"
+msgstr "Halvårligt"
 
 #: wlhosted/payments/models.py:217
 msgid "Quarterly"
@@ -281,7 +282,7 @@ msgstr "Kvartalsvis"
 
 #: wlhosted/payments/models.py:218
 msgid "Monthly"
-msgstr "Månedlig"
+msgstr "Månedligt"
 
 #: wlhosted/payments/models.py:219
 msgid "One-time"
