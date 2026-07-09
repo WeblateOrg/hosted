@@ -159,14 +159,6 @@ class Customer(models.Model):
     upcoming_payment_notification_days = models.PositiveIntegerField(
         default=0,
     )
-    follow_up_at = models.DateTimeField(
-        blank=True,
-        null=True,
-    )
-    follow_up_note = models.CharField(
-        max_length=200,
-        blank=True,
-    )
     origin = models.URLField(max_length=300)
     user_id = models.IntegerField()
     end_client = models.CharField(
