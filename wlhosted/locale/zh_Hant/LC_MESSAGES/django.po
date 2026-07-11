@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-07-03 19:39-0500\n"
+"POT-Creation-Date: 2026-07-10 21:40-0500\n"
 "PO-Revision-Date: 2026-05-30 00:35+0000\n"
 "Last-Translator: Automatic translation add-on <noreply-addon-"
 "autotranslate@weblate.org>\n"
@@ -251,51 +251,51 @@ msgstr "郵遞區號"
 msgid "Country"
 msgstr "國家"
 
-#: wlhosted/payments/models.py:192
+#: wlhosted/payments/models.py:202
 msgid "The country has to match your VAT code"
 msgstr "國家必須與您的 VAT 代碼相符"
 
-#: wlhosted/payments/models.py:215
+#: wlhosted/payments/models.py:225
 msgid "Annual"
 msgstr "每年"
 
-#: wlhosted/payments/models.py:216
+#: wlhosted/payments/models.py:226
 msgid "Biannual"
 msgstr "每半年"
 
-#: wlhosted/payments/models.py:217
+#: wlhosted/payments/models.py:227
 msgid "Quarterly"
 msgstr "每季"
 
-#: wlhosted/payments/models.py:218
+#: wlhosted/payments/models.py:228
 msgid "Monthly"
 msgstr "每月"
 
-#: wlhosted/payments/models.py:219
+#: wlhosted/payments/models.py:229
 msgid "One-time"
 msgstr "一次性"
 
-#: wlhosted/payments/models.py:255
+#: wlhosted/payments/models.py:265
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "新付款"
 
-#: wlhosted/payments/models.py:256
+#: wlhosted/payments/models.py:266
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "等候付款"
 
-#: wlhosted/payments/models.py:257
+#: wlhosted/payments/models.py:267
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "付款已拒絕"
 
-#: wlhosted/payments/models.py:258
+#: wlhosted/payments/models.py:268
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "付款已接受"
 
-#: wlhosted/payments/models.py:259
+#: wlhosted/payments/models.py:269
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "付款已處理"

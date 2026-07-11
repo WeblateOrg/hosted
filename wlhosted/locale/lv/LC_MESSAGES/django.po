@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-07-03 19:39-0500\n"
+"POT-Creation-Date: 2026-07-10 21:40-0500\n"
 "PO-Revision-Date: 2026-06-17 14:34+0000\n"
 "Last-Translator: \"ℂ𝕠𝕠𝕠𝕝 (𝕘𝕚𝕥𝕙𝕦𝕓.𝕔𝕠𝕞/ℂ𝕠𝕠𝕠𝕝)\" <coool@mail.lv>\n"
 "Language-Team: Latvian <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -252,51 +252,51 @@ msgstr "Pasta indekss"
 msgid "Country"
 msgstr "Valsts"
 
-#: wlhosted/payments/models.py:192
+#: wlhosted/payments/models.py:202
 msgid "The country has to match your VAT code"
 msgstr "Valstij jāsakrīt ar jūsu PVN maksātāja numuru"
 
-#: wlhosted/payments/models.py:215
+#: wlhosted/payments/models.py:225
 msgid "Annual"
 msgstr "Ik gadu"
 
-#: wlhosted/payments/models.py:216
+#: wlhosted/payments/models.py:226
 msgid "Biannual"
 msgstr "Reizi pusgadā"
 
-#: wlhosted/payments/models.py:217
+#: wlhosted/payments/models.py:227
 msgid "Quarterly"
 msgstr "Reizi ceturksnī"
 
-#: wlhosted/payments/models.py:218
+#: wlhosted/payments/models.py:228
 msgid "Monthly"
 msgstr "Ikmēnesi"
 
-#: wlhosted/payments/models.py:219
+#: wlhosted/payments/models.py:229
 msgid "One-time"
 msgstr "Vienreizējs"
 
-#: wlhosted/payments/models.py:255
+#: wlhosted/payments/models.py:265
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Jauns maksājums"
 
-#: wlhosted/payments/models.py:256
+#: wlhosted/payments/models.py:266
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Gaida apmaksu"
 
-#: wlhosted/payments/models.py:257
+#: wlhosted/payments/models.py:267
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Maksājums noraidīts"
 
-#: wlhosted/payments/models.py:258
+#: wlhosted/payments/models.py:268
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Maksājums pieņemts"
 
-#: wlhosted/payments/models.py:259
+#: wlhosted/payments/models.py:269
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Maksājums apstrādāts"
