@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-07-03 19:39-0500\n"
+"POT-Creation-Date: 2026-07-10 21:40-0500\n"
 "PO-Revision-Date: 2025-10-12 13:31+0000\n"
 "Last-Translator: ROSPL-GR2-2025 <projectdfd6@gmail.com>\n"
 "Language-Team: Kannada <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -238,51 +238,51 @@ msgstr ""
 msgid "Country"
 msgstr ""
 
-#: wlhosted/payments/models.py:192
+#: wlhosted/payments/models.py:202
 msgid "The country has to match your VAT code"
 msgstr ""
 
-#: wlhosted/payments/models.py:215
+#: wlhosted/payments/models.py:225
 msgid "Annual"
 msgstr ""
 
-#: wlhosted/payments/models.py:216
+#: wlhosted/payments/models.py:226
 msgid "Biannual"
 msgstr ""
 
-#: wlhosted/payments/models.py:217
+#: wlhosted/payments/models.py:227
 msgid "Quarterly"
 msgstr ""
 
-#: wlhosted/payments/models.py:218
+#: wlhosted/payments/models.py:228
 msgid "Monthly"
 msgstr ""
 
-#: wlhosted/payments/models.py:219
+#: wlhosted/payments/models.py:229
 msgid "One-time"
 msgstr ""
 
-#: wlhosted/payments/models.py:255
+#: wlhosted/payments/models.py:265
 msgctxt "Payment state"
 msgid "New payment"
 msgstr ""
 
-#: wlhosted/payments/models.py:256
+#: wlhosted/payments/models.py:266
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr ""
 
-#: wlhosted/payments/models.py:257
+#: wlhosted/payments/models.py:267
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr ""
 
-#: wlhosted/payments/models.py:258
+#: wlhosted/payments/models.py:268
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr ""
 
-#: wlhosted/payments/models.py:259
+#: wlhosted/payments/models.py:269
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr ""
