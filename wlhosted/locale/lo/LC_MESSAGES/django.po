@@ -7,122 +7,122 @@ msgstr ""
 "Project-Id-Version: Weblate / Hosted\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-07-10 21:40-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-07-14 06:01+0000\n"
+"Last-Translator: BoneNI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://hosted.weblate.org/projects/weblate/hosted/lo/>\n"
 "Language: lo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Weblate 2026.7.1.dev0\n"
+"X-Generator: Weblate 2026.8.dev0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: wlhosted/integrations/forms.py:38
 msgid "E-mail"
-msgstr ""
+msgstr "ອີເມວ"
 
 #: wlhosted/integrations/forms.py:40
 msgid "Full name"
-msgstr ""
+msgstr "ຊື່ ແລະ ນາມສະກຸນ"
 
 #: wlhosted/integrations/forms.py:49
 msgid "Billing"
-msgstr ""
+msgstr "ການເກັບເງິນ"
 
 #: wlhosted/integrations/forms.py:50
 msgid "Choose the billing plan you want to update"
-msgstr ""
+msgstr "ເລືອກແຜນການເກັບເງິນທີ່ທ່ານຕ້ອງການອັບເດດ"
 
 #: wlhosted/integrations/forms.py:51
 msgid "Create new billing plan"
-msgstr ""
+msgstr "ສ້າງແຜນການເກັບເງິນໃໝ່"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:4
 msgid "Web-based <strong>continuous</strong> localization"
-msgstr ""
+msgstr "ການປັບແຕ່ງພາສາ <strong>ແບບຕໍ່ເນື່ອງ</strong> ເທິງເວັບ"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:7
 msgid "Sign in here to access our services:"
-msgstr ""
+msgstr "ເຂົ້າສູ່ລະບົບທີ່ນີ້ເພື່ອເຂົ້າໃຊ້ບໍລິການຂອງພວກເຮົາ:"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:14
 msgid "Weblate customer care portal"
-msgstr ""
+msgstr "ປະຕູຂໍ້ມູນການດູແລລູກຄ້າ Weblate"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:17
 msgid "Weblate commercial services management"
-msgstr ""
+msgstr "ການຈັດການບໍລິການທາງການຄ້າຂອງ Weblate"
 
 #: wlhosted/integrations/templates/hosted/create.html:7
 msgid "Create billing plan"
-msgstr ""
+msgstr "ສ້າງແຜນການເກັບເງິນ"
 
 #: wlhosted/integrations/templates/hosted/create.html:17
 msgid "New billing plan"
-msgstr ""
+msgstr "ແຜນການເກັບເງິນໃໝ່"
 
 #: wlhosted/integrations/templates/hosted/create.html:19
 msgid "Please choose a hosting plan that fits the size of your project."
-msgstr ""
+msgstr "ກະລຸນາເລືອກແຜນການໂຮສຕິງທີ່ເໝາະສົມກັບຂະໜາດໂຄງການຂອງທ່ານ."
 
 #: wlhosted/integrations/templates/hosted/create.html:24
 msgid "Current billing status"
-msgstr ""
+msgstr "ສະຖານະການເກັບເງິນປັດຈຸບັນ"
 
 #: wlhosted/integrations/templates/hosted/create.html:46
 msgid "Too small for your project."
-msgstr ""
+msgstr "ນ້ອຍເກີນໄປສຳລັບໂຄງການຂອງທ່ານ."
 
 #: wlhosted/integrations/templates/hosted/create.html:46
 msgid "Too small"
-msgstr ""
+msgstr "ນ້ອຍເກີນໄປ"
 
 #: wlhosted/integrations/templates/hosted/create.html:48
 msgid "Selected plan"
-msgstr ""
+msgstr "ແຜນທີ່ເລືອກ"
 
 #: wlhosted/integrations/templates/hosted/create.html:50
 msgid "Current plan"
-msgstr ""
+msgstr "ແຜນປັດຈຸບັນ"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Hosted strings limit"
-msgstr ""
+msgstr "ຂີດຈຳກັດຂໍ້ຄວາມທີ່ໂຮສ"
 
 #: wlhosted/integrations/templates/hosted/create.html:61
 #: wlhosted/integrations/templates/hosted/create.html:71
 #: wlhosted/integrations/templates/hosted/create.html:81
 #: wlhosted/integrations/templates/hosted/create.html:91
 msgid "Unlimited"
-msgstr ""
+msgstr "ບໍ່ຈຳກັດ"
 
 #: wlhosted/integrations/templates/hosted/create.html:66
 msgid "Source strings limit"
-msgstr ""
+msgstr "ຂີດຈຳກັດຂໍ້ຄວາມຕົ້ນສະບັບ"
 
 #: wlhosted/integrations/templates/hosted/create.html:76
 msgid "Languages limit"
-msgstr ""
+msgstr "ຂີດຈຳກັດພາສາ"
 
 #: wlhosted/integrations/templates/hosted/create.html:86
 msgid "Projects limit"
-msgstr ""
+msgstr "ຂີດຈຳກັດໂຄງການ"
 
 #: wlhosted/integrations/templates/hosted/create.html:109
 #, python-format
 msgid "%(price)s EUR / month"
-msgstr ""
+msgstr "%(price)s ເອີໂຣ / ເດືອນ"
 
 #: wlhosted/integrations/templates/hosted/create.html:111
 #: wlhosted/integrations/templates/hosted/create.html:122
 #, python-format
 msgid "%(price)s EUR including VAT"
-msgstr ""
+msgstr "%(price)s ເອີໂຣ ລວມພາສີມູນຄ່າເພີ່ມແລ້ວ"
 
 #: wlhosted/integrations/templates/hosted/create.html:120
 #, python-format
 msgid "%(price)s EUR / year"
-msgstr ""
+msgstr "%(price)s ເອີໂຣ / ປີ"
 
 #: wlhosted/integrations/templates/hosted/create.html:133
 msgid ""
@@ -130,174 +130,179 @@ msgid ""
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
+"ລາຄາແມ່ນຄິດໄລ່ຕາມຈຳນວນຂໍ້ຄວາມຕົ້ນສະບັບ ແລະ ພາສາປາຍທາງ. ຂໍ້ຄວາມຕົ້ນສະບັບແມ່ນຫົວໜ່ວຍຂໍ້ຄວາມທີ່ກຳນົດໄ"
+"ວ້ໃນຮູບແບບການແປ, ມັນອາດຈະເປັນຄຳສັບ, ປະໂຫຍກ ຫຼື ວັກ."
 
 #: wlhosted/integrations/templates/hosted/create.html:136
 msgid "All listed prices exclude VAT."
-msgstr ""
+msgstr "ລາຄາທີ່ລະບຸທັງໝົດຍັງບໍ່ລວມພາສີມູນຄ່າເພີ່ມ."
 
 #: wlhosted/integrations/templates/hosted/create.html:137
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
 msgstr ""
+"ຜູ້ໃຊ້ສຸດທ້າຍໃນ EU ແລະ ບໍລິສັດໃນເຊັກຈະຖືກເກັບພາສີມູນຄ່າເພີ່ມເພີ່ມເຕີມ 21%%."
 
 #: wlhosted/integrations/templates/hosted/create.html:138
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
 msgstr ""
+"ການເກັບພາສີແບບ reverse charge ໃຊ້ກັບໃບກຳກັບພາສີທີ່ອອກໃຫ້ທຸລະກິດພາຍໃນ EU."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
-msgstr ""
+msgstr "ຂອບໃຈສຳລັບການຊຳລະເງິນ, ໃບບິນຂອງທ່ານໄດ້ຊຳລະຮຽບຮ້ອຍແລ້ວ."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:8
 msgid "This billing plan covers following projects:"
-msgstr ""
+msgstr "ແຜນການເກັບເງິນນີ້ກວມເອົາໂຄງການດັ່ງຕໍ່ໄປນີ້:"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:19
 msgid "Check your billing status"
-msgstr ""
+msgstr "ກວດສອບສະຖານະການເກັບເງິນຂອງທ່ານ"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
-msgstr ""
+msgstr "ແຜນການເກັບເງິນຂອງທ່ານໄດ້ຊຳລະແລ້ວ"
 
 #: wlhosted/integrations/views.py:263
 msgid "No matching payment found."
-msgstr ""
+msgstr "ບໍ່ພົບການຊຳລະເງິນທີ່ກົງກັນ."
 
 #: wlhosted/integrations/views.py:271
 msgid "Thank you for purchasing a hosting plan, it is now active."
-msgstr ""
+msgstr "ຂອບໃຈທີ່ຊື້ແຜນການໂຮສຕິງ, ມັນເປີດໃຊ້ງານແລ້ວໃນຕອນນີ້."
 
 #: wlhosted/integrations/views.py:279
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
 msgstr ""
+"ຂອບໃຈທີ່ຊື້ແຜນການໂຮສຕິງ, ການຊຳລະເງິນກຳລັງລໍຖ້າການດຳເນີນການ ແລະ ຈະຖືກປະມວນຜົນໃນພື້ນຫຼັງ."
 
 #: wlhosted/integrations/views.py:291
 msgid "The payment was rejected: {}"
-msgstr ""
+msgstr "ການຊຳລະເງິນຖືກປະຕິເສດ: {}"
 
 #: wlhosted/integrations/views.py:292
 msgid "Unknown reason"
-msgstr ""
+msgstr "ເຫດຜົນທີ່ບໍ່ຮູ້ຈັກ"
 
 #: wlhosted/integrations/views.py:308
 msgid "Payments are temporarily inactive."
-msgstr ""
+msgstr "ການຊຳລະເງິນຖືກປິດໃຊ້ງານຊົ່ວຄາວ."
 
 #: wlhosted/payments/backends.py:160
 msgid "IBAN bank transfer"
-msgstr ""
+msgstr "ການໂອນເງິນຜ່ານທະນາຄານ IBAN"
 
 #: wlhosted/payments/backends.py:168
 msgid "Payment card"
-msgstr ""
+msgstr "ບັດຊຳລະເງິນ"
 
 #: wlhosted/payments/models.py:95
 msgid "European VAT ID"
-msgstr ""
+msgstr "VAT ID ຢູໂຣບ"
 
 #: wlhosted/payments/models.py:97
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
-msgstr ""
+msgstr "ກະລຸນາໃສ່ VAT ID ຂອງສະຫະພາບເອີຣົບ, ປະໄວ້ຫວ່າງຖ້າບໍ່ກ່ຽວຂ້ອງ."
 
 #: wlhosted/payments/models.py:111
 msgid "Tax registration"
-msgstr ""
+msgstr "ການລົງທະບຽນພາສີ"
 
 #: wlhosted/payments/models.py:113
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
-msgstr ""
+msgstr "ກະລຸນາໃສ່ການລົງທະບຽນພາສີຂອງທ່ານຫາກຕ້ອງການໃຫ້ມັນປາກົດຢູ່ໃນໃບກຳກັບພາສີ."
 
 #: wlhosted/payments/models.py:119
 msgid "Company or individual name"
-msgstr ""
+msgstr "ຊື່ບໍລິສັດ ຫຼື ຊື່ບຸກຄົນ"
 
 #: wlhosted/payments/models.py:124
 msgid "Address"
-msgstr ""
+msgstr "ທີ່ຢູ່"
 
 #: wlhosted/payments/models.py:129
 msgid "Additional address information"
-msgstr ""
+msgstr "ຂໍ້ມູນທີ່ຢູ່ເພີ່ມເຕີມ"
 
 #: wlhosted/payments/models.py:135
 msgid "Postcode and city"
-msgstr ""
+msgstr "ລະຫັດໄປສະນີ ແລະ ເມືອງ"
 
 #: wlhosted/payments/models.py:140
 msgid "Postcode"
-msgstr ""
+msgstr "ລະຫັດໄປສະນີ"
 
 #: wlhosted/payments/models.py:144
 msgid "Country"
-msgstr ""
+msgstr "ປະເທດ"
 
 #: wlhosted/payments/models.py:202
 msgid "The country has to match your VAT code"
-msgstr ""
+msgstr "ປະເທດຕ້ອງຕົງກັບລະຫັດ VAT ຂອງທ່ານ"
 
 #: wlhosted/payments/models.py:225
 msgid "Annual"
-msgstr ""
+msgstr "ປະຈຳປີ"
 
 #: wlhosted/payments/models.py:226
 msgid "Biannual"
-msgstr ""
+msgstr "ປະຈຳເຄິ່ງປີ"
 
 #: wlhosted/payments/models.py:227
 msgid "Quarterly"
-msgstr ""
+msgstr "ປະຈຳໄຕມາດ"
 
 #: wlhosted/payments/models.py:228
 msgid "Monthly"
-msgstr ""
+msgstr "ປະຈຳເດືອນ"
 
 #: wlhosted/payments/models.py:229
 msgid "One-time"
-msgstr ""
+msgstr "ຄັ້ງດຽວ"
 
 #: wlhosted/payments/models.py:265
 msgctxt "Payment state"
 msgid "New payment"
-msgstr ""
+msgstr "ການຊຳລະເງິນໃໝ່"
 
 #: wlhosted/payments/models.py:266
 msgctxt "Payment state"
 msgid "Awaiting payment"
-msgstr ""
+msgstr "ລໍຖ້າການຊຳລະເງິນ"
 
 #: wlhosted/payments/models.py:267
 msgctxt "Payment state"
 msgid "Payment rejected"
-msgstr ""
+msgstr "ການຊຳລະເງິນຖືກປະຕິເສດ"
 
 #: wlhosted/payments/models.py:268
 msgctxt "Payment state"
 msgid "Payment accepted"
-msgstr ""
+msgstr "ການຊຳລະເງິນຖືກຍອມຮັບ"
 
 #: wlhosted/payments/models.py:269
 msgctxt "Payment state"
 msgid "Payment processed"
-msgstr ""
+msgstr "ການຊຳລະເງິນຖືກປະມວນຜົນແລ້ວ"
 
 #: wlhosted/payments/validators.py:32
 msgid "{} is not a valid country code for any European Union member."
-msgstr ""
+msgstr "{} ບໍ່ແມ່ນລະຫັດປະເທດທີ່ຖືກຕ້ອງສຳລັບສະມາຊິກສະຫະພາບເອີຣົບ."
 
 #: wlhosted/payments/validators.py:37
 msgid "{} does not match the country's VAT ID specifications."
-msgstr ""
+msgstr "{} ບໍ່ຕົງກັບຂໍ້ກຳນົດ VAT ID ຂອງປະເທດ."
 
 #: wlhosted/payments/validators.py:44
 msgid "VAT ID validation service unavailable for {}, please try again later."
-msgstr ""
+msgstr "ບໍລິການກວດສອບ VAT ID ບໍ່ສາມາດໃຊ້ງານໄດ້ສຳລັບ {}, ກະລຸນາລອງໃໝ່ພາຍຫຼັງ."
 
 #: wlhosted/payments/validators.py:47
 msgid "{} is not a valid VAT ID."
-msgstr ""
+msgstr "{} ບໍ່ແມ່ນ VAT ID ທີ່ຖືກຕ້ອງ."
