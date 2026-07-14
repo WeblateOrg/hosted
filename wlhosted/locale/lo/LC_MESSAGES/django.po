@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Weblate / Hosted\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-07-10 21:40-0500\n"
-"PO-Revision-Date: 2026-07-14 06:01+0000\n"
+"PO-Revision-Date: 2026-07-15 13:01+0000\n"
 "Last-Translator: BoneNI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://hosted.weblate.org/projects/weblate/hosted/lo/>\n"
 "Language: lo\n"
@@ -23,11 +23,11 @@ msgstr "ອີເມວ"
 
 #: wlhosted/integrations/forms.py:40
 msgid "Full name"
-msgstr "ຊື່ ແລະ ນາມສະກຸນ"
+msgstr "ຊື່ເຕັມ"
 
 #: wlhosted/integrations/forms.py:49
 msgid "Billing"
-msgstr "ການເກັບເງິນ"
+msgstr "ການຮຽກເກັບເງິນ"
 
 #: wlhosted/integrations/forms.py:50
 msgid "Choose the billing plan you want to update"
@@ -39,7 +39,7 @@ msgstr "ສ້າງແຜນການເກັບເງິນໃໝ່"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:4
 msgid "Web-based <strong>continuous</strong> localization"
-msgstr "ການປັບແຕ່ງພາສາ <strong>ແບບຕໍ່ເນື່ອງ</strong> ເທິງເວັບ"
+msgstr "ການແປພາສາແບບ <strong>ຕໍ່ເນື່ອງ</strong> ຜ່ານເວັບ"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:7
 msgid "Sign in here to access our services:"
@@ -83,11 +83,11 @@ msgstr "ແຜນທີ່ເລືອກ"
 
 #: wlhosted/integrations/templates/hosted/create.html:50
 msgid "Current plan"
-msgstr "ແຜນປັດຈຸບັນ"
+msgstr "ແພັກເກດປັດຈຸບັນ"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Hosted strings limit"
-msgstr "ຂີດຈຳກັດຂໍ້ຄວາມທີ່ໂຮສ"
+msgstr "ຂໍ້ຈຳກັດຈຳນວນຂໍ້ຄວາມທີ່ຝາກ"
 
 #: wlhosted/integrations/templates/hosted/create.html:61
 #: wlhosted/integrations/templates/hosted/create.html:71
@@ -102,11 +102,11 @@ msgstr "ຂີດຈຳກັດຂໍ້ຄວາມຕົ້ນສະບັບ
 
 #: wlhosted/integrations/templates/hosted/create.html:76
 msgid "Languages limit"
-msgstr "ຂີດຈຳກັດພາສາ"
+msgstr "ຂໍ້ຈຳກັດພາສາ"
 
 #: wlhosted/integrations/templates/hosted/create.html:86
 msgid "Projects limit"
-msgstr "ຂີດຈຳກັດໂຄງການ"
+msgstr "ຂໍ້ຈຳກັດໂຄງການ"
 
 #: wlhosted/integrations/templates/hosted/create.html:109
 #, python-format
@@ -160,7 +160,7 @@ msgstr "ແຜນການເກັບເງິນນີ້ກວມເອົາ
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:19
 msgid "Check your billing status"
-msgstr "ກວດສອບສະຖານະການເກັບເງິນຂອງທ່ານ"
+msgstr "ກວດສອບສະຖານະການຊຳລະເງິນຂອງທ່ານ"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
@@ -260,7 +260,7 @@ msgstr "ປະຈຳໄຕມາດ"
 
 #: wlhosted/payments/models.py:228
 msgid "Monthly"
-msgstr "ປະຈຳເດືອນ"
+msgstr "ລາຍເດືອນ"
 
 #: wlhosted/payments/models.py:229
 msgid "One-time"
