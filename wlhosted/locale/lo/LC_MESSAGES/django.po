@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate / Hosted\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-07-10 21:40-0500\n"
+"POT-Creation-Date: 2026-07-17 19:37-0500\n"
 "PO-Revision-Date: 2026-07-15 13:01+0000\n"
 "Last-Translator: BoneNI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://hosted.weblate.org/projects/weblate/hosted/lo/>\n"
@@ -130,8 +130,8 @@ msgid ""
 "source string is a text unit defined in a translation format, it can be a "
 "word, sentence or paragraph."
 msgstr ""
-"ລາຄາແມ່ນຄິດໄລ່ຕາມຈຳນວນຂໍ້ຄວາມຕົ້ນສະບັບ ແລະ ພາສາປາຍທາງ. ຂໍ້ຄວາມຕົ້ນສະບັບແມ່ນຫົວໜ່ວຍຂໍ້ຄວາມທີ່ກຳນົດໄ"
-"ວ້ໃນຮູບແບບການແປ, ມັນອາດຈະເປັນຄຳສັບ, ປະໂຫຍກ ຫຼື ວັກ."
+"ລາຄາແມ່ນຄິດໄລ່ຕາມຈຳນວນຂໍ້ຄວາມຕົ້ນສະບັບ ແລະ ພາສາປາຍທາງ. "
+"ຂໍ້ຄວາມຕົ້ນສະບັບແມ່ນຫົວໜ່ວຍຂໍ້ຄວາມທີ່ກຳນົດໄວ້ໃນຮູບແບບການແປ, ມັນອາດຈະເປັນຄຳສັບ, ປະໂຫຍກ ຫຼື ວັກ."
 
 #: wlhosted/integrations/templates/hosted/create.html:136
 msgid "All listed prices exclude VAT."
@@ -141,14 +141,12 @@ msgstr "ລາຄາທີ່ລະບຸທັງໝົດຍັງບໍ່ລ
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
-msgstr ""
-"ຜູ້ໃຊ້ສຸດທ້າຍໃນ EU ແລະ ບໍລິສັດໃນເຊັກຈະຖືກເກັບພາສີມູນຄ່າເພີ່ມເພີ່ມເຕີມ 21%%."
+msgstr "ຜູ້ໃຊ້ສຸດທ້າຍໃນ EU ແລະ ບໍລິສັດໃນເຊັກຈະຖືກເກັບພາສີມູນຄ່າເພີ່ມເພີ່ມເຕີມ 21%%."
 
 #: wlhosted/integrations/templates/hosted/create.html:138
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
-msgstr ""
-"ການເກັບພາສີແບບ reverse charge ໃຊ້ກັບໃບກຳກັບພາສີທີ່ອອກໃຫ້ທຸລະກິດພາຍໃນ EU."
+msgstr "ການເກັບພາສີແບບ reverse charge ໃຊ້ກັບໃບກຳກັບພາສີທີ່ອອກໃຫ້ທຸລະກິດພາຍໃນ EU."
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
