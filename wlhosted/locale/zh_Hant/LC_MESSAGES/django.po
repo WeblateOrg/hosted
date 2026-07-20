@@ -12,14 +12,14 @@
 # UDP <udp@users.noreply.hosted.weblate.org>, 2026.
 # 為什麼不加空格 <c++23@users.noreply.hosted.weblate.org>, 2026.
 # Automatic translation add-on <noreply-addon-autotranslate@weblate.org>, 2026.
+# Lee Vincent <vincentlee986@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-07-17 19:37-0500\n"
-"PO-Revision-Date: 2026-05-30 00:35+0000\n"
-"Last-Translator: Automatic translation add-on <noreply-addon-"
-"autotranslate@weblate.org>\n"
+"PO-Revision-Date: 2026-07-21 19:01+0000\n"
+"Last-Translator: Lee Vincent <vincentlee986@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/weblate/hosted/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.6.dev0\n"
+"X-Generator: Weblate 2026.8.dev0\n"
 
 #: wlhosted/integrations/forms.py:38
 msgid "E-mail"
@@ -273,7 +273,7 @@ msgstr "每月"
 
 #: wlhosted/payments/models.py:229
 msgid "One-time"
-msgstr "一次性"
+msgstr "單次"
 
 #: wlhosted/payments/models.py:265
 msgctxt "Payment state"
