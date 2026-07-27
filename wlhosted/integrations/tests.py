@@ -21,7 +21,6 @@ from time import sleep
 from unittest.mock import patch
 from urllib.parse import parse_qs
 
-import responses
 from dateutil.relativedelta import relativedelta
 from django.contrib.auth.hashers import make_password
 from django.core import mail
@@ -34,6 +33,7 @@ from weblate.accounts.models import AuditLog
 from weblate.auth.models import User
 from weblate.billing.models import Billing, BillingEvent, Invoice, Plan
 from weblate.trans.models import Project
+from weblate.utils.tests import http_mock as responses
 
 from wlhosted.integrations.models import (
     UserSyncState,

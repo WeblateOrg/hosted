@@ -19,7 +19,6 @@
 
 from datetime import timedelta
 
-import requests
 from celery.schedules import crontab
 from django.conf import settings
 from django.core.signing import dumps
@@ -28,6 +27,7 @@ from django.utils import timezone
 from weblate.accounts.notifications import send_notification_email
 from weblate.billing.models import Billing, BillingEvent
 from weblate.utils.celery import app
+from weblate.utils.requests import fetch_url
 
 from wlhosted.integrations.models import handle_received_payment
 from wlhosted.integrations.utils import get_origin
@@ -129,7 +129,8 @@ def notify_user_change(payload, changes=None, create=None) -> None:
             "create": create or {},
             "changes": changes or {},
         }
-    response = requests.post(
+    fetch_url(
+        "POST",
         "https://weblate.org/api/user/",
         data={
             "payload": dumps(
@@ -140,7 +141,6 @@ def notify_user_change(payload, changes=None, create=None) -> None:
         },
         timeout=60,
     )
-    response.raise_for_status()
 
 
 @app.on_after_finalize.connect
