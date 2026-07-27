@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-07-24 20:44-0500\n"
-"PO-Revision-Date: 2026-07-25 01:46+0000\n"
+"PO-Revision-Date: 2026-07-28 02:01+0000\n"
 "Last-Translator: hoanghuy309 <hoanghuy309@gmail.com>\n"
 "Language-Team: Vietnamese <https://hosted.weblate.org/projects/weblate/"
 "hosted/vi/>\n"
@@ -30,7 +30,7 @@ msgstr "E-mail"
 
 #: wlhosted/integrations/forms.py:40
 msgid "Full name"
-msgstr "Họ và tên"
+msgstr "Tên đầy đủ"
 
 #: wlhosted/integrations/forms.py:49
 msgid "Billing"
