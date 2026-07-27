@@ -1,3 +1,7 @@
+# Copyright © Michal Čihař <michal@weblate.org>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 from django.core.cache import cache
 from django.core.exceptions import ValidationError
 from django.utils.translation import gettext as _
