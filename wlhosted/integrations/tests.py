@@ -19,7 +19,6 @@
 
 from time import sleep
 from unittest.mock import patch
-from urllib.parse import parse_qs
 
 from dateutil.relativedelta import relativedelta
 from django.contrib.auth.hashers import make_password
@@ -33,7 +32,6 @@ from weblate.accounts.models import AuditLog
 from weblate.auth.models import User
 from weblate.billing.models import Billing, BillingEvent, Invoice, Plan
 from weblate.trans.models import Project
-from weblate.utils.tests import http_mock as responses
 
 from wlhosted.integrations.models import (
     UserSyncState,
@@ -194,20 +192,20 @@ class PaymentTest(TestCase):
         delay.assert_not_called()
 
     @override_settings(PAYMENT_SECRET=TEST_PAYMENT_SECRET)
-    @responses.activate
-    def test_notify_user_change(self) -> None:
-        responses.add(responses.POST, "https://weblate.org/api/user/", body="")
+    @patch("wlhosted.integrations.tasks.fetch_url")
+    def test_notify_user_change(self, fetch_url) -> None:
         notify_user_change(get_user_sync_payload(self.user))
 
-        request = responses.calls[0].request
-        request_body = request.body
-        if isinstance(request_body, bytes):
-            request_body = request_body.decode()
-        if not isinstance(request_body, str):
-            self.fail(f"Unexpected request body type: {type(request_body).__name__}")
-        body = parse_qs(request_body)
+        fetch_url.assert_called_once()
+        self.assertEqual(
+            fetch_url.call_args.args,
+            ("POST", "https://weblate.org/api/user/"),
+        )
+        self.assertEqual(fetch_url.call_args.kwargs["timeout"], 60)
         payload = loads(
-            body["payload"][0], key=TEST_PAYMENT_SECRET, salt="weblate.user"
+            fetch_url.call_args.kwargs["data"]["payload"],
+            key=TEST_PAYMENT_SECRET,
+            salt="weblate.user",
         )
         self.assertEqual(payload["external_id"], str(self.user.pk))
         self.assertEqual(payload["profile"]["email"], "weblate@example.org")
@@ -703,13 +701,12 @@ class PaymentTest(TestCase):
         if add_user:
             project.add_user(self.user)
         # Invoke recurring payment
-        responses.add(responses.POST, "http://example.com/payment", body="")
-        recurring_payments()
+        with patch("wlhosted.payments.models.fetch_url"):
+            recurring_payments()
 
     @override_settings(
         PAYMENT_DEBUG=True, PAYMENT_REDIRECT_URL="http://example.com/payment"
     )
-    @responses.activate
     def test_recurring(self) -> None:
         """Test recurring payments."""
         payment, bill, invoices = self.prepare_recurring("pay")
@@ -733,7 +730,6 @@ class PaymentTest(TestCase):
     @override_settings(
         PAYMENT_DEBUG=True, PAYMENT_REDIRECT_URL="http://example.com/payment"
     )
-    @responses.activate
     def test_recurring_updates_customer_name(self) -> None:
         """Test recurring payments update customer name."""
         payment, bill, _invoices = self.prepare_recurring("pay")
@@ -805,7 +801,6 @@ class PaymentTest(TestCase):
     @override_settings(
         PAYMENT_DEBUG=True, PAYMENT_REDIRECT_URL="http://example.com/payment"
     )
-    @responses.activate
     def test_recurring_one_error(self) -> None:
         """Test handling of single failed recurring payments."""
         payment, bill, invoices = self.prepare_recurring("pay")
