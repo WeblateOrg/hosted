@@ -716,8 +716,8 @@ class PaymentTest(TestCase):
         self.run_recurring()
 
         # Complete the payment (we've faked the payment server above)
-        recure_payment = Payment.objects.exclude(pk=payment.pk)[0]
-        backend = get_backend("pay")(recure_payment)
+        recurring_payment = Payment.objects.exclude(pk=payment.pk)[0]
+        backend = get_backend("pay")(recurring_payment)
         backend.initiate(None, "", "")
         backend.complete(None)
 
@@ -737,8 +737,8 @@ class PaymentTest(TestCase):
 
         self.run_recurring()
 
-        recure_payment = Payment.objects.exclude(pk=payment.pk)[0]
-        backend = get_backend("pay")(recure_payment)
+        recurring_payment = Payment.objects.exclude(pk=payment.pk)[0]
+        backend = get_backend("pay")(recurring_payment)
         backend.initiate(None, "", "")
         backend.complete(None)
         pending_payments()
@@ -778,7 +778,7 @@ class PaymentTest(TestCase):
 
     @override_settings(PAYMENT_DEBUG=True)
     def test_recurring_no_project(self) -> None:
-        """Test handling of invalid (removed) method."""
+        """Test handling recurring payment when there is no project."""
         payment, bill, _invoices = self.prepare_recurring("pay")
         self.assertEqual(bill.payment["recurring"], str(payment.pk))
 
@@ -789,7 +789,7 @@ class PaymentTest(TestCase):
 
     @override_settings(PAYMENT_DEBUG=True)
     def test_recurring_no_users(self) -> None:
-        """Test handling of invalid (removed) method."""
+        """Test handling of recurring payment when there are no users."""
         payment, bill, _invoices = self.prepare_recurring("pay")
         self.assertEqual(bill.payment["recurring"], str(payment.pk))
 
