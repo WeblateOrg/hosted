@@ -716,8 +716,8 @@ class PaymentTest(TestCase):
         self.run_recurring()
 
         # Complete the payment (we've faked the payment server above)
-        recure_payment = Payment.objects.exclude(pk=payment.pk)[0]
-        backend = get_backend("pay")(recure_payment)
+        recurring_payment = Payment.objects.exclude(pk=payment.pk)[0]
+        backend = get_backend("pay")(recurring_payment)
         backend.initiate(None, "", "")
         backend.complete(None)
 
@@ -737,8 +737,8 @@ class PaymentTest(TestCase):
 
         self.run_recurring()
 
-        recure_payment = Payment.objects.exclude(pk=payment.pk)[0]
-        backend = get_backend("pay")(recure_payment)
+        recurring_payment = Payment.objects.exclude(pk=payment.pk)[0]
+        backend = get_backend("pay")(recurring_payment)
         backend.initiate(None, "", "")
         backend.complete(None)
         pending_payments()
