@@ -789,7 +789,7 @@ class PaymentTest(TestCase):
 
     @override_settings(PAYMENT_DEBUG=True)
     def test_recurring_no_users(self) -> None:
-        """Test handling of invalid (removed) method."""
+        """Test handling of recurring payment when there are no users."""
         payment, bill, _invoices = self.prepare_recurring("pay")
         self.assertEqual(bill.payment["recurring"], str(payment.pk))
 
