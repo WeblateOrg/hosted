@@ -126,6 +126,22 @@ class PaymentTest(TestCase):
         payment = Payment.objects.exclude(uuid=payment.uuid)[0]
         self.assertEqual(payment.amount, self.plan_a.price)
 
+    @override_settings(PAYMENT_SECRET=TEST_PAYMENT_SECRET)
+    @patch("wlhosted.payments.models.fetch_url")
+    def test_trigger_payment_remotely(self, fetch_url) -> None:
+        self.create_payment()
+        payment = Payment.objects.get()
+
+        payment.trigger_remotely()
+
+        fetch_url.assert_called_once_with(
+            "POST",
+            payment.get_payment_url(),
+            follow_redirects=False,
+            data={"method": payment.backend, "secret": TEST_PAYMENT_SECRET},
+            timeout=60,
+        )
+
     def test_user_sync_payload(self) -> None:
         self.assertEqual(
             get_user_sync_payload(self.user),

@@ -366,7 +366,7 @@ class Payment(models.Model):
         fetch_url(
             "POST",
             self.get_payment_url(),
-            allow_redirects=False,
+            follow_redirects=False,
             data={"method": self.backend, "secret": settings.PAYMENT_SECRET},
             timeout=60,
         )
