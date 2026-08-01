@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-07-24 20:44-0500\n"
+"POT-Creation-Date: 2026-07-31 19:55-0500\n"
 "PO-Revision-Date: 2026-05-30 00:36+0000\n"
 "Last-Translator: Automatic translation add-on <noreply-addon-"
 "autotranslate@weblate.org>\n"
@@ -310,20 +310,20 @@ msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "支払処理完了"
 
-#: wlhosted/payments/validators.py:32
+#: wlhosted/payments/validators.py:36
 msgid "{} is not a valid country code for any European Union member."
 msgstr "{} は、欧州連合加盟国の有効な国コードではありません。"
 
-#: wlhosted/payments/validators.py:37
+#: wlhosted/payments/validators.py:41
 msgid "{} does not match the country's VAT ID specifications."
 msgstr "{} は、国の VAT ID 仕様と一致しません。"
 
-#: wlhosted/payments/validators.py:44
+#: wlhosted/payments/validators.py:48
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
 "{} の VAT ID 検証サービスは利用できません。時間をおいて実行してください。"
 
-#: wlhosted/payments/validators.py:47
+#: wlhosted/payments/validators.py:51
 msgid "{} is not a valid VAT ID."
 msgstr "{} は、有効な VAT ID ではありません。"
 

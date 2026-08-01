@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-07-24 20:44-0500\n"
+"POT-Creation-Date: 2026-07-31 19:55-0500\n"
 "PO-Revision-Date: 2026-05-30 00:36+0000\n"
 "Last-Translator: Automatic translation add-on <noreply-addon-"
 "autotranslate@weblate.org>\n"
@@ -301,19 +301,19 @@ msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "ငွေပေးချေခြင်း လုပ်ဆောင်နေသည်"
 
-#: wlhosted/payments/validators.py:32
+#: wlhosted/payments/validators.py:36
 msgid "{} is not a valid country code for any European Union member."
 msgstr "{} သည် မှန်ကန်သော မည်သည့် ဥရောပသမဂ္ဂအဖွဲ့ဝင် နိုင်ငံ ၏ ကုဒ် မဟုတ်ပါ။"
 
-#: wlhosted/payments/validators.py:37
+#: wlhosted/payments/validators.py:41
 msgid "{} does not match the country's VAT ID specifications."
 msgstr "{} နိုင်ငံ၏ VAT ID သတ်မှတ်ချက်များနှင့် မကိုက်ညီပါ။"
 
-#: wlhosted/payments/validators.py:44
+#: wlhosted/payments/validators.py:48
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr "VAT ID အတည်ပြုခြင်း ဝန်ဆောင်မှုကို မရနိုင်ပါ {}၊ ကျေးဇူးပြု၍ နောက်မှထပ်ကြိုးစားပါ။"
 
-#: wlhosted/payments/validators.py:47
+#: wlhosted/payments/validators.py:51
 msgid "{} is not a valid VAT ID."
 msgstr "{} သည်မှန်ကန်သော VAT ID မဟုတ်ပါ။"
 

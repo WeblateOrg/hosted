@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-07-24 20:44-0500\n"
+"POT-Creation-Date: 2026-07-31 19:55-0500\n"
 "PO-Revision-Date: 2026-05-30 00:35+0000\n"
 "Last-Translator: Automatic translation add-on <noreply-addon-"
 "autotranslate@weblate.org>\n"
@@ -301,19 +301,19 @@ msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Plaćanje je obrađeno"
 
-#: wlhosted/payments/validators.py:32
+#: wlhosted/payments/validators.py:36
 msgid "{} is not a valid country code for any European Union member."
 msgstr "{} nije ispravan kod zemlje za nijednu članicu Europske unije."
 
-#: wlhosted/payments/validators.py:37
+#: wlhosted/payments/validators.py:41
 msgid "{} does not match the country's VAT ID specifications."
 msgstr "{} ne odgovara specifikacijama ID oznaka PDV-a države."
 
-#: wlhosted/payments/validators.py:44
+#: wlhosted/payments/validators.py:48
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr "Usluga provjere PDV-a nije dostupna za {}. Pokušaj ponovo kasnije."
 
-#: wlhosted/payments/validators.py:47
+#: wlhosted/payments/validators.py:51
 msgid "{} is not a valid VAT ID."
 msgstr "{} nije ispravna ID oznaka za PDV."
 

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-07-24 20:44-0500\n"
+"POT-Creation-Date: 2026-07-31 19:55-0500\n"
 "PO-Revision-Date: 2026-05-30 00:36+0000\n"
 "Last-Translator: Automatic translation add-on <noreply-addon-"
 "autotranslate@weblate.org>\n"
@@ -304,21 +304,21 @@ msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Pagesa u përpunua"
 
-#: wlhosted/payments/validators.py:32
+#: wlhosted/payments/validators.py:36
 msgid "{} is not a valid country code for any European Union member."
 msgstr ""
 "{} s’është kod vendi i vlefshëm për ndonjë anëtar të Bashkimit Europian."
 
-#: wlhosted/payments/validators.py:37
+#: wlhosted/payments/validators.py:41
 msgid "{} does not match the country's VAT ID specifications."
 msgstr "{} nuk përputhet me specifikime ID-je TVSH-je të vendit."
 
-#: wlhosted/payments/validators.py:44
+#: wlhosted/payments/validators.py:48
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
 "S’ka shërbim vlerësimi ID-je TVSh-je për {}, ju lutemi, riprovoni më vonë."
 
-#: wlhosted/payments/validators.py:47
+#: wlhosted/payments/validators.py:51
 msgid "{} is not a valid VAT ID."
 msgstr "{} s’është ID TVSH-je i vlefshëm."
 
