@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-07-24 20:44-0500\n"
+"POT-Creation-Date: 2026-07-31 19:55-0500\n"
 "PO-Revision-Date: 2026-06-01 05:01+0000\n"
 "Last-Translator: VfBFan <vfbfan@users.noreply.hosted.weblate.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/weblate/hosted/de/"
@@ -319,21 +319,21 @@ msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Zahlung verarbeitet"
 
-#: wlhosted/payments/validators.py:32
+#: wlhosted/payments/validators.py:36
 msgid "{} is not a valid country code for any European Union member."
 msgstr "{} ist kein gültiger Ländercode eines EU-Mitgliedslandes."
 
-#: wlhosted/payments/validators.py:37
+#: wlhosted/payments/validators.py:41
 msgid "{} does not match the country's VAT ID specifications."
 msgstr "entspricht nicht den Angaben zur Umsatzsteuer-ID des Landes."
 
-#: wlhosted/payments/validators.py:44
+#: wlhosted/payments/validators.py:48
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
 "UST-ID-Überprüfungssservice nicht verfügbar für {}, bitte später erneut "
 "versuchen."
 
-#: wlhosted/payments/validators.py:47
+#: wlhosted/payments/validators.py:51
 msgid "{} is not a valid VAT ID."
 msgstr "{} ist keine gültige Umsatzsteuer-ID."
 

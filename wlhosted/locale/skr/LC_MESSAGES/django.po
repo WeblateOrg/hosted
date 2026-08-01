@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-07-24 20:44-0500\n"
+"POT-Creation-Date: 2026-07-31 19:55-0500\n"
 "PO-Revision-Date: 2026-06-10 02:01+0000\n"
 "Last-Translator: پرویز قادر <mpqadir@gmail.com>\n"
 "Language-Team: Saraiki <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -301,21 +301,21 @@ msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "ادائیگی دی کاروائی تھی ڳئی"
 
-#: wlhosted/payments/validators.py:32
+#: wlhosted/payments/validators.py:36
 msgid "{} is not a valid country code for any European Union member."
 msgstr "کہیں وی یورپی یونین رکن کیتے {} ٹھیک ملک کوڈ کائنی۔"
 
-#: wlhosted/payments/validators.py:37
+#: wlhosted/payments/validators.py:41
 msgid "{} does not match the country's VAT ID specifications."
 msgstr "{} ملک دے وی اے ٹی آئی ڈی تخصیصاں نال میل کائنی کھاندا۔"
 
-#: wlhosted/payments/validators.py:44
+#: wlhosted/payments/validators.py:48
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
 "{} کیتے وی اے ٹی آئی ڈی جوازکاری خدمت دستیاب کائنی، سوہݨا، ولدا بعد وچ کوشش "
 "کرو۔"
 
-#: wlhosted/payments/validators.py:47
+#: wlhosted/payments/validators.py:51
 msgid "{} is not a valid VAT ID."
 msgstr "{} ٹھیک وی اے ٹی آئی ڈی کائنی۔"
 
