@@ -54,6 +54,7 @@ from wlhosted.integrations.models import (
     UserSyncState,
     get_user_sync_payload,
     handle_received_payment,
+    log_rejected_payment,
 )
 from wlhosted.integrations.utils import get_origin
 from wlhosted.payments.models import Payment
@@ -286,6 +287,7 @@ class CreateBillingView(FormView):
             return HttpResponseRedirect(payment.get_payment_url())
 
         if payment.state == Payment.REJECTED:
+            log_rejected_payment(payment)
             messages.error(
                 request,
                 _("The payment was rejected: {}").format(

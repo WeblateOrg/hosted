@@ -23,13 +23,14 @@ from celery.schedules import crontab
 from django.conf import settings
 from django.core.signing import dumps
 from django.db import transaction
+from django.db.models import Q
 from django.utils import timezone
 from weblate.accounts.notifications import send_notification_email
 from weblate.billing.models import Billing, BillingEvent
 from weblate.utils.celery import app
 from weblate.utils.requests import fetch_url
 
-from wlhosted.integrations.models import handle_received_payment
+from wlhosted.integrations.models import handle_received_payment, log_rejected_payment
 from wlhosted.integrations.utils import get_origin
 from wlhosted.payments.models import Payment, date_format, get_period_delta
 
@@ -37,6 +38,16 @@ from wlhosted.payments.models import Payment, date_format, get_period_delta
 @app.task
 @transaction.atomic(using="payments_db")
 def pending_payments() -> None:
+    rejected = (
+        Payment.objects.filter(customer__origin=get_origin(), state=Payment.REJECTED)
+        .filter(
+            Q(extra__billing_rejection_logged=False)
+            | ~Q(extra__has_key="billing_rejection_logged")
+        )
+        .select_for_update()
+    )
+    for payment in rejected:
+        log_rejected_payment(payment)
     payments = Payment.objects.filter(
         customer__origin=get_origin(), state=Payment.ACCEPTED
     ).select_for_update()

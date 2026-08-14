@@ -30,7 +30,14 @@ from django.db.models.signals import post_save, pre_save
 from django.dispatch.dispatcher import receiver
 from django.utils import timezone
 from weblate.auth.models import User
-from weblate.billing.models import Billing, BillingEvent, Invoice, Plan
+from weblate.billing.models import (
+    Billing,
+    BillingEvent,
+    Invoice,
+    Plan,
+    get_payment_log_details,
+    get_plan_change_log_details,
+)
 from weblate.utils.decorators import disable_for_loaddata
 
 from wlhosted.payments.models import Payment, get_period_delta
@@ -52,6 +59,70 @@ def get_billing_owners(billing: Billing) -> Iterable[User]:
     return billing.workspace.users_with_permission("workspace.edit_members")
 
 
+def get_payment_user(payment: Payment) -> User | None:
+    if payment.repeat_id:
+        return None
+    return User.objects.filter(pk=payment.customer.user_id).first()
+
+
+def get_payment_plan(payment: Payment, billing: Billing) -> Plan:
+    plan_id = payment.extra.get("plan")
+    if plan_id:
+        return Plan.objects.get(pk=plan_id)
+    return billing.plan
+
+
+def get_hosted_payment_log_details(
+    payment: Payment,
+    billing: Billing,
+    outcome: str,
+    *,
+    reason: str = "",
+) -> dict[str, object]:
+    return get_payment_log_details(
+        payment.pk,
+        get_payment_plan(payment, billing),
+        payment.extra.get("period", ""),
+        automatic=bool(payment.repeat_id),
+        outcome=outcome,
+        reason=reason,
+    )
+
+
+def log_rejected_payment(payment: Payment) -> None:
+    if payment.extra.get("billing_rejection_logged"):
+        return
+    billing_id = payment.extra.get("billing")
+    if not billing_id:
+        payment.extra = {**payment.extra, "billing_rejection_logged": True}
+        payment.save(update_fields=["extra"])
+        return
+    try:
+        billing = Billing.objects.select_related("plan").get(pk=billing_id)
+    except Billing.DoesNotExist:
+        payment.extra = {**payment.extra, "billing_rejection_logged": True}
+        payment.save(update_fields=["extra"])
+        return
+    payment_id = str(payment.pk)
+    if not billing.billinglog_set.filter(
+        event=BillingEvent.PAYMENT_REJECTED,
+        details__payment_id=payment_id,
+    ).exists():
+        billing.billinglog_set.create(
+            event=BillingEvent.PAYMENT_REJECTED,
+            summary=f"Payment rejected via {payment.pk}",
+            details=get_hosted_payment_log_details(
+                payment,
+                billing,
+                "rejected",
+                reason=payment.details.get("reject_reason", ""),
+            ),
+            user=get_payment_user(payment),
+        )
+    payment.extra = {**payment.extra, "billing_rejection_logged": True}
+    payment.save(update_fields=["extra"])
+
+
 @transaction.atomic
 @transaction.atomic(using="payments_db")
 def handle_received_payment(payment: Payment) -> Billing | None:  # noqa: PLR0912
@@ -71,10 +142,7 @@ def handle_received_payment(payment: Payment) -> Billing | None:  # noqa: PLR091
         if plan is not None:
             old_plan = billing.plan
             if (old_plan_id := billing.plan_id) and old_plan_id != plan.pk:
-                plan_change_details = {
-                    "old_plan": {"id": old_plan_id, "name": old_plan.name},
-                    "new_plan": {"id": plan.pk, "name": plan.name},
-                }
+                plan_change_details = get_plan_change_log_details(old_plan, plan)
             billing.plan = plan
         if payment.customer.name and billing.customer_name != payment.customer.name:
             billing.customer_name = payment.customer.name
@@ -84,7 +152,9 @@ def handle_received_payment(payment: Payment) -> Billing | None:  # noqa: PLR091
             plan=plan,
             customer_name=payment.customer.name,
         )
-        add_billing_owner(billing, User.objects.get(pk=payment.customer.user_id))
+        user = User.objects.get(pk=payment.customer.user_id)
+        add_billing_owner(billing, user)
+        billing.billinglog_set.create(event=BillingEvent.CREATED, user=user)
     else:
         return None
 
@@ -101,10 +171,13 @@ def handle_received_payment(payment: Payment) -> Billing | None:  # noqa: PLR091
     billing.payment["all"].append(payment.pk)
 
     billing.save()
+    payment_details = get_hosted_payment_log_details(payment, billing, "received")
+    payment_details.update(plan_change_details)
     billing.billinglog_set.create(
         event=BillingEvent.PAYMENT,
         summary=f"Billing paid via {payment.pk}",
-        details=plan_change_details,
+        details=payment_details,
+        user=get_payment_user(payment),
     )
 
     start = billing.invoice_set.aggregate(Max("end"))["end__max"]

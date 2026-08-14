@@ -508,6 +508,44 @@ class PaymentTest(TestCase):
         pending_payments()
         self.assertFalse(Payment.objects.filter(state=Payment.ACCEPTED).exists())
 
+    def test_rejected_existing_payment_log(self) -> None:
+        bill = self.create_trial()
+        self.create_payment(billing=bill.pk)
+        payment = Payment.objects.get()
+        payment.state = Payment.REJECTED
+        payment.details = {
+            "reject_reason": "Card declined\nby gateway",
+            "gateway_secret": "not logged",
+        }
+        payment.save(update_fields=["state", "details"])
+
+        pending_payments()
+        pending_payments()
+
+        log = bill.billinglog_set.get(event=BillingEvent.PAYMENT_REJECTED)
+        self.assertEqual(log.user, self.user)
+        self.assertEqual(log.details["payment_id"], str(payment.pk))
+        self.assertEqual(log.details["period"], "y")
+        self.assertEqual(log.details["outcome"], "rejected")
+        self.assertEqual(log.details["reason"], "Card declined by gateway")
+        self.assertNotIn("gateway_secret", log.details)
+        payment.refresh_from_db()
+        self.assertTrue(payment.extra["billing_rejection_logged"])
+        self.assertEqual(
+            bill.billinglog_set.filter(event=BillingEvent.PAYMENT_REJECTED).count(),
+            1,
+        )
+
+    def test_rejected_new_payment_does_not_create_billing_log(self) -> None:
+        self.create_payment()
+        Payment.objects.update(state=Payment.REJECTED)
+
+        pending_payments()
+
+        self.assertFalse(Billing.objects.exists())
+        payment = Payment.objects.get()
+        self.assertTrue(payment.extra["billing_rejection_logged"])
+
     def test_existing_billing(self) -> None:
         bill = self.create_trial()
         bill.removal = timezone.now()
@@ -529,6 +567,12 @@ class PaymentTest(TestCase):
         bill_args["period"] = "y"
         # The billing should be stored in the payment
         self.assertEqual(payment.extra, bill_args)
+        initiated = bill.billinglog_set.get(event=BillingEvent.PAYMENT_INITIATED)
+        self.assertEqual(initiated.user, self.user)
+        self.assertEqual(initiated.details["payment_id"], str(payment.pk))
+        self.assertEqual(initiated.details["plan"]["id"], self.plan_a.pk)
+        self.assertEqual(initiated.details["period"], "y")
+        self.assertFalse(initiated.details["automatic"])
 
         # Accept the payment
         Payment.objects.all().update(state=Payment.ACCEPTED)
@@ -612,6 +656,14 @@ class PaymentTest(TestCase):
         bill = self.do_complete()
         self.assertEqual(bill.state, Billing.STATE_ACTIVE)
         self.assertEqual(bill.plan, self.plan_a)
+        created = bill.billinglog_set.get(event=BillingEvent.CREATED)
+        payment = bill.billinglog_set.get(event=BillingEvent.PAYMENT)
+        self.assertEqual(created.user, self.user)
+        self.assertEqual(payment.user, self.user)
+        self.assertEqual(payment.details["plan"]["id"], self.plan_a.pk)
+        self.assertEqual(payment.details["period"], "y")
+        self.assertEqual(payment.details["outcome"], "received")
+        self.assertFalse(payment.details["automatic"])
 
     def test_complete_customer_name(self) -> None:
         bill = self.do_complete(customer_name="Acme Billing LLC")
@@ -635,17 +687,22 @@ class PaymentTest(TestCase):
         bill = self.do_complete(billing=bill.pk)
 
         log = bill.billinglog_set.get(event=BillingEvent.PAYMENT)
+        self.assertEqual(log.user, self.user)
         self.assertEqual(
             log.details,
             {
+                "payment_id": log.summary.removeprefix("Billing paid via "),
+                "plan": {"id": self.plan_a.pk, "name": self.plan_a.name},
+                "period": "y",
+                "automatic": False,
+                "outcome": "received",
                 "old_plan": {"id": old_plan.pk, "name": old_plan.name},
                 "new_plan": {"id": self.plan_a.pk, "name": self.plan_a.name},
             },
         )
-        self.assertEqual(
-            log.get_details_display(),
-            f'Changed from "{old_plan}" to "{self.plan_a}".',
-        )
+        display = str(log.get_details_display())
+        self.assertIn("Payment", display)
+        self.assertIn(f'Changed from "{old_plan}" to "{self.plan_a}".', display)
 
     def test_complete_trial_same_plan_logs_payment_details(self) -> None:
         bill = Billing.objects.create(state=Billing.STATE_TRIAL, plan=self.plan_a)
@@ -653,8 +710,10 @@ class PaymentTest(TestCase):
         bill = self.do_complete(billing=bill.pk)
 
         log = bill.billinglog_set.get(event=BillingEvent.PAYMENT)
-        self.assertEqual(log.details, {})
-        self.assertEqual(log.get_details_display(), log.summary)
+        self.assertEqual(log.details["plan"]["id"], self.plan_a.pk)
+        self.assertNotIn("old_plan", log.details)
+        self.assertNotIn("new_plan", log.details)
+        self.assertIn("Payment", log.get_details_display())
 
     def test_complete_updates_customer_name(self) -> None:
         bill = self.create_trial()
@@ -742,6 +801,12 @@ class PaymentTest(TestCase):
 
         # There should be additional invoice on the billing
         self.assertEqual(invoices + 1, bill.invoice_set.count())
+        recurring_log = bill.billinglog_set.get(
+            event=BillingEvent.PAYMENT,
+            details__payment_id=str(recurring_payment.pk),
+        )
+        self.assertIsNone(recurring_log.user)
+        self.assertTrue(recurring_log.details["automatic"])
 
     @override_settings(
         PAYMENT_DEBUG=True, PAYMENT_REDIRECT_URL="http://example.com/payment"

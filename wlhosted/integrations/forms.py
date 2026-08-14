@@ -26,7 +26,12 @@ from django import forms
 from django.core.exceptions import ValidationError
 from django.utils import timezone
 from django.utils.translation import gettext_lazy as _
-from weblate.billing.models import Billing, Plan
+from weblate.billing.models import (
+    Billing,
+    BillingEvent,
+    Plan,
+    get_payment_log_details,
+)
 from weblate.trans.defines import FULLNAME_LENGTH
 from weblate.utils.validators import validate_fullname
 
@@ -115,10 +120,24 @@ class BillingForm(ChooseBillingForm):
         if self.cleaned_data["extra_domain"]:
             amount += 100
             description += " + Custom domain"
-        return Payment.objects.create(
+        payment = Payment.objects.create(
             amount=amount,
             description=description,
             recurring=self.cleaned_data["period"],
             customer=customer,
             extra=extra,
         )
+        if billing is not None:
+            billing.billinglog_set.create(
+                event=BillingEvent.PAYMENT_INITIATED,
+                summary=f"Payment initiated via {payment.pk}",
+                details=get_payment_log_details(
+                    payment.pk,
+                    plan,
+                    period,
+                    automatic=False,
+                    outcome="initiated",
+                ),
+                user=user,
+            )
+        return payment
