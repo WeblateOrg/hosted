@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-08-07 21:11-0500\n"
+"POT-Creation-Date: 2026-08-14 21:41-0500\n"
 "PO-Revision-Date: 2026-06-07 14:01+0000\n"
 "Last-Translator: Azamat Аituganov <ozomatik@gmail.com>\n"
 "Language-Team: Kazakh <https://hosted.weblate.org/projects/weblate/hosted/kk/"
@@ -26,23 +26,23 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2026.6\n"
 
-#: wlhosted/integrations/forms.py:38
+#: wlhosted/integrations/forms.py:43
 msgid "E-mail"
 msgstr "Е-пошта"
 
-#: wlhosted/integrations/forms.py:40
+#: wlhosted/integrations/forms.py:45
 msgid "Full name"
 msgstr "Толық аты"
 
-#: wlhosted/integrations/forms.py:49
+#: wlhosted/integrations/forms.py:54
 msgid "Billing"
 msgstr "Bılıń"
 
-#: wlhosted/integrations/forms.py:50
+#: wlhosted/integrations/forms.py:55
 msgid "Choose the billing plan you want to update"
 msgstr "Jańartqyńyz keletin tarıftik josparyn tańdańyz"
 
-#: wlhosted/integrations/forms.py:51
+#: wlhosted/integrations/forms.py:56
 msgid "Create new billing plan"
 msgstr "Jańa tarıftik josparyn jasaý"
 
@@ -187,15 +187,15 @@ msgstr "Bılıń mártebesin tekserińiz"
 msgid "Your billing plan was paid"
 msgstr "Tarıftik josparyn jasaý"
 
-#: wlhosted/integrations/views.py:263
+#: wlhosted/integrations/views.py:264
 msgid "No matching payment found."
 msgstr "Sáıkes tólem tabylmady."
 
-#: wlhosted/integrations/views.py:271
+#: wlhosted/integrations/views.py:272
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr "Hostıń josparyn satyp alǵanyńyz úshin raqmet, qazir ol belsendi."
 
-#: wlhosted/integrations/views.py:279
+#: wlhosted/integrations/views.py:280
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
@@ -203,15 +203,15 @@ msgstr ""
 "Hostıń josparyn satyp alǵanyńyz úshin raqmet, ol úshin tólemder kútilýde "
 "jáne óńdikte óńdep shyǵarýlady."
 
-#: wlhosted/integrations/views.py:291
+#: wlhosted/integrations/views.py:293
 msgid "The payment was rejected: {}"
 msgstr "Tólem qabyldanbady: {}"
 
-#: wlhosted/integrations/views.py:292
+#: wlhosted/integrations/views.py:294
 msgid "Unknown reason"
 msgstr "Belgisiz sebep"
 
-#: wlhosted/integrations/views.py:308
+#: wlhosted/integrations/views.py:310
 msgid "Payments are temporarily inactive."
 msgstr "Tólemder ýaqytsha belsendi emes."
 

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-08-07 21:11-0500\n"
+"POT-Creation-Date: 2026-08-14 21:41-0500\n"
 "PO-Revision-Date: 2026-06-10 02:01+0000\n"
 "Last-Translator: \"Miguel A. Bouzada\" <mbouzada@gmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -23,23 +23,23 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2026.6\n"
 
-#: wlhosted/integrations/forms.py:38
+#: wlhosted/integrations/forms.py:43
 msgid "E-mail"
 msgstr "Correo-e"
 
-#: wlhosted/integrations/forms.py:40
+#: wlhosted/integrations/forms.py:45
 msgid "Full name"
 msgstr "Nome completo"
 
-#: wlhosted/integrations/forms.py:49
+#: wlhosted/integrations/forms.py:54
 msgid "Billing"
 msgstr "Facturación"
 
-#: wlhosted/integrations/forms.py:50
+#: wlhosted/integrations/forms.py:55
 msgid "Choose the billing plan you want to update"
 msgstr "Escolla o plan de facturación que quere actualizar"
 
-#: wlhosted/integrations/forms.py:51
+#: wlhosted/integrations/forms.py:56
 msgid "Create new billing plan"
 msgstr "Crear un novo plan de facturación"
 
@@ -175,15 +175,15 @@ msgstr "Comprobar o estado da súa facturación"
 msgid "Your billing plan was paid"
 msgstr "Pagouse o seu plan de facturación"
 
-#: wlhosted/integrations/views.py:263
+#: wlhosted/integrations/views.py:264
 msgid "No matching payment found."
 msgstr "Non se atopou ningún pagamento coincidente."
 
-#: wlhosted/integrations/views.py:271
+#: wlhosted/integrations/views.py:272
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr "Grazas por mercar un plan de aloxamento, xa está activo."
 
-#: wlhosted/integrations/views.py:279
+#: wlhosted/integrations/views.py:280
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
@@ -191,15 +191,15 @@ msgstr ""
 "Grazas por mercar un plan de aloxamento, o pagamento está pendente e será "
 "procesado en segundo plano."
 
-#: wlhosted/integrations/views.py:291
+#: wlhosted/integrations/views.py:293
 msgid "The payment was rejected: {}"
 msgstr "O pagamento foi rexeitado: {}"
 
-#: wlhosted/integrations/views.py:292
+#: wlhosted/integrations/views.py:294
 msgid "Unknown reason"
 msgstr "Causa descoñecida"
 
-#: wlhosted/integrations/views.py:308
+#: wlhosted/integrations/views.py:310
 msgid "Payments are temporarily inactive."
 msgstr "Os pagamentos están inactivos de xeito temporal."
 

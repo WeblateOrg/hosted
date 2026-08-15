@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-08-07 21:11-0500\n"
+"POT-Creation-Date: 2026-08-14 21:41-0500\n"
 "PO-Revision-Date: 2026-06-17 14:34+0000\n"
 "Last-Translator: \"ℂ𝕠𝕠𝕠𝕝 (𝕘𝕚𝕥𝕙𝕦𝕓.𝕔𝕠𝕞/ℂ𝕠𝕠𝕠𝕝)\" <coool@mail.lv>\n"
 "Language-Team: Latvian <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -22,23 +22,23 @@ msgstr ""
 "19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);\n"
 "X-Generator: Weblate 2026.7.dev0\n"
 
-#: wlhosted/integrations/forms.py:38
+#: wlhosted/integrations/forms.py:43
 msgid "E-mail"
 msgstr "E-pasts"
 
-#: wlhosted/integrations/forms.py:40
+#: wlhosted/integrations/forms.py:45
 msgid "Full name"
 msgstr "Pilnais vārds un uzvārds"
 
-#: wlhosted/integrations/forms.py:49
+#: wlhosted/integrations/forms.py:54
 msgid "Billing"
 msgstr "Rēķinu plāni"
 
-#: wlhosted/integrations/forms.py:50
+#: wlhosted/integrations/forms.py:55
 msgid "Choose the billing plan you want to update"
 msgstr "Atlasiet rēķina plānu, kuru vēlaties atjaunināt"
 
-#: wlhosted/integrations/forms.py:51
+#: wlhosted/integrations/forms.py:56
 msgid "Create new billing plan"
 msgstr "Izveidot jaunu rēķina plānu"
 
@@ -171,15 +171,15 @@ msgstr "Pārbaudiet sava rēķina plāna statusu"
 msgid "Your billing plan was paid"
 msgstr "Jūsu rēķinu plāns ir apmaksāts"
 
-#: wlhosted/integrations/views.py:263
+#: wlhosted/integrations/views.py:264
 msgid "No matching payment found."
 msgstr "Atbilstošs maksājums netika atrasts."
 
-#: wlhosted/integrations/views.py:271
+#: wlhosted/integrations/views.py:272
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr "Paldies, ka iegādājāties izmitināšanas plānu, tas tagad ir aktīvs."
 
-#: wlhosted/integrations/views.py:279
+#: wlhosted/integrations/views.py:280
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
@@ -187,15 +187,15 @@ msgstr ""
 "Paldies, ka iegādājāties izmitināšanas plānu, maksājums par to tiek gaidīts "
 "un tiks apstrādāts fonā."
 
-#: wlhosted/integrations/views.py:291
+#: wlhosted/integrations/views.py:293
 msgid "The payment was rejected: {}"
 msgstr "Maksājums tika noraidīts: {}"
 
-#: wlhosted/integrations/views.py:292
+#: wlhosted/integrations/views.py:294
 msgid "Unknown reason"
 msgstr "Nezināma iemesla dēļ"
 
-#: wlhosted/integrations/views.py:308
+#: wlhosted/integrations/views.py:310
 msgid "Payments are temporarily inactive."
 msgstr "Maksājumi īslaicīgi nav pieejami."
 

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-08-07 21:11-0500\n"
+"POT-Creation-Date: 2026-08-14 21:41-0500\n"
 "PO-Revision-Date: 2026-05-30 00:36+0000\n"
 "Last-Translator: Automatic translation add-on <noreply-addon-"
 "autotranslate@weblate.org>\n"
@@ -23,23 +23,23 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2026.6.dev0\n"
 
-#: wlhosted/integrations/forms.py:38
+#: wlhosted/integrations/forms.py:43
 msgid "E-mail"
 msgstr "மின்னஞ்சல்"
 
-#: wlhosted/integrations/forms.py:40
+#: wlhosted/integrations/forms.py:45
 msgid "Full name"
 msgstr "முழுப்பெயர்"
 
-#: wlhosted/integrations/forms.py:49
+#: wlhosted/integrations/forms.py:54
 msgid "Billing"
 msgstr "பட்டியலிடல்"
 
-#: wlhosted/integrations/forms.py:50
+#: wlhosted/integrations/forms.py:55
 msgid "Choose the billing plan you want to update"
 msgstr "நீங்கள் புதுப்பிக்க விரும்பும் பட்டியலிடல் திட்டத்தைத் தேர்வுசெய்க"
 
-#: wlhosted/integrations/forms.py:51
+#: wlhosted/integrations/forms.py:56
 msgid "Create new billing plan"
 msgstr "புதிய பட்டியலிடல் திட்டத்தை உருவாக்கவும்"
 
@@ -175,15 +175,15 @@ msgstr "உங்கள் பட்டியலிடல் நிலையை 
 msgid "Your billing plan was paid"
 msgstr "உங்கள் பட்டியலிடல் திட்டம் செலுத்தப்பட்டது"
 
-#: wlhosted/integrations/views.py:263
+#: wlhosted/integrations/views.py:264
 msgid "No matching payment found."
 msgstr "பொருந்தக்கூடிய கட்டணம் எதுவும் கிடைக்கவில்லை."
 
-#: wlhosted/integrations/views.py:271
+#: wlhosted/integrations/views.py:272
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr "புரவலன் திட்டத்தை வாங்கியதற்கு நன்றி, அது இப்போது செயலில் உள்ளது."
 
-#: wlhosted/integrations/views.py:279
+#: wlhosted/integrations/views.py:280
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
@@ -191,15 +191,15 @@ msgstr ""
 "புரவலன் திட்டத்தை வாங்கியதற்கு நன்றி, அதற்கான கட்டணம் நிலுவையில் உள்ளது மற்றும் பின்னணியில் "
 "செயலாக்கப்படும்."
 
-#: wlhosted/integrations/views.py:291
+#: wlhosted/integrations/views.py:293
 msgid "The payment was rejected: {}"
 msgstr "கட்டணம் நிராகரிக்கப்பட்டது: {}"
 
-#: wlhosted/integrations/views.py:292
+#: wlhosted/integrations/views.py:294
 msgid "Unknown reason"
 msgstr "தெரியாத காரணம்"
 
-#: wlhosted/integrations/views.py:308
+#: wlhosted/integrations/views.py:310
 msgid "Payments are temporarily inactive."
 msgstr "கொடுப்பனவுகள் தற்காலிகமாக செயலற்றவை."
 
