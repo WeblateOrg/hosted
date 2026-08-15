@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-08-07 21:11-0500\n"
+"POT-Creation-Date: 2026-08-14 21:41-0500\n"
 "PO-Revision-Date: 2026-06-07 14:01+0000\n"
 "Last-Translator: Fulup Jakez <fulup.jakez@gmail.com>\n"
 "Language-Team: Breton <https://hosted.weblate.org/projects/weblate/hosted/br/"
@@ -26,23 +26,23 @@ msgstr ""
 "< 90 || n % 100 > 99)) ? 2 : ((n != 0 && n % 1000000 == 0) ? 3 : 4)));\n"
 "X-Generator: Weblate 2026.6\n"
 
-#: wlhosted/integrations/forms.py:38
+#: wlhosted/integrations/forms.py:43
 msgid "E-mail"
 msgstr "Postel"
 
-#: wlhosted/integrations/forms.py:40
+#: wlhosted/integrations/forms.py:45
 msgid "Full name"
 msgstr "Anv klok"
 
-#: wlhosted/integrations/forms.py:49
+#: wlhosted/integrations/forms.py:54
 msgid "Billing"
 msgstr "Fakturenniñ"
 
-#: wlhosted/integrations/forms.py:50
+#: wlhosted/integrations/forms.py:55
 msgid "Choose the billing plan you want to update"
 msgstr "Diuzit ar steuñv fakturenniñ da vezañ hizivaet"
 
-#: wlhosted/integrations/forms.py:51
+#: wlhosted/integrations/forms.py:56
 msgid "Create new billing plan"
 msgstr "Krouiñ ur steuñv fakturenniñ nevez"
 
@@ -177,17 +177,17 @@ msgstr "Gwiriit statud ho fakturenniñ"
 msgid "Your billing plan was paid"
 msgstr "Paeet eo bet ho steuñv fakturenniñ"
 
-#: wlhosted/integrations/views.py:263
+#: wlhosted/integrations/views.py:264
 msgid "No matching payment found."
 msgstr "N'eus bet kavet paeamant ebet evit se."
 
-#: wlhosted/integrations/views.py:271
+#: wlhosted/integrations/views.py:272
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr ""
 "Ho trugarekaat evit bezañ prenet ur c'hinnig herberc'hiañ. Gweredekaet eo "
 "bet."
 
-#: wlhosted/integrations/views.py:279
+#: wlhosted/integrations/views.py:280
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
@@ -195,15 +195,15 @@ msgstr ""
 "Ho trugarekaat evit bezañ prenet ur c'hinnig herberc'hiañ. O c'hortoz bezañ "
 "paeet emañ ha pledet e vo gantañ en drekleur."
 
-#: wlhosted/integrations/views.py:291
+#: wlhosted/integrations/views.py:293
 msgid "The payment was rejected: {}"
 msgstr "Distaolet eo bet ar paeamant : {}"
 
-#: wlhosted/integrations/views.py:292
+#: wlhosted/integrations/views.py:294
 msgid "Unknown reason"
 msgstr "Abeg dianav"
 
-#: wlhosted/integrations/views.py:308
+#: wlhosted/integrations/views.py:310
 msgid "Payments are temporarily inactive."
 msgstr "Diweredekaet eo bet ar paeañ evit poent."
 

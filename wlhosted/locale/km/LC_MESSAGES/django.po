@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-08-07 21:11-0500\n"
+"POT-Creation-Date: 2026-08-14 21:41-0500\n"
 "PO-Revision-Date: 2026-05-30 00:36+0000\n"
 "Last-Translator: Automatic translation add-on <noreply-addon-"
 "autotranslate@weblate.org>\n"
@@ -26,23 +26,23 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 2026.6.dev0\n"
 
-#: wlhosted/integrations/forms.py:38
+#: wlhosted/integrations/forms.py:43
 msgid "E-mail"
 msgstr "អ៊ីម៉ែល"
 
-#: wlhosted/integrations/forms.py:40
+#: wlhosted/integrations/forms.py:45
 msgid "Full name"
 msgstr "ឈ្មោះពេញ"
 
-#: wlhosted/integrations/forms.py:49
+#: wlhosted/integrations/forms.py:54
 msgid "Billing"
 msgstr "វិក្កយបត្រ"
 
-#: wlhosted/integrations/forms.py:50
+#: wlhosted/integrations/forms.py:55
 msgid "Choose the billing plan you want to update"
 msgstr "ជ្រើសរើសគំរោងបង់ប្រាក់ដែលអ្នកចង់ធ្វើបច្ចុប្បន្នភាព"
 
-#: wlhosted/integrations/forms.py:51
+#: wlhosted/integrations/forms.py:56
 msgid "Create new billing plan"
 msgstr "បង្កើតគម្រោងបង់ប្រាក់ថ្មី"
 
@@ -174,15 +174,15 @@ msgstr "ពិនិត្យស្ថានភាពបង់ប្រាក់
 msgid "Your billing plan was paid"
 msgstr "គម្រោងបង់ប្រាក់របស់អ្នកត្រូវបានបង់"
 
-#: wlhosted/integrations/views.py:263
+#: wlhosted/integrations/views.py:264
 msgid "No matching payment found."
 msgstr "រកមិនឃើញការទូទាត់ដែលត្រូវគ្នា។"
 
-#: wlhosted/integrations/views.py:271
+#: wlhosted/integrations/views.py:272
 msgid "Thank you for purchasing a hosting plan, it is now active."
 msgstr "សូមអរគុណសម្រាប់ការទិញគម្រោងបង្ហោះ ឥឡូវនេះវាសកម្មហើយ។"
 
-#: wlhosted/integrations/views.py:279
+#: wlhosted/integrations/views.py:280
 msgid ""
 "Thank you for purchasing a hosting plan, the payment for it is pending and "
 "will be processed in the background."
@@ -190,15 +190,15 @@ msgstr ""
 "សូមអរគុណ សម្រាប់ការទិញគម្រោងបង្ហោះ ការទូទាត់សម្រាប់វាគឺកំពុងរង់ចាំ "
 "ហើយនឹងត្រូវដំណើរការនៅផ្ទៃខាងក្រោយ។"
 
-#: wlhosted/integrations/views.py:291
+#: wlhosted/integrations/views.py:293
 msgid "The payment was rejected: {}"
 msgstr "ការទូទាត់ប្រាក់ត្រូវបានច្រានចោល៖ {}"
 
-#: wlhosted/integrations/views.py:292
+#: wlhosted/integrations/views.py:294
 msgid "Unknown reason"
 msgstr "មូលហេតុមិនស្គាល់"
 
-#: wlhosted/integrations/views.py:308
+#: wlhosted/integrations/views.py:310
 msgid "Payments are temporarily inactive."
 msgstr "ការទូទាត់ប្រាក់ ត្រូវបានផ្អាកបណ្ដោះអាសន្ន។"
 
