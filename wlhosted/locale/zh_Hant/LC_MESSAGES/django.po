@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-08-14 21:41-0500\n"
-"PO-Revision-Date: 2026-07-21 19:01+0000\n"
+"PO-Revision-Date: 2026-08-20 19:59+0000\n"
 "Last-Translator: Lee Vincent <vincentlee986@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/weblate/hosted/zh_Hant/>\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.8.dev0\n"
+"X-Generator: Weblate 2026.9.dev0\n"
 
 #: wlhosted/integrations/forms.py:43
 msgid "E-mail"
@@ -39,7 +39,7 @@ msgstr "全名"
 
 #: wlhosted/integrations/forms.py:54
 msgid "Billing"
-msgstr "帳單"
+msgstr "帳務"
 
 #: wlhosted/integrations/forms.py:55
 msgid "Choose the billing plan you want to update"
@@ -106,7 +106,7 @@ msgstr "託管字串數限制"
 #: wlhosted/integrations/templates/hosted/create.html:81
 #: wlhosted/integrations/templates/hosted/create.html:91
 msgid "Unlimited"
-msgstr "沒有限制"
+msgstr "無限制"
 
 #: wlhosted/integrations/templates/hosted/create.html:66
 msgid "Source strings limit"
@@ -147,18 +147,18 @@ msgstr ""
 
 #: wlhosted/integrations/templates/hosted/create.html:136
 msgid "All listed prices exclude VAT."
-msgstr "所有價格均不包含增值稅。"
+msgstr "所有列出的價格均未含 VAT。"
 
 #: wlhosted/integrations/templates/hosted/create.html:137
 #, python-format
 msgid ""
 "EU end users and Czech companies will be charged with additional 21%% VAT."
-msgstr "歐盟終端使用者及捷克公司將會額外收取 21%% 的增值稅。"
+msgstr "歐盟終端使用者及捷克公司須另付 21%% VAT。"
 
 #: wlhosted/integrations/templates/hosted/create.html:138
 msgid ""
 "The reverse charge applies to invoices issued to businesses within the EU."
-msgstr "反向稽徵適用於歐盟境內營業店家開立的發票。"
+msgstr "對歐盟境內企業開立的發票適用逆向課稅。"
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:6
 msgid "Thank you for the payment, your billing is now paid."
@@ -208,7 +208,7 @@ msgstr "IBAN 銀行電匯"
 
 #: wlhosted/payments/backends.py:168
 msgid "Payment card"
-msgstr "付款卡"
+msgstr "付款卡片"
 
 #: wlhosted/payments/models.py:95
 msgid "European VAT ID"
@@ -302,11 +302,11 @@ msgstr "付款已處理"
 
 #: wlhosted/payments/validators.py:36
 msgid "{} is not a valid country code for any European Union member."
-msgstr "{} 不是任一歐盟成員有效的國家代碼。"
+msgstr "{} 不是任何歐盟成員國的有效國家代碼。"
 
 #: wlhosted/payments/validators.py:41
 msgid "{} does not match the country's VAT ID specifications."
-msgstr "{} 與國家的 VAT ID 規格不符。"
+msgstr "{} 不符合該國的 VAT ID 格式規範。"
 
 #: wlhosted/payments/validators.py:48
 msgid "VAT ID validation service unavailable for {}, please try again later."
