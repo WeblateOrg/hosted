@@ -363,13 +363,17 @@ class Payment(models.Model):
 
     def trigger_remotely(self) -> None:
         # Trigger payment processing remotely
-        fetch_url(
+        response = fetch_url(
             "POST",
             self.get_payment_url(),
             follow_redirects=False,
+            raise_for_status=False,
             data={"method": self.backend, "secret": settings.PAYMENT_SECRET},
             timeout=60,
         )
+        # Successful processing redirects to the interactive billing page.
+        if response.is_error:
+            response.raise_for_status()
 
 
 class PaymentConf(AppConf):

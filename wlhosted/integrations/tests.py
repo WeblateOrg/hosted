@@ -20,6 +20,7 @@
 from time import sleep
 from unittest.mock import patch
 
+import httpx2
 from dateutil.relativedelta import relativedelta
 from django.contrib.auth.hashers import make_password
 from django.core import mail
@@ -131,6 +132,11 @@ class PaymentTest(TestCase):
     def test_trigger_payment_remotely(self, fetch_url) -> None:
         self.create_payment()
         payment = Payment.objects.get()
+        fetch_url.return_value = httpx2.Response(
+            302,
+            request=httpx2.Request("POST", payment.get_payment_url()),
+            headers={"location": reverse("create-billing")},
+        )
 
         payment.trigger_remotely()
 
@@ -138,9 +144,22 @@ class PaymentTest(TestCase):
             "POST",
             payment.get_payment_url(),
             follow_redirects=False,
+            raise_for_status=False,
             data={"method": payment.backend, "secret": TEST_PAYMENT_SECRET},
             timeout=60,
         )
+
+    @override_settings(PAYMENT_SECRET=TEST_PAYMENT_SECRET)
+    @patch("wlhosted.payments.models.fetch_url")
+    def test_trigger_payment_remotely_error(self, fetch_url) -> None:
+        self.create_payment()
+        payment = Payment.objects.get()
+        fetch_url.return_value = httpx2.Response(
+            500, request=httpx2.Request("POST", payment.get_payment_url())
+        )
+
+        with self.assertRaises(httpx2.HTTPStatusError):
+            payment.trigger_remotely()
 
     def test_user_sync_payload(self) -> None:
         self.assertEqual(
