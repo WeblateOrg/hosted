@@ -22,16 +22,16 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-08-14 21:41-0500\n"
-"PO-Revision-Date: 2026-06-01 05:01+0000\n"
+"PO-Revision-Date: 2026-08-21 17:43+0000\n"
 "Last-Translator: VfBFan <vfbfan@users.noreply.hosted.weblate.org>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/weblate/hosted/de/"
-">\n"
+"Language-Team: German <https://hosted.weblate.org/projects/weblate/hosted/"
+"de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.6.dev0\n"
+"X-Generator: Weblate 2026.9.dev0\n"
 
 #: wlhosted/integrations/forms.py:43
 msgid "E-mail"
@@ -226,7 +226,7 @@ msgstr "Zahlungskarte"
 
 #: wlhosted/payments/models.py:95
 msgid "European VAT ID"
-msgstr "Europäische UST-ID"
+msgstr "Europäische USt-IdNr."
 
 #: wlhosted/payments/models.py:97
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
@@ -330,7 +330,7 @@ msgstr "entspricht nicht den Angaben zur Umsatzsteuer-ID des Landes."
 #: wlhosted/payments/validators.py:48
 msgid "VAT ID validation service unavailable for {}, please try again later."
 msgstr ""
-"UST-ID-Überprüfungssservice nicht verfügbar für {}, bitte später erneut "
+"USt-IdNr.-Überprüfungssservice nicht verfügbar für {}, bitte später erneut "
 "versuchen."
 
 #: wlhosted/payments/validators.py:51
