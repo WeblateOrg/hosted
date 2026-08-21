@@ -19,6 +19,7 @@
 from __future__ import annotations
 
 import uuid
+from decimal import ROUND_HALF_UP, Decimal
 from typing import TYPE_CHECKING, Literal, cast
 
 from appconf import AppConf
@@ -73,17 +74,7 @@ EU_VAT_RATES = {
 }
 
 VAT_RATE = 21
-
-
-class Char32UUIDField(models.UUIDField):
-    def db_type(self, connection) -> str:
-        return "char(32)"
-
-    def get_db_prep_value(self, value, connection, prepared=False):
-        value = super().get_db_prep_value(value, connection, prepared)
-        if value is not None:
-            value = value.replace("-", "") if isinstance(value, str) else value.hex
-        return value
+PAYMENT_QUANTUM = Decimal("0.01")
 
 
 class Customer(models.Model):
@@ -203,10 +194,6 @@ class Customer(models.Model):
             )
 
     @property
-    def is_empty(self) -> bool:
-        return not (self.name and self.address and self.city and self.country)
-
-    @property
     def is_eu_enduser(self):
         return self.country_code in EU_VAT_RATES and not self.vat
 
@@ -244,7 +231,10 @@ class Payment(models.Model):
     CURRENCY_GBP = 4
 
     uuid = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    amount = models.IntegerField()
+    amount = models.DecimalField(decimal_places=2, max_digits=12)
+    requested_amount = models.DecimalField(
+        blank=True, decimal_places=2, max_digits=12, null=True
+    )
     currency = models.IntegerField(
         choices=(
             (CURRENCY_EUR, "EUR"),
@@ -295,17 +285,13 @@ class Payment(models.Model):
         return f"payment:{self.pk}"
 
     @property
-    def vat_amount(self):
+    def vat_amount(self) -> Decimal:
+        amount = Decimal(self.amount)
         if self.customer.needs_vat and not self.amount_fixed:
-            rate = 100 + self.customer.vat_rate
-            return round(1.0 * rate * self.amount / 100, 2)
-        return self.amount
-
-    @property
-    def amount_without_vat(self):
-        if self.customer.needs_vat and self.amount_fixed:
-            return 100.0 * self.amount / (100 + self.customer.vat_rate)
-        return self.amount
+            return (
+                amount * Decimal(100 + self.customer.vat_rate) / Decimal(100)
+            ).quantize(PAYMENT_QUANTUM, rounding=ROUND_HALF_UP)
+        return amount
 
     def get_payment_url(self):
         language = get_language()
@@ -316,7 +302,7 @@ class Payment(models.Model):
     def repeat_payment(
         self,
         skip_previous: bool = False,
-        amount: int | None = None,
+        amount: Decimal | int | None = None,
         description: str | None = None,
         **kwargs,
     ):

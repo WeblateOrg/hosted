@@ -17,6 +17,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
 
+from decimal import Decimal
 from time import sleep
 from unittest.mock import patch
 
@@ -126,6 +127,21 @@ class PaymentTest(TestCase):
         self.assertEqual(Customer.objects.count(), 1)
         payment = Payment.objects.exclude(uuid=payment.uuid)[0]
         self.assertEqual(payment.amount, self.plan_a.price)
+
+    @override_settings(PAYMENT_DEBUG=True)
+    def test_repeat_decimal_amount(self) -> None:
+        self.create_payment()
+        payment = Payment.objects.get()
+        payment.backend = "pay"
+        payment.save(update_fields=["backend"])
+
+        repeated = payment.repeat_payment(skip_previous=True, amount=Decimal("12.34"))
+
+        self.assertIsInstance(repeated, Payment)
+        if not isinstance(repeated, Payment):
+            self.fail("Recurring payment was not created")
+        repeated.refresh_from_db()
+        self.assertEqual(repeated.amount, Decimal("12.34"))
 
     @override_settings(PAYMENT_SECRET=TEST_PAYMENT_SECRET)
     @patch("wlhosted.payments.models.fetch_url")
@@ -683,6 +699,21 @@ class PaymentTest(TestCase):
         self.assertEqual(payment.details["period"], "y")
         self.assertEqual(payment.details["outcome"], "received")
         self.assertFalse(payment.details["automatic"])
+
+    def test_complete_decimal_vat_amount(self) -> None:
+        self.create_payment()
+        payment = Payment.objects.get()
+        payment.amount = Decimal("0.50")
+        payment.state = Payment.ACCEPTED
+        payment.save(update_fields=["amount", "state"])
+        payment.customer.country = "CZ"
+        payment.customer.save(update_fields=["country"])
+
+        pending_payments()
+
+        invoice = Invoice.objects.get()
+        self.assertEqual(payment.vat_amount, Decimal("0.61"))
+        self.assertAlmostEqual(invoice.amount, 0.61)
 
     def test_complete_customer_name(self) -> None:
         bill = self.do_complete(customer_name="Acme Billing LLC")
