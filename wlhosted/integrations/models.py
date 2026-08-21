@@ -190,7 +190,7 @@ def handle_received_payment(payment: Payment) -> Billing | None:  # noqa: PLR091
         billing=billing,
         start=start,
         end=end_interval(payment, start),
-        amount=payment.vat_amount,
+        amount=float(payment.vat_amount),
         currency=Invoice.CURRENCY_EUR,
         ref=payment.invoice,
         payment={"pk": str(payment.pk)},
