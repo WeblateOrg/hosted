@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-08-14 21:41-0500\n"
+"POT-Creation-Date: 2026-08-21 21:35-0500\n"
 "PO-Revision-Date: 2026-06-17 14:34+0000\n"
 "Last-Translator: \"ℂ𝕠𝕠𝕠𝕝 (𝕘𝕚𝕥𝕙𝕦𝕓.𝕔𝕠𝕞/ℂ𝕠𝕠𝕠𝕝)\" <coool@mail.lv>\n"
 "Language-Team: Latvian <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -207,96 +207,96 @@ msgstr "IBAN bankas pārskaitījums"
 msgid "Payment card"
 msgstr "Maksājumu karte"
 
-#: wlhosted/payments/models.py:95
+#: wlhosted/payments/models.py:86
 msgid "European VAT ID"
 msgstr "Eiropas PVN maksātāja numurs"
 
-#: wlhosted/payments/models.py:97
+#: wlhosted/payments/models.py:88
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "Lūdzu, aizpildiet Eiropas Savienības PVN maksātāja numuru, atstājiet tukšu, "
 "ja tas nav piemērojams."
 
-#: wlhosted/payments/models.py:111
+#: wlhosted/payments/models.py:102
 msgid "Tax registration"
 msgstr "Nodokļu reģistrācija"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:104
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
 "Lūdzu, ievadiet savu nodokļu maksātāja numuru, ja vēlaties, lai tas parādās "
 "rēķinā."
 
-#: wlhosted/payments/models.py:119
+#: wlhosted/payments/models.py:110
 msgid "Company or individual name"
 msgstr "Uzņēmuma nosaukums vai privātpersonas vārds, uzvārds"
 
-#: wlhosted/payments/models.py:124
+#: wlhosted/payments/models.py:115
 msgid "Address"
 msgstr "Adrese"
 
-#: wlhosted/payments/models.py:129
+#: wlhosted/payments/models.py:120
 msgid "Additional address information"
 msgstr "Papildu adreses informācija"
 
-#: wlhosted/payments/models.py:135
+#: wlhosted/payments/models.py:126
 msgid "Postcode and city"
 msgstr "Pasta indekss un pilsēta"
 
-#: wlhosted/payments/models.py:140
+#: wlhosted/payments/models.py:131
 msgid "Postcode"
 msgstr "Pasta indekss"
 
-#: wlhosted/payments/models.py:144
+#: wlhosted/payments/models.py:135
 msgid "Country"
 msgstr "Valsts"
 
-#: wlhosted/payments/models.py:202
+#: wlhosted/payments/models.py:193
 msgid "The country has to match your VAT code"
 msgstr "Valstij jāsakrīt ar jūsu PVN maksātāja numuru"
 
-#: wlhosted/payments/models.py:225
+#: wlhosted/payments/models.py:212
 msgid "Annual"
 msgstr "Ik gadu"
 
-#: wlhosted/payments/models.py:226
+#: wlhosted/payments/models.py:213
 msgid "Biannual"
 msgstr "Reizi pusgadā"
 
-#: wlhosted/payments/models.py:227
+#: wlhosted/payments/models.py:214
 msgid "Quarterly"
 msgstr "Reizi ceturksnī"
 
-#: wlhosted/payments/models.py:228
+#: wlhosted/payments/models.py:215
 msgid "Monthly"
 msgstr "Ikmēnesi"
 
-#: wlhosted/payments/models.py:229
+#: wlhosted/payments/models.py:216
 msgid "One-time"
 msgstr "Vienreizējs"
 
-#: wlhosted/payments/models.py:265
+#: wlhosted/payments/models.py:255
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Jauns maksājums"
 
-#: wlhosted/payments/models.py:266
+#: wlhosted/payments/models.py:256
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Gaida apmaksu"
 
-#: wlhosted/payments/models.py:267
+#: wlhosted/payments/models.py:257
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Maksājums noraidīts"
 
-#: wlhosted/payments/models.py:268
+#: wlhosted/payments/models.py:258
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Maksājums pieņemts"
 
-#: wlhosted/payments/models.py:269
+#: wlhosted/payments/models.py:259
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Maksājums apstrādāts"

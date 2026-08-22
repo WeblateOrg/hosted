@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-08-14 21:41-0500\n"
+"POT-Creation-Date: 2026-08-21 21:35-0500\n"
 "PO-Revision-Date: 2026-05-30 00:36+0000\n"
 "Last-Translator: Automatic translation add-on <noreply-addon-"
 "autotranslate@weblate.org>\n"
@@ -212,95 +212,95 @@ msgstr "Trosglwyddiad banc IBAN"
 msgid "Payment card"
 msgstr "Cerdyn talu"
 
-#: wlhosted/payments/models.py:95
+#: wlhosted/payments/models.py:86
 msgid "European VAT ID"
 msgstr "ID TAW Ewropeaidd"
 
-#: wlhosted/payments/models.py:97
+#: wlhosted/payments/models.py:88
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "Llenwch ID TAW yr Undeb Ewropeaidd, gadewch yn wag os nad yw'n berthnasol."
 
-#: wlhosted/payments/models.py:111
+#: wlhosted/payments/models.py:102
 msgid "Tax registration"
 msgstr "Cofrestriad treth"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:104
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "Llenwch eich cofrestriad treth os y ddylai ymddangos ar yr anfoneb."
 
-#: wlhosted/payments/models.py:119
+#: wlhosted/payments/models.py:110
 msgid "Company or individual name"
 msgstr "Enw cwmni neu unigolyn"
 
-#: wlhosted/payments/models.py:124
+#: wlhosted/payments/models.py:115
 msgid "Address"
 msgstr "Cyfeiriad"
 
-#: wlhosted/payments/models.py:129
+#: wlhosted/payments/models.py:120
 msgid "Additional address information"
 msgstr ""
 
-#: wlhosted/payments/models.py:135
+#: wlhosted/payments/models.py:126
 msgid "Postcode and city"
 msgstr "Cod post a dinas"
 
-#: wlhosted/payments/models.py:140
+#: wlhosted/payments/models.py:131
 #, fuzzy
 #| msgid "Postcode and city"
 msgid "Postcode"
 msgstr "Cod post a dinas"
 
-#: wlhosted/payments/models.py:144
+#: wlhosted/payments/models.py:135
 msgid "Country"
 msgstr "Gwlad"
 
-#: wlhosted/payments/models.py:202
+#: wlhosted/payments/models.py:193
 msgid "The country has to match your VAT code"
 msgstr "Rhaid i'r wlad gyd-fynd â'ch cod TAW"
 
-#: wlhosted/payments/models.py:225
+#: wlhosted/payments/models.py:212
 msgid "Annual"
 msgstr "Blynyddol"
 
-#: wlhosted/payments/models.py:226
+#: wlhosted/payments/models.py:213
 msgid "Biannual"
 msgstr "Dwywaith y flwyddyn"
 
-#: wlhosted/payments/models.py:227
+#: wlhosted/payments/models.py:214
 msgid "Quarterly"
 msgstr "Chwarterol"
 
-#: wlhosted/payments/models.py:228
+#: wlhosted/payments/models.py:215
 msgid "Monthly"
 msgstr "Misol"
 
-#: wlhosted/payments/models.py:229
+#: wlhosted/payments/models.py:216
 msgid "One-time"
 msgstr "Un tro"
 
-#: wlhosted/payments/models.py:265
+#: wlhosted/payments/models.py:255
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Taliad newydd"
 
-#: wlhosted/payments/models.py:266
+#: wlhosted/payments/models.py:256
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Yn aros am daliad"
 
-#: wlhosted/payments/models.py:267
+#: wlhosted/payments/models.py:257
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Taliad wedi'i wrthod"
 
-#: wlhosted/payments/models.py:268
+#: wlhosted/payments/models.py:258
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Taliad wedi'i dderbyn"
 
-#: wlhosted/payments/models.py:269
+#: wlhosted/payments/models.py:259
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Taliad wedi'i brosesu"
