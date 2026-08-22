@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-08-14 21:41-0500\n"
+"POT-Creation-Date: 2026-08-21 21:35-0500\n"
 "PO-Revision-Date: 2026-05-30 00:36+0000\n"
 "Last-Translator: Automatic translation add-on <noreply-addon-"
 "autotranslate@weblate.org>\n"
@@ -201,102 +201,102 @@ msgstr "IBAN ဘဏ် ငွေလွှဲ"
 msgid "Payment card"
 msgstr "ငွေပေးချေ ကဒ်"
 
-#: wlhosted/payments/models.py:95
+#: wlhosted/payments/models.py:86
 msgid "European VAT ID"
 msgstr "ဥရောပသမဂ္ဂ VAT ID"
 
-#: wlhosted/payments/models.py:97
+#: wlhosted/payments/models.py:88
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr "ကျေးဇူးပြု၍ ဥရောပသမဂ္ဂ ၏ VAT ID ကိုဖြည့်ပါ၊ မသက်ဆိုင်ပါက ကွက်လပ်ချန်ထားနိုင်သည်။"
 
-#: wlhosted/payments/models.py:111
+#: wlhosted/payments/models.py:102
 msgid "Tax registration"
 msgstr "အခွန် မှတ်တမ်းတင်ခြင်း"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:104
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
 "ကျေးဇူးပြု၍ သင် ၏ အခွန်မှတ်တမ်းကို ဖြည့်သွင်းခြင်းဖြင့် ၄င်းသည် ငွေပေးခြေလွှာပေါ်တွင် ပေါ်လာလိမ့်မည်။"
 
-#: wlhosted/payments/models.py:119
+#: wlhosted/payments/models.py:110
 msgid "Company or individual name"
 msgstr "ကုမ္ပဏီ သို့မဟုတ် ပုဂ္ဂလိက အမည်"
 
-#: wlhosted/payments/models.py:124
+#: wlhosted/payments/models.py:115
 #, fuzzy
 msgid "Address"
 msgstr "လိပ်စာ"
 
-#: wlhosted/payments/models.py:129
+#: wlhosted/payments/models.py:120
 #, fuzzy
 #| msgid "Billing information"
 msgid "Additional address information"
 msgstr "ငွေတောင်းခံလွှာ အချက်အလက်"
 
-#: wlhosted/payments/models.py:135
+#: wlhosted/payments/models.py:126
 msgid "Postcode and city"
 msgstr "စာပို့သင်္ကေတ နှင့် မြို့"
 
-#: wlhosted/payments/models.py:140
+#: wlhosted/payments/models.py:131
 #, fuzzy
 #| msgid "Postcode and city"
 msgid "Postcode"
 msgstr "စာပို့သင်္ကေတ နှင့် မြို့"
 
-#: wlhosted/payments/models.py:144
+#: wlhosted/payments/models.py:135
 #, fuzzy
 msgid "Country"
 msgstr "နိုင်ငံ"
 
-#: wlhosted/payments/models.py:202
+#: wlhosted/payments/models.py:193
 msgid "The country has to match your VAT code"
 msgstr "နိုင်ငံ နှင့် သင်၏ VAT ကုဒ် ကိုက်ညီရမည်"
 
-#: wlhosted/payments/models.py:225
+#: wlhosted/payments/models.py:212
 #, fuzzy
 msgid "Annual"
 msgstr "နှစ်စဉ်"
 
-#: wlhosted/payments/models.py:226
+#: wlhosted/payments/models.py:213
 msgid "Biannual"
 msgstr "ခြောက်လပတ်"
 
-#: wlhosted/payments/models.py:227
+#: wlhosted/payments/models.py:214
 msgid "Quarterly"
 msgstr "သုံးလပတ်"
 
-#: wlhosted/payments/models.py:228
+#: wlhosted/payments/models.py:215
 msgid "Monthly"
 msgstr "လစဥ်"
 
-#: wlhosted/payments/models.py:229
+#: wlhosted/payments/models.py:216
 #, fuzzy
 #| msgid "Onetime"
 msgid "One-time"
 msgstr "တစ်ကြိမ်သာ"
 
-#: wlhosted/payments/models.py:265
+#: wlhosted/payments/models.py:255
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "ငွေပေးချေမှုအသစ်"
 
-#: wlhosted/payments/models.py:266
+#: wlhosted/payments/models.py:256
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "ငွေပေးချေမှု ကို စောင့်ဆိုင်းနေသည်"
 
-#: wlhosted/payments/models.py:267
+#: wlhosted/payments/models.py:257
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "ငွေပေးချေမှု ငြင်းပယ်ခဲ့သည်"
 
-#: wlhosted/payments/models.py:268
+#: wlhosted/payments/models.py:258
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "ငွေပေးချေမှု လက်ခံရရှိပါသည်"
 
-#: wlhosted/payments/models.py:269
+#: wlhosted/payments/models.py:259
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "ငွေပေးချေခြင်း လုပ်ဆောင်နေသည်"

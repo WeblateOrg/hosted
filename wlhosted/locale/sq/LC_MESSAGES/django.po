@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-08-14 21:41-0500\n"
+"POT-Creation-Date: 2026-08-21 21:35-0500\n"
 "PO-Revision-Date: 2026-05-30 00:36+0000\n"
 "Last-Translator: Automatic translation add-on <noreply-addon-"
 "autotranslate@weblate.org>\n"
@@ -211,95 +211,95 @@ msgstr "Transfertë bankare me IBAN"
 msgid "Payment card"
 msgstr "Kartë pagesash"
 
-#: wlhosted/payments/models.py:95
+#: wlhosted/payments/models.py:86
 msgid "European VAT ID"
 msgstr "ID TVSH-je Europiane"
 
-#: wlhosted/payments/models.py:97
+#: wlhosted/payments/models.py:88
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "Ju lutemi, plotësoni ID TVSH-je Bashkimi Europian, nëse kjo s’ka vend, "
 "lëreni të zbrazët."
 
-#: wlhosted/payments/models.py:111
+#: wlhosted/payments/models.py:102
 msgid "Tax registration"
 msgstr "Regjistrim tatimor"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:104
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr ""
 "Ju lutemi, plotësoni regjistrimin tuaj tatimor, nëse duhet shfaqur te fatura."
 
-#: wlhosted/payments/models.py:119
+#: wlhosted/payments/models.py:110
 msgid "Company or individual name"
 msgstr "Emër shoqërie ose individual"
 
-#: wlhosted/payments/models.py:124
+#: wlhosted/payments/models.py:115
 msgid "Address"
 msgstr "Adresë"
 
-#: wlhosted/payments/models.py:129
+#: wlhosted/payments/models.py:120
 msgid "Additional address information"
 msgstr "Hollësi shtesë adrese"
 
-#: wlhosted/payments/models.py:135
+#: wlhosted/payments/models.py:126
 msgid "Postcode and city"
 msgstr "Kod postar dhe qytet"
 
-#: wlhosted/payments/models.py:140
+#: wlhosted/payments/models.py:131
 msgid "Postcode"
 msgstr "Kod postar"
 
-#: wlhosted/payments/models.py:144
+#: wlhosted/payments/models.py:135
 msgid "Country"
 msgstr "Vend"
 
-#: wlhosted/payments/models.py:202
+#: wlhosted/payments/models.py:193
 msgid "The country has to match your VAT code"
 msgstr "Vendi duhet të përputhet me kodin tuaj të TVSH-së"
 
-#: wlhosted/payments/models.py:225
+#: wlhosted/payments/models.py:212
 msgid "Annual"
 msgstr "Vjetor"
 
-#: wlhosted/payments/models.py:226
+#: wlhosted/payments/models.py:213
 msgid "Biannual"
 msgstr "Dyvjetor"
 
-#: wlhosted/payments/models.py:227
+#: wlhosted/payments/models.py:214
 msgid "Quarterly"
 msgstr "Katërmujor"
 
-#: wlhosted/payments/models.py:228
+#: wlhosted/payments/models.py:215
 msgid "Monthly"
 msgstr "Mujor"
 
-#: wlhosted/payments/models.py:229
+#: wlhosted/payments/models.py:216
 msgid "One-time"
 msgstr "Një herësh"
 
-#: wlhosted/payments/models.py:265
+#: wlhosted/payments/models.py:255
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Pagesë e re"
 
-#: wlhosted/payments/models.py:266
+#: wlhosted/payments/models.py:256
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Në pritje të pagesës"
 
-#: wlhosted/payments/models.py:267
+#: wlhosted/payments/models.py:257
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Pagesa s’u pranua"
 
-#: wlhosted/payments/models.py:268
+#: wlhosted/payments/models.py:258
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Pagesa u pranua"
 
-#: wlhosted/payments/models.py:269
+#: wlhosted/payments/models.py:259
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Pagesa u përpunua"

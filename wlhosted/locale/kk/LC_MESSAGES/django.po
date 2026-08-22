@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-08-14 21:41-0500\n"
+"POT-Creation-Date: 2026-08-21 21:35-0500\n"
 "PO-Revision-Date: 2026-06-07 14:01+0000\n"
 "Last-Translator: Azamat Аituganov <ozomatik@gmail.com>\n"
 "Language-Team: Kazakh <https://hosted.weblate.org/projects/weblate/hosted/kk/"
@@ -223,100 +223,100 @@ msgstr ""
 msgid "Payment card"
 msgstr "Төлем картасы"
 
-#: wlhosted/payments/models.py:95
+#: wlhosted/payments/models.py:86
 msgid "European VAT ID"
 msgstr "Eýropalyq QQS nómiri"
 
-#: wlhosted/payments/models.py:97
+#: wlhosted/payments/models.py:88
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
 msgstr ""
 "Eýropalyq Odaqtyń QQS nómirin toltyryńyz, eger ol qoldanylmasa, bos "
 "qaldyryńyz."
 
-#: wlhosted/payments/models.py:111
+#: wlhosted/payments/models.py:102
 msgid "Tax registration"
 msgstr "Salyq tirkelgisi"
 
-#: wlhosted/payments/models.py:113
+#: wlhosted/payments/models.py:104
 msgid ""
 "Please fill in your tax registration if it should appear on the invoice."
 msgstr "Eger ınvoısta kórsetý kerek bolsa, salyqtyq tirkelgini toltyryńyz."
 
-#: wlhosted/payments/models.py:119
+#: wlhosted/payments/models.py:110
 msgid "Company or individual name"
 msgstr "Компания әлде жеке тұлға аты"
 
-#: wlhosted/payments/models.py:124
+#: wlhosted/payments/models.py:115
 msgid "Address"
 msgstr "Mekenjaıy"
 
-#: wlhosted/payments/models.py:129
+#: wlhosted/payments/models.py:120
 #, fuzzy
 #| msgid "Billing information"
 msgid "Additional address information"
 msgstr "Bılıń aqparaty"
 
-#: wlhosted/payments/models.py:135
+#: wlhosted/payments/models.py:126
 msgid "Postcode and city"
 msgstr "Poshta ındeksi jane qalasy"
 
-#: wlhosted/payments/models.py:140
+#: wlhosted/payments/models.py:131
 #, fuzzy
 #| msgid "Postcode and city"
 msgid "Postcode"
 msgstr "Poshta ındeksi jane qalasy"
 
-#: wlhosted/payments/models.py:144
+#: wlhosted/payments/models.py:135
 msgid "Country"
 msgstr "Eli"
 
-#: wlhosted/payments/models.py:202
+#: wlhosted/payments/models.py:193
 msgid "The country has to match your VAT code"
 msgstr "Elińiz QQS kodynyna sáıkes keledi"
 
-#: wlhosted/payments/models.py:225
+#: wlhosted/payments/models.py:212
 msgid "Annual"
 msgstr "Jyldyq"
 
-#: wlhosted/payments/models.py:226
+#: wlhosted/payments/models.py:213
 msgid "Biannual"
 msgstr "Ekijyldyq"
 
-#: wlhosted/payments/models.py:227
+#: wlhosted/payments/models.py:214
 msgid "Quarterly"
 msgstr ""
 
-#: wlhosted/payments/models.py:228
+#: wlhosted/payments/models.py:215
 msgid "Monthly"
 msgstr "Aılyq"
 
-#: wlhosted/payments/models.py:229
+#: wlhosted/payments/models.py:216
 #, fuzzy
 #| msgid "Onetime"
 msgid "One-time"
 msgstr "Birjolǵy"
 
-#: wlhosted/payments/models.py:265
+#: wlhosted/payments/models.py:255
 msgctxt "Payment state"
 msgid "New payment"
 msgstr "Жаңа төлем"
 
-#: wlhosted/payments/models.py:266
+#: wlhosted/payments/models.py:256
 msgctxt "Payment state"
 msgid "Awaiting payment"
 msgstr "Күтіп тұрған төлем"
 
-#: wlhosted/payments/models.py:267
+#: wlhosted/payments/models.py:257
 msgctxt "Payment state"
 msgid "Payment rejected"
 msgstr "Төлем қабылданбады"
 
-#: wlhosted/payments/models.py:268
+#: wlhosted/payments/models.py:258
 msgctxt "Payment state"
 msgid "Payment accepted"
 msgstr "Төлем қабылданды"
 
-#: wlhosted/payments/models.py:269
+#: wlhosted/payments/models.py:259
 msgctxt "Payment state"
 msgid "Payment processed"
 msgstr "Төлем өңделді"
