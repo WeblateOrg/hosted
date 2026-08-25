@@ -9,14 +9,14 @@
 # សិទ្ធិការ្យ <setthikarpok@gmail.com>, 2024.
 # មនុញ្ញ - MᴇᴀнNսɴн <meahnunh@outlook.com>, 2025.
 # Automatic translation add-on <noreply-addon-autotranslate@weblate.org>, 2026.
+# SeyhaLite <sok123230@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-08-21 21:35-0500\n"
-"PO-Revision-Date: 2026-05-30 00:36+0000\n"
-"Last-Translator: Automatic translation add-on <noreply-addon-"
-"autotranslate@weblate.org>\n"
+"PO-Revision-Date: 2026-08-25 19:21+0000\n"
+"Last-Translator: SeyhaLite <sok123230@gmail.com>\n"
 "Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/weblate/"
 "hosted/km/>\n"
 "Language: km\n"
@@ -24,11 +24,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.6.dev0\n"
+"X-Generator: Weblate 2026.9.dev0\n"
 
 #: wlhosted/integrations/forms.py:43
 msgid "E-mail"
-msgstr "អ៊ីម៉ែល"
+msgstr "អ៊ីមែល"
 
 #: wlhosted/integrations/forms.py:45
 msgid "Full name"
@@ -92,11 +92,11 @@ msgstr "គម្រោងដែលបានជ្រើស"
 
 #: wlhosted/integrations/templates/hosted/create.html:50
 msgid "Current plan"
-msgstr "គម្រោង​បច្ចុប្បន្ន​"
+msgstr "គម្រោងបច្ចុប្បន្ន"
 
 #: wlhosted/integrations/templates/hosted/create.html:56
 msgid "Hosted strings limit"
-msgstr "កំហិតស្ទ្រុិងដែលហូស្ទ៍"
+msgstr "កំហិតខ្សែអក្សរដែលបង្ហោះ"
 
 #: wlhosted/integrations/templates/hosted/create.html:61
 #: wlhosted/integrations/templates/hosted/create.html:71
@@ -111,7 +111,7 @@ msgstr "កំហិតស្ទ្រុិងដើម"
 
 #: wlhosted/integrations/templates/hosted/create.html:76
 msgid "Languages limit"
-msgstr "​កំហិត​ភាសា"
+msgstr "កំហិតភាសា"
 
 #: wlhosted/integrations/templates/hosted/create.html:86
 msgid "Projects limit"
@@ -168,7 +168,7 @@ msgstr "គម្រោងបង់ប្រាក់នេះ គ្រប់�
 
 #: wlhosted/integrations/templates/mail/billing_paid.html:19
 msgid "Check your billing status"
-msgstr "ពិនិត្យស្ថានភាពបង់ប្រាក់របស់អ្នក"
+msgstr "ពិនិត្យស្ថានភាពវិក្កយបត្ររបស់អ្នក"
 
 #: wlhosted/integrations/templates/mail/billing_paid_subject.txt:2
 msgid "Your billing plan was paid"
@@ -273,7 +273,7 @@ msgstr "ប្រចាំខែ"
 
 #: wlhosted/payments/models.py:216
 msgid "One-time"
-msgstr "១ដង"
+msgstr "ម្តង"
 
 #: wlhosted/payments/models.py:255
 msgctxt "Payment state"
