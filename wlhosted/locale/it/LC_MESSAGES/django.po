@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
-"POT-Creation-Date: 2026-08-21 21:35-0500\n"
+"POT-Creation-Date: 2026-08-28 20:14-0500\n"
 "PO-Revision-Date: 2026-08-26 08:05+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/weblate/hosted/"
@@ -324,7 +324,8 @@ msgstr "{} non corrisponde alle specifiche ID IVA del paese."
 
 #: wlhosted/payments/validators.py:48
 msgid "VAT ID validation service unavailable for {}, please try again later."
-msgstr "Servizio di convalida ID IVA non disponibile per {}, riprova più tardi."
+msgstr ""
+"Servizio di convalida ID IVA non disponibile per {}, riprova più tardi."
 
 #: wlhosted/payments/validators.py:51
 msgid "{} is not a valid VAT ID."
