@@ -30,7 +30,11 @@ from weblate.billing.models import Billing, BillingEvent
 from weblate.utils.celery import app
 from weblate.utils.requests import fetch_url
 
-from wlhosted.integrations.models import handle_received_payment, log_rejected_payment
+from wlhosted.integrations.models import (
+    handle_received_payment,
+    log_rejected_payment,
+    sync_billing_customer_names,
+)
 from wlhosted.integrations.utils import get_origin
 from wlhosted.payments.models import Payment, date_format, get_period_delta
 
@@ -154,9 +158,19 @@ def notify_user_change(payload, changes=None, create=None) -> None:
     )
 
 
+@app.task
+def sync_customer_names() -> None:
+    sync_billing_customer_names()
+
+
 @app.on_after_finalize.connect
 def setup_periodic_tasks(sender, **kwargs) -> None:
     sender.add_periodic_task(300, pending_payments.s(), name="pending-payments")
     sender.add_periodic_task(
         crontab(hour=8, minute=0), recurring_payments.s(), name="recurring-payments"
+    )
+    sender.add_periodic_task(
+        crontab(hour=8, minute=0),
+        sync_customer_names.s(),
+        name="sync-customer-names",
     )

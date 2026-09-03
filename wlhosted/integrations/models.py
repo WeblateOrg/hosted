@@ -19,6 +19,8 @@
 
 from __future__ import annotations
 
+import uuid
+from itertools import batched
 from typing import TYPE_CHECKING
 
 from appconf import AppConf
@@ -40,11 +42,15 @@ from weblate.billing.models import (
 )
 from weblate.utils.decorators import disable_for_loaddata
 
-from wlhosted.payments.models import Payment, get_period_delta
+from wlhosted.payments.models import Customer, Payment, get_period_delta
 
 if TYPE_CHECKING:
     from collections.abc import Iterable
     from datetime import datetime
+
+
+SYNC_QUERY_BATCH_SIZE = 1000
+PAYMENT_QUERY_BATCH_SIZE = 1000
 
 
 def end_interval(payment: Payment, start: datetime) -> datetime:
@@ -57,6 +63,104 @@ def add_billing_owner(billing: Billing, user: User) -> None:
 
 def get_billing_owners(billing: Billing) -> Iterable[User]:
     return billing.workspace.users_with_permission("workspace.edit_members")
+
+
+def normalize_payment_pk(value: object) -> uuid.UUID | None:
+    try:
+        return uuid.UUID(str(value))
+    except (AttributeError, TypeError, ValueError):
+        return None
+
+
+def get_billing_payment_pks(
+    billing: Billing, invoice_payments: Iterable[object]
+) -> Iterable[uuid.UUID]:
+    for invoice_payment in invoice_payments:
+        if isinstance(invoice_payment, dict) and (
+            payment_pk := normalize_payment_pk(invoice_payment.get("pk"))
+        ):
+            yield payment_pk
+
+    if not isinstance(billing.payment, dict):
+        return
+
+    payment_pks = billing.payment.get("all", [])
+    if isinstance(payment_pks, list):
+        for value in reversed(payment_pks):
+            if payment_pk := normalize_payment_pk(value):
+                yield payment_pk
+
+    if payment_pk := normalize_payment_pk(billing.payment.get("recurring")):
+        yield payment_pk
+
+
+def get_billing_payment(
+    payment_pks: Iterable[uuid.UUID], customer: Customer | None
+) -> Payment | None:
+    for payment_pk_batch in batched(payment_pks, PAYMENT_QUERY_BATCH_SIZE):
+        payments = {
+            payment.pk: payment
+            for payment in Payment.objects.filter(
+                pk__in=payment_pk_batch
+            ).select_related("customer")
+        }
+        for payment_pk in payment_pk_batch:
+            payment = payments.get(payment_pk)
+            if payment is None:
+                continue
+            if customer is not None and payment.customer_id != customer.pk:
+                return None
+            if not payment.customer.name:
+                return None
+            return payment
+    return None
+
+
+def sync_billing_customer_name(
+    billing_id: int, customer: Customer | None = None
+) -> None:
+    with transaction.atomic():
+        try:
+            billing = Billing.objects.select_for_update().get(pk=billing_id)
+        except Billing.DoesNotExist:
+            return
+        invoice_payments = (
+            Invoice.objects.filter(billing_id=billing.pk)
+            .order_by("-start", "-pk")
+            .values_list("payment", flat=True)
+            .iterator(chunk_size=SYNC_QUERY_BATCH_SIZE)
+        )
+        payment = get_billing_payment(
+            get_billing_payment_pks(billing, invoice_payments), customer
+        )
+        if payment is not None and billing.customer_name != payment.customer.name:
+            billing.customer_name = payment.customer.name
+            billing.save(update_fields=["customer_name"])
+
+
+def sync_billing_customer_names(customer: Customer | None = None) -> None:
+    if customer is not None and not customer.name:
+        return
+
+    last_billing_id = 0
+    while billings := list(
+        Billing.objects.filter(pk__gt=last_billing_id).order_by("pk")[
+            :SYNC_QUERY_BATCH_SIZE
+        ]
+    ):
+        last_billing_id = billings[-1].pk
+        for billing in billings:
+            invoice_payments = (
+                Invoice.objects.filter(billing_id=billing.pk)
+                .order_by("-start", "-pk")
+                .values_list("payment", flat=True)
+                .iterator(chunk_size=SYNC_QUERY_BATCH_SIZE)
+            )
+            payment = get_billing_payment(
+                get_billing_payment_pks(billing, invoice_payments), customer
+            )
+            if payment is not None and billing.customer_name != payment.customer.name:
+                sync_billing_customer_name(billing.pk, customer)
 
 
 def get_payment_user(payment: Payment) -> User | None:
@@ -296,3 +400,32 @@ def propagate_user_changes(sender, instance, created=False, **kwargs) -> None:
     changes = getattr(instance, "_wlhosted_sync_changes", None)
     if changes:
         queue_user_sync(instance, changes)
+
+
+@receiver(pre_save, sender=Customer)
+@disable_for_loaddata
+def prepare_customer_name_change(
+    sender, instance, update_fields=None, using=None, **kwargs
+):
+    instance._wlhosted_customer_name_changed = False
+    if not instance.pk or (update_fields is not None and "name" not in update_fields):
+        return
+    try:
+        old_name = (
+            Customer.objects.using(using or "payments_db")
+            .values_list("name", flat=True)
+            .get(pk=instance.pk)
+        )
+    except Customer.DoesNotExist:
+        return
+    instance._wlhosted_customer_name_changed = old_name != instance.name
+
+
+@receiver(post_save, sender=Customer)
+@disable_for_loaddata
+def propagate_customer_name(sender, instance, created=False, using=None, **kwargs):
+    if created or not getattr(instance, "_wlhosted_customer_name_changed", False):
+        return
+    transaction.on_commit(
+        lambda: sync_billing_customer_names(instance), using=using or "payments_db"
+    )

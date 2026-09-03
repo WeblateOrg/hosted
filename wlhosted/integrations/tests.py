@@ -17,6 +17,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
 
+import uuid
 from decimal import Decimal
 from time import sleep
 from unittest.mock import patch
@@ -26,8 +27,9 @@ from dateutil.relativedelta import relativedelta
 from django.contrib.auth.hashers import make_password
 from django.core import mail
 from django.core.signing import dumps, loads
+from django.db import connections, transaction
 from django.test import TestCase
-from django.test.utils import override_settings
+from django.test.utils import CaptureQueriesContext, override_settings
 from django.urls import reverse
 from django.utils import timezone
 from weblate.accounts.models import AuditLog
@@ -38,13 +40,16 @@ from weblate.trans.models import Project
 from wlhosted.integrations.models import (
     UserSyncState,
     add_billing_owner,
+    get_billing_payment,
     get_user_sync_payload,
     queue_user_sync,
+    sync_billing_customer_name,
 )
 from wlhosted.integrations.tasks import (
     notify_user_change,
     pending_payments,
     recurring_payments,
+    sync_customer_names,
 )
 from wlhosted.integrations.views import (
     USER_ENSURE_RESPONSE_SALT,
@@ -670,7 +675,9 @@ class PaymentTest(TestCase):
         payment.delete()
         self.assertRedirects(self.client.get(create_url, pay_params), create_url)
 
-    def do_complete(self, customer_name: str = "", **kwargs):
+    def do_complete(
+        self, customer_name: str = "", *, expect_billing_list: bool = False, **kwargs
+    ):
         self.create_payment(**kwargs)
         payment = Payment.objects.all()[0]
         if customer_name:
@@ -684,7 +691,10 @@ class PaymentTest(TestCase):
             billing = Billing.objects.get(pk=kwargs["billing"])
         else:
             billing = Billing.objects.all()[0]
-        self.assertRedirects(response, billing.get_absolute_url())
+        expected_url = (
+            reverse("billing") if expect_billing_list else billing.get_absolute_url()
+        )
+        self.assertRedirects(response, expected_url)
         return billing
 
     def test_complete(self) -> None:
@@ -718,6 +728,214 @@ class PaymentTest(TestCase):
     def test_complete_customer_name(self) -> None:
         bill = self.do_complete(customer_name="Acme Billing LLC")
         self.assertEqual(bill.customer_name, "Acme Billing LLC")
+
+    def test_customer_name_signal(self) -> None:
+        bill = self.do_complete(customer_name="Acme Billing LLC")
+        customer = Customer.objects.get()
+
+        customer.name = "Updated Customer"
+        with self.captureOnCommitCallbacks(using="payments_db", execute=True):
+            customer.save(update_fields=["name"])
+
+        bill.refresh_from_db()
+        self.assertEqual(bill.customer_name, "Updated Customer")
+
+    def test_customer_name_signal_ignores_blank_name(self) -> None:
+        bill = self.do_complete(customer_name="Acme Billing LLC")
+        customer = Customer.objects.get()
+
+        customer.name = ""
+        with self.captureOnCommitCallbacks(using="payments_db", execute=True):
+            customer.save(update_fields=["name"])
+
+        bill.refresh_from_db()
+        self.assertEqual(bill.customer_name, "Acme Billing LLC")
+
+    def test_sync_customer_names(self) -> None:
+        bill = self.do_complete(customer_name="Acme Billing LLC")
+        Customer.objects.update(name="Updated outside this process")
+
+        sync_customer_names()
+
+        bill.refresh_from_db()
+        self.assertEqual(bill.customer_name, "Updated outside this process")
+
+    def test_sync_customer_names_ignores_blank_name(self) -> None:
+        bill = self.do_complete(customer_name="Acme Billing LLC")
+        Customer.objects.update(name="")
+
+        sync_customer_names()
+
+        bill.refresh_from_db()
+        self.assertEqual(bill.customer_name, "Acme Billing LLC")
+
+    def test_customer_name_signal_updates_multiple_billings(self) -> None:
+        self.do_complete(customer_name="Acme Billing LLC")
+        self.do_complete(customer_name="Acme Billing LLC", expect_billing_list=True)
+        customer = Customer.objects.get()
+
+        customer.name = "Updated Customer"
+        with self.captureOnCommitCallbacks(using="payments_db", execute=True):
+            customer.save(update_fields=["name"])
+
+        self.assertEqual(Billing.objects.count(), 2)
+        self.assertFalse(
+            Billing.objects.exclude(customer_name="Updated Customer").exists()
+        )
+
+    def test_customer_name_signal_uses_latest_payment_customer(self) -> None:
+        bill = self.do_complete(customer_name="Original Customer")
+        original_customer = Customer.objects.get()
+        current_customer = Customer.objects.create(
+            name="Current Customer",
+            origin="https://example.com",
+            user_id=self.user.pk + 1,
+        )
+        current_payment = Payment.objects.create(
+            amount=10,
+            customer=current_customer,
+            description="Payment from current customer",
+        )
+        last_invoice = bill.invoice_set.order_by("-end")[0]
+        Invoice.objects.create(
+            billing=bill,
+            start=last_invoice.end + relativedelta(days=1),
+            end=last_invoice.end + relativedelta(months=1),
+            amount=10,
+            payment={"pk": str(current_payment.pk)},
+        )
+        bill.customer_name = current_customer.name
+        bill.save(update_fields=["customer_name"])
+
+        original_customer.name = "Changed Original Customer"
+        with self.captureOnCommitCallbacks(using="payments_db", execute=True):
+            original_customer.save(update_fields=["name"])
+
+        bill.refresh_from_db()
+        self.assertEqual(bill.customer_name, "Current Customer")
+
+        current_customer.name = "Changed Current Customer"
+        with self.captureOnCommitCallbacks(using="payments_db", execute=True):
+            current_customer.save(update_fields=["name"])
+
+        bill.refresh_from_db()
+        self.assertEqual(bill.customer_name, "Changed Current Customer")
+
+    def test_sync_customer_names_ignores_malformed_latest_payment(self) -> None:
+        bill = self.do_complete(customer_name="Acme Billing LLC")
+        last_invoice = bill.invoice_set.order_by("-end")[0]
+        bill.payment = {}
+        bill.save(update_fields=["payment"])
+        Invoice.objects.create(
+            billing=bill,
+            start=last_invoice.end + relativedelta(days=1),
+            end=last_invoice.end + relativedelta(months=1),
+            amount=10,
+            payment={"pk": "not-a-payment-uuid"},
+        )
+        Customer.objects.update(name="Updated outside this process")
+
+        sync_customer_names()
+
+        bill.refresh_from_db()
+        self.assertEqual(bill.customer_name, "Updated outside this process")
+
+    def test_customer_name_signal_ignores_other_changes(self) -> None:
+        self.do_complete(customer_name="Acme Billing LLC")
+        customer = Customer.objects.get()
+        customer.email = "updated@example.com"
+
+        with (
+            patch("wlhosted.integrations.models.sync_billing_customer_names") as sync,
+            self.captureOnCommitCallbacks(using="payments_db", execute=True),
+        ):
+            customer.save()
+
+        sync.assert_not_called()
+
+    def test_customer_name_signal_waits_for_commit(self) -> None:
+        bill = self.do_complete(customer_name="Acme Billing LLC")
+        customer = Customer.objects.get()
+        customer.name = "Updated Customer"
+
+        with self.captureOnCommitCallbacks(using="payments_db") as callbacks:
+            customer.save(update_fields=["name"])
+
+        self.assertEqual(len(callbacks), 1)
+        bill.refresh_from_db()
+        self.assertEqual(bill.customer_name, "Acme Billing LLC")
+
+    def test_customer_name_signal_ignores_rollback(self) -> None:
+        bill = self.do_complete(customer_name="Acme Billing LLC")
+        customer = Customer.objects.get()
+        customer.name = "Rolled back Customer"
+
+        with transaction.atomic(using="payments_db"):
+            customer.save(update_fields=["name"])
+            transaction.set_rollback(True, using="payments_db")
+
+        customer.refresh_from_db()
+        self.assertEqual(customer.name, "Acme Billing LLC")
+        bill.refresh_from_db()
+        self.assertEqual(bill.customer_name, "Acme Billing LLC")
+
+    def test_payment_lookup_is_batched(self) -> None:
+        customer = Customer.objects.create(
+            name="Acme Billing LLC",
+            origin="https://example.com",
+            user_id=self.user.pk,
+        )
+        payment = Payment.objects.create(
+            amount=10,
+            customer=customer,
+            description="Payment",
+        )
+
+        with (
+            patch("wlhosted.integrations.models.PAYMENT_QUERY_BATCH_SIZE", 2),
+            CaptureQueriesContext(connections["payments_db"]) as queries,
+        ):
+            result = get_billing_payment((uuid.uuid4(), uuid.uuid4(), payment.pk), None)
+
+        self.assertEqual(result, payment)
+        self.assertEqual(len(queries), 2)
+
+    def test_sync_customer_names_revalidates_latest_payment(self) -> None:
+        bill = self.do_complete(customer_name="Original Customer")
+        Customer.objects.update(name="Changed Original Customer")
+        current_customer = Customer.objects.create(
+            name="Current Customer",
+            origin="https://example.com",
+            user_id=self.user.pk + 1,
+        )
+        current_payment = Payment.objects.create(
+            amount=10,
+            customer=current_customer,
+            description="Payment from current customer",
+        )
+        last_invoice = bill.invoice_set.order_by("-end")[0]
+
+        def process_concurrent_payment(billing_id, customer) -> None:
+            Invoice.objects.create(
+                billing_id=billing_id,
+                start=last_invoice.end + relativedelta(days=1),
+                end=last_invoice.end + relativedelta(months=1),
+                amount=10,
+                payment={"pk": str(current_payment.pk)},
+            )
+            Billing.objects.filter(pk=billing_id).update(
+                customer_name=current_customer.name
+            )
+            sync_billing_customer_name(billing_id, customer)
+
+        with patch(
+            "wlhosted.integrations.models.sync_billing_customer_name",
+            side_effect=process_concurrent_payment,
+        ):
+            sync_customer_names()
+
+        bill.refresh_from_db()
+        self.assertEqual(bill.customer_name, "Current Customer")
 
     def test_complete_monthly(self) -> None:
         self.do_complete(period="m")
