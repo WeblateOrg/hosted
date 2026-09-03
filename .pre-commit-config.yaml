@@ -51,15 +51,11 @@ repos:
   - id: pretty-format-yaml
     args: [--autofix, --indent, '2']
 - repo: https://github.com/abravalheri/validate-pyproject
-  rev: 0.26
+  rev: '0.26'
   hooks:
   - id: validate-pyproject
-- repo: https://github.com/rhysd/actionlint
-  rev: v1.7.12
-  hooks:
-  - id: actionlint
 - repo: https://github.com/zizmorcore/zizmor-pre-commit
-  rev: v1.29.0
+  rev: v1.30.0
   hooks:
   - id: zizmor
 - repo: https://github.com/shellcheck-py/shellcheck-py
@@ -92,6 +88,10 @@ repos:
   hooks:
   - id: rumdl
   - id: rumdl-fmt
+- repo: https://github.com/kjanat/actionlint
+  rev: v1.14.0
+  hooks:
+  - id: actionlint
 ci:
   autoupdate_schedule: quarterly
   skip:
