@@ -105,6 +105,7 @@ ignore = [
   ".editorconfig",
   ".reuse/dep5",
   ".weblate",
+  "AGENTS.md",
   "json/*",
   "LICENSES/*",
   "scripts/*"
