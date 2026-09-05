@@ -53,7 +53,7 @@
             </div>
             <table class="table table-striped">
               <tr>
-                <th>{% translate "Hosted strings limit" %}</th>
+                <th scope="row">{% translate "Hosted strings limit" %}</th>
                 <td>
                   {% if plan.display_limit_hosted_strings %}
                     {{ plan.display_limit_hosted_strings|intcomma }}
@@ -63,7 +63,7 @@
                 </td>
               </tr>
               <tr>
-                <th>{% translate "Source strings limit" %}</th>
+                <th scope="row">{% translate "Source strings limit" %}</th>
                 <td>
                   {% if plan.display_limit_strings %}
                     {{ plan.display_limit_strings|intcomma }}
@@ -73,7 +73,7 @@
                 </td>
               </tr>
               <tr>
-                <th>{% translate "Languages limit" %}</th>
+                <th scope="row">{% translate "Languages limit" %}</th>
                 <td>
                   {% if plan.display_limit_languages %}
                     {{ plan.display_limit_languages|intcomma }}
@@ -83,7 +83,7 @@
                 </td>
               </tr>
               <tr>
-                <th>{% translate "Projects limit" %}</th>
+                <th scope="row">{% translate "Projects limit" %}</th>
                 <td>
                   {% if plan.display_limit_projects %}
                     {{ plan.display_limit_projects|intcomma }}
@@ -94,7 +94,7 @@
               </tr>
             </table>
             <div class="card-footer billing-buttons">
-              <form action="{% url 'create-billing' %}" method="post" class="form-inline">
+              <form action="{% url 'create-billing' %}" method="post">
                 {% csrf_token %}
                 <input type="hidden" name="plan" value="{{ plan.pk }}">
                 {% if billing %}
@@ -106,7 +106,7 @@
                           name="period"
                           value="m"
                           {% if billing and not plan.would_fit %}disabled{% endif %}>
-                    <big>{% blocktranslate with price=plan.price|intcomma %}{{ price }} EUR / month{% endblocktranslate %}</big>
+                    <span class="fs-5">{% blocktranslate with price=plan.price|intcomma %}{{ price }} EUR / month{% endblocktranslate %}</span>
                     <br>
                     <small>{% blocktranslate with price=plan.vat_price|intcomma %}{{ price }} EUR including VAT{% endblocktranslate %}</small>
                   </button>
@@ -117,7 +117,7 @@
                           name="period"
                           value="y"
                           {% if billing and not plan.would_fit %}disabled{% endif %}>
-                    <big>{% blocktranslate with price=plan.yearly_price|intcomma %}{{ price }} EUR / year{% endblocktranslate %}</big>
+                    <span class="fs-5">{% blocktranslate with price=plan.yearly_price|intcomma %}{{ price }} EUR / year{% endblocktranslate %}</span>
                     <br>
                     <small>{% blocktranslate with price=plan.vat_yearly_price|intcomma %}{{ price }} EUR including VAT{% endblocktranslate %}</small>
                   </button>
