@@ -7,14 +7,14 @@
 # tygyh <jonis9898@hotmail.com>, 2024.
 # Daniel Nylander <daniel@danielnylander.se>, 2025, 2026.
 # Automatic translation add-on <noreply-addon-autotranslate@weblate.org>, 2026.
+# Daniel Nylander <yeagersthlm@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-09-11 20:58-0500\n"
-"PO-Revision-Date: 2026-05-30 00:36+0000\n"
-"Last-Translator: Automatic translation add-on <noreply-addon-"
-"autotranslate@weblate.org>\n"
+"PO-Revision-Date: 2026-09-16 22:44+0000\n"
+"Last-Translator: Daniel Nylander <yeagersthlm@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/weblate/hosted/"
 "sv/>\n"
 "Language: sv\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.6.dev0\n"
+"X-Generator: Weblate 2026.10.dev0\n"
 
 #: wlhosted/integrations/forms.py:43
 msgid "E-mail"
@@ -303,7 +303,7 @@ msgstr "Betalning behandlad"
 
 #: wlhosted/payments/validators.py:36
 msgid "{} is not a valid country code for any European Union member."
-msgstr "{} är inte en giltig landskod för någon EU-medlem."
+msgstr "{} är inte en giltig landskod för en medlemsstat i Europeiska unionen."
 
 #: wlhosted/payments/validators.py:41
 msgid "{} does not match the country's VAT ID specifications."
