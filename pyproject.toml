@@ -7,12 +7,12 @@ requires = [
 
 [dependency-groups]
 dev = [
-  {include-group = "lint"},
-  {include-group = "test"},
-  {include-group = "types"}
+  { include-group = "lint" },
+  { include-group = "test" },
+  { include-group = "types" }
 ]
 lint = [
-  {include-group = "pre-commit"}
+  { include-group = "pre-commit" }
 ]
 pre-commit = [
   "prek==0.5.3"
@@ -43,14 +43,14 @@ classifiers = [
   "Intended Audience :: Developers",
   "Intended Audience :: System Administrators",
   "Operating System :: OS Independent",
-  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python",
   "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
   "Programming Language :: Python :: 3.12",
   "Programming Language :: Python :: 3.13",
   "Programming Language :: Python :: 3.14",
-  "Programming Language :: Python",
-  "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
   "Topic :: Internet :: WWW/HTTP",
+  "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
   "Topic :: Software Development :: Internationalization",
   "Topic :: Software Development :: Localization"
 ]
