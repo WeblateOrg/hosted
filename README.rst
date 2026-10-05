@@ -11,8 +11,9 @@ These customizations are used on the `Hosted Weblate service
 <https://weblate.org/hosting/>`_.
 
 You can use them as an example of how to customize `Weblate
-<https://weblate.org/>`_, but they are probably not generally usable. If you
-think something should be part of Weblate, please open an issue.
+<https://weblate.org/>`_, but they are not intended for general use.
+
+If you think something should be part of Weblate, please open an issue.
 
 .. image:: https://s.weblate.org/cdn/Logo-Darktext-borders.png
    :target: https://weblate.org/
