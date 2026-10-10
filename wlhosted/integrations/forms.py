@@ -19,7 +19,7 @@
 
 from __future__ import annotations
 
-import datetime
+import datetime as dt
 from typing import cast
 
 from django import forms
@@ -110,7 +110,7 @@ class BillingForm(ChooseBillingForm):
             except IndexError:
                 start_date = timezone.now()
             else:
-                start_date = invoice.end + datetime.timedelta(days=1)
+                start_date = invoice.end + dt.timedelta(days=1)
         else:
             start_date = timezone.now()
         end_date = start_date + get_period_delta(period)
