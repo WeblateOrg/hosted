@@ -51,7 +51,7 @@ repos:
   - id: pretty-format-yaml
     args: [--autofix, --indent, '2']
 - repo: https://github.com/abravalheri/validate-pyproject
-  rev: '0.26'
+  rev: 'v0.27'
   hooks:
   - id: validate-pyproject
 - repo: https://github.com/zizmorcore/zizmor-pre-commit
