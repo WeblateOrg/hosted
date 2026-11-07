@@ -70,7 +70,7 @@ repos:
     env:
       KINGFISHER_VERSION: v2.16.0
 - repo: https://github.com/crate-ci/typos
-  rev: v1.51.1
+  rev: v1.52.0
   hooks:
   - id: typos
     args: []
