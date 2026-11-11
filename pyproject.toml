@@ -14,6 +14,13 @@ dev = [
 lint = [
   { include-group = "pre-commit" }
 ]
+package-lint = [
+  "check-manifest==0.51",
+  "check-wheel-contents==0.6.3",
+  "pydistcheck==0.11.3",
+  "pyroma==5.0.1",
+  "twine==7.0.0"
+]
 pre-commit = [
   "prek==0.5.10"
 ]
@@ -108,7 +115,8 @@ ignore = [
   "AGENTS.md",
   "json/*",
   "LICENSES/*",
-  "scripts/*"
+  "scripts/*",
+  "uv.lock"
 ]
 
 [tool.check-wheel-contents]
