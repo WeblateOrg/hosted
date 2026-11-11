@@ -13,13 +13,14 @@
 # 為什麼不加空格 <c++23@users.noreply.hosted.weblate.org>, 2026.
 # Automatic translation add-on <noreply-addon-autotranslate@weblate.org>, 2026.
 # Lee Vincent <vincentlee986@gmail.com>, 2026.
+# Lee Vincent <leevincent@users.noreply.hosted.weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-11-06 20:19-0600\n"
-"PO-Revision-Date: 2026-08-20 19:59+0000\n"
-"Last-Translator: Lee Vincent <vincentlee986@gmail.com>\n"
+"PO-Revision-Date: 2026-11-12 13:51+0000\n"
+"Last-Translator: Lee Vincent <leevincent@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/weblate/hosted/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -27,7 +28,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.9.dev0\n"
+"X-Generator: Weblate 2026.11.2.dev0\n"
 
 #: wlhosted/integrations/forms.py:43
 msgid "E-mail"
@@ -51,7 +52,7 @@ msgstr "建立新的付費方案"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:4
 msgid "Web-based <strong>continuous</strong> localization"
-msgstr "基於 Web 的<strong>持續</strong>在地化平臺"
+msgstr "網頁式<strong>持續</strong>在地化平臺"
 
 #: wlhosted/integrations/templates/accounts/snippets/login-about.html:7
 msgid "Sign in here to access our services:"
