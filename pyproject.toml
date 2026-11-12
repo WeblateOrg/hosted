@@ -25,7 +25,7 @@ pre-commit = [
   "prek==0.5.10"
 ]
 test = [
-  "coverage==7.17.2",
+  "coverage==7.17.3",
   "pytest-cov==7.1.0",
   "pytest-django==4.14.0",
   "pytest-github-actions-annotate-failures==0.4.2",
