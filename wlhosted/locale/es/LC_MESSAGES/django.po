@@ -11,13 +11,14 @@
 # Automatic translation add-on <noreply-addon-autotranslate@weblate.org>, 2026.
 # Lito Parra <lito.15@proton.me>, 2026.
 # Adolfo Jayme Barrientos <fito@libreoffice.org>, 2026.
+# fserrador <fserrador@users.noreply.hosted.weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-11-06 20:19-0600\n"
-"PO-Revision-Date: 2026-09-17 22:51+0000\n"
-"Last-Translator: Adolfo Jayme Barrientos <fito@libreoffice.org>\n"
+"PO-Revision-Date: 2026-11-14 09:51+0000\n"
+"Last-Translator: fserrador <fserrador@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/weblate/hosted/"
 "es/>\n"
 "Language: es\n"
@@ -25,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.10.dev0\n"
+"X-Generator: Weblate 2026.12.dev0\n"
 
 #: wlhosted/integrations/forms.py:43
 msgid "E-mail"
@@ -310,7 +311,8 @@ msgstr "Pago procesado"
 
 #: wlhosted/payments/validators.py:36
 msgid "{} is not a valid country code for any European Union member."
-msgstr "{} no es un código válido para ningún país de la Unión Europea."
+msgstr ""
+"{} no es un código de país válido para cualquier miembro de la Unión Europea."
 
 #: wlhosted/payments/validators.py:41
 msgid "{} does not match the country's VAT ID specifications."
