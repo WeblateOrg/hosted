@@ -62,7 +62,7 @@ classifiers = [
 ]
 dependencies = [
   "django-countries==9.1.0",
-  "django-vies==6.3.0",
+  "django-vies==6.5.0",
   "fakturace==0.7.2",
   "mysqlclient>=2.1.1,<3",
   "Weblate[postgres]>=2026.11.2"
