@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-11-14 08:24-0600\n"
-"PO-Revision-Date: 2026-11-16 11:04+0000\n"
+"PO-Revision-Date: 2026-11-19 16:51+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/weblate/hosted/"
 "tr/>\n"
@@ -36,7 +36,7 @@ msgstr "E-posta"
 
 #: wlhosted/integrations/forms.py:45
 msgid "Full name"
-msgstr "Ad soyad"
+msgstr "Tam ad"
 
 #: wlhosted/integrations/forms.py:54
 msgid "Billing"
