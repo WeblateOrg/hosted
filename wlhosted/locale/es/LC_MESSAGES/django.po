@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-11-14 08:24-0600\n"
-"PO-Revision-Date: 2026-11-14 09:51+0000\n"
+"PO-Revision-Date: 2026-11-19 16:51+0000\n"
 "Last-Translator: fserrador <fserrador@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/weblate/hosted/"
 "es/>\n"
@@ -30,7 +30,7 @@ msgstr ""
 
 #: wlhosted/integrations/forms.py:43
 msgid "E-mail"
-msgstr "Correo"
+msgstr "Correo-e"
 
 #: wlhosted/integrations/forms.py:45
 msgid "Full name"
