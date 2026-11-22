@@ -22,7 +22,7 @@ package-lint = [
   "twine==7.0.0"
 ]
 pre-commit = [
-  "prek==0.5.10"
+  "prek==0.5.11"
 ]
 test = [
   "coverage==7.17.4",
