@@ -64,11 +64,11 @@ repos:
   - id: shellcheck
     require_serial: true
 - repo: https://github.com/mongodb/kingfisher
-  rev: v2.19.1
+  rev: v2.20.0
   hooks:
-  - id: kingfisher-auto
+  - id: kingfisher-auto-files
     env:
-      KINGFISHER_VERSION: v2.19.1
+      KINGFISHER_VERSION: v2.20.0
 - repo: https://github.com/crate-ci/typos
   rev: v1.52.2
   hooks:
@@ -97,4 +97,4 @@ repos:
 ci:
   autoupdate_schedule: quarterly
   skip:
-  - kingfisher-auto
+  - kingfisher-auto-files
