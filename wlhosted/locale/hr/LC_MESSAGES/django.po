@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Hosted Weblate\n"
 "Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/weblate/hosted/\n"
 "POT-Creation-Date: 2026-11-20 22:43-0600\n"
-"PO-Revision-Date: 2026-10-23 10:51+0000\n"
+"PO-Revision-Date: 2026-11-25 14:31+0000\n"
 "Last-Translator: Milo Ivir <milotype@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/weblate/hosted/"
 "hr/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 2026.11.dev0\n"
+"X-Generator: Weblate 2026.12.dev0\n"
 
 #: wlhosted/integrations/forms.py:43
 msgid "E-mail"
@@ -212,12 +212,11 @@ msgstr "Kartica za plaćanje"
 
 #: wlhosted/payments/models.py:86
 msgid "European VAT ID"
-msgstr "ID europskog PDV-a"
+msgstr "Europski PDV ID broj"
 
 #: wlhosted/payments/models.py:88
 msgid "Please fill in European Union VAT ID, leave blank if not applicable."
-msgstr ""
-"Upiši ID oznaku PDV-a Europske unije. Ako se ne primjenjuje ostavi prazno."
+msgstr "Upiši PDV ID broj Europske unije. Ako se ne primjenjuje ostavi prazno."
 
 #: wlhosted/payments/models.py:102
 msgid "Tax registration"
@@ -254,7 +253,7 @@ msgstr "Zemlja"
 
 #: wlhosted/payments/models.py:193
 msgid "The country has to match your VAT code"
-msgstr "Zemlja se mora poklapati s tvojim kodom PDV-a"
+msgstr "Zemlja mora odgovarati tvojem PDV kodu"
 
 #: wlhosted/payments/models.py:212
 msgid "Annual"
@@ -307,15 +306,16 @@ msgstr "{} nije ispravan kod zemlje za nijednu članicu Europske unije."
 
 #: wlhosted/payments/validators.py:41
 msgid "{} does not match the country's VAT ID specifications."
-msgstr "{} ne odgovara specifikacijama ID oznaka PDV-a države."
+msgstr "{} ne odgovara specifikacijama PDV ID broja zemlje."
 
 #: wlhosted/payments/validators.py:48
 msgid "VAT ID validation service unavailable for {}, please try again later."
-msgstr "Usluga provjere PDV-a nije dostupna za {}. Pokušaj ponovo kasnije."
+msgstr ""
+"Usluga za provjeru PDV ID broja nije dostupna za {}. Pokušaj kasnije ponovo."
 
 #: wlhosted/payments/validators.py:51
 msgid "{} is not a valid VAT ID."
-msgstr "{} nije ispravna ID oznaka za PDV."
+msgstr "{} nije ispravan PDV ID broj."
 
 #~ msgid "Generate Unknown Horizons scenario data"
 #~ msgstr "Stvori podatke Unknown Horizons scenarija"
